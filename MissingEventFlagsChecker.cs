@@ -50,7 +50,12 @@ namespace MissingEventFlagsCheckerPlugin
                 case GameVersion.RS:
                     FlagsGen3RS.ExportFlags(m_flags, m_gameVersion);
                     break;
+
+                default:
+                    break;
             }
+            
+            DumpAllFlags();
         }
 
         public void NotifySaveLoaded()
@@ -61,18 +66,7 @@ namespace MissingEventFlagsCheckerPlugin
 
             if (ctrl != null)
             {
-                switch (m_gameVersion)
-                {
-                    case GameVersion.R:
-                    case GameVersion.S:
-                    case GameVersion.RS:
-                        ctrl.Enabled = true;
-                        break;
-
-                    default:
-                        ctrl.Enabled = false;
-                        break;
-                }
+                ctrl.Enabled = true;
             }
                 
         }
@@ -80,6 +74,19 @@ namespace MissingEventFlagsCheckerPlugin
         public bool TryLoadFile(string filePath)
         {
             return false; // no action taken
+        }
+
+
+        void DumpAllFlags()
+        {
+            StringBuilder sb = new StringBuilder(m_flags.Length);
+
+            for (int i = 0; i < m_flags.Length; ++i)
+            {
+                sb.AppendFormat("FLAG_0x{0:X4} {1}\n", i, m_flags[i]);
+            }
+
+            System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_gameVersion), sb.ToString());
         }
     }
 
