@@ -14,8 +14,6 @@ namespace MissingEventFlagsCheckerPlugin
         public int Priority => 1; // Loading order, lowest is first.
         public ISaveFileProvider SaveFileEditor { get; private set; } = null;
 
-        bool[] m_flags;
-        GameVersion m_gameVersion;
         private ToolStripMenuItem ctrl;
 
         public void Initialize(params object[] args)
@@ -43,7 +41,7 @@ namespace MissingEventFlagsCheckerPlugin
 
         private void RunChecker(object sender, EventArgs e)
         {
-            switch (m_gameVersion)
+            switch (SaveFileEditor.SAV.Version)
             {
                 case GameVersion.RD:
                 case GameVersion.GN:
@@ -54,17 +52,17 @@ namespace MissingEventFlagsCheckerPlugin
                 case GameVersion.R:
                 case GameVersion.S:
                 case GameVersion.RS:
-                    FlagsGen3RS.ExportFlags(m_flags, m_gameVersion);
+                    FlagsGen3RS.ExportFlags(SaveFileEditor.SAV);
                     break;
 
                 case GameVersion.FR:
                 case GameVersion.LG:
                 case GameVersion.FRLG:
-                    FlagsGen3FRLG.ExportFlags(m_flags, m_gameVersion);
+                    FlagsGen3FRLG.ExportFlags(SaveFileEditor.SAV);
                     break;
 
                 case GameVersion.E:
-                    FlagsGen3E.ExportFlags(m_flags, m_gameVersion);
+                    FlagsGen3E.ExportFlags(SaveFileEditor.SAV);
                     break;
 
                 default:
@@ -77,8 +75,6 @@ namespace MissingEventFlagsCheckerPlugin
         public void NotifySaveLoaded()
         {
             var savData = SaveFileEditor.SAV;
-            m_flags = savData.GetEventFlags();
-            m_gameVersion = savData.Version;
 
             if (ctrl != null)
             {
@@ -95,14 +91,16 @@ namespace MissingEventFlagsCheckerPlugin
 
         void DumpAllFlags()
         {
-            StringBuilder sb = new StringBuilder(m_flags.Length);
+            var flags = SaveFileEditor.SAV.GetEventFlags();
 
-            for (int i = 0; i < m_flags.Length; ++i)
+            StringBuilder sb = new StringBuilder(flags.Length);
+
+            for (int i = 0; i < flags.Length; ++i)
             {
-                sb.AppendFormat("FLAG_0x{0:X4} {1}\n", i, m_flags[i]);
+                sb.AppendFormat("FLAG_0x{0:X4} {1}\n", i, flags[i]);
             }
 
-            System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_gameVersion), sb.ToString());
+            System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", SaveFileEditor.SAV.Version), sb.ToString());
         }
     }
 

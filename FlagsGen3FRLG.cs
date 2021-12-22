@@ -12,9 +12,11 @@ namespace MissingEventFlagsCheckerPlugin
         static Dictionary<int, string> s_flagDetails = new Dictionary<int, string>();
 
 
-        public static void ExportFlags(bool[] flags, GameVersion gameVersion)
+        public static void ExportFlags(SaveFile savFile)
         {
             InitFlagDetails();
+
+            var flags = savFile.GetEventFlags();
 
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i < flags.Length; ++i)
@@ -25,7 +27,7 @@ namespace MissingEventFlagsCheckerPlugin
                 }
             }
 
-            System.IO.File.WriteAllText(string.Format("missing_events_{0}.txt", gameVersion), sb.ToString());
+            System.IO.File.WriteAllText(string.Format("missing_events_{0}.txt", savFile.Version), sb.ToString());
         }
 
         static void InitFlagDetails()
@@ -222,7 +224,6 @@ namespace MissingEventFlagsCheckerPlugin
             s_flagDetails[0x4A4] = "FLAG_HIDDEN_ITEM_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE_RAWST_BERRY";
             s_flagDetails[0x4A5] = "FLAG_HIDDEN_ITEM_VIRIDIAN_CITY_GYM_MACHO_BRACE";
             s_flagDetails[0x4A6] = "FLAG_HIDDEN_ITEM_SSANNE_EXTERIOR_LAVA_COOKIE";
-
 
             // Normal items
             s_flagDetails[0x154] = "FLAG_ITEM_ROUTE2_ETHER";

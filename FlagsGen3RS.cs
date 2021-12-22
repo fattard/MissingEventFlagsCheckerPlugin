@@ -12,9 +12,11 @@ namespace MissingEventFlagsCheckerPlugin
         static Dictionary<int, string> s_flagDetails = new Dictionary<int, string>();
 
 
-        public static void ExportFlags(bool[] flags, GameVersion gameVersion)
+        public static void ExportFlags(SaveFile savFile)
         {
             InitFlagDetails();
+
+            var flags = savFile.GetEventFlags();
 
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i < flags.Length; ++i)
@@ -25,7 +27,7 @@ namespace MissingEventFlagsCheckerPlugin
                 }
             }
 
-            System.IO.File.WriteAllText(string.Format("missing_events_{0}.txt", gameVersion), sb.ToString());
+            System.IO.File.WriteAllText(string.Format("missing_events_{0}.txt", savFile.Version), sb.ToString());
         }
 
         static void InitFlagDetails()
