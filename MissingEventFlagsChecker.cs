@@ -45,6 +45,12 @@ namespace MissingEventFlagsCheckerPlugin
         {
             switch (m_gameVersion)
             {
+                case GameVersion.RD:
+                case GameVersion.GN:
+                case GameVersion.RB:
+                    FlagsGen1RB.ExportFlags(SaveFileEditor.SAV);
+                    break;
+
                 case GameVersion.R:
                 case GameVersion.S:
                 case GameVersion.RS:
@@ -65,7 +71,7 @@ namespace MissingEventFlagsCheckerPlugin
                     break;
             }
             
-            DumpAllFlags();
+            //DumpAllFlags();
         }
 
         public void NotifySaveLoaded()
