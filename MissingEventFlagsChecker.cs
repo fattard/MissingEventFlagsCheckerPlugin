@@ -51,6 +51,12 @@ namespace MissingEventFlagsCheckerPlugin
                     FlagsGen3RS.ExportFlags(m_flags, m_gameVersion);
                     break;
 
+                case GameVersion.FR:
+                case GameVersion.LG:
+                case GameVersion.FRLG:
+                    FlagsGen3FRLG.ExportFlags(m_flags, m_gameVersion);
+                    break;
+
                 default:
                     break;
             }
