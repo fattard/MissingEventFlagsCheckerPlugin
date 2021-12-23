@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="FlagsGen1RB.cs" />
     <Compile Include="FlagsGen1Y.cs" />
+    <Compile Include="FlagsGen2GS.cs" />
     <Compile Include="FlagsGen3E.cs" />
     <Compile Include="FlagsGen3FRLG.cs" />
     <Compile Include="FlagsGen3RS.cs" />

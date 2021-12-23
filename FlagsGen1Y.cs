@@ -91,18 +91,18 @@ namespace MissingEventFlagsCheckerPlugin
         static void InitFlagDetails()
         {
             // Hidden Coins
-            s_flagDetailsHiddenCoins[0] = "FLAG_HIDDEN_COIN_GAME_CORNER_0";
-            s_flagDetailsHiddenCoins[1] = "FLAG_HIDDEN_COIN_GAME_CORNER_1";
-            s_flagDetailsHiddenCoins[2] = "FLAG_HIDDEN_COIN_GAME_CORNER_2";
-            s_flagDetailsHiddenCoins[3] = "FLAG_HIDDEN_COIN_GAME_CORNER_3";
-            s_flagDetailsHiddenCoins[4] = "FLAG_HIDDEN_COIN_GAME_CORNER_4";
-            s_flagDetailsHiddenCoins[5] = "FLAG_HIDDEN_COIN_GAME_CORNER_5";
-            s_flagDetailsHiddenCoins[6] = "FLAG_HIDDEN_COIN_GAME_CORNER_6";
-            s_flagDetailsHiddenCoins[7] = "FLAG_HIDDEN_COIN_GAME_CORNER_7";
-            s_flagDetailsHiddenCoins[8] = "FLAG_HIDDEN_COIN_GAME_CORNER_8";
-            s_flagDetailsHiddenCoins[9] = "FLAG_HIDDEN_COIN_GAME_CORNER_9";
-            s_flagDetailsHiddenCoins[10] = "FLAG_HIDDEN_COIN_GAME_CORNER_10";
-            //s_flagDetailsHiddenCoins[11] = "FLAG_HIDDEN_COIN_GAME_CORNER_11"; // inaccessible
+            s_flagDetailsHiddenCoins[0] = "FLAG_HIDDEN_COINS_GAME_CORNER_0";
+            s_flagDetailsHiddenCoins[1] = "FLAG_HIDDEN_COINS_GAME_CORNER_1";
+            s_flagDetailsHiddenCoins[2] = "FLAG_HIDDEN_COINS_GAME_CORNER_2";
+            s_flagDetailsHiddenCoins[3] = "FLAG_HIDDEN_COINS_GAME_CORNER_3";
+            s_flagDetailsHiddenCoins[4] = "FLAG_HIDDEN_COINS_GAME_CORNER_4";
+            s_flagDetailsHiddenCoins[5] = "FLAG_HIDDEN_COINS_GAME_CORNER_5";
+            s_flagDetailsHiddenCoins[6] = "FLAG_HIDDEN_COINS_GAME_CORNER_6";
+            s_flagDetailsHiddenCoins[7] = "FLAG_HIDDEN_COINS_GAME_CORNER_7";
+            s_flagDetailsHiddenCoins[8] = "FLAG_HIDDEN_COINS_GAME_CORNER_8";
+            s_flagDetailsHiddenCoins[9] = "FLAG_HIDDEN_COINS_GAME_CORNER_9";
+            s_flagDetailsHiddenCoins[10] = "FLAG_HIDDEN_COINS_GAME_CORNER_10";
+            //s_flagDetailsHiddenCoins[11] = "FLAG_HIDDEN_COINS_GAME_CORNER_11"; // inaccessible
 
             // Hidden Items
             s_flagDetailsHiddenItems[0x00] = "FLAG_HIDDEN_ITEM_SILPH_CO_5F_0";
@@ -112,7 +112,7 @@ namespace MissingEventFlagsCheckerPlugin
             s_flagDetailsHiddenItems[0x04] = "FLAG_HIDDEN_ITEM_SAFARI_ZONE_WEST_0";
             s_flagDetailsHiddenItems[0x05] = "FLAG_HIDDEN_ITEM_CERULEAN_CAVE_2F_0";
             s_flagDetailsHiddenItems[0x06] = "FLAG_HIDDEN_ITEM_CERULEAN_CAVE_B1F_0";
-            s_flagDetailsHiddenItems[0x07] = "FLAG_HIDDEN_ITEM_UNUSED_MAP_6F_0";
+            //s_flagDetailsHiddenItems[0x07] = "FLAG_HIDDEN_ITEM_UNUSED_MAP_6F_0";
             s_flagDetailsHiddenItems[0x08] = "FLAG_HIDDEN_ITEM_SEAFOAM_ISLANDS_B2F_0";
             s_flagDetailsHiddenItems[0x09] = "FLAG_HIDDEN_ITEM_SEAFOAM_ISLANDS_B3F_0";
             s_flagDetailsHiddenItems[0x0A] = "FLAG_HIDDEN_ITEM_SEAFOAM_ISLANDS_B4F_0";
