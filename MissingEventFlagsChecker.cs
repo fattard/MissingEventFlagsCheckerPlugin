@@ -49,6 +49,10 @@ namespace MissingEventFlagsCheckerPlugin
                     FlagsGen1RB.ExportFlags(SaveFileEditor.SAV);
                     break;
 
+                case GameVersion.YW:
+                    FlagsGen1Y.ExportFlags(SaveFileEditor.SAV);
+                    break;
+
                 case GameVersion.R:
                 case GameVersion.S:
                 case GameVersion.RS:
