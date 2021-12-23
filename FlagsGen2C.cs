@@ -33,6 +33,10 @@ namespace MissingEventFlagsCheckerPlugin
         static void InitFlagDetails()
         {
             // Hidden Items
+            s_flagDetails[0x07D] = "FLAGS_HIDDEN_TIN_TOWER_4F_HIDDEN_MAX_POTION";
+            s_flagDetails[0x07E] = "FLAGS_HIDDEN_TIN_TOWER_5F_HIDDEN_FULL_RESTORE";
+            s_flagDetails[0x07F] = "FLAGS_HIDDEN_TIN_TOWER_5F_HIDDEN_CARBOS";
+
             s_flagDetails[0x084] = "FLAGS_HIDDEN_ITEM_NATIONAL_PARK_HIDDEN_FULL_HEAL";
             s_flagDetails[0x085] = "FLAGS_HIDDEN_ITEM_OLIVINE_LIGHTHOUSE_5F_HIDDEN_HYPER_POTION";
             s_flagDetails[0x086] = "FLAGS_HIDDEN_ITEM_TEAM_ROCKET_BASE_B1F_HIDDEN_REVIVE";
@@ -255,6 +259,23 @@ namespace MissingEventFlagsCheckerPlugin
             s_flagDetails[0x789] = "FLAGS_ITEM_ROUTE_12_NUGGET";
             s_flagDetails[0x78A] = "FLAGS_ITEM_ROUTE_15_PP_UP";
             s_flagDetails[0x78B] = "FLAGS_ITEM_ROUTE_25_PROTEIN";
+
+            s_flagDetails[0x794] = "FLAGS_ITEM_PICKED_UP_GOLD_BERRY_FROM_HO_OH_ITEM_ROOM";
+            s_flagDetails[0x795] = "FLAGS_ITEM_PICKED_UP_MYSTERYBERRY_FROM_HO_OH_ITEM_ROOM";
+            s_flagDetails[0x796] = "FLAGS_ITEM_PICKED_UP_REVIVAL_HERB_FROM_HO_OH_ITEM_ROOM";
+            s_flagDetails[0x797] = "FLAGS_ITEM_PICKED_UP_CHARCOAL_FROM_HO_OH_ITEM_ROOM";
+            s_flagDetails[0x798] = "FLAGS_ITEM_PICKED_UP_BERRY_FROM_KABUTO_ITEM_ROOM";
+            s_flagDetails[0x799] = "FLAGS_ITEM_PICKED_UP_PSNCUREBERRY_FROM_KABUTO_ITEM_ROOM";
+            s_flagDetails[0x79A] = "FLAGS_ITEM_PICKED_UP_HEAL_POWDER_FROM_KABUTO_ITEM_ROOM";
+            s_flagDetails[0x79B] = "FLAGS_ITEM_PICKED_UP_ENERGYPOWDER_FROM_KABUTO_ITEM_ROOM";
+            s_flagDetails[0x79C] = "FLAGS_ITEM_PICKED_UP_MYSTERYBERRY_FROM_OMANYTE_ITEM_ROOM";
+            s_flagDetails[0x79D] = "FLAGS_ITEM_PICKED_UP_MYSTIC_WATER_FROM_OMANYTE_ITEM_ROOM";
+            s_flagDetails[0x79E] = "FLAGS_ITEM_PICKED_UP_STARDUST_FROM_OMANYTE_ITEM_ROOM";
+            s_flagDetails[0x79F] = "FLAGS_ITEM_PICKED_UP_STAR_PIECE_FROM_OMANYTE_ITEM_ROOM";
+            s_flagDetails[0x7A0] = "FLAGS_ITEM_PICKED_UP_GOLD_BERRY_FROM_AERODACTYL_ITEM_ROOM";
+            s_flagDetails[0x7A1] = "FLAGS_ITEM_PICKED_UP_MOON_STONE_FROM_AERODACTYL_ITEM_ROOM";
+            s_flagDetails[0x7A2] = "FLAGS_ITEM_PICKED_UP_HEAL_POWDER_FROM_AERODACTYL_ITEM_ROOM";
+            s_flagDetails[0x7A3] = "FLAGS_ITEM_PICKED_UP_ENERGY_ROOT_FROM_AERODACTYL_ITEM_ROOM";
 
             s_flagDetails[0x7A6] = "FLAGS_ITEM_MOUNT_MORTAR_1F_INSIDE_MAX_POTION";
             s_flagDetails[0x7A7] = "FLAGS_ITEM_MOUNT_MORTAR_1F_INSIDE_NUGGET";
