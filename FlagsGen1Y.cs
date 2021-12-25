@@ -43,6 +43,7 @@ namespace MissingEventFlagsCheckerPlugin
         public static void ExportFlags(SaveFile savFile)
         {
             s_savFile = savFile;
+            s_missingEventFlagsList.Clear();
 
             InitFlagsData();
             CheckFlags();
