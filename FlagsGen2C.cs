@@ -40,9 +40,10 @@ namespace MissingEventFlagsCheckerPlugin
         static void CheckFlags()
         {
             // Hidden Items
-            CheckFlag(0x07D, "FLAGS_HIDDEN_TIN_TOWER_4F_HIDDEN_MAX_POTION");
-            CheckFlag(0x07E, "FLAGS_HIDDEN_TIN_TOWER_5F_HIDDEN_FULL_RESTORE");
-            CheckFlag(0x07F, "FLAGS_HIDDEN_TIN_TOWER_5F_HIDDEN_CARBOS");
+            CheckFlag(0x07D, "FLAGS_HIDDEN_ITEM_TIN_TOWER_4F_HIDDEN_MAX_POTION");
+            CheckFlag(0x07E, "FLAGS_HIDDEN_ITEM_TIN_TOWER_5F_HIDDEN_FULL_RESTORE");
+            CheckFlag(0x07F, "FLAGS_HIDDEN_ITEM_TIN_TOWER_5F_HIDDEN_CARBOS");
+            CheckFlag(0x080, "FLAGS_HIDDEN_ITEM_BURNED_TOWER_1F_HIDDEN_ETHER");
 
             CheckFlag(0x084, "FLAGS_HIDDEN_ITEM_NATIONAL_PARK_HIDDEN_FULL_HEAL");
             CheckFlag(0x085, "FLAGS_HIDDEN_ITEM_OLIVINE_LIGHTHOUSE_5F_HIDDEN_HYPER_POTION");
@@ -382,6 +383,7 @@ namespace MissingEventFlagsCheckerPlugin
             CheckFlag(0x0BD, "EVENT_GOT_DRATINI");
 
             CheckFlag(0x0C8, "EVENT_GOT_NUGGET_FROM_GUY");
+            CheckFlag(0x0CD, "EVENT_RESTORED_POWER_TO_KANTO");
             CheckFlag(0x0CE, "EVENT_GOT_COINS_FROM_GAMBLER_AT_CELADON");
             CheckFlag(0x0D1, "EVENT_GOT_PASS_FROM_COPYCAT");
             CheckFlag(0x0D2, "EVENT_GOT_LOST_ITEM_FROM_FAN_CLUB");
@@ -406,7 +408,7 @@ namespace MissingEventFlagsCheckerPlugin
             CheckFlag(0x267, "EVENT_GOT_CARBOS_FROM_VANCE");
             CheckFlag(0x268, "EVENT_GOT_IRON_FROM_PARRY");
             CheckFlag(0x269, "EVENT_GOT_CALCIUM_FROM_ERIN");
-            CheckFlag(0x26A, "EVENT_KENJI_ON_BREAK");
+            //CheckFlag(0x26A, "EVENT_KENJI_ON_BREAK");
 
             CheckFlag(0x2A0, "EVENT_SOLVED_HO_OH_PUZZLE");
             CheckFlag(0x2A1, "EVENT_SOLVED_KABUTO_PUZZLE");
@@ -489,7 +491,7 @@ namespace MissingEventFlagsCheckerPlugin
             CheckFlag(0x33A, "EVENT_PARRY_IRON");
             CheckFlag(0x33B, "EVENT_ERIN_CALCIUM");
             CheckFlag(0x33C, "EVENT_BUENA_OFFERED_HER_PHONE_NUMBER");
-            CheckFlag(0x33D, "EVENT_MET_BUENA");
+            //CheckFlag(0x33D, "EVENT_MET_BUENA");
             CheckFlag(0x33E, "EVENT_GOT_ODD_EGG");
             CheckFlag(0x340, "EVENT_GOT_GS_BALL_FROM_POKECOM_CENTER");
 

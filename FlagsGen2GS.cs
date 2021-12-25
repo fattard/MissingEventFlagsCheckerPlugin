@@ -339,6 +339,7 @@ namespace MissingEventFlagsCheckerPlugin
             CheckFlag(0x07C, "EVENT_GOT_MASTER_BALL_FROM_ELM");
 
             CheckFlag(0x0C8, "EVENT_GOT_NUGGET_FROM_GUY");
+            CheckFlag(0x0CD, "EVENT_RESTORED_POWER_TO_KANTO");
             CheckFlag(0x0CE, "EVENT_GOT_COINS_FROM_GAMBLER_AT_CELADON");
             CheckFlag(0x0D1, "EVENT_GOT_PASS_FROM_COPYCAT");
             CheckFlag(0x0D2, "EVENT_GOT_LOST_ITEM_FROM_FAN_CLUB");
@@ -358,7 +359,7 @@ namespace MissingEventFlagsCheckerPlugin
             CheckFlag(0x267, "EVENT_GOT_CARBOS_FROM_VANCE");
             CheckFlag(0x268, "EVENT_GOT_IRON_FROM_PARRY");
             CheckFlag(0x269, "EVENT_GOT_CALCIUM_FROM_ERIN");
-            CheckFlag(0x26A, "EVENT_KENJI_ON_BREAK");
+            //CheckFlag(0x26A, "EVENT_KENJI_ON_BREAK");
 
             CheckFlag(0x2A0, "EVENT_SOLVED_HO_OH_PUZZLE");
             CheckFlag(0x2A1, "EVENT_SOLVED_KABUTO_PUZZLE");
