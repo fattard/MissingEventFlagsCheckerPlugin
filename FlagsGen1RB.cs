@@ -95,7 +95,7 @@ namespace MissingEventFlagsCheckerPlugin
             s_gotLaprasFlag = s_savFile.GetFlag((int)FlagOffsets.LaprasFlag, 0);
 
             // wEventFlags
-            s_eventFlags = s_savFile.GetEventFlags();
+            s_eventFlags = (s_savFile as SAV1).GetEventFlags();
         }
 
         static void CheckFlags()

@@ -54,7 +54,7 @@ namespace MissingEventFlagsCheckerPlugin
                     break;
 
                 case GameVersion.GD:
-                case GameVersion.SV:
+                case GameVersion.SI:
                 case GameVersion.GS:
                     FlagsGen2GS.ExportFlags(SaveFileEditor.SAV);
                     break;
@@ -105,7 +105,7 @@ namespace MissingEventFlagsCheckerPlugin
 
         void DumpAllFlags()
         {
-            var flags = SaveFileEditor.SAV.GetEventFlags();
+            var flags = (SaveFileEditor.SAV as IEventFlagArray).GetEventFlags();
 
             StringBuilder sb = new StringBuilder(flags.Length);
 

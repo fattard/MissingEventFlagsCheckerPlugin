@@ -23,7 +23,7 @@ namespace MissingEventFlagsCheckerPlugin
 
         public static void ExportFlags(SaveFile savFile)
         {
-            s_eventFlags = savFile.GetEventFlags();
+            s_eventFlags = (savFile as SAV2).GetEventFlags();
             s_missingEventFlagsList.Clear();
 
             CheckFlags();
