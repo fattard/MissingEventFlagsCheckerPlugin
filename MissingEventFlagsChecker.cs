@@ -79,6 +79,43 @@ namespace MissingEventFlagsCheckerPlugin
                     FlagsGen3E.ExportFlags(SaveFileEditor.SAV);
                     break;
 
+                case GameVersion.D:
+                case GameVersion.P:
+                case GameVersion.DP:
+                case GameVersion.Pt:
+                case GameVersion.HG:
+                case GameVersion.SS:
+                case GameVersion.HGSS:
+                case GameVersion.B:
+                case GameVersion.W:
+                case GameVersion.BW:
+                case GameVersion.B2:
+                case GameVersion.W2:
+                case GameVersion.B2W2:
+                case GameVersion.X:
+                case GameVersion.Y:
+                case GameVersion.XY:
+                case GameVersion.OR:
+                case GameVersion.AS:
+                case GameVersion.ORAS:
+                case GameVersion.SN:
+                case GameVersion.MN:
+                case GameVersion.SM:
+                case GameVersion.US:
+                case GameVersion.UM:
+                case GameVersion.USUM:
+                case GameVersion.GP:
+                case GameVersion.GE:
+                //case GameVersion.SW:
+                //case GameVersion.SH:
+                //case GameVersion.SWSH:
+                case GameVersion.BD:
+                case GameVersion.SP:
+                case GameVersion.BDSP:
+                //case GameVersion.PLA:
+                    DumpAllFlags();
+                    break;
+
                 default:
                     break;
             }
