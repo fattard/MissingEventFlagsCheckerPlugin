@@ -82,7 +82,13 @@ namespace MissingEventFlagsCheckerPlugin
                 case GameVersion.D:
                 case GameVersion.P:
                 case GameVersion.DP:
+                    FlagsGen4DP.ExportFlags(SaveFileEditor.SAV);
+                    break;
+
                 case GameVersion.Pt:
+                    FlagsGen4Pt.ExportFlags(SaveFileEditor.SAV);
+                    break;
+
                 case GameVersion.HG:
                 case GameVersion.SS:
                 case GameVersion.HGSS:
