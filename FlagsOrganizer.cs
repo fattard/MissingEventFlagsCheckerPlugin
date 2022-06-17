@@ -155,20 +155,17 @@ namespace MissingEventFlagsCheckerPlugin
                 case GameVersion.R:
                 case GameVersion.S:
                 case GameVersion.RS:
-                    flagsOrganizer = new DummyOrgFlags();
-                    FlagsGen3RS.ExportFlags(savFile);
+                    flagsOrganizer = new FlagsGen3RS();
                     break;
 
                 case GameVersion.FR:
                 case GameVersion.LG:
                 case GameVersion.FRLG:
-                    flagsOrganizer = new DummyOrgFlags();
-                    FlagsGen3FRLG.ExportFlags(savFile);
+                    flagsOrganizer = new FlagsGen3FRLG();
                     break;
 
                 case GameVersion.E:
-                    flagsOrganizer = new DummyOrgFlags();
-                    FlagsGen3E.ExportFlags(savFile);
+                    flagsOrganizer = new FlagsGen3E();
                     break;
 
                 case GameVersion.D:

@@ -61,7 +61,7 @@ namespace MissingEventFlagsCheckerPlugin
             }
 
 
-            // Normal items
+            // Field items
             for (int i = 0; i < 256; ++i)
             {
                 CheckMissingFlag(0x3DA + i, FlagType.FieldItem, "", i.ToString("X"));
