@@ -133,13 +133,11 @@ namespace MissingEventFlagsCheckerPlugin
                 case GameVersion.RD:
                 case GameVersion.GN:
                 case GameVersion.RB:
-                    flagsOrganizer = new DummyOrgFlags();
-                    FlagsGen1RB.ExportFlags(savFile);
+                    flagsOrganizer = new FlagsGen1RB();
                     break;
 
                 case GameVersion.YW:
-                    flagsOrganizer = new DummyOrgFlags();
-                    FlagsGen1Y.ExportFlags(savFile);
+                    flagsOrganizer = new FlagsGen1Y();
                     break;
 
                 case GameVersion.GD:
@@ -209,7 +207,6 @@ namespace MissingEventFlagsCheckerPlugin
                 case GameVersion.BDSP:
                 //case GameVersion.PLA:
                     flagsOrganizer = new DummyOrgFlags();
-                    flagsOrganizer.DumpAllFlags();
                     break;
 
                 default:
