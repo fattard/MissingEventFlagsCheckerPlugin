@@ -7,57 +7,72 @@ using PKHeX.Core;
 
 namespace MissingEventFlagsCheckerPlugin
 {
-    static class FlagsGen4DP
+    internal class FlagsGen4DP : FlagsOrganizer
     {
-        static List<string> s_missingEventFlagsList = new List<string>(4096);
 
-        static bool[] s_eventFlags;
-
-        static void CheckFlag(int flagIdx, string aFlagDetail)
+        protected override void InitFlagsData(SaveFile savFile)
         {
-            if (!s_eventFlags[flagIdx])
+            m_savFile = savFile;
+            m_eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
+            m_missingEventFlagsList.Clear();
+        }
+
+
+        public override void MarkFlags(FlagType flagType)
+        {
+            ChangeFlagsVal(flagType, value: true);
+        }
+
+        public override void UnmarkFlags(FlagType flagType)
+        {
+            ChangeFlagsVal(flagType, value: false);
+        }
+
+
+        void ChangeFlagsVal(FlagType flagType, bool value)
+        {
+            var flagHelper = (m_savFile as IEventFlagArray);
+
+            switch (flagType)
             {
-                s_missingEventFlagsList.Add(aFlagDetail);
+                case FlagType.HiddenItem:
+                    for (int i = 0; i < 256; ++i)
+                        flagHelper.SetEventFlag(0x2DA + i, value);
+                    break;
+
+                case FlagType.FieldItem:
+                    for (int i = 0; i < 256; ++i)
+                        flagHelper.SetEventFlag(0x3DA + i, value);
+                    break;
+
+                case FlagType.TrainerBattle:
+                    for (int i = 0; i < 1024; ++i)
+                        flagHelper.SetEventFlag(0x550 + i, value);
+                    break;
             }
         }
 
-        public static void ExportFlags(SaveFile savFile)
-        {
-            s_eventFlags = (savFile as SAV4).GetEventFlags();
-            s_missingEventFlagsList.Clear();
-
-            CheckFlags();
-
-            StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < s_missingEventFlagsList.Count; ++i)
-            {
-                sb.AppendFormat("{0}\n", s_missingEventFlagsList[i]);
-            }
-
-            System.IO.File.WriteAllText(string.Format("missing_events_{0}.txt", savFile.Version), sb.ToString());
-        }
-
-        static void CheckFlags()
+        protected override void CheckAllMissingFlags()
         {
             // Hidden Items
             for (int i = 0; i < 256; ++i)
             {
-                CheckFlag(0x2DA + i, "FLAG_HIDDEN_ITEM_" + i.ToString("X"));
+                CheckMissingFlag(0x2DA + i, FlagType.HiddenItem, "", i.ToString("X"));
             }
 
 
             // Normal items
             for (int i = 0; i < 256; ++i)
             {
-                CheckFlag(0x3DA + i, "FLAG_ITEM_" + i.ToString("X"));
+                CheckMissingFlag(0x3DA + i, FlagType.FieldItem, "", i.ToString("X"));
             }
 
 
             // Trainers (?? 849)
-            /*for (int i = 0; i < 1024; ++i)
+            for (int i = 0; i < 1024; ++i)
             {
-                CheckFlag(0x550 + i, "FLAG_BEAT_TRAINER_" + i.ToString("X"));
-            }*/
+                CheckMissingFlag(0x550 + i, FlagType.TrainerBattle, "", i.ToString("X"));
+            }
         }
 
     }

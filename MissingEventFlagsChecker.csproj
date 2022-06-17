@@ -55,6 +55,7 @@
     <Compile Include="FlagsGen3RS.cs" />
     <Compile Include="FlagsGen4DP.cs" />
     <Compile Include="FlagsGen4Pt.cs" />
+    <Compile Include="FlagsOrganizer.cs" />
     <Compile Include="MissingEventFlagsChecker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

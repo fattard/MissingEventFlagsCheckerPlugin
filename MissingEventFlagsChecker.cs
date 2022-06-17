@@ -10,11 +10,20 @@ namespace MissingEventFlagsCheckerPlugin
 {
     public class MissingEventFlagsChecker : IPlugin
     {
-        public string Name => "Run Missing Event Flags Checker";
+        public string Name => "Missing Event Flags Checker";
+        public string NameRunChecker => "Run Checker";
+        public string NameMarkFlags => "Mark Flags";
+        public string NameUnMarkFlags => "Un-Mark Flags";
+        public string NameDumpAllFlags => "Dump all Flags";
         public int Priority => 1; // Loading order, lowest is first.
         public ISaveFileProvider SaveFileEditor { get; private set; } = null;
 
         private ToolStripMenuItem ctrl;
+
+        private ToolStripMenuItem menuEntry_Checker;
+        private ToolStripMenuItem menuEntry_MarkFlags;
+        private ToolStripMenuItem menuEntry_UnMarkFlags;
+        private ToolStripMenuItem menuEntry_DumpAllFlags;
 
         public void Initialize(params object[] args)
         {
@@ -33,101 +42,70 @@ namespace MissingEventFlagsCheckerPlugin
         private void AddPluginControl(ToolStripDropDownItem tools)
         {
             ctrl = new ToolStripMenuItem(Name);
-            tools.DropDownItems.Add(ctrl);
-            //ctrl.Image = Properties.Resources.icon;
-            ctrl.Click += new EventHandler(RunChecker);
             ctrl.Enabled = false;
+            tools.DropDownItems.Add(ctrl);
+
+            menuEntry_Checker = new ToolStripMenuItem(NameRunChecker);
+            menuEntry_Checker.Enabled = false;
+            menuEntry_Checker.Click += new EventHandler(RunChecker);
+            ctrl.DropDownItems.Add(menuEntry_Checker);
+
+            menuEntry_MarkFlags = new ToolStripMenuItem(NameMarkFlags);
+            menuEntry_MarkFlags.Enabled = false;
+            menuEntry_MarkFlags.Click += new EventHandler(MarkFlags);
+            ctrl.DropDownItems.Add(menuEntry_MarkFlags);
+
+            menuEntry_UnMarkFlags = new ToolStripMenuItem(NameUnMarkFlags);
+            menuEntry_UnMarkFlags.Enabled = false;
+            menuEntry_UnMarkFlags.Click += new EventHandler(UnMarkFlags);
+            ctrl.DropDownItems.Add(menuEntry_UnMarkFlags);
+
+            menuEntry_DumpAllFlags = new ToolStripMenuItem(NameDumpAllFlags);
+            menuEntry_DumpAllFlags.Enabled = false;
+            menuEntry_DumpAllFlags.Click += new EventHandler(DumpAllFlags);
+            ctrl.DropDownItems.Add(menuEntry_DumpAllFlags);
         }
 
         private void RunChecker(object sender, EventArgs e)
         {
-            switch (SaveFileEditor.SAV.Version)
+            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
+
+            if (flagsOrganizer == null)
             {
-                case GameVersion.RD:
-                case GameVersion.GN:
-                case GameVersion.RB:
-                    FlagsGen1RB.ExportFlags(SaveFileEditor.SAV);
-                    break;
-
-                case GameVersion.YW:
-                    FlagsGen1Y.ExportFlags(SaveFileEditor.SAV);
-                    break;
-
-                case GameVersion.GD:
-                case GameVersion.SI:
-                case GameVersion.GS:
-                    FlagsGen2GS.ExportFlags(SaveFileEditor.SAV);
-                    break;
-
-                case GameVersion.C:
-                    FlagsGen2C.ExportFlags(SaveFileEditor.SAV);
-                    break;
-
-                case GameVersion.R:
-                case GameVersion.S:
-                case GameVersion.RS:
-                    FlagsGen3RS.ExportFlags(SaveFileEditor.SAV);
-                    break;
-
-                case GameVersion.FR:
-                case GameVersion.LG:
-                case GameVersion.FRLG:
-                    FlagsGen3FRLG.ExportFlags(SaveFileEditor.SAV);
-                    break;
-
-                case GameVersion.E:
-                    FlagsGen3E.ExportFlags(SaveFileEditor.SAV);
-                    break;
-
-                case GameVersion.D:
-                case GameVersion.P:
-                case GameVersion.DP:
-                    FlagsGen4DP.ExportFlags(SaveFileEditor.SAV);
-                    break;
-
-                case GameVersion.Pt:
-                    FlagsGen4Pt.ExportFlags(SaveFileEditor.SAV);
-                    break;
-
-                case GameVersion.HG:
-                case GameVersion.SS:
-                case GameVersion.HGSS:
-                case GameVersion.B:
-                case GameVersion.W:
-                case GameVersion.BW:
-                case GameVersion.B2:
-                case GameVersion.W2:
-                case GameVersion.B2W2:
-                case GameVersion.X:
-                case GameVersion.Y:
-                case GameVersion.XY:
-                case GameVersion.OR:
-                case GameVersion.AS:
-                case GameVersion.ORAS:
-                case GameVersion.SN:
-                case GameVersion.MN:
-                case GameVersion.SM:
-                case GameVersion.US:
-                case GameVersion.UM:
-                case GameVersion.USUM:
-                case GameVersion.GP:
-                case GameVersion.GE:
-                //case GameVersion.SW:
-                //case GameVersion.SH:
-                //case GameVersion.SWSH:
-                case GameVersion.BD:
-                case GameVersion.SP:
-                case GameVersion.BDSP:
-                //case GameVersion.PLA:
-                    DumpAllFlags();
-                    break;
-
-                default:
-                    break;
+                throw new FormatException("Unsupported SAV format: " + SaveFileEditor.SAV.Version);
             }
-            
-            //DumpAllFlags();
+
+            flagsOrganizer.ExportMissingFlags();
         }
+
+
+        private void MarkFlags(object sender, EventArgs e)
+        {
+            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
+
+            flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.FieldItem);
+            flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.HiddenItem);
+            flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.TrainerBattle);
+        }
+
+
+        private void UnMarkFlags(object sender, EventArgs e)
+        {
+            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
+
+            flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.FieldItem);
+            flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.HiddenItem);
+            flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.TrainerBattle);
+        }
+
+        private void DumpAllFlags(object sender, EventArgs e)
+        {
+            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
+
+            flagsOrganizer.DumpAllFlags();
+        }
+
+
 
         public void NotifySaveLoaded()
         {
@@ -136,6 +114,10 @@ namespace MissingEventFlagsCheckerPlugin
             if (ctrl != null)
             {
                 ctrl.Enabled = true;
+                menuEntry_Checker.Enabled = true;
+                menuEntry_MarkFlags.Enabled = true;
+                menuEntry_UnMarkFlags.Enabled = true;
+                menuEntry_DumpAllFlags.Enabled = true;
             }
                 
         }
@@ -145,20 +127,6 @@ namespace MissingEventFlagsCheckerPlugin
             return false; // no action taken
         }
 
-
-        void DumpAllFlags()
-        {
-            var flags = (SaveFileEditor.SAV as IEventFlagArray).GetEventFlags();
-
-            StringBuilder sb = new StringBuilder(flags.Length);
-
-            for (int i = 0; i < flags.Length; ++i)
-            {
-                sb.AppendFormat("FLAG_0x{0:X4} {1}\n", i, flags[i]);
-            }
-
-            System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", SaveFileEditor.SAV.Version), sb.ToString());
-        }
     }
 
 }

@@ -1,0 +1,247 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using PKHeX.Core;
+
+namespace MissingEventFlagsCheckerPlugin
+{
+    internal abstract class FlagsOrganizer
+    {
+        public enum FlagType
+        {
+            FieldItem,
+            HiddenItem,
+            TrainerBattle,
+            InGameTrade,
+            GeneralEvent,
+        }
+
+        protected class FlagDetail
+        {
+            public int FlagIdx { get; private set; }
+            public string FlagTypeTxt { get; private set; }
+            public string LocationName { get; private set; }
+            public string DetailMsg { get; private set; }
+
+            public FlagDetail(int flagIdx, FlagType flagType, string detailMsg) : this(flagIdx, flagType, "", detailMsg)
+            {
+            }
+
+            public FlagDetail(int flagIdx, FlagType flagType, string locationName, string detailMsg)
+            {
+                FlagIdx = flagIdx;
+
+                switch (flagType)
+                {
+                    case FlagType.FieldItem:
+                        FlagTypeTxt = "FIELD ITEM";
+                        break;
+
+                    case FlagType.HiddenItem:
+                        FlagTypeTxt = "HIDDEN ITEM";
+                        break;
+
+                    case FlagType.TrainerBattle:
+                        FlagTypeTxt = "TRAINER BATTLE";
+                        break;
+
+                    case FlagType.InGameTrade:
+                        FlagTypeTxt = "IN-GAME TRADE";
+                        break;
+
+                    case FlagType.GeneralEvent:
+                        FlagTypeTxt = "EVENT";
+                        break;
+                }
+
+                LocationName = locationName;
+                DetailMsg = detailMsg;
+            }
+
+            public override string ToString()
+            {
+                if (string.IsNullOrEmpty(LocationName))
+                {
+                    return string.Format("{0} - {1}\r\n", FlagTypeTxt, DetailMsg);
+                }
+
+                else
+                {
+                    return string.Format("{0} - {1} - {2}\r\n", FlagTypeTxt, LocationName, DetailMsg);
+                }
+            }
+        }
+
+
+        protected SaveFile m_savFile;
+        protected bool[] m_eventFlags;
+
+        protected List<FlagDetail> m_missingEventFlagsList = new List<FlagDetail>(4096);
+
+        protected abstract void InitFlagsData(SaveFile savFile);
+
+        protected abstract void CheckAllMissingFlags();
+
+        public virtual void ExportMissingFlags()
+        {
+            CheckAllMissingFlags();
+
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < m_missingEventFlagsList.Count; ++i)
+            {
+                sb.Append(m_missingEventFlagsList[i]);
+            }
+
+            System.IO.File.WriteAllText(string.Format("missing_events_{0}.txt", m_savFile.Version), sb.ToString());
+        }
+
+        public virtual void DumpAllFlags()
+        {
+            StringBuilder sb = new StringBuilder(m_eventFlags.Length);
+
+            for (int i = 0; i < m_eventFlags.Length; ++i)
+            {
+                sb.AppendFormat("FLAG_0x{0:X4} {1}\r\n", i, m_eventFlags[i]);
+            }
+
+            System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
+        }
+
+        public virtual void MarkFlags(FlagType flagType) { }
+        public virtual void UnmarkFlags(FlagType flagType) { }
+
+        protected void CheckMissingFlag(int flagIdx, FlagType flagType, string mapLocation, string flagDetail)
+        {
+            if (!IsFlagSet(flagIdx))
+            {
+                m_missingEventFlagsList.Add(new FlagDetail(flagIdx, flagType, mapLocation, flagDetail));
+            }
+        }
+
+        protected bool IsFlagSet(int flagIdx) => m_eventFlags[flagIdx];
+
+
+
+        public static FlagsOrganizer OrganizeFlags(SaveFile savFile)
+        {
+            FlagsOrganizer flagsOrganizer = null;
+
+            switch (savFile.Version)
+            {
+                case GameVersion.RD:
+                case GameVersion.GN:
+                case GameVersion.RB:
+                    flagsOrganizer = new DummyOrgFlags();
+                    FlagsGen1RB.ExportFlags(savFile);
+                    break;
+
+                case GameVersion.YW:
+                    flagsOrganizer = new DummyOrgFlags();
+                    FlagsGen1Y.ExportFlags(savFile);
+                    break;
+
+                case GameVersion.GD:
+                case GameVersion.SI:
+                case GameVersion.GS:
+                    flagsOrganizer = new FlagsGen2GS();
+                    break;
+
+                case GameVersion.C:
+                    flagsOrganizer = new FlagsGen2C();
+                    break;
+
+                case GameVersion.R:
+                case GameVersion.S:
+                case GameVersion.RS:
+                    flagsOrganizer = new DummyOrgFlags();
+                    FlagsGen3RS.ExportFlags(savFile);
+                    break;
+
+                case GameVersion.FR:
+                case GameVersion.LG:
+                case GameVersion.FRLG:
+                    flagsOrganizer = new DummyOrgFlags();
+                    FlagsGen3FRLG.ExportFlags(savFile);
+                    break;
+
+                case GameVersion.E:
+                    flagsOrganizer = new DummyOrgFlags();
+                    FlagsGen3E.ExportFlags(savFile);
+                    break;
+
+                case GameVersion.D:
+                case GameVersion.P:
+                case GameVersion.DP:
+                    flagsOrganizer = new FlagsGen4DP();
+                    break;
+
+                case GameVersion.Pt:
+                    flagsOrganizer = new FlagsGen4Pt();
+                    break;
+
+                case GameVersion.HG:
+                case GameVersion.SS:
+                case GameVersion.HGSS:
+                case GameVersion.B:
+                case GameVersion.W:
+                case GameVersion.BW:
+                case GameVersion.B2:
+                case GameVersion.W2:
+                case GameVersion.B2W2:
+                case GameVersion.X:
+                case GameVersion.Y:
+                case GameVersion.XY:
+                case GameVersion.OR:
+                case GameVersion.AS:
+                case GameVersion.ORAS:
+                case GameVersion.SN:
+                case GameVersion.MN:
+                case GameVersion.SM:
+                case GameVersion.US:
+                case GameVersion.UM:
+                case GameVersion.USUM:
+                case GameVersion.GP:
+                case GameVersion.GE:
+                //case GameVersion.SW:
+                //case GameVersion.SH:
+                //case GameVersion.SWSH:
+                case GameVersion.BD:
+                case GameVersion.SP:
+                case GameVersion.BDSP:
+                //case GameVersion.PLA:
+                    flagsOrganizer = new DummyOrgFlags();
+                    flagsOrganizer.DumpAllFlags();
+                    break;
+
+                default:
+                    break;
+            }
+
+            if (flagsOrganizer != null)
+            {
+                flagsOrganizer.InitFlagsData(savFile);
+            }
+
+            return flagsOrganizer;
+        }
+
+    }
+
+
+
+    //TEMP
+    class DummyOrgFlags : FlagsOrganizer
+    {
+        protected override void CheckAllMissingFlags() { }
+        protected override void InitFlagsData(SaveFile savFile)
+        {
+            m_savFile = savFile;
+            m_eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
+            m_missingEventFlagsList.Clear();
+        }
+
+        public override void ExportMissingFlags() { }
+    }
+}
