@@ -179,6 +179,9 @@ namespace MissingEventFlagsCheckerPlugin
                 case GameVersion.HG:
                 case GameVersion.SS:
                 case GameVersion.HGSS:
+                    flagsOrganizer = new FlagsGen4HGSS();
+                    break;
+
                 case GameVersion.B:
                 case GameVersion.W:
                 case GameVersion.BW:
