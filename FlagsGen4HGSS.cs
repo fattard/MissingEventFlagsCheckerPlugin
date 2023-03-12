@@ -46,7 +46,7 @@ namespace MissingEventFlagsCheckerPlugin
                     break;
 
                 case FlagType.TrainerBattle:
-                    for (int i = 0; i < 1024; ++i)
+                    for (int i = 0; i < 1000; ++i)
                         flagHelper.SetEventFlag(0x550 + i, value);
                     break;
             }
@@ -54,9 +54,6 @@ namespace MissingEventFlagsCheckerPlugin
 
         protected override void CheckAllMissingFlags()
         {
-            int first = 0;
-            int last = 0;
-
             // Hidden Items
             for (int i = 0; i < 256; ++i)
             {
@@ -72,7 +69,7 @@ namespace MissingEventFlagsCheckerPlugin
 
 
             // Trainers (??)
-            for (int i = 0; i < 1024; ++i)
+            for (int i = 0; i < 1000; ++i)
             {
                 CheckMissingFlag(0x550 + i, FlagType.TrainerBattle, "", i.ToString("D3"));
             }

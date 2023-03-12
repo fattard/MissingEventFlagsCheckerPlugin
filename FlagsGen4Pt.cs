@@ -69,9 +69,9 @@ namespace MissingEventFlagsCheckerPlugin
 
 
             // Trainers (?? 928)
-            for (int i = 0x550; i <= 0x8F0; ++i)
+            for (int i = 0; i < 929; ++i)
             {
-                CheckMissingFlag(i, FlagType.TrainerBattle, "", i.ToString("D3"));
+                CheckMissingFlag(0x550 + i, FlagType.TrainerBattle, "", i.ToString("D3"));
             }
         }
 
