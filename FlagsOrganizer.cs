@@ -199,14 +199,20 @@ namespace MissingEventFlagsCheckerPlugin
                 case GameVersion.USUM:
                 case GameVersion.GP:
                 case GameVersion.GE:
-                //case GameVersion.SW:
-                //case GameVersion.SH:
-                //case GameVersion.SWSH:
                 case GameVersion.BD:
                 case GameVersion.SP:
                 case GameVersion.BDSP:
-                //case GameVersion.PLA:
                     flagsOrganizer = new DummyOrgFlags();
+                    break;
+
+                case GameVersion.SW:
+                case GameVersion.SH:
+                case GameVersion.SWSH:
+                case GameVersion.PLA:
+                case GameVersion.SL:
+                case GameVersion.VL:
+                case GameVersion.SV:
+                    flagsOrganizer = new DummyOrgBlockFlags();
                     break;
 
                 default:
@@ -237,5 +243,43 @@ namespace MissingEventFlagsCheckerPlugin
         }
 
         public override void ExportMissingFlags() { }
+    }
+
+    class DummyOrgBlockFlags : FlagsOrganizer
+    {
+        Dictionary<uint, bool> m_blockEventFlags;
+
+        protected override void CheckAllMissingFlags() { }
+        protected override void InitFlagsData(SaveFile savFile)
+        {
+            m_savFile = savFile;
+            m_eventFlags = new bool[0]; // dummy
+
+            m_blockEventFlags = new Dictionary<uint, bool>();
+            foreach (var b in (m_savFile as ISCBlockArray).AllBlocks)
+            {
+                if (b.Type == SCTypeCode.Bool1 || b.Type == SCTypeCode.Bool2)
+                {
+                    m_blockEventFlags.Add(b.Key, (b.Type == SCTypeCode.Bool2));
+                }
+            }
+
+            m_missingEventFlagsList.Clear();
+        }
+
+        public override void ExportMissingFlags() { }
+
+        public override void DumpAllFlags()
+        {
+            StringBuilder sb = new StringBuilder(m_blockEventFlags.Count);
+
+            var keys = new List<uint>(m_blockEventFlags.Keys);
+            for (int i = 0; i < keys.Count; ++i)
+            {
+                sb.AppendFormat("FLAG_0x{0:X8} {1}\r\n", keys[i], m_blockEventFlags[keys[i]]);
+            }
+
+            System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
+        }
     }
 }
