@@ -46,7 +46,7 @@ namespace MissingEventFlagsCheckerPlugin
                     break;
 
                 case FlagType.TrainerBattle:
-                    for (int i = 0x550; i <= 0x8F0; ++i)
+                    for (int i = 0x550; i <= 0x95F; ++i)
                         flagHelper.SetEventFlag(i, value);
                     break;
             }
@@ -69,7 +69,7 @@ namespace MissingEventFlagsCheckerPlugin
 
 
             // Trainers (?? 928)
-            for (int i = 0; i < 929; ++i)
+            for (int i = 0; i < 1040; ++i)
             {
                 CheckMissingFlag(0x550 + i, FlagType.TrainerBattle, "", i.ToString("D3"));
             }
