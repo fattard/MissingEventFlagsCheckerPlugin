@@ -33,28 +33,36 @@ namespace MissingEventFlagsCheckerPlugin
         {
             var flagHelper = (m_savFile as IEventFlagArray);
 
-            /*switch (flagType)
+            switch (flagType)
             {
                 case FlagType.HiddenItem:
-                    for (int i = 0; i < 256; ++i)
-                        flagHelper.SetEventFlag(0x320 + i, value);
+                    for (int i = 0x350; i <= 0x432; ++i)
+                        flagHelper.SetEventFlag(i, value);
                     break;
 
                 case FlagType.FieldItem:
-                    for (int i = 0; i < 256; ++i)
-                        flagHelper.SetEventFlag(0x420 + i, value);
+                    for (int i = 0x450; i <= 0x572; ++i)
+                        flagHelper.SetEventFlag(i, value);
                     break;
 
                 case FlagType.TrainerBattle:
-                    for (int i = 0; i < 1000; ++i)
-                        flagHelper.SetEventFlag(0x550 + i, value);
+                    for (int i = 0x58D; i <= 0x7CF; ++i)
+                        //flagHelper.SetEventFlag(i, value);
+                        flagHelper.SetEventFlag(i, true);
                     break;
-            }*/
+            }
         }
 
         protected override void CheckAllMissingFlags()
         {
             // Hidden Items
+
+            // 0x350
+
+            // - 0x384
+
+            // - 0x432
+
             for (int i = 0; i < 256; ++i)
             {
                 CheckMissingFlag(0x350 + i, FlagType.HiddenItem, "", i.ToString("D3"));
@@ -62,13 +70,27 @@ namespace MissingEventFlagsCheckerPlugin
 
 
             // Field items
+
+            // 0x450
+
+            // - 0x455
+
+            // - 0x572
+
             for (int i = 0; i < 256; ++i)
             {
                 CheckMissingFlag(0x0450 + i, FlagType.FieldItem, "", i.ToString("D3"));
             }
 
 
-            // Trainers (?? - 0x58D)
+            // Trainers (?? - 0x59A)
+
+            // - 0x58D
+
+            // - 0x7CF
+
+            // 0x7F0
+
             for (int i = 0; i < 1000; ++i)
             {
                 CheckMissingFlag(0x550 + i, FlagType.TrainerBattle, "", i.ToString("D3"));

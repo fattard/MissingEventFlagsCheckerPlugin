@@ -60,10 +60,9 @@ namespace MissingEventFlagsCheckerPlugin
             // 0x34D
             // 0x3AF
 
-            // 0x44C
+            // - 0x44C
 
-
-            // 0x5CB
+            // - 0x5CB
 
             for (int i = 0; i < 256; ++i)
             {
@@ -73,12 +72,9 @@ namespace MissingEventFlagsCheckerPlugin
 
             // Trainers (??)
 
-            // 0x61A
+            // - 0x61A
 
-            // 0x675
-
-
-            // 0x909
+            // - 0x909
 
             // ~ 0x963
 
@@ -90,10 +86,9 @@ namespace MissingEventFlagsCheckerPlugin
 
             // Hidden Items
 
-            // 0xB00
+            // - 0xB04
 
-
-            // 0xBD8
+            // - 0xBD8
 
             // 0xBF7
 
