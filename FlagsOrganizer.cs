@@ -14,13 +14,18 @@ namespace MissingEventFlagsCheckerPlugin
             FieldItem,
             HiddenItem,
             TrainerBattle,
+            StationaryBattle,
             InGameTrade,
+            Gift,
             GeneralEvent,
+            SideEvent,
+            StoryEvent,
         }
 
         protected class FlagDetail
         {
             public int FlagIdx { get; private set; }
+            public bool IsSet { get; private set; }
             public string FlagTypeTxt { get; private set; }
             public string LocationName { get; private set; }
             public string DetailMsg { get; private set; }
@@ -47,12 +52,28 @@ namespace MissingEventFlagsCheckerPlugin
                         FlagTypeTxt = "TRAINER BATTLE";
                         break;
 
+                    case FlagType.StationaryBattle:
+                        FlagTypeTxt = "STATIONARY BATTLE";
+                        break;
+
                     case FlagType.InGameTrade:
                         FlagTypeTxt = "IN-GAME TRADE";
                         break;
 
+                    case FlagType.Gift:
+                        FlagTypeTxt = "GIFT";
+                        break;
+
                     case FlagType.GeneralEvent:
                         FlagTypeTxt = "EVENT";
+                        break;
+
+                    case FlagType.SideEvent:
+                        FlagTypeTxt = "SIDE EVENT";
+                        break;
+
+                    case FlagType.StoryEvent:
+                        FlagTypeTxt = "STORY EVENT";
                         break;
                 }
 
@@ -84,6 +105,8 @@ namespace MissingEventFlagsCheckerPlugin
 
         protected abstract void CheckAllMissingFlags();
 
+        protected virtual void AssembleChecklist() { }
+
         public virtual void ExportMissingFlags()
         {
             CheckAllMissingFlags();
@@ -95,6 +118,19 @@ namespace MissingEventFlagsCheckerPlugin
             }
 
             System.IO.File.WriteAllText(string.Format("missing_events_{0}.txt", m_savFile.Version), sb.ToString());
+        }
+
+        public virtual void ExportChecklist()
+        {
+            AssembleChecklist();
+
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < m_missingEventFlagsList.Count; ++i)
+            {
+                sb.AppendFormat("[{0}] {1}", m_missingEventFlagsList[i].IsSet ? "x" : " ", m_missingEventFlagsList[i]);
+            }
+
+            System.IO.File.WriteAllText(string.Format("checklist_{0}.txt", m_savFile.Version), sb.ToString());
         }
 
         public virtual void DumpAllFlags()
@@ -244,6 +280,7 @@ namespace MissingEventFlagsCheckerPlugin
     class DummyOrgFlags : FlagsOrganizer
     {
         protected override void CheckAllMissingFlags() { }
+        protected override void AssembleChecklist() { }
         protected override void InitFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
@@ -252,6 +289,7 @@ namespace MissingEventFlagsCheckerPlugin
         }
 
         public override void ExportMissingFlags() { }
+        public override void ExportChecklist() { }
     }
 
     class DummyOrgBlockFlags : FlagsOrganizer
@@ -259,6 +297,7 @@ namespace MissingEventFlagsCheckerPlugin
         Dictionary<uint, bool> m_blockEventFlags;
 
         protected override void CheckAllMissingFlags() { }
+        protected override void AssembleChecklist() { }
         protected override void InitFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
@@ -277,6 +316,8 @@ namespace MissingEventFlagsCheckerPlugin
         }
 
         public override void ExportMissingFlags() { }
+
+        public override void ExportChecklist() { }
 
         public override void DumpAllFlags()
         {

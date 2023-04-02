@@ -11,7 +11,8 @@ namespace MissingEventFlagsCheckerPlugin
     public class MissingEventFlagsChecker : IPlugin
     {
         public string Name => "Missing Event Flags Checker";
-        public string NameRunChecker => "Run Checker";
+        public string NameExportMissingFlags => "Export Missing flags";
+        public string NameExportChecklistFlags => "Export Checklist";
         public string NameMarkFlags => "Mark Flags";
         public string NameUnMarkFlags => "Un-Mark Flags";
         public string NameDumpAllFlags => "Dump all Flags";
@@ -20,7 +21,8 @@ namespace MissingEventFlagsCheckerPlugin
 
         private ToolStripMenuItem ctrl;
 
-        private ToolStripMenuItem menuEntry_Checker;
+        private ToolStripMenuItem menuEntry_ExporMissingFlags;
+        private ToolStripMenuItem menuEntry_ExporChecklist;
         private ToolStripMenuItem menuEntry_MarkFlags;
         private ToolStripMenuItem menuEntry_UnMarkFlags;
         private ToolStripMenuItem menuEntry_DumpAllFlags;
@@ -45,10 +47,20 @@ namespace MissingEventFlagsCheckerPlugin
             ctrl.Enabled = false;
             tools.DropDownItems.Add(ctrl);
 
-            menuEntry_Checker = new ToolStripMenuItem(NameRunChecker);
-            menuEntry_Checker.Enabled = false;
-            menuEntry_Checker.Click += new EventHandler(RunChecker);
-            ctrl.DropDownItems.Add(menuEntry_Checker);
+            menuEntry_ExporMissingFlags = new ToolStripMenuItem(NameExportMissingFlags);
+            menuEntry_ExporMissingFlags.Enabled = false;
+            menuEntry_ExporMissingFlags.Click += new EventHandler(ExportMissingFlags);
+            ctrl.DropDownItems.Add(menuEntry_ExporMissingFlags);
+
+            menuEntry_ExporChecklist = new ToolStripMenuItem(NameExportChecklistFlags);
+            menuEntry_ExporChecklist.Enabled = false;
+            menuEntry_ExporChecklist.Click += new EventHandler(ExportChecklist);
+            ctrl.DropDownItems.Add(menuEntry_ExporChecklist);
+
+            menuEntry_DumpAllFlags = new ToolStripMenuItem(NameDumpAllFlags);
+            menuEntry_DumpAllFlags.Enabled = false;
+            menuEntry_DumpAllFlags.Click += new EventHandler(DumpAllFlags);
+            ctrl.DropDownItems.Add(menuEntry_DumpAllFlags);
 
             menuEntry_MarkFlags = new ToolStripMenuItem(NameMarkFlags);
             menuEntry_MarkFlags.Enabled = false;
@@ -59,14 +71,9 @@ namespace MissingEventFlagsCheckerPlugin
             menuEntry_UnMarkFlags.Enabled = false;
             menuEntry_UnMarkFlags.Click += new EventHandler(UnMarkFlags);
             ctrl.DropDownItems.Add(menuEntry_UnMarkFlags);
-
-            menuEntry_DumpAllFlags = new ToolStripMenuItem(NameDumpAllFlags);
-            menuEntry_DumpAllFlags.Enabled = false;
-            menuEntry_DumpAllFlags.Click += new EventHandler(DumpAllFlags);
-            ctrl.DropDownItems.Add(menuEntry_DumpAllFlags);
         }
 
-        private void RunChecker(object sender, EventArgs e)
+        private void ExportMissingFlags(object sender, EventArgs e)
         {
             var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
 
@@ -76,6 +83,19 @@ namespace MissingEventFlagsCheckerPlugin
             }
 
             flagsOrganizer.ExportMissingFlags();
+        }
+
+
+        private void ExportChecklist(object sender, EventArgs e)
+        {
+            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
+
+            if (flagsOrganizer == null)
+            {
+                throw new FormatException("Unsupported SAV format: " + SaveFileEditor.SAV.Version);
+            }
+
+            flagsOrganizer.ExportChecklist();
         }
 
 
@@ -114,7 +134,8 @@ namespace MissingEventFlagsCheckerPlugin
             if (ctrl != null)
             {
                 ctrl.Enabled = true;
-                menuEntry_Checker.Enabled = true;
+                menuEntry_ExporMissingFlags.Enabled = true;
+                menuEntry_ExporChecklist.Enabled = true;
                 menuEntry_MarkFlags.Enabled = true;
                 menuEntry_UnMarkFlags.Enabled = true;
                 menuEntry_DumpAllFlags.Enabled = true;

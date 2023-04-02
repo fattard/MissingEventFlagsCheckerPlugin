@@ -59,7 +59,6 @@
     <Compile Include="FlagsGen4HGSS.cs" />
     <Compile Include="FlagsGen4Pt.cs" />
     <Compile Include="FlagsOrganizer.cs" />
-    <Compile Include="LocationsList.cs" />
     <Compile Include="MissingEventFlagsChecker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
