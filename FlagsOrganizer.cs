@@ -25,10 +25,26 @@ namespace MissingEventFlagsCheckerPlugin
         protected class FlagDetail
         {
             public int FlagIdx { get; private set; }
-            public bool IsSet { get; private set; }
+            public bool IsSet { get; set; }
             public string FlagTypeTxt { get; private set; }
             public string LocationName { get; private set; }
             public string DetailMsg { get; private set; }
+
+
+            public FlagDetail(string detailEntry)
+            {
+                string[] info = detailEntry.Split('\t');
+
+                FlagIdx = Convert.ToInt32(info[0], 16);
+                IsSet = false;
+                FlagTypeTxt = info[1];
+                LocationName = info[2];
+                if (!string.IsNullOrEmpty(info[3]))
+                {
+                    LocationName += " " + info[3];
+                }
+                DetailMsg = info[4];
+            }
 
             public FlagDetail(int flagIdx, FlagType flagType, string detailMsg) : this(flagIdx, flagType, "", detailMsg)
             {
@@ -101,11 +117,19 @@ namespace MissingEventFlagsCheckerPlugin
 
         protected List<FlagDetail> m_missingEventFlagsList = new List<FlagDetail>(4096);
 
+        //temp
+        bool isAssembleChecklist = false;
+
         protected abstract void InitFlagsData(SaveFile savFile);
 
         protected abstract void CheckAllMissingFlags();
 
-        protected virtual void AssembleChecklist() { }
+        protected virtual void AssembleChecklist()
+        {
+            isAssembleChecklist = true;
+            CheckAllMissingFlags();
+            isAssembleChecklist = false;
+        }
 
         public virtual void ExportMissingFlags()
         {
@@ -114,7 +138,10 @@ namespace MissingEventFlagsCheckerPlugin
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i < m_missingEventFlagsList.Count; ++i)
             {
-                sb.Append(m_missingEventFlagsList[i]);
+                if (!m_missingEventFlagsList[i].IsSet)
+                {
+                    sb.Append(m_missingEventFlagsList[i]);
+                }
             }
 
             System.IO.File.WriteAllText(string.Format("missing_events_{0}.txt", m_savFile.Version), sb.ToString());
@@ -150,13 +177,38 @@ namespace MissingEventFlagsCheckerPlugin
 
         protected void CheckMissingFlag(int flagIdx, FlagType flagType, string mapLocation, string flagDetail)
         {
-            if (!IsFlagSet(flagIdx))
+            if (isAssembleChecklist)
+            {
+                m_missingEventFlagsList.Add(new FlagDetail(flagIdx, flagType, mapLocation, flagDetail) { IsSet = IsFlagSet(flagIdx) });
+            }
+
+            else if (!IsFlagSet(flagIdx))
             {
                 m_missingEventFlagsList.Add(new FlagDetail(flagIdx, flagType, mapLocation, flagDetail));
             }
         }
 
         protected bool IsFlagSet(int flagIdx) => m_eventFlags[flagIdx];
+
+
+        protected string ReadFlagsListRes(string resName)
+        {
+            string contentTxt = null;
+
+            var assembly = System.Reflection.Assembly.GetExecutingAssembly();
+
+            resName = assembly.GetManifestResourceNames().Single(str => str.EndsWith(resName));
+
+            using (var stream = assembly.GetManifestResourceStream(resName))
+            {
+                using (var reader = new System.IO.StreamReader(stream))
+                {
+                    contentTxt = reader.ReadToEnd();
+                }
+            }
+
+            return contentTxt;
+        }
 
 
 
@@ -280,7 +332,6 @@ namespace MissingEventFlagsCheckerPlugin
     class DummyOrgFlags : FlagsOrganizer
     {
         protected override void CheckAllMissingFlags() { }
-        protected override void AssembleChecklist() { }
         protected override void InitFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
@@ -297,7 +348,6 @@ namespace MissingEventFlagsCheckerPlugin
         Dictionary<uint, bool> m_blockEventFlags;
 
         protected override void CheckAllMissingFlags() { }
-        protected override void AssembleChecklist() { }
         protected override void InitFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;

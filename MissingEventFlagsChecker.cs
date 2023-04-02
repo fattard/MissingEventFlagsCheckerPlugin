@@ -62,6 +62,7 @@ namespace MissingEventFlagsCheckerPlugin
             menuEntry_DumpAllFlags.Click += new EventHandler(DumpAllFlags);
             ctrl.DropDownItems.Add(menuEntry_DumpAllFlags);
 
+#if DEBUG
             menuEntry_MarkFlags = new ToolStripMenuItem(NameMarkFlags);
             menuEntry_MarkFlags.Enabled = false;
             menuEntry_MarkFlags.Click += new EventHandler(MarkFlags);
@@ -71,6 +72,7 @@ namespace MissingEventFlagsCheckerPlugin
             menuEntry_UnMarkFlags.Enabled = false;
             menuEntry_UnMarkFlags.Click += new EventHandler(UnMarkFlags);
             ctrl.DropDownItems.Add(menuEntry_UnMarkFlags);
+#endif
         }
 
         private void ExportMissingFlags(object sender, EventArgs e)
