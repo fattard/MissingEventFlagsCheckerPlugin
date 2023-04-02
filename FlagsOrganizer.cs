@@ -185,9 +185,15 @@ namespace MissingEventFlagsCheckerPlugin
                 case GameVersion.B:
                 case GameVersion.W:
                 case GameVersion.BW:
+                    flagsOrganizer = new FlagsGen5BW();
+                    break;
+
                 case GameVersion.B2:
                 case GameVersion.W2:
                 case GameVersion.B2W2:
+                    flagsOrganizer = new FlagsGen5B2W2();
+                    break;
+
                 case GameVersion.X:
                 case GameVersion.Y:
                 case GameVersion.XY:
