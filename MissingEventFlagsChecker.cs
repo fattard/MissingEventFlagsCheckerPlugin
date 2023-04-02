@@ -138,9 +138,79 @@ namespace MissingEventFlagsCheckerPlugin
                 ctrl.Enabled = true;
                 menuEntry_ExporMissingFlags.Enabled = true;
                 menuEntry_ExporChecklist.Enabled = true;
+                menuEntry_DumpAllFlags.Enabled = true;
+#if DEBUG
                 menuEntry_MarkFlags.Enabled = true;
                 menuEntry_UnMarkFlags.Enabled = true;
-                menuEntry_DumpAllFlags.Enabled = true;
+#endif
+
+                switch (savData.Version)
+                {
+                    case GameVersion.Any:
+                    case GameVersion.RBY:
+                    case GameVersion.StadiumJ:
+                    case GameVersion.Stadium:
+                    case GameVersion.Stadium2:
+                    case GameVersion.RSBOX:
+                    case GameVersion.COLO:
+                    case GameVersion.XD:
+                    case GameVersion.CXD:
+                    case GameVersion.BATREV:
+                    case GameVersion.ORASDEMO:
+                    case GameVersion.GO:
+                    case GameVersion.Unknown:
+                    case GameVersion.Invalid:
+                        ctrl.Enabled = false;
+                        break;
+
+                    // Check for SN Demo
+                    case GameVersion.SN:
+                        {
+                            var sav7 = (savData as SAV7SM);
+                            if (sav7.BoxLayout.BoxesUnlocked == 8 && string.IsNullOrWhiteSpace(sav7.BoxLayout.GetBoxName(10)))
+                            {
+                                // Can't rename a locked box - must be Demo
+                                ctrl.Enabled = false;
+                            }
+                            else
+                            {
+                                menuEntry_ExporMissingFlags.Enabled = false;
+                                menuEntry_ExporChecklist.Enabled = false;
+                            }
+                        }
+                        break;
+
+
+                    //TEMP: dump flags only
+                    case GameVersion.X:
+                    case GameVersion.Y:
+                    case GameVersion.XY:
+                    case GameVersion.OR:
+                    case GameVersion.AS:
+                    case GameVersion.ORAS:
+                    //case GameVersion.SN:
+                    case GameVersion.MN:
+                    case GameVersion.SM:
+                    case GameVersion.US:
+                    case GameVersion.UM:
+                    case GameVersion.USUM:
+                    case GameVersion.GP:
+                    case GameVersion.GE:
+                    case GameVersion.BD:
+                    case GameVersion.SP:
+                    case GameVersion.BDSP:
+                    case GameVersion.SW:
+                    case GameVersion.SH:
+                    case GameVersion.SWSH:
+                    case GameVersion.PLA:
+                    case GameVersion.SL:
+                    case GameVersion.VL:
+                    case GameVersion.SV:
+                        menuEntry_ExporMissingFlags.Enabled = false;
+                        menuEntry_ExporChecklist.Enabled = false;
+                        break;
+                }
+
             }
                 
         }

@@ -228,6 +228,9 @@ namespace MissingEventFlagsCheckerPlugin
                     flagsOrganizer = new FlagsGen1Y();
                     break;
 
+                case GameVersion.RBY: // Still not possible to specify
+                    break;
+
                 case GameVersion.GD:
                 case GameVersion.SI:
                 case GameVersion.GS:
