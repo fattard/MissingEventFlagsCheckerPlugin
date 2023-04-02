@@ -24,26 +24,28 @@ namespace MissingEventFlagsCheckerPlugin
 
         protected class FlagDetail
         {
+            public int OrderKey { get; private set; }
             public int FlagIdx { get; private set; }
-            public bool IsSet { get; set; }
             public string FlagTypeTxt { get; private set; }
             public string LocationName { get; private set; }
             public string DetailMsg { get; private set; }
+            public bool IsSet { get; set; }
 
 
             public FlagDetail(string detailEntry)
             {
                 string[] info = detailEntry.Split('\t');
 
-                FlagIdx = Convert.ToInt32(info[0], 16);
-                IsSet = false;
-                FlagTypeTxt = info[1];
-                LocationName = info[2];
-                if (!string.IsNullOrEmpty(info[3]))
+                OrderKey = string.IsNullOrWhiteSpace(info[0]) ? int.MaxValue : Convert.ToInt32(info[0]);
+                FlagIdx = Convert.ToInt32(info[1], 16);
+                FlagTypeTxt = info[2];
+                LocationName = info[3];
+                if (!string.IsNullOrWhiteSpace(info[4]))
                 {
-                    LocationName += " " + info[3];
+                    LocationName += " " + info[4];
                 }
-                DetailMsg = info[4];
+                DetailMsg = info[5];
+                IsSet = false;
             }
 
             public FlagDetail(int flagIdx, FlagType flagType, string detailMsg) : this(flagIdx, flagType, "", detailMsg)
@@ -52,6 +54,7 @@ namespace MissingEventFlagsCheckerPlugin
 
             public FlagDetail(int flagIdx, FlagType flagType, string locationName, string detailMsg)
             {
+                OrderKey = int.MaxValue;
                 FlagIdx = flagIdx;
 
                 switch (flagType)
@@ -129,11 +132,14 @@ namespace MissingEventFlagsCheckerPlugin
             isAssembleChecklist = true;
             CheckAllMissingFlags();
             isAssembleChecklist = false;
+
+            m_missingEventFlagsList = m_missingEventFlagsList.OrderBy(p => p.OrderKey).ToList();
         }
 
         public virtual void ExportMissingFlags()
         {
             CheckAllMissingFlags();
+            m_missingEventFlagsList = m_missingEventFlagsList.OrderBy(p => p.OrderKey).ToList();
 
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i < m_missingEventFlagsList.Count; ++i)
@@ -218,6 +224,22 @@ namespace MissingEventFlagsCheckerPlugin
 
             switch (savFile.Version)
             {
+                case GameVersion.Any:
+                case GameVersion.RBY:
+                case GameVersion.StadiumJ:
+                case GameVersion.Stadium:
+                case GameVersion.Stadium2:
+                case GameVersion.RSBOX:
+                case GameVersion.COLO:
+                case GameVersion.XD:
+                case GameVersion.CXD:
+                case GameVersion.BATREV:
+                case GameVersion.ORASDEMO:
+                case GameVersion.GO:
+                case GameVersion.Unknown:
+                case GameVersion.Invalid:
+                    break; // unsupported format
+
                 case GameVersion.RD:
                 case GameVersion.GN:
                 case GameVersion.RB:
@@ -226,9 +248,6 @@ namespace MissingEventFlagsCheckerPlugin
 
                 case GameVersion.YW:
                     flagsOrganizer = new FlagsGen1Y();
-                    break;
-
-                case GameVersion.RBY: // Still not possible to specify
                     break;
 
                 case GameVersion.GD:
