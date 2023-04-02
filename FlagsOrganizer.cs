@@ -36,6 +36,11 @@ namespace MissingEventFlagsCheckerPlugin
             {
                 string[] info = detailEntry.Split('\t');
 
+                if (info.Length < 6)
+                {
+                    throw new ArgumentException("Argmument detailEntry format is not valid");
+                }
+
                 OrderKey = string.IsNullOrWhiteSpace(info[0]) ? int.MaxValue : Convert.ToInt32(info[0]);
                 FlagIdx = Convert.ToInt32(info[1], 16);
                 FlagTypeTxt = info[2];
@@ -133,13 +138,13 @@ namespace MissingEventFlagsCheckerPlugin
             CheckAllMissingFlags();
             isAssembleChecklist = false;
 
-            m_missingEventFlagsList = m_missingEventFlagsList.OrderBy(p => p.OrderKey).ToList();
+            m_missingEventFlagsList.Sort((x, y) => x.OrderKey - y.OrderKey);
         }
 
         public virtual void ExportMissingFlags()
         {
             CheckAllMissingFlags();
-            m_missingEventFlagsList = m_missingEventFlagsList.OrderBy(p => p.OrderKey).ToList();
+            m_missingEventFlagsList.Sort((x, y) => x.OrderKey - y.OrderKey);
 
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i < m_missingEventFlagsList.Count; ++i)
