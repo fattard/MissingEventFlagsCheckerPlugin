@@ -123,7 +123,12 @@ namespace MissingEventFlagsCheckerPlugin
 
         protected void CheckMissingFlag(bool flagVal, FlagType flagType, string mapLocation, string flagDetail)
         {
-            if (!flagVal)
+            if (isAssembleChecklist)
+            {
+                m_missingEventFlagsList.Add(new FlagDetail(flagIdx: 0, flagType, mapLocation, flagDetail) { IsSet = flagVal });
+            }
+
+            else if (!flagVal)
             {
                 m_missingEventFlagsList.Add(new FlagDetail(flagIdx: 0, flagType, mapLocation, flagDetail));
             }

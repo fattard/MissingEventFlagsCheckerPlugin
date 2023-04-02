@@ -118,7 +118,7 @@ namespace MissingEventFlagsCheckerPlugin
         protected List<FlagDetail> m_missingEventFlagsList = new List<FlagDetail>(4096);
 
         //temp
-        bool isAssembleChecklist = false;
+        protected bool isAssembleChecklist = false;
 
         protected abstract void InitFlagsData(SaveFile savFile);
 
