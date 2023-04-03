@@ -35,20 +35,21 @@ namespace MissingEventFlagsCheckerPlugin
 
             switch (flagType)
             {
-                case FlagType.HiddenItem:
-                    for (int i = 0xB00; i <= 0xBF7; ++i)
-                        flagHelper.SetEventFlag(i, value);
-                    break;
 
                 case FlagType.FieldItem:
-                    for (int i = 0x44C; i <= 0x5CB; ++i)
+                    for (int i = 0x448; i <= 0x5CF; ++i)
                         flagHelper.SetEventFlag(i, value);
                     break;
 
                 case FlagType.TrainerBattle:
-                    for (int i = 0x61B; i <= 0x909; ++i)
+                    for (int i = 0x618; i <= 0x90F; ++i)
                         //flagHelper.SetEventFlag(i, value);
                         flagHelper.SetEventFlag(i, true);
+                    break;
+                
+                case FlagType.HiddenItem:
+                    for (int i = 0xB00; i <= 0xBDF; ++i)
+                        flagHelper.SetEventFlag(i, value);
                     break;
             }
         }
@@ -57,12 +58,12 @@ namespace MissingEventFlagsCheckerPlugin
         {
             // Field items
 
-            // 0x34D
-            // 0x3AF
+            // ? 0x34D
+            // ? 0x3AF
 
-            // - 0x44C
+            // - 0x448
 
-            // - 0x5CB
+            // - 0x5CF
 
             for (int i = 0; i < 256; ++i)
             {
@@ -72,9 +73,9 @@ namespace MissingEventFlagsCheckerPlugin
 
             // Trainers (??)
 
-            // - 0x61A
+            // - 0x618
 
-            // - 0x909
+            // - 0x90F
 
             // ~ 0x963
 
@@ -86,9 +87,9 @@ namespace MissingEventFlagsCheckerPlugin
 
             // Hidden Items
 
-            // - 0xB04
+            // - 0xB00
 
-            // - 0xBD8
+            // - 0xBDF
 
             // 0xBF7
 
