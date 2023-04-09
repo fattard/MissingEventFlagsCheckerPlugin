@@ -47,8 +47,7 @@ namespace MissingEventFlagsCheckerPlugin
 
                 case FlagType.TrainerBattle:
                     for (int i = 0x588; i <= 0x7D7; ++i)
-                        //flagHelper.SetEventFlag(i, value);
-                        flagHelper.SetEventFlag(i, true);
+                        flagHelper.SetEventFlag(i, value);
                     break;
             }
         }
