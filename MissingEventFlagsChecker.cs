@@ -13,8 +13,7 @@ namespace MissingEventFlagsCheckerPlugin
         public string Name => "Missing Event Flags Checker";
         public string NameExportMissingFlags => "Export Missing flags";
         public string NameExportChecklistFlags => "Export Checklist";
-        public string NameMarkFlags => "Mark Flags";
-        public string NameUnMarkFlags => "Un-Mark Flags";
+        public string NameEditFlags => "Mark/Unmark flags...";
         public string NameDumpAllFlags => "Dump all Flags";
         public int Priority => 1; // Loading order, lowest is first.
         public ISaveFileProvider SaveFileEditor { get; private set; } = null;
@@ -23,8 +22,7 @@ namespace MissingEventFlagsCheckerPlugin
 
         private ToolStripMenuItem menuEntry_ExporMissingFlags;
         private ToolStripMenuItem menuEntry_ExporChecklist;
-        private ToolStripMenuItem menuEntry_MarkFlags;
-        private ToolStripMenuItem menuEntry_UnMarkFlags;
+        private ToolStripMenuItem menuEntry_EditFlags;
         private ToolStripMenuItem menuEntry_DumpAllFlags;
 
         public void Initialize(params object[] args)
@@ -62,17 +60,10 @@ namespace MissingEventFlagsCheckerPlugin
             menuEntry_DumpAllFlags.Click += new EventHandler(DumpAllFlags);
             ctrl.DropDownItems.Add(menuEntry_DumpAllFlags);
 
-#if DEBUG
-            menuEntry_MarkFlags = new ToolStripMenuItem(NameMarkFlags);
-            menuEntry_MarkFlags.Enabled = false;
-            menuEntry_MarkFlags.Click += new EventHandler(MarkFlags);
-            ctrl.DropDownItems.Add(menuEntry_MarkFlags);
-
-            menuEntry_UnMarkFlags = new ToolStripMenuItem(NameUnMarkFlags);
-            menuEntry_UnMarkFlags.Enabled = false;
-            menuEntry_UnMarkFlags.Click += new EventHandler(UnMarkFlags);
-            ctrl.DropDownItems.Add(menuEntry_UnMarkFlags);
-#endif
+            menuEntry_EditFlags = new ToolStripMenuItem(NameEditFlags);
+            menuEntry_EditFlags.Enabled = false;
+            menuEntry_EditFlags.Click += new EventHandler(EditFlags);
+            ctrl.DropDownItems.Add(menuEntry_EditFlags);
         }
 
         private void ExportMissingFlags(object sender, EventArgs e)
@@ -101,24 +92,14 @@ namespace MissingEventFlagsCheckerPlugin
         }
 
 
-        private void MarkFlags(object sender, EventArgs e)
+        private void EditFlags(object sender, EventArgs e)
         {
             var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
 
-            flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.FieldItem);
-            flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.HiddenItem);
-            flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.TrainerBattle);
+            var form = new SelectedFlagsEditor(flagsOrganizer);
+            form.ShowDialog();
         }
 
-
-        private void UnMarkFlags(object sender, EventArgs e)
-        {
-            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
-
-            flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.FieldItem);
-            flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.HiddenItem);
-            flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.TrainerBattle);
-        }
 
         private void DumpAllFlags(object sender, EventArgs e)
         {
@@ -140,8 +121,7 @@ namespace MissingEventFlagsCheckerPlugin
                 menuEntry_ExporChecklist.Enabled = true;
                 menuEntry_DumpAllFlags.Enabled = true;
 #if DEBUG
-                menuEntry_MarkFlags.Enabled = true;
-                menuEntry_UnMarkFlags.Enabled = true;
+                menuEntry_EditFlags.Enabled = true;
 #endif
 
                 switch (savData.Version)

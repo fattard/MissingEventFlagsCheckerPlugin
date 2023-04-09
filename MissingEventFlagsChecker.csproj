@@ -65,9 +65,18 @@
     <Compile Include="FlagsOrganizer.cs" />
     <Compile Include="MissingEventFlagsChecker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectedFlagsEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectedFlagsEditor.Designer.cs">
+      <DependentUpon>SelectedFlagsEditor.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="flagslist\flags_gen2gs.txt" />
+    <EmbeddedResource Include="SelectedFlagsEditor.resx">
+      <DependentUpon>SelectedFlagsEditor.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

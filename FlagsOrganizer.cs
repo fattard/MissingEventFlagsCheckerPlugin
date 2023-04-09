@@ -7,7 +7,7 @@ using PKHeX.Core;
 
 namespace MissingEventFlagsCheckerPlugin
 {
-    internal abstract class FlagsOrganizer
+    public abstract class FlagsOrganizer
     {
         public enum FlagType
         {
