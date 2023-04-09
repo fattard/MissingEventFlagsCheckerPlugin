@@ -92,6 +92,14 @@ namespace MissingEventFlagsCheckerPlugin
         }
 
 
+        private void DumpAllFlags(object sender, EventArgs e)
+        {
+            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
+
+            flagsOrganizer.DumpAllFlags();
+        }
+
+
         private void EditFlags(object sender, EventArgs e)
         {
             var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
@@ -101,28 +109,17 @@ namespace MissingEventFlagsCheckerPlugin
         }
 
 
-        private void DumpAllFlags(object sender, EventArgs e)
-        {
-            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
-
-            flagsOrganizer.DumpAllFlags();
-        }
-
-
-
         public void NotifySaveLoaded()
         {
-            var savData = SaveFileEditor.SAV;
-
             if (ctrl != null)
             {
                 ctrl.Enabled = true;
                 menuEntry_ExporMissingFlags.Enabled = true;
                 menuEntry_ExporChecklist.Enabled = true;
                 menuEntry_DumpAllFlags.Enabled = true;
-#if DEBUG
                 menuEntry_EditFlags.Enabled = true;
-#endif
+
+                var savData = SaveFileEditor.SAV;
 
                 switch (savData.Version)
                 {
@@ -149,13 +146,8 @@ namespace MissingEventFlagsCheckerPlugin
                             var sav7 = (savData as SAV7SM);
                             if (sav7.BoxLayout.BoxesUnlocked == 8 && string.IsNullOrWhiteSpace(sav7.BoxLayout.GetBoxName(10)))
                             {
-                                // Can't rename a locked box - must be Demo
+                                // Can't have a renamed box which is locked - must be Demo
                                 ctrl.Enabled = false;
-                            }
-                            else
-                            {
-                                menuEntry_ExporMissingFlags.Enabled = false;
-                                menuEntry_ExporChecklist.Enabled = false;
                             }
                         }
                         break;
@@ -176,10 +168,12 @@ namespace MissingEventFlagsCheckerPlugin
                     case GameVersion.SV:
                         menuEntry_ExporMissingFlags.Enabled = false;
                         menuEntry_ExporChecklist.Enabled = false;
+                        menuEntry_EditFlags.Enabled = false;
                         break;
                 }
 
 #if DEBUG
+                // Quick dump all flags on load during DEBUG
                 if (ctrl.Enabled)
                 {
                     DumpAllFlags(null, null);

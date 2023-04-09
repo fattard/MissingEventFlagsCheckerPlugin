@@ -20,6 +20,7 @@ namespace MissingEventFlagsCheckerPlugin
             GeneralEvent,
             SideEvent,
             StoryEvent,
+            BerryTree,
         }
 
         protected class FlagDetail
@@ -99,6 +100,10 @@ namespace MissingEventFlagsCheckerPlugin
                     case FlagType.StoryEvent:
                         FlagTypeTxt = "STORY EVENT";
                         break;
+
+                    case FlagType.BerryTree:
+                        FlagTypeTxt = "BERRY TREE";
+                        break;
                 }
 
                 LocationName = locationName;
@@ -137,8 +142,6 @@ namespace MissingEventFlagsCheckerPlugin
             isAssembleChecklist = true;
             CheckAllMissingFlags();
             isAssembleChecklist = false;
-
-            m_missingEventFlagsList.Sort((x, y) => x.OrderKey - y.OrderKey);
         }
 
         public virtual void ExportMissingFlags()
@@ -161,6 +164,7 @@ namespace MissingEventFlagsCheckerPlugin
         public virtual void ExportChecklist()
         {
             AssembleChecklist();
+            m_missingEventFlagsList.Sort((x, y) => x.OrderKey - y.OrderKey);
 
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i < m_missingEventFlagsList.Count; ++i)
@@ -185,6 +189,19 @@ namespace MissingEventFlagsCheckerPlugin
 
         public virtual void MarkFlags(FlagType flagType) { }
         public virtual void UnmarkFlags(FlagType flagType) { }
+        public virtual bool SupportsEditingFlag(FlagType flagType)
+        {
+            switch (flagType)
+            {
+                case FlagType.FieldItem:
+                case FlagType.HiddenItem:
+                case FlagType.TrainerBattle:
+                    return true;
+
+                default:
+                    return false;
+            }
+        }
 
         protected void CheckMissingFlag(int flagIdx, FlagType flagType, string mapLocation, string flagDetail)
         {
@@ -333,6 +350,11 @@ namespace MissingEventFlagsCheckerPlugin
                     flagsOrganizer = new FlagsGen7USUM();
                     break;
 
+
+
+
+
+
                 case GameVersion.GP:
                 case GameVersion.GE:
                 case GameVersion.BD:
@@ -380,6 +402,7 @@ namespace MissingEventFlagsCheckerPlugin
 
         public override void ExportMissingFlags() { }
         public override void ExportChecklist() { }
+        public override bool SupportsEditingFlag(FlagType flagType) { return false; }
     }
 
     class DummyOrgBlockFlags : FlagsOrganizer
@@ -407,6 +430,7 @@ namespace MissingEventFlagsCheckerPlugin
         public override void ExportMissingFlags() { }
 
         public override void ExportChecklist() { }
+        public override bool SupportsEditingFlag(FlagType flagType) { return false; }
 
         public override void DumpAllFlags()
         {
