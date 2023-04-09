@@ -57,21 +57,21 @@ namespace MissingEventFlagsCheckerPlugin
             // Hidden Items
             for (int i = 0; i < 256+28; ++i)
             {
-                CheckMissingFlag(0x2DA + i, FlagType.HiddenItem, "", i.ToString("D3"));
+                CheckMissingFlag(0x2DA + i, FlagType.HiddenItem, "", i.ToString("D3") + $" (Flag 0x{(i + 0x2DA).ToString("X3")})");
             }
 
 
             // Field items
             for (int i = 0; i < 256+72; ++i)
             {
-                CheckMissingFlag(0x3F6 + i, FlagType.FieldItem, "", i.ToString("D3"));
+                CheckMissingFlag(0x3F6 + i, FlagType.FieldItem, "", i.ToString("D3") + $" (Flag 0x{(i + 0x3F6).ToString("X3")})");
             }
 
 
             // Trainers (?? 928)
             for (int i = 0; i < 1040; ++i)
             {
-                CheckMissingFlag(0x550 + i, FlagType.TrainerBattle, "", i.ToString("D3"));
+                CheckMissingFlag(0x550 + i, FlagType.TrainerBattle, "", i.ToString("D3") + $" (Flag 0x{(i + 0x550).ToString("X3")})");
             }
         }
 

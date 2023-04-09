@@ -46,7 +46,7 @@ namespace MissingEventFlagsCheckerPlugin
                     break;
 
                 case FlagType.TrainerBattle:
-                    for (int i = 0; i < 1000; ++i)
+                    for (int i = 0; i < 1040; ++i)
                         flagHelper.SetEventFlag(0x550 + i, value);
                     break;
             }
@@ -57,21 +57,21 @@ namespace MissingEventFlagsCheckerPlugin
             // Hidden Items
             for (int i = 0; i < 256; ++i)
             {
-                CheckMissingFlag(0x320 + i, FlagType.HiddenItem, "", i.ToString("D3"));
+                CheckMissingFlag(0x320 + i, FlagType.HiddenItem, "", i.ToString("D3") + $" (Flag 0x{(i + 0x320).ToString("X3")})");
             }
 
 
             // Field items
             for (int i = 0; i < 256; ++i)
             {
-                CheckMissingFlag(0x420 + i, FlagType.FieldItem, "", i.ToString("D3"));
+                CheckMissingFlag(0x420 + i, FlagType.FieldItem, "", i.ToString("D3") + $" (Flag 0x{(i + 0x420).ToString("X3")})");
             }
 
 
             // Trainers (??)
-            for (int i = 0; i < 1000; ++i)
+            for (int i = 0; i < 1040; ++i)
             {
-                CheckMissingFlag(0x550 + i, FlagType.TrainerBattle, "", i.ToString("D3"));
+                CheckMissingFlag(0x550 + i, FlagType.TrainerBattle, "", i.ToString("D3") + $" (Flag 0x{(i + 0x550).ToString("X3")})");
             }
         }
 

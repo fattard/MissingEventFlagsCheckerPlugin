@@ -62,7 +62,7 @@ namespace MissingEventFlagsCheckerPlugin
 
             for (int i = 0x9D8; i <= 0xBAF; ++i)
             {
-                CheckMissingFlag(i, FlagType.FieldItem, "", (i - 0x9D8).ToString("D3"));
+                CheckMissingFlag(i, FlagType.FieldItem, "", (i - 0x9D8).ToString("D3") + $" (Flag 0x{i.ToString("X3")})");
             }
 
 
@@ -75,7 +75,7 @@ namespace MissingEventFlagsCheckerPlugin
 
             for (int i = 0xC00; i <= 0xE6F; ++i)
             {
-                CheckMissingFlag(i, FlagType.TrainerBattle, "", (i - 0xC00).ToString("D3"));
+                CheckMissingFlag(i, FlagType.TrainerBattle, "", (i - 0xC00).ToString("D3") + $" (Flag 0x{i.ToString("X3")})");
             }
 
 
