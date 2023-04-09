@@ -182,18 +182,6 @@ namespace MissingEventFlagsCheckerPlugin
 
 
                     //TEMP: dump flags only
-                    case GameVersion.X:
-                    case GameVersion.Y:
-                    case GameVersion.XY:
-                    case GameVersion.OR:
-                    case GameVersion.AS:
-                    case GameVersion.ORAS:
-                    //case GameVersion.SN:
-                    case GameVersion.MN:
-                    case GameVersion.SM:
-                    case GameVersion.US:
-                    case GameVersion.UM:
-                    case GameVersion.USUM:
                     case GameVersion.GP:
                     case GameVersion.GE:
                     case GameVersion.BD:
@@ -210,6 +198,13 @@ namespace MissingEventFlagsCheckerPlugin
                         menuEntry_ExporChecklist.Enabled = false;
                         break;
                 }
+
+#if DEBUG
+                if (ctrl.Enabled)
+                {
+                    DumpAllFlags(null, null);
+                }
+#endif
 
             }
                 
