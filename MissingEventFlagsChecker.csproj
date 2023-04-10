@@ -54,6 +54,8 @@
     <Compile Include="FlagsGen3FRLG.cs" />
     <Compile Include="FlagsGen3RS.cs" />
     <Compile Include="FlagsGen4DP.cs" />
+    <Compile Include="FlagsGen8bsBDSP.cs" />
+    <Compile Include="FlagsGen7bGPGE.cs" />
     <Compile Include="FlagsGen7SM.cs" />
     <Compile Include="FlagsGen7USUM.cs" />
     <Compile Include="FlagsGen6ORAS.cs" />

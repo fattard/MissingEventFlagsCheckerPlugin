@@ -350,18 +350,20 @@ namespace MissingEventFlagsCheckerPlugin
                     flagsOrganizer = new FlagsGen7USUM();
                     break;
 
-
-
-
-
-
                 case GameVersion.GP:
                 case GameVersion.GE:
+                case GameVersion.GG:
+                    flagsOrganizer = new FlagsGen7bGPGE();
+                    break;
+
                 case GameVersion.BD:
                 case GameVersion.SP:
                 case GameVersion.BDSP:
-                    flagsOrganizer = new DummyOrgFlags();
+                    flagsOrganizer = new FlagsGen8bsBDSP();
                     break;
+
+
+
 
                 case GameVersion.SW:
                 case GameVersion.SH:

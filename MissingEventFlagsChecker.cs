@@ -154,11 +154,6 @@ namespace MissingEventFlagsCheckerPlugin
 
 
                     //TEMP: dump flags only
-                    case GameVersion.GP:
-                    case GameVersion.GE:
-                    case GameVersion.BD:
-                    case GameVersion.SP:
-                    case GameVersion.BDSP:
                     case GameVersion.SW:
                     case GameVersion.SH:
                     case GameVersion.SWSH:
