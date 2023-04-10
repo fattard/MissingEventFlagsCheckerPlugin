@@ -39,10 +39,9 @@ namespace MissingEventFlagsCheckerPlugin
 
                 if (info.Length < 6)
                 {
-                    throw new ArgumentException("Argmument detailEntry format is not valid");
+                    throw new ArgumentException("Argument detailEntry format is not valid");
                 }
 
-                OrderKey = string.IsNullOrWhiteSpace(info[0]) ? int.MaxValue : Convert.ToInt32(info[0]);
                 FlagIdx = Convert.ToInt32(info[1], 16);
                 FlagTypeTxt = info[2];
                 LocationName = info[3];
@@ -52,6 +51,7 @@ namespace MissingEventFlagsCheckerPlugin
                 }
                 DetailMsg = info[5];
                 IsSet = false;
+                OrderKey = string.IsNullOrWhiteSpace(info[0]) ? FlagIdx : Convert.ToInt32(info[0]);
             }
 
             public FlagDetail(int flagIdx, FlagType flagType, string detailMsg) : this(flagIdx, flagType, "", detailMsg)
@@ -60,7 +60,6 @@ namespace MissingEventFlagsCheckerPlugin
 
             public FlagDetail(int flagIdx, FlagType flagType, string locationName, string detailMsg)
             {
-                //OrderKey = int.MaxValue;
                 OrderKey = flagIdx;
                 FlagIdx = flagIdx;
 
@@ -386,6 +385,57 @@ namespace MissingEventFlagsCheckerPlugin
             }
 
             return flagsOrganizer;
+        }
+
+
+        public string GetFlagTypeText(FlagType flagType)
+        {
+            string flagTypeTxt = "";
+
+            switch (flagType)
+            {
+                case FlagType.FieldItem:
+                    flagTypeTxt = "FIELD ITEM";
+                    break;
+
+                case FlagType.HiddenItem:
+                    flagTypeTxt = "HIDDEN ITEM";
+                    break;
+
+                case FlagType.TrainerBattle:
+                    flagTypeTxt = "TRAINER BATTLE";
+                    break;
+
+                case FlagType.StationaryBattle:
+                    flagTypeTxt = "STATIONARY BATTLE";
+                    break;
+
+                case FlagType.InGameTrade:
+                    flagTypeTxt = "IN-GAME TRADE";
+                    break;
+
+                case FlagType.Gift:
+                    flagTypeTxt = "GIFT";
+                    break;
+
+                case FlagType.GeneralEvent:
+                    flagTypeTxt = "EVENT";
+                    break;
+
+                case FlagType.SideEvent:
+                    flagTypeTxt = "SIDE EVENT";
+                    break;
+
+                case FlagType.StoryEvent:
+                    flagTypeTxt = "STORY EVENT";
+                    break;
+
+                case FlagType.BerryTree:
+                    flagTypeTxt = "BERRY TREE";
+                    break;
+            }
+
+            return flagTypeTxt;
         }
 
     }
