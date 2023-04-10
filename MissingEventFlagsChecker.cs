@@ -63,7 +63,9 @@ namespace MissingEventFlagsCheckerPlugin
             menuEntry_EditFlags = new ToolStripMenuItem(NameEditFlags);
             menuEntry_EditFlags.Enabled = false;
             menuEntry_EditFlags.Click += new EventHandler(EditFlags);
+#if DEBUG
             ctrl.DropDownItems.Add(menuEntry_EditFlags);
+#endif
         }
 
         private void ExportMissingFlags(object sender, EventArgs e)
@@ -139,6 +141,18 @@ namespace MissingEventFlagsCheckerPlugin
                     case GameVersion.Invalid:
                         ctrl.Enabled = false;
                         break;
+
+
+                    // Check for AS Demo
+                    case GameVersion.AS:
+                        {
+                            if (savData is SAV6AODemo)
+                            {
+                                ctrl.Enabled = false;
+                            }
+                        }
+                        break;
+
 
                     // Check for SN Demo
                     case GameVersion.SN:
