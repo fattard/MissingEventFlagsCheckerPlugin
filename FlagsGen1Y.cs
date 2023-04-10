@@ -73,6 +73,21 @@ namespace MissingEventFlagsCheckerPlugin
         }
 
 
+        public override bool SupportsEditingFlag(FlagType flagType)
+        {
+            switch (flagType)
+            {
+                case FlagType.FieldItem:
+                case FlagType.HiddenItem:
+                    //case FlagType.TrainerBattle:
+                    return true;
+
+                default:
+                    return false;
+            }
+        }
+
+
         public override void MarkFlags(FlagType flagType)
         {
             ChangeFlagsVal(flagType, value: true);
