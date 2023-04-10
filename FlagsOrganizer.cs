@@ -60,7 +60,8 @@ namespace MissingEventFlagsCheckerPlugin
 
             public FlagDetail(int flagIdx, FlagType flagType, string locationName, string detailMsg)
             {
-                OrderKey = int.MaxValue;
+                //OrderKey = int.MaxValue;
+                OrderKey = flagIdx;
                 FlagIdx = flagIdx;
 
                 switch (flagType)
