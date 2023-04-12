@@ -13,8 +13,8 @@ namespace MissingEventFlagsCheckerPlugin
         protected override void InitFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
-            m_eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
-            m_missingEventFlagsList.Clear();
+            //m_eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
+            m_eventFlagsList.Clear();
         }
 
 

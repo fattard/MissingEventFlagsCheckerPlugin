@@ -11,9 +11,9 @@ namespace MissingEventFlagsCheckerPlugin
     public class MissingEventFlagsChecker : IPlugin
     {
         public string Name => "Missing Event Flags Checker";
-        public string NameExportMissingFlags => "Export Missing flags";
-        public string NameExportChecklistFlags => "Export Checklist";
-        public string NameEditFlags => "Mark/Unmark flags...";
+        public string NameExportMissingFlags => "Export only the missing flags";
+        public string NameExportChecklistFlags => "Export full Checklist";
+        public string NameEditFlags => "Edit flags...";
         public string NameDumpAllFlags => "Dump all Flags";
         public int Priority => 1; // Loading order, lowest is first.
         public ISaveFileProvider SaveFileEditor { get; private set; } = null;
@@ -45,15 +45,15 @@ namespace MissingEventFlagsCheckerPlugin
             ctrl.Enabled = false;
             tools.DropDownItems.Add(ctrl);
 
-            menuEntry_ExporMissingFlags = new ToolStripMenuItem(NameExportMissingFlags);
-            menuEntry_ExporMissingFlags.Enabled = false;
-            menuEntry_ExporMissingFlags.Click += new EventHandler(ExportMissingFlags);
-            ctrl.DropDownItems.Add(menuEntry_ExporMissingFlags);
-
             menuEntry_ExporChecklist = new ToolStripMenuItem(NameExportChecklistFlags);
             menuEntry_ExporChecklist.Enabled = false;
             menuEntry_ExporChecklist.Click += new EventHandler(ExportChecklist);
             ctrl.DropDownItems.Add(menuEntry_ExporChecklist);
+
+            menuEntry_ExporMissingFlags = new ToolStripMenuItem(NameExportMissingFlags);
+            menuEntry_ExporMissingFlags.Enabled = false;
+            menuEntry_ExporMissingFlags.Click += new EventHandler(ExportMissingFlags);
+            ctrl.DropDownItems.Add(menuEntry_ExporMissingFlags);
 
             menuEntry_DumpAllFlags = new ToolStripMenuItem(NameDumpAllFlags);
             menuEntry_DumpAllFlags.Enabled = false;
@@ -98,6 +98,11 @@ namespace MissingEventFlagsCheckerPlugin
         {
             var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
 
+            if (flagsOrganizer == null)
+            {
+                throw new FormatException("Unsupported SAV format: " + SaveFileEditor.SAV.Version);
+            }
+
             flagsOrganizer.DumpAllFlags();
         }
 
@@ -105,6 +110,11 @@ namespace MissingEventFlagsCheckerPlugin
         private void EditFlags(object sender, EventArgs e)
         {
             var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
+
+            if (flagsOrganizer == null)
+            {
+                throw new FormatException("Unsupported SAV format: " + SaveFileEditor.SAV.Version);
+            }
 
             var form = new SelectedFlagsEditor(flagsOrganizer);
             form.ShowDialog();

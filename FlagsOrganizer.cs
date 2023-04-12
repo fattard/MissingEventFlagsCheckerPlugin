@@ -7,10 +7,13 @@ using PKHeX.Core;
 
 namespace MissingEventFlagsCheckerPlugin
 {
+
     public abstract class FlagsOrganizer
     {
         public enum FlagType
         {
+            _Unknown,
+
             FieldItem,
             HiddenItem,
             TrainerBattle,
@@ -21,13 +24,17 @@ namespace MissingEventFlagsCheckerPlugin
             SideEvent,
             StoryEvent,
             BerryTree,
+
+            _Unused,
         }
+
 
         protected class FlagDetail
         {
-            public int OrderKey { get; private set; }
+            public int OrderKey { get; set; }
             public int FlagIdx { get; private set; }
-            public string FlagTypeTxt { get; private set; }
+            public FlagType FlagTypeVal { get; private set; }
+            public string FlagTypeTxt => FlagTypeVal.AsText();
             public string LocationName { get; private set; }
             public string DetailMsg { get; private set; }
             public bool IsSet { get; set; }
@@ -37,21 +44,21 @@ namespace MissingEventFlagsCheckerPlugin
             {
                 string[] info = detailEntry.Split('\t');
 
-                if (info.Length < 6)
+                if (info.Length < 7)
                 {
                     throw new ArgumentException("Argument detailEntry format is not valid");
                 }
 
                 FlagIdx = Convert.ToInt32(info[1], 16);
-                FlagTypeTxt = info[2];
+                FlagTypeVal = FlagTypeVal.Parse(info[2]);
                 LocationName = info[3];
                 if (!string.IsNullOrWhiteSpace(info[4]))
                 {
                     LocationName += " " + info[4];
                 }
-                DetailMsg = info[5];
+                DetailMsg = !string.IsNullOrWhiteSpace(info[5]) ? info[5] : info[6];
                 IsSet = false;
-                OrderKey = string.IsNullOrWhiteSpace(info[0]) ? FlagIdx : Convert.ToInt32(info[0]);
+                OrderKey = string.IsNullOrWhiteSpace(info[0]) ? (FlagIdx + 100000) : Convert.ToInt32(info[0]);
             }
 
             public FlagDetail(int flagIdx, FlagType flagType, string detailMsg) : this(flagIdx, flagType, "", detailMsg)
@@ -60,101 +67,80 @@ namespace MissingEventFlagsCheckerPlugin
 
             public FlagDetail(int flagIdx, FlagType flagType, string locationName, string detailMsg)
             {
-                OrderKey = flagIdx;
+                OrderKey = (flagIdx + 100000);
                 FlagIdx = flagIdx;
-
-                switch (flagType)
-                {
-                    case FlagType.FieldItem:
-                        FlagTypeTxt = "FIELD ITEM";
-                        break;
-
-                    case FlagType.HiddenItem:
-                        FlagTypeTxt = "HIDDEN ITEM";
-                        break;
-
-                    case FlagType.TrainerBattle:
-                        FlagTypeTxt = "TRAINER BATTLE";
-                        break;
-
-                    case FlagType.StationaryBattle:
-                        FlagTypeTxt = "STATIONARY BATTLE";
-                        break;
-
-                    case FlagType.InGameTrade:
-                        FlagTypeTxt = "IN-GAME TRADE";
-                        break;
-
-                    case FlagType.Gift:
-                        FlagTypeTxt = "GIFT";
-                        break;
-
-                    case FlagType.GeneralEvent:
-                        FlagTypeTxt = "EVENT";
-                        break;
-
-                    case FlagType.SideEvent:
-                        FlagTypeTxt = "SIDE EVENT";
-                        break;
-
-                    case FlagType.StoryEvent:
-                        FlagTypeTxt = "STORY EVENT";
-                        break;
-
-                    case FlagType.BerryTree:
-                        FlagTypeTxt = "BERRY TREE";
-                        break;
-                }
-
+                FlagTypeVal = flagType;
                 LocationName = locationName;
                 DetailMsg = detailMsg;
+                IsSet = false;
             }
 
             public override string ToString()
             {
                 if (string.IsNullOrEmpty(LocationName))
                 {
-                    return string.Format("{0} - {1}\r\n", FlagTypeTxt, DetailMsg);
+                    return string.Format("{0} - {1}", FlagTypeTxt, DetailMsg);
                 }
 
                 else
                 {
-                    return string.Format("{0} - {1} - {2}\r\n", FlagTypeTxt, LocationName, DetailMsg);
+                    return string.Format("{0} - {1} - {2}", FlagTypeTxt, LocationName, DetailMsg);
                 }
             }
         }
 
 
         protected SaveFile m_savFile;
-        protected bool[] m_eventFlags;
 
-        protected List<FlagDetail> m_missingEventFlagsList = new List<FlagDetail>(4096);
+        protected List<FlagDetail> m_eventFlagsList = new List<FlagDetail>(4096);
 
         //temp
         protected bool isAssembleChecklist = false;
 
-        protected abstract void InitFlagsData(SaveFile savFile);
-
-        protected abstract void CheckAllMissingFlags();
-
-        protected virtual void AssembleChecklist()
+        protected virtual void InitFlagsData(SaveFile savFile)
         {
-            isAssembleChecklist = true;
-            CheckAllMissingFlags();
-            isAssembleChecklist = false;
+            m_savFile = savFile;
+            m_eventFlagsList.Clear();
         }
+
+        protected virtual void AssembleList(string flagsList_res)
+        {
+            var savEventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
+            m_eventFlagsList.Clear();
+            using (System.IO.StringReader reader = new System.IO.StringReader(flagsList_res))
+            {
+                string s = reader.ReadLine();
+                do
+                {
+                    if (!string.IsNullOrWhiteSpace(s))
+                    {
+                        var flagDetail = new FlagDetail(s);
+                        flagDetail.IsSet = savEventFlags[flagDetail.FlagIdx];
+                        m_eventFlagsList.Add(flagDetail);
+                    }
+
+                    s = reader.ReadLine();
+
+                } while (s != null);
+            }
+        }
+
+        //temp
+        protected virtual void CheckAllMissingFlags() { }
+
+
+        #region Actions
 
         public virtual void ExportMissingFlags()
         {
-            CheckAllMissingFlags();
-            m_missingEventFlagsList.Sort((x, y) => x.OrderKey - y.OrderKey);
+            m_eventFlagsList.Sort((x, y) => x.OrderKey - y.OrderKey);
 
-            StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < m_missingEventFlagsList.Count; ++i)
+            StringBuilder sb = new StringBuilder(100 * 1024);
+            for (int i = 0; i < m_eventFlagsList.Count; ++i)
             {
-                if (!m_missingEventFlagsList[i].IsSet)
+                if (!m_eventFlagsList[i].IsSet && ShouldExportEvent(m_eventFlagsList[i]))
                 {
-                    sb.Append(m_missingEventFlagsList[i]);
+                    sb.Append($"{m_eventFlagsList[i]}\r\n");
                 }
             }
 
@@ -163,13 +149,15 @@ namespace MissingEventFlagsCheckerPlugin
 
         public virtual void ExportChecklist()
         {
-            AssembleChecklist();
-            m_missingEventFlagsList.Sort((x, y) => x.OrderKey - y.OrderKey);
+            m_eventFlagsList.Sort((x, y) => x.OrderKey - y.OrderKey);
 
-            StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < m_missingEventFlagsList.Count; ++i)
+            StringBuilder sb = new StringBuilder(100 * 1024);
+            for (int i = 0; i < m_eventFlagsList.Count; ++i)
             {
-                sb.AppendFormat("[{0}] {1}", m_missingEventFlagsList[i].IsSet ? "x" : " ", m_missingEventFlagsList[i]);
+                if (ShouldExportEvent(m_eventFlagsList[i]))
+                {
+                    sb.AppendFormat("[{0}] {1}\r\n", m_eventFlagsList[i].IsSet ? "x" : " ", m_eventFlagsList[i]);
+                }
             }
 
             System.IO.File.WriteAllText(string.Format("checklist_{0}.txt", m_savFile.Version), sb.ToString());
@@ -177,11 +165,15 @@ namespace MissingEventFlagsCheckerPlugin
 
         public virtual void DumpAllFlags()
         {
-            StringBuilder sb = new StringBuilder(m_eventFlags.Length);
-
-            for (int i = 0; i < m_eventFlags.Length; ++i)
+            StringBuilder sb = new StringBuilder(100 * 1024);
+            for (int i = 0; i < m_eventFlagsList.Count; ++i)
             {
-                sb.AppendFormat("FLAG_0x{0:X4} {1}\r\n", i, m_eventFlags[i]);
+#if DEBUG
+                sb.AppendFormat("FLAG_0x{0:X4} {1}\t{2}\r\n", i, m_eventFlagsList[i].IsSet,
+                    m_eventFlagsList[i].FlagTypeVal == FlagType._Unused ? "UNUSED" : m_eventFlagsList[i].ToString());
+#else
+                sb.AppendFormat("FLAG_0x{0:X4} {1}\r\n", i, m_missingEventFlagsList[i].IsSet);
+#endif
             }
 
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
@@ -203,21 +195,37 @@ namespace MissingEventFlagsCheckerPlugin
             }
         }
 
+#endregion
+
+        protected virtual bool ShouldExportEvent(FlagDetail eventDetail)
+        {
+            switch (eventDetail.FlagTypeVal)
+            {
+                case FlagType.GeneralEvent:
+                case FlagType._Unused:
+                case FlagType._Unknown:
+                    return false;
+
+                default:
+                    return true;
+            }
+        }
+
+
         protected void CheckMissingFlag(int flagIdx, FlagType flagType, string mapLocation, string flagDetail)
         {
             if (isAssembleChecklist)
             {
-                m_missingEventFlagsList.Add(new FlagDetail(flagIdx, flagType, mapLocation, flagDetail) { IsSet = IsFlagSet(flagIdx) });
+                m_eventFlagsList.Add(new FlagDetail(flagIdx, flagType, mapLocation, flagDetail) { IsSet = IsFlagSet(flagIdx) });
             }
 
             else if (!IsFlagSet(flagIdx))
             {
-                m_missingEventFlagsList.Add(new FlagDetail(flagIdx, flagType, mapLocation, flagDetail));
+                m_eventFlagsList.Add(new FlagDetail(flagIdx, flagType, mapLocation, flagDetail));
             }
         }
 
-        protected bool IsFlagSet(int flagIdx) => m_eventFlags[flagIdx];
-
+        protected bool IsFlagSet(int flagIdx) => m_eventFlagsList[flagIdx].IsSet;
 
         protected string ReadFlagsListRes(string resName)
         {
@@ -387,115 +395,6 @@ namespace MissingEventFlagsCheckerPlugin
             return flagsOrganizer;
         }
 
-
-        public string GetFlagTypeText(FlagType flagType)
-        {
-            string flagTypeTxt = "";
-
-            switch (flagType)
-            {
-                case FlagType.FieldItem:
-                    flagTypeTxt = "FIELD ITEM";
-                    break;
-
-                case FlagType.HiddenItem:
-                    flagTypeTxt = "HIDDEN ITEM";
-                    break;
-
-                case FlagType.TrainerBattle:
-                    flagTypeTxt = "TRAINER BATTLE";
-                    break;
-
-                case FlagType.StationaryBattle:
-                    flagTypeTxt = "STATIONARY BATTLE";
-                    break;
-
-                case FlagType.InGameTrade:
-                    flagTypeTxt = "IN-GAME TRADE";
-                    break;
-
-                case FlagType.Gift:
-                    flagTypeTxt = "GIFT";
-                    break;
-
-                case FlagType.GeneralEvent:
-                    flagTypeTxt = "EVENT";
-                    break;
-
-                case FlagType.SideEvent:
-                    flagTypeTxt = "SIDE EVENT";
-                    break;
-
-                case FlagType.StoryEvent:
-                    flagTypeTxt = "STORY EVENT";
-                    break;
-
-                case FlagType.BerryTree:
-                    flagTypeTxt = "BERRY TREE";
-                    break;
-            }
-
-            return flagTypeTxt;
-        }
-
     }
 
-
-
-    //TEMP
-    class DummyOrgFlags : FlagsOrganizer
-    {
-        protected override void CheckAllMissingFlags() { }
-        protected override void InitFlagsData(SaveFile savFile)
-        {
-            m_savFile = savFile;
-            m_eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
-            m_missingEventFlagsList.Clear();
-        }
-
-        public override void ExportMissingFlags() { }
-        public override void ExportChecklist() { }
-        public override bool SupportsEditingFlag(FlagType flagType) { return false; }
-    }
-
-    class DummyOrgBlockFlags : FlagsOrganizer
-    {
-        Dictionary<uint, bool> m_blockEventFlags;
-
-        protected override void CheckAllMissingFlags() { }
-        protected override void InitFlagsData(SaveFile savFile)
-        {
-            m_savFile = savFile;
-            m_eventFlags = new bool[0]; // dummy
-
-            m_blockEventFlags = new Dictionary<uint, bool>();
-            foreach (var b in (m_savFile as ISCBlockArray).AllBlocks)
-            {
-                if (b.Type == SCTypeCode.Bool1 || b.Type == SCTypeCode.Bool2)
-                {
-                    m_blockEventFlags.Add(b.Key, (b.Type == SCTypeCode.Bool2));
-                }
-            }
-
-            m_missingEventFlagsList.Clear();
-        }
-
-        public override void ExportMissingFlags() { }
-
-        public override void ExportChecklist() { }
-        public override bool SupportsEditingFlag(FlagType flagType) { return false; }
-
-        public override void DumpAllFlags()
-        {
-            StringBuilder sb = new StringBuilder(m_blockEventFlags.Count);
-
-            var keys = new List<uint>(m_blockEventFlags.Keys);
-            for (int i = 0; i < keys.Count; ++i)
-            {
-                sb.AppendFormat("FLAG_0x{0:X8} {1}\r\n", keys[i], m_blockEventFlags[keys[i]]);
-            }
-
-            System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
-        }
-    }
 }

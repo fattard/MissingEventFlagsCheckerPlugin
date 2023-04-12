@@ -9,6 +9,7 @@ namespace MissingEventFlagsCheckerPlugin
 {
     internal class FlagsGen1RB : FlagsOrganizer
     {
+        bool[] m_eventFlags;
         bool[] m_obtainedHiddenCoinsFlags;
         bool[] m_obtainedHiddenItemsFlags;
         bool[] m_missableObjectFlags;
@@ -68,7 +69,7 @@ namespace MissingEventFlagsCheckerPlugin
 
             // wEventFlags
             m_eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
-            m_missingEventFlagsList.Clear();
+            m_eventFlagsList.Clear();
         }
 
         public override bool SupportsEditingFlag(FlagType flagType)
@@ -137,12 +138,12 @@ namespace MissingEventFlagsCheckerPlugin
         {
             if (isAssembleChecklist)
             {
-                m_missingEventFlagsList.Add(new FlagDetail(flagIdx:0, flagType, mapLocation, flagDetail) { IsSet = flagVal });
+                m_eventFlagsList.Add(new FlagDetail(flagIdx:0, flagType, mapLocation, flagDetail) { IsSet = flagVal });
             }
 
             else if (!flagVal)
             {
-                m_missingEventFlagsList.Add(new FlagDetail(flagIdx:0, flagType, mapLocation, flagDetail));
+                m_eventFlagsList.Add(new FlagDetail(flagIdx:0, flagType, mapLocation, flagDetail));
             }
         }
 

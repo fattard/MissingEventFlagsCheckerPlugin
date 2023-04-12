@@ -15,8 +15,8 @@ namespace MissingEventFlagsCheckerPlugin
         protected override void InitFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
-            m_eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
-            m_missingEventFlagsList.Clear();
+            //m_eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
+            m_eventFlagsList.Clear();
             m_battleTrainerStatus = (m_savFile as SAV8BS).BattleTrainer;
         }
 
@@ -90,12 +90,12 @@ namespace MissingEventFlagsCheckerPlugin
             {
                 if (isAssembleChecklist)
                 {
-                    m_missingEventFlagsList.Add(new FlagDetail(i, FlagType.TrainerBattle, "", (i).ToString("D3")) { IsSet = m_battleTrainerStatus.GetIsWin(i) });
+                    m_eventFlagsList.Add(new FlagDetail(i, FlagType.TrainerBattle, "", (i).ToString("D3")) { IsSet = m_battleTrainerStatus.GetIsWin(i) });
                 }
 
                 else if (m_battleTrainerStatus.GetIsWin(i))
                 {
-                    m_missingEventFlagsList.Add(new FlagDetail(i, FlagType.TrainerBattle, "", (i).ToString("D3")));
+                    m_eventFlagsList.Add(new FlagDetail(i, FlagType.TrainerBattle, "", (i).ToString("D3")));
                 }
             }
 

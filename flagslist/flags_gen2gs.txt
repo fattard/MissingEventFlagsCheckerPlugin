@@ -1,11 +1,11 @@
-	0x0000	EVENT				TEMPORARY_UNTIL_MAP_RELOAD_1
-	0x0001	EVENT				TEMPORARY_UNTIL_MAP_RELOAD_2
-	0x0002	EVENT				TEMPORARY_UNTIL_MAP_RELOAD_3
-	0x0003	EVENT				TEMPORARY_UNTIL_MAP_RELOAD_4
-	0x0004	EVENT				TEMPORARY_UNTIL_MAP_RELOAD_5
-	0x0005	EVENT				TEMPORARY_UNTIL_MAP_RELOAD_6
-	0x0006	EVENT				TEMPORARY_UNTIL_MAP_RELOAD_7
-	0x0007	EVENT				TEMPORARY_UNTIL_MAP_RELOAD_8
+	0x0000	EVENT				
+	0x0001	EVENT				
+	0x0002	EVENT				
+	0x0003	EVENT				
+	0x0004	EVENT				
+	0x0005	EVENT				
+	0x0006	EVENT				
+	0x0007	EVENT				
 25	0x0008	GIFT	Violet City	Gym	Receive TM31 (Mud Slap) from Leader Falkner	
 55	0x0009	GIFT	Azalea Town	Gym	Receive TM49 (Fury Cutter) from Leader Bugsy	
 140	0x000A	GIFT	Cianwood City	Gym	Receive TM01 (Dynamic Punch) from Leader Chuck	
@@ -20,11 +20,11 @@
 120	0x0013	GIFT	Olivine City	House	Receive HM04 (Strength) from man	
 30	0x0014	GIFT	Sprout Tower	3F	Receive HM05 (Flash) from Sage Li	
 170	0x0015	GIFT	Team Rocket HQ	B2F	Receive HM06 (Whirlpool) from Lance	
-	0x0016	_UNUSED				unused
+	0x0016	_UNUSED				
 40	0x0017	GIFT	Route 32	Pokémon Center	Receive Old Rod from man	
 120	0x0018	GIFT	Olivine City	House	Receive Good Rod from sailor	
 315	0x0019	GIFT	Route 12	House	Receive Super Rod from fisherman	
-0	0x001A	STORY EVENT	New Bark Town	Elm's Lab	Choose Starter	story event
+0	0x001A	STORY EVENT	New Bark Town	Elm's Lab	Choose Starter	
 	0x001B	EVENT			GOT_CYNDAQUIL_FROM_ELM	
 	0x001C	EVENT			GOT_TOTODILE_FROM_ELM	
 	0x001D	EVENT			GOT_CHIKORITA_FROM_ELM	
@@ -57,9 +57,9 @@
 	0x0038	EVENT			LAKE_OF_RAGE_EXPLAINED_WEIRD_MAGIKARP	
 	0x0039	EVENT			LAKE_OF_RAGE_ASKED_FOR_MAGIKARP	
 165	0x003A	EVENT	Lake of Rage	Fishing Guru's House	LAKE_OF_RAGE_ELIXIR_ON_STANDBY	
-	0x003B	_UNUSED				unused
-	0x003C	_UNUSED				unused
-115	0x003D	SIDE EVENT	Route 39	Moomoo Farm	Heal Moomoo	side event
+	0x003B	_UNUSED				
+	0x003C	_UNUSED				
+115	0x003D	SIDE EVENT	Route 39	Moomoo Farm	Heal Moomoo	
 115	0x003E	GIFT	Route 39	Moomoo Farm	Receive TM13 (Snore) from farm's owner	
 	0x003F	EVENT			TALKED_TO_FARMER_ABOUT_MOOMOO	
 	0x0040	EVENT			TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST	
@@ -68,7 +68,7 @@
 	0x0043	EVENT			ELM_CALLED_ABOUT_STOLEN_POKEMON	
 	0x0044	EVENT			BEAT_ELITE_FOUR	
 140	0x0045	GIFT	Cianwood City	Mania's House	Receive SHUCKIE (Shuckle) from Mania	
-140	0x0046	SIDE EVENT	Cianwood City	Mania's House	Bring SHUCKIE back to Mania	side event
+140	0x0046	SIDE EVENT	Cianwood City	Mania's House	Bring SHUCKIE back to Mania	
 175	0x0047	GIFT	Radio Tower	3F	Receive TM11 (Sunny Day) from woman	
 175	0x0048	GIFT	Radio Tower	4F	Receive Pink Bow from Mary	
 	0x0049	EVENT			USED_BASEMENT_KEY	
@@ -121,7 +121,7 @@
 	0x0078	GIFT			GOT_RAINBOW_WING	
 	0x0079	GIFT			GOT_SILVER_WING	
 65	0x007A	GIFT	Ilex Forest		GOT_TM12_SWEET_SCENT	
-100	0x007B	SIDE EVENT	Ecruteak City	Burned Tower	Release the Beasts	side event
+100	0x007B	SIDE EVENT	Ecruteak City	Burned Tower	Release the Beasts	
 0	0x007C	GIFT	New Bark Town	Elm's Lab	Receive Master Ball from Elm	
 240	0x007D	HIDDEN ITEM	Tin Tower		TIN_TOWER_4F_HIDDEN_MAX_POTION	
 240	0x007E	HIDDEN ITEM	Tin Tower		TIN_TOWER_5F_HIDDEN_FULL_RESTORE	
@@ -183,27 +183,27 @@
 165	0x00B6	HIDDEN ITEM	Lake of Rage		LAKE_OF_RAGE_HIDDEN_RARE_CANDY	
 165	0x00B7	HIDDEN ITEM	Lake of Rage		LAKE_OF_RAGE_HIDDEN_MAX_POTION	
 460	0x00B8	HIDDEN ITEM	Mt. Silver		SILVER_CAVE_OUTSIDE_HIDDEN_FULL_RESTORE	
-	0x00B9	_UNUSED				unused
-	0x00BA	_UNUSED				unused
-	0x00BB	_UNUSED				unused
-	0x00BC	_UNUSED				unused
-	0x00BD	_UNUSED				unused
-	0x00BE	_UNUSED				unused
-	0x00BF	_UNUSED				unused
-	0x00C0	_UNUSED				unused
-	0x00C1	_UNUSED				unused
-	0x00C2	_UNUSED				unused
-	0x00C3	_UNUSED				unused
-	0x00C4	_UNUSED				unused
-	0x00C5	_UNUSED				unused
-	0x00C6	_UNUSED				unused
-	0x00C7	_UNUSED				unused
+	0x00B9	_UNUSED				
+	0x00BA	_UNUSED				
+	0x00BB	_UNUSED				
+	0x00BC	_UNUSED				
+	0x00BD	_UNUSED				
+	0x00BE	_UNUSED				
+	0x00BF	_UNUSED				
+	0x00C0	_UNUSED				
+	0x00C1	_UNUSED				
+	0x00C2	_UNUSED				
+	0x00C3	_UNUSED				
+	0x00C4	_UNUSED				
+	0x00C5	_UNUSED				
+	0x00C6	_UNUSED				
+	0x00C7	_UNUSED				
 350	0x00C8	GIFT	Route 25		GOT_NUGGET_FROM_GUY	
 	0x00C9	EVENT			RETURNED_MACHINE_PART	
 	0x00CA	EVENT			MET_MANAGER_AT_POWER_PLANT	
 	0x00CB	EVENT			MET_ROCKET_GRUNT_AT_CERULEAN_GYM	
-425	0x00CC	SIDE EVENT	Pallet Town	Red's House	Meet Red's mom	side event
-365	0x00CD	STORY EVENT	Power Plant		Restore power to Kanto	story event
+425	0x00CC	SIDE EVENT	Pallet Town	Red's House	Meet Red's mom	
+365	0x00CD	STORY EVENT	Power Plant		Restore power to Kanto	
 275	0x00CE	GIFT	Celadon City		GOT_COINS_FROM_GAMBLER_AT_CELADON	
 	0x00CF	EVENT			MET_COPYCAT_FOUND_OUT_ABOUT_LOST_ITEM	
 	0x00D0	EVENT			RETURNED_LOST_ITEM_TO_COPYCAT	
@@ -212,10 +212,10 @@
 	0x00D3	EVENT			LISTENED_TO_FAN_CLUB_PRESIDENT_BUT_BAG_WAS_FULL	
 	0x00D4	EVENT			LISTENED_TO_FAN_CLUB_PRESIDENT	
 	0x00D5	EVENT			TALKED_TO_SEAFOAM_GYM_GUIDE_ONCE	
-	0x00D6	EVENT			ENABLE_DIPLOMA_PRINTING	?
+	0x00D6	EVENT			ENABLE_DIPLOMA_PRINTING	
 	0x00D7	EVENT			CINNABAR_ROCKS_CLEARED	
-	0x00D8	EVENT			CLEARED_NUGGET_BRIDGE	?
-	0x00D9	EVENT			TALKED_TO_WARDENS_GRANDDAUGHTER	?
+	0x00D8	EVENT			CLEARED_NUGGET_BRIDGE	
+	0x00D9	EVENT			TALKED_TO_WARDENS_GRANDDAUGHTER	
 275	0x00DA	GIFT	Celadon City	Celadon Mansion	GOT_TM03_CURSE	
 335	0x00DB	GIFT	Route 5	House	Receive Cleanse Tag from woman	
 275	0x00DC	GIFT	Celadon City	Gym	Receive TM19 (Giga Drain) from Leader Erika	
@@ -223,7 +223,7 @@
 265	0x00DE	GIFT	Saffron City	Silph Co.	Receive Up-Grade from old man	
 365	0x00DF	GIFT	Power Plant		GOT_TM07_ZAP_CANNON	
 405	0x00E0	GIFT	Viridian City		Receive TM42 (Dream Eater) from man	
-	0x00E1	EVENT			TALKED_TO_OAK_IN_KANTO	?
+	0x00E1	EVENT			TALKED_TO_OAK_IN_KANTO	
 255	0x00E2	GIFT	Vermilion City		Receive HP Up from man	
 265	0x00E3	GIFT	Saffron City	Mr. Psychic's House	Receive TM29 (Psychic) from Mr. Psychic	
 375	0x00E4	HIDDEN ITEM	Diglett's Cave		DIGLETTS_CAVE_HIDDEN_MAX_REVIVE	
@@ -253,351 +253,351 @@
 255	0x00FC	HIDDEN ITEM	Vermilion City		VERMILION_CITY_HIDDEN_FULL_HEAL	
 275	0x00FD	HIDDEN ITEM	Celadon City		CELADON_CITY_HIDDEN_PP_UP	
 435	0x00FE	HIDDEN ITEM	Cinnabar Island		CINNABAR_ISLAND_HIDDEN_RARE_CANDY	
-	0x00FF	_UNUSED				unused
-	0x0100	_UNUSED				unused
-	0x0101	_UNUSED				unused
-	0x0102	_UNUSED				unused
-	0x0103	_UNUSED				unused
-	0x0104	_UNUSED				unused
-	0x0105	_UNUSED				unused
-	0x0106	_UNUSED				unused
-	0x0107	_UNUSED				unused
-	0x0108	_UNUSED				unused
-	0x0109	_UNUSED				unused
-	0x010A	_UNUSED				unused
-	0x010B	_UNUSED				unused
-	0x010C	_UNUSED				unused
-	0x010D	_UNUSED				unused
-	0x010E	_UNUSED				unused
-	0x010F	_UNUSED				unused
-	0x0110	_UNUSED				unused
-	0x0111	_UNUSED				unused
-	0x0112	_UNUSED				unused
-	0x0113	_UNUSED				unused
-	0x0114	_UNUSED				unused
-	0x0115	_UNUSED				unused
-	0x0116	_UNUSED				unused
-	0x0117	_UNUSED				unused
-	0x0118	_UNUSED				unused
-	0x0119	_UNUSED				unused
-	0x011A	_UNUSED				unused
-	0x011B	_UNUSED				unused
-	0x011C	_UNUSED				unused
-	0x011D	_UNUSED				unused
-	0x011E	_UNUSED				unused
-	0x011F	_UNUSED				unused
-	0x0120	_UNUSED				unused
-	0x0121	_UNUSED				unused
-	0x0122	_UNUSED				unused
-	0x0123	_UNUSED				unused
-	0x0124	_UNUSED				unused
-	0x0125	_UNUSED				unused
-	0x0126	_UNUSED				unused
-	0x0127	_UNUSED				unused
-	0x0128	_UNUSED				unused
-	0x0129	_UNUSED				unused
-	0x012A	_UNUSED				unused
-	0x012B	_UNUSED				unused
-	0x012C	_UNUSED				unused
-	0x012D	_UNUSED				unused
-	0x012E	_UNUSED				unused
-	0x012F	_UNUSED				unused
-	0x0130	_UNUSED				unused
-	0x0131	_UNUSED				unused
-	0x0132	_UNUSED				unused
-	0x0133	_UNUSED				unused
-	0x0134	_UNUSED				unused
-	0x0135	_UNUSED				unused
-	0x0136	_UNUSED				unused
-	0x0137	_UNUSED				unused
-	0x0138	_UNUSED				unused
-	0x0139	_UNUSED				unused
-	0x013A	_UNUSED				unused
-	0x013B	_UNUSED				unused
-	0x013C	_UNUSED				unused
-	0x013D	_UNUSED				unused
-	0x013E	_UNUSED				unused
-	0x013F	_UNUSED				unused
-	0x0140	_UNUSED				unused
-	0x0141	_UNUSED				unused
-	0x0142	_UNUSED				unused
-	0x0143	_UNUSED				unused
-	0x0144	_UNUSED				unused
-	0x0145	_UNUSED				unused
-	0x0146	_UNUSED				unused
-	0x0147	_UNUSED				unused
-	0x0148	_UNUSED				unused
-	0x0149	_UNUSED				unused
-	0x014A	_UNUSED				unused
-	0x014B	_UNUSED				unused
-	0x014C	_UNUSED				unused
-	0x014D	_UNUSED				unused
-	0x014E	_UNUSED				unused
-	0x014F	_UNUSED				unused
-	0x0150	_UNUSED				unused
-	0x0151	_UNUSED				unused
-	0x0152	_UNUSED				unused
-	0x0153	_UNUSED				unused
-	0x0154	_UNUSED				unused
-	0x0155	_UNUSED				unused
-	0x0156	_UNUSED				unused
-	0x0157	_UNUSED				unused
-	0x0158	_UNUSED				unused
-	0x0159	_UNUSED				unused
-	0x015A	_UNUSED				unused
-	0x015B	_UNUSED				unused
-	0x015C	_UNUSED				unused
-	0x015D	_UNUSED				unused
-	0x015E	_UNUSED				unused
-	0x015F	_UNUSED				unused
-	0x0160	_UNUSED				unused
-	0x0161	_UNUSED				unused
-	0x0162	_UNUSED				unused
-	0x0163	_UNUSED				unused
-	0x0164	_UNUSED				unused
-	0x0165	_UNUSED				unused
-	0x0166	_UNUSED				unused
-	0x0167	_UNUSED				unused
-	0x0168	_UNUSED				unused
-	0x0169	_UNUSED				unused
-	0x016A	_UNUSED				unused
-	0x016B	_UNUSED				unused
-	0x016C	_UNUSED				unused
-	0x016D	_UNUSED				unused
-	0x016E	_UNUSED				unused
-	0x016F	_UNUSED				unused
-	0x0170	_UNUSED				unused
-	0x0171	_UNUSED				unused
-	0x0172	_UNUSED				unused
-	0x0173	_UNUSED				unused
-	0x0174	_UNUSED				unused
-	0x0175	_UNUSED				unused
-	0x0176	_UNUSED				unused
-	0x0177	_UNUSED				unused
-	0x0178	_UNUSED				unused
-	0x0179	_UNUSED				unused
-	0x017A	_UNUSED				unused
-	0x017B	_UNUSED				unused
-	0x017C	_UNUSED				unused
-	0x017D	_UNUSED				unused
-	0x017E	_UNUSED				unused
-	0x017F	_UNUSED				unused
-	0x0180	_UNUSED				unused
-	0x0181	_UNUSED				unused
-	0x0182	_UNUSED				unused
-	0x0183	_UNUSED				unused
-	0x0184	_UNUSED				unused
-	0x0185	_UNUSED				unused
-	0x0186	_UNUSED				unused
-	0x0187	_UNUSED				unused
-	0x0188	_UNUSED				unused
-	0x0189	_UNUSED				unused
-	0x018A	_UNUSED				unused
-	0x018B	_UNUSED				unused
-	0x018C	_UNUSED				unused
-	0x018D	_UNUSED				unused
-	0x018E	_UNUSED				unused
-	0x018F	_UNUSED				unused
-	0x0190	_UNUSED				unused
-	0x0191	_UNUSED				unused
-	0x0192	_UNUSED				unused
-	0x0193	_UNUSED				unused
-	0x0194	_UNUSED				unused
-	0x0195	_UNUSED				unused
-	0x0196	_UNUSED				unused
-	0x0197	_UNUSED				unused
-	0x0198	_UNUSED				unused
-	0x0199	_UNUSED				unused
-	0x019A	_UNUSED				unused
-	0x019B	_UNUSED				unused
-	0x019C	_UNUSED				unused
-	0x019D	_UNUSED				unused
-	0x019E	_UNUSED				unused
-	0x019F	_UNUSED				unused
-	0x01A0	_UNUSED				unused
-	0x01A1	_UNUSED				unused
-	0x01A2	_UNUSED				unused
-	0x01A3	_UNUSED				unused
-	0x01A4	_UNUSED				unused
-	0x01A5	_UNUSED				unused
-	0x01A6	_UNUSED				unused
-	0x01A7	_UNUSED				unused
-	0x01A8	_UNUSED				unused
-	0x01A9	_UNUSED				unused
-	0x01AA	_UNUSED				unused
-	0x01AB	_UNUSED				unused
-	0x01AC	_UNUSED				unused
-	0x01AD	_UNUSED				unused
-	0x01AE	_UNUSED				unused
-	0x01AF	_UNUSED				unused
-	0x01B0	_UNUSED				unused
-	0x01B1	_UNUSED				unused
-	0x01B2	_UNUSED				unused
-	0x01B3	_UNUSED				unused
-	0x01B4	_UNUSED				unused
-	0x01B5	_UNUSED				unused
-	0x01B6	_UNUSED				unused
-	0x01B7	_UNUSED				unused
-	0x01B8	_UNUSED				unused
-	0x01B9	_UNUSED				unused
-	0x01BA	_UNUSED				unused
-	0x01BB	_UNUSED				unused
-	0x01BC	_UNUSED				unused
-	0x01BD	_UNUSED				unused
-	0x01BE	_UNUSED				unused
-	0x01BF	_UNUSED				unused
-	0x01C0	_UNUSED				unused
-	0x01C1	_UNUSED				unused
-	0x01C2	_UNUSED				unused
-	0x01C3	_UNUSED				unused
-	0x01C4	_UNUSED				unused
-	0x01C5	_UNUSED				unused
-	0x01C6	_UNUSED				unused
-	0x01C7	_UNUSED				unused
-	0x01C8	_UNUSED				unused
-	0x01C9	_UNUSED				unused
-	0x01CA	_UNUSED				unused
-	0x01CB	_UNUSED				unused
-	0x01CC	_UNUSED				unused
-	0x01CD	_UNUSED				unused
-	0x01CE	_UNUSED				unused
-	0x01CF	_UNUSED				unused
-	0x01D0	_UNUSED				unused
-	0x01D1	_UNUSED				unused
-	0x01D2	_UNUSED				unused
-	0x01D3	_UNUSED				unused
-	0x01D4	_UNUSED				unused
-	0x01D5	_UNUSED				unused
-	0x01D6	_UNUSED				unused
-	0x01D7	_UNUSED				unused
-	0x01D8	_UNUSED				unused
-	0x01D9	_UNUSED				unused
-	0x01DA	_UNUSED				unused
-	0x01DB	_UNUSED				unused
-	0x01DC	_UNUSED				unused
-	0x01DD	_UNUSED				unused
-	0x01DE	_UNUSED				unused
-	0x01DF	_UNUSED				unused
-	0x01E0	_UNUSED				unused
-	0x01E1	_UNUSED				unused
-	0x01E2	_UNUSED				unused
-	0x01E3	_UNUSED				unused
-	0x01E4	_UNUSED				unused
-	0x01E5	_UNUSED				unused
-	0x01E6	_UNUSED				unused
-	0x01E7	_UNUSED				unused
-	0x01E8	_UNUSED				unused
-	0x01E9	_UNUSED				unused
-	0x01EA	_UNUSED				unused
-	0x01EB	_UNUSED				unused
-	0x01EC	_UNUSED				unused
-	0x01ED	_UNUSED				unused
-	0x01EE	_UNUSED				unused
-	0x01EF	_UNUSED				unused
-	0x01F0	_UNUSED				unused
-	0x01F1	_UNUSED				unused
-	0x01F2	_UNUSED				unused
-	0x01F3	_UNUSED				unused
-	0x01F4	_UNUSED				unused
-	0x01F5	_UNUSED				unused
-	0x01F6	_UNUSED				unused
-	0x01F7	_UNUSED				unused
-	0x01F8	_UNUSED				unused
-	0x01F9	_UNUSED				unused
-	0x01FA	_UNUSED				unused
-	0x01FB	_UNUSED				unused
-	0x01FC	_UNUSED				unused
-	0x01FD	_UNUSED				unused
-	0x01FE	_UNUSED				unused
-	0x01FF	_UNUSED				unused
-	0x0200	_UNUSED				unused
-	0x0201	_UNUSED				unused
-	0x0202	_UNUSED				unused
-	0x0203	_UNUSED				unused
-	0x0204	_UNUSED				unused
-	0x0205	_UNUSED				unused
-	0x0206	_UNUSED				unused
-	0x0207	_UNUSED				unused
-	0x0208	_UNUSED				unused
-	0x0209	_UNUSED				unused
-	0x020A	_UNUSED				unused
-	0x020B	_UNUSED				unused
-	0x020C	_UNUSED				unused
-	0x020D	_UNUSED				unused
-	0x020E	_UNUSED				unused
-	0x020F	_UNUSED				unused
-	0x0210	_UNUSED				unused
-	0x0211	_UNUSED				unused
-	0x0212	_UNUSED				unused
-	0x0213	_UNUSED				unused
-	0x0214	_UNUSED				unused
-	0x0215	_UNUSED				unused
-	0x0216	_UNUSED				unused
-	0x0217	_UNUSED				unused
-	0x0218	_UNUSED				unused
-	0x0219	_UNUSED				unused
-	0x021A	_UNUSED				unused
-	0x021B	_UNUSED				unused
-	0x021C	_UNUSED				unused
-	0x021D	_UNUSED				unused
-	0x021E	_UNUSED				unused
-	0x021F	_UNUSED				unused
-	0x0220	_UNUSED				unused
-	0x0221	_UNUSED				unused
-	0x0222	_UNUSED				unused
-	0x0223	_UNUSED				unused
-	0x0224	_UNUSED				unused
-	0x0225	_UNUSED				unused
-	0x0226	_UNUSED				unused
-	0x0227	_UNUSED				unused
-	0x0228	_UNUSED				unused
-	0x0229	_UNUSED				unused
-	0x022A	_UNUSED				unused
-	0x022B	_UNUSED				unused
-	0x022C	_UNUSED				unused
-	0x022D	_UNUSED				unused
-	0x022E	_UNUSED				unused
-	0x022F	_UNUSED				unused
-	0x0230	_UNUSED				unused
-	0x0231	_UNUSED				unused
-	0x0232	_UNUSED				unused
-	0x0233	_UNUSED				unused
-	0x0234	_UNUSED				unused
-	0x0235	_UNUSED				unused
-	0x0236	_UNUSED				unused
-	0x0237	_UNUSED				unused
-	0x0238	_UNUSED				unused
-	0x0239	_UNUSED				unused
-	0x023A	_UNUSED				unused
-	0x023B	_UNUSED				unused
-	0x023C	_UNUSED				unused
-	0x023D	_UNUSED				unused
-	0x023E	_UNUSED				unused
-	0x023F	_UNUSED				unused
-	0x0240	_UNUSED				unused
-	0x0241	_UNUSED				unused
-	0x0242	_UNUSED				unused
-	0x0243	_UNUSED				unused
-	0x0244	_UNUSED				unused
-	0x0245	_UNUSED				unused
-	0x0246	_UNUSED				unused
-	0x0247	_UNUSED				unused
-	0x0248	_UNUSED				unused
-	0x0249	_UNUSED				unused
-	0x024A	_UNUSED				unused
-	0x024B	_UNUSED				unused
-	0x024C	_UNUSED				unused
-	0x024D	_UNUSED				unused
-	0x024E	_UNUSED				unused
-	0x024F	_UNUSED				unused
-	0x0250	_UNUSED				unused
-	0x0251	_UNUSED				unused
-	0x0252	_UNUSED				unused
-	0x0253	_UNUSED				unused
-	0x0254	_UNUSED				unused
-	0x0255	_UNUSED				unused
-	0x0256	_UNUSED				unused
-	0x0257	_UNUSED				unused
+	0x00FF	_UNUSED				
+	0x0100	_UNUSED				
+	0x0101	_UNUSED				
+	0x0102	_UNUSED				
+	0x0103	_UNUSED				
+	0x0104	_UNUSED				
+	0x0105	_UNUSED				
+	0x0106	_UNUSED				
+	0x0107	_UNUSED				
+	0x0108	_UNUSED				
+	0x0109	_UNUSED				
+	0x010A	_UNUSED				
+	0x010B	_UNUSED				
+	0x010C	_UNUSED				
+	0x010D	_UNUSED				
+	0x010E	_UNUSED				
+	0x010F	_UNUSED				
+	0x0110	_UNUSED				
+	0x0111	_UNUSED				
+	0x0112	_UNUSED				
+	0x0113	_UNUSED				
+	0x0114	_UNUSED				
+	0x0115	_UNUSED				
+	0x0116	_UNUSED				
+	0x0117	_UNUSED				
+	0x0118	_UNUSED				
+	0x0119	_UNUSED				
+	0x011A	_UNUSED				
+	0x011B	_UNUSED				
+	0x011C	_UNUSED				
+	0x011D	_UNUSED				
+	0x011E	_UNUSED				
+	0x011F	_UNUSED				
+	0x0120	_UNUSED				
+	0x0121	_UNUSED				
+	0x0122	_UNUSED				
+	0x0123	_UNUSED				
+	0x0124	_UNUSED				
+	0x0125	_UNUSED				
+	0x0126	_UNUSED				
+	0x0127	_UNUSED				
+	0x0128	_UNUSED				
+	0x0129	_UNUSED				
+	0x012A	_UNUSED				
+	0x012B	_UNUSED				
+	0x012C	_UNUSED				
+	0x012D	_UNUSED				
+	0x012E	_UNUSED				
+	0x012F	_UNUSED				
+	0x0130	_UNUSED				
+	0x0131	_UNUSED				
+	0x0132	_UNUSED				
+	0x0133	_UNUSED				
+	0x0134	_UNUSED				
+	0x0135	_UNUSED				
+	0x0136	_UNUSED				
+	0x0137	_UNUSED				
+	0x0138	_UNUSED				
+	0x0139	_UNUSED				
+	0x013A	_UNUSED				
+	0x013B	_UNUSED				
+	0x013C	_UNUSED				
+	0x013D	_UNUSED				
+	0x013E	_UNUSED				
+	0x013F	_UNUSED				
+	0x0140	_UNUSED				
+	0x0141	_UNUSED				
+	0x0142	_UNUSED				
+	0x0143	_UNUSED				
+	0x0144	_UNUSED				
+	0x0145	_UNUSED				
+	0x0146	_UNUSED				
+	0x0147	_UNUSED				
+	0x0148	_UNUSED				
+	0x0149	_UNUSED				
+	0x014A	_UNUSED				
+	0x014B	_UNUSED				
+	0x014C	_UNUSED				
+	0x014D	_UNUSED				
+	0x014E	_UNUSED				
+	0x014F	_UNUSED				
+	0x0150	_UNUSED				
+	0x0151	_UNUSED				
+	0x0152	_UNUSED				
+	0x0153	_UNUSED				
+	0x0154	_UNUSED				
+	0x0155	_UNUSED				
+	0x0156	_UNUSED				
+	0x0157	_UNUSED				
+	0x0158	_UNUSED				
+	0x0159	_UNUSED				
+	0x015A	_UNUSED				
+	0x015B	_UNUSED				
+	0x015C	_UNUSED				
+	0x015D	_UNUSED				
+	0x015E	_UNUSED				
+	0x015F	_UNUSED				
+	0x0160	_UNUSED				
+	0x0161	_UNUSED				
+	0x0162	_UNUSED				
+	0x0163	_UNUSED				
+	0x0164	_UNUSED				
+	0x0165	_UNUSED				
+	0x0166	_UNUSED				
+	0x0167	_UNUSED				
+	0x0168	_UNUSED				
+	0x0169	_UNUSED				
+	0x016A	_UNUSED				
+	0x016B	_UNUSED				
+	0x016C	_UNUSED				
+	0x016D	_UNUSED				
+	0x016E	_UNUSED				
+	0x016F	_UNUSED				
+	0x0170	_UNUSED				
+	0x0171	_UNUSED				
+	0x0172	_UNUSED				
+	0x0173	_UNUSED				
+	0x0174	_UNUSED				
+	0x0175	_UNUSED				
+	0x0176	_UNUSED				
+	0x0177	_UNUSED				
+	0x0178	_UNUSED				
+	0x0179	_UNUSED				
+	0x017A	_UNUSED				
+	0x017B	_UNUSED				
+	0x017C	_UNUSED				
+	0x017D	_UNUSED				
+	0x017E	_UNUSED				
+	0x017F	_UNUSED				
+	0x0180	_UNUSED				
+	0x0181	_UNUSED				
+	0x0182	_UNUSED				
+	0x0183	_UNUSED				
+	0x0184	_UNUSED				
+	0x0185	_UNUSED				
+	0x0186	_UNUSED				
+	0x0187	_UNUSED				
+	0x0188	_UNUSED				
+	0x0189	_UNUSED				
+	0x018A	_UNUSED				
+	0x018B	_UNUSED				
+	0x018C	_UNUSED				
+	0x018D	_UNUSED				
+	0x018E	_UNUSED				
+	0x018F	_UNUSED				
+	0x0190	_UNUSED				
+	0x0191	_UNUSED				
+	0x0192	_UNUSED				
+	0x0193	_UNUSED				
+	0x0194	_UNUSED				
+	0x0195	_UNUSED				
+	0x0196	_UNUSED				
+	0x0197	_UNUSED				
+	0x0198	_UNUSED				
+	0x0199	_UNUSED				
+	0x019A	_UNUSED				
+	0x019B	_UNUSED				
+	0x019C	_UNUSED				
+	0x019D	_UNUSED				
+	0x019E	_UNUSED				
+	0x019F	_UNUSED				
+	0x01A0	_UNUSED				
+	0x01A1	_UNUSED				
+	0x01A2	_UNUSED				
+	0x01A3	_UNUSED				
+	0x01A4	_UNUSED				
+	0x01A5	_UNUSED				
+	0x01A6	_UNUSED				
+	0x01A7	_UNUSED				
+	0x01A8	_UNUSED				
+	0x01A9	_UNUSED				
+	0x01AA	_UNUSED				
+	0x01AB	_UNUSED				
+	0x01AC	_UNUSED				
+	0x01AD	_UNUSED				
+	0x01AE	_UNUSED				
+	0x01AF	_UNUSED				
+	0x01B0	_UNUSED				
+	0x01B1	_UNUSED				
+	0x01B2	_UNUSED				
+	0x01B3	_UNUSED				
+	0x01B4	_UNUSED				
+	0x01B5	_UNUSED				
+	0x01B6	_UNUSED				
+	0x01B7	_UNUSED				
+	0x01B8	_UNUSED				
+	0x01B9	_UNUSED				
+	0x01BA	_UNUSED				
+	0x01BB	_UNUSED				
+	0x01BC	_UNUSED				
+	0x01BD	_UNUSED				
+	0x01BE	_UNUSED				
+	0x01BF	_UNUSED				
+	0x01C0	_UNUSED				
+	0x01C1	_UNUSED				
+	0x01C2	_UNUSED				
+	0x01C3	_UNUSED				
+	0x01C4	_UNUSED				
+	0x01C5	_UNUSED				
+	0x01C6	_UNUSED				
+	0x01C7	_UNUSED				
+	0x01C8	_UNUSED				
+	0x01C9	_UNUSED				
+	0x01CA	_UNUSED				
+	0x01CB	_UNUSED				
+	0x01CC	_UNUSED				
+	0x01CD	_UNUSED				
+	0x01CE	_UNUSED				
+	0x01CF	_UNUSED				
+	0x01D0	_UNUSED				
+	0x01D1	_UNUSED				
+	0x01D2	_UNUSED				
+	0x01D3	_UNUSED				
+	0x01D4	_UNUSED				
+	0x01D5	_UNUSED				
+	0x01D6	_UNUSED				
+	0x01D7	_UNUSED				
+	0x01D8	_UNUSED				
+	0x01D9	_UNUSED				
+	0x01DA	_UNUSED				
+	0x01DB	_UNUSED				
+	0x01DC	_UNUSED				
+	0x01DD	_UNUSED				
+	0x01DE	_UNUSED				
+	0x01DF	_UNUSED				
+	0x01E0	_UNUSED				
+	0x01E1	_UNUSED				
+	0x01E2	_UNUSED				
+	0x01E3	_UNUSED				
+	0x01E4	_UNUSED				
+	0x01E5	_UNUSED				
+	0x01E6	_UNUSED				
+	0x01E7	_UNUSED				
+	0x01E8	_UNUSED				
+	0x01E9	_UNUSED				
+	0x01EA	_UNUSED				
+	0x01EB	_UNUSED				
+	0x01EC	_UNUSED				
+	0x01ED	_UNUSED				
+	0x01EE	_UNUSED				
+	0x01EF	_UNUSED				
+	0x01F0	_UNUSED				
+	0x01F1	_UNUSED				
+	0x01F2	_UNUSED				
+	0x01F3	_UNUSED				
+	0x01F4	_UNUSED				
+	0x01F5	_UNUSED				
+	0x01F6	_UNUSED				
+	0x01F7	_UNUSED				
+	0x01F8	_UNUSED				
+	0x01F9	_UNUSED				
+	0x01FA	_UNUSED				
+	0x01FB	_UNUSED				
+	0x01FC	_UNUSED				
+	0x01FD	_UNUSED				
+	0x01FE	_UNUSED				
+	0x01FF	_UNUSED				
+	0x0200	_UNUSED				
+	0x0201	_UNUSED				
+	0x0202	_UNUSED				
+	0x0203	_UNUSED				
+	0x0204	_UNUSED				
+	0x0205	_UNUSED				
+	0x0206	_UNUSED				
+	0x0207	_UNUSED				
+	0x0208	_UNUSED				
+	0x0209	_UNUSED				
+	0x020A	_UNUSED				
+	0x020B	_UNUSED				
+	0x020C	_UNUSED				
+	0x020D	_UNUSED				
+	0x020E	_UNUSED				
+	0x020F	_UNUSED				
+	0x0210	_UNUSED				
+	0x0211	_UNUSED				
+	0x0212	_UNUSED				
+	0x0213	_UNUSED				
+	0x0214	_UNUSED				
+	0x0215	_UNUSED				
+	0x0216	_UNUSED				
+	0x0217	_UNUSED				
+	0x0218	_UNUSED				
+	0x0219	_UNUSED				
+	0x021A	_UNUSED				
+	0x021B	_UNUSED				
+	0x021C	_UNUSED				
+	0x021D	_UNUSED				
+	0x021E	_UNUSED				
+	0x021F	_UNUSED				
+	0x0220	_UNUSED				
+	0x0221	_UNUSED				
+	0x0222	_UNUSED				
+	0x0223	_UNUSED				
+	0x0224	_UNUSED				
+	0x0225	_UNUSED				
+	0x0226	_UNUSED				
+	0x0227	_UNUSED				
+	0x0228	_UNUSED				
+	0x0229	_UNUSED				
+	0x022A	_UNUSED				
+	0x022B	_UNUSED				
+	0x022C	_UNUSED				
+	0x022D	_UNUSED				
+	0x022E	_UNUSED				
+	0x022F	_UNUSED				
+	0x0230	_UNUSED				
+	0x0231	_UNUSED				
+	0x0232	_UNUSED				
+	0x0233	_UNUSED				
+	0x0234	_UNUSED				
+	0x0235	_UNUSED				
+	0x0236	_UNUSED				
+	0x0237	_UNUSED				
+	0x0238	_UNUSED				
+	0x0239	_UNUSED				
+	0x023A	_UNUSED				
+	0x023B	_UNUSED				
+	0x023C	_UNUSED				
+	0x023D	_UNUSED				
+	0x023E	_UNUSED				
+	0x023F	_UNUSED				
+	0x0240	_UNUSED				
+	0x0241	_UNUSED				
+	0x0242	_UNUSED				
+	0x0243	_UNUSED				
+	0x0244	_UNUSED				
+	0x0245	_UNUSED				
+	0x0246	_UNUSED				
+	0x0247	_UNUSED				
+	0x0248	_UNUSED				
+	0x0249	_UNUSED				
+	0x024A	_UNUSED				
+	0x024B	_UNUSED				
+	0x024C	_UNUSED				
+	0x024D	_UNUSED				
+	0x024E	_UNUSED				
+	0x024F	_UNUSED				
+	0x0250	_UNUSED				
+	0x0251	_UNUSED				
+	0x0252	_UNUSED				
+	0x0253	_UNUSED				
+	0x0254	_UNUSED				
+	0x0255	_UNUSED				
+	0x0256	_UNUSED				
+	0x0257	_UNUSED				
 	0x0258	EVENT			GAVE_KURT_RED_APRICORN	
 	0x0259	EVENT			GAVE_KURT_BLU_APRICORN	
 	0x025A	EVENT			GAVE_KURT_YLW_APRICORN	
@@ -645,8 +645,8 @@
 	0x0284	EVENT			ARNIE_READY_FOR_REMATCH	
 	0x0285	EVENT			ALAN_ASKED_FOR_PHONE_NUMBER	
 	0x0286	EVENT			ALAN_READY_FOR_REMATCH	
-	0x0287	_UNUSED				unused
-	0x0288	_UNUSED				unused
+	0x0287	_UNUSED				
+	0x0288	_UNUSED				
 	0x0289	EVENT			DANA_ASKED_FOR_PHONE_NUMBER	
 	0x028A	EVENT			DANA_READY_FOR_REMATCH	
 	0x028B	EVENT			CHAD_ASKED_FOR_PHONE_NUMBER	
@@ -669,57 +669,57 @@
 	0x029C	EVENT			PARRY_READY_FOR_REMATCH	
 	0x029D	EVENT			ERIN_ASKED_FOR_PHONE_NUMBER	
 	0x029E	EVENT			ERIN_READY_FOR_REMATCH	
-	0x029F	_UNUSED				unused
-35	0x02A0	SIDE EVENT	Ruins of Alph		Solve Ho-Oh puzzle	side event
-35	0x02A1	SIDE EVENT	Ruins of Alph		Solve Kabuto puzzle	side event
-35	0x02A2	SIDE EVENT	Ruins of Alph		Solve Omanyte puzzle	side event
-35	0x02A3	SIDE EVENT	Ruins of Alph		Solve Aerodactyl puzzle	side event
-	0x02A4	SIDE EVENT			DECO_BED_1	decoration item
-	0x02A5	SIDE EVENT			DECO_BED_2	decoration item
-	0x02A6	SIDE EVENT			DECO_BED_3	decoration item
-	0x02A7	SIDE EVENT			DECO_BED_4	decoration item
-	0x02A8	SIDE EVENT			DECO_CARPET_1	decoration item
-	0x02A9	SIDE EVENT			DECO_CARPET_2	decoration item
-	0x02AA	SIDE EVENT			DECO_CARPET_3	decoration item
-	0x02AB	SIDE EVENT			DECO_CARPET_4	decoration item
-	0x02AC	SIDE EVENT			DECO_PLANT_1	decoration item
-	0x02AD	SIDE EVENT			DECO_PLANT_2	decoration item
-	0x02AE	SIDE EVENT			DECO_PLANT_3	decoration item
-	0x02AF	SIDE EVENT			DECO_POSTER_1	decoration item
-	0x02B0	SIDE EVENT			DECO_POSTER_2	decoration item
-	0x02B1	SIDE EVENT			DECO_POSTER_3	decoration item
-	0x02B2	SIDE EVENT			DECO_POSTER_4	decoration item
-	0x02B3	SIDE EVENT			DECO_FAMICOM	decoration item
-	0x02B4	SIDE EVENT			DECO_SNES	decoration item
-	0x02B5	SIDE EVENT			DECO_N64	decoration item
-	0x02B6	SIDE EVENT			DECO_VIRTUAL_BOY	decoration item
-	0x02B7	SIDE EVENT			DECO_PIKACHU_DOLL	decoration item
-	0x02B8	SIDE EVENT			DECO_SURFING_PIKACHU_DOLL	decoration item
-	0x02B9	SIDE EVENT			DECO_CLEFAIRY_DOLL	decoration item
-	0x02BA	SIDE EVENT			DECO_JIGGLYPUFF_DOLL	decoration item
-	0x02BB	SIDE EVENT			DECO_BULBASAUR_DOLL	decoration item
-	0x02BC	SIDE EVENT			DECO_CHARMANDER_DOLL	decoration item
-	0x02BD	SIDE EVENT			DECO_SQUIRTLE_DOLL	decoration item
-	0x02BE	SIDE EVENT			DECO_POLIWAG_DOLL	decoration item
-	0x02BF	SIDE EVENT			DECO_DIGLETT_DOLL	decoration item
-	0x02C0	SIDE EVENT			DECO_STARMIE_DOLL	decoration item
-	0x02C1	SIDE EVENT			DECO_MAGIKARP_DOLL	decoration item
-	0x02C2	SIDE EVENT			DECO_ODDISH_DOLL	decoration item
-	0x02C3	SIDE EVENT			DECO_GENGAR_DOLL	decoration item
-	0x02C4	SIDE EVENT			DECO_SHELLDER_DOLL	decoration item
-	0x02C5	SIDE EVENT			DECO_GRIMER_DOLL	decoration item
-	0x02C6	SIDE EVENT			DECO_VOLTORB_DOLL	decoration item
-	0x02C7	SIDE EVENT			DECO_WEEDLE_DOLL	decoration item
-	0x02C8	SIDE EVENT			DECO_UNOWN_DOLL	decoration item
-	0x02C9	SIDE EVENT			DECO_GEODUDE_DOLL	decoration item
-	0x02CA	SIDE EVENT			DECO_MACHOP_DOLL	decoration item
-	0x02CB	SIDE EVENT			DECO_TENTACOOL_DOLL	decoration item
-	0x02CC	SIDE EVENT			PLAYERS_ROOM_POSTER	decoration item
-	0x02CD	SIDE EVENT			DECO_GOLD_TROPHY	decoration item
-	0x02CE	SIDE EVENT			DECO_SILVER_TROPHY	decoration item
-	0x02CF	SIDE EVENT			DECO_BIG_SNORLAX_DOLL	decoration item
-	0x02D0	SIDE EVENT			DECO_BIG_ONIX_DOLL	decoration item
-	0x02D1	SIDE EVENT			DECO_BIG_LAPRAS_DOLL	decoration item
+	0x029F	_UNUSED				
+35	0x02A0	SIDE EVENT	Ruins of Alph		Solve Ho-Oh puzzle	
+35	0x02A1	SIDE EVENT	Ruins of Alph		Solve Kabuto puzzle	
+35	0x02A2	SIDE EVENT	Ruins of Alph		Solve Omanyte puzzle	
+35	0x02A3	SIDE EVENT	Ruins of Alph		Solve Aerodactyl puzzle	
+	0x02A4	SIDE EVENT			DECO_BED_1	
+	0x02A5	SIDE EVENT			DECO_BED_2	
+	0x02A6	SIDE EVENT			DECO_BED_3	
+	0x02A7	SIDE EVENT			DECO_BED_4	
+	0x02A8	SIDE EVENT			DECO_CARPET_1	
+	0x02A9	SIDE EVENT			DECO_CARPET_2	
+	0x02AA	SIDE EVENT			DECO_CARPET_3	
+	0x02AB	SIDE EVENT			DECO_CARPET_4	
+	0x02AC	SIDE EVENT			DECO_PLANT_1	
+	0x02AD	SIDE EVENT			DECO_PLANT_2	
+	0x02AE	SIDE EVENT			DECO_PLANT_3	
+	0x02AF	SIDE EVENT			DECO_POSTER_1	
+	0x02B0	SIDE EVENT			DECO_POSTER_2	
+	0x02B1	SIDE EVENT			DECO_POSTER_3	
+	0x02B2	SIDE EVENT			DECO_POSTER_4	
+	0x02B3	SIDE EVENT			DECO_FAMICOM	
+	0x02B4	SIDE EVENT			DECO_SNES	
+	0x02B5	SIDE EVENT			DECO_N64	
+	0x02B6	SIDE EVENT			DECO_VIRTUAL_BOY	
+	0x02B7	SIDE EVENT			DECO_PIKACHU_DOLL	
+	0x02B8	SIDE EVENT			DECO_SURFING_PIKACHU_DOLL	
+	0x02B9	SIDE EVENT			DECO_CLEFAIRY_DOLL	
+	0x02BA	SIDE EVENT			DECO_JIGGLYPUFF_DOLL	
+	0x02BB	SIDE EVENT			DECO_BULBASAUR_DOLL	
+	0x02BC	SIDE EVENT			DECO_CHARMANDER_DOLL	
+	0x02BD	SIDE EVENT			DECO_SQUIRTLE_DOLL	
+	0x02BE	SIDE EVENT			DECO_POLIWAG_DOLL	
+	0x02BF	SIDE EVENT			DECO_DIGLETT_DOLL	
+	0x02C0	SIDE EVENT			DECO_STARMIE_DOLL	
+	0x02C1	SIDE EVENT			DECO_MAGIKARP_DOLL	
+	0x02C2	SIDE EVENT			DECO_ODDISH_DOLL	
+	0x02C3	SIDE EVENT			DECO_GENGAR_DOLL	
+	0x02C4	SIDE EVENT			DECO_SHELLDER_DOLL	
+	0x02C5	SIDE EVENT			DECO_GRIMER_DOLL	
+	0x02C6	SIDE EVENT			DECO_VOLTORB_DOLL	
+	0x02C7	SIDE EVENT			DECO_WEEDLE_DOLL	
+	0x02C8	SIDE EVENT			DECO_UNOWN_DOLL	
+	0x02C9	SIDE EVENT			DECO_GEODUDE_DOLL	
+	0x02CA	SIDE EVENT			DECO_MACHOP_DOLL	
+	0x02CB	SIDE EVENT			DECO_TENTACOOL_DOLL	
+	0x02CC	SIDE EVENT			PLAYERS_ROOM_POSTER	
+	0x02CD	SIDE EVENT			DECO_GOLD_TROPHY	
+	0x02CE	SIDE EVENT			DECO_SILVER_TROPHY	
+	0x02CF	SIDE EVENT			DECO_BIG_SNORLAX_DOLL	
+	0x02D0	SIDE EVENT			DECO_BIG_ONIX_DOLL	
+	0x02D1	SIDE EVENT			DECO_BIG_LAPRAS_DOLL	
 	0x02D2	EVENT			WARPED_FROM_ROUTE_35_NATIONAL_PARK_GATE	
 	0x02D3	EVENT			SWITCH_1	
 	0x02D4	EVENT			SWITCH_2	
@@ -804,200 +804,200 @@
 350	0x0323	GIFT	Route 25	Bill's House	Receive Fire Stone from Bill's grandpa	
 350	0x0324	GIFT	Route 25	Bill's House	Receive Thunder Stone from Bill's grandpa	
 	0x0325	EVENT			LISTENED_TO_INITIAL_RADIO	
-	0x0326	_UNUSED				unused
-	0x0327	_UNUSED				unused
-	0x0328	_UNUSED				unused
-	0x0329	_UNUSED				unused
-	0x032A	_UNUSED				unused
-	0x032B	_UNUSED				unused
-	0x032C	_UNUSED				unused
-	0x032D	_UNUSED				unused
-	0x032E	_UNUSED				unused
-	0x032F	_UNUSED				unused
-	0x0330	_UNUSED				unused
-	0x0331	_UNUSED				unused
-	0x0332	_UNUSED				unused
-	0x0333	_UNUSED				unused
-	0x0334	_UNUSED				unused
-	0x0335	_UNUSED				unused
-	0x0336	_UNUSED				unused
-	0x0337	_UNUSED				unused
-	0x0338	_UNUSED				unused
-	0x0339	_UNUSED				unused
-	0x033A	_UNUSED				unused
-	0x033B	_UNUSED				unused
-	0x033C	_UNUSED				unused
-	0x033D	_UNUSED				unused
-	0x033E	_UNUSED				unused
-	0x033F	_UNUSED				unused
-	0x0340	_UNUSED				unused
-	0x0341	_UNUSED				unused
-	0x0342	_UNUSED				unused
-	0x0343	_UNUSED				unused
-	0x0344	_UNUSED				unused
-	0x0345	_UNUSED				unused
-	0x0346	_UNUSED				unused
-	0x0347	_UNUSED				unused
-	0x0348	_UNUSED				unused
-	0x0349	_UNUSED				unused
-	0x034A	_UNUSED				unused
-	0x034B	_UNUSED				unused
-	0x034C	_UNUSED				unused
-	0x034D	_UNUSED				unused
-	0x034E	_UNUSED				unused
-	0x034F	_UNUSED				unused
-	0x0350	_UNUSED				unused
-	0x0351	_UNUSED				unused
-	0x0352	_UNUSED				unused
-	0x0353	_UNUSED				unused
-	0x0354	_UNUSED				unused
-	0x0355	_UNUSED				unused
-	0x0356	_UNUSED				unused
-	0x0357	_UNUSED				unused
-	0x0358	_UNUSED				unused
-	0x0359	_UNUSED				unused
-	0x035A	_UNUSED				unused
-	0x035B	_UNUSED				unused
-	0x035C	_UNUSED				unused
-	0x035D	_UNUSED				unused
-	0x035E	_UNUSED				unused
-	0x035F	_UNUSED				unused
-	0x0360	_UNUSED				unused
-	0x0361	_UNUSED				unused
-	0x0362	_UNUSED				unused
-	0x0363	_UNUSED				unused
-	0x0364	_UNUSED				unused
-	0x0365	_UNUSED				unused
-	0x0366	_UNUSED				unused
-	0x0367	_UNUSED				unused
-	0x0368	_UNUSED				unused
-	0x0369	_UNUSED				unused
-	0x036A	_UNUSED				unused
-	0x036B	_UNUSED				unused
-	0x036C	_UNUSED				unused
-	0x036D	_UNUSED				unused
-	0x036E	_UNUSED				unused
-	0x036F	_UNUSED				unused
-	0x0370	_UNUSED				unused
-	0x0371	_UNUSED				unused
-	0x0372	_UNUSED				unused
-	0x0373	_UNUSED				unused
-	0x0374	_UNUSED				unused
-	0x0375	_UNUSED				unused
-	0x0376	_UNUSED				unused
-	0x0377	_UNUSED				unused
-	0x0378	_UNUSED				unused
-	0x0379	_UNUSED				unused
-	0x037A	_UNUSED				unused
-	0x037B	_UNUSED				unused
-	0x037C	_UNUSED				unused
-	0x037D	_UNUSED				unused
-	0x037E	_UNUSED				unused
-	0x037F	_UNUSED				unused
-	0x0380	_UNUSED				unused
-	0x0381	_UNUSED				unused
-	0x0382	_UNUSED				unused
-	0x0383	_UNUSED				unused
-	0x0384	_UNUSED				unused
-	0x0385	_UNUSED				unused
-	0x0386	_UNUSED				unused
-	0x0387	_UNUSED				unused
-	0x0388	_UNUSED				unused
-	0x0389	_UNUSED				unused
-	0x038A	_UNUSED				unused
-	0x038B	_UNUSED				unused
-	0x038C	_UNUSED				unused
-	0x038D	_UNUSED				unused
-	0x038E	_UNUSED				unused
-	0x038F	_UNUSED				unused
-	0x0390	_UNUSED				unused
-	0x0391	_UNUSED				unused
-	0x0392	_UNUSED				unused
-	0x0393	_UNUSED				unused
-	0x0394	_UNUSED				unused
-	0x0395	_UNUSED				unused
-	0x0396	_UNUSED				unused
-	0x0397	_UNUSED				unused
-	0x0398	_UNUSED				unused
-	0x0399	_UNUSED				unused
-	0x039A	_UNUSED				unused
-	0x039B	_UNUSED				unused
-	0x039C	_UNUSED				unused
-	0x039D	_UNUSED				unused
-	0x039E	_UNUSED				unused
-	0x039F	_UNUSED				unused
-	0x03A0	_UNUSED				unused
-	0x03A1	_UNUSED				unused
-	0x03A2	_UNUSED				unused
-	0x03A3	_UNUSED				unused
-	0x03A4	_UNUSED				unused
-	0x03A5	_UNUSED				unused
-	0x03A6	_UNUSED				unused
-	0x03A7	_UNUSED				unused
-	0x03A8	_UNUSED				unused
-	0x03A9	_UNUSED				unused
-	0x03AA	_UNUSED				unused
-	0x03AB	_UNUSED				unused
-	0x03AC	_UNUSED				unused
-	0x03AD	_UNUSED				unused
-	0x03AE	_UNUSED				unused
-	0x03AF	_UNUSED				unused
-	0x03B0	_UNUSED				unused
-	0x03B1	_UNUSED				unused
-	0x03B2	_UNUSED				unused
-	0x03B3	_UNUSED				unused
-	0x03B4	_UNUSED				unused
-	0x03B5	_UNUSED				unused
-	0x03B6	_UNUSED				unused
-	0x03B7	_UNUSED				unused
-	0x03B8	_UNUSED				unused
-	0x03B9	_UNUSED				unused
-	0x03BA	_UNUSED				unused
-	0x03BB	_UNUSED				unused
-	0x03BC	_UNUSED				unused
-	0x03BD	_UNUSED				unused
-	0x03BE	_UNUSED				unused
-	0x03BF	_UNUSED				unused
-	0x03C0	_UNUSED				unused
-	0x03C1	_UNUSED				unused
-	0x03C2	_UNUSED				unused
-	0x03C3	_UNUSED				unused
-	0x03C4	_UNUSED				unused
-	0x03C5	_UNUSED				unused
-	0x03C6	_UNUSED				unused
-	0x03C7	_UNUSED				unused
-	0x03C8	_UNUSED				unused
-	0x03C9	_UNUSED				unused
-	0x03CA	_UNUSED				unused
-	0x03CB	_UNUSED				unused
-	0x03CC	_UNUSED				unused
-	0x03CD	_UNUSED				unused
-	0x03CE	_UNUSED				unused
-	0x03CF	_UNUSED				unused
-	0x03D0	_UNUSED				unused
-	0x03D1	_UNUSED				unused
-	0x03D2	_UNUSED				unused
-	0x03D3	_UNUSED				unused
-	0x03D4	_UNUSED				unused
-	0x03D5	_UNUSED				unused
-	0x03D6	_UNUSED				unused
-	0x03D7	_UNUSED				unused
-	0x03D8	_UNUSED				unused
-	0x03D9	_UNUSED				unused
-	0x03DA	_UNUSED				unused
-	0x03DB	_UNUSED				unused
-	0x03DC	_UNUSED				unused
-	0x03DD	_UNUSED				unused
-	0x03DE	_UNUSED				unused
-	0x03DF	_UNUSED				unused
-	0x03E0	_UNUSED				unused
-	0x03E1	_UNUSED				unused
-	0x03E2	_UNUSED				unused
-	0x03E3	_UNUSED				unused
-	0x03E4	_UNUSED				unused
-	0x03E5	_UNUSED				unused
-	0x03E6	_UNUSED				unused
-	0x03E7	_UNUSED				unused
+	0x0326	_UNUSED				
+	0x0327	_UNUSED				
+	0x0328	_UNUSED				
+	0x0329	_UNUSED				
+	0x032A	_UNUSED				
+	0x032B	_UNUSED				
+	0x032C	_UNUSED				
+	0x032D	_UNUSED				
+	0x032E	_UNUSED				
+	0x032F	_UNUSED				
+	0x0330	_UNUSED				
+	0x0331	_UNUSED				
+	0x0332	_UNUSED				
+	0x0333	_UNUSED				
+	0x0334	_UNUSED				
+	0x0335	_UNUSED				
+	0x0336	_UNUSED				
+	0x0337	_UNUSED				
+	0x0338	_UNUSED				
+	0x0339	_UNUSED				
+	0x033A	_UNUSED				
+	0x033B	_UNUSED				
+	0x033C	_UNUSED				
+	0x033D	_UNUSED				
+	0x033E	_UNUSED				
+	0x033F	_UNUSED				
+	0x0340	_UNUSED				
+	0x0341	_UNUSED				
+	0x0342	_UNUSED				
+	0x0343	_UNUSED				
+	0x0344	_UNUSED				
+	0x0345	_UNUSED				
+	0x0346	_UNUSED				
+	0x0347	_UNUSED				
+	0x0348	_UNUSED				
+	0x0349	_UNUSED				
+	0x034A	_UNUSED				
+	0x034B	_UNUSED				
+	0x034C	_UNUSED				
+	0x034D	_UNUSED				
+	0x034E	_UNUSED				
+	0x034F	_UNUSED				
+	0x0350	_UNUSED				
+	0x0351	_UNUSED				
+	0x0352	_UNUSED				
+	0x0353	_UNUSED				
+	0x0354	_UNUSED				
+	0x0355	_UNUSED				
+	0x0356	_UNUSED				
+	0x0357	_UNUSED				
+	0x0358	_UNUSED				
+	0x0359	_UNUSED				
+	0x035A	_UNUSED				
+	0x035B	_UNUSED				
+	0x035C	_UNUSED				
+	0x035D	_UNUSED				
+	0x035E	_UNUSED				
+	0x035F	_UNUSED				
+	0x0360	_UNUSED				
+	0x0361	_UNUSED				
+	0x0362	_UNUSED				
+	0x0363	_UNUSED				
+	0x0364	_UNUSED				
+	0x0365	_UNUSED				
+	0x0366	_UNUSED				
+	0x0367	_UNUSED				
+	0x0368	_UNUSED				
+	0x0369	_UNUSED				
+	0x036A	_UNUSED				
+	0x036B	_UNUSED				
+	0x036C	_UNUSED				
+	0x036D	_UNUSED				
+	0x036E	_UNUSED				
+	0x036F	_UNUSED				
+	0x0370	_UNUSED				
+	0x0371	_UNUSED				
+	0x0372	_UNUSED				
+	0x0373	_UNUSED				
+	0x0374	_UNUSED				
+	0x0375	_UNUSED				
+	0x0376	_UNUSED				
+	0x0377	_UNUSED				
+	0x0378	_UNUSED				
+	0x0379	_UNUSED				
+	0x037A	_UNUSED				
+	0x037B	_UNUSED				
+	0x037C	_UNUSED				
+	0x037D	_UNUSED				
+	0x037E	_UNUSED				
+	0x037F	_UNUSED				
+	0x0380	_UNUSED				
+	0x0381	_UNUSED				
+	0x0382	_UNUSED				
+	0x0383	_UNUSED				
+	0x0384	_UNUSED				
+	0x0385	_UNUSED				
+	0x0386	_UNUSED				
+	0x0387	_UNUSED				
+	0x0388	_UNUSED				
+	0x0389	_UNUSED				
+	0x038A	_UNUSED				
+	0x038B	_UNUSED				
+	0x038C	_UNUSED				
+	0x038D	_UNUSED				
+	0x038E	_UNUSED				
+	0x038F	_UNUSED				
+	0x0390	_UNUSED				
+	0x0391	_UNUSED				
+	0x0392	_UNUSED				
+	0x0393	_UNUSED				
+	0x0394	_UNUSED				
+	0x0395	_UNUSED				
+	0x0396	_UNUSED				
+	0x0397	_UNUSED				
+	0x0398	_UNUSED				
+	0x0399	_UNUSED				
+	0x039A	_UNUSED				
+	0x039B	_UNUSED				
+	0x039C	_UNUSED				
+	0x039D	_UNUSED				
+	0x039E	_UNUSED				
+	0x039F	_UNUSED				
+	0x03A0	_UNUSED				
+	0x03A1	_UNUSED				
+	0x03A2	_UNUSED				
+	0x03A3	_UNUSED				
+	0x03A4	_UNUSED				
+	0x03A5	_UNUSED				
+	0x03A6	_UNUSED				
+	0x03A7	_UNUSED				
+	0x03A8	_UNUSED				
+	0x03A9	_UNUSED				
+	0x03AA	_UNUSED				
+	0x03AB	_UNUSED				
+	0x03AC	_UNUSED				
+	0x03AD	_UNUSED				
+	0x03AE	_UNUSED				
+	0x03AF	_UNUSED				
+	0x03B0	_UNUSED				
+	0x03B1	_UNUSED				
+	0x03B2	_UNUSED				
+	0x03B3	_UNUSED				
+	0x03B4	_UNUSED				
+	0x03B5	_UNUSED				
+	0x03B6	_UNUSED				
+	0x03B7	_UNUSED				
+	0x03B8	_UNUSED				
+	0x03B9	_UNUSED				
+	0x03BA	_UNUSED				
+	0x03BB	_UNUSED				
+	0x03BC	_UNUSED				
+	0x03BD	_UNUSED				
+	0x03BE	_UNUSED				
+	0x03BF	_UNUSED				
+	0x03C0	_UNUSED				
+	0x03C1	_UNUSED				
+	0x03C2	_UNUSED				
+	0x03C3	_UNUSED				
+	0x03C4	_UNUSED				
+	0x03C5	_UNUSED				
+	0x03C6	_UNUSED				
+	0x03C7	_UNUSED				
+	0x03C8	_UNUSED				
+	0x03C9	_UNUSED				
+	0x03CA	_UNUSED				
+	0x03CB	_UNUSED				
+	0x03CC	_UNUSED				
+	0x03CD	_UNUSED				
+	0x03CE	_UNUSED				
+	0x03CF	_UNUSED				
+	0x03D0	_UNUSED				
+	0x03D1	_UNUSED				
+	0x03D2	_UNUSED				
+	0x03D3	_UNUSED				
+	0x03D4	_UNUSED				
+	0x03D5	_UNUSED				
+	0x03D6	_UNUSED				
+	0x03D7	_UNUSED				
+	0x03D8	_UNUSED				
+	0x03D9	_UNUSED				
+	0x03DA	_UNUSED				
+	0x03DB	_UNUSED				
+	0x03DC	_UNUSED				
+	0x03DD	_UNUSED				
+	0x03DE	_UNUSED				
+	0x03DF	_UNUSED				
+	0x03E0	_UNUSED				
+	0x03E1	_UNUSED				
+	0x03E2	_UNUSED				
+	0x03E3	_UNUSED				
+	0x03E4	_UNUSED				
+	0x03E5	_UNUSED				
+	0x03E6	_UNUSED				
+	0x03E7	_UNUSED				
 	0x03E8	TRAINER BATTLE			SWIMMERF_ELAINE	
 	0x03E9	TRAINER BATTLE			SWIMMERF_PAULA	
 	0x03EA	TRAINER BATTLE			SWIMMERF_KAYLEE	
@@ -1070,7 +1070,7 @@
 	0x042D	TRAINER BATTLE			BURGLAR_DUNCAN	
 	0x042E	TRAINER BATTLE			BURGLAR_EDDIE	
 	0x042F	TRAINER BATTLE			BURGLAR_COREY	
-	0x0430	_UNUSED				unused
+	0x0430	_UNUSED				
 	0x0431	TRAINER BATTLE			BIKER_BENNY	
 	0x0432	TRAINER BATTLE			BIKER_KAZU	
 	0x0433	TRAINER BATTLE			BIKER_DWAYNE	
@@ -1244,7 +1244,7 @@
 	0x04DB	TRAINER BATTLE			POKEFANF_BEVERLY2	
 	0x04DC	TRAINER BATTLE			POKEFANF_BEVERLY3	
 	0x04DD	TRAINER BATTLE			POKEFANF_GEORGIA	
-	0x04DE	_UNUSED				unused
+	0x04DE	_UNUSED				
 	0x04DF	TRAINER BATTLE			KIMONO_GIRL_NAOKO	
 	0x04E0	TRAINER BATTLE			KIMONO_GIRL_SAYO	
 	0x04E1	TRAINER BATTLE			KIMONO_GIRL_ZUKI	
@@ -1462,142 +1462,142 @@
 	0x05B5	TRAINER BATTLE			TEACHER_COLETTE	
 	0x05B6	TRAINER BATTLE			TEACHER_HILLARY	
 	0x05B7	TRAINER BATTLE			TEACHER_SHIRLEY	
-	0x05B8	EVENT			ELITE_4_WILL	Resets when entering E4 challenge
-	0x05B9	EVENT			ELITE_4_KOGA	Resets when entering E4 challenge
-	0x05BA	EVENT			ELITE_4_BRUNO	Resets when entering E4 challenge
-	0x05BB	EVENT			ELITE_4_KAREN	Resets when entering E4 challenge
-	0x05BC	EVENT			CHAMPION_LANCE	Resets when entering E4 challenge
-	0x05BD	_UNUSED				unused
-	0x05BE	_UNUSED				unused
-	0x05BF	_UNUSED				unused
-	0x05C0	_UNUSED				unused
-	0x05C1	_UNUSED				unused
-	0x05C2	_UNUSED				unused
-	0x05C3	_UNUSED				unused
-	0x05C4	_UNUSED				unused
-	0x05C5	_UNUSED				unused
-	0x05C6	_UNUSED				unused
-	0x05C7	_UNUSED				unused
-	0x05C8	_UNUSED				unused
-	0x05C9	_UNUSED				unused
-	0x05CA	_UNUSED				unused
-	0x05CB	_UNUSED				unused
-	0x05CC	_UNUSED				unused
-	0x05CD	_UNUSED				unused
-	0x05CE	_UNUSED				unused
-	0x05CF	_UNUSED				unused
-	0x05D0	_UNUSED				unused
-	0x05D1	_UNUSED				unused
-	0x05D2	_UNUSED				unused
-	0x05D3	_UNUSED				unused
-	0x05D4	_UNUSED				unused
-	0x05D5	_UNUSED				unused
-	0x05D6	_UNUSED				unused
-	0x05D7	_UNUSED				unused
-	0x05D8	_UNUSED				unused
-	0x05D9	_UNUSED				unused
-	0x05DA	_UNUSED				unused
-	0x05DB	_UNUSED				unused
-	0x05DC	_UNUSED				unused
-	0x05DD	_UNUSED				unused
-	0x05DE	_UNUSED				unused
-	0x05DF	_UNUSED				unused
-	0x05E0	_UNUSED				unused
-	0x05E1	_UNUSED				unused
-	0x05E2	_UNUSED				unused
-	0x05E3	_UNUSED				unused
-	0x05E4	_UNUSED				unused
-	0x05E5	_UNUSED				unused
-	0x05E6	_UNUSED				unused
-	0x05E7	_UNUSED				unused
-	0x05E8	_UNUSED				unused
-	0x05E9	_UNUSED				unused
-	0x05EA	_UNUSED				unused
-	0x05EB	_UNUSED				unused
-	0x05EC	_UNUSED				unused
-	0x05ED	_UNUSED				unused
-	0x05EE	_UNUSED				unused
-	0x05EF	_UNUSED				unused
-	0x05F0	_UNUSED				unused
-	0x05F1	_UNUSED				unused
-	0x05F2	_UNUSED				unused
-	0x05F3	_UNUSED				unused
-	0x05F4	_UNUSED				unused
-	0x05F5	_UNUSED				unused
-	0x05F6	_UNUSED				unused
-	0x05F7	_UNUSED				unused
-	0x05F8	_UNUSED				unused
-	0x05F9	_UNUSED				unused
-	0x05FA	_UNUSED				unused
-	0x05FB	_UNUSED				unused
-	0x05FC	_UNUSED				unused
-	0x05FD	_UNUSED				unused
-	0x05FE	_UNUSED				unused
-	0x05FF	_UNUSED				unused
-	0x0600	_UNUSED				unused
-	0x0601	_UNUSED				unused
-	0x0602	_UNUSED				unused
-	0x0603	_UNUSED				unused
-	0x0604	_UNUSED				unused
-	0x0605	_UNUSED				unused
-	0x0606	_UNUSED				unused
-	0x0607	_UNUSED				unused
-	0x0608	_UNUSED				unused
-	0x0609	_UNUSED				unused
-	0x060A	_UNUSED				unused
-	0x060B	_UNUSED				unused
-	0x060C	_UNUSED				unused
-	0x060D	_UNUSED				unused
-	0x060E	_UNUSED				unused
-	0x060F	_UNUSED				unused
-	0x0610	_UNUSED				unused
-	0x0611	_UNUSED				unused
-	0x0612	_UNUSED				unused
-	0x0613	_UNUSED				unused
-	0x0614	_UNUSED				unused
-	0x0615	_UNUSED				unused
-	0x0616	_UNUSED				unused
-	0x0617	_UNUSED				unused
-	0x0618	_UNUSED				unused
-	0x0619	_UNUSED				unused
-	0x061A	_UNUSED				unused
-	0x061B	_UNUSED				unused
-	0x061C	_UNUSED				unused
-	0x061D	_UNUSED				unused
-	0x061E	_UNUSED				unused
-	0x061F	_UNUSED				unused
-	0x0620	_UNUSED				unused
-	0x0621	_UNUSED				unused
-	0x0622	_UNUSED				unused
-	0x0623	_UNUSED				unused
-	0x0624	_UNUSED				unused
-	0x0625	_UNUSED				unused
-	0x0626	_UNUSED				unused
-	0x0627	_UNUSED				unused
-	0x0628	_UNUSED				unused
-	0x0629	_UNUSED				unused
-	0x062A	_UNUSED				unused
-	0x062B	_UNUSED				unused
-	0x062C	_UNUSED				unused
-	0x062D	_UNUSED				unused
-	0x062E	_UNUSED				unused
-	0x062F	_UNUSED				unused
-	0x0630	_UNUSED				unused
-	0x0631	_UNUSED				unused
-	0x0632	_UNUSED				unused
-	0x0633	_UNUSED				unused
-	0x0634	_UNUSED				unused
-	0x0635	_UNUSED				unused
-	0x0636	_UNUSED				unused
-	0x0637	_UNUSED				unused
-	0x0638	_UNUSED				unused
-	0x0639	_UNUSED				unused
-	0x063A	_UNUSED				unused
-	0x063B	_UNUSED				unused
-	0x063C	_UNUSED				unused
-	0x063D	_UNUSED				unused
-	0x063E	_UNUSED				unused
-	0x063F	_UNUSED				unused
+	0x05B8	EVENT			ELITE_4_WILL	
+	0x05B9	EVENT			ELITE_4_KOGA	
+	0x05BA	EVENT			ELITE_4_BRUNO	
+	0x05BB	EVENT			ELITE_4_KAREN	
+	0x05BC	EVENT			CHAMPION_LANCE	
+	0x05BD	_UNUSED				
+	0x05BE	_UNUSED				
+	0x05BF	_UNUSED				
+	0x05C0	_UNUSED				
+	0x05C1	_UNUSED				
+	0x05C2	_UNUSED				
+	0x05C3	_UNUSED				
+	0x05C4	_UNUSED				
+	0x05C5	_UNUSED				
+	0x05C6	_UNUSED				
+	0x05C7	_UNUSED				
+	0x05C8	_UNUSED				
+	0x05C9	_UNUSED				
+	0x05CA	_UNUSED				
+	0x05CB	_UNUSED				
+	0x05CC	_UNUSED				
+	0x05CD	_UNUSED				
+	0x05CE	_UNUSED				
+	0x05CF	_UNUSED				
+	0x05D0	_UNUSED				
+	0x05D1	_UNUSED				
+	0x05D2	_UNUSED				
+	0x05D3	_UNUSED				
+	0x05D4	_UNUSED				
+	0x05D5	_UNUSED				
+	0x05D6	_UNUSED				
+	0x05D7	_UNUSED				
+	0x05D8	_UNUSED				
+	0x05D9	_UNUSED				
+	0x05DA	_UNUSED				
+	0x05DB	_UNUSED				
+	0x05DC	_UNUSED				
+	0x05DD	_UNUSED				
+	0x05DE	_UNUSED				
+	0x05DF	_UNUSED				
+	0x05E0	_UNUSED				
+	0x05E1	_UNUSED				
+	0x05E2	_UNUSED				
+	0x05E3	_UNUSED				
+	0x05E4	_UNUSED				
+	0x05E5	_UNUSED				
+	0x05E6	_UNUSED				
+	0x05E7	_UNUSED				
+	0x05E8	_UNUSED				
+	0x05E9	_UNUSED				
+	0x05EA	_UNUSED				
+	0x05EB	_UNUSED				
+	0x05EC	_UNUSED				
+	0x05ED	_UNUSED				
+	0x05EE	_UNUSED				
+	0x05EF	_UNUSED				
+	0x05F0	_UNUSED				
+	0x05F1	_UNUSED				
+	0x05F2	_UNUSED				
+	0x05F3	_UNUSED				
+	0x05F4	_UNUSED				
+	0x05F5	_UNUSED				
+	0x05F6	_UNUSED				
+	0x05F7	_UNUSED				
+	0x05F8	_UNUSED				
+	0x05F9	_UNUSED				
+	0x05FA	_UNUSED				
+	0x05FB	_UNUSED				
+	0x05FC	_UNUSED				
+	0x05FD	_UNUSED				
+	0x05FE	_UNUSED				
+	0x05FF	_UNUSED				
+	0x0600	_UNUSED				
+	0x0601	_UNUSED				
+	0x0602	_UNUSED				
+	0x0603	_UNUSED				
+	0x0604	_UNUSED				
+	0x0605	_UNUSED				
+	0x0606	_UNUSED				
+	0x0607	_UNUSED				
+	0x0608	_UNUSED				
+	0x0609	_UNUSED				
+	0x060A	_UNUSED				
+	0x060B	_UNUSED				
+	0x060C	_UNUSED				
+	0x060D	_UNUSED				
+	0x060E	_UNUSED				
+	0x060F	_UNUSED				
+	0x0610	_UNUSED				
+	0x0611	_UNUSED				
+	0x0612	_UNUSED				
+	0x0613	_UNUSED				
+	0x0614	_UNUSED				
+	0x0615	_UNUSED				
+	0x0616	_UNUSED				
+	0x0617	_UNUSED				
+	0x0618	_UNUSED				
+	0x0619	_UNUSED				
+	0x061A	_UNUSED				
+	0x061B	_UNUSED				
+	0x061C	_UNUSED				
+	0x061D	_UNUSED				
+	0x061E	_UNUSED				
+	0x061F	_UNUSED				
+	0x0620	_UNUSED				
+	0x0621	_UNUSED				
+	0x0622	_UNUSED				
+	0x0623	_UNUSED				
+	0x0624	_UNUSED				
+	0x0625	_UNUSED				
+	0x0626	_UNUSED				
+	0x0627	_UNUSED				
+	0x0628	_UNUSED				
+	0x0629	_UNUSED				
+	0x062A	_UNUSED				
+	0x062B	_UNUSED				
+	0x062C	_UNUSED				
+	0x062D	_UNUSED				
+	0x062E	_UNUSED				
+	0x062F	_UNUSED				
+	0x0630	_UNUSED				
+	0x0631	_UNUSED				
+	0x0632	_UNUSED				
+	0x0633	_UNUSED				
+	0x0634	_UNUSED				
+	0x0635	_UNUSED				
+	0x0636	_UNUSED				
+	0x0637	_UNUSED				
+	0x0638	_UNUSED				
+	0x0639	_UNUSED				
+	0x063A	_UNUSED				
+	0x063B	_UNUSED				
+	0x063C	_UNUSED				
+	0x063D	_UNUSED				
+	0x063E	_UNUSED				
+	0x063F	_UNUSED				
 	0x0640	EVENT			CYNDAQUIL_POKEBALL_IN_ELMS_LAB	
 	0x0641	EVENT			TOTODILE_POKEBALL_IN_ELMS_LAB	
 	0x0642	EVENT			CHIKORITA_POKEBALL_IN_ELMS_LAB	
@@ -1894,10 +1894,10 @@
 	0x0765	EVENT			BURNED_TOWER_FIREBREATHER_DICK_ASHES	
 	0x0766	EVENT			ECRUTEAK_TIN_TOWER_ENTRANCE_SAGE_LEFT	
 	0x0767	EVENT			ECRUTEAK_TIN_TOWER_ENTRANCE_SAGE_RIGHT	
-	0x0768	_UNUSED				unused
-	0x0769	_UNUSED				unused
-	0x076A	_UNUSED				unused
-	0x076B	_UNUSED				unused
+	0x0768	_UNUSED				
+	0x0769	_UNUSED				
+	0x076A	_UNUSED				
+	0x076B	_UNUSED				
 	0x076C	EVENT			ROUTE_24_ROCKET	
 	0x076D	EVENT			CERULEAN_GYM_ROCKET	
 	0x076E	EVENT			ROUTE_25_MISTY_BOYFRIEND	
@@ -1930,71 +1930,71 @@
 315	0x0789	FIELD ITEM	Route 12		ROUTE_12_NUGGET	
 300	0x078A	FIELD ITEM	Route 15		ROUTE_15_PP_UP	
 350	0x078B	FIELD ITEM	Route 25		ROUTE_25_PROTEIN	
-	0x078C	_UNUSED				unused
-	0x078D	_UNUSED				unused
-	0x078E	_UNUSED				unused
-	0x078F	_UNUSED				unused
-	0x0790	_UNUSED				unused
-	0x0791	_UNUSED				unused
-	0x0792	_UNUSED				unused
-	0x0793	_UNUSED				unused
-	0x0794	_UNUSED				unused
-	0x0795	_UNUSED				unused
-	0x0796	_UNUSED				unused
-	0x0797	_UNUSED				unused
-	0x0798	_UNUSED				unused
-	0x0799	_UNUSED				unused
-	0x079A	_UNUSED				unused
-	0x079B	_UNUSED				unused
-	0x079C	_UNUSED				unused
-	0x079D	_UNUSED				unused
-	0x079E	_UNUSED				unused
-	0x079F	_UNUSED				unused
-	0x07A0	_UNUSED				unused
-	0x07A1	_UNUSED				unused
-	0x07A2	_UNUSED				unused
-	0x07A3	_UNUSED				unused
-	0x07A4	_UNUSED				unused
-	0x07A5	_UNUSED				unused
-	0x07A6	_UNUSED				unused
-	0x07A7	_UNUSED				unused
-	0x07A8	_UNUSED				unused
-	0x07A9	_UNUSED				unused
-	0x07AA	_UNUSED				unused
-	0x07AB	_UNUSED				unused
-	0x07AC	_UNUSED				unused
-	0x07AD	_UNUSED				unused
-	0x07AE	_UNUSED				unused
-	0x07AF	_UNUSED				unused
-	0x07B0	_UNUSED				unused
-	0x07B1	_UNUSED				unused
-	0x07B2	_UNUSED				unused
-	0x07B3	_UNUSED				unused
-	0x07B4	_UNUSED				unused
-	0x07B5	_UNUSED				unused
-	0x07B6	_UNUSED				unused
-	0x07B7	_UNUSED				unused
-	0x07B8	_UNUSED				unused
-	0x07B9	_UNUSED				unused
-	0x07BA	_UNUSED				unused
-	0x07BB	_UNUSED				unused
-	0x07BC	_UNUSED				unused
-	0x07BD	_UNUSED				unused
-	0x07BE	_UNUSED				unused
-	0x07BF	_UNUSED				unused
-	0x07C0	_UNUSED				unused
-	0x07C1	_UNUSED				unused
-	0x07C2	_UNUSED				unused
-	0x07C3	_UNUSED				unused
-	0x07C4	_UNUSED				unused
-	0x07C5	_UNUSED				unused
-	0x07C6	_UNUSED				unused
-	0x07C7	_UNUSED				unused
-	0x07C8	_UNUSED				unused
-	0x07C9	_UNUSED				unused
-	0x07CA	_UNUSED				unused
-	0x07CB	_UNUSED				unused
-	0x07CC	_UNUSED				unused
-	0x07CD	_UNUSED				unused
-	0x07CE	_UNUSED				unused
-	0x07CF	_UNUSED				unused
+	0x078C	_UNUSED				
+	0x078D	_UNUSED				
+	0x078E	_UNUSED				
+	0x078F	_UNUSED				
+	0x0790	_UNUSED				
+	0x0791	_UNUSED				
+	0x0792	_UNUSED				
+	0x0793	_UNUSED				
+	0x0794	_UNUSED				
+	0x0795	_UNUSED				
+	0x0796	_UNUSED				
+	0x0797	_UNUSED				
+	0x0798	_UNUSED				
+	0x0799	_UNUSED				
+	0x079A	_UNUSED				
+	0x079B	_UNUSED				
+	0x079C	_UNUSED				
+	0x079D	_UNUSED				
+	0x079E	_UNUSED				
+	0x079F	_UNUSED				
+	0x07A0	_UNUSED				
+	0x07A1	_UNUSED				
+	0x07A2	_UNUSED				
+	0x07A3	_UNUSED				
+	0x07A4	_UNUSED				
+	0x07A5	_UNUSED				
+	0x07A6	_UNUSED				
+	0x07A7	_UNUSED				
+	0x07A8	_UNUSED				
+	0x07A9	_UNUSED				
+	0x07AA	_UNUSED				
+	0x07AB	_UNUSED				
+	0x07AC	_UNUSED				
+	0x07AD	_UNUSED				
+	0x07AE	_UNUSED				
+	0x07AF	_UNUSED				
+	0x07B0	_UNUSED				
+	0x07B1	_UNUSED				
+	0x07B2	_UNUSED				
+	0x07B3	_UNUSED				
+	0x07B4	_UNUSED				
+	0x07B5	_UNUSED				
+	0x07B6	_UNUSED				
+	0x07B7	_UNUSED				
+	0x07B8	_UNUSED				
+	0x07B9	_UNUSED				
+	0x07BA	_UNUSED				
+	0x07BB	_UNUSED				
+	0x07BC	_UNUSED				
+	0x07BD	_UNUSED				
+	0x07BE	_UNUSED				
+	0x07BF	_UNUSED				
+	0x07C0	_UNUSED				
+	0x07C1	_UNUSED				
+	0x07C2	_UNUSED				
+	0x07C3	_UNUSED				
+	0x07C4	_UNUSED				
+	0x07C5	_UNUSED				
+	0x07C6	_UNUSED				
+	0x07C7	_UNUSED				
+	0x07C8	_UNUSED				
+	0x07C9	_UNUSED				
+	0x07CA	_UNUSED				
+	0x07CB	_UNUSED				
+	0x07CC	_UNUSED				
+	0x07CD	_UNUSED				
+	0x07CE	_UNUSED				
+	0x07CF	_UNUSED				
