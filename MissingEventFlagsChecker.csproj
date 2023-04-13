@@ -76,17 +76,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="flagslist\flags_gen2gs.txt" />
     <EmbeddedResource Include="SelectedFlagsEditor.resx">
       <DependentUpon>SelectedFlagsEditor.cs</DependentUpon>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
+    <EmbeddedResource Include="flagslist\flags_gen2gs.txt" />
     <EmbeddedResource Include="flagslist\flags_gen7blgpe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="flagslist\flags_gen4dp.txt" />
     <EmbeddedResource Include="flagslist\flags_gen4pt.txt" />
+    <EmbeddedResource Include="flagslist\flags_gen2c.txt" />
+    <EmbeddedResource Include="flagslist\flags_gen3e.txt" />
+    <EmbeddedResource Include="flagslist\flags_gen3frlg.txt" />
+    <EmbeddedResource Include="flagslist\flags_gen3rs.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
