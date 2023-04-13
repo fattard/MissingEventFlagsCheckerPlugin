@@ -13,10 +13,58 @@ namespace MissingEventFlagsCheckerPlugin
         protected override void InitFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
-            //m_eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
+            var savEventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
             m_eventFlagsList.Clear();
+
+            for (int idx = 0; idx < savEventFlags.Length; ++idx)
+            {
+                // items:
+                // - 0x9D8
+
+                // - 0xBAF
+
+                // ? 0xBDD
+                // ? 0xBFF
+
+                if (idx >= 0x9D8 && idx < 0xBB0)
+                {
+                    int i = idx - 0x9D8;
+                    m_eventFlagsList.Add(new FlagDetail(idx, FlagType.FieldItem, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
+                }
+
+                // FlagType.TrainerBattle:
+                // - 0xC00
+
+                // - 0xE6F
+
+                else if (idx >= 0xC00 && idx < 0xE70)
+                {
+                    int i = idx - 0xC00;
+                    m_eventFlagsList.Add(new FlagDetail(idx, FlagType.TrainerBattle, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
+                }
+
+                // Misc
+                else
+                {
+                    m_eventFlagsList.Add(new FlagDetail(idx, FlagType._Unknown, "", "") { IsSet = savEventFlags[idx] });
+                }
+            }
+
         }
 
+        public override bool SupportsEditingFlag(FlagType flagType)
+        {
+            switch (flagType)
+            {
+                case FlagType.FieldItem:
+                case FlagType.HiddenItem:
+                case FlagType.TrainerBattle:
+                    return true;
+
+                default:
+                    return false;
+            }
+        }
 
         public override void MarkFlags(FlagType flagType)
         {
@@ -28,56 +76,42 @@ namespace MissingEventFlagsCheckerPlugin
             ChangeFlagsVal(flagType, value: false);
         }
 
-
         void ChangeFlagsVal(FlagType flagType, bool value)
         {
-            var flagHelper = (m_savFile as IEventFlagArray);
-
-            switch (flagType)
+            if (SupportsEditingFlag(flagType))
             {
-                case FlagType.FieldItem:
-                    for (int i = 0x9D8; i <= 0xBAF; ++i)
-                        flagHelper.SetEventFlag(i, value);
-                    break;
+                var flagHelper = (m_savFile as IEventFlagArray);
 
-                case FlagType.TrainerBattle:
-                    for (int i = 0xC00; i <= 0xE6F; ++i)
-                        flagHelper.SetEventFlag(i, value);
-                    break;
-                
+                foreach (var f in m_eventFlagsList)
+                {
+                    if (f.FlagTypeVal == flagType)
+                    {
+                        f.IsSet = value;
+                        flagHelper.SetEventFlag(f.FlagIdx, value);
+                    }
+                }
             }
         }
 
-        protected override void CheckAllMissingFlags()
+        protected override bool ShouldExportEvent(FlagDetail eventDetail)
         {
-            // items
-
-            // - 0x9D8
-
-            // - 0xBAF
-
-            // ? 0xBDD
-            // ? 0xBFF
-
-            for (int i = 0x9D8; i <= 0xBAF; ++i)
+            if (eventDetail.FlagTypeVal == FlagType.GeneralEvent)
             {
-                CheckMissingFlag(i, FlagType.FieldItem, "", (i - 0x9D8).ToString("D3") + $" (Flag 0x{i.ToString("X3")})");
+                bool shouldInclude = false;
+
+                switch (eventDetail.FlagIdx)
+                {
+                    default:
+                        shouldInclude = false;
+                        break;
+                }
+
+                return shouldInclude;
             }
-
-
-            // Trainers (??)
-
-            // - 0xC00
-
-            // - 0xE6F
-
-
-            for (int i = 0xC00; i <= 0xE6F; ++i)
+            else
             {
-                CheckMissingFlag(i, FlagType.TrainerBattle, "", (i - 0xC00).ToString("D3") + $" (Flag 0x{i.ToString("X3")})");
+                return base.ShouldExportEvent(eventDetail);
             }
-
-
         }
 
     }
