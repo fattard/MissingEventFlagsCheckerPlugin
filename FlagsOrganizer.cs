@@ -94,9 +94,6 @@ namespace MissingEventFlagsCheckerPlugin
 
         protected List<FlagDetail> m_eventFlagsList = new List<FlagDetail>(4096);
 
-        //temp
-        protected bool isAssembleChecklist = false;
-
         protected virtual void InitFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
@@ -124,9 +121,6 @@ namespace MissingEventFlagsCheckerPlugin
                 } while (s != null);
             }
         }
-
-        //temp
-        protected virtual void CheckAllMissingFlags() { }
 
 
         #region Actions
@@ -172,28 +166,16 @@ namespace MissingEventFlagsCheckerPlugin
                 sb.AppendFormat("FLAG_0x{0:X4} {1}\t{2}\r\n", i, m_eventFlagsList[i].IsSet,
                     m_eventFlagsList[i].FlagTypeVal == FlagType._Unused ? "UNUSED" : m_eventFlagsList[i].ToString());
 #else
-                sb.AppendFormat("FLAG_0x{0:X4} {1}\r\n", i, m_missingEventFlagsList[i].IsSet);
+                sb.AppendFormat("FLAG_0x{0:X4} {1}\r\n", i, m_eventFlagsList[i].IsSet);
 #endif
             }
 
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
         }
 
-        public virtual void MarkFlags(FlagType flagType) { }
-        public virtual void UnmarkFlags(FlagType flagType) { }
-        public virtual bool SupportsEditingFlag(FlagType flagType)
-        {
-            switch (flagType)
-            {
-                case FlagType.FieldItem:
-                case FlagType.HiddenItem:
-                case FlagType.TrainerBattle:
-                    return true;
-
-                default:
-                    return false;
-            }
-        }
+        public abstract void MarkFlags(FlagType flagType);
+        public abstract void UnmarkFlags(FlagType flagType);
+        public abstract bool SupportsEditingFlag(FlagType flagType);
 
 #endregion
 
@@ -210,22 +192,6 @@ namespace MissingEventFlagsCheckerPlugin
                     return true;
             }
         }
-
-
-        protected void CheckMissingFlag(int flagIdx, FlagType flagType, string mapLocation, string flagDetail)
-        {
-            if (isAssembleChecklist)
-            {
-                m_eventFlagsList.Add(new FlagDetail(flagIdx, flagType, mapLocation, flagDetail) { IsSet = IsFlagSet(flagIdx) });
-            }
-
-            else if (!IsFlagSet(flagIdx))
-            {
-                m_eventFlagsList.Add(new FlagDetail(flagIdx, flagType, mapLocation, flagDetail));
-            }
-        }
-
-        protected bool IsFlagSet(int flagIdx) => m_eventFlagsList[flagIdx].IsSet;
 
         protected string ReadFlagsListRes(string resName)
         {

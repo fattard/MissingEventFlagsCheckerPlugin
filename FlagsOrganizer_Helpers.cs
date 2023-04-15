@@ -134,11 +134,20 @@ namespace MissingEventFlagsCheckerPlugin
             m_savFile = savFile;
             bool[] savEventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
             m_eventFlagsList.Clear();
+
+            for (int i = 0; i < savEventFlags.Length; ++i)
+            {
+                m_eventFlagsList.Add(new FlagDetail(i, FlagType._Unknown, "", "") { IsSet = savEventFlags[i] });
+            }
         }
 
         public override void ExportMissingFlags() { }
 
         public override void ExportChecklist() { }
+
+        public override void MarkFlags(FlagType flagType) { }
+
+        public override void UnmarkFlags(FlagType flagType) { }
 
         public override bool SupportsEditingFlag(FlagType flagType) { return false; }
     }
@@ -180,6 +189,10 @@ namespace MissingEventFlagsCheckerPlugin
 
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
         }
+
+        public override void MarkFlags(FlagType flagType) { }
+
+        public override void UnmarkFlags(FlagType flagType) { }
 
         public override bool SupportsEditingFlag(FlagType flagType) { return false; }
     }
