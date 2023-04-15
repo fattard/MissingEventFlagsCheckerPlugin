@@ -54,6 +54,7 @@
     <Compile Include="FlagsGen3FRLG.cs" />
     <Compile Include="FlagsGen3RS.cs" />
     <Compile Include="FlagsGen4DP.cs" />
+    <Compile Include="FlagsGen8SWSH.cs" />
     <Compile Include="FlagsGen8bsBDSP.cs" />
     <Compile Include="FlagsGen7bGPGE.cs" />
     <Compile Include="FlagsGen7SM.cs" />
@@ -88,6 +89,7 @@
     <EmbeddedResource Include="flagslist\flags_gen3frlg.txt" />
     <EmbeddedResource Include="flagslist\flags_gen3rs.txt" />
     <EmbeddedResource Include="flagslist\flags_gen8bsbdsp.txt" />
+    <EmbeddedResource Include="flagslist\flags_gen8swsh.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

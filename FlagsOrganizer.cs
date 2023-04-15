@@ -336,12 +336,13 @@ namespace MissingEventFlagsCheckerPlugin
                     flagsOrganizer = new FlagsGen8bsBDSP();
                     break;
 
-
-
-
                 case GameVersion.SW:
                 case GameVersion.SH:
                 case GameVersion.SWSH:
+                    flagsOrganizer = new FlagsGen8SWSH();
+                    break;
+
+
                 case GameVersion.PLA:
                 case GameVersion.SL:
                 case GameVersion.VL:
