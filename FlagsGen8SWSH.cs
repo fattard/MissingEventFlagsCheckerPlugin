@@ -118,6 +118,11 @@ namespace MissingEventFlagsCheckerPlugin
 
                 return shouldInclude;
             }
+            else if (eventDetail.FlagTypeVal == FlagType.StaticBattle)
+            {
+                // temporary until figuring out which is which
+                return false;
+            }
             else
             {
                 return base.ShouldExportEvent(eventDetail);
