@@ -17,7 +17,7 @@ namespace MissingEventFlagsCheckerPlugin
             FieldItem,
             HiddenItem,
             TrainerBattle,
-            StationaryBattle,
+            StaticBattle,
             InGameTrade,
             Gift,
             GeneralEvent,

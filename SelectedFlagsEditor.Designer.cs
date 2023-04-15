@@ -36,11 +36,11 @@ namespace MissingEventFlagsCheckerPlugin
             this.trainerBattlesChk = new System.Windows.Forms.CheckBox();
             this.giftsChk = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.stationaryChk = new System.Windows.Forms.CheckBox();
-            this.inGameTradesChk = new System.Windows.Forms.CheckBox();
-            this.sideEventsChk = new System.Windows.Forms.CheckBox();
-            this.berryTreesChk = new System.Windows.Forms.CheckBox();
             this.miscEventsChk = new System.Windows.Forms.CheckBox();
+            this.berryTreesChk = new System.Windows.Forms.CheckBox();
+            this.sideEventsChk = new System.Windows.Forms.CheckBox();
+            this.inGameTradesChk = new System.Windows.Forms.CheckBox();
+            this.staticEncounterChk = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -110,7 +110,7 @@ namespace MissingEventFlagsCheckerPlugin
             this.groupBox1.Controls.Add(this.berryTreesChk);
             this.groupBox1.Controls.Add(this.sideEventsChk);
             this.groupBox1.Controls.Add(this.inGameTradesChk);
-            this.groupBox1.Controls.Add(this.stationaryChk);
+            this.groupBox1.Controls.Add(this.staticEncounterChk);
             this.groupBox1.Controls.Add(this.giftsChk);
             this.groupBox1.Controls.Add(this.fieldItemsChk);
             this.groupBox1.Controls.Add(this.trainerBattlesChk);
@@ -121,35 +121,15 @@ namespace MissingEventFlagsCheckerPlugin
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
-            // stationaryChk
+            // miscEventsChk
             // 
-            this.stationaryChk.AutoSize = true;
-            this.stationaryChk.Location = new System.Drawing.Point(7, 103);
-            this.stationaryChk.Name = "stationaryChk";
-            this.stationaryChk.Size = new System.Drawing.Size(108, 17);
-            this.stationaryChk.TabIndex = 5;
-            this.stationaryChk.Text = "Stationary Battles";
-            this.stationaryChk.UseVisualStyleBackColor = true;
-            // 
-            // inGameTradesChk
-            // 
-            this.inGameTradesChk.AutoSize = true;
-            this.inGameTradesChk.Location = new System.Drawing.Point(7, 127);
-            this.inGameTradesChk.Name = "inGameTradesChk";
-            this.inGameTradesChk.Size = new System.Drawing.Size(102, 17);
-            this.inGameTradesChk.TabIndex = 6;
-            this.inGameTradesChk.Text = "In-Game Trades";
-            this.inGameTradesChk.UseVisualStyleBackColor = true;
-            // 
-            // sideEventsChk
-            // 
-            this.sideEventsChk.AutoSize = true;
-            this.sideEventsChk.Location = new System.Drawing.Point(7, 150);
-            this.sideEventsChk.Name = "sideEventsChk";
-            this.sideEventsChk.Size = new System.Drawing.Size(83, 17);
-            this.sideEventsChk.TabIndex = 7;
-            this.sideEventsChk.Text = "Side Events";
-            this.sideEventsChk.UseVisualStyleBackColor = true;
+            this.miscEventsChk.AutoSize = true;
+            this.miscEventsChk.Location = new System.Drawing.Point(7, 173);
+            this.miscEventsChk.Name = "miscEventsChk";
+            this.miscEventsChk.Size = new System.Drawing.Size(87, 17);
+            this.miscEventsChk.TabIndex = 8;
+            this.miscEventsChk.Text = "Misc. Events";
+            this.miscEventsChk.UseVisualStyleBackColor = true;
             // 
             // berryTreesChk
             // 
@@ -161,15 +141,35 @@ namespace MissingEventFlagsCheckerPlugin
             this.berryTreesChk.Text = "Berry Trees";
             this.berryTreesChk.UseVisualStyleBackColor = true;
             // 
-            // miscEventsChk
+            // sideEventsChk
             // 
-            this.miscEventsChk.AutoSize = true;
-            this.miscEventsChk.Location = new System.Drawing.Point(7, 173);
-            this.miscEventsChk.Name = "miscEventsChk";
-            this.miscEventsChk.Size = new System.Drawing.Size(87, 17);
-            this.miscEventsChk.TabIndex = 8;
-            this.miscEventsChk.Text = "Misc. Events";
-            this.miscEventsChk.UseVisualStyleBackColor = true;
+            this.sideEventsChk.AutoSize = true;
+            this.sideEventsChk.Location = new System.Drawing.Point(7, 150);
+            this.sideEventsChk.Name = "sideEventsChk";
+            this.sideEventsChk.Size = new System.Drawing.Size(83, 17);
+            this.sideEventsChk.TabIndex = 7;
+            this.sideEventsChk.Text = "Side Events";
+            this.sideEventsChk.UseVisualStyleBackColor = true;
+            // 
+            // inGameTradesChk
+            // 
+            this.inGameTradesChk.AutoSize = true;
+            this.inGameTradesChk.Location = new System.Drawing.Point(7, 127);
+            this.inGameTradesChk.Name = "inGameTradesChk";
+            this.inGameTradesChk.Size = new System.Drawing.Size(102, 17);
+            this.inGameTradesChk.TabIndex = 6;
+            this.inGameTradesChk.Text = "In-Game Trades";
+            this.inGameTradesChk.UseVisualStyleBackColor = true;
+            // 
+            // staticEncounterChk
+            // 
+            this.staticEncounterChk.AutoSize = true;
+            this.staticEncounterChk.Location = new System.Drawing.Point(7, 103);
+            this.staticEncounterChk.Name = "staticEncounterChk";
+            this.staticEncounterChk.Size = new System.Drawing.Size(88, 17);
+            this.staticEncounterChk.TabIndex = 5;
+            this.staticEncounterChk.Text = "Static Battles";
+            this.staticEncounterChk.UseVisualStyleBackColor = true;
             // 
             // SelectedFlagsEditor
             // 
@@ -196,7 +196,7 @@ namespace MissingEventFlagsCheckerPlugin
         private System.Windows.Forms.CheckBox trainerBattlesChk;
         private System.Windows.Forms.CheckBox giftsChk;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.CheckBox stationaryChk;
+        private System.Windows.Forms.CheckBox staticEncounterChk;
         private System.Windows.Forms.CheckBox miscEventsChk;
         private System.Windows.Forms.CheckBox berryTreesChk;
         private System.Windows.Forms.CheckBox sideEventsChk;

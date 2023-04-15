@@ -26,8 +26,9 @@ namespace MissingEventFlagsCheckerPlugin
                     flagType = FlagsOrganizer.FlagType.TrainerBattle;
                     break;
 
-                case "STATIONARY BATTLE":
-                    flagType = FlagsOrganizer.FlagType.StationaryBattle;
+                case "STATIC BATTLE":
+                case "STATIONARY_BATTLE":
+                    flagType = FlagsOrganizer.FlagType.StaticBattle;
                     break;
 
                 case "IN-GAME TRADE":
@@ -84,8 +85,8 @@ namespace MissingEventFlagsCheckerPlugin
                     flagTypeTxt = "TRAINER BATTLE";
                     break;
 
-                case FlagsOrganizer.FlagType.StationaryBattle:
-                    flagTypeTxt = "STATIONARY BATTLE";
+                case FlagsOrganizer.FlagType.StaticBattle:
+                    flagTypeTxt = "STATIC BATTLE";
                     break;
 
                 case FlagsOrganizer.FlagType.InGameTrade:
@@ -155,22 +156,29 @@ namespace MissingEventFlagsCheckerPlugin
 
     class DummyOrgBlockFlags : FlagsOrganizer
     {
-        Dictionary<uint, bool> m_blockEventFlags;
+        List<SCBlock> m_blockEventFlags;
 
         protected override void InitFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
 
-            m_blockEventFlags = new Dictionary<uint, bool>();
+            m_blockEventFlags = new List<SCBlock>(5000);
             foreach (var b in (m_savFile as ISCBlockArray).AllBlocks)
             {
+                // Filter only bool blocks
                 if (b.Type == SCTypeCode.Bool1 || b.Type == SCTypeCode.Bool2)
                 {
-                    m_blockEventFlags.Add(b.Key, (b.Type == SCTypeCode.Bool2));
+                    m_blockEventFlags.Add(b);
                 }
             }
 
             m_eventFlagsList.Clear();
+
+            for (int i = 0; i < m_blockEventFlags.Count; ++i)
+            {
+                var b = m_blockEventFlags[i];
+                m_eventFlagsList.Add(new FlagDetail((int)b.Key, FlagType._Unknown, "", "") { IsSet = b.Type == SCTypeCode.Bool2 });
+            }
         }
 
         public override void ExportMissingFlags() { }
@@ -179,12 +187,16 @@ namespace MissingEventFlagsCheckerPlugin
 
         public override void DumpAllFlags()
         {
-            StringBuilder sb = new StringBuilder(m_blockEventFlags.Count);
-
-            var keys = new List<uint>(m_blockEventFlags.Keys);
-            for (int i = 0; i < keys.Count; ++i)
+            StringBuilder sb = new StringBuilder(100 * 1024);
+            
+            for (int i = 0; i < m_eventFlagsList.Count; ++i)
             {
-                sb.AppendFormat("FLAG_0x{0:X8} {1}\r\n", keys[i], m_blockEventFlags[keys[i]]);
+#if DEBUG
+                sb.AppendFormat("FLAG_0x{0:X8} {1}\t{2}\r\n", m_eventFlagsList[i].FlagIdx, m_eventFlagsList[i].IsSet,
+                    m_eventFlagsList[i].FlagTypeVal == FlagType._Unused ? "UNUSED" : m_eventFlagsList[i].ToString());
+#else
+                sb.AppendFormat("FLAG_0x{0:X8} {1}\r\n", m_eventFlagsList[i].FlagIdx, m_eventFlagsList[i].IsSet);
+#endif
             }
 
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());

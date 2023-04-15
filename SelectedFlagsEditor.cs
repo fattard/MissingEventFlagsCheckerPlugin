@@ -25,7 +25,7 @@ namespace MissingEventFlagsCheckerPlugin
             hiddenItemsChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.HiddenItem);
             giftsChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.Gift);
             trainerBattlesChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.TrainerBattle);
-            stationaryChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.StationaryBattle);
+            staticEncounterChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.StaticBattle);
             inGameTradesChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.InGameTrade);
             sideEventsChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.SideEvent);
             miscEventsChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.GeneralEvent);
@@ -46,8 +46,8 @@ namespace MissingEventFlagsCheckerPlugin
             if (trainerBattlesChk.Checked)
                 m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.TrainerBattle);
 
-            if (stationaryChk.Checked)
-                m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.StationaryBattle);
+            if (staticEncounterChk.Checked)
+                m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.StaticBattle);
 
             if (inGameTradesChk.Checked)
                 m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.InGameTrade);
@@ -78,8 +78,8 @@ namespace MissingEventFlagsCheckerPlugin
             if (trainerBattlesChk.Checked)
                 m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.TrainerBattle);
 
-            if (stationaryChk.Checked)
-                m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.StationaryBattle);
+            if (staticEncounterChk.Checked)
+                m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.StaticBattle);
 
             if (inGameTradesChk.Checked)
                 m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.InGameTrade);

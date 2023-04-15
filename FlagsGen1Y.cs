@@ -526,15 +526,15 @@ namespace MissingEventFlagsCheckerPlugin
             AddFlag(m_eventFlags[0x45D], FlagType.TrainerBattle, "", "BEAT_ROCK_TUNNEL_1_TRAINER_4");
             AddFlag(m_eventFlags[0x45E], FlagType.TrainerBattle, "", "BEAT_ROCK_TUNNEL_1_TRAINER_5");
             AddFlag(m_eventFlags[0x45F], FlagType.TrainerBattle, "", "BEAT_ROCK_TUNNEL_1_TRAINER_6");
-            AddFlag(m_eventFlags[0x461], FlagType.StationaryBattle, "", "BEAT_POWER_PLANT_VOLTORB_0");
-            AddFlag(m_eventFlags[0x462], FlagType.StationaryBattle, "", "BEAT_POWER_PLANT_VOLTORB_1");
-            AddFlag(m_eventFlags[0x463], FlagType.StationaryBattle, "", "BEAT_POWER_PLANT_VOLTORB_2");
-            AddFlag(m_eventFlags[0x464], FlagType.StationaryBattle, "", "BEAT_POWER_PLANT_VOLTORB_3");
-            AddFlag(m_eventFlags[0x465], FlagType.StationaryBattle, "", "BEAT_POWER_PLANT_VOLTORB_4");
-            AddFlag(m_eventFlags[0x466], FlagType.StationaryBattle, "", "BEAT_POWER_PLANT_VOLTORB_5");
-            AddFlag(m_eventFlags[0x467], FlagType.StationaryBattle, "", "BEAT_POWER_PLANT_VOLTORB_6");
-            AddFlag(m_eventFlags[0x468], FlagType.StationaryBattle, "", "BEAT_POWER_PLANT_VOLTORB_7");
-            AddFlag(m_eventFlags[0x469], FlagType.StationaryBattle, "", "BEAT_ZAPDOS");
+            AddFlag(m_eventFlags[0x461], FlagType.StaticBattle, "", "BEAT_POWER_PLANT_VOLTORB_0");
+            AddFlag(m_eventFlags[0x462], FlagType.StaticBattle, "", "BEAT_POWER_PLANT_VOLTORB_1");
+            AddFlag(m_eventFlags[0x463], FlagType.StaticBattle, "", "BEAT_POWER_PLANT_VOLTORB_2");
+            AddFlag(m_eventFlags[0x464], FlagType.StaticBattle, "", "BEAT_POWER_PLANT_VOLTORB_3");
+            AddFlag(m_eventFlags[0x465], FlagType.StaticBattle, "", "BEAT_POWER_PLANT_VOLTORB_4");
+            AddFlag(m_eventFlags[0x466], FlagType.StaticBattle, "", "BEAT_POWER_PLANT_VOLTORB_5");
+            AddFlag(m_eventFlags[0x467], FlagType.StaticBattle, "", "BEAT_POWER_PLANT_VOLTORB_6");
+            AddFlag(m_eventFlags[0x468], FlagType.StaticBattle, "", "BEAT_POWER_PLANT_VOLTORB_7");
+            AddFlag(m_eventFlags[0x469], FlagType.StaticBattle, "", "BEAT_ZAPDOS");
 
             AddFlag(m_eventFlags[0x471], FlagType.TrainerBattle, "", "BEAT_ROUTE_11_TRAINER_0");
             AddFlag(m_eventFlags[0x472], FlagType.TrainerBattle, "", "BEAT_ROUTE_11_TRAINER_1");
@@ -556,7 +556,7 @@ namespace MissingEventFlagsCheckerPlugin
             AddFlag(m_eventFlags[0x486], FlagType.TrainerBattle, "", "BEAT_ROUTE_12_TRAINER_4");
             AddFlag(m_eventFlags[0x487], FlagType.TrainerBattle, "", "BEAT_ROUTE_12_TRAINER_5");
             AddFlag(m_eventFlags[0x488], FlagType.TrainerBattle, "", "BEAT_ROUTE_12_TRAINER_6");
-            AddFlag(m_eventFlags[0x48F], FlagType.StationaryBattle, "", "BEAT_ROUTE12_SNORLAX");
+            AddFlag(m_eventFlags[0x48F], FlagType.StaticBattle, "", "BEAT_ROUTE12_SNORLAX");
 
             AddFlag(m_eventFlags[0x491], FlagType.TrainerBattle, "", "BEAT_ROUTE_13_TRAINER_0");
             AddFlag(m_eventFlags[0x492], FlagType.TrainerBattle, "", "BEAT_ROUTE_13_TRAINER_1");
@@ -598,7 +598,7 @@ namespace MissingEventFlagsCheckerPlugin
             AddFlag(m_eventFlags[0x4C4], FlagType.TrainerBattle, "", "BEAT_ROUTE_16_TRAINER_3");
             AddFlag(m_eventFlags[0x4C5], FlagType.TrainerBattle, "", "BEAT_ROUTE_16_TRAINER_4");
             AddFlag(m_eventFlags[0x4C6], FlagType.TrainerBattle, "", "BEAT_ROUTE_16_TRAINER_5");
-            AddFlag(m_eventFlags[0x4C9], FlagType.StationaryBattle, "", "BEAT_ROUTE16_SNORLAX");
+            AddFlag(m_eventFlags[0x4C9], FlagType.StaticBattle, "", "BEAT_ROUTE16_SNORLAX");
             AddFlag(m_eventFlags[0x4CE], FlagType.GeneralEvent, "", "GOT_HM02");
 
             AddFlag(m_eventFlags[0x4D1], FlagType.TrainerBattle, "", "BEAT_ROUTE_17_TRAINER_0");
@@ -656,7 +656,7 @@ namespace MissingEventFlagsCheckerPlugin
             AddFlag(m_eventFlags[0x53B], FlagType.TrainerBattle, "", "BEAT_VICTORY_ROAD_2_TRAINER_2");
             AddFlag(m_eventFlags[0x53C], FlagType.TrainerBattle, "", "BEAT_VICTORY_ROAD_2_TRAINER_3");
             AddFlag(m_eventFlags[0x53D], FlagType.TrainerBattle, "", "BEAT_VICTORY_ROAD_2_TRAINER_4");
-            AddFlag(m_eventFlags[0x53E], FlagType.StationaryBattle, "", "BEAT_MOLTRES");
+            AddFlag(m_eventFlags[0x53E], FlagType.StaticBattle, "", "BEAT_MOLTRES");
 
             AddFlag(m_eventFlags[0x540], FlagType.GeneralEvent, "", "GOT_NUGGET");
             AddFlag(m_eventFlags[0x541], FlagType.TrainerBattle, "", "BEAT_ROUTE24_ROCKET");
@@ -785,7 +785,7 @@ namespace MissingEventFlagsCheckerPlugin
 
             AddFlag(m_eventFlags[0x880], FlagType.GeneralEvent, "", "GOT_HM03");
 
-            AddFlag(m_eventFlags[0x8C1], FlagType.StationaryBattle, "", "BEAT_MEWTWO");
+            AddFlag(m_eventFlags[0x8C1], FlagType.StaticBattle, "", "BEAT_MEWTWO");
 
             AddFlag(m_eventFlags[0x911], FlagType.TrainerBattle, "", "BEAT_VICTORY_ROAD_1_TRAINER_0");
             AddFlag(m_eventFlags[0x912], FlagType.TrainerBattle, "", "BEAT_VICTORY_ROAD_1_TRAINER_1");
@@ -799,7 +799,7 @@ namespace MissingEventFlagsCheckerPlugin
             AddFlag(m_eventFlags[0x9B7], FlagType.TrainerBattle, "", "BEAT_ROCK_TUNNEL_2_TRAINER_6");
             AddFlag(m_eventFlags[0x9B8], FlagType.TrainerBattle, "", "BEAT_ROCK_TUNNEL_2_TRAINER_7");
 
-            AddFlag(m_eventFlags[0x9DA], FlagType.StationaryBattle, "", "BEAT_ARTICUNO");
+            AddFlag(m_eventFlags[0x9DA], FlagType.StaticBattle, "", "BEAT_ARTICUNO");
         }
     }
 
