@@ -12,11 +12,15 @@ namespace MissingEventFlagsCheckerPlugin
         static string s_flagsList_res = null;
 
         BattleTrainerStatus8b m_battleTrainerStatus;
+        FlagWork8b m_flagWork;
+        int sysFlagStart;
+        int trainerFlagStart;
 
         protected override void InitFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
             m_battleTrainerStatus = (m_savFile as SAV8BS).BattleTrainer;
+            m_flagWork = (m_savFile as SAV8BS).FlagWork;
 
             if (s_flagsList_res == null)
             {
@@ -29,6 +33,12 @@ namespace MissingEventFlagsCheckerPlugin
         protected override void AssembleList(string flagsList_res)
         {
             var savEventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
+            
+            var sysFlags = new bool[m_flagWork.CountSystem];
+
+            sysFlagStart = m_flagWork.CountFlag;
+            trainerFlagStart = m_flagWork.CountFlag + m_flagWork.CountSystem;
+
             m_eventFlagsList.Clear();
             using (System.IO.StringReader reader = new System.IO.StringReader(flagsList_res))
             {
@@ -44,9 +54,14 @@ namespace MissingEventFlagsCheckerPlugin
                             flagDetail.IsSet = savEventFlags[flagDetail.FlagIdx];
                         }
 
+                        else if (flagDetail.FlagIdx < (trainerFlagStart))
+                        {
+                            flagDetail.IsSet = m_flagWork.GetSystemFlag(flagDetail.FlagIdx - sysFlagStart);
+                        }
+
                         else if (flagDetail.FlagTypeVal == FlagType.TrainerBattle)
                         {
-                            flagDetail.IsSet = m_battleTrainerStatus.GetIsWin(flagDetail.FlagIdx - savEventFlags.Length);
+                            flagDetail.IsSet = m_battleTrainerStatus.GetIsWin(flagDetail.FlagIdx - trainerFlagStart);
                         }
                         
                         m_eventFlagsList.Add(flagDetail);
@@ -94,7 +109,7 @@ namespace MissingEventFlagsCheckerPlugin
                         if (f.FlagTypeVal == flagType)
                         {
                             f.IsSet = value;
-                            m_battleTrainerStatus.SetIsWin(f.FlagIdx, value);
+                            m_battleTrainerStatus.SetIsWin(f.FlagIdx - trainerFlagStart, value);
                         }
                     }
                 }
@@ -109,7 +124,15 @@ namespace MissingEventFlagsCheckerPlugin
                         if (f.FlagTypeVal == flagType)
                         {
                             f.IsSet = value;
-                            flagHelper.SetEventFlag(f.FlagIdx, value);
+                            if (f.FlagIdx >= flagHelper.EventFlagCount)
+                            {
+                                m_flagWork.SetSystemFlag(f.FlagIdx - m_flagWork.CountFlag, value);
+                            }
+
+                            else
+                            {
+                                flagHelper.SetEventFlag(f.FlagIdx, value);
+                            }
                         }
                     }
                 }
