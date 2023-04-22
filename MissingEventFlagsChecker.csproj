@@ -92,6 +92,7 @@
     <EmbeddedResource Include="flagslist\flags_gen8bsbdsp.txt" />
     <EmbeddedResource Include="flagslist\flags_gen8swsh.txt" />
     <EmbeddedResource Include="flagslist\flags_gen9sv.txt" />
+    <EmbeddedResource Include="flagslist\flags_gen4hgss.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
