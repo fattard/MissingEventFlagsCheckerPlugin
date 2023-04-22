@@ -38,6 +38,7 @@ namespace MissingEventFlagsCheckerPlugin
             public string LocationName { get; private set; }
             public string DetailMsg { get; private set; }
             public bool IsSet { get; set; }
+            public ulong AHTB { get; set; }
 
 
             public FlagDetail(string detailEntry)
@@ -48,8 +49,8 @@ namespace MissingEventFlagsCheckerPlugin
                 {
                     throw new ArgumentException("Argument detailEntry format is not valid");
                 }
-
-                FlagIdx = Convert.ToInt32(info[1], 16);
+                AHTB = Convert.ToUInt64(info[1], 16);
+                FlagIdx = (int)(AHTB & 0xFFFFFFFF); //Convert.ToInt32(info[1], 16);
                 FlagTypeVal = FlagTypeVal.Parse(info[2]);
                 LocationName = info[3];
                 if (!string.IsNullOrWhiteSpace(info[4]))
@@ -68,6 +69,7 @@ namespace MissingEventFlagsCheckerPlugin
             public FlagDetail(int flagIdx, FlagType flagType, string locationName, string detailMsg)
             {
                 OrderKey = (flagIdx + 100000);
+                AHTB = (ulong)flagIdx;
                 FlagIdx = flagIdx;
                 FlagTypeVal = flagType;
                 LocationName = locationName;
@@ -199,14 +201,23 @@ namespace MissingEventFlagsCheckerPlugin
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
-            resName = assembly.GetManifestResourceNames().Single(str => str.EndsWith(resName));
-
-            using (var stream = assembly.GetManifestResourceStream(resName))
+            // Try off-res first
+            var offResPath = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location), resName);
+            if (!System.IO.File.Exists(offResPath))
             {
-                using (var reader = new System.IO.StreamReader(stream))
+                resName = assembly.GetManifestResourceNames().Single(str => str.EndsWith(resName));
+
+                using (var stream = assembly.GetManifestResourceStream(resName))
                 {
-                    contentTxt = reader.ReadToEnd();
+                    using (var reader = new System.IO.StreamReader(stream))
+                    {
+                        contentTxt = reader.ReadToEnd();
+                    }
                 }
+            }
+            else
+            {
+                contentTxt = System.IO.File.ReadAllText(offResPath);
             }
 
             return contentTxt;
@@ -342,11 +353,14 @@ namespace MissingEventFlagsCheckerPlugin
                     flagsOrganizer = new FlagsGen8SWSH();
                     break;
 
-
-                case GameVersion.PLA:
                 case GameVersion.SL:
                 case GameVersion.VL:
                 case GameVersion.SV:
+                    flagsOrganizer = new FlagsGen9SV();
+                    break;
+
+
+                case GameVersion.PLA:
                     flagsOrganizer = new DummyOrgBlockFlags();
                     break;
 

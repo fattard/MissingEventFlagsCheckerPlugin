@@ -179,9 +179,6 @@ namespace MissingEventFlagsCheckerPlugin
 
                     //TEMP: dump flags only
                     case GameVersion.PLA:
-                    case GameVersion.SL:
-                    case GameVersion.VL:
-                    case GameVersion.SV:
                         menuEntry_ExporMissingFlags.Enabled = false;
                         menuEntry_ExporChecklist.Enabled = false;
                         menuEntry_EditFlags.Enabled = false;
