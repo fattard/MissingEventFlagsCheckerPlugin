@@ -42,6 +42,12 @@ namespace MissingEventFlagsCheckerPlugin
             // Trainer Status
             FillBlockStatus(savEventBlocks.GetBlockSafe(0xF018C4AC).Data, endKey: 0xCBF29CE484222645);
 
+            //TODO:
+            // Stakes
+            // Poke League Rep
+            // Fly locations
+            // Ghimighoul chests
+
             using (System.IO.StringReader reader = new System.IO.StringReader(flagsList_res))
             {
                 string s = reader.ReadLine();
@@ -66,7 +72,7 @@ namespace MissingEventFlagsCheckerPlugin
             // Fill missing block status
             foreach (var pair in m_blocksStatus)
             {
-                m_eventFlagsList.Add(new FlagDetail((int)pair.Key, FlagType._Unknown, "", "") { IsSet = pair.Value, AHTB = pair.Key });
+                m_eventFlagsList.Add(new FlagDetail((uint)pair.Key, FlagType._Unknown, "", "") { IsSet = pair.Value, AHTB = pair.Key });
             }
 
 

@@ -10,9 +10,15 @@ namespace MissingEventFlagsCheckerPlugin
     internal class FlagsGen4Pt : FlagsOrganizer
     {
         static string s_flagsList_res = null;
+
         protected override void InitFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
+
+#if DEBUG
+            // Force refresh
+            s_flagsList_res = null;
+#endif
 
             if (s_flagsList_res == null)
             {
@@ -57,7 +63,7 @@ namespace MissingEventFlagsCheckerPlugin
                     if (f.FlagTypeVal == flagType)
                     {
                         f.IsSet = value;
-                        flagHelper.SetEventFlag(f.FlagIdx, value);
+                        flagHelper.SetEventFlag((int)f.FlagIdx, value);
                     }
                 }
             }

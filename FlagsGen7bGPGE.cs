@@ -15,6 +15,11 @@ namespace MissingEventFlagsCheckerPlugin
         {
             m_savFile = savFile;
 
+#if DEBUG
+            // Force refresh
+            s_flagsList_res = null;
+#endif
+
             if (s_flagsList_res == null)
             {
                 s_flagsList_res = ReadFlagsListRes("flags_gen7blgpe.txt");
@@ -59,7 +64,7 @@ namespace MissingEventFlagsCheckerPlugin
                     if (f.FlagTypeVal == flagType)
                     {
                         f.IsSet = value;
-                        flagHelper.SetEventFlag(f.FlagIdx, value);
+                        flagHelper.SetEventFlag((int)f.FlagIdx, value);
                     }
                 }
             }

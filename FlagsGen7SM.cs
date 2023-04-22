@@ -28,7 +28,7 @@ namespace MissingEventFlagsCheckerPlugin
                 if (idx >= 0x618 && idx < 0x75A)
                 {
                     int i = idx - 0x618;
-                    m_eventFlagsList.Add(new FlagDetail(idx, FlagType.FieldItem, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
+                    m_eventFlagsList.Add(new FlagDetail((uint)idx, FlagType.FieldItem, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
                 }
 
                 // FlagType.TrainerBattle:
@@ -39,13 +39,13 @@ namespace MissingEventFlagsCheckerPlugin
                 else if (idx >= 0x818 && idx < 0xA00)
                 {
                     int i = idx - 0x818;
-                    m_eventFlagsList.Add(new FlagDetail(idx, FlagType.TrainerBattle, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
+                    m_eventFlagsList.Add(new FlagDetail((uint)idx, FlagType.TrainerBattle, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
                 }
 
                 // Misc
                 else
                 {
-                    m_eventFlagsList.Add(new FlagDetail(idx, FlagType._Unknown, "", "") { IsSet = savEventFlags[idx] });
+                    m_eventFlagsList.Add(new FlagDetail((uint)idx, FlagType._Unknown, "", "") { IsSet = savEventFlags[idx] });
                 }
             }
 
@@ -86,7 +86,7 @@ namespace MissingEventFlagsCheckerPlugin
                     if (f.FlagTypeVal == flagType)
                     {
                         f.IsSet = value;
-                        flagHelper.SetEventFlag(f.FlagIdx, value);
+                        flagHelper.SetEventFlag((int)f.FlagIdx, value);
                     }
                 }
             }

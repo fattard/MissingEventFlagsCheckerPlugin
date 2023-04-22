@@ -138,7 +138,7 @@ namespace MissingEventFlagsCheckerPlugin
 
             for (int i = 0; i < savEventFlags.Length; ++i)
             {
-                m_eventFlagsList.Add(new FlagDetail(i, FlagType._Unknown, "", "") { IsSet = savEventFlags[i] });
+                m_eventFlagsList.Add(new FlagDetail((uint)i, FlagType._Unknown, "", "") { IsSet = savEventFlags[i] });
             }
         }
 
@@ -177,7 +177,7 @@ namespace MissingEventFlagsCheckerPlugin
             for (int i = 0; i < m_blockEventFlags.Count; ++i)
             {
                 var b = m_blockEventFlags[i];
-                m_eventFlagsList.Add(new FlagDetail((int)b.Key, FlagType._Unknown, "", "") { IsSet = b.Type == SCTypeCode.Bool2 });
+                m_eventFlagsList.Add(new FlagDetail(b.Key, FlagType._Unknown, "", "") { IsSet = b.Type == SCTypeCode.Bool2 });
             }
         }
 

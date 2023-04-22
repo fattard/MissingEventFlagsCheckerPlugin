@@ -22,6 +22,11 @@ namespace MissingEventFlagsCheckerPlugin
             m_battleTrainerStatus = (m_savFile as SAV8BS).BattleTrainer;
             m_flagWork = (m_savFile as SAV8BS).FlagWork;
 
+#if DEBUG
+            // Force refresh
+            s_flagsList_res = null;
+#endif
+
             if (s_flagsList_res == null)
             {
                 s_flagsList_res = ReadFlagsListRes("flags_gen8bsbdsp.txt");
@@ -56,12 +61,12 @@ namespace MissingEventFlagsCheckerPlugin
 
                         else if (flagDetail.FlagIdx < (trainerFlagStart))
                         {
-                            flagDetail.IsSet = m_flagWork.GetSystemFlag(flagDetail.FlagIdx - sysFlagStart);
+                            flagDetail.IsSet = m_flagWork.GetSystemFlag((int)flagDetail.FlagIdx - sysFlagStart);
                         }
 
                         else if (flagDetail.FlagTypeVal == FlagType.TrainerBattle)
                         {
-                            flagDetail.IsSet = m_battleTrainerStatus.GetIsWin(flagDetail.FlagIdx - trainerFlagStart);
+                            flagDetail.IsSet = m_battleTrainerStatus.GetIsWin((int)flagDetail.FlagIdx - trainerFlagStart);
                         }
                         
                         m_eventFlagsList.Add(flagDetail);
@@ -109,7 +114,7 @@ namespace MissingEventFlagsCheckerPlugin
                         if (f.FlagTypeVal == flagType)
                         {
                             f.IsSet = value;
-                            m_battleTrainerStatus.SetIsWin(f.FlagIdx - trainerFlagStart, value);
+                            m_battleTrainerStatus.SetIsWin((int)f.FlagIdx - trainerFlagStart, value);
                         }
                     }
                 }
@@ -126,12 +131,12 @@ namespace MissingEventFlagsCheckerPlugin
                             f.IsSet = value;
                             if (f.FlagIdx >= flagHelper.EventFlagCount)
                             {
-                                m_flagWork.SetSystemFlag(f.FlagIdx - m_flagWork.CountFlag, value);
+                                m_flagWork.SetSystemFlag((int)f.FlagIdx - m_flagWork.CountFlag, value);
                             }
 
                             else
                             {
-                                flagHelper.SetEventFlag(f.FlagIdx, value);
+                                flagHelper.SetEventFlag((int)f.FlagIdx, value);
                             }
                         }
                     }

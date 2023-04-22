@@ -31,8 +31,8 @@ namespace MissingEventFlagsCheckerPlugin
 
         protected class FlagDetail
         {
-            public int OrderKey { get; set; }
-            public int FlagIdx { get; private set; }
+            public long OrderKey { get; set; }
+            public uint FlagIdx { get; private set; }
             public FlagType FlagTypeVal { get; private set; }
             public string FlagTypeTxt => FlagTypeVal.AsText();
             public string LocationName { get; private set; }
@@ -50,7 +50,7 @@ namespace MissingEventFlagsCheckerPlugin
                     throw new ArgumentException("Argument detailEntry format is not valid");
                 }
                 AHTB = Convert.ToUInt64(info[1], 16);
-                FlagIdx = (int)(AHTB & 0xFFFFFFFF); //Convert.ToInt32(info[1], 16);
+                FlagIdx = (uint)(AHTB & 0xFFFFFFFF);
                 FlagTypeVal = FlagTypeVal.Parse(info[2]);
                 LocationName = info[3];
                 if (!string.IsNullOrWhiteSpace(info[4]))
@@ -59,14 +59,14 @@ namespace MissingEventFlagsCheckerPlugin
                 }
                 DetailMsg = !string.IsNullOrWhiteSpace(info[5]) ? info[5] : info[6];
                 IsSet = false;
-                OrderKey = string.IsNullOrWhiteSpace(info[0]) ? (FlagIdx + 100000) : Convert.ToInt32(info[0]);
+                OrderKey = string.IsNullOrWhiteSpace(info[0]) ? (FlagIdx + 100000) : Convert.ToInt64(info[0]);
             }
 
-            public FlagDetail(int flagIdx, FlagType flagType, string detailMsg) : this(flagIdx, flagType, "", detailMsg)
+            public FlagDetail(uint flagIdx, FlagType flagType, string detailMsg) : this(flagIdx, flagType, "", detailMsg)
             {
             }
 
-            public FlagDetail(int flagIdx, FlagType flagType, string locationName, string detailMsg)
+            public FlagDetail(uint flagIdx, FlagType flagType, string locationName, string detailMsg)
             {
                 OrderKey = (flagIdx + 100000);
                 AHTB = (ulong)flagIdx;
@@ -129,7 +129,7 @@ namespace MissingEventFlagsCheckerPlugin
 
         public virtual void ExportMissingFlags()
         {
-            m_eventFlagsList.Sort((x, y) => x.OrderKey - y.OrderKey);
+            m_eventFlagsList.Sort((x, y) => (int)(x.OrderKey - y.OrderKey));
 
             StringBuilder sb = new StringBuilder(100 * 1024);
             for (int i = 0; i < m_eventFlagsList.Count; ++i)
@@ -145,7 +145,7 @@ namespace MissingEventFlagsCheckerPlugin
 
         public virtual void ExportChecklist()
         {
-            m_eventFlagsList.Sort((x, y) => x.OrderKey - y.OrderKey);
+            m_eventFlagsList.Sort((x, y) => (int)(x.OrderKey - y.OrderKey));
 
             StringBuilder sb = new StringBuilder(100 * 1024);
             for (int i = 0; i < m_eventFlagsList.Count; ++i)
@@ -164,12 +164,8 @@ namespace MissingEventFlagsCheckerPlugin
             StringBuilder sb = new StringBuilder(100 * 1024);
             for (int i = 0; i < m_eventFlagsList.Count; ++i)
             {
-#if DEBUG
                 sb.AppendFormat("FLAG_0x{0:X4} {1}\t{2}\r\n", i, m_eventFlagsList[i].IsSet,
                     m_eventFlagsList[i].FlagTypeVal == FlagType._Unused ? "UNUSED" : m_eventFlagsList[i].ToString());
-#else
-                sb.AppendFormat("FLAG_0x{0:X4} {1}\r\n", i, m_eventFlagsList[i].IsSet);
-#endif
             }
 
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());

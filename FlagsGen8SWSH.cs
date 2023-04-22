@@ -15,6 +15,11 @@ namespace MissingEventFlagsCheckerPlugin
         {
             m_savFile = savFile;
 
+#if DEBUG
+            // Force refresh
+            s_flagsList_res = null;
+#endif
+
             if (s_flagsList_res == null)
             {
                 s_flagsList_res = ReadFlagsListRes("flags_gen8swsh.txt");

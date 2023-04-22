@@ -29,7 +29,7 @@ namespace MissingEventFlagsCheckerPlugin
                 if (idx >= 0x448 && idx < 0x5D0)
                 {
                     int i = idx - 0x448;
-                    m_eventFlagsList.Add(new FlagDetail(idx, FlagType.FieldItem, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
+                    m_eventFlagsList.Add(new FlagDetail((uint)idx, FlagType.FieldItem, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
                 }
 
                 // FlagType.TrainerBattle:
@@ -42,7 +42,7 @@ namespace MissingEventFlagsCheckerPlugin
                 else if (idx >= 0x618 && idx < 0x910)
                 {
                     int i = idx - 0x618;
-                    m_eventFlagsList.Add(new FlagDetail(idx, FlagType.TrainerBattle, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
+                    m_eventFlagsList.Add(new FlagDetail((uint)idx, FlagType.TrainerBattle, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
                 }
 
                 // FlagType.HiddenItem:
@@ -55,13 +55,13 @@ namespace MissingEventFlagsCheckerPlugin
                 else if (idx >= 0xB00 && idx < 0xBE0)
                 {
                     int i = idx - 0xB00;
-                    m_eventFlagsList.Add(new FlagDetail(idx, FlagType.HiddenItem, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
+                    m_eventFlagsList.Add(new FlagDetail((uint)idx, FlagType.HiddenItem, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
                 }
 
                 // Misc
                 else
                 {
-                    m_eventFlagsList.Add(new FlagDetail(idx, FlagType._Unknown, "", "") { IsSet = savEventFlags[idx] });
+                    m_eventFlagsList.Add(new FlagDetail((uint)idx, FlagType._Unknown, "", "") { IsSet = savEventFlags[idx] });
                 }
             }
 
@@ -102,7 +102,7 @@ namespace MissingEventFlagsCheckerPlugin
                     if (f.FlagTypeVal == flagType)
                     {
                         f.IsSet = value;
-                        flagHelper.SetEventFlag(f.FlagIdx, value);
+                        flagHelper.SetEventFlag((int)f.FlagIdx, value);
                     }
                 }
             }

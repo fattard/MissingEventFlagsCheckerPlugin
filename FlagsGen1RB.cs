@@ -138,7 +138,7 @@ namespace MissingEventFlagsCheckerPlugin
         protected void AddFlag(bool flagVal, FlagType flagType, string mapLocation, string flagDetail)
         {
             int idx = m_eventFlagsList.Count;
-            m_eventFlagsList.Add(new FlagDetail(idx, flagType, mapLocation, flagDetail) { IsSet = flagVal });
+            m_eventFlagsList.Add(new FlagDetail((uint)idx, flagType, mapLocation, flagDetail) { IsSet = flagVal });
         }
 
 
