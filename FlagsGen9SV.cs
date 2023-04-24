@@ -43,9 +43,6 @@ namespace MissingEventFlagsCheckerPlugin
             FillBlockStatus(savEventBlocks.GetBlockSafe(0xF018C4AC).Data, endKey: 0xCBF29CE484222645);
 
             //TODO:
-            // Stakes
-            // Poke League Rep
-            // Fly locations
             // Ghimighoul chests
 
             using (System.IO.StringReader reader = new System.IO.StringReader(flagsList_res))
@@ -56,12 +53,75 @@ namespace MissingEventFlagsCheckerPlugin
                     if (!string.IsNullOrWhiteSpace(s))
                     {
                         var flagDetail = new FlagDetail(s);
-                        if (m_blocksStatus.ContainsKey(flagDetail.AHTB))
+                        if (flagDetail.AHTB != 0)
                         {
-                            flagDetail.IsSet = m_blocksStatus[flagDetail.AHTB];
-                            m_blocksStatus.Remove(flagDetail.AHTB);
+                            if (m_blocksStatus.ContainsKey(flagDetail.AHTB))
+                            {
+                                flagDetail.IsSet = m_blocksStatus[flagDetail.AHTB];
+                                m_blocksStatus.Remove(flagDetail.AHTB);
+                            }
+                            else
+                            {
+                                bool flagVal = false;
+                                bool handled = false;
+
+                                switch (flagDetail.FlagTypeVal)
+                                {
+                                    case FlagType.StaticBattle:
+                                        {
+                                            switch (flagDetail.FlagIdx)
+                                            {
+                                                case 0xA3B2E1E8: // Ting-Lu
+                                                case 0xB6D28884: // Chien-Pao
+                                                case 0x8FC1AFF5: // Wo-Chien
+                                                case 0x0FD2F9E2: // Chi-Yu
+                                                    flagVal = ((int)savEventBlocks.GetBlockSafe(flagDetail.FlagIdx).GetValue() == 3);
+                                                    handled = true;
+                                                    break;
+                                            }
+                                        }
+                                        break;
+
+                                    case FlagType.StoryEvent:
+                                        {
+                                            switch (flagDetail.FlagIdx)
+                                            {
+                                                case 0x6C29ACC5: // Badge Dark
+                                                case 0x71DB2CEB: // Badge Poison
+                                                case 0xE1271327: // Badge Fairy
+                                                case 0x9C6FF7DD: // Badge Fire
+                                                case 0x2A3AC89A: // Badge Fighting
+                                                case 0x8205ECAD: // Badge Electric
+                                                case 0x3B819021: // Badge Psychic
+                                                case 0xCDA61DED: // Badge Ghost
+                                                case 0x46B6CB30: // Badge Ice
+                                                case 0xB4C3AFE6: // Badge Grass
+                                                case 0xA803FAAD: // Badge Water
+                                                case 0x89306FE6: // Badge Bug
+                                                case 0xF90EFD79: // Badge Normal
+                                                case 0xEC7361B7: // Badge Dragon
+                                                case 0x0D0602DE: // Badge Steel
+                                                case 0x9C16DA94: // Badge Flying
+                                                case 0xA6CDE603: // Badge Rock
+                                                case 0xBDAC74B3: // Badge Ground
+                                                    flagVal = ((int)savEventBlocks.GetBlockSafe(flagDetail.FlagIdx).GetValue() != 0);
+                                                    handled = true;
+                                                    break;
+                                            }
+                                        }
+                                        break;
+                                }
+
+                                // Common bool block
+                                if (!handled)
+                                {
+                                    flagVal = (savEventBlocks.GetBlockSafe(flagDetail.FlagIdx).Type == SCTypeCode.Bool2);
+                                }
+
+                                flagDetail.IsSet = flagVal;
+                            }
+                            m_eventFlagsList.Add(flagDetail);
                         }
-                        m_eventFlagsList.Add(flagDetail);
                     }
 
                     s = reader.ReadLine();
@@ -83,6 +143,8 @@ namespace MissingEventFlagsCheckerPlugin
                 data[i + 8] = 1;
             }
             System.IO.File.WriteAllBytes("2482AD60_grabbed.bin", data);*/
+
+            //FnvHash.HashFnv1a_64(flag);
         }
 
         void FillBlockStatus(byte[] aData, ulong endKey)
@@ -121,6 +183,10 @@ namespace MissingEventFlagsCheckerPlugin
                 case FlagType.FieldItem:
                 //case FlagType.HiddenItem:
                 case FlagType.TrainerBattle:
+                case FlagType.SideEvent:
+                case FlagType.InGameTrade:
+                case FlagType.StaticBattle:
+                case FlagType.Gift:
                     return true;
 
                 default:
@@ -198,6 +264,18 @@ namespace MissingEventFlagsCheckerPlugin
                     }
                 }
 
+                else if (flagType == FlagType.SideEvent || flagType == FlagType.InGameTrade || flagType == FlagType.Gift)
+                {
+                    foreach (var f in m_eventFlagsList)
+                    {
+                        if (f.FlagTypeVal == flagType)
+                        {
+                            f.IsSet = value;
+                            savEventBlocks.GetBlockSafe(f.FlagIdx).ChangeBooleanType(value ? SCTypeCode.Bool2 : SCTypeCode.Bool1);
+                        }
+                    }
+                }
+
                 /*var blocks = (m_savFile as ISCBlockArray).Accessor;
 
                 foreach (var f in m_eventFlagsList)
@@ -249,12 +327,8 @@ namespace MissingEventFlagsCheckerPlugin
 
             for (int i = 0; i < m_eventFlagsList.Count; ++i)
             {
-#if DEBUG
                 sb.AppendFormat("FLAG_0x{0:X16} {1}\t{2}\r\n", m_eventFlagsList[i].AHTB, m_eventFlagsList[i].IsSet,
                     m_eventFlagsList[i].FlagTypeVal == FlagType._Unused ? "UNUSED" : m_eventFlagsList[i].ToString());
-#else
-                sb.AppendFormat("FLAG_0x{0:X8} {1}\r\n", m_eventFlagsList[i].FlagIdx, m_eventFlagsList[i].IsSet);
-#endif
             }
 
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
@@ -274,11 +348,6 @@ namespace MissingEventFlagsCheckerPlugin
                 }
 
                 return shouldInclude;
-            }
-            else if (eventDetail.FlagTypeVal == FlagType.StaticBattle)
-            {
-                // temporary until figuring out which is which
-                return false;
             }
             else
             {

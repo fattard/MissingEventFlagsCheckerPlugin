@@ -3013,279 +3013,679 @@
 	0xA3F9C59D4AA3707A	FIELD ITEM				3012 (Hash 0x4AA3707A)
 	0xA3F9C09D4AA367FB	FIELD ITEM				3013 (Hash 0x4AA367FB)
 	0x94DAB9F7BEC7013A	FIELD ITEM				3014 (Hash 0xBEC7013A)
-	0x005A0EE08DA261A8	TRAINER BATTLE			Elian	area01_trainer_tanpan
-	0xD22E10449EA85BF0	TRAINER BATTLE			Zahira	area01_trainer_sch_infant_f
-	0xF86C7831E776C2AF	TRAINER BATTLE			Carlota	area01_trainer_sch_girl
-	0xE04BD3D26FCD624C	TRAINER BATTLE			Luka	area01_trainer_tanpan_1
-	0xA1AB91335DDD5278	TRAINER BATTLE			Alberto	area01_trainer_worker
-	0xD22E1B449EA86EA1	TRAINER BATTLE			Pere	area01_trainer_sch_infant_m
-	0x737AC9ECAF4A5305	TRAINER BATTLE			Ruben	area01_trainer_cleaning
-	0x0EE039019ED2020D	TRAINER BATTLE			Lucia	area01_trainer_mountain
-	0x5A5B8BBAAC553205	TRAINER BATTLE			Paula	area01_trainer_mountain_1
-	0x2708A28C92617CC8	TRAINER BATTLE			Iker	area01_trainer_deliverer
-	0xA94CCE5FF984DD71	TRAINER BATTLE			Axel	area01_trainer_sch_boy
-	0xEB8283ACB02DC340	TRAINER BATTLE			Alejandro	area01_trainer_karate
-	0xFD58763466D1898F	TRAINER BATTLE			Jaxon	area03_trainer_sch_boy
-	0xD42529B9A376688E	TRAINER BATTLE			Paco	area03_trainer_taxidriver
-	0x6F7CA32C443506EA	TRAINER BATTLE			Noa	area04_trainer_sch_girl
-	0xBE43D466F4154257	TRAINER BATTLE			Angelines	area04_trainer_chef
-	0x0D722C70C4620441	TRAINER BATTLE			Roi	area04_trainer_tanpan
-	0xEA308486EAD6140F	TRAINER BATTLE			Sergio	area04_trainer_businessman_1
-	0x8C9BF3DAD0930979	TRAINER BATTLE			Raul	area04_trainer_sch_middle_m
-	0xD2F384FB3F8B93B4	TRAINER BATTLE			Manuel	area04_trainer_sch_senior_m
-	0xF7CAB2ABE41CFF9C	TRAINER BATTLE			Alessandro	area04_trainer_sch_infant_m
-	0x9D2FF2A7AFA2AB5A	TRAINER BATTLE			Alex	area04_trainer_backpacker
-	0xACCA592700A66DE8	TRAINER BATTLE			Carlos	area04_trainer_sch_young_m
-	0xD79069F66594F2F1	TRAINER BATTLE			Aday	area04_trainer_tanpan_1
-	0x0BF4097B3C443023	TRAINER BATTLE			Simon	area04_trainer_mania
-	0xE27D508050037FB3	TRAINER BATTLE			David	area04_trainer_businessman
-	0x8533BBEB5CD01689	TRAINER BATTLE			Alba	area04_trainer_waitress
-	0x6B3CB219661E3D43	TRAINER BATTLE			Angel	area04_trainer_deliverer
-	0x96C3C3EED3801D16	TRAINER BATTLE			Martina	area08_trainer_sch_girl
-	0x559901DD94AF11A8	TRAINER BATTLE			Miguel	area08_trainer_sch_young_m_1
-	0xEAF8BF92F44CCFC6	TRAINER BATTLE			Samuel	area08_trainer_backpacker
-	0x3D15BE183D424076	TRAINER BATTLE			Alicia	area08_trainer_musician_1
-	0x835AFF54A2DC560F	TRAINER BATTLE			Arnau	area08_trainer_mania
-	0x0880C2763B4AA288	TRAINER BATTLE			Benjamin	area08_trainer_sch_infant_m
-	0xFE6AF03FE4390854	TRAINER BATTLE			Laura	area08_trainer_artist
-	0xB011ECA7F5A82D98	TRAINER BATTLE			Andrea	area08_trainer_model
-	0x41122136CEEB3FAE	TRAINER BATTLE			Noelia	area08_trainer_musician
-	0xA77B12CAB40EBB8E	TRAINER BATTLE			Nora	area08_trainer_sch_girl_1
-	0x8CB76DF0E7609DC2	TRAINER BATTLE			Rayan	area08_trainer_sch_boy_1
-	0x553C593BA070EAC7	TRAINER BATTLE			Severino	area08_trainer_businessman
-	0x99822BB2A74AAD9B	TRAINER BATTLE			Adrian	area08_trainer_businessman_1
-	0x43FE1B0C2F59B780	TRAINER BATTLE			Irene	area08_trainer_artist_1
-	0xB46DC0DDCA44DAF5	TRAINER BATTLE			Clara	area08_trainer_sch_young_f_1
-	0xA613BCE063D86C0C	TRAINER BATTLE			Cristina	area08_trainer_sch_middle_f
-	0x0880BD763B4A9A09	TRAINER BATTLE			Amaia	area08_trainer_sch_infant_f
-	0x4F837CDFF2A01873	TRAINER BATTLE			Jaime	area05_trainer_backpacker
-	0x703C73D8BC2CFA94	TRAINER BATTLE			Matias	area05_trainer_mania
-	0x45B8D795E5E98FB4	TRAINER BATTLE			Iago	area05_trainer_karate
-	0x7257C23C0DE58524	TRAINER BATTLE			Julen	area05_trainer_tanpan
-	0xEB48A7F4A6A5A0A3	TRAINER BATTLE			Marc	area05_trainer_sch_young_m
-	0x9054AEF6B0793461	TRAINER BATTLE			Patricia	area05_trainer_sch_middle_f
-	0xEB48B0F4A6A5AFEE	TRAINER BATTLE			Isona	area05_trainer_sch_young_f
-	0x939D8CC362184391	TRAINER BATTLE			Carla	area05_trainer_mountain
-	0x8008F1B30CDB8C39	TRAINER BATTLE			Armando	area05_trainer_karate_2
-	0x9054A3F6B07921B0	TRAINER BATTLE			Pascal	area05_trainer_sch_middle_m
-	0x4B2E792E16A37DA2	TRAINER BATTLE			Luis	area10_trainer_sch_middle_m
-	0xB03151B7B7930E4E	TRAINER BATTLE			Beltran	area10_trainer_tanpan
-	0x4B2E802E16A38987	TRAINER BATTLE			Raquel	area10_trainer_sch_middle_f
-	0xD5CFFE6E5D2F8FDE	TRAINER BATTLE			Fabio	area10_trainer_karate
-	0x5B4AC2981A6D9BD6	TRAINER BATTLE			Gregorio	area10_trainer_mania
-	0x6DCBFD7CC1F4975D	TRAINER BATTLE			Claudia	area10_trainer_musician
-	0xFFFB2D3DF1BD4214	TRAINER BATTLE			Belen	area10_trainer_sch_young_f
-	0xE60ECA5BA0811E0A	TRAINER BATTLE			Renardo	area10_trainer_researcher_1
-	0xFFFB283DF1BD3995	TRAINER BATTLE			Ismael	area10_trainer_sch_young_m
-	0x4B788BAD37DF0B66	TRAINER BATTLE			Elias	area10_trainer_karate_1
-	0x2271B2EF35D1F79E	TRAINER BATTLE			Marius	area07_trainer_worker
-	0x80D45FCE9672FCCF	TRAINER BATTLE			Alain	area07_trainer_sch_child_m
-	0xC912FF321088C407	TRAINER BATTLE			Ricard	area07_trainer_cleaning
-	0x4F9929BD73B95278	TRAINER BATTLE			Lorena	area07_trainer_sch_young_f
-	0xF562638D37638A67	TRAINER BATTLE			Marina	area07_trainer_mountain_1
-	0xF562648D37638C1A	TRAINER BATTLE			Nerea	area07_trainer_mountain_2
-	0x4F9924BD73B949F9	TRAINER BATTLE			Rodrigo	area07_trainer_sch_young_m
-	0x80CAD8EEA0083972	TRAINER BATTLE			Antoni	area07_trainer_karate
-	0x9CC65E1F921A8162	TRAINER BATTLE			Federico	area07_trainer_mania
-	0x80D468CE96730C1A	TRAINER BATTLE			Elia	area07_trainer_sch_child_f
-	0xB0364D6780D50D1C	TRAINER BATTLE			Adriana	area07_trainer_sch_young_f_1
-	0x0267C69EB139DF5D	TRAINER BATTLE			Vega	area07_trainer_sch_girl_1
-	0x2304532F5E5DBBF2	TRAINER BATTLE			Roman	area07_trainer_karate_1
-	0xD0AF72D0E951ACE2	TRAINER BATTLE			Iban	area07_trainer_mania_1
-	0xEED7A4913094F252	TRAINER BATTLE			Sofia	area07_trainer_waitress
-	0xD3D259315BABE7AD	TRAINER BATTLE			Ainhoa	area07_trainer_model
-	0xAF9B36AFBC984016	TRAINER BATTLE			Paul	area06_trainer_sch_infant_m
-	0xC86B68C743089700	TRAINER BATTLE			Pau	area06_trainer_backpacker
-	0x5FA0D109ED933826	TRAINER BATTLE			Alan	area06_trainer_sch_young_m
-	0xE334DBE8B1AC032B	TRAINER BATTLE			Jacobo	area06_trainer_karate
-	0x1293FBBC084A65DC	TRAINER BATTLE			Andres	area06_trainer_sch_boy
-	0xE8F7D666317E8FF3	TRAINER BATTLE			Eric	area06_trainer_worker_1
-	0x38B26636ADEE818A	TRAINER BATTLE			Rocio	area06_trainer_mountain
-	0xF1E31CB6F7A9C5E3	TRAINER BATTLE		cave	Domingo	area06_trainer_researcher
-	0xEB4FD3C55537BB27	TRAINER BATTLE		cave	Adan	area06_trainer_tanpan
-	0x5B17C76B89575E54	TRAINER BATTLE		cave	Aitor	area06_trainer_backpacker_1
-	0x5FA0D809ED93440B	TRAINER BATTLE		cave	Yolanda	area06_trainer_sch_young_f
-	0x2B8726AB4F6F25E4	TRAINER BATTLE		cave	Eloisa	area06_trainer_sch_girl
-	0xE206A9B1844ED3A1	TRAINER BATTLE		cave	Joel	area06_trainer_deliverer
-	0x39EEB8D84432278F	TRAINER BATTLE		cave	Tamara	area06_trainer_dragontamer
-	0x535DE35DBE964A91	TRAINER BATTLE			Izan	area06_trainer_deliverer_1
-	0x9EDC03D95BFC8D3A	TRAINER BATTLE		cave	Daniela	area06_trainer_mountain_1
-	0xFE5E5E0C16F38478	TRAINER BATTLE		cave	Alexis	area06_trainer_sch_boy_1
-	0x38289F6C0C0BB777	TRAINER BATTLE			Pol	area13_trainer_deliverer
-	0xF8703581B674F58A	TRAINER BATTLE			Unai	area13_trainer_sch_boy
-	0x908BFB4BF7041AEE	TRAINER BATTLE			Malak	area13_trainer_sch_girl
-	0x0F3EA69734380916	TRAINER BATTLE			Ernesto	area14_trainer_sch_middle_m
-	0x93B1D7B78057B6F6	TRAINER BATTLE			Oliver	area14_trainer_worker_1
-	0x93B1D6B78057B543	TRAINER BATTLE			Efren	area14_trainer_worker_2
-	0xE4C81290BD8DEB8B	TRAINER BATTLE			Angela	area14_trainer_mountain
-	0xD62F4AC15E45FDF2	TRAINER BATTLE			Dario	area14_trainer_mania
-	0xF2E7223B29C99728	TRAINER BATTLE			Esther	area14_trainer_sch_young_f
-	0xBAEDA94DD9607A22	TRAINER BATTLE			Herminio	area14_trainer_karate
-	0x57AF9E0361BD8C4A	TRAINER BATTLE			Lea	area14_trainer_sch_infant_f
-	0xFB8595FD3C2C7F69	TRAINER BATTLE			Lidia	area14_trainer_musician_1
-	0x32C42B225BD45251	TRAINER BATTLE			Lander	area14_trainer_backpacker_1
-	0x37937E1AA18573CC	TRAINER BATTLE			Aitana	area14_trainer_sch_young_f_1
-	0x9488172078044E98	TRAINER BATTLE			Eva	area14_trainer_dragontamer
-	0x8115155F0B7F7117	TRAINER BATTLE			Celia	area14_trainer_mountain_1
-	0xBB7D6EF51FC7878E	TRAINER BATTLE			Lorenzo	area14_trainer_sch_middle_m_1
-	0xF64A91F54090A0C7	TRAINER BATTLE			Veronica	area14_trainer_sch_middle_f_1
-	0x4846A7A7A818F5FC	TRAINER BATTLE			Marta	area14_trainer_dragontamer_1
-	0x93B1DCB78057BF75	TRAINER BATTLE		tunnel	Cristobal	area14_trainer_worker_4
-	0x0C3DAA1A88F85590	TRAINER BATTLE			Gerard	area14_trainer_sch_young_m_2
-	0x3793811AA18578E5	TRAINER BATTLE			Judith	area14_trainer_sch_young_f_2
-	0x00B2964BEF0B22F3	TRAINER BATTLE			Andre	area17_trainer_deliverer
-	0xC81E4569546860A2	TRAINER BATTLE			Mark	area17_trainer_sch_child_m
-	0xC81E4C6954686C87	TRAINER BATTLE		cave	Triana	area17_trainer_sch_child_f
-	0x63BBA47D83855094	TRAINER BATTLE		cave	Helena	area17_trainer_mountain_1
-	0x48A3F7BD15036772	TRAINER BATTLE			Sara	area17_trainer_musician
-	0x100DD56BAA460908	TRAINER BATTLE		cave	Sandra	area17_trainer_sch_middle_f
-	0x850AB3C6722DBD6C	TRAINER BATTLE			Silvia	area17_trainer_sch_middle_f_1
-	0x8E0AEA60F4E918C6	TRAINER BATTLE			Teo	area17_trainer_sch_boy
-	0x100DD06BAA460089	TRAINER BATTLE		cave	Mihai	area17_trainer_sch_middle_m
-	0x63BBA77D838555AD	TRAINER BATTLE		cave	Leire	area17_trainer_mountain_2
-	0x877C5EE9EA29053A	TRAINER BATTLE			Alma	area17_trainer_sch_girl
-	0x59B462C6599FCAC9	TRAINER BATTLE			Abraham	area17_trainer_sch_middle_m_1
-	0x708047F00F8CE719	TRAINER BATTLE			Luisa	area17_trainer_dragontamer
-	0x3A6E06BFBCE33290	TRAINER BATTLE			Carolina	area17_trainer_artist
-	0x2E2D37563D2FCC59	TRAINER BATTLE			Anna	area17_trainer_dragontamer_1
-	0x17C5DBF91C0E5CE4	TRAINER BATTLE			Tania	area17_trainer_artist_1
-	0x28D3E987D4B1C2A2	TRAINER BATTLE			Denis	area17_trainer_sch_child_m_1
-	0xDB5BB041EDAA4095	TRAINER BATTLE			Sayid	area17_trainer_karate
-	0x6BED31841B56483E	TRAINER BATTLE			Max	area17_trainer_sch_boy_1
-	0x213DBF6AEB2485AA	TRAINER BATTLE			Jana	area17_trainer_sch_girl_1
-	0x63BBA67D838553FA	TRAINER BATTLE			Nancy	area17_trainer_mountain_3
-	0x67ABD8A1894B2E7D	TRAINER BATTLE			Roger	area17_trainer_karate_1
-	0x870C3DF1306219F2	TRAINER BATTLE			Julia	area17_trainer_musician_1
-	0x7C4BFE366DDF64CF	TRAINER BATTLE			Martin	area17_trainer_deliverer_1
-	0x1BD705DB1CCCD2EE	TRAINER BATTLE			Yeray	area09_trainer_sch_young_m_2
-	0xDDA3E0DAF9208D4F	TRAINER BATTLE			Aroa	area09_trainer_sch_young_f_2
-	0xD3EB41436BA95FCD	TRAINER BATTLE			Elena	area09_trainer_sch_middle_f_1
-	0x0A0F0E4C8496FFB2	TRAINER BATTLE			Esteban	area09_trainer_karate_3
-	0xC5D9EF65198541FB	TRAINER BATTLE			Maya	area09_trainer_sch_girl_1
-	0xD187550293B8C529	TRAINER BATTLE			Neizan	area09_trainer_sch_infant_m_1
-	0xACBAB239BD13D146	TRAINER BATTLE			Asier	area09_trainer_backpacker_2
-	0x020213D442FEFF53	TRAINER BATTLE			Mireia	area09_trainer_musician
-	0xB48D3AF1EE9DEBB4	TRAINER BATTLE			Tristan	area09_trainer_tanpan_1
-	0x61C47121E7754D20	TRAINER BATTLE			Leo	area09_trainer_sch_boy_2
-	0xC5D9F065198543AE	TRAINER BATTLE			Maren	area09_trainer_sch_girl_2
-	0x33C89EA5A23E6FFD	TRAINER BATTLE			Ahmed	area09_trainer_deliverer_2
-	0x27F21D1E3E229A1C	TRAINER BATTLE			Oriol	area09_trainer_taxidriver
-	0xC030FBA4D7363170	TRAINER BATTLE			Isabel	area09_trainer_sch_senior_f_1
-	0x94DACAA4BEA8752D	TRAINER BATTLE			Enrique	area09_trainer_sch_senior_m_1
-	0xB48D3CF1EE9DEF1A	TRAINER BATTLE			Hernan	area09_trainer_tanpan_3
-	0xACBAB339BD13D2F9	TRAINER BATTLE			Mateo	area09_trainer_backpacker_3
-	0x0A0F094C8496F733	TRAINER BATTLE			Jon	area09_trainer_karate_4
-	0xFCDD2902AC45E365	TRAINER BATTLE			Yasmin	area09_trainer_sch_infant_f_2
-	0xFF41754384372129	TRAINER BATTLE			Alfredo	area09_trainer_sch_middle_m_2
-	0xD3EB3E436BA95AB4	TRAINER BATTLE			Nuria	area09_trainer_sch_middle_f_2
-	0x33C89DA5A23E6E4A	TRAINER BATTLE			Adam	area09_trainer_deliverer_3
-	0x13BD593EB2BDE426	TRAINER BATTLE			Alejandra	area09_trainer_dragontamer
-	0xD2BD91F7BFD4F0BB	TRAINER BATTLE			Candina	area09_trainer_model
-	0xACBAB439BD13D4AC	TRAINER BATTLE			Kevin	area09_trainer_backpacker_4
-	0x0EDDCBF76BC72678	TRAINER BATTLE			Felipe	area09_trainer_researcher
-	0x70F99FC02608011C	TRAINER BATTLE			Nicolas	area09_trainer_researcher_1
-	0xA9725FFBD4A56C24	TRAINER BATTLE			Yassin	area11_trainer_sch_child_m
-	0xA093C0E16C0352E9	TRAINER BATTLE			Valentina	area11_trainer_chef
-	0x4435832CB149A2A5	TRAINER BATTLE			Mikel	area11_trainer_mania
-	0x8BBD5D295501AC07	TRAINER BATTLE			Abril	area11_trainer_sch_young_f
-	0xF02A17760889EA85	TRAINER BATTLE			Joaquin	area11_trainer_deliverer
-	0x413892E005CFDA1B	TRAINER BATTLE			Virginia	area11_trainer_dragontamer
-	0x791B6EE1A1853B5F	TRAINER BATTLE			Aurora	area11_trainer_sch_infant_f
-	0x9F1D6B50FE340A96	TRAINER BATTLE			Fatima	area11_trainer_mountain
-	0x5D3EF11643ABB717	TRAINER BATTLE			Juan	area11_trainer_researcher
-	0x8BBD56295501A022	TRAINER BATTLE			Ricardo	area11_trainer_sch_young_m
-	0xF54020B1E530C583	TRAINER BATTLE			Jan	area11_trainer_waiter
-	0x7874DA024F8B6E22	TRAINER BATTLE			Leandro	area11_trainer_sch_young_m_1
-	0xA0F094BB294201F3	TRAINER BATTLE			Aina	area11_trainer_waitress
-	0xB3FD24E893F534BF	TRAINER BATTLE			Coral	area12_trainer_sch_girl
-	0xF6501AB235C3B06C	TRAINER BATTLE			Emilio	area12_trainer_sch_middle_m
-	0x48881520870125B3	TRAINER BATTLE			Salma	area12_trainer_model
-	0x94D3D7BC97894078	TRAINER BATTLE			Alfonso	area12_trainer_deliverer
-	0x3D2158904192C224	TRAINER BATTLE			Daniel	area12_trainer_businessman_1
-	0x3F765CA5FDAC591C	TRAINER BATTLE			Maria	area12_trainer_sch_senior_f
-	0x3F7667A5FDAC6BCD	TRAINER BATTLE			Vicente	area12_trainer_sch_senior_m
-	0x0A39A7DA883C0088	TRAINER BATTLE			Elsa	area12_trainer_waitress
-	0x620A10AEAAD344EB	TRAINER BATTLE			Sheila	area12_trainer_musician
-	0xEF56AC38AAD81A35	TRAINER BATTLE			Tomas	area12_trainer_cleaning
-	0x1B357C1D6C731F3D	TRAINER BATTLE			Mar	area12_trainer_mountain
-	0x18BABE18FB585650	TRAINER BATTLE			Ivan	area12_trainer_businessman
-	0xFD810DC6B2083FF5	TRAINER BATTLE			Estela	area12_trainer_mountain_1
-	0x59376DE11EFC4B88	TRAINER BATTLE			Ander	area12_trainer_waiter
-	0x81D9AAE6111A8F40	TRAINER BATTLE			Isaac	area12_trainer_researcher
-	0xD39CD3C164E2CF22	TRAINER BATTLE			Rebeca	area16_trainer_dragontamer_1
-	0x9356034D2EBB2574	TRAINER BATTLE			Cristian	area16_trainer_businessman
-	0x7D64358FD89576A0	TRAINER BATTLE			Rosario	area16_trainer_sch_senior_f
-	0x7D64408FD8958951	TRAINER BATTLE			Ramon	area16_trainer_sch_senior_m
-	0xC1AF08941E7B26E3	TRAINER BATTLE			Jonathan	area16_trainer_backpacker
-	0xEB66D9CE00EEF098	TRAINER BATTLE			Omar	area16_trainer_taxidriver
-	0xF6FC8206A6BFB016	TRAINER BATTLE			Valentin	area15_trainer_sch_young_m
-	0x6358E644BF4BC25E	TRAINER BATTLE			Beatriz	area16_trainer_sch_young_f
-	0x5D7EFD600243A3A3	TRAINER BATTLE			Laia	area15_trainer_dragontamer_1
-	0xF373CA30E544E8BF	TRAINER BATTLE			Xavier	area15_trainer_sch_middle_m
-	0xB07A64DBBA9AC6F1	TRAINER BATTLE			Monica	area16_trainer_sch_middle_f
-	0x542E3EF38ED05A9F	TRAINER BATTLE			Abel	area15_trainer_worker
-	0xF0DA99BD1616AA9A	TRAINER BATTLE			Salvador	area15_trainer_cleaning
-	0xB97410C8591D3F0D	TRAINER BATTLE			Eleonor	area15_trainer_chef
-	0x1EF4BF7CAD356BDF	TRAINER BATTLE			Isabella	area15_trainer_waitress
-	0xA1E8578DD245EE3F	TRAINER BATTLE			Pablo	area15_trainer_taxidriver_1
-	0x9740D160C80BA34A	TRAINER BATTLE			Jorge	area15_trainer_sch_senior_m_1
-	0x47E344609AB1A3B3	TRAINER BATTLE			Mercedes	area15_trainer_sch_senior_f_1
-	0xCC0AD8BC12B401CF	TRAINER BATTLE			Saul	area15_trainer_waiter
-	0xEAE24B6C0E96468E	TRAINER BATTLE			Felix	area15_trainer_sch_young_m_1
-	0x0F89DB4555571C03	TRAINER BATTLE			Javier	area15_trainer_worker_1
-	0x25AF6E6C2F5F5FC7	TRAINER BATTLE			Petra	area15_trainer_sch_young_f_1
-	0xD06EACB66289983F	TRAINER BATTLE			Arturo	area16_trainer_backpacker_1
-	0x4D3F914A222000CD	TRAINER BATTLE			Anas	area16_trainer_sch_infant_m
-	0x4D3F864A221FEE1C	TRAINER BATTLE			Lina	area16_trainer_sch_infant_f
-	0x8769C3DC4FDEFC35	TRAINER BATTLE			Mario	area15_trainer_businessman_1
-	0x4AB55970C41FB38D	TRAINER BATTLE			Aimar	area18_trainer_sch_young_m
-	0x412B460B78B0D1CC	TRAINER BATTLE			Leticia	area18_trainer_dragontamer
-	0x96F9C06EDFCF32DF	TRAINER BATTLE			Luna	area18_trainer_mountain
-	0x0C28B8839A3C743B	TRAINER BATTLE			Jose	area18_trainer_sch_senior_m
-	0x42C0FDB2506AD11F	TRAINER BATTLE			Natalia	area18_trainer_sch_middle_f
-	0xA76C28E850ADB966	TRAINER BATTLE			Oscar	area18_trainer_taxidriver
-	0x9146A562812C4E51	TRAINER BATTLE			Yaiza	area18_trainer_model
-	0x0C28B1839A3C6856	TRAINER BATTLE			Dolores	area18_trainer_sch_senior_f
-	0x13318F14DBB4A5D0	TRAINER BATTLE			Irma	area18_trainer_chef
-	0xF65B6A56B2BCE773	TRAINER BATTLE			Yanira	area21_trainer_mountain
-	0x06285CC632E34659	TRAINER BATTLE			Julio	area21_trainer_backpacker
-	0x332E31C262F5C383	TRAINER BATTLE			Aleix	area21_trainer_sch_boy
-	0x2EC8C56F8B4463BF	TRAINER BATTLE			Pedro	area21_trainer_sch_senior_m
-	0x8748862450A483BD	TRAINER BATTLE			Naia	area21_trainer_sch_girl
-	0xB2389875CDBC212A	TRAINER BATTLE			Guillermo	area21_trainer_mania
-	0x78FA2F84A355BD10	TRAINER BATTLE			Victoria	area21_trainer_sch_young_f
-	0xD71A8500B4FBFC90	TRAINER BATTLE			Paloma	area21_trainer_dragontamer
-	0x5E57A0906724B6E4	TRAINER BATTLE			Gema	area21_trainer_dragontamer_1
-	0x5E57A3906724BBFD	TRAINER BATTLE			Diana	area21_trainer_dragontamer_2
-	0x5CBE52D7DE97BE6B	TRAINER BATTLE			Susana	area21_trainer_ol
-	0xA21C2EAA89CF4CAF	TRAINER BATTLE			Lola	area22_trainer_chef
-	0xBCB9957978BC359A	TRAINER BATTLE			Ali	area22_trainer_sch_child_m
-	0x1DA6ECBE0F874C98	TRAINER BATTLE			Blanca	area22_trainer_artist
-	0x26141EF3EDD646FD	TRAINER BATTLE			Ana Maria	area22_trainer_sch_senior_f
-	0x996749854C0CAB1D	TRAINER BATTLE			Fernando	area22_trainer_karate
-	0x0FEB2DF6F58596CC	TRAINER BATTLE			Alexia	area22_trainer_model
-	0xBB0A70604C82F87C	TRAINER BATTLE			Nil	area19_trainer_backpacker
-	0x0090F63C86CB0A3A	TRAINER BATTLE			Vidal	area19_trainer_sch_young_m
-	0xC0C64C1EC4215FFF	TRAINER BATTLE			Roberto	area19_trainer_researcher
-	0xB81750D527E476F3	TRAINER BATTLE			Elisabet	area19_trainer_dragontamer
-	0x08FD4E8E55E532CD	TRAINER BATTLE			Xabier	area19_trainer_deliverer
-	0x0090ED3C86CAFAEF	TRAINER BATTLE			Valeria	area19_trainer_sch_young_f
-	0x58B6D6BEA44DCE9E	TRAINER BATTLE			Manuela	area19_trainer_mountain
-	0xD56990398BC41693	TRAINER BATTLE			Eduardo	area19_trainer_sch_middle_m
-	0xB72CEF274DDDA0DF	TRAINER BATTLE			Sebastian	area19_trainer_karate
-	0x2E58BD4A53467358	TRAINER BATTLE			Markel	area19_trainer_backpacker_1
-	0xB878B219C0631723	TRAINER BATTLE			Ignacio	area19_trainer_researcher_1
-	0x9432B3C062B0AC45	TRAINER BATTLE			Edgar	area19_trainer_deliverer_1
-	0x3C03F4123ED087C3	TRAINER BATTLE			Marcos	area19_trainer_karate_1
-	0x614873EEC4AF8B5E	TRAINER BATTLE			Desiree	area20_trainer_artist
-	0x5FDB24771704D316	TRAINER BATTLE			Ester	area20_trainer_ol
-	0x06D6CB2D4D81E4F4	TRAINER BATTLE			Tatiana	area20_trainer_musician
-	0xD5EAF2BC64F873C3	TRAINER BATTLE			Jimena	area20_trainer_sch_young_f
-	0xD5EAFBBC64F8830E	TRAINER BATTLE			Stefan	area20_trainer_sch_young_m
-	0xA1BB3463C205CA69	TRAINER BATTLE			Jordi	area20_trainer_mania
-	0xBE62B19A8B3CACE6	TRAINER BATTLE			Naiara	area24_trainer_model
-	0xB42A0867B83187EE	TRAINER BATTLE			Jaume	area25_trainer_mania
-	0xCCB4147D8C083217	TRAINER BATTLE			Yago	area26_trainer_businessman
+	0x005A0EE08DA261A8	TRAINER BATTLE			Youngster Elian	area01_trainer_tanpan
+	0xD22E10449EA85BF0	TRAINER BATTLE			Zahira the Student	area01_trainer_sch_infant_f
+	0xF86C7831E776C2AF	TRAINER BATTLE			Carlota the Student	area01_trainer_sch_girl
+	0xE04BD3D26FCD624C	TRAINER BATTLE			Youngster Luka	area01_trainer_tanpan_1
+	0xA1AB91335DDD5278	TRAINER BATTLE			Alberto the Worker	area01_trainer_worker
+	0xD22E1B449EA86EA1	TRAINER BATTLE			Pere the Student	area01_trainer_sch_infant_m
+	0x737AC9ECAF4A5305	TRAINER BATTLE			Ruben the Janitor	area01_trainer_cleaning
+	0x0EE039019ED2020D	TRAINER BATTLE			Hiker Lucia	area01_trainer_mountain
+	0x5A5B8BBAAC553205	TRAINER BATTLE			Hiker Paula	area01_trainer_mountain_1
+	0x2708A28C92617CC8	TRAINER BATTLE			Iker the Courier	area01_trainer_deliverer
+	0xA94CCE5FF984DD71	TRAINER BATTLE			Axel the Student	area01_trainer_sch_boy
+	0xEB8283ACB02DC340	TRAINER BATTLE			Alejandro the Black Belt	area01_trainer_karate
+	0xFD58763466D1898F	TRAINER BATTLE			Jaxon the Student	area03_trainer_sch_boy
+	0xD42529B9A376688E	TRAINER BATTLE			Cabbie Paco	area03_trainer_taxidriver
+	0x6F7CA32C443506EA	TRAINER BATTLE			Noa the Student	area04_trainer_sch_girl
+	0xBE43D466F4154257	TRAINER BATTLE			Angelines the Cook	area04_trainer_chef
+	0x0D722C70C4620441	TRAINER BATTLE			Youngster Roi	area04_trainer_tanpan
+	0xEA308486EAD6140F	TRAINER BATTLE			Sergio the Office Worker	area04_trainer_businessman_1
+	0x8C9BF3DAD0930979	TRAINER BATTLE			Raul the Student	area04_trainer_sch_middle_m
+	0xD2F384FB3F8B93B4	TRAINER BATTLE			Manuel the Student	area04_trainer_sch_senior_m
+	0xF7CAB2ABE41CFF9C	TRAINER BATTLE			Alessandro the Student	area04_trainer_sch_infant_m
+	0x9D2FF2A7AFA2AB5A	TRAINER BATTLE			Backpacker Alex	area04_trainer_backpacker
+	0xACCA592700A66DE8	TRAINER BATTLE			Carlos the Student	area04_trainer_sch_young_m
+	0xD79069F66594F2F1	TRAINER BATTLE			Youngster Aday	area04_trainer_tanpan_1
+	0x0BF4097B3C443023	TRAINER BATTLE			Simon the Poké Maniac	area04_trainer_mania
+	0xE27D508050037FB3	TRAINER BATTLE			David the Office Worker	area04_trainer_businessman
+	0x8533BBEB5CD01689	TRAINER BATTLE			Alba the Waitress	area04_trainer_waitress
+	0x6B3CB219661E3D43	TRAINER BATTLE			Angel the Courier	area04_trainer_deliverer
+	0x96C3C3EED3801D16	TRAINER BATTLE			Martina the Student	area08_trainer_sch_girl
+	0x559901DD94AF11A8	TRAINER BATTLE			Miguel the Student	area08_trainer_sch_young_m_1
+	0xEAF8BF92F44CCFC6	TRAINER BATTLE			Backpacker Samuel	area08_trainer_backpacker
+	0x3D15BE183D424076	TRAINER BATTLE			Alicia the Musician	area08_trainer_musician_1
+	0x835AFF54A2DC560F	TRAINER BATTLE			Arnau the Poké Maniac	area08_trainer_mania
+	0x0880C2763B4AA288	TRAINER BATTLE			Benjamin the Student	area08_trainer_sch_infant_m
+	0xFE6AF03FE4390854	TRAINER BATTLE			Laura the Artist	area08_trainer_artist
+	0xB011ECA7F5A82D98	TRAINER BATTLE			Andrea the Model	area08_trainer_model
+	0x41122136CEEB3FAE	TRAINER BATTLE			Noelia the Musician	area08_trainer_musician
+	0xA77B12CAB40EBB8E	TRAINER BATTLE			Nora the Student	area08_trainer_sch_girl_1
+	0x8CB76DF0E7609DC2	TRAINER BATTLE			Rayan the Student	area08_trainer_sch_boy_1
+	0x553C593BA070EAC7	TRAINER BATTLE			Severino the Office Worker	area08_trainer_businessman
+	0x99822BB2A74AAD9B	TRAINER BATTLE			Adrian the Office Worker	area08_trainer_businessman_1
+	0x43FE1B0C2F59B780	TRAINER BATTLE			Irene the Artist	area08_trainer_artist_1
+	0xB46DC0DDCA44DAF5	TRAINER BATTLE			Clara the Student	area08_trainer_sch_young_f_1
+	0xA613BCE063D86C0C	TRAINER BATTLE			Cristina the Student	area08_trainer_sch_middle_f
+	0x0880BD763B4A9A09	TRAINER BATTLE			Amaia the Student	area08_trainer_sch_infant_f
+	0x4F837CDFF2A01873	TRAINER BATTLE			Backpacker Jaime	area05_trainer_backpacker
+	0x703C73D8BC2CFA94	TRAINER BATTLE			Matias the Poké Maniac	area05_trainer_mania
+	0x45B8D795E5E98FB4	TRAINER BATTLE			Iago the Black Belt	area05_trainer_karate
+	0x7257C23C0DE58524	TRAINER BATTLE			Youngster Julen	area05_trainer_tanpan
+	0xEB48A7F4A6A5A0A3	TRAINER BATTLE			Marc the Student	area05_trainer_sch_young_m
+	0x9054AEF6B0793461	TRAINER BATTLE			Patricia the Student	area05_trainer_sch_middle_f
+	0xEB48B0F4A6A5AFEE	TRAINER BATTLE			Isona the Student	area05_trainer_sch_young_f
+	0x939D8CC362184391	TRAINER BATTLE			Hiker Carla	area05_trainer_mountain
+	0x8008F1B30CDB8C39	TRAINER BATTLE			Armando the Black Belt	area05_trainer_karate_2
+	0x9054A3F6B07921B0	TRAINER BATTLE			Pascal the Student	area05_trainer_sch_middle_m
+	0x4B2E792E16A37DA2	TRAINER BATTLE			Luis the Student	area10_trainer_sch_middle_m
+	0xB03151B7B7930E4E	TRAINER BATTLE			Youngster Beltran	area10_trainer_tanpan
+	0x4B2E802E16A38987	TRAINER BATTLE			Raquel the Student	area10_trainer_sch_middle_f
+	0xD5CFFE6E5D2F8FDE	TRAINER BATTLE			Fabio the Black Belt	area10_trainer_karate
+	0x5B4AC2981A6D9BD6	TRAINER BATTLE			Gregorio the Poké Maniac	area10_trainer_mania
+	0x6DCBFD7CC1F4975D	TRAINER BATTLE			Claudia the Musician	area10_trainer_musician
+	0xFFFB2D3DF1BD4214	TRAINER BATTLE			Belen the Student	area10_trainer_sch_young_f
+	0xE60ECA5BA0811E0A	TRAINER BATTLE			Renardo the Scientist	area10_trainer_researcher_1
+	0xFFFB283DF1BD3995	TRAINER BATTLE			Ismael the Student	area10_trainer_sch_young_m
+	0x4B788BAD37DF0B66	TRAINER BATTLE			Elias the Black Belt	area10_trainer_karate_1
+	0x2271B2EF35D1F79E	TRAINER BATTLE			Marius the Worker	area07_trainer_worker
+	0x80D45FCE9672FCCF	TRAINER BATTLE			Alain the Student	area07_trainer_sch_child_m
+	0xC912FF321088C407	TRAINER BATTLE			Ricard the Janitor	area07_trainer_cleaning
+	0x4F9929BD73B95278	TRAINER BATTLE			Lorena the Student	area07_trainer_sch_young_f
+	0xF562638D37638A67	TRAINER BATTLE			Hiker Marina	area07_trainer_mountain_1
+	0xF562648D37638C1A	TRAINER BATTLE			Hiker Nerea	area07_trainer_mountain_2
+	0x4F9924BD73B949F9	TRAINER BATTLE			Rodrigo the Student	area07_trainer_sch_young_m
+	0x80CAD8EEA0083972	TRAINER BATTLE			Antoni the Black Belt	area07_trainer_karate
+	0x9CC65E1F921A8162	TRAINER BATTLE			Federico the Poké Maniac	area07_trainer_mania
+	0x80D468CE96730C1A	TRAINER BATTLE			Elia the Student	area07_trainer_sch_child_f
+	0xB0364D6780D50D1C	TRAINER BATTLE			Adriana the Student	area07_trainer_sch_young_f_1
+	0x0267C69EB139DF5D	TRAINER BATTLE			Vega the Student	area07_trainer_sch_girl_1
+	0x2304532F5E5DBBF2	TRAINER BATTLE			Roman the Black Belt	area07_trainer_karate_1
+	0xD0AF72D0E951ACE2	TRAINER BATTLE			Iban the Poké Maniac	area07_trainer_mania_1
+	0xEED7A4913094F252	TRAINER BATTLE			Sofia the Waitress	area07_trainer_waitress
+	0xD3D259315BABE7AD	TRAINER BATTLE			Ainhoa the Model	area07_trainer_model
+	0xAF9B36AFBC984016	TRAINER BATTLE			Paul the Student	area06_trainer_sch_infant_m
+	0xC86B68C743089700	TRAINER BATTLE			Backpacker Pau	area06_trainer_backpacker
+	0x5FA0D109ED933826	TRAINER BATTLE			Alan the Student	area06_trainer_sch_young_m
+	0xE334DBE8B1AC032B	TRAINER BATTLE			Jacobo the Black Belt	area06_trainer_karate
+	0x1293FBBC084A65DC	TRAINER BATTLE			Andres the Student	area06_trainer_sch_boy
+	0xE8F7D666317E8FF3	TRAINER BATTLE			Eric the Worker	area06_trainer_worker_1
+	0x38B26636ADEE818A	TRAINER BATTLE			Hiker Rocio	area06_trainer_mountain
+	0xF1E31CB6F7A9C5E3	TRAINER BATTLE		cave	Domingo the Scientist	area06_trainer_researcher
+	0xEB4FD3C55537BB27	TRAINER BATTLE		cave	Youngster Adan	area06_trainer_tanpan
+	0x5B17C76B89575E54	TRAINER BATTLE		cave	Backpacker Aitor	area06_trainer_backpacker_1
+	0x5FA0D809ED93440B	TRAINER BATTLE		cave	Yolanda the Student	area06_trainer_sch_young_f
+	0x2B8726AB4F6F25E4	TRAINER BATTLE		cave	Eloisa the Student	area06_trainer_sch_girl
+	0xE206A9B1844ED3A1	TRAINER BATTLE		cave	Joel the Courier	area06_trainer_deliverer
+	0x39EEB8D84432278F	TRAINER BATTLE		cave	Tamara the Dragon Tamer	area06_trainer_dragontamer
+	0x535DE35DBE964A91	TRAINER BATTLE			Izan the Courier	area06_trainer_deliverer_1
+	0x9EDC03D95BFC8D3A	TRAINER BATTLE		cave	Hiker Daniela	area06_trainer_mountain_1
+	0xFE5E5E0C16F38478	TRAINER BATTLE		cave	Alexis the Student	area06_trainer_sch_boy_1
+	0x38289F6C0C0BB777	TRAINER BATTLE			Pol the Courier	area13_trainer_deliverer
+	0xF8703581B674F58A	TRAINER BATTLE			Unai the Student	area13_trainer_sch_boy
+	0x908BFB4BF7041AEE	TRAINER BATTLE			Malak the Student	area13_trainer_sch_girl
+	0x0F3EA69734380916	TRAINER BATTLE			Ernesto the Student	area14_trainer_sch_middle_m
+	0x93B1D7B78057B6F6	TRAINER BATTLE			Oliver the Worker	area14_trainer_worker_1
+	0x93B1D6B78057B543	TRAINER BATTLE			Efren the Worker	area14_trainer_worker_2
+	0xE4C81290BD8DEB8B	TRAINER BATTLE			Hiker Angela	area14_trainer_mountain
+	0xD62F4AC15E45FDF2	TRAINER BATTLE			Dario the Poké Maniac	area14_trainer_mania
+	0xF2E7223B29C99728	TRAINER BATTLE			Esther the Student	area14_trainer_sch_young_f
+	0xBAEDA94DD9607A22	TRAINER BATTLE			Herminio the Black Belt	area14_trainer_karate
+	0x57AF9E0361BD8C4A	TRAINER BATTLE			Lea the Student	area14_trainer_sch_infant_f
+	0xFB8595FD3C2C7F69	TRAINER BATTLE			Lidia the Musician	area14_trainer_musician_1
+	0x32C42B225BD45251	TRAINER BATTLE			Backpacker Lander	area14_trainer_backpacker_1
+	0x37937E1AA18573CC	TRAINER BATTLE			Aitana the Student	area14_trainer_sch_young_f_1
+	0x9488172078044E98	TRAINER BATTLE			Eva the Dragon Tamer	area14_trainer_dragontamer
+	0x8115155F0B7F7117	TRAINER BATTLE			Hiker Celia	area14_trainer_mountain_1
+	0xBB7D6EF51FC7878E	TRAINER BATTLE			Lorenzo the Student	area14_trainer_sch_middle_m_1
+	0xF64A91F54090A0C7	TRAINER BATTLE			Veronica the Student	area14_trainer_sch_middle_f_1
+	0x4846A7A7A818F5FC	TRAINER BATTLE			Marta the Dragon Tamer	area14_trainer_dragontamer_1
+	0x93B1DCB78057BF75	TRAINER BATTLE		tunnel	Cristobal the Worker	area14_trainer_worker_4
+	0x0C3DAA1A88F85590	TRAINER BATTLE			Gerard the Student	area14_trainer_sch_young_m_2
+	0x3793811AA18578E5	TRAINER BATTLE			Judith the Student	area14_trainer_sch_young_f_2
+	0x00B2964BEF0B22F3	TRAINER BATTLE			Andre the Courier	area17_trainer_deliverer
+	0xC81E4569546860A2	TRAINER BATTLE			Mark the Student	area17_trainer_sch_child_m
+	0xC81E4C6954686C87	TRAINER BATTLE		cave	Triana the Student	area17_trainer_sch_child_f
+	0x63BBA47D83855094	TRAINER BATTLE		cave	Hiker Helena	area17_trainer_mountain_1
+	0x48A3F7BD15036772	TRAINER BATTLE			Sara the Musician	area17_trainer_musician
+	0x100DD56BAA460908	TRAINER BATTLE		cave	Sandra the Student	area17_trainer_sch_middle_f
+	0x850AB3C6722DBD6C	TRAINER BATTLE			Silvia the Student	area17_trainer_sch_middle_f_1
+	0x8E0AEA60F4E918C6	TRAINER BATTLE			Teo the Student	area17_trainer_sch_boy
+	0x100DD06BAA460089	TRAINER BATTLE		cave	Mihai the Student	area17_trainer_sch_middle_m
+	0x63BBA77D838555AD	TRAINER BATTLE		cave	Hiker Leire	area17_trainer_mountain_2
+	0x877C5EE9EA29053A	TRAINER BATTLE			Alma the Student	area17_trainer_sch_girl
+	0x59B462C6599FCAC9	TRAINER BATTLE			Abraham the Student	area17_trainer_sch_middle_m_1
+	0x708047F00F8CE719	TRAINER BATTLE			Luisa the Dragon Tamer	area17_trainer_dragontamer
+	0x3A6E06BFBCE33290	TRAINER BATTLE			Carolina the Artist	area17_trainer_artist
+	0x2E2D37563D2FCC59	TRAINER BATTLE			Anna the Dragon Tamer	area17_trainer_dragontamer_1
+	0x17C5DBF91C0E5CE4	TRAINER BATTLE			Tania the Artist	area17_trainer_artist_1
+	0x28D3E987D4B1C2A2	TRAINER BATTLE			Denis the Student	area17_trainer_sch_child_m_1
+	0xDB5BB041EDAA4095	TRAINER BATTLE			Sayid the Black Belt	area17_trainer_karate
+	0x6BED31841B56483E	TRAINER BATTLE			Max the Student	area17_trainer_sch_boy_1
+	0x213DBF6AEB2485AA	TRAINER BATTLE			Jana the Student	area17_trainer_sch_girl_1
+	0x63BBA67D838553FA	TRAINER BATTLE			Hiker Nancy	area17_trainer_mountain_3
+	0x67ABD8A1894B2E7D	TRAINER BATTLE			Roger the Black Belt	area17_trainer_karate_1
+	0x870C3DF1306219F2	TRAINER BATTLE			Julia the Musician	area17_trainer_musician_1
+	0x7C4BFE366DDF64CF	TRAINER BATTLE			Martin the Courier	area17_trainer_deliverer_1
+	0x1BD705DB1CCCD2EE	TRAINER BATTLE			Yeray the Student	area09_trainer_sch_young_m_2
+	0xDDA3E0DAF9208D4F	TRAINER BATTLE			Aroa the Student	area09_trainer_sch_young_f_2
+	0xD3EB41436BA95FCD	TRAINER BATTLE			Elena the Student	area09_trainer_sch_middle_f_1
+	0x0A0F0E4C8496FFB2	TRAINER BATTLE			Esteban the Black Belt	area09_trainer_karate_3
+	0xC5D9EF65198541FB	TRAINER BATTLE			Maya the Student	area09_trainer_sch_girl_1
+	0xD187550293B8C529	TRAINER BATTLE			Neizan the Student	area09_trainer_sch_infant_m_1
+	0xACBAB239BD13D146	TRAINER BATTLE			Backpacker Asier	area09_trainer_backpacker_2
+	0x020213D442FEFF53	TRAINER BATTLE			Mireia the Musician	area09_trainer_musician
+	0xB48D3AF1EE9DEBB4	TRAINER BATTLE			Youngster Tristan	area09_trainer_tanpan_1
+	0x61C47121E7754D20	TRAINER BATTLE			Leo the Student	area09_trainer_sch_boy_2
+	0xC5D9F065198543AE	TRAINER BATTLE			Maren the Student	area09_trainer_sch_girl_2
+	0x33C89EA5A23E6FFD	TRAINER BATTLE			Ahmed the Courier	area09_trainer_deliverer_2
+	0x27F21D1E3E229A1C	TRAINER BATTLE			Cabbie Oriol	area09_trainer_taxidriver
+	0xC030FBA4D7363170	TRAINER BATTLE			Isabel the Student	area09_trainer_sch_senior_f_1
+	0x94DACAA4BEA8752D	TRAINER BATTLE			Enrique the Student	area09_trainer_sch_senior_m_1
+	0xB48D3CF1EE9DEF1A	TRAINER BATTLE			Youngster Hernan	area09_trainer_tanpan_3
+	0xACBAB339BD13D2F9	TRAINER BATTLE			Backpacker Mateo	area09_trainer_backpacker_3
+	0x0A0F094C8496F733	TRAINER BATTLE			Jon the Black Belt	area09_trainer_karate_4
+	0xFCDD2902AC45E365	TRAINER BATTLE			Yasmin the Student	area09_trainer_sch_infant_f_2
+	0xFF41754384372129	TRAINER BATTLE			Alfredo the Student	area09_trainer_sch_middle_m_2
+	0xD3EB3E436BA95AB4	TRAINER BATTLE			Nuria the Student	area09_trainer_sch_middle_f_2
+	0x33C89DA5A23E6E4A	TRAINER BATTLE			Adam the Courier	area09_trainer_deliverer_3
+	0x13BD593EB2BDE426	TRAINER BATTLE			Alejandra the Dragon Tamer	area09_trainer_dragontamer
+	0xD2BD91F7BFD4F0BB	TRAINER BATTLE			Candina the Model	area09_trainer_model
+	0xACBAB439BD13D4AC	TRAINER BATTLE			Backpacker Kevin	area09_trainer_backpacker_4
+	0x0EDDCBF76BC72678	TRAINER BATTLE			Felipe the Scientist	area09_trainer_researcher
+	0x70F99FC02608011C	TRAINER BATTLE			Nicolas the Scientist	area09_trainer_researcher_1
+	0xA9725FFBD4A56C24	TRAINER BATTLE			Yassin the Student	area11_trainer_sch_child_m
+	0xA093C0E16C0352E9	TRAINER BATTLE			Valentina the Cook	area11_trainer_chef
+	0x4435832CB149A2A5	TRAINER BATTLE			Mikel the Poké Maniac	area11_trainer_mania
+	0x8BBD5D295501AC07	TRAINER BATTLE			Abril the Student	area11_trainer_sch_young_f
+	0xF02A17760889EA85	TRAINER BATTLE			Joaquin the Courier	area11_trainer_deliverer
+	0x413892E005CFDA1B	TRAINER BATTLE			Virginia the Dragon Tamer	area11_trainer_dragontamer
+	0x791B6EE1A1853B5F	TRAINER BATTLE			Aurora the Student	area11_trainer_sch_infant_f
+	0x9F1D6B50FE340A96	TRAINER BATTLE			Hiker Fatima	area11_trainer_mountain
+	0x5D3EF11643ABB717	TRAINER BATTLE			Juan the Scientist	area11_trainer_researcher
+	0x8BBD56295501A022	TRAINER BATTLE			Ricardo the Student	area11_trainer_sch_young_m
+	0xF54020B1E530C583	TRAINER BATTLE			Jan the Waiter	area11_trainer_waiter
+	0x7874DA024F8B6E22	TRAINER BATTLE			Leandro the Student	area11_trainer_sch_young_m_1
+	0xA0F094BB294201F3	TRAINER BATTLE			Aina the Waitress	area11_trainer_waitress
+	0xB3FD24E893F534BF	TRAINER BATTLE			Coral the Student	area12_trainer_sch_girl
+	0xF6501AB235C3B06C	TRAINER BATTLE			Emilio the Student	area12_trainer_sch_middle_m
+	0x48881520870125B3	TRAINER BATTLE			Salma the Model	area12_trainer_model
+	0x94D3D7BC97894078	TRAINER BATTLE			Alfonso the Courier	area12_trainer_deliverer
+	0x3D2158904192C224	TRAINER BATTLE			Daniel the Office Worker	area12_trainer_businessman_1
+	0x3F765CA5FDAC591C	TRAINER BATTLE			Maria the Student	area12_trainer_sch_senior_f
+	0x3F7667A5FDAC6BCD	TRAINER BATTLE			Vicente the Student	area12_trainer_sch_senior_m
+	0x0A39A7DA883C0088	TRAINER BATTLE			Elsa the Waitress	area12_trainer_waitress
+	0x620A10AEAAD344EB	TRAINER BATTLE			Sheila the Musician	area12_trainer_musician
+	0xEF56AC38AAD81A35	TRAINER BATTLE			Tomas the Janitor	area12_trainer_cleaning
+	0x1B357C1D6C731F3D	TRAINER BATTLE			Hiker Mar	area12_trainer_mountain
+	0x18BABE18FB585650	TRAINER BATTLE			Ivan the Office Worker	area12_trainer_businessman
+	0xFD810DC6B2083FF5	TRAINER BATTLE			Hiker Estela	area12_trainer_mountain_1
+	0x59376DE11EFC4B88	TRAINER BATTLE			Ander the Waiter	area12_trainer_waiter
+	0x81D9AAE6111A8F40	TRAINER BATTLE			Isaac the Scientist	area12_trainer_researcher
+	0xD39CD3C164E2CF22	TRAINER BATTLE			Rebeca the Dragon Tamer	area16_trainer_dragontamer_1
+	0x9356034D2EBB2574	TRAINER BATTLE			Cristian the Office Worker	area16_trainer_businessman
+	0x7D64358FD89576A0	TRAINER BATTLE			Rosario the Student	area16_trainer_sch_senior_f
+	0x7D64408FD8958951	TRAINER BATTLE			Ramon the Student	area16_trainer_sch_senior_m
+	0xC1AF08941E7B26E3	TRAINER BATTLE			Backpacker Jonathan	area16_trainer_backpacker
+	0xEB66D9CE00EEF098	TRAINER BATTLE			Cabbie Omar	area16_trainer_taxidriver
+	0xF6FC8206A6BFB016	TRAINER BATTLE			Valentin the Student	area15_trainer_sch_young_m
+	0x6358E644BF4BC25E	TRAINER BATTLE			Beatriz the Student	area16_trainer_sch_young_f
+	0x5D7EFD600243A3A3	TRAINER BATTLE			Laia the Dragon Tamer	area15_trainer_dragontamer_1
+	0xF373CA30E544E8BF	TRAINER BATTLE			Xavier the Student	area15_trainer_sch_middle_m
+	0xB07A64DBBA9AC6F1	TRAINER BATTLE			Monica the Student	area16_trainer_sch_middle_f
+	0x542E3EF38ED05A9F	TRAINER BATTLE			Abel the Worker	area15_trainer_worker
+	0xF0DA99BD1616AA9A	TRAINER BATTLE			Salvador the Janitor	area15_trainer_cleaning
+	0xB97410C8591D3F0D	TRAINER BATTLE			Eleonor the Cook	area15_trainer_chef
+	0x1EF4BF7CAD356BDF	TRAINER BATTLE			Isabella the Waitress	area15_trainer_waitress
+	0xA1E8578DD245EE3F	TRAINER BATTLE			Cabbie Pablo	area15_trainer_taxidriver_1
+	0x9740D160C80BA34A	TRAINER BATTLE			Jorge the Student	area15_trainer_sch_senior_m_1
+	0x47E344609AB1A3B3	TRAINER BATTLE			Mercedes the Student	area15_trainer_sch_senior_f_1
+	0xCC0AD8BC12B401CF	TRAINER BATTLE			Saul the Waiter	area15_trainer_waiter
+	0xEAE24B6C0E96468E	TRAINER BATTLE			Felix the Student	area15_trainer_sch_young_m_1
+	0x0F89DB4555571C03	TRAINER BATTLE			Javier the Worker	area15_trainer_worker_1
+	0x25AF6E6C2F5F5FC7	TRAINER BATTLE			Petra the Student	area15_trainer_sch_young_f_1
+	0xD06EACB66289983F	TRAINER BATTLE			Backpacker Arturo	area16_trainer_backpacker_1
+	0x4D3F914A222000CD	TRAINER BATTLE			Anas the Student	area16_trainer_sch_infant_m
+	0x4D3F864A221FEE1C	TRAINER BATTLE			Lina the Student	area16_trainer_sch_infant_f
+	0x8769C3DC4FDEFC35	TRAINER BATTLE			Mario the Office Worker	area15_trainer_businessman_1
+	0x4AB55970C41FB38D	TRAINER BATTLE			Aimar the Student	area18_trainer_sch_young_m
+	0x412B460B78B0D1CC	TRAINER BATTLE			Leticia the Dragon Tamer	area18_trainer_dragontamer
+	0x96F9C06EDFCF32DF	TRAINER BATTLE			Hiker Luna	area18_trainer_mountain
+	0x0C28B8839A3C743B	TRAINER BATTLE			Jose the Student	area18_trainer_sch_senior_m
+	0x42C0FDB2506AD11F	TRAINER BATTLE			Natalia the Student	area18_trainer_sch_middle_f
+	0xA76C28E850ADB966	TRAINER BATTLE			Cabbie Oscar	area18_trainer_taxidriver
+	0x9146A562812C4E51	TRAINER BATTLE			Yaiza the Model	area18_trainer_model
+	0x0C28B1839A3C6856	TRAINER BATTLE			Dolores the Student	area18_trainer_sch_senior_f
+	0x13318F14DBB4A5D0	TRAINER BATTLE			Irma the Cook	area18_trainer_chef
+	0xF65B6A56B2BCE773	TRAINER BATTLE			Hiker Yanira	area21_trainer_mountain
+	0x06285CC632E34659	TRAINER BATTLE			Backpacker Julio	area21_trainer_backpacker
+	0x332E31C262F5C383	TRAINER BATTLE			Aleix the Student	area21_trainer_sch_boy
+	0x2EC8C56F8B4463BF	TRAINER BATTLE			Pedro the Student	area21_trainer_sch_senior_m
+	0x8748862450A483BD	TRAINER BATTLE			Naia the Student	area21_trainer_sch_girl
+	0xB2389875CDBC212A	TRAINER BATTLE			Guillermo the Poké Maniac	area21_trainer_mania
+	0x78FA2F84A355BD10	TRAINER BATTLE			Victoria the Student	area21_trainer_sch_young_f
+	0xD71A8500B4FBFC90	TRAINER BATTLE			Paloma the Dragon Tamer	area21_trainer_dragontamer
+	0x5E57A0906724B6E4	TRAINER BATTLE			Gema the Dragon Tamer	area21_trainer_dragontamer_1
+	0x5E57A3906724BBFD	TRAINER BATTLE			Diana the Dragon Tamer	area21_trainer_dragontamer_2
+	0x5CBE52D7DE97BE6B	TRAINER BATTLE			Susana the Office Worker	area21_trainer_ol
+	0xA21C2EAA89CF4CAF	TRAINER BATTLE			Lola the Cook	area22_trainer_chef
+	0xBCB9957978BC359A	TRAINER BATTLE			Ali the Student	area22_trainer_sch_child_m
+	0x1DA6ECBE0F874C98	TRAINER BATTLE			Blanca the Artist	area22_trainer_artist
+	0x26141EF3EDD646FD	TRAINER BATTLE			Ana Maria the Student	area22_trainer_sch_senior_f
+	0x996749854C0CAB1D	TRAINER BATTLE			Fernando the Black Belt	area22_trainer_karate
+	0x0FEB2DF6F58596CC	TRAINER BATTLE			Alexia the Model	area22_trainer_model
+	0xBB0A70604C82F87C	TRAINER BATTLE			Backpacker Nil	area19_trainer_backpacker
+	0x0090F63C86CB0A3A	TRAINER BATTLE			Vidal the Student	area19_trainer_sch_young_m
+	0xC0C64C1EC4215FFF	TRAINER BATTLE			Roberto the Scientist	area19_trainer_researcher
+	0xB81750D527E476F3	TRAINER BATTLE			Elisabet the Dragon Tamer	area19_trainer_dragontamer
+	0x08FD4E8E55E532CD	TRAINER BATTLE			Xabier the Courier	area19_trainer_deliverer
+	0x0090ED3C86CAFAEF	TRAINER BATTLE			Valeria the Student	area19_trainer_sch_young_f
+	0x58B6D6BEA44DCE9E	TRAINER BATTLE			Hiker Manuela	area19_trainer_mountain
+	0xD56990398BC41693	TRAINER BATTLE			Eduardo the Student	area19_trainer_sch_middle_m
+	0xB72CEF274DDDA0DF	TRAINER BATTLE			Sebastian the Black Belt	area19_trainer_karate
+	0x2E58BD4A53467358	TRAINER BATTLE			Backpacker Markel	area19_trainer_backpacker_1
+	0xB878B219C0631723	TRAINER BATTLE			Ignacio the Scientist	area19_trainer_researcher_1
+	0x9432B3C062B0AC45	TRAINER BATTLE			Edgar the Courier	area19_trainer_deliverer_1
+	0x3C03F4123ED087C3	TRAINER BATTLE			Marcos the Black Belt	area19_trainer_karate_1
+	0x614873EEC4AF8B5E	TRAINER BATTLE			Desiree the Artist	area20_trainer_artist
+	0x5FDB24771704D316	TRAINER BATTLE			Ester the Office Worker	area20_trainer_ol
+	0x06D6CB2D4D81E4F4	TRAINER BATTLE			Tatiana the Musician	area20_trainer_musician
+	0xD5EAF2BC64F873C3	TRAINER BATTLE			Jimena the Student	area20_trainer_sch_young_f
+	0xD5EAFBBC64F8830E	TRAINER BATTLE			Stefan the Student	area20_trainer_sch_young_m
+	0xA1BB3463C205CA69	TRAINER BATTLE			Jordi the Poké Maniac	area20_trainer_mania
+	0xBE62B19A8B3CACE6	TRAINER BATTLE			Naiara the Model	area24_trainer_model
+	0xB42A0867B83187EE	TRAINER BATTLE			Jaume the Poké Maniac	area25_trainer_mania
+	0xCCB4147D8C083217	TRAINER BATTLE			Yago the Office Worker	area26_trainer_businessman
 	0x9959A85BE0CA56CA	TRAINER BATTLE				TR_0xE0CA56CA
 	0x9959A95BE0CA587D	TRAINER BATTLE				TR_0xE0CA587D
 	0x9959A65BE0CA5364	TRAINER BATTLE				TR_0xE0CA5364
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x0	TRAINER BATTLE				
+	0x12AC859B	SIDE EVENT			Remove Ting-Lu Stake 1	FEVT_SUB_014_KUI_01_RELEASE
+	0x8DEDB4EE	SIDE EVENT			Remove Ting-Lu Stake 2	FEVT_SUB_014_KUI_02_RELEASE
+	0x8AD96AE1	SIDE EVENT			Remove Ting-Lu Stake 3	FEVT_SUB_014_KUI_03_RELEASE
+	0xDE563974	SIDE EVENT			Remove Ting-Lu Stake 4	FEVT_SUB_014_KUI_04_RELEASE
+	0xCD9991DF	SIDE EVENT			Remove Ting-Lu Stake 5	FEVT_SUB_014_KUI_05_RELEASE
+	0xAE72B792	SIDE EVENT			Remove Ting-Lu Stake 6	FEVT_SUB_014_KUI_06_RELEASE
+	0xAB74A785	SIDE EVENT			Remove Ting-Lu Stake 7	FEVT_SUB_014_KUI_07_RELEASE
+	0x32E24C38	SIDE EVENT			Remove Ting-Lu Stake 8	FEVT_SUB_014_KUI_08_RELEASE
+	0xF1CFFA8E	SIDE EVENT			Remove Chien-Pao Stake 1	FEVT_SUB_015_KUI_01_RELEASE
+	0x4C7DC4BB	SIDE EVENT			Remove Chien-Pao Stake 2	FEVT_SUB_015_KUI_02_RELEASE
+	0xAE0F19B0	SIDE EVENT			Remove Chien-Pao Stake 3	FEVT_SUB_015_KUI_03_RELEASE
+	0x95414EA5	SIDE EVENT			Remove Chien-Pao Stake 4	FEVT_SUB_015_KUI_04_RELEASE
+	0x52F60D32	SIDE EVENT			Remove Chien-Pao Stake 5	FEVT_SUB_015_KUI_05_RELEASE
+	0x5C55EE7F	SIDE EVENT			Remove Chien-Pao Stake 6	FEVT_SUB_015_KUI_06_RELEASE
+	0xFFEB3B14	SIDE EVENT			Remove Chien-Pao Stake 7	FEVT_SUB_015_KUI_07_RELEASE
+	0xDAD07F09	SIDE EVENT			Remove Chien-Pao Stake 8	FEVT_SUB_015_KUI_08_RELEASE
+	0xA3B68F79	SIDE EVENT			Remove Wo-Chien Stake 1	FEVT_SUB_016_KUI_01_RELEASE
+	0x4CB308C8	SIDE EVENT			Remove Wo-Chien Stake 2	FEVT_SUB_016_KUI_02_RELEASE
+	0xF6FC8073	SIDE EVENT			Remove Wo-Chien Stake 3	FEVT_SUB_016_KUI_03_RELEASE
+	0x7E28078A	SIDE EVENT			Remove Wo-Chien Stake 4	FEVT_SUB_016_KUI_04_RELEASE
+	0xCD304EDD	SIDE EVENT			Remove Wo-Chien Stake 5	FEVT_SUB_016_KUI_05_RELEASE
+	0x27CB724C	SIDE EVENT			Remove Wo-Chien Stake 6	FEVT_SUB_016_KUI_06_RELEASE
+	0x0470BDF7	SIDE EVENT			Remove Wo-Chien Stake 7	FEVT_SUB_016_KUI_07_RELEASE
+	0x59A600BE	SIDE EVENT			Remove Wo-Chien Stake 8	FEVT_SUB_016_KUI_08_RELEASE
+	0x6F341C9C	SIDE EVENT			Remove Chi-Yu Stake 1	FEVT_SUB_017_KUI_01_RELEASE
+	0x7077C7AD	SIDE EVENT			Remove Chi-Yu Stake 2	FEVT_SUB_017_KUI_02_RELEASE
+	0xD9072D1A	SIDE EVENT			Remove Chi-Yu Stake 3	FEVT_SUB_017_KUI_03_RELEASE
+	0x97E33903	SIDE EVENT			Remove Chi-Yu Stake 4	FEVT_SUB_017_KUI_04_RELEASE
+	0xFC221F98	SIDE EVENT			Remove Chi-Yu Stake 5	FEVT_SUB_017_KUI_05_RELEASE
+	0x6714A749	SIDE EVENT			Remove Chi-Yu Stake 6	FEVT_SUB_017_KUI_06_RELEASE
+	0xC83DEFF6	SIDE EVENT			Remove Chi-Yu Stake 7	FEVT_SUB_017_KUI_07_RELEASE
+	0xCA415ABF	SIDE EVENT			Remove Chi-Yu Stake 8	FEVT_SUB_017_KUI_08_RELEASE
+	0x987B8A24	STATIC BATTLE	Area Zero		Capture wild Koraidon / Miraidon	FEVT_SUB_018_CAPTURED
+	0x2D7B5238	STATIC BATTLE	Casseroya Lake		Capture Titan Tatsugiri	NUSHI_DRAGON_AFTER_PERMANENT
+	0x740065E9	STATIC BATTLE	East Province (Area Three)		Capture Titan Orthworm	NUSHI_HAGANE_AFTER_PERMANENT
+	0x7C6F7BD2	STATIC BATTLE	West Province (Area One)		Capture Titan Bombirdier	NUSHI_HIKO_AFTER_PERMANENT
+	0x8CFF73AE	STATIC BATTLE	South Province (Area Three)		Capture Titan Klawf	NUSHI_IWA_AFTER_PERMANENT
+	0xDCFC1846	STATIC BATTLE	Asado Desert		Capture Titan Great Tusk / Iron Treads	NUSHI_JIMEN_AFTER_PERMANENT
+	0xA3B2E1E8	STATIC BATTLE	Socarrat Trail		Capture Ting-Lu	WEVT_SUB_014_EVENT_STATE_UTHUWA
+	0xB6D28884	STATIC BATTLE	West Province (Area One)		Capture Chien-Pao	WEVT_SUB_015_EVENT_STATE_TSURUGI
+	0x8FC1AFF5	STATIC BATTLE	West Province (Area One)		Capture Wo-Chien	WEVT_SUB_016_EVENT_STATE_MOKKAN
+	0x0FD2F9E2	STATIC BATTLE	North Province (Area Two)		Capture Chi-Yu	WEVT_SUB_017_EVENT_STATE_MAGATAMA
+	0xF917055C	SIDE EVENT	Porto Marinada	Auction	Purchase Griseous Orb	FEVT_SERI_LEGEND_0112_v2
+	0x804E5454	SIDE EVENT	Porto Marinada	Auction	Purchase Adamant Orb	FEVT_SERI_LEGEND_0135
+	0x804E596D	SIDE EVENT	Porto Marinada	Auction	Purchase Lustrous Orb	FEVT_SERI_LEGEND_0136
+	0x8E874DC8	SIDE EVENT	Porto Marinada	Auction	Purchase Flame Plate	FEVT_SERI_LEGEND_0298
+	0x8E874F7B	SIDE EVENT	Porto Marinada	Auction	Purchase Splash Plate	FEVT_SERI_LEGEND_0299
+	0x895CD8D6	SIDE EVENT	Porto Marinada	Auction	Purchase Zap Plate	FEVT_SERI_LEGEND_0300
+	0x895CDA89	SIDE EVENT	Porto Marinada	Auction	Purchase Meadow Plate	FEVT_SERI_LEGEND_0301
+	0x895CD570	SIDE EVENT	Porto Marinada	Auction	Purchase Icicle Plate	FEVT_SERI_LEGEND_0302
+	0x895CD723	SIDE EVENT	Porto Marinada	Auction	Purchase Fist Plate	FEVT_SERI_LEGEND_0303
+	0x895CDFA2	SIDE EVENT	Porto Marinada	Auction	Purchase Toxic Plate	FEVT_SERI_LEGEND_0304
+	0x895CE155	SIDE EVENT	Porto Marinada	Auction	Purchase Earth Plate	FEVT_SERI_LEGEND_0305
+	0x895CDC3C	SIDE EVENT	Porto Marinada	Auction	Purchase Sky Plate	FEVT_SERI_LEGEND_0306
+	0x895CDDEF	SIDE EVENT	Porto Marinada	Auction	Purchase Mind Plate	FEVT_SERI_LEGEND_0307
+	0x895CE66E	SIDE EVENT	Porto Marinada	Auction	Purchase Insect Plate	FEVT_SERI_LEGEND_0308
+	0x895CE821	SIDE EVENT	Porto Marinada	Auction	Purchase Stone Plate	FEVT_SERI_LEGEND_0309
+	0x895FF25F	SIDE EVENT	Porto Marinada	Auction	Purchase Spooky Plate	FEVT_SERI_LEGEND_0310
+	0x895FF0AC	SIDE EVENT	Porto Marinada	Auction	Purchase Draco Plate	FEVT_SERI_LEGEND_0311
+	0x895FF5C5	SIDE EVENT	Porto Marinada	Auction	Purchase Dread Plate	FEVT_SERI_LEGEND_0312
+	0x895FF412	SIDE EVENT	Porto Marinada	Auction	Purchase Iron Plate	FEVT_SERI_LEGEND_0313
+	0xA1E7C2EE	SIDE EVENT	Porto Marinada	Auction	Purchase Reveal Glass	FEVT_SERI_LEGEND_0638
+	0xA1D94C55	SIDE EVENT	Porto Marinada	Auction	Purchase Pixie Plate	FEVT_SERI_LEGEND_0644
+	0x9CA69C5B	SIDE EVENT	Porto Marinada	Auction	Purchase Prison Bottle	FEVT_SERI_LEGEND_0765
+	0x32CAE86C	SIDE EVENT	Porto Marinada	Auction	Purchase Rusted Sword	FEVT_SERI_LEGEND_1103
+	0x32CAE6B9	SIDE EVENT	Porto Marinada	Auction	Purchase Rusted Shield	FEVT_SERI_LEGEND_1104
+	0x246C9C43	SIDE EVENT	Porto Marinada	Auction	Purchase Rotom Catalog	FEVT_SERI_LEGEND_1278
+	0x1F3F28F8	SIDE EVENT	Porto Marinada	Auction	Purchase Reins Of Unity	FEVT_SERI_LEGEND_1590
+	0x16729999	SIDE EVENT	Porto Marinada	Auction	Purchase Adamant Crystal	FEVT_SERI_LEGEND_1777
+	0x1672A8E4	SIDE EVENT	Porto Marinada	Auction	Purchase Lustrous Globe	FEVT_SERI_LEGEND_1778
+	0xFE092048	SIDE EVENT	Porto Marinada	Auction	Purchase Griseous Core	FEVT_SERI_LEGEND_1779_v2
+	0x06B12DD6	SIDE EVENT	Porto Marinada	Auction	Purchase Scroll Of Darkness	FEVT_SERI_LEGEND_1857
+	0x06B14087	SIDE EVENT	Porto Marinada	Auction	Purchase Scroll Of Waters	FEVT_SERI_LEGEND_1858
+	0x6C29ACC5	STORY EVENT	West Province (Area One)	Segin Squad's Base	Receive Badge Dark	WEVT_DAN_AKU_CLEAR
+	0x71DB2CEB	STORY EVENT	Tagtree Thicket	Navi Squad's Base	Receive Badge Poison	WEVT_DAN_DOKU_CLEAR
+	0xE1271327	STORY EVENT	North Province (Area Three)	Ruchbah Squad's Base	Receive Badge Fairy	WEVT_DAN_FAIRY_CLEAR
+	0x9C6FF7DD	STORY EVENT	East Province (Area One)	Schedar Squad's Base	Receive Badge Fire	WEVT_DAN_HONOO_CLEAR
+	0x2A3AC89A	STORY EVENT	North Province (Area Two)	Caph Squad's Base	Receive Badge Fighting	WEVT_DAN_KAKUTOU_CLEAR
+	0x8205ECAD	STORY EVENT	Levincia	Gym	Receive Badge Electric	WEVT_GYM_DENKI_CLEAR
+	0x3B819021	STORY EVENT	Alfornada	Gym	Receive Badge Psychic	WEVT_GYM_ESPER_CLEAR
+	0xCDA61DED	STORY EVENT	Montenevera	Gym	Receive Badge Ghost	WEVT_GYM_GHOST_CLEAR
+	0x46B6CB30	STORY EVENT	Glaseado	Gym	Receive Badge Ice	WEVT_GYM_KOORI_CLEAR
+	0xB4C3AFE6	STORY EVENT	Artazon	Gym	Receive Badge Grass	WEVT_GYM_KUSA_CLEAR
+	0xA803FAAD	STORY EVENT	Cascarrafa	Gym	Receive Badge Water	WEVT_GYM_MIZU_CLEAR
+	0x89306FE6	STORY EVENT	Cortondo	Gym	Receive Badge Bug	WEVT_GYM_MUSHI_CLEAR
+	0xF90EFD79	STORY EVENT	Medali	Gym	Receive Badge Normal	WEVT_GYM_NORMAL_CLEAR
+	0xEC7361B7	STORY EVENT	Casseroya Lake		Receive Badge Dragon	WEVT_NUSHI_DRAGON_CLEAR
+	0x0D0602DE	STORY EVENT	Asado Desert		Receive Badge Steel	WEVT_NUSHI_HAGANE_CLEAR
+	0x9C16DA94	STORY EVENT	West Province (Area One)		Receive Badge Flying	WEVT_NUSHI_HIKOU_CLEAR
+	0xA6CDE603	STORY EVENT	South Province (Area Three)		Receive Badge Rock	WEVT_NUSHI_IWA_CLEAR
+	0xBDAC74B3	STORY EVENT	East Province (Area Three)		Receive Badge Ground	WEVT_NUSHI_JIMEN_CLEAR
+	0xCEF6C179	IN-GAME TRADE	Cortondo		Trade a Flabébé for Snowsalot (Snom)	FEVT_SUB_044_TRADE_A
+	0xCEF6BC60	IN-GAME TRADE	Cascarrafa		Trade a Paldean Wooper for Manchester (Wooper)	FEVT_SUB_044_TRADE_B
+	0xCEF6BE13	IN-GAME TRADE	Levincia		Trade a Pincurchin for Hauntikins (Haunter)	FEVT_SUB_044_TRADE_C
+	0x7739D2B1	GIFT	South Province (Area One)		TM082 (Thunder Wave) from Pokémon League Rep for defeating 4 trainers in the area	FSYS_MISTER_TRAINER_AREA_01
+	0x7739D7CA	GIFT	Cortondo		TM027 (Aerial Ace) from Pokémon League Rep for defeating 5 trainers in the area	FSYS_MISTER_TRAINER_AREA_04
+	0x7739D97D	GIFT	South Province (Area Four)		Rocky Helmet from Pokémon League Rep for defeating 5 trainers in the area	FSYS_MISTER_TRAINER_AREA_05
+	0x7739D464	GIFT	Alfornada		TM165 (Flare Blitz) from Pokémon League Rep for defeating 7 trainers in the area	FSYS_MISTER_TRAINER_AREA_06
+	0x7739D617	GIFT	South Province (Area Five)		Eviolite from Pokémon League Rep for defeating 7 trainers in the area	FSYS_MISTER_TRAINER_AREA_07
+	0x7739C366	GIFT	South Province (Area Three)		Shell Bell from Pokémon League Rep for defeating 6 trainers in the area	FSYS_MISTER_TRAINER_AREA_08
+	0x7739C519	GIFT	West Province (Area One)		Clear Amulet from Pokémon League Rep for defeating 9 trainers in the area	FSYS_MISTER_TRAINER_AREA_09
+	0x773CEA87	GIFT	Cascarrafa		TM149 (Earthquake) from Pokémon League Rep for defeating 5 trainers in the area	FSYS_MISTER_TRAINER_AREA_10
+	0x773CE8D4	GIFT	West Province (Area Two)		Focus Sash from Pokémon League Rep for defeating 4 trainers in the area	FSYS_MISTER_TRAINER_AREA_11
+	0x773CEDED	GIFT	Medali		Amulet Coin from Pokémon League Rep for defeating 5 trainers in the area	FSYS_MISTER_TRAINER_AREA_12
+	0x773CE3BB	GIFT	Zapapico		Punching Gloves from Pokémon League Rep for defeating 7 trainers in the area	FSYS_MISTER_TRAINER_AREA_14
+	0x773CE208	GIFT	East Province (Area One)		Loaded Dice from Pokémon League Rep for defeating 5 trainers in the area	FSYS_MISTER_TRAINER_AREA_15
+	0x773CE721	GIFT	Levincia		TM084 (Stop Tantrum) from Pokémon League Rep for defeating 6 trainers in the area	FSYS_MISTER_TRAINER_AREA_16
+	0x773CE56E	GIFT	Dalizapa Passage		Expert Belt from Pokémon League Rep for defeating 4 trainers in the area	FSYS_MISTER_TRAINER_AREA_17
+	0x773CDCEF	GIFT	Casseroya Lake		TM142 (Hydro Pump) from Pokémon League Rep for defeating 7 trainers in the area	FSYS_MISTER_TRAINER_AREA_18
+	0x773CDB3C	GIFT	Glaseado Mountain		TM143 (Blizzard) from Pokémon League Rep for defeating 4 trainers in the area	FSYS_MISTER_TRAINER_AREA_19
+	0x7734776C	GIFT	North Province (Area Three)		TM159 (Leaf Storm) from Pokémon League Rep for defeating 4 trainers in the area	FSYS_MISTER_TRAINER_AREA_20
+	0x7734791F	GIFT	North Province (Area One)		TM150 (Stone Edge) from Pokémon League Rep for defeating 6 trainers in the area	FSYS_MISTER_TRAINER_AREA_21
+	0x77347AD2	GIFT	North Province (Area Two)		TM156 (Outrage) from Pokémon League Rep for defeating 5 trainers in the area	FSYS_MISTER_TRAINER_AREA_22
+	0xF28D370B	SIDE EVENT			Unlock recipe for TM001 (Take Down)	FSYS_UI_WAZA_MACHINE_RELEASE_001
+	0xF28D38BE	SIDE EVENT			Unlock recipe for TM002 (Charm)	FSYS_UI_WAZA_MACHINE_RELEASE_002
+	0xF28D3A71	SIDE EVENT			Unlock recipe for TM003 (Fake Tears)	FSYS_UI_WAZA_MACHINE_RELEASE_003
+	0xF28D3C24	SIDE EVENT			Unlock recipe for TM004 (Agility)	FSYS_UI_WAZA_MACHINE_RELEASE_004
+	0xF28D3DD7	SIDE EVENT			Unlock recipe for TM005 (Mud-Slap)	FSYS_UI_WAZA_MACHINE_RELEASE_005
+	0xF28D3F8A	SIDE EVENT			Unlock recipe for TM006 (Scary Face)	FSYS_UI_WAZA_MACHINE_RELEASE_006
+	0xF28D413D	SIDE EVENT			Unlock recipe for TM007 (Protect)	FSYS_UI_WAZA_MACHINE_RELEASE_007
+	0xF28D27C0	SIDE EVENT			Unlock recipe for TM008 (Fire Fang)	FSYS_UI_WAZA_MACHINE_RELEASE_008
+	0xF28D2973	SIDE EVENT			Unlock recipe for TM009 (Thunder Fang)	FSYS_UI_WAZA_MACHINE_RELEASE_009
+	0xF2904EE1	SIDE EVENT			Unlock recipe for TM010 (Ice Fang)	FSYS_UI_WAZA_MACHINE_RELEASE_010
+	0xF2904D2E	SIDE EVENT			Unlock recipe for TM011 (Water Pulse)	FSYS_UI_WAZA_MACHINE_RELEASE_011
+	0xF2904B7B	SIDE EVENT			Unlock recipe for TM012 (Low Kick)	FSYS_UI_WAZA_MACHINE_RELEASE_012
+	0xF29049C8	SIDE EVENT			Unlock recipe for TM013 (Acid Spray)	FSYS_UI_WAZA_MACHINE_RELEASE_013
+	0xF29055AD	SIDE EVENT			Unlock recipe for TM014 (Acrobatics)	FSYS_UI_WAZA_MACHINE_RELEASE_014
+	0xF29053FA	SIDE EVENT			Unlock recipe for TM015 (Struggle Bug)	FSYS_UI_WAZA_MACHINE_RELEASE_015
+	0xF2905247	SIDE EVENT			Unlock recipe for TM016 (Psybeam)	FSYS_UI_WAZA_MACHINE_RELEASE_016
+	0xF2905094	SIDE EVENT			Unlock recipe for TM017 (Endure)	FSYS_UI_WAZA_MACHINE_RELEASE_017
+	0xF2904149	SIDE EVENT			Unlock recipe for TM018 (Thief)	FSYS_UI_WAZA_MACHINE_RELEASE_018
+	0xF2903F96	SIDE EVENT			Unlock recipe for TM019 (Disarming Voice)	FSYS_UI_WAZA_MACHINE_RELEASE_019
+	0xF293686A	SIDE EVENT			Unlock recipe for TM020 (Trailblaze)	FSYS_UI_WAZA_MACHINE_RELEASE_020
+	0xF2936A1D	SIDE EVENT			Unlock recipe for TM021 (Pounce)	FSYS_UI_WAZA_MACHINE_RELEASE_021
+	0xF2936504	SIDE EVENT			Unlock recipe for TM022 (Chilling Water)	FSYS_UI_WAZA_MACHINE_RELEASE_022
+	0xF29366B7	SIDE EVENT			Unlock recipe for TM023 (Charge Beam)	FSYS_UI_WAZA_MACHINE_RELEASE_023
+	0xF293619E	SIDE EVENT			Unlock recipe for TM024 (Fire Spin)	FSYS_UI_WAZA_MACHINE_RELEASE_024
+	0xF2936351	SIDE EVENT			Unlock recipe for TM025 (Facade)	FSYS_UI_WAZA_MACHINE_RELEASE_025
+	0xF2935E38	SIDE EVENT			Unlock recipe for TM026 (Poison Tail)	FSYS_UI_WAZA_MACHINE_RELEASE_026
+	0xF2935FEB	SIDE EVENT			Unlock recipe for TM027 (Aerial Ace)	FSYS_UI_WAZA_MACHINE_RELEASE_027
+	0xF2935AD2	SIDE EVENT			Unlock recipe for TM028 (Bulldoze)	FSYS_UI_WAZA_MACHINE_RELEASE_028
+	0xF2935C85	SIDE EVENT			Unlock recipe for TM029 (Hex)	FSYS_UI_WAZA_MACHINE_RELEASE_029
+	0xF2964B93	SIDE EVENT			Unlock recipe for TM030 (Snarl)	FSYS_UI_WAZA_MACHINE_RELEASE_030
+	0xF29649E0	SIDE EVENT			Unlock recipe for TM031 (Metal Claw)	FSYS_UI_WAZA_MACHINE_RELEASE_031
+	0xF2964EF9	SIDE EVENT			Unlock recipe for TM032 (Swift)	FSYS_UI_WAZA_MACHINE_RELEASE_032
+	0xF2964D46	SIDE EVENT			Unlock recipe for TM033 (Magical Leaf)	FSYS_UI_WAZA_MACHINE_RELEASE_033
+	0xF296525F	SIDE EVENT			Unlock recipe for TM034 (Icy Wind)	FSYS_UI_WAZA_MACHINE_RELEASE_034
+	0xF29650AC	SIDE EVENT			Unlock recipe for TM035 (Mud Shot)	FSYS_UI_WAZA_MACHINE_RELEASE_035
+	0xF29655C5	SIDE EVENT			Unlock recipe for TM036 (Rock Tomb)	FSYS_UI_WAZA_MACHINE_RELEASE_036
+	0xF2965412	SIDE EVENT			Unlock recipe for TM037 (Draining Kiss)	FSYS_UI_WAZA_MACHINE_RELEASE_037
+	0xF296592B	SIDE EVENT			Unlock recipe for TM038 (Flame Charge)	FSYS_UI_WAZA_MACHINE_RELEASE_038
+	0xF2965778	SIDE EVENT			Unlock recipe for TM039 (Low Sweep)	FSYS_UI_WAZA_MACHINE_RELEASE_039
+	0xF299651C	SIDE EVENT			Unlock recipe for TM040 (Air Cutter)	FSYS_UI_WAZA_MACHINE_RELEASE_040
+	0xF29966CF	SIDE EVENT			Unlock recipe for TM041 (Stored Power)	FSYS_UI_WAZA_MACHINE_RELEASE_041
+	0xF2996882	SIDE EVENT			Unlock recipe for TM042 (Night Shade)	FSYS_UI_WAZA_MACHINE_RELEASE_042
+	0xF2996A35	SIDE EVENT			Unlock recipe for TM043 (Fling)	FSYS_UI_WAZA_MACHINE_RELEASE_043
+	0xF2995E50	SIDE EVENT			Unlock recipe for TM044 (Dragon Tail)	FSYS_UI_WAZA_MACHINE_RELEASE_044
+	0xF2996003	SIDE EVENT			Unlock recipe for TM045 (Venoshock)	FSYS_UI_WAZA_MACHINE_RELEASE_045
+	0xF29961B6	SIDE EVENT			Unlock recipe for TM046 (Avalanche)	FSYS_UI_WAZA_MACHINE_RELEASE_046
+	0xF2996369	SIDE EVENT			Unlock recipe for TM047 (Endure)	FSYS_UI_WAZA_MACHINE_RELEASE_047
+	0xF29972B4	SIDE EVENT			Unlock recipe for TM048 (Volt Switch)	FSYS_UI_WAZA_MACHINE_RELEASE_048
+	0xF2997467	SIDE EVENT			Unlock recipe for TM049 (Sunny Day)	FSYS_UI_WAZA_MACHINE_RELEASE_049
+	0xF29BA525	SIDE EVENT			Unlock recipe for TM050 (Rain Dance)	FSYS_UI_WAZA_MACHINE_RELEASE_050
+	0xF29BA372	SIDE EVENT			Unlock recipe for TM051 (Sandstorm)	FSYS_UI_WAZA_MACHINE_RELEASE_051
+	0xF29BA1BF	SIDE EVENT			Unlock recipe for TM052 (Snowscape)	FSYS_UI_WAZA_MACHINE_RELEASE_052
+	0xF29BA00C	SIDE EVENT			Unlock recipe for TM053 (Smart Strike)	FSYS_UI_WAZA_MACHINE_RELEASE_053
+	0xF29B9E59	SIDE EVENT			Unlock recipe for TM054 (Psyshock)	FSYS_UI_WAZA_MACHINE_RELEASE_054
+	0xF29B9CA6	SIDE EVENT			Unlock recipe for TM055 (Dig)	FSYS_UI_WAZA_MACHINE_RELEASE_055
+	0xF29B9AF3	SIDE EVENT			Unlock recipe for TM056 (Bullet Seed)	FSYS_UI_WAZA_MACHINE_RELEASE_056
+	0xF29B9940	SIDE EVENT			Unlock recipe for TM057 (False Swipe)	FSYS_UI_WAZA_MACHINE_RELEASE_057
+	0xF29BB2BD	SIDE EVENT			Unlock recipe for TM058 (Brick Break)	FSYS_UI_WAZA_MACHINE_RELEASE_058
+	0xF29BB10A	SIDE EVENT			Unlock recipe for TM059 (Zen Headbutt)	FSYS_UI_WAZA_MACHINE_RELEASE_059
+	0xF29EBEAE	SIDE EVENT			Unlock recipe for TM060 (U-turn)	FSYS_UI_WAZA_MACHINE_RELEASE_060
+	0xF29EC061	SIDE EVENT			Unlock recipe for TM061 (Shadow Claw)	FSYS_UI_WAZA_MACHINE_RELEASE_061
+	0xF29EBB48	SIDE EVENT			Unlock recipe for TM062 (Foul Play)	FSYS_UI_WAZA_MACHINE_RELEASE_062
+	0xF29EBCFB	SIDE EVENT			Unlock recipe for TM063 (Psychic Fangs)	FSYS_UI_WAZA_MACHINE_RELEASE_063
+	0xF29EC57A	SIDE EVENT			Unlock recipe for TM064 (Bulk Up)	FSYS_UI_WAZA_MACHINE_RELEASE_064
+	0xF29EC72D	SIDE EVENT			Unlock recipe for TM065 (Air Slash)	FSYS_UI_WAZA_MACHINE_RELEASE_065
+	0xF29EC214	SIDE EVENT			Unlock recipe for TM066 (Body Slam)	FSYS_UI_WAZA_MACHINE_RELEASE_066
+	0xF29EC3C7	SIDE EVENT			Unlock recipe for TM067 (Fire Punch)	FSYS_UI_WAZA_MACHINE_RELEASE_067
+	0xF29EB116	SIDE EVENT			Unlock recipe for TM068 (Thunder Punch)	FSYS_UI_WAZA_MACHINE_RELEASE_068
+	0xF29EB2C9	SIDE EVENT			Unlock recipe for TM069 (Ice Punch)	FSYS_UI_WAZA_MACHINE_RELEASE_069
+	0xF2A1D837	SIDE EVENT			Unlock recipe for TM070 (Sleep Talk)	FSYS_UI_WAZA_MACHINE_RELEASE_070
+	0xF2A1D684	SIDE EVENT			Unlock recipe for TM071 (Seed Bomb)	FSYS_UI_WAZA_MACHINE_RELEASE_071
+	0xF2A1DB9D	SIDE EVENT			Unlock recipe for TM072 (Electro Ball)	FSYS_UI_WAZA_MACHINE_RELEASE_072
+	0xF2A1D9EA	SIDE EVENT			Unlock recipe for TM073 (Drain Punch)	FSYS_UI_WAZA_MACHINE_RELEASE_073
+	0xF2A1D16B	SIDE EVENT			Unlock recipe for TM074 (Reflect)	FSYS_UI_WAZA_MACHINE_RELEASE_074
+	0xF2A1CFB8	SIDE EVENT			Unlock recipe for TM075 (Light Screen)	FSYS_UI_WAZA_MACHINE_RELEASE_075
+	0xF2A1D4D1	SIDE EVENT			Unlock recipe for TM076 (Rock Blast)	FSYS_UI_WAZA_MACHINE_RELEASE_076
+	0xF2A1D31E	SIDE EVENT			Unlock recipe for TM077 (Waterfall)	FSYS_UI_WAZA_MACHINE_RELEASE_077
+	0xF2A1CA9F	SIDE EVENT			Unlock recipe for TM078 (Dragon Claw)	FSYS_UI_WAZA_MACHINE_RELEASE_078
+	0xF2A1C8EC	SIDE EVENT			Unlock recipe for TM079 (Dazzling Gleam)	FSYS_UI_WAZA_MACHINE_RELEASE_079
+	0xF2765270	SIDE EVENT			Unlock recipe for TM080 (Metronome)	FSYS_UI_WAZA_MACHINE_RELEASE_080
+	0xF2765423	SIDE EVENT			Unlock recipe for TM081 (Grass Knot)	FSYS_UI_WAZA_MACHINE_RELEASE_081
+	0xF27655D6	SIDE EVENT			Unlock recipe for TM082 (Thunder Wave)	FSYS_UI_WAZA_MACHINE_RELEASE_082
+	0xF2765789	SIDE EVENT			Unlock recipe for TM083 (Poison Jab)	FSYS_UI_WAZA_MACHINE_RELEASE_083
+	0xF276593C	SIDE EVENT			Unlock recipe for TM084 (Stomping Tantrum)	FSYS_UI_WAZA_MACHINE_RELEASE_084
+	0xF2765AEF	SIDE EVENT			Unlock recipe for TM085 (Rest)	FSYS_UI_WAZA_MACHINE_RELEASE_085
+	0xF2765CA2	SIDE EVENT			Unlock recipe for TM086 (Rock Slide)	FSYS_UI_WAZA_MACHINE_RELEASE_086
+	0xF2765E55	SIDE EVENT			Unlock recipe for TM087 (Taunt)	FSYS_UI_WAZA_MACHINE_RELEASE_087
+	0xF2766008	SIDE EVENT			Unlock recipe for TM088 (Swords Dance)	FSYS_UI_WAZA_MACHINE_RELEASE_088
+	0xF27661BB	SIDE EVENT			Unlock recipe for TM089 (Body Press)	FSYS_UI_WAZA_MACHINE_RELEASE_089
+	0xF2796BF9	SIDE EVENT			Unlock recipe for TM090 (Spikes)	FSYS_UI_WAZA_MACHINE_RELEASE_090
+	0xF2796A46	SIDE EVENT			Unlock recipe for TM091 (Toxic Spikes)	FSYS_UI_WAZA_MACHINE_RELEASE_091
+	0xF2796893	SIDE EVENT			Unlock recipe for TM092 (Imprison)	FSYS_UI_WAZA_MACHINE_RELEASE_092
+	0xF27966E0	SIDE EVENT			Unlock recipe for TM093 (Flash Cannon)	FSYS_UI_WAZA_MACHINE_RELEASE_093
+	0xF27972C5	SIDE EVENT			Unlock recipe for TM094 (Dark Pulse)	FSYS_UI_WAZA_MACHINE_RELEASE_094
+	0xF2797112	SIDE EVENT			Unlock recipe for TM095 (Leech Life)	FSYS_UI_WAZA_MACHINE_RELEASE_095
+	0xF2796F5F	SIDE EVENT			Unlock recipe for TM096 (Eerie Impulse)	FSYS_UI_WAZA_MACHINE_RELEASE_096
+	0xF2796DAC	SIDE EVENT			Unlock recipe for TM097 (Fly)	FSYS_UI_WAZA_MACHINE_RELEASE_097
+	0xF2797991	SIDE EVENT			Unlock recipe for TM098 (Skill Swap)	FSYS_UI_WAZA_MACHINE_RELEASE_098
+	0xF27977DE	SIDE EVENT			Unlock recipe for TM099 (Iron Head)	FSYS_UI_WAZA_MACHINE_RELEASE_099
+	0xF7D23C43	SIDE EVENT			Unlock recipe for TM100 (Dragon Dance)	FSYS_UI_WAZA_MACHINE_RELEASE_100
+	0xF7D23A90	SIDE EVENT			Unlock recipe for TM101 (Power Gem)	FSYS_UI_WAZA_MACHINE_RELEASE_101
+	0xF7D23FA9	SIDE EVENT			Unlock recipe for TM102 (Gunk Shot)	FSYS_UI_WAZA_MACHINE_RELEASE_102
+	0xF7D23DF6	SIDE EVENT			Unlock recipe for TM103 (Substitute)	FSYS_UI_WAZA_MACHINE_RELEASE_103
+	0xF7D2430F	SIDE EVENT			Unlock recipe for TM104 (Iron Defense)	FSYS_UI_WAZA_MACHINE_RELEASE_104
+	0xF7D2415C	SIDE EVENT			Unlock recipe for TM105 (X-Scissor)	FSYS_UI_WAZA_MACHINE_RELEASE_105
+	0xF7D24675	SIDE EVENT			Unlock recipe for TM106 (Drill Run)	FSYS_UI_WAZA_MACHINE_RELEASE_106
+	0xF7D244C2	SIDE EVENT			Unlock recipe for TM107 (Will-O-Wisp)	FSYS_UI_WAZA_MACHINE_RELEASE_107
+	0xF7D249DB	SIDE EVENT			Unlock recipe for TM108 (Crunch)	FSYS_UI_WAZA_MACHINE_RELEASE_108
+	0xF7D24828	SIDE EVENT			Unlock recipe for TM109 (Trick)	FSYS_UI_WAZA_MACHINE_RELEASE_109
+	0xF7CF591A	SIDE EVENT			Unlock recipe for TM110 (Liquidation)	FSYS_UI_WAZA_MACHINE_RELEASE_110
+	0xF7CF5ACD	SIDE EVENT			Unlock recipe for TM111 (Giga Drain)	FSYS_UI_WAZA_MACHINE_RELEASE_111
+	0xF7CF55B4	SIDE EVENT			Unlock recipe for TM112 (Aura Sphere)	FSYS_UI_WAZA_MACHINE_RELEASE_112
+	0xF7CF5767	SIDE EVENT			Unlock recipe for TM113 (Tailwind)	FSYS_UI_WAZA_MACHINE_RELEASE_113
+	0xF7CF524E	SIDE EVENT			Unlock recipe for TM114 (Shadow Ball)	FSYS_UI_WAZA_MACHINE_RELEASE_114
+	0xF7CF5401	SIDE EVENT			Unlock recipe for TM115 (Dragon Pulse)	FSYS_UI_WAZA_MACHINE_RELEASE_115
+	0xF7CF4EE8	SIDE EVENT			Unlock recipe for TM116 (Stealth Rock)	FSYS_UI_WAZA_MACHINE_RELEASE_116
+	0xF7CF509B	SIDE EVENT			Unlock recipe for TM117 (Hyper Voice)	FSYS_UI_WAZA_MACHINE_RELEASE_117
+	0xF7CF4B82	SIDE EVENT			Unlock recipe for TM118 (Heat Wave)	FSYS_UI_WAZA_MACHINE_RELEASE_118
+	0xF7CF4D35	SIDE EVENT			Unlock recipe for TM119 (Energy Ball)	FSYS_UI_WAZA_MACHINE_RELEASE_119
+	0xF7CC3F91	SIDE EVENT			Unlock recipe for TM120 (Psychic)	FSYS_UI_WAZA_MACHINE_RELEASE_120
+	0xF7CC3DDE	SIDE EVENT			Unlock recipe for TM121 (Heavy Slam)	FSYS_UI_WAZA_MACHINE_RELEASE_121
+	0xF7CC3C2B	SIDE EVENT			Unlock recipe for TM122 (Encore)	FSYS_UI_WAZA_MACHINE_RELEASE_122
+	0xF7CC3A78	SIDE EVENT			Unlock recipe for TM123 (Surf)	FSYS_UI_WAZA_MACHINE_RELEASE_123
+	0xF7CC465D	SIDE EVENT			Unlock recipe for TM124 (Ice Spinner)	FSYS_UI_WAZA_MACHINE_RELEASE_124
+	0xF7CC44AA	SIDE EVENT			Unlock recipe for TM125 (Flamethrower)	FSYS_UI_WAZA_MACHINE_RELEASE_125
+	0xF7CC42F7	SIDE EVENT			Unlock recipe for TM126 (Thunderbolt)	FSYS_UI_WAZA_MACHINE_RELEASE_126
+	0xF7CC4144	SIDE EVENT			Unlock recipe for TM127 (Play Rough)	FSYS_UI_WAZA_MACHINE_RELEASE_127
+	0xF7CC31F9	SIDE EVENT			Unlock recipe for TM128 (Amnesia)	FSYS_UI_WAZA_MACHINE_RELEASE_128
+	0xF7CC3046	SIDE EVENT			Unlock recipe for TM129 (Calm Mind)	FSYS_UI_WAZA_MACHINE_RELEASE_129
+	0xF7C92608	SIDE EVENT			Unlock recipe for TM130 (Helping Hand)	FSYS_UI_WAZA_MACHINE_RELEASE_130
+	0xF7C927BB	SIDE EVENT			Unlock recipe for TM131 (Pollen Puff)	FSYS_UI_WAZA_MACHINE_RELEASE_131
+	0xF7C9296E	SIDE EVENT			Unlock recipe for TM132 (Baton Pass)	FSYS_UI_WAZA_MACHINE_RELEASE_132
+	0xF7C92B21	SIDE EVENT			Unlock recipe for TM133 (Earth Power)	FSYS_UI_WAZA_MACHINE_RELEASE_133
+	0xF7C92CD4	SIDE EVENT			Unlock recipe for TM134 (Reversal)	FSYS_UI_WAZA_MACHINE_RELEASE_134
+	0xF7C92E87	SIDE EVENT			Unlock recipe for TM135 (Ice Beam)	FSYS_UI_WAZA_MACHINE_RELEASE_135
+	0xF7C9303A	SIDE EVENT			Unlock recipe for TM136 (Electric Terrain)	FSYS_UI_WAZA_MACHINE_RELEASE_136
+	0xF7C931ED	SIDE EVENT			Unlock recipe for TM137 (Grassy Terrain)	FSYS_UI_WAZA_MACHINE_RELEASE_137
+	0xF7C91870	SIDE EVENT			Unlock recipe for TM138 (Psychic Terrain)	FSYS_UI_WAZA_MACHINE_RELEASE_138
+	0xF7C91A23	SIDE EVENT			Unlock recipe for TM139 (Misty Terrain)	FSYS_UI_WAZA_MACHINE_RELEASE_139
+	0xF7DDC8E7	SIDE EVENT			Unlock recipe for TM140 (Nasty Plot)	FSYS_UI_WAZA_MACHINE_RELEASE_140
+	0xF7DDC734	SIDE EVENT			Unlock recipe for TM141 (Fire Blast)	FSYS_UI_WAZA_MACHINE_RELEASE_141
+	0xF7DDCC4D	SIDE EVENT			Unlock recipe for TM142 (Hydro Pump)	FSYS_UI_WAZA_MACHINE_RELEASE_142
+	0xF7DDCA9A	SIDE EVENT			Unlock recipe for TM143 (Blizzard)	FSYS_UI_WAZA_MACHINE_RELEASE_143
+	0xF7DDC21B	SIDE EVENT			Unlock recipe for TM144 (Fire Pledge)	FSYS_UI_WAZA_MACHINE_RELEASE_144
+	0xF7DDC068	SIDE EVENT			Unlock recipe for TM145 (Water Pledge)	FSYS_UI_WAZA_MACHINE_RELEASE_145
+	0xF7DDC581	SIDE EVENT			Unlock recipe for TM146 (Grass Pledge)	FSYS_UI_WAZA_MACHINE_RELEASE_146
+	0xF7DDC3CE	SIDE EVENT			Unlock recipe for TM147 (Wild Charge)	FSYS_UI_WAZA_MACHINE_RELEASE_147
+	0xF7DDBB4F	SIDE EVENT			Unlock recipe for TM148 (Sludge Bomb)	FSYS_UI_WAZA_MACHINE_RELEASE_148
+	0xF7DDB99C	SIDE EVENT			Unlock recipe for TM149 (Earthquake)	FSYS_UI_WAZA_MACHINE_RELEASE_149
+	0xF7DAAF5E	SIDE EVENT			Unlock recipe for TM150 (Stone Edge)	FSYS_UI_WAZA_MACHINE_RELEASE_150
+	0xF7DAB111	SIDE EVENT			Unlock recipe for TM151 (Phantom Force)	FSYS_UI_WAZA_MACHINE_RELEASE_151
+	0xF7DAABF8	SIDE EVENT			Unlock recipe for TM152 (Giga Impact)	FSYS_UI_WAZA_MACHINE_RELEASE_152
+	0xF7DAADAB	SIDE EVENT			Unlock recipe for TM153 (Blast Burn)	FSYS_UI_WAZA_MACHINE_RELEASE_153
+	0xF7DAB62A	SIDE EVENT			Unlock recipe for TM154 (Hyrdo Cannon)	FSYS_UI_WAZA_MACHINE_RELEASE_154
+	0xF7DAB7DD	SIDE EVENT			Unlock recipe for TM155 (Frenzy Plant)	FSYS_UI_WAZA_MACHINE_RELEASE_155
+	0xF7DAB2C4	SIDE EVENT			Unlock recipe for TM156 (Outrage)	FSYS_UI_WAZA_MACHINE_RELEASE_156
+	0xF7DAB477	SIDE EVENT			Unlock recipe for TM157 (Overheat)	FSYS_UI_WAZA_MACHINE_RELEASE_157
+	0xF7DAA1C6	SIDE EVENT			Unlock recipe for TM158 (Focus Blast)	FSYS_UI_WAZA_MACHINE_RELEASE_158
+	0xF7DAA379	SIDE EVENT			Unlock recipe for TM159 (Leaf Storm)	FSYS_UI_WAZA_MACHINE_RELEASE_159
+	0xF7D795D5	SIDE EVENT			Unlock recipe for TM160 (Hurricane)	FSYS_UI_WAZA_MACHINE_RELEASE_160
+	0xF7D79422	SIDE EVENT			Unlock recipe for TM161 (Trick Room)	FSYS_UI_WAZA_MACHINE_RELEASE_161
+	0xF7D7926F	SIDE EVENT			Unlock recipe for TM162 (Bug Buzz)	FSYS_UI_WAZA_MACHINE_RELEASE_162
+	0xF7D790BC	SIDE EVENT			Unlock recipe for TM163 (Hyper Beam)	FSYS_UI_WAZA_MACHINE_RELEASE_163
+	0xF7D78F09	SIDE EVENT			Unlock recipe for TM164 (Brave Bird)	FSYS_UI_WAZA_MACHINE_RELEASE_164
+	0xF7D78D56	SIDE EVENT			Unlock recipe for TM165 (Flare Blitz)	FSYS_UI_WAZA_MACHINE_RELEASE_165
+	0xF7D78BA3	SIDE EVENT			Unlock recipe for TM166 (Thunder)	FSYS_UI_WAZA_MACHINE_RELEASE_166
+	0xF7D789F0	SIDE EVENT			Unlock recipe for TM167 (Close Combat)	FSYS_UI_WAZA_MACHINE_RELEASE_167
+	0xF7D7A36D	SIDE EVENT			Unlock recipe for TM168 (Solar Beam)	FSYS_UI_WAZA_MACHINE_RELEASE_168
+	0xF7D7A1BA	SIDE EVENT			Unlock recipe for TM169 (Draco Meteor)	FSYS_UI_WAZA_MACHINE_RELEASE_169
+	0xF7D47C4C	SIDE EVENT			Unlock recipe for TM170 (Steel Beam)	FSYS_UI_WAZA_MACHINE_RELEASE_170
+	0xF7D47DFF	SIDE EVENT			Unlock recipe for TM171 (Tera Blast)	FSYS_UI_WAZA_MACHINE_RELEASE_171
+	0xEB597C90	SIDE EVENT	Cabo Poco		Unlock Your House fly spot	FSYS_YMAP_FLY_01
+	0xEB5981A9	SIDE EVENT	Poco Path		Unlock Poco Path Lighthouse fly spot	FSYS_YMAP_FLY_02
+	0xEB597FF6	SIDE EVENT	Mesagoza		Unlock Naranja / Uva Academy fly spot	FSYS_YMAP_FLY_03
+	0xEB59850F	SIDE EVENT	South Province (Area Two)		Unlock South Province (Area Two) Watchtower fly spot	FSYS_YMAP_FLY_04
+	0xEB59835C	SIDE EVENT	South Province (Area Four)		Unlock South Province (Area Four) Watchtower fly spot	FSYS_YMAP_FLY_05
+	0xEB598875	SIDE EVENT				FSYS_YMAP_FLY_06
+	0xEB5986C2	SIDE EVENT	West Province (Area One)		Unlock West Province (Area One) Watchtower fly spot	FSYS_YMAP_FLY_07
+	0xEB598BDB	SIDE EVENT	Asado Desert		Unlock Asado Desert Watchtower fly spot	FSYS_YMAP_FLY_08
+	0xEB598A28	SIDE EVENT	West Province (Area Two)		Unlock Porto Marinada Lighthouse fly spot	FSYS_YMAP_FLY_09
+	0xEB569B1A	SIDE EVENT	Casseroya Lake		Unlock Casseroya Lake Watchtower No. 1 fly spot	FSYS_YMAP_FLY_10
+	0xEB569CCD	SIDE EVENT	Casseroya Lake		Unlock Casseroya Lake Watchtower No. 2 fly spot	FSYS_YMAP_FLY_11
+	0xEB5697B4	SIDE EVENT	Great Crater of Paldea		Unlock Zero Gate fly spot	FSYS_YMAP_FLY_12
+	0xEB569967	SIDE EVENT	Casseroya Lake		Unlock Casseroya Lake Watchtower No. 3 fly spot	FSYS_YMAP_FLY_13
+	0xEB56944E	SIDE EVENT	South Province (Area Five)		Unlock South Province (Area Five) Watchtower fly spot	FSYS_YMAP_FLY_14
+	0xEB569601	SIDE EVENT	South Province (Area Three)		Unlock South Province (Area Three) Watchtower fly spot	FSYS_YMAP_FLY_15
+	0xEB5690E8	SIDE EVENT	East Province (Area One)		Unlock East Province (Area One) Watchtower fly spot	FSYS_YMAP_FLY_16
+	0xEB56929B	SIDE EVENT	East Province (Area Two)		Unlock Levincia Lighthouse fly spot	FSYS_YMAP_FLY_17
+	0xEB568D82	SIDE EVENT	East Province (Area Three)		Unlock East Province (Area Three) Watchtower fly spot	FSYS_YMAP_FLY_18
+	0xEB568F35	SIDE EVENT	Glaseado Mountain		Unlock Glaseado Mountain Watchtower fly spot	FSYS_YMAP_FLY_19
+	0xEB538191	SIDE EVENT	North Province (Area Three)		North Province (Area Three) Lighthouse fly spot	FSYS_YMAP_FLY_20
+	0xEB537FDE	SIDE EVENT	North Province (Area One)		Unlock North Province (Area One) Watchtower fly spot	FSYS_YMAP_FLY_21
+	0xEB537E2B	SIDE EVENT	South Province (Area Two)		Unlock Grand Olive Orchard fly spot	FSYS_YMAP_FLY_22
+	0xEB537C78	SIDE EVENT	South Province (Area Six)		Unlock Leaking Tower of Paldea fly spot	FSYS_YMAP_FLY_23
+	0xEB53885D	SIDE EVENT	South Province (Area Five)		Unlock Secluded Beach fly spot	FSYS_YMAP_FLY_24
+	0xEB5386AA	SIDE EVENT	West Province (Area Two)		Unlock Colonnade Hollow fly spot	FSYS_YMAP_FLY_25
+	0xEB5384F7	SIDE EVENT	East Province (Area Three)		Unlock Million Volt Skyline fly spot	FSYS_YMAP_FLY_26
+	0xEB538344	SIDE EVENT	Casseroya Lake		Unlock Casseroya Falls fly spot	FSYS_YMAP_FLY_27
+	0xEB5373F9	SIDE EVENT	Casseroya Lake		Unlock Gracia Stones fly spot	FSYS_YMAP_FLY_28
+	0xEB537246	SIDE EVENT	Glaseado Mountain		Unlock Glaseado's Grasp fly spot	FSYS_YMAP_FLY_29
+	0xEB506808	SIDE EVENT	Glaseado Mountain		Unlock Paldea's Highest Peak fly spot	FSYS_YMAP_FLY_30
+	0xEB5069BB	SIDE EVENT	North Province (Area Two)		Unlock Fury Falls fly spot	FSYS_YMAP_FLY_31
+	0xEB506B6E	SIDE EVENT	South Province (Area Three)		Unlock Mesagoze (East Gate) fly spot	FSYS_YMAP_FLY_32
+	0xEB506D21	SIDE EVENT	South Province (Area Two)		Unlock Mesagoza (West Gate) fly spot	FSYS_YMAP_FLY_33
+	0xEB506ED4	SIDE EVENT	Casseroya Lake		Unlock Casseroya Lake (Islet) fly spot	FSYS_YMAP_FLY_34
+	0xEB507087	SIDE EVENT	East Province (Area Three)		Unlock East Province (Area Three) Rest Stop fly spot	FSYS_YMAP_FLY_35
+	0x1530B53C	SIDE EVENT	North Province (Area Two)		Unlock Firescourge Shrine fly spot	FSYS_YMAP_FLY_MAGATAMA
+	0x4103198E	SIDE EVENT	South Province (Area One)		Unlock Grasswither Shrine fly spot	FSYS_YMAP_FLY_MOKKAN
+	0x9DDEC36C	SIDE EVENT	West Province (Area One)		Unlock Icerend Shrine fly spot	FSYS_YMAP_FLY_TSURUGI
+	0x1EB92B72	SIDE EVENT	Socarrat Trail		Unlock Groundblight Shrine fly spot	FSYS_YMAP_FLY_UTSUWA
+	0xB6119AE9	SIDE EVENT	Los Platos		Unlock Los Platos (East) fly spot	FSYS_YMAP_POKECEN_02
+	0xB6119936	SIDE EVENT	South Province (Area One)		Unlock Mesagoza (South) fly spot	FSYS_YMAP_POKECEN_03
+	0xB6119E4F	SIDE EVENT	Mesagoza		Unlock Mesagoza (West) fly spot	FSYS_YMAP_POKECEN_04
+	0xB6119C9C	SIDE EVENT	Mesagoza		Unlock Mesagoza (East) fly spot	FSYS_YMAP_POKECEN_05
+	0xB611A1B5	SIDE EVENT	South Province (Area Two)		Unlock South Province (Area Two) fly spot	FSYS_YMAP_POKECEN_06
+	0xB611A002	SIDE EVENT	Cortondo		Unlock Cortondo (East) fly spot	FSYS_YMAP_POKECEN_07
+	0xB611A51B	SIDE EVENT	Cortondo		Unlock Cortondo (West) fly spot	FSYS_YMAP_POKECEN_08
+	0xB611A368	SIDE EVENT	West Province (Area One)		Unlock West Province (Area One) - Central fly spot	FSYS_YMAP_POKECEN_09
+	0xB60EB45A	SIDE EVENT	Alfornada		Unlock Alfornada fly spot	FSYS_YMAP_POKECEN_10
+	0xB60EB60D	SIDE EVENT	West Province (Area One)		Unlock West Province (Area One) - North fly spot	FSYS_YMAP_POKECEN_11
+	0xB60EB0F4	SIDE EVENT	Cascarrafa		Unlock Cascarrafa (West) fly spot	FSYS_YMAP_POKECEN_12
+	0xB60EB2A7	SIDE EVENT	Cascarrafa		Unlock Cascarrafa (North) fly spot	FSYS_YMAP_POKECEN_13
+	0xB60EAD8E	SIDE EVENT	West Province (Area Two)		Unlock Porto Marinada fly spot	FSYS_YMAP_POKECEN_14
+	0xB60EAF41	SIDE EVENT	Medali		Unlock Medali (West) fly spot	FSYS_YMAP_POKECEN_15
+	0xB60EAA28	SIDE EVENT	South Province (Area Three)		Unlock South Province (Area Three) fly spot	FSYS_YMAP_POKECEN_16
+	0xB60EABDB	SIDE EVENT	South Province (Area Five)		Unlock South Province (Area Five) fly spot	FSYS_YMAP_POKECEN_17
+	0xB60EA6C2	SIDE EVENT	Artazon		Unlock Artazon (East) fly spot	FSYS_YMAP_POKECEN_18
+	0xB60EA875	SIDE EVENT	Artazon		Unlock Artazon (West) fly spot	FSYS_YMAP_POKECEN_19
+	0xB60B9AD1	SIDE EVENT	East Province (Area One)		Unlock East Province (Area One) fly spot	FSYS_YMAP_POKECEN_20
+	0xB60B991E	SIDE EVENT	East Province (Area Two)		Unlock East Province (Area Two) fly spot	FSYS_YMAP_POKECEN_21
+	0xB60B976B	SIDE EVENT	Levincia		Unlock Levincia (South) fly spot	FSYS_YMAP_POKECEN_22
+	0xB60B95B8	SIDE EVENT	Levincia		Unlock Levincia (North) fly spot	FSYS_YMAP_POKECEN_23
+	0xB60BA19D	SIDE EVENT	East Province (Area Three)		Unlock East Province (Area Three) fly spot	FSYS_YMAP_POKECEN_24
+	0xB60B9FEA	SIDE EVENT	Zapapico		Unlock Zapapico (East) fly spot	FSYS_YMAP_POKECEN_25
+	0xB60B9E37	SIDE EVENT	Zapapico		Unlock Zapapico (West) fly spot	FSYS_YMAP_POKECEN_26
+	0xB60B9C84	SIDE EVENT	Dalizapa Passage		Unlock Dalizapa Passage fly spot	FSYS_YMAP_POKECEN_27
+	0xB60B8D39	SIDE EVENT	Montenevera		Unlock Montenevera fly spot	FSYS_YMAP_POKECEN_28
+	0xB60B8B86	SIDE EVENT	North Province (Area One)		Unlock North Province (Area One) fly spot	FSYS_YMAP_POKECEN_29
+	0xB6088148	SIDE EVENT	North Province (Area Two)		Unlock North Province (Area Two) fly spot	FSYS_YMAP_POKECEN_30
+	0xB60882FB	SIDE EVENT	Pokémon League		Unlock Pokémon League fly spot	FSYS_YMAP_POKECEN_31
+	0xB60884AE	SIDE EVENT	Glaseado Mountain		Unlock Glaseado Mountain fly spot	FSYS_YMAP_POKECEN_32
+	0xB6088661	SIDE EVENT	Glaseado Mountain		Unlock Glaseado Gym fly spot	FSYS_YMAP_POKECEN_33
+	0xB6088814	SIDE EVENT	Medali		Unlock Medali (East) fly spot	FSYS_YMAP_POKECEN_34
+	0xB60889C7	SIDE EVENT	North Province (Area Three)		Unlock North Province (Area Three) fly spot	FSYS_YMAP_POKECEN_35
+	0x0D707154	STORY EVENT	South Province (Area Three)		Unlock Ride Dash power	FSYS_RIDE_DASH_ENABLE
+	0x76FF4AF0	STORY EVENT	West Province (Area One)		Unlock Ride Swim power	FSYS_RIDE_SWIM_ENABLE
+	0x54B8E8E1	STORY EVENT	East Province (Area Three)		Unlock Ride High Jump power	FSYS_RIDE_HIJUMP_ENABLE
+	0x9DDF953F	STORY EVENT	Asado Desert		Unlock Ride Glide power	FSYS_RIDE_GLIDE_ENABLE
+	0x6ABB01F7	STORY EVENT	Casseroya Lake		Unlock Ride Climb power	FSYS_RIDE_CLIMB_ENABLE
+	0x7C6E7444	SIDE EVENT			Unlock the Judge Function	FSYS_BOX_JUDGE
+	0x92CE2CF6	STORY EVENT			Finish Main Story	FSYS_SCENARIO_GAME_CLEAR
+	0xF7900D11	SIDE EVENT			Claim Pokédex Diploma	FSYS_POKEDEX_SYOUJOU_EVENT
+	0x44CA754B	SIDE EVENT			Receive Master Rank Ribbon (Ranked Battle)	FSYS_GET_RIBBON_MASTERRANK
+	0x0629031F	SIDE EVENT				FEVT_MOTHER_NORMAL_RECIPE_ADD_END
+	0xA796AC7C	SIDE EVENT				FEVT_MOTHER_MASTER_RECIPE_ADD_END
+	0x6680756C	SIDE EVENT				FEVT_SUB_047_RACIPE_AMA_RELEASE
+	0x1DE39DD2	SIDE EVENT				FEVT_SUB_047_RACIPE_KARA_RELEASE
+	0xD4424476	SIDE EVENT				FEVT_SUB_047_RACIPE_NIGA_RELEASE
+	0x48598E18	SIDE EVENT				FEVT_SUB_047_RACIPE_SIO_RELEASE
+	0x483DB133	SIDE EVENT				FEVT_SUB_047_RACIPE_SPA_RELEASE
+	0x8BEB3731	SIDE EVENT	Glaseado Mountain		Clear Powder Snow Course of Snow Slope Run challenge	FEVT_SUB_GYM_KOORI_NORMAL_CLER
+	0xFD126E2B	SIDE EVENT	Glaseado Mountain		Clear Blizzard Course of Snow Slope Run challenge	FEVT_SUB_GYM_KOORI_HARD_CLER
+	0xC11CEE3A	SIDE EVENT	Glaseado Mountain		Clear Sheer Cold Course of Snow Slope Run challenge	FEVT_SUB_GYM_KOORI_VERY_HARD_CLER
