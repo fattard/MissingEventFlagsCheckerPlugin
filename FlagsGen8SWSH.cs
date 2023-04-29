@@ -97,12 +97,8 @@ namespace MissingEventFlagsCheckerPlugin
 
             for (int i = 0; i < m_eventFlagsList.Count; ++i)
             {
-#if DEBUG
                 sb.AppendFormat("FLAG_0x{0:X8} {1}\t{2}\r\n", m_eventFlagsList[i].FlagIdx, m_eventFlagsList[i].IsSet,
                     m_eventFlagsList[i].FlagTypeVal == FlagType._Unused ? "UNUSED" : m_eventFlagsList[i].ToString());
-#else
-                sb.AppendFormat("FLAG_0x{0:X8} {1}\r\n", m_eventFlagsList[i].FlagIdx, m_eventFlagsList[i].IsSet);
-#endif
             }
 
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
@@ -122,11 +118,6 @@ namespace MissingEventFlagsCheckerPlugin
                 }
 
                 return shouldInclude;
-            }
-            else if (eventDetail.FlagTypeVal == FlagType.StaticBattle)
-            {
-                // temporary until figuring out which is which
-                return false;
             }
             else
             {

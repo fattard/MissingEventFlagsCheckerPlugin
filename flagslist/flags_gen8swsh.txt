@@ -35,7 +35,7 @@
 	0x0184DC9C					FE_R1_BOUTIQUE_OSYARE_FIRST
 	0x018A52C4					z_t0501_PM_879_ZOU2
 	0x01A9CE98					z_wr0223_F_DHIGUDA
-	0x01AA6584	STATIC BATTLE				z_wr0107_SymbolEncountPokemonGimmickSpawner_WR_Common
+	0x01AA6584					z_wr0107_SymbolEncountPokemonGimmickSpawner_WR_Common
 	0x01D2B0BB					z_wr0208_WR02_TradeNPC
 	0x01EA7BFB					z_d0103_RIVAL
 	0x01FE5A6D	FIELD ITEM				z_r0902_ItemNormal_0
@@ -89,7 +89,7 @@
 	0x046CA1C6					
 	0x0493706B					FE_SUB_034_CLEAR
 	0x04AA3EC4					z_t0201_i0101_RIVAL
-	0x04B9F2A5	STATIC BATTLE				z_wr0231_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_0
+	0x04B9F2A5					z_wr0231_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_0
 	0x04E3654F	TRAINER BATTLE				TRID_GYM03_A
 	0x04E36702	TRAINER BATTLE				TRID_GYM03_B
 	0x04E368B5	TRAINER BATTLE				TRID_GYM03_C
@@ -97,13 +97,13 @@
 	0x04F0CE62	STATIC BATTLE				z_wr0105_SymbolEncountPokemonGimmickSpawner_WR_GameClear
 	0x04F42524	FIELD ITEM				z_wr0202_ItemRare_0_0_0
 	0x050FBE69					FE_G_IWA_KORI_NO_FOG
-	0x052EEC7E	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common
+	0x052EEC7E					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common
 	0x05765A0D					FE_SUB_021_CLEAR
 	0x059FAB30					FV_ZONECHANGE_T0801
-	0x05ADC7E0	STATIC BATTLE				z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0211_K_01
-	0x05ADCB46	STATIC BATTLE				z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0211_K_03
-	0x05ADCCF9	STATIC BATTLE				z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0211_K_02
-	0x05ADD05F	STATIC BATTLE				z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0211_K_04
+	0x05ADC7E0					z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0211_K_01
+	0x05ADCB46					z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0211_K_03
+	0x05ADCCF9					z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0211_K_02
+	0x05ADD05F					z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0211_K_04
 	0x05C0837A					z_c0201_g0101_LEADER_DRAGON
 	0x05D03780					FE_ROTOM_CIRCUIT_NPC_3
 	0x05D03933					FE_ROTOM_CIRCUIT_NPC_2
@@ -114,13 +114,13 @@
 	0x05D04365					FE_ROTOM_CIRCUIT_NPC_4
 	0x05EF26B0	TRAINER BATTLE				TRID_MUSICIAN_01
 	0x05FF8314					z_c0101_Path_3_YOUNG_F_0
-	0x06144071	STATIC BATTLE				z_wr0310_SymbolEncountPokemonGimmickSpawner_WR03_Common
+	0x06144071					z_wr0310_SymbolEncountPokemonGimmickSpawner_WR03_Common
 	0x0619F7B9	FIELD ITEM				z_d0301_ItemRare_0
 	0x06373534					FSYS_XMENU_OPEN_TUUSIN
 	0x063ACBB0					
 	0x063DEF53					z_c0201_g0201_LEADER_DRAGON
 	0x06B8F848					z_wr0204_WIFE_H
-	0x07073E89	STATIC BATTLE				z_wr0313_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
+	0x07073E89					z_wr0313_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
 	0x073ACD43					
 	0x0742CC48					z_wr0302_ADVENTURER_BRAIN
 	0x0756EBE0					z_wr0211_WR02_ZukanNPC
@@ -133,7 +133,7 @@
 	0x07B816A4					z_c0301_s0101_YOUNG_M_1
 	0x07B81857					z_c0301_s0101_YOUNG_M_0
 	0x07B81BBD					z_c0301_s0101_YOUNG_M_2
-	0x07F961F5	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_7_0
+	0x07F961F5					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_7_0
 	0x07FB1EF6					FE_REGI_STATUE_EVENT
 	0x0809BC9E					z_t0401_Path_3_YOUNG_F_0
 	0x0811F6E5					FSYS_FLY_T0301
@@ -157,11 +157,11 @@
 	0x09F2AD6F	STATIC BATTLE				z_d0302_SymbolEncountPokemonGimmickSpawner_D03_Maggyo_5
 	0x09F2AF22	STATIC BATTLE				z_d0302_SymbolEncountPokemonGimmickSpawner_D03_Maggyo_6
 	0x09F2B0D5	STATIC BATTLE				z_d0302_SymbolEncountPokemonGimmickSpawner_D03_Maggyo_7
-	0x09FB6DC9	STATIC BATTLE				z_wr0221_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0
+	0x09FB6DC9					z_wr0221_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0
 	0x0A0AF8E6					z_c0101_MUSCLE_2
 	0x0A0AFA99					z_c0101_MUSCLE_3
 	0x0A0AFC4C					z_c0101_MUSCLE_4
-	0x0A4722A4	STATIC BATTLE				z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_Common
+	0x0A4722A4					z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_Common
 	0x0A79BA92					z_c0101_g0201_SEED_KORI
 	0x0AEC89E1	STATIC BATTLE				z_wr03onload_SymbolEncountPokemonGimmickSpawner_WR_Turearuki
 	0x0AF1A856					FE_R0_ENCOUNT
@@ -181,7 +181,7 @@
 	0x0C1B9864					z_t0401_g0101_YOUNG_M
 	0x0C3FCA74					z_t0501_LEADER_FAIRY
 	0x0C57EE2D					z_r0301_ASSISTANT
-	0x0C73722A	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_6_0
+	0x0C73722A					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_6_0
 	0x0C948F53	TRAINER BATTLE				TRID_ILANDF1_03_2
 	0x0CBCF42A					z_c0201_g0201_PM_835_INU1
 	0x0CE02F39					FE_R1_GYMLEADERS_FIRST_KABU
@@ -194,17 +194,17 @@
 	0x0D346815					z_c0101_Path_4_CHILDREN_M_0
 	0x0D3C8430					z_c0201_Path_0_MUSCLE_0
 	0x0D771A53	STATIC BATTLE				z_d0103_SymbolEncountPokemonGimmickSpawner_D0103_Maggyo
-	0x0DCDFF0F	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_1_0
-	0x0DD45BA0	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_19
-	0x0DD45D53	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_18
-	0x0DD46938	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_11
-	0x0DD46AEB	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_10
-	0x0DD46C9E	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_13
-	0x0DD46E51	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_12
-	0x0DD47004	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_15
-	0x0DD471B7	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_14
-	0x0DD4736A	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_17
-	0x0DD4751D	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_16
+	0x0DCDFF0F					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_1_0
+	0x0DD45BA0					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_19
+	0x0DD45D53					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_18
+	0x0DD46938					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_11
+	0x0DD46AEB					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_10
+	0x0DD46C9E					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_13
+	0x0DD46E51					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_12
+	0x0DD47004					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_15
+	0x0DD471B7					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_14
+	0x0DD4736A					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_17
+	0x0DD4751D					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_16
 	0x0DDE1E67					FSYS_XMENU_OPEN_LICENSE
 	0x0E107410					z_wr0204_F_DHIGUDA_0
 	0x0E1075C3					z_wr0204_F_DHIGUDA_1
@@ -240,13 +240,13 @@
 	0x0EE55489	TRAINER BATTLE				TRID_RIVAL_C03A
 	0x0EE9418E					z_wr0231_RIVAL
 	0x0EEB35DE					z_pl0110_BADRIVAL_FAIRY
-	0x0F260988	STATIC BATTLE				z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
-	0x0F260B3B	STATIC BATTLE				z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_1
-	0x0F260CEE	STATIC BATTLE				z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_2
-	0x0F260EA1	STATIC BATTLE				z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_3
-	0x0F261054	STATIC BATTLE				z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_4
-	0x0F261207	STATIC BATTLE				z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_5
-	0x0F2613BA	STATIC BATTLE				z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_6
+	0x0F260988					z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
+	0x0F260B3B					z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_1
+	0x0F260CEE					z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_2
+	0x0F260EA1					z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_3
+	0x0F261054					z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_4
+	0x0F261207					z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_5
+	0x0F2613BA					z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_6
 	0x0F29CB83					z_t0701_ASSISTANT
 	0x0F529035	STATIC BATTLE				z_wr02onload_SymbolEncountPokemonGimmickSpawner_WR02_Hoeruo_0
 	0x0F8238BF					z_wr0305_ADVENTURER_0
@@ -260,7 +260,7 @@
 	0x0FDEE575					FE_SUB_043_CLEAR
 	0x0FE4EB30	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_StoryDredia
 	0x101F0F6A	FIELD ITEM				z_r0501_ItemNormal_0
-	0x1022A82F	STATIC BATTLE				z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_0_0
+	0x1022A82F					z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_0_0
 	0x105482F8					FV_R1_YOROIJIMA_MARI_06
 	0x105484AB					FV_R1_YOROIJIMA_MARI_07
 	0x1054865E					FV_R1_YOROIJIMA_MARI_04
@@ -286,9 +286,9 @@
 	0x1168D9F8					z_wr0204_WR02_TradeNPC_0
 	0x11779250					z_wr0302_OLD02_M
 	0x1177A501					z_wr0302_OLD02_F
-	0x117CFD3F	STATIC BATTLE				z_wr0131_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
-	0x118F4504	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_0_0
-	0x118F46B7	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_0_1
+	0x117CFD3F					z_wr0131_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
+	0x118F4504					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_0_0
+	0x118F46B7					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_0_1
 	0x119E8A5C					z_wr0201_s0101_BIRD_TAXY_0
 	0x11C12005	STATIC BATTLE				FE_CAPTURE_MIKARUGE
 	0x11CF8ECB					z_c0306_RIVAL
@@ -300,10 +300,10 @@
 	0x12277F11					FE_EV0280_WIN
 	0x126DA84A	FIELD ITEM				z_wr0231_ItemRare_0
 	0x1274B5B0					FE_SUB_039_CLEAR
-	0x12851BB3	STATIC BATTLE				z_wr0323_SymbolEncountPokemonGimmickSpawner_WR03_Common_0_0_0_0_0_0
+	0x12851BB3					z_wr0323_SymbolEncountPokemonGimmickSpawner_WR03_Common_0_0_0_0_0_0
 	0x1296438A	FIELD ITEM				z_d0401_ItemRare_0
 	0x12B72805					FE_GC_IWAKO_LOCATION
-	0x12E1CB93	STATIC BATTLE				z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water
+	0x12E1CB93					z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water
 	0x12EF4C28					z_pl0120_LEADER_HONO
 	0x12F25DDA					z_r0201_ASSISTANT
 	0x12F5005B	TRAINER BATTLE				TRID_YELL_D03_01
@@ -314,18 +314,18 @@
 	0x134E6410					FE_SUB_040_CLEAR
 	0x137F859A					z_wr0205_PM_891_AMA1
 	0x13D8CCAF					z_r0101_RIVAL
-	0x13E4DFFB	STATIC BATTLE				z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0211_T_01
-	0x13E4E1AE	STATIC BATTLE				z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0211_T_02
-	0x13E4E361	STATIC BATTLE				z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0211_T_03
-	0x13E4E514	STATIC BATTLE				z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0211_T_04
-	0x1407632B	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_2
-	0x140764DE	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_1
-	0x14076691	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
+	0x13E4DFFB					z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0211_T_01
+	0x13E4E1AE					z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0211_T_02
+	0x13E4E361					z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0211_T_03
+	0x13E4E514					z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0211_T_04
+	0x1407632B					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_2
+	0x140764DE					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_1
+	0x14076691					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
 	0x1407F40B					FE_G_HONO_CALC
 	0x14261244					FE_BIRTHDAY_PC
 	0x14348DBB					FE_G_WATER_SWITCH_RED
 	0x143E0946					FE_GC_DORAGON_CLEAR
-	0x14474D9D	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_1_0
+	0x14474D9D					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_1_0
 	0x1456B5EE					z_wr0101_s0101_RIVAL
 	0x146ADD4A					FSYS_TIPS_OPEN_SORAWOTOBU
 	0x14854F70					z_c0201_YOUNG_F_5
@@ -340,12 +340,12 @@
 	0x14877169					FE_SUB_021_OYAJI_FIRSTTALK
 	0x14B3162A					z_t0701_g0101_LEADER_IWA
 	0x14C45C54					FE_R2_CHIKA_FURADARI_YELLOW
-	0x14E25EE2	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_1_0_0
+	0x14E25EE2					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_1_0_0
 	0x14ED9B9B					z_wr0109_WR_LEAGUESTAFFF_NPC
 	0x14F2C737					z_wr0302_PM_898_KURAUN
 	0x14F9ABC4					
 	0x1524B07E					FSYS_INPUT_SHIRT_NUMBER
-	0x152CD3DB	STATIC BATTLE				z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0_0
+	0x152CD3DB					z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0_0
 	0x159A780A	FIELD ITEM				z_wr0221_ItemNormal_0
 	0x15AD27EB					FE_R1_SUB012_FIRST_TIME
 	0x15CD9615					z_wr0201_WR02_KINOMI_SHOP
@@ -355,7 +355,7 @@
 	0x15FB4394					z_r0903_CHAMPION
 	0x15FE2011	FIELD ITEM				z_r0601_ItemNormal_0
 	0x161E0C4A					z_d0602_LEADER_AKU
-	0x1627FB50	STATIC BATTLE				z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_0
+	0x1627FB50					z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_0
 	0x1648958E					z_t0401_i0101_CLERK_F
 	0x167C3F80					z_wr0201_i0101_PLAYPOKE_M
 	0x168346E8	FIELD ITEM				z_c0101_ItemNormal_0_0
@@ -363,7 +363,7 @@
 	0x16AAF2B3					z_c0301_LEADER_AKU
 	0x16AD9641					z_wr0302_VILCHIEF
 	0x16B737CE					z_t0201_i0101_RIGEL01_NURSE
-	0x16CEF8EB	STATIC BATTLE				z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common
+	0x16CEF8EB					z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common
 	0x16DE7EA5					z_c0301_i0210_HISYO
 	0x16E0F5E2					z_c0201_Path_4_YOUNG_F_0
 	0x16EAF8F8	FIELD ITEM				z_r0801_ItemRare_0
@@ -392,9 +392,9 @@
 	0x17FEF8A2					z_wr0202_WR02_TradeNPC_0
 	0x17FEFA55					z_wr0202_WR02_TradeNPC_1
 	0x18188E0C					z_t0201_s0101_PM_79_YADONR
-	0x1836380B	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_1_0
+	0x1836380B					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_1_0
 	0x183C857D					FE_SUB_003_FOUNTAIN_RIGHT
-	0x1840CED9	STATIC BATTLE				z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water
+	0x1840CED9					z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water
 	0x18581317					z_wr0211_LEADER_DOKU
 	0x1895E693	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Mikaruge
 	0x18B8CEC3					EF_R2_EV013_REDORA
@@ -414,7 +414,7 @@
 	0x19771017					z_wr0201_i0101_SARA_6
 	0x197711CA					z_wr0201_i0101_SARA_5
 	0x1977137D					z_wr0201_i0101_SARA_4
-	0x19985013	STATIC BATTLE				z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common
+	0x19985013					z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common
 	0x19AE7C68					z_c0301_CHILDREN_M_6
 	0x19CD0F6E					z_wr0305_HISYO
 	0x19CE9B05					FSYS_TRLICENCE_OUTDOJYO_OPEN
@@ -440,8 +440,8 @@
 	0x1A8E0B32					z_d0102_ASSISTANT_HAKASE
 	0x1A8FEC19					z_t0501_RIVAL
 	0x1AB4998E					z_wr0208_WR02_ZukanNPC
-	0x1AEADEC9	STATIC BATTLE				z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
-	0x1AEB8632	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0_0
+	0x1AEADEC9					z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
+	0x1AEB8632					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0_0
 	0x1B072540					FV_R1_YOROIJIMA_YARO_04
 	0x1B0726F3					FV_R1_YOROIJIMA_YARO_05
 	0x1B0728A6					FV_R1_YOROIJIMA_YARO_06
@@ -512,21 +512,21 @@
 	0x1E7EA9D0	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_tabunne_1
 	0x1E7EAB83	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_tabunne_0
 	0x1E8264BE	STATIC BATTLE				z_wr0201_i0203_SymbolEncountPokemonGimmickSpawner_WR02_Dakuma
-	0x1EAC24BE	STATIC BATTLE				z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_Common_1_0
+	0x1EAC24BE					z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_Common_1_0
 	0x1EAE5AFC	FIELD ITEM				z_t0201_ItemNormal_0_0
-	0x1EC3D0C9	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_1_1_0
+	0x1EC3D0C9					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_1_1_0
 	0x1EC8158D					
 	0x1ECCC8B6					FV_C02_CASTLEHEAD_NORMAL
 	0x1EE0BE30	FIELD ITEM				z_t0501_ItemNormal_0_1
 	0x1EE0BFE3	FIELD ITEM				z_t0501_ItemNormal_0_0
-	0x1F158538	STATIC BATTLE				z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_4
-	0x1F1586EB	STATIC BATTLE				z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_5
-	0x1F15889E	STATIC BATTLE				z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_6
-	0x1F158A51	STATIC BATTLE				z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_7
-	0x1F158C04	STATIC BATTLE				z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_0
-	0x1F158DB7	STATIC BATTLE				z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_1
-	0x1F158F6A	STATIC BATTLE				z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_2
-	0x1F15911D	STATIC BATTLE				z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_3
+	0x1F158538					z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_4
+	0x1F1586EB					z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_5
+	0x1F15889E					z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_6
+	0x1F158A51					z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_7
+	0x1F158C04					z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_0
+	0x1F158DB7					z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_1
+	0x1F158F6A					z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_2
+	0x1F15911D					z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_3
 	0x1F1738A7	STATIC BATTLE				z_wr0308_SymbolEncountPokemonGimmickSpawner_WR03_Sky_0
 	0x1F38CA24	TRAINER BATTLE				TRID_YELLM_R05_01
 	0x1F38CF3D	TRAINER BATTLE				TRID_YELLM_R05_02
@@ -564,14 +564,14 @@
 	0x2221FA6F	FIELD ITEM				z_r0904_ItemNormal_0_1
 	0x2221FC22	FIELD ITEM				z_r0904_ItemNormal_0_2
 	0x223D552E					FE_GC_KUSA_LOCATION
-	0x22459026	STATIC BATTLE				z_wr0311_SymbolEncountPokemonGimmickSpawner_WR03_Common_K_1
-	0x224591D9	STATIC BATTLE				z_wr0311_SymbolEncountPokemonGimmickSpawner_WR03_Common_K_0
-	0x2248E830	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_6_0_1
-	0x2248E9E3	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_6_0_0
+	0x22459026					z_wr0311_SymbolEncountPokemonGimmickSpawner_WR03_Common_K_1
+	0x224591D9					z_wr0311_SymbolEncountPokemonGimmickSpawner_WR03_Common_K_0
+	0x2248E830					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_6_0_1
+	0x2248E9E3					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_6_0_0
 	0x22827EF5	STATIC BATTLE				z_wr0201_i0305_SymbolEncountPokemonGimmickSpawner_WR02_Dakuma
-	0x228516BE	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_1_0_0
-	0x22C44A7E	STATIC BATTLE				z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_4_K
-	0x22C45D2F	STATIC BATTLE				z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_4_T
+	0x228516BE					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_1_0_0
+	0x22C44A7E					z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_4_K
+	0x22C45D2F					z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_4_T
 	0x22C47F80					
 	0x22CD6757					z_wr0306_TSUMETAININJIN
 	0x22FE2F1E					z_wr0302_OLD02_M_OBIE
@@ -617,11 +617,11 @@
 	0x247AC6BC	TRAINER BATTLE				TRID_GYM04B_03
 	0x247AC86F	TRAINER BATTLE				TRID_GYM04B_02
 	0x247ACA22	TRAINER BATTLE				TRID_GYM04B_01
-	0x248057BD	STATIC BATTLE				z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_10
+	0x248057BD					z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_10
 	0x248F13EA					FE_R1_EV0150_BATTLE_CANCEL
 	0x2490CBDE					z_wr0201_i0101_STUDENT_M
 	0x24AC9817					z_d0501_INFANT_M
-	0x24C4592E	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water
+	0x24C4592E					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water
 	0x24C482A6					
 	0x24CBFAFC	FIELD ITEM				z_wr0109_ItemRare_0
 	0x24DEECB6					z_wr0201_i0110_PM_892_AMA2_AKU
@@ -660,7 +660,7 @@
 	0x27065B1A	TRAINER BATTLE				TRID_GYM04LB_01
 	0x279B69B5					z_d0602_SHIELD_MAN
 	0x27A31B28					z_t0501_Path_0_MUSCLE_0
-	0x27AB3B16	STATIC BATTLE				z_wr0134_SymbolEncountPokemonGimmickSpawner_WR_Common_1
+	0x27AB3B16					z_wr0134_SymbolEncountPokemonGimmickSpawner_WR_Common_1
 	0x27BD172A					z_wr0201_i0101_RIVAL_0
 	0x27D0022B	FIELD ITEM				z_wr0205_ItemNormal_0_0
 	0x27F02776					FSYS_FLY_WR03_STATION
@@ -673,7 +673,7 @@
 	0x28872EF4					z_wr0312_KOBARUON_064
 	0x288730A7					z_wr0312_KOBARUON_065
 	0x2887325A					z_wr0312_KOBARUON_066
-	0x288834CA	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_2_0
+	0x288834CA					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_2_0
 	0x2889894D					FE_EV0710_FIRSTTALK
 	0x288C7422					z_wr0312_KOBARUON_048
 	0x288C75D5					z_wr0312_KOBARUON_049
@@ -717,7 +717,7 @@
 	0x2911D9E6					z_t0401_g0101_CHILDREN_F
 	0x291C7E03					z_c0101_g0102_GM_TR_HONO_M
 	0x291C8D4E					z_c0101_g0102_GM_TR_HONO_F
-	0x2923CDF3	STATIC BATTLE				z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
+	0x2923CDF3					z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
 	0x292FC076	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Sea_0_0
 	0x2936929A					z_t0401_YOUNG_M_1
 	0x293832A4	TRAINER BATTLE				TRID_RIVAL_AC01A
@@ -760,12 +760,12 @@
 	0x2B591C9B					z_wr0103_WR_ARTIST_NPC
 	0x2B64469E					z_pl0101_CHILDREN_F_0
 	0x2B6451E7					FE_SUB_012_CLEAR
-	0x2B7C4A94	STATIC BATTLE				z_wr0224_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_1
-	0x2B7C4C47	STATIC BATTLE				z_wr0224_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0
+	0x2B7C4A94					z_wr0224_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_1
+	0x2B7C4C47					z_wr0224_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0
 	0x2B841552	FIELD ITEM				z_wr0305_ItemRare_0
 	0x2B9EE8BE					z_wr0208_WIFE_N
 	0x2BA4BBFA					EF_R2_REJI_COMP
-	0x2BB0EF2D	STATIC BATTLE				z_wr0133_SymbolEncountPokemonGimmickSpawner_WR_Common
+	0x2BB0EF2D					z_wr0133_SymbolEncountPokemonGimmickSpawner_WR_Common
 	0x2BC5BF48	TRAINER BATTLE				TRID_BACKPACKER_01
 	0x2BC5C2AE	TRAINER BATTLE				TRID_BACKPACKER_03
 	0x2BC5C461	TRAINER BATTLE				TRID_BACKPACKER_02
@@ -773,7 +773,7 @@
 	0x2BF97F01					z_wr0304_REJIROCKDOOR_Collision
 	0x2C080C78	TRAINER BATTLE				TRID_WGYM07_01
 	0x2C081191	TRAINER BATTLE				TRID_WGYM07_02
-	0x2C112A10	STATIC BATTLE				z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0
+	0x2C112A10					z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0
 	0x2C1876D0					z_wr0322_TERAKION_092
 	0x2C187883					z_wr0322_TERAKION_093
 	0x2C18796C	TRAINER BATTLE				TRID_BREEDERF_01
@@ -798,7 +798,7 @@
 	0x2C48B615					z_pl0103_STAR_SODDO
 	0x2C57293F					z_t0501_LEAGUESTAFF_M01
 	0x2C572AF2					z_t0501_LEAGUESTAFF_M02
-	0x2C71A4DF	STATIC BATTLE				z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
+	0x2C71A4DF					z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
 	0x2C87D6E2	STATIC BATTLE				z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Sea_T_0_0
 	0x2C9B4E78					FSYS_FISHING_TIPS_END
 	0x2CB18CF6					z_wr0201_i0305_MONKASEI_F_0
@@ -811,14 +811,14 @@
 	0x2D7E1E2B					z_r0501_RIVAL
 	0x2D976A6A					z_wr0122_WR_ARTIST_NPC
 	0x2D9EA894	HIDDEN ITEM				z_wr0208_HiddenItem_K_0
-	0x2DB6D15C	STATIC BATTLE				z_wr0223_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
+	0x2DB6D15C					z_wr0223_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
 	0x2DCF8518	TRAINER BATTLE				TRID_MADAM_02
 	0x2DCF8A31	TRAINER BATTLE				TRID_MADAM_01
 	0x2E0BB842	FIELD ITEM				z_wr0203_ItemNormal_0
 	0x2E16AD04					
-	0x2E1BCED1	STATIC BATTLE				z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0_0
+	0x2E1BCED1					z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0_0
 	0x2E31F648					z_t0801_POLICE
-	0x2E605E90	STATIC BATTLE				z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common_Water
+	0x2E605E90					z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common_Water
 	0x2E7ACAC4	STATIC BATTLE				z_r0801_SymbolEncountPokemonGimmickSpawner_R08_Jinkei_0_0
 	0x2E87847E					z_wr0302_OLD02_F_0
 	0x2E878631					z_wr0302_OLD02_F_1
@@ -829,14 +829,14 @@
 	0x2FBBB136					z_t0701_i0912_DANCER
 	0x2FCF4838					z_wr0205_WIFE_C
 	0x3013678C					z_pl0120_RIVAL
-	0x302B2014	STATIC BATTLE				z_wr0132_SymbolEncountPokemonGimmickSpawner_WR_Common_0_1_0
-	0x304592B4	STATIC BATTLE				z_wr0136_SymbolEncountPokemonGimmickSpawner_WR_Common_Water
+	0x302B2014					z_wr0132_SymbolEncountPokemonGimmickSpawner_WR_Common_0_1_0
+	0x304592B4					z_wr0136_SymbolEncountPokemonGimmickSpawner_WR_Common_Water
 	0x305602BD					FE_R2_EV0140_HAKUBA
 	0x307931A3					z_c0101_Path_1_MIDDLE_F_0
 	0x30939913	TRAINER BATTLE				TRID_MINI_02
 	0x30939AC6	TRAINER BATTLE				TRID_MINI_01
-	0x30979996	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_1
-	0x30979B49	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_0
+	0x30979996					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_1
+	0x30979B49					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_0
 	0x31065681					z_wr0201_i0101_PM_007_ZENIGAME
 	0x3148B754					FE_GC_KAKUGO_CLEAR
 	0x3170485C	TRAINER BATTLE				TRID_GYM04A_02
@@ -856,7 +856,7 @@
 	0x32521767					z_wr0224_WIFE_SCOP_M
 	0x32744630					z_t0401_i0101_LEAGUECHIEF
 	0x329B0E5A					z_d0102_SHIELD_MAN
-	0x32A339E9					FSYS_SECRET_BOX
+	0x32A339E9	SIDE EVENT				FSYS_SECRET_BOX
 	0x32A3AC01					z_wr0313_REJIDENDORADOOR_Collision
 	0x32AFF988					z_c0301_Path_5_OLD_M_0
 	0x32F25E1E					z_c0101_PM_095_IWAAKU_0
@@ -873,17 +873,17 @@
 	0x342BA9EB	TRAINER BATTLE				TRID_GYM01M_02
 	0x342BAB9E	TRAINER BATTLE				TRID_GYM01M_01
 	0x342ECA19	STATIC BATTLE				z_r0501_SymbolEncountPokemonGimmickSpawner_R05_Touwata2
-	0x3438CA6D	STATIC BATTLE				z_wr0231_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
+	0x3438CA6D					z_wr0231_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
 	0x34393057					z_t0501_g0201_LEADER_AKU
 	0x345C8382	FIELD ITEM				z_wr0203_ItemNormal_0_1
 	0x345C8535	FIELD ITEM				z_wr0203_ItemNormal_0_0
 	0x34776E51	TRAINER BATTLE				TRID_ESPER_01_2
 	0x34A76767					z_t0201_i0101_CHAMPION
 	0x34B0D5E8					FSYS_TRLICENCE_EXEV_START
-	0x34C4DCE5	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0_0_0
-	0x34CFAD3C	STATIC BATTLE				z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_0
+	0x34C4DCE5					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0_0_0
+	0x34CFAD3C					z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_0
 	0x34DF6788	STATIC BATTLE				z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_GameClear
-	0x34F54BE1	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0_0_0
+	0x34F54BE1					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0_0_0
 	0x356177FD					FSYS_FLY_R0701_CAMP
 	0x357872D9					z_c0201_HISYO
 	0x3596AB58					z_d0701_DAIZA
@@ -892,8 +892,8 @@
 	0x35AE3EB5					z_wr0201_PM_79_YADONR_1
 	0x35D394F9					FE_WAZA_WASURE_FIRST
 	0x35FB9544					z_d0302_WORKER
-	0x360C16DF	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0202_T_01
-	0x360C1892	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0202_T_02
+	0x360C16DF					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0202_T_01
+	0x360C1892					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0202_T_02
 	0x36141E95					z_d0501_POLICE
 	0x36343A98	TRAINER BATTLE				TRID_ILANDM1_02
 	0x36343C4B	TRAINER BATTLE				TRID_ILANDM1_03
@@ -910,11 +910,11 @@
 	0x3685F833					FE_GC_MIZU_LOCATION
 	0x36B993EB	TRAINER BATTLE				TRID_MASTER2_04_2
 	0x36C3C0E1					FE_R2_EV0200_NO_CLEAR
-	0x36EC0E5C	STATIC BATTLE				z_wr0323_SymbolEncountPokemonGimmickSpawner_WR03_Common_0_0_0_0_0_0_0
+	0x36EC0E5C					z_wr0323_SymbolEncountPokemonGimmickSpawner_WR03_Common_0_0_0_0_0_0_0
 	0x370FEBD6					z_t0701_i0912_OLD_M
 	0x375FD6A8					FSYS_GYM_CLEAR_EIGHTH
 	0x376CF85B					z_t0801_RECEPTION
-	0x378548CA	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water
+	0x378548CA					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water
 	0x37A20CA9	FIELD ITEM				z_t0301_ItemRare_0
 	0x37AFE5F0					FSYS_TRLICENCE_EXEV_KUSA
 	0x37C0C901					z_t0501_PM_835_INU1
@@ -926,22 +926,22 @@
 	0x38465A79	TRAINER BATTLE				TRID_GYM07L_TN_2
 	0x385DD2B4					z_t0501_g0101_SEED_IWA
 	0x3883A0DF					z_wr0301_ADVENTURER_GIRL
-	0x3889E9C0	STATIC BATTLE				z_wr0224_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water
+	0x3889E9C0					z_wr0224_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water
 	0x38978A50					z_wr0201_s0101_R1_SUB_024_GENTLE
 	0x38BA2A7C					z_c0301_s0101_RIVAL
 	0x38BA4D4A					z_wr0201_i0101_PM_79_YADONR_0
 	0x38BA4EFD					z_wr0201_i0101_PM_79_YADONR_1
 	0x38E45381					z_wr0302_PM_897_KOKUBA
-	0x391D27A0	STATIC BATTLE				z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_1_0
+	0x391D27A0					z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_1_0
 	0x392AA948					z_pl0103_STAR_SAITO
 	0x393FC10C					z_t0401_CHILDREN_M_2
 	0x393FC625					z_t0401_CHILDREN_M_1
-	0x394EA9A4	STATIC BATTLE				z_wr0201_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
-	0x394EAB57	STATIC BATTLE				z_wr0201_SymbolEncountPokemonGimmickSpawner_WR02_Common_1
-	0x394EAD0A	STATIC BATTLE				z_wr0201_SymbolEncountPokemonGimmickSpawner_WR02_Common_2
-	0x394EAEBD	STATIC BATTLE				z_wr0201_SymbolEncountPokemonGimmickSpawner_WR02_Common_3
+	0x394EA9A4					z_wr0201_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
+	0x394EAB57					z_wr0201_SymbolEncountPokemonGimmickSpawner_WR02_Common_1
+	0x394EAD0A					z_wr0201_SymbolEncountPokemonGimmickSpawner_WR02_Common_2
+	0x394EAEBD					z_wr0201_SymbolEncountPokemonGimmickSpawner_WR02_Common_3
 	0x395A66D0					EF_R2_MEMO_REDENDORA_REPORT
-	0x3965FB63	STATIC BATTLE				z_wr0135_SymbolEncountPokemonGimmickSpawner_WR_Common
+	0x3965FB63					z_wr0135_SymbolEncountPokemonGimmickSpawner_WR_Common
 	0x396BD9E9					FE_R1_GYMLEADERS_FIRST_RURINA
 	0x39890007					z_t0701_g0201_MUSCLE
 	0x3990C82D	STATIC BATTLE				z_wr03onload_SymbolEncountPokemonGimmickSpawner_WR03_Freezer_right_d
@@ -958,14 +958,14 @@
 	0x3B19A3D2					FE_R2_EV0121_BOOK_SHIRT
 	0x3B574BF6	HIDDEN ITEM				z_wr0202_HiddenItem_K_0
 	0x3B7938BB	FIELD ITEM				z_wr0209_ItemRare_0
-	0x3B7F539F	STATIC BATTLE				z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0
+	0x3B7F539F					z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0
 	0x3BA1F928					z_t0101_i0201_RIVAL
 	0x3BA32E82					z_t0701_g0101_LEADER_AKU
 	0x3BA4074D					z_wr0302_ZOU_Before
 	0x3BF3E4D6	FIELD ITEM				z_r0101_ItemNormal_0
 	0x3C0A523D					FSYS_TRLICENCE_EXEV_KAKUTOU_GOOSUTO
 	0x3C1362B1	HIDDEN ITEM				z_wr0201_HiddenItem_K_0
-	0x3C942A67	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_19_0
+	0x3C942A67					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_19_0
 	0x3CBECEC5					z_pl0101_LEADER_HONO
 	0x3CCCC28B					z_wr0203_F_DHIGUDA_6
 	0x3CCCC43E					z_wr0203_F_DHIGUDA_5
@@ -976,7 +976,7 @@
 	0x3CCCCCBD					z_wr0203_F_DHIGUDA_0
 	0x3CCE836F					FE_R1_EV0200_MIZU_FARST
 	0x3CD07728					z_wr0122_WR_LEAGUESTAFFF_NPC
-	0x3CD0A44E	STATIC BATTLE				z_wr0313_SymbolEncountPokemonGimmickSpawner_WR03_Common
+	0x3CD0A44E					z_wr0313_SymbolEncountPokemonGimmickSpawner_WR03_Common
 	0x3CDDA8A3					z_wr0301_ADVENTURER_0
 	0x3CDE72A4					FSYS_FLY_WR02_MIZU
 	0x3CEFE784	STATIC BATTLE				z_r0202_SymbolEncountPokemonGimmickSpawner_R0202_Tatifusaguma
@@ -1003,8 +1003,8 @@
 	0x3E2EFEE5					TMFLG_SUB_011_C02
 	0x3E5697FA					z_wr0207_WIFE_SCOP_G
 	0x3E598274					z_t0101_MIZU
-	0x3E71B69A	STATIC BATTLE				z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_0
-	0x3E71B84D	STATIC BATTLE				z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_1
+	0x3E71B69A					z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_0
+	0x3E71B84D					z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_1
 	0x3E8B7518					FSYS_POKEDEX_EXTEND_R1
 	0x3E8B7A31					FSYS_POKEDEX_EXTEND_R2
 	0x3EBA5C87					z_c0101_Path_0_MIDDLE_M_0
@@ -1053,25 +1053,25 @@
 	0x3F6FD2F1					z_wr0206_WR02_TradeNPC
 	0x3F723CB8	FIELD ITEM				z_wr0209_ItemNormal_0
 	0x3F783CFE					z_c0301_s0101_YOUNG_F_0
-	0x3F8239F1	STATIC BATTLE				z_wr0308_SymbolEncountPokemonGimmickSpawner_WR03_Common_T
-	0x3F82493C	STATIC BATTLE				z_wr0308_SymbolEncountPokemonGimmickSpawner_WR03_Common_K
+	0x3F8239F1					z_wr0308_SymbolEncountPokemonGimmickSpawner_WR03_Common_T
+	0x3F82493C					z_wr0308_SymbolEncountPokemonGimmickSpawner_WR03_Common_K
 	0x3F951F47					FE_EV0905_BTL_RED
 	0x3F9D0251					TMFLG_SUB_127_HORIDASHIMONO_BOUGHT_YESTERDAY
 	0x3F9F43F1					FE_R0_CLEAR
 	0x3FDB1006					FSYS_TIPS_OPEN_JOB
-	0x3FE2B134	STATIC BATTLE				z_wr0132_SymbolEncountPokemonGimmickSpawner_WR_Common_1
-	0x3FE2B2E7	STATIC BATTLE				z_wr0132_SymbolEncountPokemonGimmickSpawner_WR_Common_0
-	0x3FE2B64D	STATIC BATTLE				z_wr0132_SymbolEncountPokemonGimmickSpawner_WR_Common_2
-	0x3FE7FC50	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_1
-	0x3FE7FE03	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
-	0x3FE7FFB6	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_3
-	0x3FE80169	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_2
-	0x3FE8031C	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_5
-	0x3FE804CF	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_4
-	0x3FE80682	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_7
-	0x3FE80835	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_6
-	0x3FE809E8	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_9
-	0x3FE80B9B	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_8
+	0x3FE2B134					z_wr0132_SymbolEncountPokemonGimmickSpawner_WR_Common_1
+	0x3FE2B2E7					z_wr0132_SymbolEncountPokemonGimmickSpawner_WR_Common_0
+	0x3FE2B64D					z_wr0132_SymbolEncountPokemonGimmickSpawner_WR_Common_2
+	0x3FE7FC50					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_1
+	0x3FE7FE03					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
+	0x3FE7FFB6					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_3
+	0x3FE80169					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_2
+	0x3FE8031C					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_5
+	0x3FE804CF					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_4
+	0x3FE80682					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_7
+	0x3FE80835					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_6
+	0x3FE809E8					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_9
+	0x3FE80B9B					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_8
 	0x3FEF1940					FSYS_MAIN_0815_01_EVENT_ENABLE
 	0x40194E2C					FSYS_TIPS_OPEN_G_POKE
 	0x402D5DE5					z_wr0201_i0101_TANPAN
@@ -1082,10 +1082,10 @@
 	0x40AE97DB					z_c0301_i0101_LEADER_AKU
 	0x40BB1657					FE_R1_SUB006_M_BATTLE_FIRST_TIME
 	0x40C3F0CC					FE_SUB_017_CLEAR
-	0x410DDF6D	STATIC BATTLE				z_wr0102_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
+	0x410DDF6D					z_wr0102_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
 	0x411CBD19					FE_GC_GMISSIONLECTURE
 	0x41219EC2					z_t0101_i0101_PM_831_UURU1
-	0x4126C7F4	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common
+	0x4126C7F4					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common
 	0x414A2F58					z_r0401_HITSUJI
 	0x417EF848	STATIC BATTLE				z_r0904_SymbolEncountPokemonGimmickSpawner_R0904_Tako
 	0x418F715C					z_t0201_i0201_CHAMPION
@@ -1100,12 +1100,12 @@
 	0x425BB241	TRAINER BATTLE				TRID_YELLF_01
 	0x425BBF17					z_pl0102_PM_812_GORIRA3
 	0x42636768					FE_SUB_127_HORIDASHIMONO_FIRST
-	0x4269F4A8	STATIC BATTLE				z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_6
-	0x4269F80E	STATIC BATTLE				z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_4
-	0x4269F9C1	STATIC BATTLE				z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_5
-	0x4269FB74	STATIC BATTLE				z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
-	0x4269FEDA	STATIC BATTLE				z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
-	0x426A008D	STATIC BATTLE				z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
+	0x4269F4A8					z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_6
+	0x4269F80E					z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_4
+	0x4269F9C1					z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_5
+	0x4269FB74					z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
+	0x4269FEDA					z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
+	0x426A008D					z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
 	0x4281FA71					z_pl0101_GIRLRIVAL_CLEAR
 	0x42A4E015	STATIC BATTLE				z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Sea_T_0_0_0
 	0x42AEB828					
@@ -1123,10 +1123,10 @@
 	0x4365C9E7					z_wr0207_KINOKO_06
 	0x4365CB9A					z_wr0207_KINOKO_05
 	0x4365CD4D					z_wr0207_KINOKO_04
-	0x43690DA7	STATIC BATTLE				z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common
+	0x43690DA7					z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common
 	0x4381E037					z_c0101_i0201_GIRLRIVAL
 	0x4394A993					FE_SUB_001_CLEAR
-	0x439554A4	STATIC BATTLE				z_wr0323_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
+	0x439554A4					z_wr0323_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
 	0x43AEB9BB					
 	0x43B3D0DB	TRAINER BATTLE				TRID_WIFE_04
 	0x43B3D5F4	TRAINER BATTLE				TRID_WIFE_01
@@ -1154,8 +1154,8 @@
 	0x4486942D					FSYS_ARRIVE_WR0205
 	0x4489A384					FSYS_ARRIVE_WR0211
 	0x4489A537					FSYS_ARRIVE_WR0210
-	0x4493932B	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_16_T
-	0x4493A942	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_16_K
+	0x4493932B					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_16_T
+	0x4493A942					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_16_K
 	0x44CBB5BE					z_wr0105_WR_ANGLER_NPC_0
 	0x44CBB771					z_wr0105_WR_ANGLER_NPC_1
 	0x44E10256	TRAINER BATTLE				TRID_MASTER2_03_2
@@ -1163,7 +1163,7 @@
 	0x454758A4					z_wr0201_i0101_SARA_12
 	0x45475C0A					z_wr0201_i0101_SARA_10
 	0x45475DBD					z_wr0201_i0101_SARA_11
-	0x45572499	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common
+	0x45572499					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common
 	0x456DB330					z_c0201_MUSCLE_1
 	0x456DB4E3					z_c0201_MUSCLE_0
 	0x456DB696					z_c0201_MUSCLE_3
@@ -1200,7 +1200,7 @@
 	0x46DBE519					TMFLG_WIDEROAD03_DAY_RESET_END
 	0x46EEBC51	STATIC BATTLE				z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_GameClear
 	0x4705C1F6	TRAINER BATTLE				TRID_KARATE_EV01
-	0x47163211	STATIC BATTLE				z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_Common
+	0x47163211					z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_Common
 	0x474BB6C7					z_pl0103_STAR_SEIBORI
 	0x476DEBD1					FE_EV3190_SONIA_TALK
 	0x47716952					z_t0301_SE03_DOKU_BG
@@ -1208,20 +1208,20 @@
 	0x47E71F44	TRAINER BATTLE				TRID_POLICE_02
 	0x47E7245D	TRAINER BATTLE				TRID_POLICE_01
 	0x48236BB6					z_wr0201_i0101_OKAMI
-	0x48272A60	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_3
-	0x48272C13	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
-	0x48272DC6	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
-	0x48272F79	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
-	0x482732DF	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_6
-	0x48273492	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_5
-	0x48273645	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_4
-	0x48273B5E	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_9
-	0x48273D11	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_8
+	0x48272A60					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_3
+	0x48272C13					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
+	0x48272DC6					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
+	0x48272F79					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
+	0x482732DF					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_6
+	0x48273492					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_5
+	0x48273645					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_4
+	0x48273B5E					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_9
+	0x48273D11					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_8
 	0x48298C5E	FIELD ITEM				z_wr0222_ItemRare_0
 	0x483E49E5					z_t0801_PM_122_BARIYAADO_0
 	0x4859855B					FE_AZUKARIYA_FIRST
 	0x485DC5FF					z_t0301_g0101_CLERK_M_0
-	0x4861F625	STATIC BATTLE				z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common
+	0x4861F625					z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common
 	0x4867FA42					z_pl0102_GIRLRIVAL
 	0x4884649A					FSYS_LICENSE_MATERIAL_ADD
 	0x48B0A068					z_t0301_SEED_JIMEN
@@ -1288,8 +1288,8 @@
 	0x4B958C89	TRAINER BATTLE				TRID_GYM03L_01
 	0x4B9FA275					FSYS_TRLICENCE_SINDEN_OPEN
 	0x4BD8924F					z_wr0203_PM_549_DOREDHIA_0
-	0x4BF6066D	STATIC BATTLE				z_wr0201_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0
-	0x4BF66C27	STATIC BATTLE				z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_Water
+	0x4BF6066D					z_wr0201_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0
+	0x4BF66C27					z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_Water
 	0x4C298086					z_t0601_g0102_LEADER_FAIRY
 	0x4C635648					z_t0401_g0110_LEADERMIZU
 	0x4C75FC5A					z_c0201_INFANT_F
@@ -1298,10 +1298,10 @@
 	0x4C9FB8E8	TRAINER BATTLE				TRID_GYM03L_TN
 	0x4CAB7DA6	STATIC BATTLE				EF_R2_FURIIZAA_GET
 	0x4CBC0D12					TMFLG_SUB_120
-	0x4CC66672	STATIC BATTLE				z_wr0231_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0
-	0x4CF3657F	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_2_0_0_0_2
-	0x4CF36732	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_2_0_0_0_1
-	0x4CF368E5	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_2_0_0_0_0
+	0x4CC66672					z_wr0231_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0
+	0x4CF3657F					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_2_0_0_0_2
+	0x4CF36732					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_2_0_0_0_1
+	0x4CF368E5					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_2_0_0_0_0
 	0x4D3F4AC7					z_c0301_INFANT_M_2
 	0x4D3F4C7A					z_c0301_INFANT_M_1
 	0x4D412132					z_wr0201_i0101_ISU_SIT_8
@@ -1315,7 +1315,7 @@
 	0x4D412ECA					z_wr0201_i0101_ISU_SIT_0
 	0x4D41307D					z_wr0201_i0101_ISU_SIT_1
 	0x4D47CD9B					z_t0101_i0201_RIVALMOTHER
-	0x4D680133	STATIC BATTLE				z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_4_0
+	0x4D680133					z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_4_0
 	0x4D68D01E	FIELD ITEM				z_d0302_ItemRare_0
 	0x4D8C09CA					z_d0302_LEADER_HONO
 	0x4D9161AD					
@@ -1331,17 +1331,17 @@
 	0x4EB52307					TMFLG_R2_REGIROCK
 	0x4ED58386					FSYS_TRLICENCE_AKUNOTO_NOON_OPEN
 	0x4F01EE7A					z_t0201_YOUNG_F_0
-	0x4F18BEC3					FSYS_NPC_TRADE_01
-	0x4F18C076					FSYS_NPC_TRADE_02
-	0x4F18C229					FSYS_NPC_TRADE_03
-	0x4F18C3DC					FSYS_NPC_TRADE_04
-	0x4F18C58F					FSYS_NPC_TRADE_05
-	0x4F18C742					FSYS_NPC_TRADE_06
-	0x4F18C8F5					FSYS_NPC_TRADE_07
-	0x4F18CAA8					FSYS_NPC_TRADE_08
-	0x4F18CC5B					FSYS_NPC_TRADE_09
-	0x4F1AFB66					FSYS_NPC_TRADE_11
-	0x4F1AFD19					FSYS_NPC_TRADE_10
+	0x4F18BEC3	IN-GAME TRADE				FSYS_NPC_TRADE_01
+	0x4F18C076	IN-GAME TRADE				FSYS_NPC_TRADE_02
+	0x4F18C229	IN-GAME TRADE				FSYS_NPC_TRADE_03
+	0x4F18C3DC	IN-GAME TRADE				FSYS_NPC_TRADE_04
+	0x4F18C58F	IN-GAME TRADE				FSYS_NPC_TRADE_05
+	0x4F18C742	IN-GAME TRADE				FSYS_NPC_TRADE_06
+	0x4F18C8F5	IN-GAME TRADE				FSYS_NPC_TRADE_07
+	0x4F18CAA8	IN-GAME TRADE				FSYS_NPC_TRADE_08
+	0x4F18CC5B	IN-GAME TRADE				FSYS_NPC_TRADE_09
+	0x4F1AFB66	IN-GAME TRADE				FSYS_NPC_TRADE_11
+	0x4F1AFD19	IN-GAME TRADE				FSYS_NPC_TRADE_10
 	0x4F240749	GIFT				FE_R1_HUSHIGIDANE_GET
 	0x4F2B87DE					z_d0601_SHIELD_MAN
 	0x4F30F174	STATIC BATTLE				FE_CAPTURE_REDRA
@@ -1353,9 +1353,9 @@
 	0x4FA5D844					z_t0301_g0101_SEED_MIZU
 	0x4FAAB7F3	HIDDEN ITEM				z_wr0208_HiddenItem_K_0_0
 	0x4FE25616	FIELD ITEM				z_wr0132_ItemRare_0
-	0x5020D4B4	STATIC BATTLE				z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_1_0_1
-	0x5020D667	STATIC BATTLE				z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_1_0_0
-	0x5039CEE6	STATIC BATTLE				z_wr0311_SymbolEncountPokemonGimmickSpawner_WR03_Common_K_0_0
+	0x5020D4B4					z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_1_0_1
+	0x5020D667					z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_1_0_0
+	0x5039CEE6					z_wr0311_SymbolEncountPokemonGimmickSpawner_WR03_Common_K_0_0
 	0x504343DC					z_r0301_MUSCLE
 	0x505253B1	HIDDEN ITEM				z_wr0107_HiddenItem_T_0
 	0x50A77504					z_wr0209_WR02_TradeNPC_1
@@ -1364,13 +1364,13 @@
 	0x50B5B540					z_r0101_HITSUJI_0
 	0x50B5B6F3					z_r0101_HITSUJI_1
 	0x50B5B8A6					z_r0101_HITSUJI_2
-	0x50DEFA6B	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_6
-	0x50DEFC1E	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_5
-	0x50DEFDD1	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_4
-	0x50DEFF84	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_3
-	0x50DF0137	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2
-	0x50DF02EA	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_1
-	0x50DF049D	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
+	0x50DEFA6B					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_6
+	0x50DEFC1E					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_5
+	0x50DEFDD1					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_4
+	0x50DEFF84					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_3
+	0x50DF0137					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2
+	0x50DF02EA					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_1
+	0x50DF049D					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
 	0x50E635D0					z_wr0201_i0305_LEADER_DOKU
 	0x51196D9D					z_wr0304_REJISTELDOOR
 	0x5130A79A					z_pl0103_STAR_KIBANA
@@ -1395,7 +1395,7 @@
 	0x52110D77	FIELD ITEM				z_wr0201_ItemNormal_0_0
 	0x52110F2A	FIELD ITEM				z_wr0201_ItemNormal_0_3
 	0x521110DD	FIELD ITEM				z_wr0201_ItemNormal_0_2
-	0x521F0923	STATIC BATTLE				z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common
+	0x521F0923					z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common
 	0x522B8BD8	TRAINER BATTLE				TRID_KAIPAN_02
 	0x522B90F1	TRAINER BATTLE				TRID_KAIPAN_01
 	0x5281716D					z_wr0201_LEADER_ESPER_0
@@ -1424,7 +1424,7 @@
 	0x53EBFAD1					z_c0301_s0101_OLD_M
 	0x547BEAB8					z_wr0209_F_DHIGUDA
 	0x54AF0920					FE_SYOKI_MIZU
-	0x54BE3ED9	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_0_0
+	0x54BE3ED9					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_0_0
 	0x54C73297					FE_POKE_MEMORY_FIRST
 	0x54D5C5C7					z_t0301_g0101_SWORD_MAN
 	0x54DAA371					z_pl0102_PM_818_KAMEREON3
@@ -1445,7 +1445,7 @@
 	0x56434A65					FE_TOURNAMENT_FIRSTTALK
 	0x5652CCC9	FIELD ITEM				z_wr0302_ItemRare_0
 	0x566232B6					z_t0601_g0101_RIVAL
-	0x569E17FE	STATIC BATTLE				z_wr0134_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0_0
+	0x569E17FE					z_wr0134_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0_0
 	0x56A4234B					z_pl0101_GIRLRIVAL
 	0x56AE6C8A					FE_R1_AKUTOWER_GAMEOVER_REVIVE
 	0x56BF8375					z_c0301_i0210_RIVAL
@@ -1453,8 +1453,8 @@
 	0x570CA2F3	TRAINER BATTLE				TRID_ADVENTURERM_02
 	0x570CA4A6	TRAINER BATTLE				TRID_ADVENTURERM_01
 	0x5715B151					z_d0201_BADRIVAL
-	0x57228D80	STATIC BATTLE				z_wr0311_SymbolEncountPokemonGimmickSpawner_WR03_Common_T_0
-	0x57228F33	STATIC BATTLE				z_wr0311_SymbolEncountPokemonGimmickSpawner_WR03_Common_T_1
+	0x57228D80					z_wr0311_SymbolEncountPokemonGimmickSpawner_WR03_Common_T_0
+	0x57228F33					z_wr0311_SymbolEncountPokemonGimmickSpawner_WR03_Common_T_1
 	0x573945FB	TRAINER BATTLE				TRID_BREEDERM_01
 	0x573947AE	TRAINER BATTLE				TRID_BREEDERM_02
 	0x57394961	TRAINER BATTLE				TRID_BREEDERM_03
@@ -1473,15 +1473,15 @@
 	0x57B66E62	TRAINER BATTLE				TRID_ILANDF1_KUMITE
 	0x57C06108					z_wr0101_RIVAL
 	0x57CC8C25	TRAINER BATTLE				TRID_GYM03L_TN_2
-	0x581FA9C3	STATIC BATTLE				z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_tabunne
+	0x581FA9C3					z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_tabunne
 	0x583A419D					z_wr0201_i0301_MONKASEI_F
-	0x583BF7A5	STATIC BATTLE				z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_Common_Water
+	0x583BF7A5					z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_Common_Water
 	0x5848AD3C	TRAINER BATTLE				TRID_RIVAL_JKA
 	0x5848B0A2	TRAINER BATTLE				TRID_RIVAL_JKC
 	0x5848B255	TRAINER BATTLE				TRID_RIVAL_JKB
 	0x584B7128					z_t0701_i0911_YAMAOTOKO
 	0x585EC07D	TRAINER BATTLE				TRID_MASTER_01
-	0x588759DD	STATIC BATTLE				z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_6_0
+	0x588759DD					z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_6_0
 	0x58D05A28					z_wr0201_i0110_MONKASEI_M_1
 	0x58D05BDB					z_wr0201_i0110_MONKASEI_M_0
 	0x58D05F41					z_wr0201_i0110_MONKASEI_M_2
@@ -1501,22 +1501,22 @@
 	0x5951405F					FE_CAMPKING_ITEM_GET_RANK_9
 	0x59514A91					FE_CAMPKING_ITEM_GET_RANK_7
 	0x59514DF7					FE_CAMPKING_ITEM_GET_RANK_1
-	0x59899C47	STATIC BATTLE				z_wr0131_SymbolEncountPokemonGimmickSpawner_WR_Common
+	0x59899C47					z_wr0131_SymbolEncountPokemonGimmickSpawner_WR_Common
 	0x598B8A31					FE_EV0110_WIN
 	0x59942F84	FIELD ITEM				z_t0501_ItemNormal_0
-	0x59A6FE36	STATIC BATTLE				z_wr0105_SymbolEncountPokemonGimmickSpawner_WR_Common
+	0x59A6FE36					z_wr0105_SymbolEncountPokemonGimmickSpawner_WR_Common
 	0x59F8F144					z_c0301_i0101_GIRLRIVAL
 	0x5A34E264					FE_R1_SUB_027_FIRSTTALK_END
 	0x5A45DDF1					FV_R2_GDM_POSTER
-	0x5A4D26B3	STATIC BATTLE				z_wr0223_SymbolEncountPokemonGimmickSpawner_WR02_Common
+	0x5A4D26B3					z_wr0223_SymbolEncountPokemonGimmickSpawner_WR02_Common
 	0x5A85BD7D					FE_REGI_PANEL
-	0x5A8D65F3	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_T_01
-	0x5A8D67A6	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_T_02
-	0x5A8D6959	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_T_03
-	0x5A8D6B0C	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_T_04
-	0x5A8D6CBF	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_T_05
-	0x5A8D6E72	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_T_06
-	0x5A8D7025	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_T_07
+	0x5A8D65F3					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_T_01
+	0x5A8D67A6					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_T_02
+	0x5A8D6959					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_T_03
+	0x5A8D6B0C					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_T_04
+	0x5A8D6CBF					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_T_05
+	0x5A8D6E72					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_T_06
+	0x5A8D7025					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_T_07
 	0x5AD98F09					FE_R2_MAIN_MASTER_BALL_GET
 	0x5ADECA24	TRAINER BATTLE				TRID_SISTER_EV01
 	0x5AE40D2A	TRAINER BATTLE				TRID_GYM06LA_TN
@@ -1530,7 +1530,7 @@
 	0x5BF3EDC6					z_c0101_g0201_SEED_DRAGON
 	0x5BF96A8B					z_t0201_HAKASE
 	0x5C0F6713					z_t0501_g0101_RIVAL
-	0x5C1D4665	STATIC BATTLE				z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common
+	0x5C1D4665					z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common
 	0x5C3ED669					z_wr0201_i0101_VENDING_M_MEDICINE
 	0x5C71F718	TRAINER BATTLE				TRID_WMUSICUNIT_02
 	0x5C71F8CB	TRAINER BATTLE				TRID_WMUSICUNIT_03
@@ -1545,7 +1545,7 @@
 	0x5DBE0900					z_t0201_RIZA
 	0x5DF8CA05					z_t0601_g0101_PM_825_TENTOU2
 	0x5E3A68E3	STATIC BATTLE				z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_GameClear
-	0x5E490272	STATIC BATTLE				z_wr0201_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_0
+	0x5E490272					z_wr0201_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_0
 	0x5E6AFD8B	HIDDEN ITEM				z_wr0132_HiddenItem_K_0_0
 	0x5E8BD3F4					z_t0501_g0101_LEADER_AKU
 	0x5EAD822A					z_c0201_g0201_RIVAL
@@ -1555,7 +1555,7 @@
 	0x5EDEFB1B					z_wr0205_WR02_TradeNPC_0
 	0x5EDFE4F5					FE_EV3150_SONIA_TALK
 	0x5EF60A77					z_t0201_s0101_RAILRADMAN_RIGEL
-	0x5F19F168	STATIC BATTLE				z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_9_0
+	0x5F19F168					z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_9_0
 	0x5F1A8454	FIELD ITEM				z_wr0221_ItemNormal_0_3
 	0x5F1A87BA	FIELD ITEM				z_wr0221_ItemNormal_0_1
 	0x5F1A896D	FIELD ITEM				z_wr0221_ItemNormal_0_0
@@ -1577,7 +1577,7 @@
 	0x5FFDFF1F					z_c0301_Path_0_YOUNG_F_0
 	0x601BCFAB					z_wr0201_i0110_MITSUBA_BATTLE
 	0x603EDAB6					z_pl0103_STAR_NEZU
-	0x60C3B5CD	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water
+	0x60C3B5CD					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water
 	0x60E04225					z_wr0201_i0101_ATM_BEFORE
 	0x60E14C78	FIELD ITEM				z_r0801_ItemNormal_0_0
 	0x60E14E2B	FIELD ITEM				z_r0801_ItemNormal_0_1
@@ -1590,24 +1590,24 @@
 	0x61400ACA	FIELD ITEM				z_d0301_ItemNormal_0
 	0x617DE4BA					z_pl0110_LEADER_MIZU
 	0x618C35D8					FE_R1_MIZUTOWER_GAMEOVER_REVIVE
-	0x6198B4E0	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
-	0x6198B693	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
-	0x6198B846	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_3
-	0x6198B9F9	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
-	0x6198BBAC	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_5
-	0x6198BD5F	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_4
-	0x6198BF12	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_7
-	0x6198C0C5	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_6
-	0x6198C42B	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_8
-	0x619A796C	STATIC BATTLE				z_wr0103_SymbolEncountPokemonGimmickSpawner_WR_Common_1
-	0x619A7B1F	STATIC BATTLE				z_wr0103_SymbolEncountPokemonGimmickSpawner_WR_Common_0
+	0x6198B4E0					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
+	0x6198B693					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
+	0x6198B846					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_3
+	0x6198B9F9					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
+	0x6198BBAC					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_5
+	0x6198BD5F					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_4
+	0x6198BF12					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_7
+	0x6198C0C5					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_6
+	0x6198C42B					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_8
+	0x619A796C					z_wr0103_SymbolEncountPokemonGimmickSpawner_WR_Common_1
+	0x619A7B1F					z_wr0103_SymbolEncountPokemonGimmickSpawner_WR_Common_0
 	0x61A2C946					FSYS_BIRTHDAY
 	0x61FF2618					z_t0801_T08SHUTTER_CLOSE
 	0x620C5F8D					z_pl0102_REPORTER
-	0x6232F5B4	STATIC BATTLE				z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_2
-	0x6232F767	STATIC BATTLE				z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_3
-	0x6232F91A	STATIC BATTLE				z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
-	0x6232FACD	STATIC BATTLE				z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_1
+	0x6232F5B4					z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_2
+	0x6232F767					z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_3
+	0x6232F91A					z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
+	0x6232FACD					z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_1
 	0x623D4566					FE_COMP_DIRECTOR_FIRST
 	0x62565A44	STATIC BATTLE				z_wr0103_SymbolEncountPokemonGimmickSpawner_WR_GameClear
 	0x62584ECC					FE_R2_CHIKA_FIX_RAIKOU
@@ -1662,7 +1662,7 @@
 	0x64A98A75					z_c0101_Path_5_CHILDREN_F_0
 	0x64AD0101					z_wr0201_i0101_DOUJOUURADOOR
 	0x64B4F742					FE_EV1585_FREE_NPC
-	0x64BD8684	STATIC BATTLE				z_wr0311_SymbolEncountPokemonGimmickSpawner_WR03_Common
+	0x64BD8684					z_wr0311_SymbolEncountPokemonGimmickSpawner_WR03_Common
 	0x64C9A71F					FSYS_XMENU_OPEN_OKURIMONO
 	0x64CF2112					
 	0x64D13B4A					z_wr0313_REJIDENDORADOOR
@@ -1670,7 +1670,7 @@
 	0x64D7530D					z_wr0122_WR_ARTIST_NPC_0
 	0x64E5B186					FSYS_GST_SAITO
 	0x64F5DB88					z_btl31_d0602_Rubble_default
-	0x6503F7E1	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_1_0
+	0x6503F7E1					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_1_0
 	0x654F3D5C					z_c0101_Path_0_YOUNG_M_0
 	0x656038EA					FE_R2_EV0112_VILCHIEF
 	0x656E190B					z_d0301_RIVAL
@@ -1688,11 +1688,11 @@
 	0x6679CA00					z_wr0302_REJISTELDOOR_DUMMY
 	0x6697CC59					z_t0701_i0912_PM_819_KITARISU1
 	0x669B82A2	FIELD ITEM				z_wr0107_ItemRare_0
-	0x669C73D6	STATIC BATTLE				z_wr0221_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_0
+	0x669C73D6					z_wr0221_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_0
 	0x66AB1DB7					z_t0601_g0101_BADRIVAL
 	0x66CF6AF2					z_pl0120_LEADER_KAKUTOU
-	0x670A2418	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_10_T
-	0x670A3D95	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_10_K
+	0x670A2418					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_10_T
+	0x670A3D95					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_10_K
 	0x671284C9					z_wr0201_MONKASEI_M_0
 	0x672FFA10	TRAINER BATTLE				TRID_YELL_MULTI01
 	0x672FFF29	TRAINER BATTLE				TRID_YELL_MULTI02
@@ -1710,16 +1710,16 @@
 	0x686A5066					z_wr0201_i0101_MONKASEI_M
 	0x686A5C4B					z_wr0201_i0101_MONKASEI_F
 	0x686C1428					z_t0801_GIRLRIVAL
-	0x68F08766	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0_0_0_0_0_0
-	0x68F08919	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0_0_0_0_0_1
+	0x68F08766					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0_0_0_0_0_0
+	0x68F08919					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0_0_0_0_0_1
 	0x68FC36E8	TRAINER BATTLE				TRID_CC03
 	0x68FC3A4E	TRAINER BATTLE				TRID_CC01
 	0x68FC42CD	TRAINER BATTLE				TRID_CC04
 	0x6902E9F4	STATIC BATTLE				z_r0401_SymbolEncountPokemonGimmickSpawner_R04_Dhiguda
 	0x6902EC14	FIELD ITEM				z_wr0321_ItemRare_0_1
 	0x6928C823					z_c0101_g0201_SEED_HAGANE
-	0x69372C0E	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_1_1
-	0x69372DC1	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_1_0
+	0x69372C0E					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_1_1
+	0x69372DC1					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_1_0
 	0x6942DB39					z_c0201_Path_1_OLD_M_0
 	0x6950C3E0					z_d0901_NURSE
 	0x6967CB86					z_t0201_CHILDREN_F
@@ -1736,14 +1736,14 @@
 	0x6B023BEE					FE_R2_EV0030_FALSE
 	0x6B2C5E94					z_wr0201_i0110_PM_892_AMA2_MIZU
 	0x6B7FA00D					z_wr0201_i0205_SISYO
-	0x6B9F0264	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common
-	0x6BA909F6	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0_0
+	0x6B9F0264					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common
+	0x6BA909F6					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0_0
 	0x6BC7BBA5					z_t0401_i0101_CHILDREN_M
 	0x6BDF36DB					FSYS_ROTOM_TANMATSU_OPEN_JOB
 	0x6C098936	FIELD ITEM				z_d0701_ItemNormal_0
 	0x6C143D25					FSYS_RAIDNPC_OPEN_PIONI
 	0x6C2717D0	TRAINER BATTLE				TRID_GYM06LB_01
-	0x6C27BEA1	STATIC BATTLE				z_wr0105_SymbolEncountPokemonGimmickSpawner_WR_Common_0
+	0x6C27BEA1					z_wr0105_SymbolEncountPokemonGimmickSpawner_WR_Common_0
 	0x6C536851	FIELD ITEM				z_wr0304_ItemNormal_0_3_0
 	0x6C5DAA08					FSYS_NESTHOLE_TIPS_END
 	0x6C6E5786					z_pl0120_PM_862_BUROKKUMA
@@ -1762,7 +1762,7 @@
 	0x6CEA8F1A					z_c0101_i0201_SEED_HIKO
 	0x6CED7F4A					z_pl0101_LEADER_AKU
 	0x6CF73F4A					z_wr0304_KOBARUON_090
-	0x6CF83D56	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_0_0
+	0x6CF83D56					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_0_0
 	0x6CFA20C0					z_wr0304_KOBARUON_081
 	0x6CFA2426					z_wr0304_KOBARUON_083
 	0x6CFA25D9					z_wr0304_KOBARUON_082
@@ -1789,10 +1789,10 @@
 	0x6E11BAEC					FE_R001_FS_ITEM
 	0x6E51FA0F					z_r0101_HITSUJI
 	0x6E5CAC37					z_t0701_Path_1_OLD_M_0
-	0x6E82F2C8	STATIC BATTLE				z_wr0310_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
-	0x6E82F47B	STATIC BATTLE				z_wr0310_SymbolEncountPokemonGimmickSpawner_WR03_Common_3
-	0x6E82F62E	STATIC BATTLE				z_wr0310_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
-	0x6E82F7E1	STATIC BATTLE				z_wr0310_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
+	0x6E82F2C8					z_wr0310_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
+	0x6E82F47B					z_wr0310_SymbolEncountPokemonGimmickSpawner_WR03_Common_3
+	0x6E82F62E					z_wr0310_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
+	0x6E82F7E1					z_wr0310_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
 	0x6EB8F782					z_c0101_PM_143_KABIGON
 	0x6EC452B6	FIELD ITEM				z_wr0104_ItemNormal_0
 	0x6ED9724A					z_wr0303_EV_KOBARUON_BIG
@@ -1816,19 +1816,19 @@
 	0x705C0661	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Sea_0_0_0
 	0x7097E283					z_pl0101_YOUNG_M_3
 	0x7097E5E9					z_pl0101_YOUNG_M_1
-	0x70AC9752	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_2_K
-	0x70ACB79B	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_2_T
+	0x70AC9752					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_2_K
+	0x70ACB79B					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_2_T
 	0x70B19879					z_btl31_d0602_JK_sky
 	0x70CDC9CF					z_t0201_i0101_HAKASE
-	0x7112EE59	STATIC BATTLE				z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common_0_0
+	0x7112EE59					z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common_0_0
 	0x712019F5					z_wr0121_WR_LEAGUESTAFFF_NPC
-	0x7126DADC	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_0_1
-	0x7126DC8F	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_0_0
+	0x7126DADC					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_0_1
+	0x7126DC8F					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_0_0
 	0x71424263					z_t0201_CHAMPION
 	0x7148C706					z_wr0201_i0110_SISYO
 	0x717A2A8C					TMFLG_R1_SUB_022_BATTLE
 	0x717B8AA8					z_pl0101_MASCOT
-	0x717FCDFD	STATIC BATTLE				z_wr0231_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_0_0_0
+	0x717FCDFD					z_wr0231_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_0_0_0
 	0x71BFDED1					FSYS_GYM_CLEAR_FOURTH
 	0x71E50651					z_t0701_g0201_LEADER_AKU
 	0x71F4F522					FSYS_XMENU_OPEN_MAP
@@ -1880,22 +1880,22 @@
 	0x75120033					z_pl0120_LEADER_FAIRY
 	0x7526A53C					FSYS_FLAG_NAMINORI_OPEN
 	0x75333DAB					FSYS_TRLICENCE_EXEV_RYUU
-	0x753EBBC6	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_27_K
-	0x753EE9A7	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_27_T
+	0x753EBBC6					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_27_K
+	0x753EE9A7					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_27_T
 	0x7541B7DB					z_wr0133_WR_ANGLER_NPC_0
 	0x756728F1					z_t0501_HISYO
 	0x756F0920					FSYS_BICYCLE_EVENT_DISABLE
 	0x757EE6B2					z_pl0101_R2_SUB013_GENTLE
-	0x75932DDB	STATIC BATTLE				z_wr0322_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
-	0x75932F8E	STATIC BATTLE				z_wr0322_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
-	0x75933141	STATIC BATTLE				z_wr0322_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
+	0x75932DDB					z_wr0322_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
+	0x75932F8E					z_wr0322_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
+	0x75933141					z_wr0322_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
 	0x75B7BBD1					z_t0201_s0101_MOTHER
-	0x75C58A0E	STATIC BATTLE				z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_Common_0
-	0x75C58BC1	STATIC BATTLE				z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_Common_1
+	0x75C58A0E					z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_Common_0
+	0x75C58BC1					z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_Common_1
 	0x75DB35F9	FIELD ITEM				z_wr0221_ItemRare_0
 	0x75FF501A					z_c0101_s0101_RIVAL
 	0x761607C6					FSYS_FLY_R0801_CAMP
-	0x761A29B8	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_0
+	0x761A29B8					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_0
 	0x76285B88	TRAINER BATTLE				TRID_GYM08_01
 	0x76285EEE	TRAINER BATTLE				TRID_GYM08_03
 	0x762860A1	TRAINER BATTLE				TRID_GYM08_02
@@ -1904,7 +1904,7 @@
 	0x766A272D					z_wr0210_KINOKO_01_0
 	0x76711A30	TRAINER BATTLE				TRID_SHIELD_AC01
 	0x76711F49	TRAINER BATTLE				TRID_SHIELD_AC02
-	0x7685C372	STATIC BATTLE				z_wr0102_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0
+	0x7685C372					z_wr0102_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0
 	0x768B6AB2	TRAINER BATTLE				TRID_POISON_01_2
 	0x76A4224E					z_t0801_PM_264_MASSUGUMAR_1
 	0x76A42401					z_t0801_PM_264_MASSUGUMAR_0
@@ -1936,7 +1936,7 @@
 	0x786C5A7D					z_t0401_g0101_OLD_M
 	0x787337A7					FSYS_GST_RULINA
 	0x7890C9BF					FSYS_GST_SODDO
-	0x78CCF3E5	STATIC BATTLE				z_wr0109_SymbolEncountPokemonGimmickSpawner_WR_Common_0
+	0x78CCF3E5					z_wr0109_SymbolEncountPokemonGimmickSpawner_WR_Common_0
 	0x78E48B94					z_wr0205_F_DHIGUDA
 	0x78F966F2					FE_SUB_046_CLEAR
 	0x790DE916					z_c0301_YOUNG_M_5
@@ -1980,7 +1980,7 @@
 	0x7994B91B	TRAINER BATTLE				TRID_POISON_02_2
 	0x799DBF19					z_d0901_PLAYPOKE_F
 	0x79A99EF7					z_t0701_g0201_PM_825_TENTOU2
-	0x79B88F4B	STATIC BATTLE				z_wr0323_SymbolEncountPokemonGimmickSpawner_WR03_Common
+	0x79B88F4B					z_wr0323_SymbolEncountPokemonGimmickSpawner_WR03_Common
 	0x79BB5776					z_c0301_i0202_LEAGUESTAFF_AKU_F
 	0x79BB635B					z_c0301_i0202_LEAGUESTAFF_AKU_M
 	0x79EFD08D					z_pl0102_LEADER_MIZU
@@ -1996,7 +1996,7 @@
 	0x7A215661	STATIC BATTLE				z_wr0105_SymbolEncountPokemonGimmickSpawner_0_0_0
 	0x7A48A39A					z_c0101_g0201_PM_877_POSUPIKA
 	0x7A67C926					FSYS_TRLICENCE_EXEV_IWA_KOORI
-	0x7A8C3461	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_1_0_0
+	0x7A8C3461					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_1_0_0
 	0x7A8E4248					z_c0301_Path_3_MUSCLE_0
 	0x7B161BF0					z_c0301_i0201_ELEVATOR_ROSETOWER
 	0x7B2927A0	STATIC BATTLE				z_r1003_SymbolEncountPokemonGimmickSpawner_R10_EventFlyAway_4
@@ -2032,7 +2032,7 @@
 	0x7D695530					FSYS_GST_KURARA
 	0x7D783580					z_wr0201_YAMAOTOKO_0
 	0x7D8F5AD3					z_wr0203_WR02_ZukanNPC
-	0x7D91EDEA	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_4_0
+	0x7D91EDEA					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_4_0
 	0x7D9A2CD6					z_t0401_STOPT04I01
 	0x7DA4CADA					z_t0301_g0101_MIDDLE_M
 	0x7DBAC7B0	FIELD ITEM				z_wr0201_ItemNormal_0
@@ -2040,9 +2040,9 @@
 	0x7DC50FCB	TRAINER BATTLE				TRID_RIVAL_TNBT_2
 	0x7DF1FF1D					z_wr0302_PM_896_HAKUBA
 	0x7DF6C2AA					FSYS_LEAPER_BIRTHDAY
-	0x7E1608F8	STATIC BATTLE				z_wr0136_SymbolEncountPokemonGimmickSpawner_WR_Common_1
-	0x7E160AAB	STATIC BATTLE				z_wr0136_SymbolEncountPokemonGimmickSpawner_WR_Common_0
-	0x7E160E11	STATIC BATTLE				z_wr0136_SymbolEncountPokemonGimmickSpawner_WR_Common_2
+	0x7E1608F8					z_wr0136_SymbolEncountPokemonGimmickSpawner_WR_Common_1
+	0x7E160AAB					z_wr0136_SymbolEncountPokemonGimmickSpawner_WR_Common_0
+	0x7E160E11					z_wr0136_SymbolEncountPokemonGimmickSpawner_WR_Common_2
 	0x7E26B322					z_t0201_i0101_RIVAL_RIGEL2
 	0x7E6ADCB5					z_pl0101_SHIELD_MAN
 	0x7EAE0523					z_t0701_g0101_MIDDLE_F
@@ -2051,7 +2051,7 @@
 	0x7EBFC231					FE_R2_CHIKA_GEETIS_YELLOW
 	0x7EC1BD9F					FE_R1_HAIRSALON_OSYARE_FIRST
 	0x7EC37371					z_pl0102_LEADER_KORI
-	0x7ED382E6	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_1_0
+	0x7ED382E6					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_1_0
 	0x7EDB9D32					z_t0701_g0201_CHILDREN_F
 	0x7EDBE92B					z_t0601_LEADER_FAIRY
 	0x7EF57E44					z_d0602_CHAMPION
@@ -2060,7 +2060,7 @@
 	0x7F606554					z_wr0208_WR02_TradeNPC_0
 	0x7F8C6928					z_wr0201_WR02_TradeNPC
 	0x7FB3D6A9	FIELD ITEM				z_wr0208_ItemNormal_0
-	0x7FBB76B2	STATIC BATTLE				z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_10_0
+	0x7FBB76B2					z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_10_0
 	0x7FD2DBAC					z_t0601_g0101_GIRLRIVAL
 	0x7FF92001					z_pl0110_RIVAL_CHALLENGE
 	0x8027AE3F					z_t0301_g0101_POKETRADE01_STUDENT_M
@@ -2094,8 +2094,8 @@
 	0x827DCC3D	TRAINER BATTLE				TRID_GYM06B_02
 	0x828D500E					z_c0301_i0201_ELEVATOR_SWITCH_BG
 	0x82A60018					FSYS_FLY_R0601_CAMP
-	0x82AE659F	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_24_K
-	0x82AE894E	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_24_T
+	0x82AE659F					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_24_K
+	0x82AE894E					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_24_T
 	0x82DB0E5B					FE_R1_MAIN_0295_DREDIA_GOAL
 	0x82E071A0					z_wr0201_i0101_ATM_AFTER
 	0x82E2BCAE	STATIC BATTLE				z_wr0311_SymbolEncountPokemonGimmickSpawner_WR03_Sky_0_0
@@ -2112,9 +2112,9 @@
 	0x8353E22D					z_wr0201_i0205_PM_892_AMA2_AKU
 	0x836FEDDF	TRAINER BATTLE				TRID_ANGLER_02
 	0x836FEF92	TRAINER BATTLE				TRID_ANGLER_01
-	0x83AF992C	STATIC BATTLE				z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_tabunne_0
-	0x83AF9ADF	STATIC BATTLE				z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_tabunne_1
-	0x83AF9C92	STATIC BATTLE				z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_tabunne_2
+	0x83AF992C					z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_tabunne_0
+	0x83AF9ADF					z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_tabunne_1
+	0x83AF9C92					z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_tabunne_2
 	0x83B83765					z_t0501_Path_0_CHILDREN_F_0
 	0x83C13D26					z_t0501_BUCKPACKER_1
 	0x83E6164B					z_t0401_g0101_MUSCLE
@@ -2127,13 +2127,13 @@
 	0x84D149DD					TMFLG_R2_REGISTEEL
 	0x84EF9413					z_wr0201_i0120_JUDGE
 	0x85066492	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_tabunne_0
-	0x8524C532	STATIC BATTLE				z_wr0109_SymbolEncountPokemonGimmickSpawner_WR_Common
+	0x8524C532					z_wr0109_SymbolEncountPokemonGimmickSpawner_WR_Common
 	0x85493A4B					FE_G_HONO_TRC_CONDITION
 	0x855235FF	GIFT				FE_SUB_037_EEVEE_CLEAR
 	0x8561ABC5					z_t0201_YOUNG_F
 	0x8561B444					z_t0201_YOUNG_M
-	0x8595AC08	STATIC BATTLE				z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_0
-	0x8595ADBB	STATIC BATTLE				z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_1
+	0x8595AC08					z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_0
+	0x8595ADBB					z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_1
 	0x85D3C67D					z_wr0105_BADRIVAL
 	0x85D99A2F					FE_POKERUS_FIRST
 	0x85DA90E9					FE_DAIMITU_SOUP_TALK
@@ -2150,8 +2150,8 @@
 	0x86D8145F	TRAINER BATTLE				TRID_MASTER1_01_2
 	0x86E660AD					z_t0201_i0101_NURSE
 	0x86F6E0B7					FSYS_TIPS_OPEN_RYOURI
-	0x873F7964	STATIC BATTLE				z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_Common_1_1
-	0x873F7B17	STATIC BATTLE				z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_Common_1_0
+	0x873F7964					z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_Common_1_1
+	0x873F7B17					z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_Common_1_0
 	0x874C44C7					
 	0x8751EC22					z_c0101_g0201_SEED_MIZU
 	0x87576B63					z_c0201_Path_2_CHILDREN_F_0
@@ -2178,13 +2178,13 @@
 	0x88152B18					z_t0501_Path_1_CHILDREN_F_0
 	0x884C465A					
 	0x88674E61	TRAINER BATTLE				TRID_BUSINESS_01
-	0x887E0348	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_K_01
-	0x887E06AE	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_K_03
-	0x887E0861	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_K_02
-	0x887E0A14	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_K_05
-	0x887E0BC7	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_K_04
-	0x887E0D7A	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_K_07
-	0x887E0F2D	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_K_06
+	0x887E0348					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_K_01
+	0x887E06AE					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_K_03
+	0x887E0861					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_K_02
+	0x887E0A14					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_K_05
+	0x887E0BC7					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_K_04
+	0x887E0D7A					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_K_07
+	0x887E0F2D					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0203_K_06
 	0x888B8811	TRAINER BATTLE				TRID_WR_TRANER04
 	0x888B89C4	TRAINER BATTLE				TRID_WR_TRANER03
 	0x888B8B77	TRAINER BATTLE				TRID_WR_TRANER02
@@ -2198,7 +2198,7 @@
 	0x89365CEF					z_t0701_g0210_LEADER_KORI
 	0x894C47ED					
 	0x896A5935					z_d0101_RIVAL
-	0x897CA3E1	STATIC BATTLE				z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common
+	0x897CA3E1					z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common
 	0x89A3C37E					FSYS_FLY_WR03_WATTSHOP
 	0x89AF4483					z_t0701_i0101_RIVAL
 	0x89BA30C7					z_c0101_i0212_GIRLRIVAL
@@ -2206,7 +2206,7 @@
 	0x89D51C84					z_c0201_MUSCLE
 	0x89D8E7C1					FE_RIGEL1_M23_EVENT_END
 	0x89DFBE45	FIELD ITEM				z_wr0312_ItemNormal_0
-	0x8A2FE99A	STATIC BATTLE				z_wr0231_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_0_0
+	0x8A2FE99A					z_wr0231_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0_0_0
 	0x8A3C43C3	TRAINER BATTLE				TRID_BREEDERF_EV01
 	0x8A427158					z_d0102_TATE
 	0x8A4FD849					z_r0601_KABIGON
@@ -2216,7 +2216,7 @@
 	0x8AA47323					z_pl0103_STAR_MERON
 	0x8AE332F3					z_c0301_s0101_YELL_F
 	0x8AE3423E					z_c0301_s0101_YELL_M
-	0x8AE4CB6B					FSYS_NPC_TRADE_WR02_01
+	0x8AE4CB6B	IN-GAME TRADE				FSYS_NPC_TRADE_WR02_01
 	0x8B1FAF85					EF_R2_BEEQUEEN_GAMEOVER_REVIVE
 	0x8B20173E					z_c0301_s0101_BUSINESSMAN
 	0x8B292C8A					FE_SUGOI_TOKKUN_FIRST
@@ -2250,7 +2250,7 @@
 	0x8C6E07E0					z_c0101_g0201_BADRIVAL
 	0x8CABE559					EF_R2_MEMO_CROWN_REPORT
 	0x8CBE6D4B					FSYS_TRLICENCE_EXEV_HONOO
-	0x8CDC26D4	STATIC BATTLE				z_wr0323_SymbolEncountPokemonGimmickSpawner_WR03_Common_0_0_0_0_0
+	0x8CDC26D4					z_wr0323_SymbolEncountPokemonGimmickSpawner_WR03_Common_0_0_0_0_0
 	0x8D1223CC					z_wr0210_WIFE_E
 	0x8D336C44					z_c0201_g0102_DRAGON_SUNLIGHT
 	0x8D358875					FE_R1_AMA1_FALSE
@@ -2295,7 +2295,7 @@
 	0x8F1AF455	FIELD ITEM				z_wr0302_ItemNormal_0_0_0_0
 	0x8F48B506					
 	0x8F51355A	HIDDEN ITEM				z_wr0208_HiddenItem_T_0_0
-	0x8F843987	STATIC BATTLE				z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_1_0_0
+	0x8F843987					z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_1_0_0
 	0x8FABEC8B					z_r0701_STOPR0901
 	0x8FABF1A4					z_r0701_STOPR0904
 	0x8FC233DF					z_wr0211_PM_891_AMA1
@@ -2348,8 +2348,8 @@
 	0x92054EC1					z_d0501_OLD_F
 	0x92269668					FE_SUB_120_FIRST_BATTLE_WIN
 	0x922BEDB6					z_t0201_i0201_RIVAL_0
-	0x924103D3	STATIC BATTLE				z_wr0136_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_0
-	0x926293A4	STATIC BATTLE				z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common_1_0_0
+	0x924103D3					z_wr0136_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_0
+	0x926293A4					z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common_1_0_0
 	0x929F95CE					z_wr0205_WR02_ZukanNPC_4
 	0x929F9781					z_wr0205_WR02_ZukanNPC_5
 	0x929F9934					z_wr0205_WR02_ZukanNPC_2
@@ -2359,7 +2359,7 @@
 	0x92A62A29	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Sea_0
 	0x92BD854C	STATIC BATTLE				z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Sea_K_0_0_0_0_0
 	0x92F1C8F1					FSYS_ROTOM_TANMATSU_OPEN_BOX
-	0x92F4728E	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0
+	0x92F4728E					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0
 	0x931C9879					FSYS_RAIDNPC_OPEN_SYAKUYA
 	0x9326AB50					z_t0201_s0101_RAILRADMAN_0
 	0x9326F486					z_t0201_i0101_INU_AFTER_TEGAKARI
@@ -2377,14 +2377,14 @@
 	0x942C2FE3					z_wr0301_i0201_ADVENTURER
 	0x943BBE04					z_wr0221_WIFE_SCOP_I
 	0x943BC31D					z_wr0221_WIFE_SCOP_J
-	0x945865FF	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_5_K
-	0x945889AE	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_5_T
-	0x94A39968	STATIC BATTLE				z_wr0131_SymbolEncountPokemonGimmickSpawner_WR_Common_0
-	0x94A39B1B	STATIC BATTLE				z_wr0131_SymbolEncountPokemonGimmickSpawner_WR_Common_1
-	0x94A39CCE	STATIC BATTLE				z_wr0131_SymbolEncountPokemonGimmickSpawner_WR_Common_2
-	0x94A39E81	STATIC BATTLE				z_wr0131_SymbolEncountPokemonGimmickSpawner_WR_Common_3
+	0x945865FF					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_5_K
+	0x945889AE					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_5_T
+	0x94A39968					z_wr0131_SymbolEncountPokemonGimmickSpawner_WR_Common_0
+	0x94A39B1B					z_wr0131_SymbolEncountPokemonGimmickSpawner_WR_Common_1
+	0x94A39CCE					z_wr0131_SymbolEncountPokemonGimmickSpawner_WR_Common_2
+	0x94A39E81					z_wr0131_SymbolEncountPokemonGimmickSpawner_WR_Common_3
 	0x94B08408					z_t0101_i0101_HAKASE_INTAI
-	0x94EEB69E	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0_0_0_0
+	0x94EEB69E					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0_0_0_0
 	0x94F2D03B	FIELD ITEM				z_wr0211_ItemRare_0_0
 	0x9500C9E9					z_pl0101_LEADER_KAKUTOU
 	0x9510CCFC	HIDDEN ITEM				z_wr0132_HiddenItem_K_0
@@ -2392,11 +2392,11 @@
 	0x95278FBB					FSYS_TIPS_OPEN_JIKKYOU
 	0x953D6C12					z_t0501_g0201_RIVAL
 	0x957B3E05					FSYS_FLY_WR0122_AZUKARIYA
-	0x95931840	STATIC BATTLE				z_wr0135_SymbolEncountPokemonGimmickSpawner_WR_Common_4
-	0x95931F0C	STATIC BATTLE				z_wr0135_SymbolEncountPokemonGimmickSpawner_WR_Common_0
-	0x959320BF	STATIC BATTLE				z_wr0135_SymbolEncountPokemonGimmickSpawner_WR_Common_1
-	0x95932272	STATIC BATTLE				z_wr0135_SymbolEncountPokemonGimmickSpawner_WR_Common_2
-	0x95932425	STATIC BATTLE				z_wr0135_SymbolEncountPokemonGimmickSpawner_WR_Common_3
+	0x95931840					z_wr0135_SymbolEncountPokemonGimmickSpawner_WR_Common_4
+	0x95931F0C					z_wr0135_SymbolEncountPokemonGimmickSpawner_WR_Common_0
+	0x959320BF					z_wr0135_SymbolEncountPokemonGimmickSpawner_WR_Common_1
+	0x95932272					z_wr0135_SymbolEncountPokemonGimmickSpawner_WR_Common_2
+	0x95932425					z_wr0135_SymbolEncountPokemonGimmickSpawner_WR_Common_3
 	0x95A4988D					z_c0101_i0201_YELLF
 	0x95C29CF2					z_pl0101_LEADER_IWA
 	0x9607E75F	STATIC BATTLE				z_wr0201_i0303_SymbolEncountPokemonGimmickSpawner_WR02_Dakuma
@@ -2409,9 +2409,9 @@
 	0x971755A6					FSYS_WR03_AREA01_WEATHER_CHANGE
 	0x972B1811					z_c0101_i0201_LEAGUESTAFF_F
 	0x972FAA6D					FE_SUB_014_C02_CLEAR
-	0x9731D720	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_10
-	0x9746163B	STATIC BATTLE				z_wr0323_SymbolEncountPokemonGimmickSpawner_WR03_Common_0_0_0_0
-	0x974D0402	STATIC BATTLE				z_wr0105_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_0_0
+	0x9731D720					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_10
+	0x9746163B					z_wr0323_SymbolEncountPokemonGimmickSpawner_WR03_Common_0_0_0_0
+	0x974D0402					z_wr0105_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_0_0
 	0x9765AEC3	TRAINER BATTLE				TRID_GOKKOM_01
 	0x9765B076	TRAINER BATTLE				TRID_GOKKOM_02
 	0x9774CF02					z_d0102_PM_888_OOKAMIK
@@ -2424,7 +2424,7 @@
 	0x987130C1					FE_G_IWA_KORI_FELL_IN_HOLE
 	0x987D3183	TRAINER BATTLE				TRID_GYM02L_TN
 	0x98947C04					FSYS_AFTER_CLEAR_FIRST
-	0x98AEDC4B	STATIC BATTLE				z_wr0201_SymbolEncountPokemonGimmickSpawner_WR02_Common
+	0x98AEDC4B					z_wr0201_SymbolEncountPokemonGimmickSpawner_WR02_Common
 	0x98BE106C	FIELD ITEM				z_r0701_ItemNormal_0_1
 	0x98BE1585	FIELD ITEM				z_r0701_ItemNormal_0_2
 	0x98C91379					FE_R2_CHIKA_INTRO
@@ -2454,8 +2454,8 @@
 	0x9983214A					z_t0201_i0101_POKELAB02
 	0x998322FD					z_t0201_i0101_POKELAB03
 	0x9993D69E					z_t0701_Path_2_YOUNG_F_0
-	0x99AA8AF9	STATIC BATTLE				z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_3_K
-	0x99AAB574	STATIC BATTLE				z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_3_T
+	0x99AA8AF9					z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_3_K
+	0x99AAB574					z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_3_T
 	0x99CDEA3E					FE_RIGEL2_SUB015_FIRST
 	0x99E5DC98					FV_R1_YOROIJIMA_SAITO_03
 	0x99E5DE4B					FV_R1_YOROIJIMA_SAITO_02
@@ -2464,33 +2464,33 @@
 	0x99E5E517					FV_R1_YOROIJIMA_SAITO_06
 	0x99E5E6CA					FV_R1_YOROIJIMA_SAITO_05
 	0x99E5E87D					FV_R1_YOROIJIMA_SAITO_04
-	0x99ED4FCA	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_9_K
-	0x99ED54E3	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_9_T
+	0x99ED4FCA					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_9_K
+	0x99ED54E3					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_9_T
 	0x99F05F57					FSYS_GST_HOP
 	0x99F5960F					FE_SUB_049_CLEAR
 	0x99FE0F80	FIELD ITEM				z_wr0304_ItemRare_0_0
 	0x99FE1133	FIELD ITEM				z_wr0304_ItemRare_0_1
 	0x9A523B50					z_c0201_LEADER_DRAGON
 	0x9A6FA7E0					z_t0601_g0101_PLAYPOKE_F
-	0x9A8CE5F0	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_30
-	0x9A8CE7A3	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_31
-	0x9A8FFA60	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_23
-	0x9A8FFC13	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_22
-	0x9A8FFDC6	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_21
-	0x9A8FFF79	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_20
-	0x9A9002DF	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_26
-	0x9A900492	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_25
-	0x9A900B5E	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_29
-	0x9A900D11	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_28
-	0x9A931083	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_17
-	0x9A931236	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_14
-	0x9A9313E9	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_15
-	0x9A93159C	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_12
-	0x9A93174F	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_13
-	0x9A931902	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_10
-	0x9A931AB5	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_11
-	0x9A93269A	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_18
-	0x9A93284D	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_19
+	0x9A8CE5F0					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_30
+	0x9A8CE7A3					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_31
+	0x9A8FFA60					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_23
+	0x9A8FFC13					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_22
+	0x9A8FFDC6					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_21
+	0x9A8FFF79					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_20
+	0x9A9002DF					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_26
+	0x9A900492					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_25
+	0x9A900B5E					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_29
+	0x9A900D11					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_28
+	0x9A931083					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_17
+	0x9A931236					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_14
+	0x9A9313E9					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_15
+	0x9A93159C					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_12
+	0x9A93174F					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_13
+	0x9A931902					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_10
+	0x9A931AB5					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_11
+	0x9A93269A					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_18
+	0x9A93284D					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_19
 	0x9AD9615D					z_c0201_SUB_025_ITEM
 	0x9AE04796	TRAINER BATTLE				TRID_BF_02
 	0x9AE04949	TRAINER BATTLE				TRID_BF_03
@@ -2503,11 +2503,11 @@
 	0x9B6F0C87					z_t0701_Path_1_YOUNG_F_0
 	0x9BCEA990					FE_SUB_013_CLEAR
 	0x9BDA6DDC					z_t0401_OKOUSHOP
-	0x9BE18217	STATIC BATTLE				z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0_0
-	0x9BE495D3	STATIC BATTLE				z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_1_0_1_0
+	0x9BE18217					z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0_0
+	0x9BE495D3					z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_1_0_1_0
 	0x9BF095F0					z_t0301_g0102_REAGUE_REFEREE
-	0x9C01B6BC	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0202_K_01
-	0x9C01BBD5	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0202_K_02
+	0x9C01B6BC					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0202_K_01
+	0x9C01BBD5					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_wr0202_K_02
 	0x9C0675B0					z_pl0103_STAR_MAKUWA
 	0x9C1FD6F2	FIELD ITEM				z_d0401_ItemNormal_0_0
 	0x9C1FD8A5	FIELD ITEM				z_d0401_ItemNormal_0_1
@@ -2516,10 +2516,10 @@
 	0x9C4835F0	TRAINER BATTLE				TRID_STAFF_EV01
 	0x9C5E30A4	FIELD ITEM				z_wr0305_ItemNormal_0_2
 	0x9C646ED8					z_c0101_g0210_CHAMPION
-	0x9C709930	STATIC BATTLE				z_wr0131_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0
+	0x9C709930					z_wr0131_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0
 	0x9C8878FB					z_c0301_i0201_ELEVATOR_ROSETOWER_NOT_OPEN
 	0x9C8E1D54					z_wr0201_i0110_BUCKPACKER
-	0x9CB360BD	STATIC BATTLE				z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_0_0
+	0x9CB360BD					z_wr0303_SymbolEncountPokemonGimmickSpawner_WR03_Common_0_0
 	0x9CC12CF8					FSYS_ARRIVE_T0401
 	0x9CF86ECA					z_wr0202_MONKASEI_M_0
 	0x9D5C6C80					z_wr0211_F_DHIGUDA_6
@@ -2584,7 +2584,7 @@
 	0x9EAD0D64					z_c0301_Path_5_YOUNG_F_0
 	0x9EC786EE	FIELD ITEM				z_wr0207_ItemNormal_0
 	0x9EE29B10	FIELD ITEM				z_wr0313_ItemRare_0_0
-	0x9EE33232	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_2_0_0_0
+	0x9EE33232					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_2_0_0_0
 	0x9EF2DA49					z_wr0208_WR02_ZukanNPC_0
 	0x9EF481B1					FE_SUB_003_CLEAR
 	0x9F1A224F					z_pl0120_CHAMPION
@@ -2605,10 +2605,10 @@
 	0x9FCCCF8D					z_t0201_i0201_ASSISTANT
 	0x9FDD384A	STATIC BATTLE				z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Sea_T_0_0_0_0
 	0x9FF2884E					FE_WAZA_OSHIE_KYUUKYOKU_FIRST
-	0x9FFA4984	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_6_0
-	0x9FFA4B37	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_6_1
-	0x9FFA4CEA	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_6_2
-	0x9FFA4E9D	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_6_3
+	0x9FFA4984					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_6_0
+	0x9FFA4B37					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_6_1
+	0x9FFA4CEA					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_6_2
+	0x9FFA4E9D					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_6_3
 	0xA0397CF4					z_wr0222_WR02_TradeNPC_0
 	0xA0397EA7					z_wr0222_WR02_TradeNPC_1
 	0xA039805A					z_wr0222_WR02_TradeNPC_2
@@ -2627,16 +2627,16 @@
 	0xA1694795					z_pl0110_CHAMPION_LASTBATTLE
 	0xA17BC4DA					FSYS_WEATHER_CHANGE_SANDSTORM
 	0xA1A446FF					z_t0501_g0201_LEADER_GHOST
-	0xA1C34FDC	STATIC BATTLE				z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_4_0_0
+	0xA1C34FDC					z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_4_0_0
 	0xA1D4879B					FE_R2_GST_MIZU_LEADER_FIRST
 	0xA1DA59D7					z_c0201_g0102_GM_TR_DRAGON_F01
 	0xA1DA5B8A					z_c0201_g0102_GM_TR_DRAGON_F02
 	0xA1F39B72					z_wr0201_i0101_LEADER_ESPER
 	0xA2055DC9					FSYS_ARRIVE_T0701
 	0xA23C5E10					z_wr0201_i0305_LEADER_ESPER
-	0xA2462C17	STATIC BATTLE				z_wr0105_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_2
-	0xA2462DCA	STATIC BATTLE				z_wr0105_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_1
-	0xA2462F7D	STATIC BATTLE				z_wr0105_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_0
+	0xA2462C17					z_wr0105_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_2
+	0xA2462DCA					z_wr0105_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_1
+	0xA2462F7D					z_wr0105_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_0
 	0xA24BAF24					FE_SUB_026_CLEAR
 	0xA2B57E1B					FSYS_ROTOM_TANMATSU_OPEN_LICENSE
 	0xA2C73776					z_t0301_SE03_HIKO_BG
@@ -2653,11 +2653,11 @@
 	0xA4263CDE					z_t0301_g0101_PM_824_TENTOU1
 	0xA4AFFB77					z_t0301_ASSISTANT
 	0xA4CDFC4F					z_wr0105_WR_LEAGUESTAFFF_NPC
-	0xA4DEA1FA	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_1
-	0xA4DEA3AD	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0
+	0xA4DEA1FA					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_1
+	0xA4DEA3AD					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0
 	0xA4FDB630					z_wr0202_WR02_ZukanNPC
-	0xA537AC48	STATIC BATTLE				z_wr0132_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
-	0xA537ADFB	STATIC BATTLE				z_wr0132_SymbolEncountPokemonGimmickSpawner_WR_Common_0_1
+	0xA537AC48					z_wr0132_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
+	0xA537ADFB					z_wr0132_SymbolEncountPokemonGimmickSpawner_WR_Common_0_1
 	0xA53BA203					z_pl0120_LEADER_DOKU
 	0xA55526EC	TRAINER BATTLE				TRID_RIVAL_MULTIC
 	0xA555289F	TRAINER BATTLE				TRID_RIVAL_MULTIB
@@ -2671,10 +2671,10 @@
 	0xA5AEEF12					z_wr0211_WR02_TradeNPC_0
 	0xA5AEF0C5					z_wr0211_WR02_TradeNPC_1
 	0xA5D52971					z_t0201_s0101_RIVALMOTHER
-	0xA5E5B473	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_2
-	0xA5E5B626	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_1
-	0xA5E5B7D9	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_0
-	0xA60193BB	STATIC BATTLE				z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_Water
+	0xA5E5B473					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_2
+	0xA5E5B626					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_1
+	0xA5E5B7D9					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_0
+	0xA60193BB					z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_Water
 	0xA606A267					FE_R1_GYMLEADERS_FIRST_MELON
 	0xA6175ED2	STATIC BATTLE				z_wr0102_SymbolEncountPokemonGimmickSpawner_0
 	0xA6368342					FSYS_FLY_C0201PC_LEFT
@@ -2705,7 +2705,7 @@
 	0xA8A073EB					z_wr0201_i0110_RIVAL
 	0xA8BFEBB1					z_wr0208_PM_891_AMA1
 	0xA8F5749F	TRAINER BATTLE				TRID_HERO
-	0xA906D055	STATIC BATTLE				z_wr0102_SymbolEncountPokemonGimmickSpawner_WR_Common
+	0xA906D055					z_wr0102_SymbolEncountPokemonGimmickSpawner_WR_Common
 	0xA90E5370					FE_SUB_014_T06_CLEAR
 	0xA9158E2B					z_wr0201_i0101_TV_ON
 	0xA91E3031					z_wr0301_s0101_NURSE
@@ -2717,24 +2717,24 @@
 	0xA9A2037C	TRAINER BATTLE				TRID_CHAMPION_TN01
 	0xA9A206E2	TRAINER BATTLE				TRID_CHAMPION_TN03
 	0xA9A20895	TRAINER BATTLE				TRID_CHAMPION_TN02
-	0xA9A7D74E	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_4_0
+	0xA9A7D74E					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_4_0
 	0xA9A8DD75					z_t0301_Path_0_BREEDER_F_0
 	0xA9B77CCD					z_t0101_GATE_OPEN
 	0xA9C7E138					FSYS_TIPS_OPEN_BTL_SPOT
 	0xA9D8D213					FV_POKECEN_NEWS
 	0xAA05B367	TRAINER BATTLE				TRID_GYM01L_ACM
 	0xAA077C03					FE_SUB_016_CLEAR
-	0xAA1C20C0	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
-	0xAA1C2273	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_3
-	0xAA1C2426	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
-	0xAA1C25D9	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
-	0xAA1C278C	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_6
-	0xAA1C293F	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_7
-	0xAA1C2AF2	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_4
-	0xAA1C2CA5	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_5
-	0xAA1C31BE	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_8
-	0xAA1C3371	STATIC BATTLE				z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_9
-	0xAA519AD6	STATIC BATTLE				z_wr0134_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
+	0xAA1C20C0					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
+	0xAA1C2273					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_3
+	0xAA1C2426					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
+	0xAA1C25D9					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
+	0xAA1C278C					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_6
+	0xAA1C293F					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_7
+	0xAA1C2AF2					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_4
+	0xAA1C2CA5					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_5
+	0xAA1C31BE					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_8
+	0xAA1C3371					z_wr0321_SymbolEncountPokemonGimmickSpawner_WR03_Common_9
+	0xAA519AD6					z_wr0134_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
 	0xAA748795					FSYS_TRLICENCE_UROBO_OPEN
 	0xAA7A01F4	STATIC BATTLE				z_d0401_SymbolEncountPokemonGimmickSpawner_D04_Inpu
 	0xAAAE7615					TMFLG_FIX_SEIKAKU
@@ -2761,27 +2761,27 @@
 	0xAC6F1AFE	TRAINER BATTLE				TRID_WORKERM_01
 	0xAC8DEEFF					FSYS_ARRIVE_T0101
 	0xACA8D829					z_c0201_g0201_MASCOT
-	0xACB5892D	STATIC BATTLE				z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common_T_0
+	0xACB5892D					z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common_T_0
 	0xACBA4DCF					z_c0201_g0201_LEADER_AKU
 	0xACED6815					z_r0201_HAKASE
 	0xACF055F8					z_r0601_KASEKI_HAKASE
 	0xAD059330					FSYS_FLY_WR03_CHIKA
-	0xAD0A810E	STATIC BATTLE				z_wr0221_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
-	0xAD0A82C1	STATIC BATTLE				z_wr0221_SymbolEncountPokemonGimmickSpawner_WR02_Common_1
+	0xAD0A810E					z_wr0221_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
+	0xAD0A82C1					z_wr0221_SymbolEncountPokemonGimmickSpawner_WR02_Common_1
 	0xAD63439D	TRAINER BATTLE				TRID_SEED_TN03_2
 	0xAD6A5CDA					z_t0101_RIVAL_0
 	0xAD8CB338					TMFLG_R2_AFTER_PYONEY
-	0xAD8CEF1A	STATIC BATTLE				z_wr0105_SymbolEncountPokemonGimmickSpawner_WR_Common_Water
+	0xAD8CEF1A					z_wr0105_SymbolEncountPokemonGimmickSpawner_WR_Common_Water
 	0xAD93AE29					z_c0101_g0201_GIRLRIVAL
-	0xAD9A6C47	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_2_0_2
-	0xAD9A6DFA	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_2_0_1
-	0xAD9A6FAD	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_2_0_0
+	0xAD9A6C47					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_2_0_2
+	0xAD9A6DFA					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_2_0_1
+	0xAD9A6FAD					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_2_0_0
 	0xADF7079F	FIELD ITEM				z_t0601_ItemNormal_0
 	0xAE056503					z_d0602_TATE
 	0xAE0CA10B					z_t0801_Path_0_YELL_F_0
 	0xAE90682D	FIELD ITEM				z_wr0311_ItemRare_0
 	0xAE9A45DC					z_pl0103_STAR_POPRA
-	0xAE9AB64B	STATIC BATTLE				z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common_1_0
+	0xAE9AB64B					z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common_1_0
 	0xAEC96778					z_r0701_CHAMPION
 	0xAEF4076A					EF_R2_MEMO_REGIROCK_REPORT
 	0xAF52C149					z_t0301_g0101_SEED_HONO
@@ -2800,16 +2800,16 @@
 	0xB02D9CAE					z_r0201_CHAMPION_0
 	0xB02FD3A9	TRAINER BATTLE				TRID_SISTER_EV01_2
 	0xB03FD168					FE_SHOP_CHAMPION_FIRST
-	0xB04C0E30	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_3_1
-	0xB04C0FE3	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_3_0
-	0xB05AFD80	STATIC BATTLE				z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_8
-	0xB05B0B18	STATIC BATTLE				z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
-	0xB05B0CCB	STATIC BATTLE				z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
-	0xB05B0E7E	STATIC BATTLE				z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
-	0xB05B1031	STATIC BATTLE				z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_3
-	0xB05B11E4	STATIC BATTLE				z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_4
-	0xB05B1397	STATIC BATTLE				z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_5
-	0xB05B154A	STATIC BATTLE				z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_6
+	0xB04C0E30					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_3_1
+	0xB04C0FE3					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_3_0
+	0xB05AFD80					z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_8
+	0xB05B0B18					z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
+	0xB05B0CCB					z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
+	0xB05B0E7E					z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
+	0xB05B1031					z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_3
+	0xB05B11E4					z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_4
+	0xB05B1397					z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_5
+	0xB05B154A					z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common_6
 	0xB06D2925					FSYS_LIVE_COMM_DISABLE
 	0xB08E0CF8					z_wr0203_PM_543_HUSIDE
 	0xB0A9B8D6					z_t0701_i0912_MUSCLE
@@ -2819,7 +2819,7 @@
 	0xB0D2634D					z_wr0211_WR02_TradeNPC
 	0xB0D8904E					z_t0401_i0101_PM_876_SIRUKIIMESU
 	0xB0F0B1CF					
-	0xB0F6A7B4	STATIC BATTLE				z_wr0322_SymbolEncountPokemonGimmickSpawner_WR03_Common_2_0
+	0xB0F6A7B4					z_wr0322_SymbolEncountPokemonGimmickSpawner_WR03_Common_2_0
 	0xB10889FC					z_wr0306_REJIICEDOOR
 	0xB109F168					z_c0201_CHILDREN_M_5
 	0xB109F31B					z_c0201_CHILDREN_M_4
@@ -2832,11 +2832,11 @@
 	0xB151B45F					z_c0301_PM_877_POSUPIKA
 	0xB1591A87					z_r0501_i0101_BREEDER_F
 	0xB15AA134					FSYS_R2_STATION
-	0xB1A3D290	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_3
-	0xB1A3D443	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_2
-	0xB1A3D5F6	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_1
-	0xB1A3D7A9	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0
-	0xB1A3DE75	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_4
+	0xB1A3D290					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_3
+	0xB1A3D443					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_2
+	0xB1A3D5F6					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_1
+	0xB1A3D7A9					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0
+	0xB1A3DE75					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_4
 	0xB1B19DB2					z_t0501_g0101_PM_825_TENTOU2
 	0xB1B73E29	FIELD ITEM				z_d0103_ItemRare_0
 	0xB1BC0D36					z_t0201_TANPAN
@@ -2844,8 +2844,8 @@
 	0xB1EF7CD1					z_d0601_LEADER_AKU
 	0xB1F0B362					
 	0xB1FF9899					z_t0101_ASSISTANT_HAKASE
-	0xB2056BC6	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_7_K
-	0xB20599A7	STATIC BATTLE				z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_7_T
+	0xB2056BC6					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_7_K
+	0xB20599A7					z_wr0304_SymbolEncountPokemonGimmickSpawner_WR03_Common_7_T
 	0xB20FCDF8	TRAINER BATTLE				TRID_GF_01
 	0xB212900C					FE_GC_KAKUGO_LOCATION
 	0xB213C388					FSYS_BTL_BGM_OPEN_VS34
@@ -2888,10 +2888,10 @@
 	0xB223288C					FSYS_MAPICON_T03
 	0xB223D309					FSYS_BIRTHDAY_EVENT
 	0xB248262B					z_c0201_g0102_LEADER_DRAGON
-	0xB25C9F60	STATIC BATTLE				z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
+	0xB25C9F60					z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
 	0xB26E211F					z_pl0110_LEADER_KAKUTOU
 	0xB284FC86					z_t0301_g0101_LEADER_AKU
-	0xB291E4E6	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_0_0
+	0xB291E4E6					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_0_0
 	0xB2BB1E49	STATIC BATTLE				z_r0201_SymbolEncountPokemonGimmickSpawner_R02_Kame1
 	0xB2BC4992	FIELD ITEM				z_r0202_ItemNormal_0_5
 	0xB2BC4B45	FIELD ITEM				z_r0202_ItemNormal_0_4
@@ -2925,17 +2925,17 @@
 	0xB3A3D176	TRAINER BATTLE				TRID_POSTMAN_02
 	0xB402B9F5					z_t0201_LEADER_AKU
 	0xB4077C32	TRAINER BATTLE				TRID_SEED_TN02_2
-	0xB4135A87	STATIC BATTLE				z_wr0311_SymbolEncountPokemonGimmickSpawner_WR03_Common_T_0_0
+	0xB4135A87					z_wr0311_SymbolEncountPokemonGimmickSpawner_WR03_Common_T_0_0
 	0xB43125FE					FE_SUB_020_CLEAR
 	0xB4655362	FIELD ITEM				z_wr0306_ItemRare_0_0
-	0xB4C62018	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0
+	0xB4C62018					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0
 	0xB4CB5FBE					z_d0501_OLD_F_0
 	0xB513D200					TMFLG_SUB_43_ARARE
 	0xB5263108					z_t0101_CHAMPION
 	0xB52B8FCD					z_wr0301_i0401_PLAYPOKE_F
 	0xB5373AB3					z_t0401_LEADER_MIZU
 	0xB5393004					z_t0301_SEED_GHOST
-	0xB542DA5F	STATIC BATTLE				z_wr0310_SymbolEncountPokemonGimmickSpawner_WR03_Common_2_0
+	0xB542DA5F					z_wr0310_SymbolEncountPokemonGimmickSpawner_WR03_Common_2_0
 	0xB548F355					FSYS_ARRIVE_T0301
 	0xB54ED14C					z_t0301_g0101_YOUNG_F
 	0xB56ECDA5					z_pl0102_LEAGUESTAFF_M
@@ -3025,7 +3025,7 @@
 	0xBB603EA7					z_t0301_SE03_HONO_BG
 	0xBB8CFF7B					z_t0401_g0101_SEED_DOKU
 	0xBB8E4053					FE_R2_EV0124_ANSWER_FALSE
-	0xBB95BB0C	STATIC BATTLE				z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common_K_0
+	0xBB95BB0C					z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common_K_0
 	0xBBAB0279	STATIC BATTLE				z_r0801_SymbolEncountPokemonGimmickSpawner_R08_Iwaparesu
 	0xBBB7AB05					z_wr0224_WIFE_M
 	0xBBB8A9D5	FIELD ITEM				z_r0202_ItemRare_0
@@ -3037,16 +3037,16 @@
 	0xBC2ACFF2					FSYS_TRLICENCE_MIZUNOTO_NIGHT_OPEN
 	0xBC2DDDB7					z_t0301_SUB_003
 	0xBCA17189					EF_R2_EV0140_T_HATAKE_FIRST
-	0xBCA3DAA4	STATIC BATTLE				z_wr0102_SymbolEncountPokemonGimmickSpawner_WR_Common_2
-	0xBCA3DC57	STATIC BATTLE				z_wr0102_SymbolEncountPokemonGimmickSpawner_WR_Common_3
-	0xBCA3DE0A	STATIC BATTLE				z_wr0102_SymbolEncountPokemonGimmickSpawner_WR_Common_0
-	0xBCA3DFBD	STATIC BATTLE				z_wr0102_SymbolEncountPokemonGimmickSpawner_WR_Common_1
+	0xBCA3DAA4					z_wr0102_SymbolEncountPokemonGimmickSpawner_WR_Common_2
+	0xBCA3DC57					z_wr0102_SymbolEncountPokemonGimmickSpawner_WR_Common_3
+	0xBCA3DE0A					z_wr0102_SymbolEncountPokemonGimmickSpawner_WR_Common_0
+	0xBCA3DFBD					z_wr0102_SymbolEncountPokemonGimmickSpawner_WR_Common_1
 	0xBCB627FD	STATIC BATTLE				z_wr0201_i0204_SymbolEncountPokemonGimmickSpawner_WR02_Dakuma
 	0xBCD92AE9					z_c0101_g0210_LEADER_HONO
 	0xBCEFA75A					TMFLG_SUB_127_DAILY_SHOP
 	0xBD2934C0					z_d0102_POKEBALL
 	0xBD47FD5D					z_d0103_PM_889_OOKAMIT
-	0xBDBE80FA	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common
+	0xBDBE80FA					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common
 	0xBDCF4A18					FE_SUB_031_CLEAR
 	0xBE13B02A					z_c0201_g0201_MIDDLE_F
 	0xBE14CF20					FSYS_GST_DANDE
@@ -3068,23 +3068,23 @@
 	0xBF141A48	HIDDEN ITEM				z_wr0201_HiddenItem_T_0
 	0xBF24DDAE					FSYS_PLAY_POKEMON_QUEST
 	0xBF2F7C0A					FSYS_TRLICENCE_ZOU_OPEN
-	0xBF592080	STATIC BATTLE				z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_4
-	0xBF592233	STATIC BATTLE				z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_5
-	0xBF5923E6	STATIC BATTLE				z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_6
-	0xBF592599	STATIC BATTLE				z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_7
-	0xBF59274C	STATIC BATTLE				z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
-	0xBF5928FF	STATIC BATTLE				z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
-	0xBF592AB2	STATIC BATTLE				z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
-	0xBF592C65	STATIC BATTLE				z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_3
-	0xBF5934E4	STATIC BATTLE				z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_8
-	0xBF593697	STATIC BATTLE				z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_9
+	0xBF592080					z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_4
+	0xBF592233					z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_5
+	0xBF5923E6					z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_6
+	0xBF592599					z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_7
+	0xBF59274C					z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
+	0xBF5928FF					z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
+	0xBF592AB2					z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
+	0xBF592C65					z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_3
+	0xBF5934E4					z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_8
+	0xBF593697					z_wr0312_SymbolEncountPokemonGimmickSpawner_WR03_Common_9
 	0xBF9C3942					FE_SUB_002_CLEAR
 	0xBFCA7B7B					z_t0301_RIVAL
 	0xBFDD80B5					z_c0101_i0201_SEED_KAKUTOU
 	0xBFE0A0ED	FIELD ITEM				z_d0401_ItemRare_0_0
 	0xBFF02A19					z_t0301_DOG
 	0xBFF4AB0A	FIELD ITEM				z_r0902_ItemRare_0
-	0xC02D7C0C	STATIC BATTLE				z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0
+	0xC02D7C0C					z_wr0122_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0
 	0xC0423F6D					FE_R1_SUB006_M_BATTLE_OPEN
 	0xC0658265					z_t0201_MIDDLE_M
 	0xC0658AE4					z_t0201_MIDDLE_F
@@ -3124,10 +3124,10 @@
 	0xC25D819F					z_wr0201_i0101_NABE
 	0xC27BE006					FSYS_FLY_WR02_AKU
 	0xC28A76F1					FE_GC_AKU_CLEAR
-	0xC28C1A4C	STATIC BATTLE				z_wr0133_SymbolEncountPokemonGimmickSpawner_WR_Common_2
-	0xC28C1BFF	STATIC BATTLE				z_wr0133_SymbolEncountPokemonGimmickSpawner_WR_Common_3
-	0xC28C1DB2	STATIC BATTLE				z_wr0133_SymbolEncountPokemonGimmickSpawner_WR_Common_0
-	0xC28C1F65	STATIC BATTLE				z_wr0133_SymbolEncountPokemonGimmickSpawner_WR_Common_1
+	0xC28C1A4C					z_wr0133_SymbolEncountPokemonGimmickSpawner_WR_Common_2
+	0xC28C1BFF					z_wr0133_SymbolEncountPokemonGimmickSpawner_WR_Common_3
+	0xC28C1DB2					z_wr0133_SymbolEncountPokemonGimmickSpawner_WR_Common_0
+	0xC28C1F65					z_wr0133_SymbolEncountPokemonGimmickSpawner_WR_Common_1
 	0xC315B834					FSYS_TRLICENCE_DOKUESPER_OPEN
 	0xC31791D9					z_wr0311_KOBARUON_013
 	0xC317938C					z_wr0311_KOBARUON_014
@@ -3136,7 +3136,7 @@
 	0xC31798A5					z_wr0311_KOBARUON_017
 	0xC3179A58					z_wr0311_KOBARUON_018
 	0xC3179C0B					z_wr0311_KOBARUON_019
-	0xC31CB80E	STATIC BATTLE				z_wr0134_SymbolEncountPokemonGimmickSpawner_WR_Common
+	0xC31CB80E					z_wr0134_SymbolEncountPokemonGimmickSpawner_WR_Common
 	0xC320D7A8					z_wr0311_KOBARUON_021
 	0xC320D95B					z_wr0311_KOBARUON_020
 	0xC320DB0E					z_wr0311_KOBARUON_023
@@ -3191,11 +3191,11 @@
 	0xC6C0B0C0					z_wr0201_i0101_PM_559_ZURUGGU
 	0xC6E458F1	STATIC BATTLE				z_wr0131_SymbolEncountPokemonGimmickSpawner_WR_GameClear
 	0xC6EBCB1E					z_t0201_i0101_ASSISTANT_HAKASE
-	0xC703B62C	STATIC BATTLE				z_wr0323_SymbolEncountPokemonGimmickSpawner_WR03_Common_0_0_0
+	0xC703B62C					z_wr0323_SymbolEncountPokemonGimmickSpawner_WR03_Common_0_0_0
 	0xC71D9C49					
 	0xC7235A5A					z_c0101_g0201_CHAMPION
 	0xC7346C34					z_pl0101_LEAGUESTAFF_M
-	0xC7464E58	STATIC BATTLE				z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common
+	0xC7464E58					z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common
 	0xC795E4ED					z_c0201_g0201_GM_TR_DRAGON_M
 	0xC7995024					z_wr0201_i0110_OKAMI
 	0xC7BE59AA	FIELD ITEM				z_r0201_ItemRare_0
@@ -3207,17 +3207,17 @@
 	0xC8499E80					FSYS_TRLICENCE_AKUNOTO_NIGHT_OPEN
 	0xC8611171					
 	0xC8B36FE1					FE_SUB_047_CLEAR
-	0xC901D65C	STATIC BATTLE				z_wr0136_SymbolEncountPokemonGimmickSpawner_WR_Common
+	0xC901D65C					z_wr0136_SymbolEncountPokemonGimmickSpawner_WR_Common
 	0xC90B46C2					FSYS_GYM_CLEAR_SEVENTH
 	0xC910AF8D					z_r0903_POLICE
 	0xC91AA7A7					z_wr0323_PM_820_KITARISU2
-	0xC9301E30	STATIC BATTLE				z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_4
-	0xC9302196	STATIC BATTLE				z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_6
-	0xC9302349	STATIC BATTLE				z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_7
-	0xC93024FC	STATIC BATTLE				z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
-	0xC93026AF	STATIC BATTLE				z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_1
-	0xC9302862	STATIC BATTLE				z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_2
-	0xC9303294	STATIC BATTLE				z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_8
+	0xC9301E30					z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_4
+	0xC9302196					z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_6
+	0xC9302349					z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_7
+	0xC93024FC					z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_0
+	0xC93026AF					z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_1
+	0xC9302862					z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_2
+	0xC9303294					z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_8
 	0xC9643D98					FE_R2_CHIKA_FURADARI_BLUE
 	0xC9966E6C					z_d0601_MADAM
 	0xC99DE6AF					z_c0301_s0101_MUSCLE
@@ -3225,8 +3225,8 @@
 	0xC99EDF3A					z_c0301_i0101_YOUNG_M
 	0xC9A760FA	FIELD ITEM				z_wr0204_ItemRare_0
 	0xC9C320FB					FE_R1_SUB005_FIRST_TIME
-	0xC9D8D644	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_3_1_1
-	0xC9D8D7F7	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_3_1_0
+	0xC9D8D644					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_3_1_1
+	0xC9D8D7F7					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_3_1_0
 	0xCA10E7A6					FE_GST_GAMEOVER
 	0xCA3ACFAF					FSYS_ARRIVE_R0701
 	0xCA522481					z_wr0202_SISYO
@@ -3248,7 +3248,7 @@
 	0xCAC87855					FV_R1_YOROIJIMA_MAKUWA_04
 	0xCAEC6849					z_wr0201_i0205_LEADER_ESPER
 	0xCAF15316					z_wr0201_i0305_KAKEJIKU_EVOLUTION
-	0xCB1EA63D	STATIC BATTLE				z_wr0109_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0
+	0xCB1EA63D					z_wr0109_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0
 	0xCB281B7F					z_t0101_i0101_KUSA
 	0xCB34C135					z_c0301_s0101_PM_263_ZIGUZAGUMAR_0
 	0xCB40175D					z_d0102_LEADER_AKU
@@ -3323,7 +3323,7 @@
 	0xCF9DE724	TRAINER BATTLE				TRID_SEED_TN04_2
 	0xCFB40042					z_t0401_i0101_CHEF
 	0xCFBB733C					z_d0901_DANCER
-	0xCFBCA815	STATIC BATTLE				z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_1_0_0_0
+	0xCFBCA815					z_wr0208_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_1_0_0_0
 	0xCFCE1FA5	FIELD ITEM				z_c0301_ItemNormal_0
 	0xCFEC68D7					z_wr0301_i0401_PM_133_IIBUI
 	0xCFF9D036					z_wr0131_WR_ARTIST_NPC_1
@@ -3343,17 +3343,17 @@
 	0xD05C82F7					z_pl0110_RIVAL
 	0xD0706DDB					z_d0701_PM_898_KURAUN
 	0xD0A23D55					z_wr0206_WIFE_SCOP_O
-	0xD0B32C5D	STATIC BATTLE				z_wr0305_SymbolEncountPokemonGimmickSpawner_WR03_Common_K
-	0xD0B32E10	STATIC BATTLE				z_wr0305_SymbolEncountPokemonGimmickSpawner_WR03_Common_T
-	0xD0B36B3C	STATIC BATTLE				z_wr0305_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
-	0xD0B36CEF	STATIC BATTLE				z_wr0305_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
-	0xD0B36EA2	STATIC BATTLE				z_wr0305_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
+	0xD0B32C5D					z_wr0305_SymbolEncountPokemonGimmickSpawner_WR03_Common_K
+	0xD0B32E10					z_wr0305_SymbolEncountPokemonGimmickSpawner_WR03_Common_T
+	0xD0B36B3C					z_wr0305_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
+	0xD0B36CEF					z_wr0305_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
+	0xD0B36EA2					z_wr0305_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
 	0xD0E267EB					FSYS_JUDGE_OPEN
 	0xD0EF72F5					z_t0801_T08DANBALL_AFTER
 	0xD10FCE42					z_r0903_SEED_JIMEN
-	0xD1233948	STATIC BATTLE				z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_0
-	0xD1233AFB	STATIC BATTLE				z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_1
-	0xD1234014	STATIC BATTLE				z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_4
+	0xD1233948					z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_0
+	0xD1233AFB					z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_1
+	0xD1234014					z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_4
 	0xD158283E					FSYS_WEATHER_CHANGE_MIST
 	0xD177FA30					z_t0201_HITUJI_2
 	0xD177FBE3					z_t0201_HITUJI_3
@@ -3419,12 +3419,12 @@
 	0xD1A18FF5					FE_G_IWA_KORI_HOLE_32
 	0xD1A19874					FE_G_IWA_KORI_HOLE_39
 	0xD1A19A27					FE_G_IWA_KORI_HOLE_38
-	0xD1A3324A	STATIC BATTLE				z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common_T
-	0xD1A33763	STATIC BATTLE				z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common_K
-	0xD1A3CB38	STATIC BATTLE				z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
-	0xD1A3CCEB	STATIC BATTLE				z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common_3
-	0xD1A3CE9E	STATIC BATTLE				z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
-	0xD1A3D051	STATIC BATTLE				z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
+	0xD1A3324A					z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common_T
+	0xD1A33763					z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common_K
+	0xD1A3CB38					z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common_2
+	0xD1A3CCEB					z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common_3
+	0xD1A3CE9E					z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common_0
+	0xD1A3D051					z_wr0307_SymbolEncountPokemonGimmickSpawner_WR03_Common_1
 	0xD1A55A00					z_c0201_Path_0_CHILDREN_M_0
 	0xD1B731CB					z_t0801_GM_TR_AKU_M02
 	0xD1B7337E					z_t0801_GM_TR_AKU_M01
@@ -3455,7 +3455,7 @@
 	0xD2D5D118					TMFLG_R1_GOUSEI_HINT
 	0xD2EF636B	TRAINER BATTLE				TRID_SEED_TN12_2
 	0xD2FB2ED2	TRAINER BATTLE				TRID_GYM02L_TN_2
-	0xD3263844	STATIC BATTLE				z_wr0136_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
+	0xD3263844					z_wr0136_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
 	0xD32CC0F7					z_t0401_Path_3_YOUNG_M_0
 	0xD332A4D3					FSYS_ARRIVE_R1001
 	0xD332A686					FSYS_ARRIVE_R1002
@@ -3492,12 +3492,12 @@
 	0xD56776D7					z_c0201_INFANT_F_2
 	0xD567788A					z_c0201_INFANT_F_1
 	0xD5677A3D					z_c0201_INFANT_F_0
-	0xD5776C7C	STATIC BATTLE				z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0
+	0xD5776C7C					z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0
 	0xD57F6BCB	FIELD ITEM				z_wr0202_ItemRare_0_0
 	0xD58A6D1F					z_t0201_s0101_LEADER_ESPER
 	0xD5D49915					z_wr0211_LEADER_ESPER
 	0xD5DEBCC5					z_t0701_Path_0_YOUNG_M_0
-	0xD60EDED3	STATIC BATTLE				z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0
+	0xD60EDED3					z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0
 	0xD614D1AB					z_t0301_YOUNG_M
 	0xD62819D9					z_wr0201_WR02_ZukanNPC
 	0xD62ACBE6					z_t0201_s0101_RIVAL
@@ -3505,17 +3505,17 @@
 	0xD65C06D4					z_c0201_g0201_YOUNG_F_0
 	0xD66DA8A0	STATIC BATTLE				z_wr0103_SymbolEncountPokemonGimmickSpawner
 	0xD671C318					z_t0401_LEAGUECHIEF
-	0xD67B3D70	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_10
-	0xD67B3F23	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_11
-	0xD67B40D6	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_12
-	0xD67B4289	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_13
-	0xD67B443C	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_14
-	0xD67B45EF	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_15
-	0xD67B47A2	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_16
-	0xD67B4955	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_17
-	0xD67B4B08	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_18
-	0xD67B4CBB	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_19
-	0xD683B08B	STATIC BATTLE				z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_20
+	0xD67B3D70					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_10
+	0xD67B3F23					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_11
+	0xD67B40D6					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_12
+	0xD67B4289					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_13
+	0xD67B443C					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_14
+	0xD67B45EF					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_15
+	0xD67B47A2					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_16
+	0xD67B4955					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_17
+	0xD67B4B08					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_18
+	0xD67B4CBB					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_19
+	0xD683B08B					z_wr0306_SymbolEncountPokemonGimmickSpawner_WR03_Common_20
 	0xD6B149C6	STATIC BATTLE				z_wr0311_SymbolEncountPokemonGimmickSpawner_WR03_Sky
 	0xD6E55E25					z_c0201_g0102_GM_TR_DRAGON_M
 	0xD6F217EC					z_wr0201_i0110_SISYO_HONKI
@@ -3528,7 +3528,7 @@
 	0xD7E1AFDA					z_t0101_RIVALMOTHER
 	0xD7EB3D49					z_t0601_g0101_LEADER_FAIRY
 	0xD82A85C8					
-	0xD82B8C81	STATIC BATTLE				z_wr0134_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0
+	0xD82B8C81					z_wr0134_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0
 	0xD82EDB7E	FIELD ITEM				z_wr0208_ItemRare_0
 	0xD8371D50					z_wr0201_i0305_SISYO_HONKI
 	0xD8453FA9					z_c0101_i0201_ASSISTANT
@@ -3643,7 +3643,7 @@
 	0xDA690CBC	STATIC BATTLE				z_wr0132_SymbolEncountPokemonGimmickSpawner_WR_GameClear
 	0xDA93C65D	FIELD ITEM				z_wr0136_ItemNormal_0
 	0xDAB3DD3A	STATIC BATTLE				FE_CAPTURE_REGIICE
-	0xDACCF437	STATIC BATTLE				z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common
+	0xDACCF437					z_wr0301_SymbolEncountPokemonGimmickSpawner_WR03_Common
 	0xDAD72DAC					z_d0602_NURSE
 	0xDB0C6A76					FE_CAMPKING_FIRST
 	0xDB153C3B	FIELD ITEM				z_wr0303_ItemNormal_0
@@ -3652,11 +3652,11 @@
 	0xDC5DC636	FIELD ITEM				z_t0401_ItemNormal_0_4
 	0xDC5DCD02	FIELD ITEM				z_t0401_ItemNormal_0_0
 	0xDC5DCEB5	FIELD ITEM				z_t0401_ItemNormal_0_1
-	0xDC77CE94	STATIC BATTLE				z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common
+	0xDC77CE94					z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common
 	0xDC9CF801	TRAINER BATTLE				TRID_SEED_TN14_2
 	0xDCA77A43					
 	0xDCB64A7A					FSYS_FLY_WR03_REGISTEEL
-	0xDCD1A02D	STATIC BATTLE				z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_10
+	0xDCD1A02D					z_wr0209_SymbolEncountPokemonGimmickSpawner_WR02_Common_10
 	0xDCE1AD9B					FSYS_ARRIVE_C0201
 	0xDCE932AE					z_d0501_BUCKPACKER
 	0xDCF01CF1					z_t0401_g0101_LEADER_MIZU
@@ -3667,9 +3667,9 @@
 	0xDD7A1672					FV_COMMON_GAMECLEAR_DELETE_VT
 	0xDD7A36BB					FV_COMMON_GAMECLEAR_DELETE_VK
 	0xDD7AFAD4	FIELD ITEM				z_wr0304_ItemNormal_0
-	0xDD80973C	STATIC BATTLE				z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common_1
-	0xDD8098EF	STATIC BATTLE				z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common_0
-	0xDD809C55	STATIC BATTLE				z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common_2
+	0xDD80973C					z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common_1
+	0xDD8098EF					z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common_0
+	0xDD809C55					z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common_2
 	0xDD8BE800					z_wr0222_F_DHIGUDA_4
 	0xDD8BE9B3					z_wr0222_F_DHIGUDA_5
 	0xDD8BEECC					z_wr0222_F_DHIGUDA_0
@@ -3705,9 +3705,9 @@
 	0xDF6661EE	FIELD ITEM				z_wr0203_ItemRare_0_0
 	0xDF9A5253					z_wr0305_BIRIZION_037
 	0xDF9A686A					z_wr0305_BIRIZION_038
-	0xDFA27310	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_2
-	0xDFA274C3	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_3
-	0xDFA27D42	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_4
+	0xDFA27310					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_2
+	0xDFA274C3					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_3
+	0xDFA27D42					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_4
 	0xDFA2BEA2					z_wr0305_BIRIZION_049
 	0xDFA569E3					z_wr0203_RIVAL
 	0xDFDAA9D7					z_wr0204_WR02_TradeNPC
@@ -3716,8 +3716,8 @@
 	0xE00D2FEE					z_wr0207_F_DHIGUDA
 	0xE02A722C					FE_R1_SUB006_M_HAIRSALON_OPEN
 	0xE02F5461					z_pl0102_LEADER_IWA
-	0xE0311082	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_4_1
-	0xE0311235	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_4_0
+	0xE0311082					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_4_1
+	0xE0311235					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_4_0
 	0xE0469272					z_d0101_PM_006_RIZAADON
 	0xE076C0F7					z_t0201_RIVAL_0
 	0xE093C7FC					FSYS_D02_GAMEOVER
@@ -3750,16 +3750,16 @@
 	0xE28EEDBA					FE_R1_SUB_020_END
 	0xE2AF5B9B	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Emonga_0_0_0_0
 	0xE2B2BB7C					z_t0201_i0201_HAKASE_INTAI
-	0xE2B877E7	STATIC BATTLE				z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common
+	0xE2B877E7					z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common
 	0xE2BED81C	TRAINER BATTLE				TRID_GYM04LA_TN
-	0xE2E8037C	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_1
-	0xE2E8052F	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_0
-	0xE2E806E2	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_3
-	0xE2E80895	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_2
+	0xE2E8037C					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_1
+	0xE2E8052F					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_0
+	0xE2E806E2					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_3
+	0xE2E80895					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_2_0_2
 	0xE2F7B369					z_c0301_Path_1_MIDDLE_F_0
 	0xE351E9E8					z_wr0211_WIFE_SCOP_D
 	0xE36345EA					z_pl0110_LEADER_KORI
-	0xE37DB292	STATIC BATTLE				z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_1_0
+	0xE37DB292					z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_1_0
 	0xE37E0B0F					z_t0601_g0101_INFANT_F
 	0xE3BBC00C					z_wr0133_WR_ANGLER_NPC
 	0xE3CBAF07					z_wr0201_i0205_MONKASEI_F_0
@@ -3778,8 +3778,8 @@
 	0xE49088C4					FSYS_POKECAMP_OPEN_HEAVY_BALL
 	0xE499F7C5					TMFLG_R2_REGIICE
 	0xE49BDA61					FSYS_XMENU_OPEN_CAMP
-	0xE49F5480	STATIC BATTLE				z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_1_0
-	0xE4AB226A	STATIC BATTLE				z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_0
+	0xE49F5480					z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_1_0
+	0xE4AB226A					z_wr0203_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_0
 	0xE4B90AB8					FE_R2_CHIKA_ENDLESS_RECORD_FIRST
 	0xE4D7E05A	FIELD ITEM				z_wr0136_ItemRare_0
 	0xE4DC41E9	TRAINER BATTLE				TRID_GYM07L_ACM
@@ -3787,7 +3787,7 @@
 	0xE4DFA004					z_c0101_PM_572_TIRAAMHI
 	0xE4EB839D					FSYS_XMENU_OPEN_POKEMON
 	0xE4F32F82					z_wr0301_i0301_ASSISTANT_HAKASE
-	0xE50F80A2	STATIC BATTLE				z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_6_0_0
+	0xE50F80A2					z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_6_0_0
 	0xE520F707	STATIC BATTLE				z_wr0201_i0202_SymbolEncountPokemonGimmickSpawner_WR02_Dakuma
 	0xE5236178	TRAINER BATTLE				TRID_SEED_TN08_2
 	0xE52CBCB9					z_wr0201_BIRD_TAXY
@@ -3812,7 +3812,7 @@
 	0xE71C010D					z_wr0203_MONKASEI_F_1
 	0xE7306137					
 	0xE731EBD4					z_wr0210_LEADER_ESPER
-	0xE73B7EC3	STATIC BATTLE				z_wr0323_SymbolEncountPokemonGimmickSpawner_WR03_Common_0_0
+	0xE73B7EC3					z_wr0323_SymbolEncountPokemonGimmickSpawner_WR03_Common_0_0
 	0xE74675C2					z_d0901_GENTLEMAN
 	0xE756D97B					z_wr0201_i0205_LEADER_DOKU
 	0xE772EC3C					z_wr0201_i0110_LEADER_ESPER
@@ -3866,7 +3866,7 @@
 	0xEA06EAA4	TRAINER BATTLE				TRID_RIVAL_TNAT_2
 	0xEA1744D0					z_wr0221_WIFE_I
 	0xEA1749E9					z_wr0221_WIFE_J
-	0xEA215111	STATIC BATTLE				z_wr0221_SymbolEncountPokemonGimmickSpawner_WR02_Common
+	0xEA215111					z_wr0221_SymbolEncountPokemonGimmickSpawner_WR02_Common
 	0xEA3E6881					FSYS_POKECAMP_OPEN_OTAMA_BALL
 	0xEA45D023					FSYS_FLY_T0501
 	0xEA47D0BC	FIELD ITEM				z_wr0202_ItemRare_0
@@ -3947,8 +3947,8 @@
 	0xF11F867D					z_pl0102_LEADER_DRAGON
 	0xF13DECC1					z_t0501_Path_1_MUSCLE_0
 	0xF14AF6BA					EF_R2_MEMO_SANDAA_REPORT
-	0xF173C61C	STATIC BATTLE				z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0
-	0xF173C7CF	STATIC BATTLE				z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_1
+	0xF173C61C					z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_0
+	0xF173C7CF					z_wr0211_SymbolEncountPokemonGimmickSpawner_WR02_Common_0_1
 	0xF1967F04	STATIC BATTLE				z_wr0104_SymbolEncountPokemonGimmickSpawner_0
 	0xF1AF2F0C					FSYS_ARRIVE_D0302
 	0xF1AF3425					FSYS_ARRIVE_D0301
@@ -3960,7 +3960,7 @@
 	0xF21C1E16					z_d0602_PM_006_RIZAADON
 	0xF2317C48					z_wr0304_BIRIZION_008
 	0xF2317DFB					z_wr0304_BIRIZION_009
-	0xF233D0B8	STATIC BATTLE				z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0_0_0
+	0xF233D0B8					z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0_0_0
 	0xF2348320					z_wr0304_BIRIZION_013
 	0xF23484D3					z_wr0304_BIRIZION_012
 	0xF2348686					z_wr0304_BIRIZION_011
@@ -4073,7 +4073,7 @@
 	0xF385B0A6	FIELD ITEM				z_wr0309_ItemRare_0
 	0xF3C24CB8					FSYS_GST_NEZU
 	0xF3C8AB5D					
-	0xF3CA1659	STATIC BATTLE				z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0_0_0_0_0
+	0xF3CA1659					z_wr0204_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0_0_0_0_0
 	0xF3ECCE13					FSYS_GST_DEBUG_MODE
 	0xF3F37439					FE_RAILWAY_Z_R1001_S0101_OPEN
 	0xF421E6F1					FSYS_GST_MALI
@@ -4087,7 +4087,7 @@
 	0xF4CFED6A					z_wr0209_F_DHIGUDA_12
 	0xF4CFEF1D					z_wr0209_F_DHIGUDA_13
 	0xF4FCA70B					z_wr0209_WIFE_SCOP_F
-	0xF5006508	STATIC BATTLE				z_wr0103_SymbolEncountPokemonGimmickSpawner_WR_Common
+	0xF5006508					z_wr0103_SymbolEncountPokemonGimmickSpawner_WR_Common
 	0xF54797F8					FV_R1_YOROIJIMA_NEZU_05
 	0xF54799AB					FV_R1_YOROIJIMA_NEZU_04
 	0xF5479B5E					FV_R1_YOROIJIMA_NEZU_07
@@ -4116,7 +4116,7 @@
 	0xF6874944					z_pl0101_CHILDREN_M_1
 	0xF6874AF7					z_pl0101_CHILDREN_M_0
 	0xF6874E5D					z_pl0101_CHILDREN_M_2
-	0xF68D93E6	STATIC BATTLE				z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0
+	0xF68D93E6					z_wr0207_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water_0
 	0xF68F9005					z_wr0201_i0101_KID
 	0xF69231C8					FE_R1_GYMLEADERS_FIRST_KIBANA
 	0xF69A64FA	FIELD ITEM				z_wr0312_ItemNormal_0_0
@@ -4226,7 +4226,7 @@
 	0xF9F79EA6					z_wr0201_BIRDDRIVER
 	0xFA022A04	STATIC BATTLE				z_wr0201_i0304_SymbolEncountPokemonGimmickSpawner_WR02_Dakuma
 	0xFA271822					FV_ZONECHANGE_WR0301_I0101
-	0xFA37D10A	STATIC BATTLE				z_wr0231_SymbolEncountPokemonGimmickSpawner_WR02_Common
+	0xFA37D10A					z_wr0231_SymbolEncountPokemonGimmickSpawner_WR02_Common
 	0xFA45A2FE					
 	0xFA5A9C8C	TRAINER BATTLE				TRID_RIVAL_AC02AK
 	0xFA5AC3A1	TRAINER BATTLE				TRID_RIVAL_AC02AT
@@ -4255,12 +4255,12 @@
 	0xFB971B3E	TRAINER BATTLE				TRID_GYM04LB_TN_2
 	0xFC22B961	FIELD ITEM				z_wr0132_ItemNormal_0
 	0xFC2F9B00					z_pl0110_LEADER_AKU
-	0xFC65485A	STATIC BATTLE				z_wr0109_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
+	0xFC65485A					z_wr0109_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
 	0xFC997003					FE_SUB_127_QUEST_IN_PROGRESS
 	0xFCA278A4					z_wr0211_MONKASEI_F
 	0xFCC87EFF					FE_SUB_023_CLEAR
 	0xFCCB11B6					FSYS_MAIN_0815_03_EVENT_ENABLE
-	0xFD037116	STATIC BATTLE				z_wr0322_SymbolEncountPokemonGimmickSpawner_WR03_Common
+	0xFD037116					z_wr0322_SymbolEncountPokemonGimmickSpawner_WR03_Common
 	0xFD235453					FV_CROSS_SHADOW_NPC
 	0xFD46D13F	FIELD ITEM				z_wr0307_ItemNormal_0_0_0
 	0xFD5ED38E					z_wr0108_WR_ANGLER_NPC
@@ -4268,8 +4268,8 @@
 	0xFD65E3A0					z_wr0206_MONKASEI_F
 	0xFD65F651					z_wr0206_MONKASEI_M
 	0xFD6C070D	TRAINER BATTLE				TRID_GYM03L_ACM
-	0xFD930838	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_1
-	0xFD9309EB	STATIC BATTLE				z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_0
+	0xFD930838					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_1
+	0xFD9309EB					z_wr0202_SymbolEncountPokemonGimmickSpawner_WR02_Common_5_0
 	0xFDCC9451					FSYS_TRLICENCE_EV0700_END
 	0xFDCEBBFF					z_wr0121_WR_ANGLER_NPC
 	0xFDCF5FB6					FE_SUB_006_CLEAR
@@ -4295,11 +4295,11 @@
 	0xFEFED99E					z_d0601_ASSISTANT_HAKASE
 	0xFEFFE06C					z_c0101_RIZAADON
 	0xFF5C0ECF					FSYS_R1_GAME_CLEAR
-	0xFF5F7B10	STATIC BATTLE				z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_Common_1
-	0xFF5F7CC3	STATIC BATTLE				z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_Common_0
-	0xFF5F7E76	STATIC BATTLE				z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_Common_3
-	0xFF5F8029	STATIC BATTLE				z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_Common_2
-	0xFF7511E7	STATIC BATTLE				z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water
+	0xFF5F7B10					z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_Common_1
+	0xFF5F7CC3					z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_Common_0
+	0xFF5F7E76					z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_Common_3
+	0xFF5F8029					z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_Common_2
+	0xFF7511E7					z_wr0205_SymbolEncountPokemonGimmickSpawner_WR02_Common_Water
 	0xFF80169D					FSYS_GYM_CLEAR_SECOND
 	0xFF952A6F					z_wr0231_F_DHIGUDA
 	0xFFA9BD50					z_wr0203_MONKASEI_M_1
