@@ -89,6 +89,8 @@
     <EmbeddedResource Include="flagslist\flags_gen4dp.txt" />
     <EmbeddedResource Include="flagslist\flags_gen4pt.txt" />
     <EmbeddedResource Include="flagslist\flags_gen4hgss.txt" />
+    <EmbeddedResource Include="flagslist\flags_gen5bw.txt" />
+    <EmbeddedResource Include="flagslist\flags_gen5b2w2.txt" />
     <EmbeddedResource Include="flagslist\flags_gen6xy.txt" />
     <EmbeddedResource Include="flagslist\flags_gen6oras.txt" />
     <EmbeddedResource Include="flagslist\flags_gen7sm.txt" />

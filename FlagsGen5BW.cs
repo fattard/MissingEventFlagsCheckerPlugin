@@ -9,59 +9,23 @@ namespace MissingEventFlagsCheckerPlugin
 {
     internal class FlagsGen5BW : FlagsOrganizer
     {
+        static string s_flagsList_res = null;
 
         protected override void InitFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
-            var savEventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
-            m_eventFlagsList.Clear();
 
-            for (int idx = 0; idx < savEventFlags.Length; ++idx)
+#if DEBUG
+            // Force refresh
+            s_flagsList_res = null;
+#endif
+
+            if (s_flagsList_res == null)
             {
-                // FlagType.HiddenItem:
-                // ? 0x350
-
-                // - 0x380
-
-                // - 0x437
-
-                if (idx >= 0x380 && idx < 0x438)
-                {
-                    int i = idx - 0x380;
-                    m_eventFlagsList.Add(new FlagDetail((uint)idx, FlagType.HiddenItem, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
-                }
-
-                // FlagType.FieldItem:
-                // - 0x450
-
-                // - 0x587
-
-                else if (idx >= 0x450 && idx < 0x588)
-                {
-                    int i = idx - 0x450;
-                    m_eventFlagsList.Add(new FlagDetail((uint)idx, FlagType.FieldItem, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
-                }
-
-                // FlagType.TrainerBattle:
-                // - 0x588
-
-                // - 0x7D7
-
-                // ? 0x7F0
-
-                else if (idx >= 0x588 && idx < 0x7D8)
-                {
-                    int i = idx - 0x588;
-                    m_eventFlagsList.Add(new FlagDetail((uint)idx, FlagType.TrainerBattle, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
-                }
-
-                // Misc
-                else
-                {
-                    m_eventFlagsList.Add(new FlagDetail((uint)idx, FlagType._Unknown, "", "") { IsSet = savEventFlags[idx] });
-                }
+                s_flagsList_res = ReadFlagsListRes("flags_gen5bw.txt");
             }
 
+            AssembleList(s_flagsList_res);
         }
 
         public override bool SupportsEditingFlag(FlagType flagType)
