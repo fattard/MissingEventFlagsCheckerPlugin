@@ -9,55 +9,23 @@ namespace MissingEventFlagsCheckerPlugin
 {
     internal class FlagsGen6XY : FlagsOrganizer
     {
+        static string s_flagsList_res = null;
 
         protected override void InitFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
-            var savEventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
-            m_eventFlagsList.Clear();
 
-            for (int idx = 0; idx < savEventFlags.Length; ++idx)
+#if DEBUG
+            // Force refresh
+            s_flagsList_res = null;
+#endif
+
+            if (s_flagsList_res == null)
             {
-                // FlagType.HiddenItem:
-                // - 0x448
-
-                // - 0x4E7
-
-                if (idx >= 0x448 && idx < 0x4E8)
-                {
-                    int i = idx - 0x448;
-                    m_eventFlagsList.Add(new FlagDetail((uint)idx, FlagType.HiddenItem, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
-                }
-
-                // FlagType.FieldItem:
-                // - 0x518
-
-                // - 0x5E7
-
-                else if (idx >= 0x518 && idx < 0x5E8)
-                {
-                    int i = idx - 0x518;
-                    m_eventFlagsList.Add(new FlagDetail((uint)idx, FlagType.FieldItem, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
-                }
-
-                // FlagType.TrainerBattle:
-                // - 0x6C0
-
-                // - 0x927
-
-                else if (idx >= 0x6C0 && idx < 0x928)
-                {
-                    int i = idx - 0x6C0;
-                    m_eventFlagsList.Add(new FlagDetail((uint)idx, FlagType.TrainerBattle, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
-                }
-
-                // Misc
-                else
-                {
-                    m_eventFlagsList.Add(new FlagDetail((uint)idx, FlagType._Unknown, "", "") { IsSet = savEventFlags[idx] });
-                }
+                s_flagsList_res = ReadFlagsListRes("flags_gen6xy.txt");
             }
 
+            AssembleList(s_flagsList_res);
         }
 
         public override bool SupportsEditingFlag(FlagType flagType)
