@@ -163,7 +163,7 @@
 	0x00A2					
 	0x00A3					
 	0x00A4					
-	0x00A5					
+	0x00A5	GIFT			Met Sunny/Got Magnet	
 	0x00A6					
 	0x00A7					
 	0x00A8					
@@ -175,7 +175,7 @@
 	0x00AE					
 	0x00AF					
 	0x00B0					
-	0x00B1					
+	0x00B1	GIFT			Met Arthur/Got Hard Stone	
 	0x00B2					
 	0x00B3					
 	0x00B4					
@@ -188,10 +188,10 @@
 	0x00BB					
 	0x00BC					
 	0x00BD					
-	0x00BE					
-	0x00BF					
+	0x00BE	IN-GAME TRADE			Traded in Olivine City	
+	0x00BF	GIFT	Cianwood Town		Received Shuckle Gift	
 	0x00C0					
-	0x00C1					
+	0x00C1	EVENT			Shuckle returned or allowed to keep	
 	0x00C2					
 	0x00C3					
 	0x00C4					
@@ -206,19 +206,19 @@
 	0x00CD					
 	0x00CE					
 	0x00CF					
-	0x00D0					
+	0x00D0	IN-GAME TRADE			Traded in Blackthorn City	
 	0x00D1					
 	0x00D2					
 	0x00D3					
-	0x00D4					
-	0x00D5					
+	0x00D4	GIFT			Met Santos/Got Soft Sand	
+	0x00D5	GIFT			Met Wesley/Got Black Belt	
 	0x00D6					
-	0x00D7					
-	0x00D8					
-	0x00D9					
+	0x00D7	GIFT			Met Monica/Got Sharp Beak	
+	0x00D8	GIFT			Met Tuscany/Got TwistedSpoon	
+	0x00D9	GIFT			Met Frieda/Got Poison Barb	
 	0x00DA					
-	0x00DB					
-	0x00DC					
+	0x00DB	EVENT			Quiz answered wrong (Gift Dratini won't have Extremespeed)	
+	0x00DC	GIFT			Received Dratini Gift	
 	0x00DD					
 	0x00DE					
 	0x00DF					
@@ -239,7 +239,7 @@
 	0x00EE					
 	0x00EF					
 	0x00F0					
-	0x00F1					
+	0x00F1	SIDE EVENT			Beat Pokeathlon Records (Trainer Card Upgrade)	
 	0x00F2					
 	0x00F3					
 	0x00F4					
@@ -266,8 +266,8 @@
 	0x0109					
 	0x010A					
 	0x010B					
-	0x010C					
-	0x010D					
+	0x010C	GIFT			Received Tyrogue Gift	
+	0x010D	EVENT			Defeated Karate King in Mt. Mortar	
 	0x010E					
 	0x010F					
 	0x0110					
@@ -287,7 +287,7 @@
 	0x011E					
 	0x011F					
 	0x0120					
-	0x0121					
+	0x0121	IN-GAME TRADE			Traded at Power Plant	
 	0x0122					
 	0x0123					
 	0x0124					
@@ -305,7 +305,7 @@
 	0x0130					
 	0x0131					
 	0x0132					
-	0x0133					
+	0x0133	IN-GAME TRADE			Traded in Pewter City	
 	0x0134					
 	0x0135					
 	0x0136					
@@ -352,15 +352,15 @@
 	0x015F					
 	0x0160					
 	0x0161					
-	0x0162					
+	0x0162	IN-GAME TRADE			Traded with Lt. Surge	
 	0x0163					
 	0x0164					
-	0x0165					
-	0x0166					
-	0x0167					
+	0x0165	IN-GAME TRADE			Traded with Brock	
+	0x0166	IN-GAME TRADE			Traded with Jasmine	
+	0x0167	IN-GAME TRADE			Traded with Steven	
 	0x0168					
 	0x0169					
-	0x016A					
+	0x016A	STATIC BATTLE			Caught Red Gyarados	
 	0x016B					
 	0x016C					
 	0x016D					
@@ -373,7 +373,7 @@
 	0x0174					
 	0x0175					
 	0x0176					
-	0x0177					
+	0x0177	SIDE EVENT			Got Hoenn Starter from Steven	
 	0x0178					
 	0x0179					
 	0x017A					
@@ -386,7 +386,7 @@
 	0x0181					
 	0x0182					
 	0x0183					
-	0x0184					
+	0x0184	SIDE EVENT			Obtained 1 Shiny Crown (Trainer Card Upgrade)	
 	0x0185					
 	0x0186					
 	0x0187					
@@ -448,16 +448,16 @@
 	0x01BF					
 	0x01C0					
 	0x01C1					
-	0x01C2					
+	0x01C2	STATIC BATTLE			Route 36 Sudowoodo Disappeared	
 	0x01C3					
 	0x01C4					
 	0x01C5					
 	0x01C6					
 	0x01C7					
 	0x01C8					
-	0x01C9					
-	0x01CA					
-	0x01CB					
+	0x01C9	STORY EVENT			Raikou Roamed	
+	0x01CA	STORY EVENT			Entei Roamed	
+	0x01CB	STORY EVENT			Suicune (Burned Tower) Fled	
 	0x01CC					
 	0x01CD					
 	0x01CE					
@@ -481,7 +481,7 @@
 	0x01E0					
 	0x01E1					
 	0x01E2					
-	0x01E3					
+	0x01E3	STATIC BATTLE			Red Gyarados Disappeared	
 	0x01E4					
 	0x01E5					
 	0x01E6					
@@ -499,9 +499,9 @@
 	0x01F2					
 	0x01F3					
 	0x01F4					
-	0x01F5					
-	0x01F6					
-	0x01F7					
+	0x01F5	STATIC BATTLE			Team Rocket HQ Electrode (1) Disappeared	
+	0x01F6	STATIC BATTLE			Team Rocket HQ Electrode (2) Disappeared	
+	0x01F7	STATIC BATTLE			Team Rocket HQ Electrode (3) Disappeared	
 	0x01F8					
 	0x01F9					
 	0x01FA					
@@ -537,13 +537,13 @@
 	0x0218					
 	0x0219					
 	0x021A					
-	0x021B					
+	0x021B	SIDE EVENT			Solved Ruins of Alph Escape Rope wall puzzle	
 	0x021C					
-	0x021D					
+	0x021D	SIDE EVENT			Solved Ruins of Alph Flash wall puzzle	
 	0x021E					
-	0x021F					
+	0x021F	SIDE EVENT			Solved Ruins of Alph Water Stone wall puzzle	
 	0x0220					
-	0x0221					
+	0x0221	SIDE EVENT			Solved Ruins of Alph Ho-Oh wall puzzle	
 	0x0222					
 	0x0223					
 	0x0224					
@@ -576,8 +576,8 @@
 	0x023F					
 	0x0240					
 	0x0241					
-	0x0242					
-	0x0243					
+	0x0242	STATIC BATTLE			Ho-Oh Disappeared	
+	0x0243	STATIC BATTLE			Lugia Disappeared	
 	0x0244					
 	0x0245					
 	0x0246					
@@ -605,9 +605,9 @@
 	0x025C					
 	0x025D					
 	0x025E					
-	0x025F					
+	0x025F	EVENT			Red (Mt. Silver) Disappeared	
 	0x0260					
-	0x0261					
+	0x0261	STATIC BATTLE			Sleeping Snorlax Disappeared	
 	0x0262					
 	0x0263					
 	0x0264					
@@ -661,7 +661,7 @@
 	0x0294					
 	0x0295					
 	0x0296					
-	0x0297					
+	0x0297	STATIC BATTLE			Zapdos Disappeared	
 	0x0298					
 	0x0299					
 	0x029A					
@@ -671,7 +671,7 @@
 	0x029E					
 	0x029F					
 	0x02A0					
-	0x02A1					
+	0x02A1	STATIC BATTLE			Suicune (Route 25) Disappeared	
 	0x02A2					
 	0x02A3					
 	0x02A4					
@@ -691,22 +691,22 @@
 	0x02B2					
 	0x02B3					
 	0x02B4					
-	0x02B5					
-	0x02B6					
-	0x02B7					
-	0x02B8					
-	0x02B9					
-	0x02BA					
-	0x02BB					
-	0x02BC					
-	0x02BD					
-	0x02BE					
-	0x02BF					
-	0x02C0					
-	0x02C1					
-	0x02C2					
-	0x02C3					
-	0x02C4					
+	0x02B5	TRAINER BATTLE			Had Whitney Rematch	
+	0x02B6	TRAINER BATTLE			Had Janine Rematch	
+	0x02B7	TRAINER BATTLE			Had Clair Rematch	
+	0x02B8	TRAINER BATTLE			Had Erika Rematch	
+	0x02B9	TRAINER BATTLE			Had Misty Rematch	
+	0x02BA	TRAINER BATTLE			Had Blaine Rematch	
+	0x02BB	TRAINER BATTLE			Had Blue Rematch	
+	0x02BC	TRAINER BATTLE			Had Chuck Rematch	
+	0x02BD	TRAINER BATTLE			Had Brock Rematch	
+	0x02BE	TRAINER BATTLE			Had Bugsy Rematch	
+	0x02BF	TRAINER BATTLE			Had Sabrina Rematch	
+	0x02C0	TRAINER BATTLE			Had Falkner Rematch	
+	0x02C1	TRAINER BATTLE			Had Lt. Surge Rematch	
+	0x02C2	TRAINER BATTLE			Had Morty Rematch	
+	0x02C3	TRAINER BATTLE			Had Jasmine Rematch	
+	0x02C4	TRAINER BATTLE			Had Pryce Rematch	
 	0x02C5					
 	0x02C6					
 	0x02C7					
@@ -719,8 +719,8 @@
 	0x02CE					
 	0x02CF					
 	0x02D0					
-	0x02D1					
-	0x02D2					
+	0x02D1	STATIC BATTLE			Kyogre/Groudon Disappeared	
+	0x02D2	STATIC BATTLE			Rayquaza Disappeared	
 	0x02D3					
 	0x02D4					
 	0x02D5					
@@ -748,9 +748,9 @@
 	0x02EB					
 	0x02EC					
 	0x02ED					
-	0x02EE					
-	0x02EF					
-	0x02F0					
+	0x02EE	EVENT			Bulbasaur Starter Ball Disappeared	
+	0x02EF	EVENT			Squirtle Starter Ball Disappeared	
+	0x02F0	EVENT			Charmander Starter Ball Disappeared	
 	0x02F1					
 	0x02F2					
 	0x02F3					
@@ -760,7 +760,7 @@
 	0x02F7					
 	0x02F8					
 	0x02F9					
-	0x02FA					
+	0x02FA	EVENT			Steven Disappeared from Silph Co.	
 	0x02FB					
 	0x02FC					
 	0x02FD					
@@ -771,25 +771,25 @@
 	0x0302					
 	0x0303					
 	0x0304					
-	0x0305					
-	0x0306					
-	0x0307					
+	0x0305	STATIC BATTLE			Mewtwo Disappeared	
+	0x0306	STATIC BATTLE			Articuno Disappeared	
+	0x0307	STATIC BATTLE			Moltres Disappeared	
 	0x0308					
 	0x0309					
 	0x030A					
 	0x030B					
 	0x030C					
-	0x030D					
-	0x030E					
+	0x030D	STATIC BATTLE			Latias/Latios (Pewter City) Disappeared	
+	0x030E	SIDE EVENT			Suicune (Back to Burned Tower) Disappeared	
 	0x030F					
 	0x0310					
 	0x0311					
 	0x0312					
 	0x0313					
 	0x0314					
-	0x0315					
+	0x0315	EVENT			Trading Functionality Disabled (Pokecenter)	
 	0x0316					
-	0x0317					
+	0x0317	EVENT			Steven Disappeared from Pewter Museum	
 	0x0318					
 	0x0319					
 	0x031A					
@@ -1364,7 +1364,7 @@
 	0x0553	TRAINER BATTLE			Rival Silver 3	
 	0x0554	TRAINER BATTLE			Bug Catcher Wade	
 	0x0555	TRAINER BATTLE			Beauty Victoria	
-	0x0556	TRAINER BATTLE			Policeman Keith	
+	0x0556	TRAINER BATTLE			Policeman Keith (Night)	
 	0x0557	TRAINER BATTLE			Juggler Irwin	
 	0x0558	TRAINER BATTLE			Youngster Joey	
 	0x0559	TRAINER BATTLE			Swimmer Elaine	
@@ -1378,8 +1378,8 @@
 	0x0561	TRAINER BATTLE			Black Belt Kenji	
 	0x0562	TRAINER BATTLE			Fisherman Justin	
 	0x0563	TRAINER BATTLE			Biker Mickey	
-	0x0564	TRAINER BATTLE			Leader Falkner Falkner	
-	0x0565	TRAINER BATTLE			Leader Bugsy Bugsy	
+	0x0564	TRAINER BATTLE			Leader Falkner	
+	0x0565	TRAINER BATTLE			Leader Bugsy	
 	0x0566	TRAINER BATTLE			Lass Carrie	
 	0x0567	TRAINER BATTLE			Poke Maniac Larry	
 	0x0568	TRAINER BATTLE			School Kid Alan	
@@ -1387,13 +1387,13 @@
 	0x056A	TRAINER BATTLE			Camper Roland	
 	0x056B	TRAINER BATTLE			Picnicker Liz	
 	0x056C	TRAINER BATTLE			Ace Trainer Jake	
-	0x056D	TRAINER BATTLE			Bird Keeper Gs Rod	
+	0x056D	TRAINER BATTLE			Bird Keeper Rod	
 	0x056E	TRAINER BATTLE			Leader Whitney	
-	0x056F	TRAINER BATTLE			Leader Morty Morty	
-	0x0570	TRAINER BATTLE			Leader Pryce Pryce	
-	0x0571	TRAINER BATTLE			Leader Jasmine Jasmine	
-	0x0572	TRAINER BATTLE			Leader Chuck Chuck	
-	0x0573	TRAINER BATTLE			Leader Clair Clair	
+	0x056F	TRAINER BATTLE			Leader Morty	
+	0x0570	TRAINER BATTLE			Leader Pryce	
+	0x0571	TRAINER BATTLE			Leader Jasmine	
+	0x0572	TRAINER BATTLE			Leader Chuck	
+	0x0573	TRAINER BATTLE			Leader Clair	
 	0x0574	TRAINER BATTLE			Ace Trainer Joyce	
 	0x0575	TRAINER BATTLE			Gentleman Preston	
 	0x0576	TRAINER BATTLE			Teacher Colette	
@@ -1408,7 +1408,7 @@
 	0x057F	TRAINER BATTLE			Youngster Mikey	
 	0x0580	TRAINER BATTLE			Bug Catcher Rob	
 	0x0581	TRAINER BATTLE			Youngster Albert	
-	0x0582	TRAINER BATTLE			Bird Keeper Gs Abe	
+	0x0582	TRAINER BATTLE			Bird Keeper Abe	
 	0x0583	TRAINER BATTLE			Sage Nico	
 	0x0584	TRAINER BATTLE			Sage Edmond	
 	0x0585	TRAINER BATTLE			Sage Jin	
@@ -1430,17 +1430,17 @@
 	0x0595	TRAINER BATTLE			Bug Catcher Josh	
 	0x0596	TRAINER BATTLE			Beauty Samantha	
 	0x0597	TRAINER BATTLE			Lass Cathy	
-	0x0598	TRAINER BATTLE			Bird Keeper Gs Bryan	
-	0x0599	TRAINER BATTLE			Bird Keeper Gs Theo	
+	0x0598	TRAINER BATTLE			Bird Keeper Bryan	
+	0x0599	TRAINER BATTLE			Bird Keeper Theo	
 	0x059A	TRAINER BATTLE			Camper Ivan	
 	0x059B	TRAINER BATTLE			Camper Elliot	
 	0x059C	TRAINER BATTLE			Picnicker Brooke	
 	0x059D	TRAINER BATTLE			Picnicker Kim	
 	0x059E	TRAINER BATTLE			Bug Catcher Arnie	
 	0x059F	TRAINER BATTLE			Bug Catcher Ken	
-	0x05A0	TRAINER BATTLE			Policeman Dirk	
+	0x05A0	TRAINER BATTLE			Policeman Dirk (Night)	
 	0x05A1	TRAINER BATTLE			Twins Tori and Til	
-	0x05A2	TRAINER BATTLE			Bird Keeper Gs Toby	
+	0x05A2	TRAINER BATTLE			Bird Keeper Toby	
 	0x05A3	TRAINER BATTLE			Picnicker Cindy	
 	0x05A4	TRAINER BATTLE			Camper Barry	
 	0x05A5	TRAINER BATTLE			Swimmer Paula	
@@ -1495,7 +1495,7 @@
 	0x05D6	TRAINER BATTLE			Hiker Benjamin	
 	0x05D7	TRAINER BATTLE			School Kid Johnny	
 	0x05D8	TRAINER BATTLE			Lass Linda	
-	0x05D9	TRAINER BATTLE			Bird Keeper Gs Vance	
+	0x05D9	TRAINER BATTLE			Bird Keeper Vance	
 	0x05DA	TRAINER BATTLE			Camper Mickey	
 	0x05DB	TRAINER BATTLE			Picnicker Debra	
 	0x05DC	TRAINER BATTLE			Bug Catcher Doug	
@@ -1575,7 +1575,7 @@
 	0x0626	TRAINER BATTLE			Sailor Roberto	
 	0x0627	TRAINER BATTLE			Lass Connie	
 	0x0628	TRAINER BATTLE			Team Rocket Grunt 15	
-	0x0629	TRAINER BATTLE			Bird Keeper Gs Denis	
+	0x0629	TRAINER BATTLE			Bird Keeper Denis	
 	0x062A	TRAINER BATTLE			Team Rocket Grunt 16	
 	0x062B	TRAINER BATTLE			Team Rocket Grunt 17	
 	0x062C	TRAINER BATTLE			Team Rocket Grunt 18	
@@ -1611,15 +1611,15 @@
 	0x064A	TRAINER BATTLE			Black Belt Kenji 2	
 	0x064B	TRAINER BATTLE			Black Belt Nob	
 	0x064C	TRAINER BATTLE			Swimmer Harold	
-	0x064D	TRAINER BATTLE			Leader Brock Brock	
-	0x064E	TRAINER BATTLE			Leader Misty Misty	
-	0x064F	TRAINER BATTLE			Leader Lt Surge Lt  Surge	
-	0x0650	TRAINER BATTLE			Leader Erika Erika	
-	0x0651	TRAINER BATTLE			Leader Janine Janine	
-	0x0652	TRAINER BATTLE			Leader Sabrina Sabrina	
-	0x0653	TRAINER BATTLE			Leader Blaine Blaine	
-	0x0654	TRAINER BATTLE			Pkmn Trainer Red Red	
-	0x0655	TRAINER BATTLE			Leader Blue Blue	
+	0x064D	TRAINER BATTLE			Leader Brock	
+	0x064E	TRAINER BATTLE			Leader Misty	
+	0x064F	TRAINER BATTLE			Leader Lt. Surge	
+	0x0650	TRAINER BATTLE			Leader Erika	
+	0x0651	TRAINER BATTLE			Leader Janine	
+	0x0652	TRAINER BATTLE			Leader Sabrina	
+	0x0653	TRAINER BATTLE			Leader Blaine	
+	0x0654	TRAINER BATTLE			Pkmn Trainer Red	
+	0x0655	TRAINER BATTLE			Leader Blue	
 	0x0656	TRAINER BATTLE			Team Rocket Mickey 7	
 	0x0657	TRAINER BATTLE			Rival Silver 4	
 	0x0658	TRAINER BATTLE			Rival Silver 5	
@@ -1657,11 +1657,11 @@
 	0x0678	TRAINER BATTLE			Swimmer Nikki	
 	0x0679	TRAINER BATTLE			Swimmer Diana	
 	0x067A	TRAINER BATTLE			Swimmer Briana	
-	0x067B	TRAINER BATTLE			Bird Keeper Gs Hank	
-	0x067C	TRAINER BATTLE			Bird Keeper Gs Roy	
-	0x067D	TRAINER BATTLE			Bird Keeper Gs Boris	
-	0x067E	TRAINER BATTLE			Bird Keeper Gs Bob	
-	0x067F	TRAINER BATTLE			Bird Keeper Gs Jose	
+	0x067B	TRAINER BATTLE			Bird Keeper Hank	
+	0x067C	TRAINER BATTLE			Bird Keeper Roy	
+	0x067D	TRAINER BATTLE			Bird Keeper Boris	
+	0x067E	TRAINER BATTLE			Bird Keeper Bob	
+	0x067F	TRAINER BATTLE			Bird Keeper Jose	
 	0x0680	TRAINER BATTLE			Camper Mickey 3	
 	0x0681	TRAINER BATTLE			Camper Mickey 4	
 	0x0682	TRAINER BATTLE			Camper Mickey 5	
@@ -1741,7 +1741,7 @@
 	0x06CC	TRAINER BATTLE			Youngster Owen	
 	0x06CD	TRAINER BATTLE			Youngster Jason	
 	0x06CE	TRAINER BATTLE			Teacher Hillary	
-	0x06CF	TRAINER BATTLE			Bird Keeper Gs Peter	
+	0x06CF	TRAINER BATTLE			Bird Keeper Peter	
 	0x06D0	TRAINER BATTLE			Hiker Daniel	
 	0x06D1	TRAINER BATTLE			Twins Dara and Dia	
 	0x06D2	TRAINER BATTLE			Psychic Greg	
@@ -1772,14 +1772,14 @@
 	0x06EB	TRAINER BATTLE			Psychic Vernon	
 	0x06EC	TRAINER BATTLE			Psychic Eli	
 	0x06ED	TRAINER BATTLE			Fisherman Scott	
-	0x06EE	TRAINER BATTLE			Bird Keeper Gs Jose 2	
+	0x06EE	TRAINER BATTLE			Bird Keeper Jose 2	
 	0x06EF	TRAINER BATTLE			Psychic Jared	
 	0x06F0	TRAINER BATTLE			Twins Jo and Zoe 2	
 	0x06F1	TRAINER BATTLE			Ace Trainer Jenn	
 	0x06F2	TRAINER BATTLE			Elite Four Bruno Bruno	
 	0x06F3	TRAINER BATTLE			Lass Ellen	
-	0x06F4	TRAINER BATTLE			Bird Keeper Gs Perry	
-	0x06F5	TRAINER BATTLE			Bird Keeper Gs Bret	
+	0x06F4	TRAINER BATTLE			Bird Keeper Perry	
+	0x06F5	TRAINER BATTLE			Bird Keeper Bret	
 	0x06F6	TRAINER BATTLE			Psychic Rodney	
 	0x06F7	TRAINER BATTLE			Pokefan Jeremy	
 	0x06F8	TRAINER BATTLE			Pokefan Colin	
@@ -1804,9 +1804,9 @@
 	0x070B	TRAINER BATTLE			Lass Mickey 2	
 	0x070C	TRAINER BATTLE			Ace Trainer Reena 2	
 	0x070D	TRAINER BATTLE			Ace Trainer Reena 3	
-	0x070E	TRAINER BATTLE			Bird Keeper Gs Jose 3	
-	0x070F	TRAINER BATTLE			Bird Keeper Gs Vance 2	
-	0x0710	TRAINER BATTLE			Bird Keeper Gs Vance 3	
+	0x070E	TRAINER BATTLE			Bird Keeper Jose 3	
+	0x070F	TRAINER BATTLE			Bird Keeper Vance 2	
+	0x0710	TRAINER BATTLE			Bird Keeper Vance 3	
 	0x0711	TRAINER BATTLE			Bug Catcher Arnie 3	
 	0x0712	TRAINER BATTLE			Fisherman Wilton 3	
 	0x0713	TRAINER BATTLE			Hiker Parry 2	
@@ -1826,27 +1826,27 @@
 	0x0721	TRAINER BATTLE			Lass Dana 3	
 	0x0722	TRAINER BATTLE			Picnicker Tiffany 2	
 	0x0723	TRAINER BATTLE			Picnicker Tiffany 3	
-	0x0724	TRAINER BATTLE			Scientist Gs Ross	
-	0x0725	TRAINER BATTLE			Scientist Gs Mitch	
-	0x0726	TRAINER BATTLE			Scientist Gs Gregg	
-	0x0727	TRAINER BATTLE			Scientist Gs Garett	
-	0x0728	TRAINER BATTLE			Scientist Gs Trenton	
+	0x0724	TRAINER BATTLE			Scientist Ross	
+	0x0725	TRAINER BATTLE			Scientist Mitch	
+	0x0726	TRAINER BATTLE			Scientist Gregg	
+	0x0727	TRAINER BATTLE			Scientist Garett	
+	0x0728	TRAINER BATTLE			Scientist Trenton	
 	0x0729	TRAINER BATTLE			Super Nerd Mickey 2	
 	0x072A	TRAINER BATTLE			Super Nerd Mickey 3	
 	0x072B	TRAINER BATTLE			Super Nerd Mickey 4	
 	0x072C	TRAINER BATTLE			Super Nerd Mickey 5	
 	0x072D	TRAINER BATTLE			Super Nerd Mickey 6	
-	0x072E	TRAINER BATTLE			Executive Ariana Ariana	
-	0x072F	TRAINER BATTLE			Executive Ariana Ariana 2	
+	0x072E	TRAINER BATTLE			Executive Ariana	
+	0x072F	TRAINER BATTLE			Executive Ariana 2	
 	0x0730	TRAINER BATTLE			Skier Diana	
 	0x0731	TRAINER BATTLE			Skier Jill	
 	0x0732	TRAINER BATTLE			Boarder Deandre	
 	0x0733	TRAINER BATTLE			Boarder Patton	
 	0x0734	TRAINER BATTLE			Boarder Gerardo	
-	0x0735	TRAINER BATTLE			Executive Archer Archer	
-	0x0736	TRAINER BATTLE			Executive Proton Proton	
-	0x0737	TRAINER BATTLE			Executive Petrel Petrel	
-	0x0738	TRAINER BATTLE			Executive Petrel Petrel 2	
+	0x0735	TRAINER BATTLE			Executive Archer	
+	0x0736	TRAINER BATTLE			Executive Proton	
+	0x0737	TRAINER BATTLE			Executive Petrel	
+	0x0738	TRAINER BATTLE			Executive Petrel 2	
 	0x0739	TRAINER BATTLE			Rival Silver 19	
 	0x073A	TRAINER BATTLE			Rival Silver 20	
 	0x073B	TRAINER BATTLE			Rival Silver 21	
@@ -1913,8 +1913,8 @@
 	0x0778	TRAINER BATTLE			Youngster Regis	
 	0x0779	TRAINER BATTLE			Young Couple Moe and Lulu	
 	0x077A	TRAINER BATTLE			Gentleman Milton	
-	0x077B	TRAINER BATTLE			Bird Keeper Gs Justin	
-	0x077C	TRAINER BATTLE			Bird Keeper Gs Gail	
+	0x077B	TRAINER BATTLE			Bird Keeper Justin	
+	0x077C	TRAINER BATTLE			Bird Keeper Gail	
 	0x077D	TRAINER BATTLE			Young Couple Vic and Tara	
 	0x077E	TRAINER BATTLE			Fisherman Kyler	
 	0x077F	TRAINER BATTLE			Young Couple Tim and Sue	
@@ -1923,7 +1923,7 @@
 	0x0782	TRAINER BATTLE			Picnicker Piper	
 	0x0783	TRAINER BATTLE			Picnicker Ginger	
 	0x0784	TRAINER BATTLE			Teacher Clarice	
-	0x0785	TRAINER BATTLE			Bird Keeper Gs Josh	
+	0x0785	TRAINER BATTLE			Bird Keeper Josh	
 	0x0786	TRAINER BATTLE			School Kid Connor	
 	0x0787	TRAINER BATTLE			School Kid Torin	
 	0x0788	TRAINER BATTLE			School Kid Travis	
@@ -1941,8 +1941,8 @@
 	0x0794	TRAINER BATTLE			Camper Pedro	
 	0x0795	TRAINER BATTLE			Picnicker Adrian	
 	0x0796	TRAINER BATTLE			Picnicker Cheyenne	
-	0x0797	TRAINER BATTLE			Bird Keeper Gs Bert	
-	0x0798	TRAINER BATTLE			Bird Keeper Gs Ernie	
+	0x0797	TRAINER BATTLE			Bird Keeper Bert	
+	0x0798	TRAINER BATTLE			Bird Keeper Ernie	
 	0x0799	TRAINER BATTLE			Swimmer Elmo	
 	0x079A	TRAINER BATTLE			Swimmer Luis	
 	0x079B	TRAINER BATTLE			Swimmer Leona	
@@ -1954,13 +1954,13 @@
 	0x07A1	TRAINER BATTLE			Swimmer Kendra	
 	0x07A2	TRAINER BATTLE			Swimmer Esteban	
 	0x07A3	TRAINER BATTLE			Swimmer Duane	
-	0x07A4	TRAINER BATTLE			Bird Keeper Gs Kinsley	
-	0x07A5	TRAINER BATTLE	Route 21		Bird Keeper Gs Easton	
+	0x07A4	TRAINER BATTLE			Bird Keeper Kinsley	
+	0x07A5	TRAINER BATTLE	Route 21		Bird Keeper Easton	
 	0x07A6	TRAINER BATTLE			Twins Day and Dani	
 	0x07A7	TRAINER BATTLE			Camper Virgil	
 	0x07A8	TRAINER BATTLE			Picnicker Selina	
 	0x07A9	TRAINER BATTLE			Team Rocket Grunt 26	
-	0x07AA	TRAINER BATTLE			Bird Keeper Gs Jose 4	
+	0x07AA	TRAINER BATTLE			Bird Keeper Jose 4	
 	0x07AB	TRAINER BATTLE			Picnicker Erin 4	
 	0x07AC	TRAINER BATTLE			Ace Trainer Gaven 4	
 	0x07AD	TRAINER BATTLE			Black Belt Kenji 4	
@@ -1970,7 +1970,7 @@
 	0x07B1	TRAINER BATTLE			Ace Trainer Jamie 4	
 	0x07B2	TRAINER BATTLE			Pokefan Derek 4	
 	0x07B3	TRAINER BATTLE			Pokefan Beverly 4	
-	0x07B4	TRAINER BATTLE			Bird Keeper Gs Vance 4	
+	0x07B4	TRAINER BATTLE			Bird Keeper Vance 4	
 	0x07B5	TRAINER BATTLE			Lass Krise 2	
 	0x07B6	TRAINER BATTLE			Lass Krise 3	
 	0x07B7	TRAINER BATTLE			Lass Krise 4	
@@ -2004,9 +2004,9 @@
 	0x07D3	TRAINER BATTLE			Twins Kay and Tia 2	
 	0x07D4	TRAINER BATTLE			Twins Kay and Tia 3	
 	0x07D5	TRAINER BATTLE			Twins Kay and Tia 4	
-	0x07D6	TRAINER BATTLE			Bird Keeper Gs Josh 2	
-	0x07D7	TRAINER BATTLE			Bird Keeper Gs Josh 3	
-	0x07D8	TRAINER BATTLE			Bird Keeper Gs Josh 4	
+	0x07D6	TRAINER BATTLE			Bird Keeper Josh 2	
+	0x07D7	TRAINER BATTLE			Bird Keeper Josh 3	
+	0x07D8	TRAINER BATTLE			Bird Keeper Josh 4	
 	0x07D9	TRAINER BATTLE			School Kid Torin 2	
 	0x07DA	TRAINER BATTLE			School Kid Torin 3	
 	0x07DB	TRAINER BATTLE			School Kid Torin 4	
@@ -2025,15 +2025,15 @@
 	0x07E8	TRAINER BATTLE			Fisherman Kyler 2	
 	0x07E9	TRAINER BATTLE			Fisherman Kyler 3	
 	0x07EA	TRAINER BATTLE			Fisherman Kyler 4	
-	0x07EB	TRAINER BATTLE			Pkmn Trainer Cheryl Cheryl	
-	0x07EC	TRAINER BATTLE			Pkmn Trainer Buck Marley	
-	0x07ED	TRAINER BATTLE			Pkmn Trainer Marley Mira	
-	0x07EE	TRAINER BATTLE			Pkmn Trainer Riley Riley	
-	0x07EF	TRAINER BATTLE			Pkmn Trainer Mira Buck	
+	0x07EB	TRAINER BATTLE			Pkmn Trainer Cheryl	
+	0x07EC	TRAINER BATTLE			Pkmn Trainer Buck	
+	0x07ED	TRAINER BATTLE			Pkmn Trainer Marley	
+	0x07EE	TRAINER BATTLE			Pkmn Trainer Riley	
+	0x07EF	TRAINER BATTLE			Pkmn Trainer Mira	
 	0x07F0	TRAINER BATTLE			Gentleman Alfred 2	
 	0x07F1	TRAINER BATTLE			Gentleman Alfred 3	
 	0x07F2	TRAINER BATTLE			Gentleman Alfred 4	
-	0x07F3	TRAINER BATTLE			Pkmn Trainer Lance Lance	
+	0x07F3	TRAINER BATTLE			Pkmn Trainer Lance	
 	0x07F4	TRAINER BATTLE			Sailor Parker	
 	0x07F5	TRAINER BATTLE			Sailor Eddie	
 	0x07F6	TRAINER BATTLE			Swimmer Joy	
@@ -2050,9 +2050,9 @@
 	0x0801	TRAINER BATTLE			Super Nerd Cary	
 	0x0802	TRAINER BATTLE			Super Nerd Waldo	
 	0x0803	TRAINER BATTLE			Super Nerd Merle	
-	0x0804	TRAINER BATTLE			Scientist Gs Lowell	
-	0x0805	TRAINER BATTLE			Scientist Gs Linden	
-	0x0806	TRAINER BATTLE			Scientist Gs Daniel	
+	0x0804	TRAINER BATTLE			Scientist Lowell	
+	0x0805	TRAINER BATTLE			Scientist Linden	
+	0x0806	TRAINER BATTLE			Scientist Daniel	
 	0x0807	TRAINER BATTLE			Bug Catcher Dane	
 	0x0808	TRAINER BATTLE			Bug Catcher Dion	
 	0x0809	TRAINER BATTLE			Bug Catcher Stacey	
@@ -2060,39 +2060,39 @@
 	0x080B	TRAINER BATTLE			Bug Catcher Abner	
 	0x080C	TRAINER BATTLE			Rocket Boss Giovanni	
 	0x080D	TRAINER BATTLE			Champion Lance 2	
-	0x080E	TRAINER BATTLE			Elite Four Will Will 2	
-	0x080F	TRAINER BATTLE			Elite Four Koga Koga 2	
-	0x0810	TRAINER BATTLE			Elite Four Bruno Bruno 2	
-	0x0811	TRAINER BATTLE			Elite Four Karen Karen 2	
-	0x0812	TRAINER BATTLE			Executive Proton Proton 2	
+	0x080E	TRAINER BATTLE			Elite Four Will 2	
+	0x080F	TRAINER BATTLE			Elite Four Koga 2	
+	0x0810	TRAINER BATTLE			Elite Four Bruno 2	
+	0x0811	TRAINER BATTLE			Elite Four Karen 2	
+	0x0812	TRAINER BATTLE			Executive Proton 2	
 	0x0813	TRAINER BATTLE			Tower Tycoon Palmer	
 	0x0814	TRAINER BATTLE			Hall Matron Argenta	
 	0x0815	TRAINER BATTLE			Factory Head Thorton	
 	0x0816	TRAINER BATTLE			Arcade Star Dahlia	
 	0x0817	TRAINER BATTLE			Castle Valet Darach	
-	0x0818	TRAINER BATTLE			Leader Falkner Falkner 2	
-	0x0819	TRAINER BATTLE			Leader Bugsy Bugsy 2	
+	0x0818	TRAINER BATTLE			Leader Falkner 2	
+	0x0819	TRAINER BATTLE			Leader Bugsy 2	
 	0x081A	TRAINER BATTLE			Leader Whitney 2	
-	0x081B	TRAINER BATTLE			Leader Morty Morty 2	
-	0x081C	TRAINER BATTLE			Leader Pryce Pryce 2	
-	0x081D	TRAINER BATTLE			Leader Jasmine Jasmine 2	
-	0x081E	TRAINER BATTLE			Leader Chuck Chuck 2	
-	0x081F	TRAINER BATTLE			Leader Clair Clair 2	
-	0x0820	TRAINER BATTLE			Leader Brock Brock 2	
-	0x0821	TRAINER BATTLE			Leader Misty Misty 2	
-	0x0822	TRAINER BATTLE			Leader Lt Surge Lt  Surge 2	
-	0x0823	TRAINER BATTLE			Leader Erika Erika 2	
-	0x0824	TRAINER BATTLE			Leader Janine Janine 2	
-	0x0825	TRAINER BATTLE			Leader Sabrina Sabrina 2	
-	0x0826	TRAINER BATTLE			Leader Blaine Blaine 2	
-	0x0827	TRAINER BATTLE			Leader Blue Blue 2	
+	0x081B	TRAINER BATTLE			Leader Morty 2	
+	0x081C	TRAINER BATTLE			Leader Pryce 2	
+	0x081D	TRAINER BATTLE			Leader Jasmine 2	
+	0x081E	TRAINER BATTLE			Leader Chuck 2	
+	0x081F	TRAINER BATTLE			Leader Clair 2	
+	0x0820	TRAINER BATTLE			Leader Brock 2	
+	0x0821	TRAINER BATTLE			Leader Misty 2	
+	0x0822	TRAINER BATTLE			Leader Lt. Surge 2	
+	0x0823	TRAINER BATTLE			Leader Erika 2	
+	0x0824	TRAINER BATTLE			Leader Janine 2	
+	0x0825	TRAINER BATTLE			Leader Sabrina 2	
+	0x0826	TRAINER BATTLE			Leader Blaine 2	
+	0x0827	TRAINER BATTLE			Leader Blue 2	
 	0x0828	TRAINER BATTLE			Beauty Charlotte	
 	0x0829	TRAINER BATTLE			Young Couple Duff and Eda	
 	0x082A	TRAINER BATTLE			Double Team Thom and Kae	
 	0x082B	TRAINER BATTLE			Hiker Devin	
 	0x082C	TRAINER BATTLE			Camper Grant	
 	0x082D	TRAINER BATTLE			Champion Lance 3	
-	0x082E	TRAINER BATTLE			Leader Clair Clair 3	
+	0x082E	TRAINER BATTLE			Leader Clair 3	
 	0x082F	TRAINER BATTLE			Partner Rival 1	
 	0x0830	TRAINER BATTLE			Partner Rival 2	
 	0x0831	TRAINER BATTLE			Partner Rival 3	
@@ -2402,7 +2402,7 @@
 	0x0961					
 	0x0962					
 	0x0963					
-	0x0964					
+	0x0964	STORY EVENT			Entered Hall of Fame (Trainer Card Upgrade)	
 	0x0965					
 	0x0966					
 	0x0967					
@@ -2742,7 +2742,7 @@
 	0x0AB5					
 	0x0AB6					
 	0x0AB7					
-	0x0AB8					
+	0x0AB8	STATIC BATTLE			Friday Lapras Disappeared	
 	0x0AB9					
 	0x0ABA					
 	0x0ABB					
