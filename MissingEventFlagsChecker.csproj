@@ -82,18 +82,19 @@
       <DependentUpon>SelectedFlagsEditor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="flagslist\flags_gen2gs.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen7blgpe.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen4dp.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen4pt.txt" />
     <EmbeddedResource Include="flagslist\flags_gen2c.txt" />
+    <EmbeddedResource Include="flagslist\flags_gen3rs.txt" />
     <EmbeddedResource Include="flagslist\flags_gen3e.txt" />
     <EmbeddedResource Include="flagslist\flags_gen3frlg.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen3rs.txt" />
+    <EmbeddedResource Include="flagslist\flags_gen4dp.txt" />
+    <EmbeddedResource Include="flagslist\flags_gen4pt.txt" />
+    <EmbeddedResource Include="flagslist\flags_gen4hgss.txt" />
+    <EmbeddedResource Include="flagslist\flags_gen7sm.txt" />
+    <EmbeddedResource Include="flagslist\flags_gen7usum.txt" />
+    <EmbeddedResource Include="flagslist\flags_gen7blgpe.txt" />
     <EmbeddedResource Include="flagslist\flags_gen8bsbdsp.txt" />
     <EmbeddedResource Include="flagslist\flags_gen8swsh.txt" />
     <EmbeddedResource Include="flagslist\flags_gen9sv.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen4hgss.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen7usum.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

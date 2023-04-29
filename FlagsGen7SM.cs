@@ -9,46 +9,23 @@ namespace MissingEventFlagsCheckerPlugin
 {
     internal class FlagsGen7SM : FlagsOrganizer
     {
+        static string s_flagsList_res = null;
 
         protected override void InitFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
-            var savEventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
-            m_eventFlagsList.Clear();
 
-            for (int idx = 0; idx < savEventFlags.Length; ++idx)
+#if DEBUG
+            // Force refresh
+            s_flagsList_res = null;
+#endif
+
+            if (s_flagsList_res == null)
             {
-                // items
-                // - 0x618
-
-                // - 0x759
-
-                // ? 0x76D
-
-                if (idx >= 0x618 && idx < 0x75A)
-                {
-                    int i = idx - 0x618;
-                    m_eventFlagsList.Add(new FlagDetail((uint)idx, FlagType.FieldItem, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
-                }
-
-                // FlagType.TrainerBattle:
-                // - 0x818
-
-                // - 0x9FF
-
-                else if (idx >= 0x818 && idx < 0xA00)
-                {
-                    int i = idx - 0x818;
-                    m_eventFlagsList.Add(new FlagDetail((uint)idx, FlagType.TrainerBattle, "", i.ToString("D3") + $" (Flag 0x{(idx).ToString("X3")})") { IsSet = savEventFlags[idx] });
-                }
-
-                // Misc
-                else
-                {
-                    m_eventFlagsList.Add(new FlagDetail((uint)idx, FlagType._Unknown, "", "") { IsSet = savEventFlags[idx] });
-                }
+                s_flagsList_res = ReadFlagsListRes("flags_gen7sm.txt");
             }
 
+            AssembleList(s_flagsList_res);
         }
 
         public override bool SupportsEditingFlag(FlagType flagType)
