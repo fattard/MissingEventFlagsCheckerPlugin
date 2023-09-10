@@ -25,8 +25,11 @@ namespace MissingEventFlagsCheckerPlugin
                 s_flagsList_res = ReadFlagsListRes("flags_gen5b2w2.txt");
             }
 
-            AssembleList(s_flagsList_res);
-            AssembleWorkList<ushort>(null);
+            int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
+            int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
+
+            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection, idxEventWorkSection));
+            AssembleWorkList<ushort>(s_flagsList_res.Substring(idxEventWorkSection));
         }
 
         public override bool SupportsEditingFlag(FlagType flagType)
