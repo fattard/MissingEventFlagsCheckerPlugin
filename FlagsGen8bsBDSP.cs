@@ -33,6 +33,7 @@ namespace MissingEventFlagsCheckerPlugin
             }
 
             AssembleList(s_flagsList_res);
+            AssembleWorkList<int>(null);
         }
 
         protected override void AssembleList(string flagsList_res)

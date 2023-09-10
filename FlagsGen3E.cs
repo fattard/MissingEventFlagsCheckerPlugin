@@ -26,6 +26,7 @@ namespace MissingEventFlagsCheckerPlugin
             }
 
             AssembleList(s_flagsList_res);
+            AssembleWorkList<ushort>(null);
         }
 
         public override bool SupportsEditingFlag(FlagType flagType)
