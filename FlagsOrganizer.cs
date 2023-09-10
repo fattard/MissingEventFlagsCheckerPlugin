@@ -194,10 +194,23 @@ namespace MissingEventFlagsCheckerPlugin
             using (System.IO.StringReader reader = new System.IO.StringReader(flagsList_res))
             {
                 string s = reader.ReadLine();
+                
+                // Skip header
+                if (s.StartsWith("//"))
+                {
+                    s = reader.ReadLine();
+                }
+
                 do
                 {
-                    if (!string.IsNullOrWhiteSpace(s) && !s.StartsWith("//"))
+                    if (!string.IsNullOrWhiteSpace(s))
                     {
+                        // End of section
+                        if (s.StartsWith("//"))
+                        {
+                            break;
+                        }
+
                         var flagDetail = new FlagDetail(s);
                         flagDetail.IsSet = savEventFlags[flagDetail.FlagIdx];
                         m_eventFlagsList.Add(flagDetail);
@@ -215,6 +228,7 @@ namespace MissingEventFlagsCheckerPlugin
             var savEventWork = (m_savFile as IEventWorkArray<T>).GetAllEventWork();
             m_eventWorkList.Clear();
 
+            //TODO: temp for those that still have no resources file
             if (workList_res == null)
             {
                 for (uint i = 0; i < savEventWork.Length; i++)
@@ -229,10 +243,23 @@ namespace MissingEventFlagsCheckerPlugin
                 using (System.IO.StringReader reader = new System.IO.StringReader(workList_res))
                 {
                     string s = reader.ReadLine();
+
+                    // Skip header
+                    if (s.StartsWith("//"))
+                    {
+                        s = reader.ReadLine();
+                    }
+
                     do
                     {
                         if (!string.IsNullOrWhiteSpace(s) && !s.StartsWith("//"))
                         {
+                            // End of section
+                            if (s.StartsWith("//"))
+                            {
+                                break;
+                            }
+
                             var workDetail = new WorkDetail(s);
                             workDetail.Value = Convert.ToInt64(savEventWork[workDetail.WorkIdx]);
                             m_eventWorkList.Add(workDetail);

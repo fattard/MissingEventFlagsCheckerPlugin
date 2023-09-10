@@ -28,7 +28,8 @@ namespace MissingEventFlagsCheckerPlugin
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
             int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
 
-            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection, idxEventWorkSection));
+
+            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection));
             AssembleWorkList<ushort>(s_flagsList_res.Substring(idxEventWorkSection));
         }
 
