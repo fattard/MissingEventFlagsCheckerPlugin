@@ -16,16 +16,23 @@ namespace MissingEventFlagsCheckerPlugin
 
             FieldItem,
             HiddenItem,
+            SpecialItem,
             TrainerBattle,
             StaticBattle,
             InGameTrade,
-            Gift,
+            ItemGift,
+            PkmnGift,
             GeneralEvent,
             SideEvent,
             StoryEvent,
             BerryTree,
+            Collectable,
 
             _Unused,
+            _Separator,
+
+            //TODO: remove
+            Gift = ItemGift,
         }
 
 

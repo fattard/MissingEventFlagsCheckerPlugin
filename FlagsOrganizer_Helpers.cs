@@ -22,6 +22,10 @@ namespace MissingEventFlagsCheckerPlugin
                     flagType = FlagsOrganizer.FlagType.HiddenItem;
                     break;
 
+                case "SPECIAL ITEM":
+                    flagType = FlagsOrganizer.FlagType.SpecialItem;
+                    break;
+
                 case "TRAINER BATTLE":
                     flagType = FlagsOrganizer.FlagType.TrainerBattle;
                     break;
@@ -36,7 +40,12 @@ namespace MissingEventFlagsCheckerPlugin
                     break;
 
                 case "GIFT":
-                    flagType = FlagsOrganizer.FlagType.Gift;
+                case "ITEM GIFT":
+                    flagType = FlagsOrganizer.FlagType.ItemGift;
+                    break;
+
+                case "PKMN GIFT":
+                    flagType = FlagsOrganizer.FlagType.PkmnGift;
                     break;
 
                 case "EVENT":
@@ -55,8 +64,16 @@ namespace MissingEventFlagsCheckerPlugin
                     flagType = FlagsOrganizer.FlagType.BerryTree;
                     break;
 
+                case "COLLECTABLE":
+                    flagType = FlagsOrganizer.FlagType.Collectable;
+                    break;
+
                 case "_UNUSED":
                     flagType = FlagsOrganizer.FlagType._Unused;
+                    break;
+
+                case "_SEPARATOR":
+                    flagType = FlagsOrganizer.FlagType._Separator;
                     break;
 
                 default:
@@ -81,6 +98,10 @@ namespace MissingEventFlagsCheckerPlugin
                     flagTypeTxt = "HIDDEN ITEM";
                     break;
 
+                case FlagsOrganizer.FlagType.SpecialItem:
+                    flagTypeTxt = "SPECIAL ITEM";
+                    break;
+
                 case FlagsOrganizer.FlagType.TrainerBattle:
                     flagTypeTxt = "TRAINER BATTLE";
                     break;
@@ -93,8 +114,12 @@ namespace MissingEventFlagsCheckerPlugin
                     flagTypeTxt = "IN-GAME TRADE";
                     break;
 
-                case FlagsOrganizer.FlagType.Gift:
-                    flagTypeTxt = "GIFT";
+                case FlagsOrganizer.FlagType.ItemGift:
+                    flagTypeTxt = "ITEM GIFT";
+                    break;
+
+                case FlagsOrganizer.FlagType.PkmnGift:
+                    flagTypeTxt = "PKMN GIFT";
                     break;
 
                 case FlagsOrganizer.FlagType.GeneralEvent:
@@ -111,6 +136,10 @@ namespace MissingEventFlagsCheckerPlugin
 
                 case FlagsOrganizer.FlagType.BerryTree:
                     flagTypeTxt = "BERRY TREE";
+                    break;
+
+                case FlagsOrganizer.FlagType.Collectable:
+                    flagTypeTxt = "COLLECTABLE";
                     break;
 
                 case FlagsOrganizer.FlagType._Unused:
