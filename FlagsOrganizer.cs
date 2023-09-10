@@ -92,14 +92,79 @@ namespace MissingEventFlagsCheckerPlugin
         }
 
 
+        protected class WorkDetail
+        {
+            public long OrderKey { get; set; }
+            public uint WorkIdx { get; private set; }
+            public FlagType FlagTypeVal { get; private set; }
+            public string FlagTypeTxt => FlagTypeVal.AsText();
+            public string LocationName { get; private set; }
+            public string DetailMsg { get; private set; }
+            public long Value { get; set; }
+            public ulong AHTB { get; set; }
+
+
+            public WorkDetail(string detailEntry)
+            {
+                string[] info = detailEntry.Split('\t');
+
+                if (info.Length < 7)
+                {
+                    throw new ArgumentException("Argument detailEntry format is not valid");
+                }
+                AHTB = Convert.ToUInt64(info[1], 16);
+                WorkIdx = (uint)(AHTB & 0xFFFFFFFF);
+                FlagTypeVal = FlagTypeVal.Parse(info[2]);
+                LocationName = info[3];
+                if (!string.IsNullOrWhiteSpace(info[4]))
+                {
+                    LocationName += " " + info[4];
+                }
+                DetailMsg = !string.IsNullOrWhiteSpace(info[5]) ? info[5] : info[6];
+                Value = 0;
+                OrderKey = string.IsNullOrWhiteSpace(info[0]) ? (WorkIdx + 100000) : Convert.ToInt64(info[0]);
+            }
+
+            public WorkDetail(uint workIdx, FlagType flagType, string detailMsg) : this(workIdx, flagType, "", detailMsg)
+            {
+            }
+
+            public WorkDetail(uint workIdx, FlagType flagType, string locationName, string detailMsg)
+            {
+                OrderKey = (workIdx + 100000);
+                AHTB = (ulong)workIdx;
+                WorkIdx = workIdx;
+                FlagTypeVal = flagType;
+                LocationName = locationName;
+                DetailMsg = detailMsg;
+                Value = 0;
+            }
+
+            public override string ToString()
+            {
+                if (string.IsNullOrEmpty(LocationName))
+                {
+                    return string.Format("{0} - {1}", FlagTypeTxt, DetailMsg);
+                }
+
+                else
+                {
+                    return string.Format("{0} - {1} - {2}", FlagTypeTxt, LocationName, DetailMsg);
+                }
+            }
+        }
+
+
         protected SaveFile m_savFile;
 
         protected List<FlagDetail> m_eventFlagsList = new List<FlagDetail>(4096);
+        protected List<WorkDetail> m_eventWorkList = new List<WorkDetail>(4096);
 
         protected virtual void InitFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
             m_eventFlagsList.Clear();
+            m_eventWorkList.Clear();
         }
 
         protected virtual void AssembleList(string flagsList_res)
@@ -121,6 +186,19 @@ namespace MissingEventFlagsCheckerPlugin
                     s = reader.ReadLine();
 
                 } while (s != null);
+            }
+        }
+
+
+        protected virtual void AssembleWorkList<T>(string workList_res) where T: unmanaged
+        {
+            var savEventWork = (m_savFile as IEventWorkArray<T>).GetAllEventWork();
+            m_eventWorkList.Clear();
+            for (uint i = 0; i < savEventWork.Length; i++)
+            {
+                var workDetail = new WorkDetail(i, FlagType._Unknown, "");
+                workDetail.Value = Convert.ToInt64(savEventWork[workDetail.WorkIdx]);
+                m_eventWorkList.Add(workDetail);
             }
         }
 
@@ -168,6 +246,17 @@ namespace MissingEventFlagsCheckerPlugin
                     m_eventFlagsList[i].FlagTypeVal == FlagType._Unused ? "UNUSED" : m_eventFlagsList[i].ToString());
             }
 
+            if (m_eventWorkList.Count > 0)
+            {
+                sb.Append("\r\n\r\n");
+
+                for (int i = 0; i < m_eventWorkList.Count; ++i)
+                {
+                    sb.AppendFormat("WORK_0x{0:X4} => {1,5}\t{2}\r\n", i, m_eventWorkList[i].Value,
+                        m_eventWorkList[i].FlagTypeVal == FlagType._Unused ? "UNUSED" : m_eventWorkList[i].ToString());
+                }
+            }
+
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
         }
 
@@ -175,7 +264,7 @@ namespace MissingEventFlagsCheckerPlugin
         public abstract void UnmarkFlags(FlagType flagType);
         public abstract bool SupportsEditingFlag(FlagType flagType);
 
-#endregion
+        #endregion
 
         protected virtual bool ShouldExportEvent(FlagDetail eventDetail)
         {
