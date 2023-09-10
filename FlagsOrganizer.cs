@@ -49,17 +49,18 @@ namespace MissingEventFlagsCheckerPlugin
                 {
                     throw new ArgumentException("Argument detailEntry format is not valid");
                 }
-                AHTB = Convert.ToUInt64(info[1], 16);
+                AHTB = Convert.ToUInt64(info[0], 16);
                 FlagIdx = (uint)(AHTB & 0xFFFFFFFF);
-                FlagTypeVal = FlagTypeVal.Parse(info[2]);
-                LocationName = info[3];
-                if (!string.IsNullOrWhiteSpace(info[4]))
+                FlagTypeVal = FlagTypeVal.Parse(info[1]);
+                LocationName = info[2];
+                if (!string.IsNullOrWhiteSpace(info[3]))
                 {
-                    LocationName += " " + info[4];
+                    LocationName += " " + info[3];
                 }
-                DetailMsg = !string.IsNullOrWhiteSpace(info[5]) ? info[5] : info[6];
+                DetailMsg = !string.IsNullOrWhiteSpace(info[4]) ? info[4] : info[6];
                 IsSet = false;
-                OrderKey = string.IsNullOrWhiteSpace(info[0]) ? (FlagIdx + 100000) : Convert.ToInt64(info[0]);
+                //OrderKey = string.IsNullOrWhiteSpace(info[0]) ? (FlagIdx + 100000) : Convert.ToInt64(info[0]);
+                OrderKey = (FlagIdx + 100000);
             }
 
             public FlagDetail(uint flagIdx, FlagType flagType, string detailMsg) : this(flagIdx, flagType, "", detailMsg)
@@ -100,6 +101,7 @@ namespace MissingEventFlagsCheckerPlugin
             public string FlagTypeTxt => FlagTypeVal.AsText();
             public string LocationName { get; private set; }
             public string DetailMsg { get; private set; }
+            public Dictionary<long, string> ValidValues { get; private set; }
             public long Value { get; set; }
             public ulong AHTB { get; set; }
 
@@ -112,17 +114,34 @@ namespace MissingEventFlagsCheckerPlugin
                 {
                     throw new ArgumentException("Argument detailEntry format is not valid");
                 }
-                AHTB = Convert.ToUInt64(info[1], 16);
+                AHTB = Convert.ToUInt64(info[0], 16);
                 WorkIdx = (uint)(AHTB & 0xFFFFFFFF);
-                FlagTypeVal = FlagTypeVal.Parse(info[2]);
-                LocationName = info[3];
-                if (!string.IsNullOrWhiteSpace(info[4]))
+                FlagTypeVal = FlagTypeVal.Parse(info[1]);
+                LocationName = info[2];
+                if (!string.IsNullOrWhiteSpace(info[3]))
                 {
-                    LocationName += " " + info[4];
+                    LocationName += " " + info[3];
                 }
-                DetailMsg = !string.IsNullOrWhiteSpace(info[5]) ? info[5] : info[6];
+                DetailMsg = !string.IsNullOrWhiteSpace(info[4]) ? info[4] : info[6];
                 Value = 0;
-                OrderKey = string.IsNullOrWhiteSpace(info[0]) ? (WorkIdx + 100000) : Convert.ToInt64(info[0]);
+
+                ValidValues = new Dictionary<long, string>(4);
+                if (!string.IsNullOrWhiteSpace(info[5]))
+                {
+                    // x:y tuples separated by ,
+                    var possibleTuples = info[5].Split(',');
+                    foreach (var t in possibleTuples)
+                    {
+                        int sep = t.IndexOf(':');
+                        if (sep > 0)
+                        {
+                            ValidValues.Add(Convert.ToInt64(t.Substring(0, sep)), t.Substring(sep + 1));
+                        }
+                    }
+                }
+
+                //OrderKey = string.IsNullOrWhiteSpace(info[0]) ? (WorkIdx + 100000) : Convert.ToInt64(info[0]);
+                OrderKey = (WorkIdx + 100000);
             }
 
             public WorkDetail(uint workIdx, FlagType flagType, string detailMsg) : this(workIdx, flagType, "", detailMsg)
@@ -137,6 +156,7 @@ namespace MissingEventFlagsCheckerPlugin
                 FlagTypeVal = flagType;
                 LocationName = locationName;
                 DetailMsg = detailMsg;
+                ValidValues = new Dictionary<long, string>(4);
                 Value = 0;
             }
 
@@ -144,12 +164,12 @@ namespace MissingEventFlagsCheckerPlugin
             {
                 if (string.IsNullOrEmpty(LocationName))
                 {
-                    return string.Format("{0} - {1}", FlagTypeTxt, DetailMsg);
+                    return string.Format("{0} - {1}{2}", FlagTypeTxt, DetailMsg, ((ValidValues.Count > 0 && ValidValues.ContainsKey(Value)) ? " => " + ValidValues[Value] : ""));
                 }
 
                 else
                 {
-                    return string.Format("{0} - {1} - {2}", FlagTypeTxt, LocationName, DetailMsg);
+                    return string.Format("{0} - {1} - {2}{3}", FlagTypeTxt, LocationName, DetailMsg, ((ValidValues.Count > 0 && ValidValues.ContainsKey(Value)) ? " => " + ValidValues[Value] : ""));
                 }
             }
         }
@@ -176,7 +196,7 @@ namespace MissingEventFlagsCheckerPlugin
                 string s = reader.ReadLine();
                 do
                 {
-                    if (!string.IsNullOrWhiteSpace(s))
+                    if (!string.IsNullOrWhiteSpace(s) && !s.StartsWith("//"))
                     {
                         var flagDetail = new FlagDetail(s);
                         flagDetail.IsSet = savEventFlags[flagDetail.FlagIdx];
@@ -194,11 +214,34 @@ namespace MissingEventFlagsCheckerPlugin
         {
             var savEventWork = (m_savFile as IEventWorkArray<T>).GetAllEventWork();
             m_eventWorkList.Clear();
-            for (uint i = 0; i < savEventWork.Length; i++)
+
+            if (workList_res == null)
             {
-                var workDetail = new WorkDetail(i, FlagType._Unknown, "");
-                workDetail.Value = Convert.ToInt64(savEventWork[workDetail.WorkIdx]);
-                m_eventWorkList.Add(workDetail);
+                for (uint i = 0; i < savEventWork.Length; i++)
+                {
+                    var workDetail = new WorkDetail(i, FlagType._Unknown, "");
+                    workDetail.Value = Convert.ToInt64(savEventWork[workDetail.WorkIdx]);
+                    m_eventWorkList.Add(workDetail);
+                }
+            }
+            else
+            {
+                using (System.IO.StringReader reader = new System.IO.StringReader(workList_res))
+                {
+                    string s = reader.ReadLine();
+                    do
+                    {
+                        if (!string.IsNullOrWhiteSpace(s) && !s.StartsWith("//"))
+                        {
+                            var workDetail = new WorkDetail(s);
+                            workDetail.Value = Convert.ToInt64(savEventWork[workDetail.WorkIdx]);
+                            m_eventWorkList.Add(workDetail);
+                        }
+
+                        s = reader.ReadLine();
+
+                    } while (s != null);
+                }
             }
         }
 
