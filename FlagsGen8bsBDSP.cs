@@ -36,7 +36,7 @@ namespace MissingEventFlagsCheckerPlugin
             AssembleWorkList<int>(null);
         }
 
-        protected override void AssembleList(string flagsList_res)
+        protected override void AssembleList(string flagsList_res, bool[] customFlagValues = null)
         {
             var savEventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
             

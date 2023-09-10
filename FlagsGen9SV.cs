@@ -30,7 +30,7 @@ namespace MissingEventFlagsCheckerPlugin
             AssembleList(s_flagsList_res);
         }
 
-        protected override void AssembleList(string flagsList_res)
+        protected override void AssembleList(string flagsList_res, bool[] customFlagValues = null)
         {
             var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
 
