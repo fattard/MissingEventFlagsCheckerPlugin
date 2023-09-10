@@ -152,9 +152,9 @@
 	0x0097					FSYS_FLAG_WILD_SPAWN
 	0x0098					FSYS_FLAG_BIG_WILD_SPAWN
 	0x0099					FSYS_FLAG_RESPAWN_HOME_FORCE
-	0x009A					FSYS_ARRIVE_ROAD001
-	0x009B					FSYS_ARRIVE_ROAD002
-	0x009C					FSYS_ARRIVE_ROAD003
+	0x009A	EVENT	Route 1			FSYS_ARRIVE_ROAD001
+	0x009B	EVENT	Route 2			FSYS_ARRIVE_ROAD002
+	0x009C	EVENT	Route 3			FSYS_ARRIVE_ROAD003
 	0x009D					FSYS_ARRIVE_ROAD004
 	0x009E					FSYS_ARRIVE_ROAD005
 	0x009F					FSYS_ARRIVE_ROAD006
@@ -177,17 +177,17 @@
 	0x00B0					FSYS_ARRIVE_ROAD023
 	0x00B1					FSYS_ARRIVE_ROAD024
 	0x00B2					FSYS_ARRIVE_ROAD025
-	0x00B3					FSYS_ARRIVE_TOWN001
-	0x00B4					FSYS_ARRIVE_TOWN002
-	0x00B5					FSYS_ARRIVE_TOWN003
-	0x00B6					FSYS_ARRIVE_TOWN004
-	0x00B7					FSYS_ARRIVE_TOWN005
-	0x00B8					FSYS_ARRIVE_TOWN006
-	0x00B9					FSYS_ARRIVE_TOWN007
-	0x00BA					FSYS_ARRIVE_TOWN008
-	0x00BB					FSYS_ARRIVE_TOWN009
-	0x00BC					FSYS_ARRIVE_TOWN010
-	0x00BD					FSYS_ARRIVE_TOWN011
+	0x00B3	SIDE EVENT	Pallet Town		Unlock fly spot	FSYS_ARRIVE_TOWN001
+	0x00B4	SIDE EVENT	Viridian City		Unlock fly spot	FSYS_ARRIVE_TOWN002
+	0x00B5	SIDE EVENT	Pewter City		Unlock fly spot	FSYS_ARRIVE_TOWN003
+	0x00B6	SIDE EVENT	Cerulean City		Unlock fly spot	FSYS_ARRIVE_TOWN004
+	0x00B7	SIDE EVENT	Lavender Town		Unlock fly spot	FSYS_ARRIVE_TOWN005
+	0x00B8	SIDE EVENT	Vermilion City		Unlock fly spot	FSYS_ARRIVE_TOWN006
+	0x00B9	SIDE EVENT	Celadon City		Unlock fly spot	FSYS_ARRIVE_TOWN007
+	0x00BA	SIDE EVENT	Fuchsia City		Unlock fly spot	FSYS_ARRIVE_TOWN008
+	0x00BB	SIDE EVENT	Cinnabar Island		Unlock fly spot	FSYS_ARRIVE_TOWN009
+	0x00BC	SIDE EVENT	Indigo Plateau		Unlock fly spot	FSYS_ARRIVE_TOWN010
+	0x00BD	SIDE EVENT	Saffron City		Unlock fly spot	FSYS_ARRIVE_TOWN011
 	0x00BE					FSYS_ARRIVE_R002_DUN01
 	0x00BF					FSYS_ARRIVE_R004_DUN01
 	0x00C0					FSYS_ARRIVE_R010_DUN01
@@ -483,8 +483,8 @@
 	0x01E2					
 	0x01E3					
 	0x01E4					
-	0x01E5				Received Fighting Dojo Hitmonchan	
-	0x01E6				Received Fighting Dojo Hitmonlee	
+	0x01E5	EVENT	Saffron City	Dojo	Chose Hitmonchan	
+	0x01E6	EVENT	Saffron City	Dojo	Chose Hitmonlee	
 	0x01E7					
 	0x01E8					
 	0x01E9					
@@ -496,7 +496,7 @@
 	0x01EF					
 	0x01F0					
 	0x01F1					
-	0x01F2					
+	0x01F2	EVENT	Cerulean Cave	B1F	Green disappears	
 	0x01F3					
 	0x01F4					
 	0x01F5					
@@ -526,10 +526,10 @@
 	0x020D					
 	0x020E					
 	0x020F					
-	0x0210					
+	0x0210	HIDDEN ITEM	Seafoam Islands	B3F	Revive	
 	0x0211					
 	0x0212					
-	0x0213					
+	0x0213	FIELD ITEM	Seafoam Islands	B4F	Big Pearl	
 	0x0214					
 	0x0215					
 	0x0216					
@@ -549,7 +549,7 @@
 	0x0224					
 	0x0225					
 	0x0226					
-	0x0227					
+	0x0227	EVENT			SS Anne departure?	
 	0x0228					
 	0x0229					
 	0x022A					
@@ -644,294 +644,294 @@
 	0x0283					outdoor_adultf
 	0x0284					outdoor_tr0003_rival
 	0x0285					indoor_tr0061_adultm
-	0x0286	FIELD ITEM				road023_Item
-	0x0287	FIELD ITEM				road023_Item_0
-	0x0288	FIELD ITEM				road023_Item_1
-	0x0289	FIELD ITEM				road023_Item_2
-	0x028A	FIELD ITEM				road023_Item_3
-	0x028B	FIELD ITEM				road023_Item_4
-	0x028C					road023_tr0075_guard
-	0x028D					road023_tr0075_guard_0
-	0x028E					road023_tr0075_guard_1
-	0x028F					road023_tr0075_guard_2
-	0x0290					road023_tr0075_guard_3
-	0x0291					road023_tr0036_01_swimmerm
-	0x0292					road023_tr0036_01_swimmerm_0
+	0x0286	FIELD ITEM	Route 23		Golden Razz Berry (x5)	road023_Item
+	0x0287	FIELD ITEM	Route 23		Golden Nanab Berry (x5)	road023_Item_0
+	0x0288	FIELD ITEM	Route 23		Golden Pinap Berry (x3)	road023_Item_1
+	0x0289	FIELD ITEM	Route 23		Golden Razz Berry (x5)	road023_Item_2
+	0x028A	FIELD ITEM	Route 23		Golden Nanab Berry (x3)	road023_Item_3
+	0x028B	FIELD ITEM	Route 23		Golden Pinap Berry (x3)	road023_Item_4
+	0x028C	EVENT	Route 23			road023_tr0075_guard
+	0x028D	EVENT	Route 23			road023_tr0075_guard_0
+	0x028E	EVENT	Route 23			road023_tr0075_guard_1
+	0x028F	EVENT	Route 23			road023_tr0075_guard_2
+	0x0290	EVENT	Route 23			road023_tr0075_guard_3
+	0x0291	EVENT	Route 23			road023_tr0036_01_swimmerm
+	0x0292	EVENT	Route 23			road023_tr0036_01_swimmerm_0
 	0x0293					town010_tr0022_red
-	0x0294					road001_tr0071_clerkm
-	0x0295					road001_tr0057_childm
-	0x0296					road001_PartnerStop
-	0x0297					town001_tr0066_fat
-	0x0298					town001_tr0084_juveniles
-	0x0299					town001_tr0005_mother
-	0x029A					town001_pm0016_poppo
-	0x029B					town001_pm0016_poppo_0
-	0x029C					town001_pm0016_poppo_1
-	0x029D					town001_monsball
-	0x029E					town001_tr0027_shortpants
-	0x029F					town001_tr0084_juveniles_0
-	0x02A0	FIELD ITEM				road002_1_Item
-	0x02A1	FIELD ITEM				road002_1_Item_0
-	0x02A2	HIDDEN ITEM				town002_HideItem
-	0x02A3					town002_tr0066_fat
-	0x02A4					town002_tr0027_shortpants
-	0x02A5					town002_tr0026_bugcatcher
-	0x02A6					town002_tr0064_oldm
-	0x02A7					town002_tr0064_oldm_0
-	0x02A8					town002_tr0060_youngf
-	0x02A9					town002_tr0003_rival
-	0x02AA					town002_tr0023_green
-	0x02AB					town002_tr0016_musashi
-	0x02AC					town002_tr0017_kojiro
-	0x02AD					town002_pm0052_nyarth
-	0x02AE					town002_tr0084_juveniles
-	0x02AF					town002_pm0043_nazonokusa
-	0x02B0					town002_tr0067_middlem
-	0x02B1					town002_PartnerStop_0
-	0x02B2					town002_PartnerStop_1
-	0x02B3	FIELD ITEM				road022_Item
-	0x02B4	HIDDEN ITEM				road022_HideItem
-	0x02B5	FIELD ITEM				road021_Item
-	0x02B6	FIELD ITEM				road021_Item_0
-	0x02B7	FIELD ITEM				road021_Item_1
-	0x02B8	HIDDEN ITEM				road021_HideItem
-	0x02B9	HIDDEN ITEM				road021_HideItem_0
-	0x02BA	FIELD ITEM				town009_Item
-	0x02BB					town009_tr0003_rival
-	0x02BC					town009_tr0060_youngf
-	0x02BD					town009_tr0064_oldm
-	0x02BE					town009_pm0126_boober
-	0x02BF					town009_pm0120_hitodeman
-	0x02C0	HIDDEN ITEM				road020_HideItem
-	0x02C1					road020_tr0072_clerkf
-	0x02C2	FIELD ITEM				road019_Item
-	0x02C3	HIDDEN ITEM				road019_HideItem
-	0x02C4	HIDDEN ITEM				road019_HideItem_0
-	0x02C5					road019_tr0016_musashi
-	0x02C6					road019_tr0017_kojiro
-	0x02C7					road019_pm0052_nyarth
-	0x02C8					road019_PartnerStop
-	0x02C9	FIELD ITEM				town008_Item
-	0x02CA					town008_pm0131_laplace
-	0x02CB					town008_tr0062_muscle
-	0x02CC					town008_pm0128_kentauros
-	0x02CD					town008_pm0079_yadon
-	0x02CE					town008_pm0100_biriridama
-	0x02CF					town008_pm0113_lucky
-	0x02D0					town008_pm0115_garura
-	0x02D1					town008_tr0040_angler
-	0x02D2					town008_pm0054_koduck
-	0x02D3					town008_pm0058_gardie
-	0x02D4					town008_pm0037_rokon
-	0x02D5					town008_tr0054_scientist
-	0x02D6					town008_tr0051_gambler
-	0x02D7					town008_tr0030_elitef
-	0x02D8					town008_tr0046_gang
-	0x02D9					town008_PartnerStop
-	0x02DA	FIELD ITEM				road018_2_Item
-	0x02DB	FIELD ITEM				road020_2_Item
-	0x02DC	FIELD ITEM				road020_2_Item_0
-	0x02DD	HIDDEN ITEM				road020_2_HideItem
-	0x02DE	HIDDEN ITEM				road020_2_HideItem_0
-	0x02DF	HIDDEN ITEM				road020_2_HideItem_1
-	0x02E0	FIELD ITEM				road020_2_Item_1
-	0x02E1	FIELD ITEM				road002_2_Item
-	0x02E2					road002_2_tr0003_rival
-	0x02E3	FIELD ITEM				road003_Item
-	0x02E4	FIELD ITEM				road003_Item_0
-	0x02E5	FIELD ITEM				road003_Item_1
-	0x02E6	FIELD ITEM				road003_Item_2
-	0x02E7					road003_tr0059_youngm
-	0x02E8					road003_PartnerStop
-	0x02E9	FIELD ITEM				road004_1_Item
-	0x02EA					road004_1_tr0060_youngf
-	0x02EB					road004_1_pm0052_nyarth
-	0x02EC					road004_1_tr0032_wondervogel
-	0x02ED	FIELD ITEM				town003_Item
-	0x02EE					town003_tr0059_youngm
-	0x02EF					town003_tr0060_youngf
-	0x02F0					town003_tr0061_adultm
-	0x02F1					town003_tr0027_shortpants
-	0x02F2					town003_tr0071_clerkm
-	0x02F3					town003_tr0072_clerkf
-	0x02F4					town003_tr0058_childf
-	0x02F5					town003_pm0010_caterpie
-	0x02F6					town003_pm0012_butterfree
-	0x02F7					town003_tr0068_middlef
-	0x02F8					town003_pm0079_yadon
-	0x02F9					town003_tr0032_wondervogel
-	0x02FA					town003_pm0074_isitsubute
-	0x02FB					town003_tr0065_oldf
-	0x02FC					town003_PartnerStop
-	0x02FD	FIELD ITEM				road004_2_Item
-	0x02FE	HIDDEN ITEM				road004_2_HideItem_0
-	0x02FF	FIELD ITEM				road004_2_Item_0
-	0x0300	FIELD ITEM				road004_2_Item_1
-	0x0301	FIELD ITEM				road004_2_Item_2
-	0x0302	FIELD ITEM				road004_2_Item_3
-	0x0303					road004_2_tr0003_rival
-	0x0304					road004_2_PartnerStop
-	0x0305	FIELD ITEM				road005_Item
-	0x0306	FIELD ITEM				road005_Item_0
-	0x0307	HIDDEN ITEM				road005_HideItem
-	0x0308	FIELD ITEM				road005_Item_1
-	0x0309					road005_tr0003_rival
-	0x030A	FIELD ITEM				road009_Item
-	0x030B	HIDDEN ITEM				road009_HideItem
-	0x030C	FIELD ITEM				road009_Item_0
-	0x030D	FIELD ITEM				road009_Item_1
-	0x030E	FIELD ITEM				road009_Item_2
-	0x030F	HIDDEN ITEM				road010_2_HideItem
-	0x0310	FIELD ITEM				road010_2_Item
-	0x0311	FIELD ITEM				road010_2_Item_0
-	0x0312	FIELD ITEM				road010_2_Item_1
-	0x0313	FIELD ITEM				road010_2_Item_2
-	0x0314					road010_2_tr0018_ice
-	0x0315					road010_2_tr0055_rocketm
-	0x0316					road010_2_tr0055_rocketm_0
-	0x0317					road010_2_tr0055_rocketm_1
-	0x0318					road010_2_tr0056_rocketf
-	0x0319					road010_2_pm0131_laplace
-	0x031A	FIELD ITEM				road024_Item
-	0x031B	FIELD ITEM				road024_Item_0
-	0x031C	HIDDEN ITEM				road024_HideItem
-	0x031D					road024_pm0004_hitokage
-	0x031E					road024_tr0061_adultm_0
-	0x031F					road024_tr0055_rocketm
-	0x0320					road024_PartnerStop
-	0x0321	HIDDEN ITEM				road025_HideItem_0
-	0x0322	FIELD ITEM				road025_Item
-	0x0323	FIELD ITEM				road025_Item_0
-	0x0324	FIELD ITEM				road025_Item_1
-	0x0325	FIELD ITEM				road025_Item_2
-	0x0326					road025_PartnerStop
-	0x0327	FIELD ITEM				town004_Item_0
-	0x0328	FIELD ITEM				town004_Item
-	0x0329					town004_tr0060_youngf
-	0x032A					town004_tr0029_elitem
-	0x032B					town004_tr0058_childf
-	0x032C					town004_tr0067_middlem
-	0x032D					town004_tr0059_youngm
-	0x032E					town004_tr0061_adultm
-	0x032F					town004_tr0074_policef
-	0x0330					town004_pm0101_marumine
-	0x0331					town004_tr0055_rocketm
-	0x0332					town004_pm0007_zenigame
-	0x0333					town004_tr0003_rival
-	0x0334					town004_tr0028_miniskirt
-	0x0335					town004_pm0043_nazonokusa
-	0x0336					town004_PartnerStop
-	0x0337					town004_PartnerStop_0
-	0x0338					town004_PartnerStop_1
-	0x0339					town004_PartnerStop_2
-	0x033A	FIELD ITEM				road016_1_Item
-	0x033B	FIELD ITEM				road016_1_Item_0
-	0x033C	HIDDEN ITEM				road017_HideItem
-	0x033D	HIDDEN ITEM				road017_HideItem_0
-	0x033E	HIDDEN ITEM				road017_HideItem_1
-	0x033F	HIDDEN ITEM				road017_HideItem_2
-	0x0340	HIDDEN ITEM				road017_HideItem_3
-	0x0341	HIDDEN ITEM				road017_HideItem_4
-	0x0342	FIELD ITEM				road017_Item
-	0x0343	FIELD ITEM				road017_Item_0
-	0x0344	FIELD ITEM				road017_Item_1
-	0x0345	FIELD ITEM				road017_Item_2
-	0x0346	FIELD ITEM				road017_Item_3
-	0x0347	FIELD ITEM				road017_Item_4
-	0x0348	FIELD ITEM				road017_Item_5
-	0x0349	FIELD ITEM				road017_Item_6
-	0x034A					road017_tr0016_musashi
-	0x034B					road017_tr0017_kojiro
-	0x034C					road017_pm0052_nyarth
-	0x034D					road017_pm0008_kameil
-	0x034E					road017_pm0103_nassy
-	0x034F					road017_pm0053_persian
-	0x0350					road017_pm0134_showers
-	0x0351					road017_pm0070_utsudon
-	0x0352					road017_pm0136_booster
-	0x0353					road017_pm0057_okorizaru
-	0x0354					road017_pm0135_thunders
-	0x0355					road017_pm0037_rokon
-	0x0356					road017_PartnerStop
-	0x0357					road017_PartnerStop_0
-	0x0358					road017_PartnerStop_1
-	0x0359					road017_PartnerStop_2
-	0x035A	HIDDEN ITEM				road018_1_HideItem
-	0x035B					road018_1_PartnerStop
-	0x035C	FIELD ITEM				road007_Item
-	0x035D	HIDDEN ITEM				road007_HideItem
-	0x035E					road007_PartnerStop
-	0x035F	FIELD ITEM				road016_2_Item
-	0x0360	HIDDEN ITEM				road016_2_HideItem
-	0x0361					road016_2_pm0143_kabigon
-	0x0362					road016_2_tr0007_fuji
-	0x0363					road016_2_PartnerStop
-	0x0364	HIDDEN ITEM				town007_HideItem
-	0x0365	FIELD ITEM				town007_Item
-	0x0366	FIELD ITEM				town007_Item_0
-	0x0367					town007_tr0066_fat
-	0x0368					town007_tr0068_middlef
-	0x0369					town007_tr0084_juveniles
-	0x036A					town007_tr0064_oldm
-	0x036B					town007_tr0067_middlem
-	0x036C					town007_tr0064_oldm_0
-	0x036D					town007_tr0028_miniskirt
-	0x036E					town007_pm0039_purin
-	0x036F					town007_pm0062_nyorobon
-	0x0370					town007_pm0109_dogars
-	0x0371					town007_tr0041_denkigroup
-	0x0372					town007_tr0008_rock
-	0x0373					town007_tr0065_oldf
-	0x0374					town007_tr0059_youngm
-	0x0375					town007_tr0035_girlscout
-	0x0376					town007_pm0019_koratta
-	0x0377					town007_tr0033_woman
-	0x0378					town007_pm0044_kusaihana
-	0x0379					town007_PartnerStop
-	0x037A					town007_PartnerStop_2
-	0x037B					town007_PartnerStop_3
-	0x037C	FIELD ITEM				town011_Item
-	0x037D					town011_tr0003_rival
-	0x037E					town011_tr0074_policef
-	0x037F					town011_pm0137_porygon
-	0x0380					town011_tr0079_staffm
-	0x0381					town011_tr0016_musashi
-	0x0382					town011_tr0017_kojiro
-	0x0383					town011_pm0052_nyarth
-	0x0384					town011_PartnerStop
-	0x0385					town011_PartnerStop_0
-	0x0386	FIELD ITEM				road008_Item
-	0x0387	FIELD ITEM				road008_Item_0
-	0x0388	HIDDEN ITEM				road008_HideItem
-	0x0389	FIELD ITEM				road008_Item_1
-	0x038A					road008_PartnerStop
-	0x038B	HIDDEN ITEM				road010_1_HideItem
-	0x038C	FIELD ITEM				road010_1_Item
-	0x038D	FIELD ITEM				road012_Item
-	0x038E	FIELD ITEM				road012_Item_0
-	0x038F	HIDDEN ITEM				road012_HideItem
-	0x0390	FIELD ITEM				road012_Item_1
-	0x0391	FIELD ITEM				road012_Item_2
-	0x0392	FIELD ITEM				road012_Item_3
-	0x0393	FIELD ITEM				road012_Item_4
-	0x0394	FIELD ITEM				road012_Item_5
-	0x0395					road012_pm0143_kabigon
-	0x0396					road012_tr0039_pokemaniac
-	0x0397					road012_tr0007_fuji
-	0x0398					road012_PartnerStop
-	0x0399	HIDDEN ITEM				road013_HideItem
-	0x039A	HIDDEN ITEM				road013_HideItem_0
-	0x039B	FIELD ITEM				road013_Item
-	0x039C	FIELD ITEM				road013_Item_0
-	0x039D	FIELD ITEM				road014_Item
-	0x039E	FIELD ITEM				road014_Item_0
-	0x039F	HIDDEN ITEM				road014_HideItem
-	0x03A0					road014_PartnerStop
-	0x03A1	FIELD ITEM				road015_1_Item
-	0x03A2	FIELD ITEM				road015_1_Item_0
-	0x03A3	FIELD ITEM				road015_1_Item_1
-	0x03A4	HIDDEN ITEM				road015_1_HideItem
-	0x03A5					road015_1_PartnerStop
+	0x0294	EVENT	Route 1			road001_tr0071_clerkm
+	0x0295	EVENT	Route 1			road001_tr0057_childm
+	0x0296	HIDDEN ITEM	Route 1		Razz Berry (Partner Findings)	road001_PartnerStop
+	0x0297	EVENT	Pallet Town			town001_tr0066_fat
+	0x0298	EVENT	Pallet Town			town001_tr0084_juveniles
+	0x0299	EVENT	Pallet Town			town001_tr0005_mother
+	0x029A	EVENT	Pallet Town			town001_pm0016_poppo
+	0x029B	EVENT	Pallet Town			town001_pm0016_poppo_0
+	0x029C	EVENT	Pallet Town			town001_pm0016_poppo_1
+	0x029D	EVENT	Pallet Town			town001_monsball
+	0x029E	EVENT	Pallet Town			town001_tr0027_shortpants
+	0x029F	EVENT	Pallet Town			town001_tr0084_juveniles_0
+	0x02A0	FIELD ITEM	Route 2		Leaf Stone	road002_1_Item
+	0x02A1	FIELD ITEM	Route 2		Super Potion	road002_1_Item_0
+	0x02A2	HIDDEN ITEM	Viridian City		Potion	town002_HideItem
+	0x02A3	EVENT	Viridian City			town002_tr0066_fat
+	0x02A4	EVENT	Viridian City			town002_tr0027_shortpants
+	0x02A5	EVENT	Viridian City			town002_tr0026_bugcatcher
+	0x02A6	EVENT	Viridian City			town002_tr0064_oldm
+	0x02A7	EVENT	Viridian City			town002_tr0064_oldm_0
+	0x02A8	EVENT	Viridian City			town002_tr0060_youngf
+	0x02A9	EVENT	Viridian City			town002_tr0003_rival
+	0x02AA	EVENT	Viridian City			town002_tr0023_green
+	0x02AB	EVENT	Viridian City			town002_tr0016_musashi
+	0x02AC	EVENT	Viridian City			town002_tr0017_kojiro
+	0x02AD	EVENT	Viridian City			town002_pm0052_nyarth
+	0x02AE	EVENT	Viridian City			town002_tr0084_juveniles
+	0x02AF	EVENT	Viridian City			town002_pm0043_nazonokusa
+	0x02B0	EVENT	Viridian City			town002_tr0067_middlem
+	0x02B1	HIDDEN ITEM	Viridian City			town002_PartnerStop_0
+	0x02B2	HIDDEN ITEM	Viridian City			town002_PartnerStop_1
+	0x02B3	FIELD ITEM	Route 22		Poké Ball (x5)	road022_Item
+	0x02B4	HIDDEN ITEM	Route 22		Antidote	road022_HideItem
+	0x02B5	FIELD ITEM	Route 21		Water Stone	road021_Item
+	0x02B6	FIELD ITEM	Route 21		Hyper Potion	road021_Item_0
+	0x02B7	FIELD ITEM	Route 21		PP Up	road021_Item_1
+	0x02B8	HIDDEN ITEM	Route 21		Stardust (x5)	road021_HideItem
+	0x02B9	HIDDEN ITEM	Route 21	Water	Revive	road021_HideItem_0
+	0x02BA	FIELD ITEM	Cinnabar Island		Antidote	town009_Item
+	0x02BB	EVENT	Cinnabar Island			town009_tr0003_rival
+	0x02BC	EVENT	Cinnabar Island			town009_tr0060_youngf
+	0x02BD	EVENT	Cinnabar Island			town009_tr0064_oldm
+	0x02BE	EVENT	Cinnabar Island			town009_pm0126_boober
+	0x02BF	EVENT	Cinnabar Island			town009_pm0120_hitodeman
+	0x02C0	HIDDEN ITEM	Route 20	Water	Revive	road020_HideItem
+	0x02C1	EVENT	Route 20			road020_tr0072_clerkf
+	0x02C2	FIELD ITEM	Route 19		Full Heal	road019_Item
+	0x02C3	HIDDEN ITEM	Route 19	Water	Revive	road019_HideItem
+	0x02C4	HIDDEN ITEM	Route 19	Water	Revive	road019_HideItem_0
+	0x02C5	EVENT	Route 19			road019_tr0016_musashi
+	0x02C6	EVENT	Route 19			road019_tr0017_kojiro
+	0x02C7	EVENT	Route 19			road019_pm0052_nyarth
+	0x02C8	HIDDEN ITEM	Route 19			road019_PartnerStop
+	0x02C9	FIELD ITEM	Fuchsia City		Super Lure	town008_Item
+	0x02CA	EVENT	Fuchsia City			town008_pm0131_laplace
+	0x02CB	EVENT	Fuchsia City			town008_tr0062_muscle
+	0x02CC	EVENT	Fuchsia City			town008_pm0128_kentauros
+	0x02CD	EVENT	Fuchsia City			town008_pm0079_yadon
+	0x02CE	EVENT	Fuchsia City			town008_pm0100_biriridama
+	0x02CF	EVENT	Fuchsia City			town008_pm0113_lucky
+	0x02D0	EVENT	Fuchsia City			town008_pm0115_garura
+	0x02D1	EVENT	Fuchsia City			town008_tr0040_angler
+	0x02D2	EVENT	Fuchsia City			town008_pm0054_koduck
+	0x02D3	EVENT	Fuchsia City			town008_pm0058_gardie
+	0x02D4	EVENT	Fuchsia City			town008_pm0037_rokon
+	0x02D5	EVENT	Fuchsia City			town008_tr0054_scientist
+	0x02D6	EVENT	Fuchsia City			town008_tr0051_gambler
+	0x02D7	EVENT	Fuchsia City			town008_tr0030_elitef
+	0x02D8	EVENT	Fuchsia City			town008_tr0046_gang
+	0x02D9	HIDDEN ITEM	Fuchsia City			town008_PartnerStop
+	0x02DA	FIELD ITEM	Route 18		Elixir	road018_2_Item
+	0x02DB	FIELD ITEM	Route 20		Max Repel	road020_2_Item
+	0x02DC	FIELD ITEM	Route 20		Ultra Ball (x3)	road020_2_Item_0
+	0x02DD	HIDDEN ITEM	Route 20	Water	Revive	road020_2_HideItem
+	0x02DE	HIDDEN ITEM	Route 20	Water	Revive	road020_2_HideItem_0
+	0x02DF	HIDDEN ITEM	Route 20		Stardust	road020_2_HideItem_1
+	0x02E0	FIELD ITEM	Route 20		Heart Scale	road020_2_Item_1
+	0x02E1	FIELD ITEM	Route 2		Great Ball (x3)	road002_2_Item
+	0x02E2	EVENT	Route 2			road002_2_tr0003_rival
+	0x02E3	FIELD ITEM	Route 3		Potion	road003_Item
+	0x02E4	FIELD ITEM	Route 3		Revive	road003_Item_0
+	0x02E5	FIELD ITEM	Route 3		Lure	road003_Item_1
+	0x02E6	FIELD ITEM	Route 3		Poké Ball (x3)	road003_Item_2
+	0x02E7	EVENT	Route 3			road003_tr0059_youngm
+	0x02E8	HIDDEN ITEM	Route 3		Razz Berry (Partner Findings)	road003_PartnerStop
+	0x02E9	FIELD ITEM	Route 4		Escape Rope	road004_1_Item
+	0x02EA	EVENT	Route 4			road004_1_tr0060_youngf
+	0x02EB	EVENT	Route 4			road004_1_pm0052_nyarth
+	0x02EC	EVENT	Route 4			road004_1_tr0032_wondervogel
+	0x02ED	FIELD ITEM	Pewter City		X Defense	town003_Item
+	0x02EE	EVENT	Pewter City			town003_tr0059_youngm
+	0x02EF	EVENT	Pewter City			town003_tr0060_youngf
+	0x02F0	EVENT	Pewter City			town003_tr0061_adultm
+	0x02F1	EVENT	Pewter City			town003_tr0027_shortpants
+	0x02F2	EVENT	Pewter City			town003_tr0071_clerkm
+	0x02F3	EVENT	Pewter City			town003_tr0072_clerkf
+	0x02F4	EVENT	Pewter City			town003_tr0058_childf
+	0x02F5	EVENT	Pewter City			town003_pm0010_caterpie
+	0x02F6	EVENT	Pewter City			town003_pm0012_butterfree
+	0x02F7	EVENT	Pewter City			town003_tr0068_middlef
+	0x02F8	EVENT	Pewter City			town003_pm0079_yadon
+	0x02F9	EVENT	Pewter City			town003_tr0032_wondervogel
+	0x02FA	EVENT	Pewter City			town003_pm0074_isitsubute
+	0x02FB	EVENT	Pewter City			town003_tr0065_oldf
+	0x02FC	HIDDEN ITEM	Pewter City		Razz Berry	town003_PartnerStop
+	0x02FD	FIELD ITEM	Route 4		Poké Ball (x5)	road004_2_Item
+	0x02FE	HIDDEN ITEM	Route 4		PP Up	road004_2_HideItem_0
+	0x02FF	FIELD ITEM	Route 4		Paralyze Heal	road004_2_Item_0
+	0x0300	FIELD ITEM	Route 4		PP Max	road004_2_Item_1
+	0x0301	FIELD ITEM	Route 4		Great Ball (x3)	road004_2_Item_2
+	0x0302	FIELD ITEM	Route 4		Repel	road004_2_Item_3
+	0x0303	EVENT	Route 4			road004_2_tr0003_rival
+	0x0304	HIDDEN ITEM	Route 4		Nanab Berry (Partner Findings)	road004_2_PartnerStop
+	0x0305	FIELD ITEM	Route 5		Great Ball (x3)	road005_Item
+	0x0306	FIELD ITEM	Route 5		Ether	road005_Item_0
+	0x0307	HIDDEN ITEM	Route 5		Razz Berry (x3)	road005_HideItem
+	0x0308	FIELD ITEM	Route 5		Nanab Berry (x3)	road005_Item_1
+	0x0309	EVENT	Route 5			road005_tr0003_rival
+	0x030A	FIELD ITEM	Route 9		Super Potion	road009_Item
+	0x030B	HIDDEN ITEM	Route 9		Pinap Berry (x5)	road009_HideItem
+	0x030C	FIELD ITEM	Route 9		Ether	road009_Item_0
+	0x030D	FIELD ITEM	Route 9		Super Potion	road009_Item_1
+	0x030E	FIELD ITEM	Route 9		Poké Ball (x5)	road009_Item_2
+	0x030F	HIDDEN ITEM	Route 10		Super Lure	road010_2_HideItem
+	0x0310	FIELD ITEM	Route 10		Great Ball (x3)	road010_2_Item
+	0x0311	FIELD ITEM	Route 10		Super Potion	road010_2_Item_0
+	0x0312	FIELD ITEM	Route 10		Poké Ball (x5)	road010_2_Item_1
+	0x0313	FIELD ITEM	Route 10		Thunder Stone	road010_2_Item_2
+	0x0314	EVENT	Route 10			road010_2_tr0018_ice
+	0x0315	EVENT	Route 10			road010_2_tr0055_rocketm
+	0x0316	EVENT	Route 10			road010_2_tr0055_rocketm_0
+	0x0317	EVENT	Route 10			road010_2_tr0055_rocketm_1
+	0x0318	EVENT	Route 10			road010_2_tr0056_rocketf
+	0x0319	EVENT	Route 10			road010_2_pm0131_laplace
+	0x031A	FIELD ITEM	Route 24		X Sp. Def	road024_Item
+	0x031B	FIELD ITEM	Route 24		Razz Berry (x3)	road024_Item_0
+	0x031C	HIDDEN ITEM	Route 24		Pinap Berry (x3)	road024_HideItem
+	0x031D	EVENT	Route 24			road024_pm0004_hitokage
+	0x031E	EVENT	Route 24			road024_tr0061_adultm_0
+	0x031F	EVENT	Route 24			road024_tr0055_rocketm
+	0x0320	HIDDEN ITEM	Route 24		Razz Berry (Partner Findings)	road024_PartnerStop
+	0x0321	HIDDEN ITEM	Route 25		Nanab Berry (x3)	road025_HideItem_0
+	0x0322	FIELD ITEM	Route 25		TM16 (Thunder Waver)	road025_Item
+	0x0323	FIELD ITEM	Route 25		Lure	road025_Item_0
+	0x0324	FIELD ITEM	Route 25		Super Potion	road025_Item_1
+	0x0325	FIELD ITEM	Route 25		Ether	road025_Item_2
+	0x0326	HIDDEN ITEM	Route 25			road025_PartnerStop
+	0x0327	FIELD ITEM	Cerulean City		Rare Candy	town004_Item_0
+	0x0328	FIELD ITEM	Cerulean City		Burn Heal	town004_Item
+	0x0329	EVENT	Cerulean City			town004_tr0060_youngf
+	0x032A	EVENT	Cerulean City			town004_tr0029_elitem
+	0x032B	EVENT	Cerulean City			town004_tr0058_childf
+	0x032C	EVENT	Cerulean City			town004_tr0067_middlem
+	0x032D	EVENT	Cerulean City			town004_tr0059_youngm
+	0x032E	EVENT	Cerulean City			town004_tr0061_adultm
+	0x032F	EVENT	Cerulean City			town004_tr0074_policef
+	0x0330	EVENT	Cerulean City			town004_pm0101_marumine
+	0x0331	EVENT	Cerulean City			town004_tr0055_rocketm
+	0x0332	EVENT	Cerulean City			town004_pm0007_zenigame
+	0x0333	EVENT	Cerulean City			town004_tr0003_rival
+	0x0334	EVENT	Cerulean City			town004_tr0028_miniskirt
+	0x0335	EVENT	Cerulean City			town004_pm0043_nazonokusa
+	0x0336	HIDDEN ITEM	Cerulean City			town004_PartnerStop
+	0x0337	HIDDEN ITEM	Cerulean City			town004_PartnerStop_0
+	0x0338	HIDDEN ITEM	Cerulean City			town004_PartnerStop_1
+	0x0339	HIDDEN ITEM	Cerulean City			town004_PartnerStop_2
+	0x033A	FIELD ITEM	Route 16		Super Potion	road016_1_Item
+	0x033B	FIELD ITEM	Route 16		Great Ball (x3)	road016_1_Item_0
+	0x033C	HIDDEN ITEM	Route 17		Razz Berry (x5)	road017_HideItem
+	0x033D	HIDDEN ITEM	Route 17		Nanab Berry (x5)	road017_HideItem_0
+	0x033E	HIDDEN ITEM	Route 17		Pinap Berry (x5)	road017_HideItem_1
+	0x033F	HIDDEN ITEM	Route 17		Nanab Berry	road017_HideItem_2
+	0x0340	HIDDEN ITEM	Route 17		Nanab Berry	road017_HideItem_3
+	0x0341	HIDDEN ITEM	Route 17		Silver Pinap Berry (x3)	road017_HideItem_4
+	0x0342	FIELD ITEM	Route 17		Great Ball (x3)	road017_Item
+	0x0343	FIELD ITEM	Route 17		Super Repel	road017_Item_0
+	0x0344	FIELD ITEM	Route 17		Super Potion	road017_Item_1
+	0x0345	FIELD ITEM	Route 17		Super Lure	road017_Item_2
+	0x0346	FIELD ITEM	Route 17		Elixir	road017_Item_3
+	0x0347	FIELD ITEM	Route 17		Rare Candy	road017_Item_4
+	0x0348	FIELD ITEM	Route 17		Silver Pinap Berry (x5)	road017_Item_5
+	0x0349	FIELD ITEM	Route 17		Nugget	road017_Item_6
+	0x034A	EVENT	Route 17			road017_tr0016_musashi
+	0x034B	EVENT	Route 17			road017_tr0017_kojiro
+	0x034C	EVENT	Route 17			road017_pm0052_nyarth
+	0x034D	EVENT	Route 17			road017_pm0008_kameil
+	0x034E	EVENT	Route 17			road017_pm0103_nassy
+	0x034F	EVENT	Route 17			road017_pm0053_persian
+	0x0350	EVENT	Route 17			road017_pm0134_showers
+	0x0351	EVENT	Route 17			road017_pm0070_utsudon
+	0x0352	EVENT	Route 17			road017_pm0136_booster
+	0x0353	EVENT	Route 17			road017_pm0057_okorizaru
+	0x0354	EVENT	Route 17			road017_pm0135_thunders
+	0x0355	EVENT	Route 17			road017_pm0037_rokon
+	0x0356	HIDDEN ITEM	Route 17		Pinap Berry (Partner Findings)	road017_PartnerStop
+	0x0357	EVENT	Route 17			road017_PartnerStop_0
+	0x0358	HIDDEN ITEM	Route 17			road017_PartnerStop_1
+	0x0359	HIDDEN ITEM	Route 17			road017_PartnerStop_2
+	0x035A	HIDDEN ITEM	Route 18		Razz Berry (x3)	road018_1_HideItem
+	0x035B	EVENT	Route 18			road018_1_PartnerStop
+	0x035C	FIELD ITEM	Route 7		Elixir	road007_Item
+	0x035D	HIDDEN ITEM	Route 7		Pinap Berry (x5)	road007_HideItem
+	0x035E	HIDDEN ITEM	Route 7		Nanab Berry (Partner Findings)	road007_PartnerStop
+	0x035F	FIELD ITEM	Route 16		PP Up	road016_2_Item
+	0x0360	HIDDEN ITEM	Route 16		Awakening	road016_2_HideItem
+	0x0361	EVENT	Route 16		Capture/Defeat Snorlax	road016_2_pm0143_kabigon
+	0x0362	EVENT	Route 16			road016_2_tr0007_fuji
+	0x0363	HIDDEN ITEM	Route 16			road016_2_PartnerStop
+	0x0364	HIDDEN ITEM	Celadon City		Razz Berry (x5)	town007_HideItem
+	0x0365	FIELD ITEM	Celadon City		Nugget	town007_Item
+	0x0366	FIELD ITEM	Celadon City		Rare Candy	town007_Item_0
+	0x0367	EVENT	Celadon City			town007_tr0066_fat
+	0x0368	EVENT	Celadon City			town007_tr0068_middlef
+	0x0369	EVENT	Celadon City			town007_tr0084_juveniles
+	0x036A	EVENT	Celadon City			town007_tr0064_oldm
+	0x036B	EVENT	Celadon City			town007_tr0067_middlem
+	0x036C	EVENT	Celadon City			town007_tr0064_oldm_0
+	0x036D	EVENT	Celadon City			town007_tr0028_miniskirt
+	0x036E	EVENT	Celadon City			town007_pm0039_purin
+	0x036F	EVENT	Celadon City			town007_pm0062_nyorobon
+	0x0370	EVENT	Celadon City			town007_pm0109_dogars
+	0x0371	EVENT	Celadon City			town007_tr0041_denkigroup
+	0x0372	EVENT	Celadon City			town007_tr0008_rock
+	0x0373	EVENT	Celadon City			town007_tr0065_oldf
+	0x0374	EVENT	Celadon City			town007_tr0059_youngm
+	0x0375	EVENT	Celadon City			town007_tr0035_girlscout
+	0x0376	EVENT	Celadon City			town007_pm0019_koratta
+	0x0377	EVENT	Celadon City			town007_tr0033_woman
+	0x0378	EVENT	Celadon City			town007_pm0044_kusaihana
+	0x0379	HIDDEN ITEM	Celadon City			town007_PartnerStop
+	0x037A	HIDDEN ITEM	Celadon City			town007_PartnerStop_2
+	0x037B	HIDDEN ITEM	Celadon City			town007_PartnerStop_3
+	0x037C	FIELD ITEM	Saffron City		X Sp. Def	town011_Item
+	0x037D	EVENT	Saffron City			town011_tr0003_rival
+	0x037E	EVENT	Saffron City			town011_tr0074_policef
+	0x037F	EVENT	Saffron City			town011_pm0137_porygon
+	0x0380	EVENT	Saffron City			town011_tr0079_staffm
+	0x0381	EVENT	Saffron City			town011_tr0016_musashi
+	0x0382	EVENT	Saffron City			town011_tr0017_kojiro
+	0x0383	EVENT	Saffron City			town011_pm0052_nyarth
+	0x0384	HIDDEN ITEM	Saffron City			town011_PartnerStop
+	0x0385	HIDDEN ITEM	Saffron City			town011_PartnerStop_0
+	0x0386	FIELD ITEM	Route 8		Fire Stone	road008_Item
+	0x0387	FIELD ITEM	Route 8		Big Mushroom	road008_Item_0
+	0x0388	HIDDEN ITEM	Route 8		Silver Pinap Berry (x3)	road008_HideItem
+	0x0389	FIELD ITEM	Route 8		X Speed	road008_Item_1
+	0x038A	HIDDEN ITEM	Route 8		Golden Pinap Berry (Partner Findings)	road008_PartnerStop
+	0x038B	HIDDEN ITEM	Route 10		Nanab Berry (x5)	road010_1_HideItem
+	0x038C	FIELD ITEM	Route 10		Great Ball (x3)	road010_1_Item
+	0x038D	FIELD ITEM	Route 12		TM24 (X-Scissor)	road012_Item
+	0x038E	FIELD ITEM	Route 12		Water Stone	road012_Item_0
+	0x038F	HIDDEN ITEM	Route 12		Silver Pinap Berry (x5)	road012_HideItem
+	0x0390	FIELD ITEM	Route 12		Ultra Ball (x3)	road012_Item_1
+	0x0391	FIELD ITEM	Route 12		Lure	road012_Item_2
+	0x0392	FIELD ITEM	Route 12		Repel	road012_Item_3
+	0x0393	FIELD ITEM	Route 12		Awakening	road012_Item_4
+	0x0394	FIELD ITEM	Route 12		Max Lure	road012_Item_5
+	0x0395	EVENT	Route 12			road012_pm0143_kabigon
+	0x0396	EVENT	Route 12			road012_tr0039_pokemaniac
+	0x0397	EVENT	Route 12			road012_tr0007_fuji
+	0x0398	HIDDEN ITEM	Route 12			road012_PartnerStop
+	0x0399	HIDDEN ITEM	Route 13		Silver Nanab Berry (x5)	road013_HideItem
+	0x039A	HIDDEN ITEM	Route 13		Golden Pinap Berry	road013_HideItem_0
+	0x039B	FIELD ITEM	Route 13		Full Heal	road013_Item
+	0x039C	FIELD ITEM	Route 13		PP Up	road013_Item_0
+	0x039D	FIELD ITEM	Route 14		Hyper Potion	road014_Item
+	0x039E	FIELD ITEM	Route 14		Nugget	road014_Item_0
+	0x039F	HIDDEN ITEM	Route 14		Golden Razz Berry	road014_HideItem
+	0x03A0	HIDDEN ITEM	Route 14		Nanab Berry	road014_PartnerStop
+	0x03A1	FIELD ITEM	Route 15		TM47 (Surf)	road015_1_Item
+	0x03A2	FIELD ITEM	Route 15		Hyper Potion	road015_1_Item_0
+	0x03A3	FIELD ITEM	Route 15		Ultra Ball (x3)	road015_1_Item_1
+	0x03A4	HIDDEN ITEM	Route 15		Golden Nanab Berry	road015_1_HideItem
+	0x03A5	HIDDEN ITEM	Route 15		Silver Pinap Berry	road015_1_PartnerStop
 	0x03A6					town005_tr0059_youngm
 	0x03A7					town005_tr0061_adultm
 	0x03A8					town005_tr0060_youngf
@@ -942,154 +942,154 @@
 	0x03AD					town005_tr0065_oldf
 	0x03AE					town005_pm0029_nidoranF
 	0x03AF					town005_tr0058_childf
-	0x03B0					town005_PartnerStop
-	0x03B1	FIELD ITEM				road006_Item
-	0x03B2	FIELD ITEM				road006_Item_0
-	0x03B3	HIDDEN ITEM				road006_HideItem
-	0x03B4	FIELD ITEM				road006_Item_1
-	0x03B5	HIDDEN ITEM				road011_1_HideItem
-	0x03B6	FIELD ITEM				road011_1_Item
-	0x03B7	FIELD ITEM				road011_1_Item_0
-	0x03B8	FIELD ITEM				road011_1_Item_1
-	0x03B9	FIELD ITEM				road011_1_Item_2
-	0x03BA	FIELD ITEM				road011_1_Item_3
-	0x03BB					road011_1_PartnerStop
-	0x03BC	HIDDEN ITEM				town006_HideItem
-	0x03BD	HIDDEN ITEM				town006_HideItem_0
-	0x03BE					town006_tr0064_oldm
-	0x03BF					town006_tr0028_miniskirt
-	0x03C0					town006_tr0064_oldm_0
-	0x03C1					town006_tr0074_policef
-	0x03C2					town006_pm0007_zenigame_0
-	0x03C3					town006_tr0070_gym
-	0x03C4					town006_tr0040_angler
-	0x03C5					town006_pm0066_wanriky
-	0x03C6					town006_tr0031_karate
-	0x03C7					town006_tr0033_woman
-	0x03C8					town006_tr0057_childm
-	0x03C9					town006_pm0129_koiking
-	0x03CA					town006_tr0053_gentleman
-	0x03CB					town006_PartnerStop
-	0x03CC					town006_PartnerStop_0
-	0x03CD					t006r0301_tr0045_sailor
-	0x03CE					t006r0301_tr0045_sailor_0
-	0x03CF					t006r0301_tr0090_fairy
-	0x03D0	FIELD ITEM				underground01_Item
-	0x03D1	FIELD ITEM				underground01_Item_0
-	0x03D2	HIDDEN ITEM				underground01_HideItem
-	0x03D3	HIDDEN ITEM				underground01_HideItem_0
-	0x03D4	HIDDEN ITEM				underground01_HideItem_1
-	0x03D5	HIDDEN ITEM				underground01_HideItem_2
-	0x03D6	HIDDEN ITEM				underground02_HideItem
-	0x03D7	HIDDEN ITEM				underground02_HideItem_0
-	0x03D8	HIDDEN ITEM				underground02_HideItem_1
-	0x03D9	HIDDEN ITEM				underground02_HideItem_2
-	0x03DA	HIDDEN ITEM				underground02_HideItem_3
-	0x03DB	FIELD ITEM				underground02_Item
-	0x03DC	FIELD ITEM				underground02_Item_0
-	0x03DD	FIELD ITEM				forest001_Item
-	0x03DE	FIELD ITEM				forest001_Item_0
-	0x03DF	FIELD ITEM				forest001_Item_1
-	0x03E0	HIDDEN ITEM				forest001_HideItem
-	0x03E1	FIELD ITEM				forest001_Item_4
-	0x03E2	FIELD ITEM				forest001_Item_3
-	0x03E3	FIELD ITEM				forest001_Item_2
-	0x03E4					forest001_tr0026_bugcatcher
-	0x03E5					forest001_tr0027_shortpants
-	0x03E6					forest001_PartnerStop
-	0x03E7					forest001_PartnerStop_0
-	0x03E8					r002g0101_tr0060_youngf
-	0x03E9					r002g0101_tr0084_juveniles
-	0x03EA					r002g0201_tr0059_youngm
-	0x03EB					r002g0201_tr0064_oldm
-	0x03EC					r002g0201_tr0029_elitem
-	0x03ED					r002g0301_tr0030_elitef
-	0x03EE					r002g0301_tr0057_childm
-	0x03EF					r002r0101_tr0086_nresearcher
-	0x03F0					r002r0101_tr0057_childm
-	0x03F1	FIELD ITEM				r004d0101_Item
-	0x03F2	FIELD ITEM				r004d0101_Item_0
-	0x03F3	FIELD ITEM				r004d0101_Item_1
-	0x03F4	FIELD ITEM				r004d0101_Item_2
-	0x03F5	FIELD ITEM				r004d0101_Item_3
-	0x03F6	FIELD ITEM				r004d0101_Item_4
-	0x03F7	HIDDEN ITEM				r004d0101_HideItem
-	0x03F8					r004d0101_pm0052_nyarth
-	0x03F9					r004d0101_tr0016_musashi
-	0x03FA					r004d0101_tr0017_kojiro
-	0x03FB					r004d0101_tr0067_middlem
-	0x03FC					r004d0101_PartnerStop
-	0x03FD					r004d0101_PartnerStop_0
-	0x03FE	HIDDEN ITEM				r004d0102_HideItem
-	0x03FF					r004d0102_pm0052_nyarth
-	0x0400					r004d0102_PartnerStop
-	0x0401					r004d0102_PartnerStop_0
-	0x0402					r004d0102_PartnerStop_1
-	0x0403	FIELD ITEM				r004d0103_Item
-	0x0404	FIELD ITEM				r004d0103_Item_0
-	0x0405	HIDDEN ITEM				r004d0103_HideItem
-	0x0406	HIDDEN ITEM				r004d0103_HideItem_0
-	0x0407	FIELD ITEM				r004d0103_Item_1
-	0x0408	FIELD ITEM				r004d0103_Item_2
-	0x0409	FIELD ITEM				r004d0103_Item_3
-	0x040A					r004d0103_tr0054_scientist
-	0x040B					r004d0103_PartnerStop
-	0x040C					r004d0103_PartnerStop_0
-	0x040D					r004d0103_PartnerStop_1
+	0x03B0	HIDDEN ITEM				town005_PartnerStop
+	0x03B1	FIELD ITEM	Route 6		Super Potion	road006_Item
+	0x03B2	FIELD ITEM	Route 6		Paralyze Heal	road006_Item_0
+	0x03B3	HIDDEN ITEM	Route 6		Rare Candy	road006_HideItem
+	0x03B4	FIELD ITEM	Route 6		Guard Spec.	road006_Item_1
+	0x03B5	HIDDEN ITEM	Route 11		Revive	road011_1_HideItem
+	0x03B6	FIELD ITEM	Route 11		Great Ball (x5)	road011_1_Item
+	0x03B7	FIELD ITEM	Route 11		Super Potion	road011_1_Item_0
+	0x03B8	FIELD ITEM	Route 11		X Defense	road011_1_Item_1
+	0x03B9	FIELD ITEM	Route 11		Lure	road011_1_Item_2
+	0x03BA	FIELD ITEM	Route 11		Super Repel	road011_1_Item_3
+	0x03BB	HIDDEN ITEM	Route 11		Golden Razz Berry (Partner Findings)	road011_1_PartnerStop
+	0x03BC	HIDDEN ITEM	Vermilion City		Big Pearl	town006_HideItem
+	0x03BD	HIDDEN ITEM	Vermilion City		Full Heal	town006_HideItem_0
+	0x03BE	EVENT	Vermilion City			town006_tr0064_oldm
+	0x03BF	EVENT	Vermilion City			town006_tr0028_miniskirt
+	0x03C0	EVENT	Vermilion City			town006_tr0064_oldm_0
+	0x03C1	EVENT	Vermilion City			town006_tr0074_policef
+	0x03C2	EVENT	Vermilion City			town006_pm0007_zenigame_0
+	0x03C3	EVENT	Vermilion City			town006_tr0070_gym
+	0x03C4	EVENT	Vermilion City			town006_tr0040_angler
+	0x03C5	EVENT	Vermilion City			town006_pm0066_wanriky
+	0x03C6	EVENT	Vermilion City			town006_tr0031_karate
+	0x03C7	EVENT	Vermilion City			town006_tr0033_woman
+	0x03C8	EVENT	Vermilion City			town006_tr0057_childm
+	0x03C9	EVENT	Vermilion City			town006_pm0129_koiking
+	0x03CA	EVENT	Vermilion City			town006_tr0053_gentleman
+	0x03CB	HIDDEN ITEM	Vermilion City			town006_PartnerStop
+	0x03CC	HIDDEN ITEM	Vermilion City			town006_PartnerStop_0
+	0x03CD	EVENT	Vermilion City			t006r0301_tr0045_sailor
+	0x03CE	EVENT	Vermilion City			t006r0301_tr0045_sailor_0
+	0x03CF	EVENT	Vermilion City			t006r0301_tr0090_fairy
+	0x03D0	FIELD ITEM	Route 7	Underground Path (East-West)	X Accuracy	underground01_Item
+	0x03D1	FIELD ITEM	Route 7	Underground Path (East-West)	X Defense	underground01_Item_0
+	0x03D2	HIDDEN ITEM	Route 7	Underground Path (East-West)	Potion	underground01_HideItem
+	0x03D3	HIDDEN ITEM	Route 7	Underground Path (East-West)	Nugget	underground01_HideItem_0
+	0x03D4	HIDDEN ITEM	Route 7	Underground Path (East-West)	Big Pearl	underground01_HideItem_1
+	0x03D5	HIDDEN ITEM	Route 7	Underground Path (East-West)	Lure	underground01_HideItem_2
+	0x03D6	HIDDEN ITEM	Route 5	Underground Path (North-South)	Lure	underground02_HideItem
+	0x03D7	HIDDEN ITEM	Route 5	Underground Path (North-South)	Fresh Water	underground02_HideItem_0
+	0x03D8	HIDDEN ITEM	Route 5	Underground Path (North-South)	Pretty Wing	underground02_HideItem_1
+	0x03D9	HIDDEN ITEM	Route 5	Underground Path (North-South)	Pearl	underground02_HideItem_2
+	0x03DA	HIDDEN ITEM	Route 5	Underground Path (North-South)	Nugget	underground02_HideItem_3
+	0x03DB	FIELD ITEM	Route 5	Underground Path (North-South)	Repel	underground02_Item
+	0x03DC	FIELD ITEM	Route 5	Underground Path (North-South)	Lure	underground02_Item_0
+	0x03DD	FIELD ITEM	Viridian Forest		Antidote	forest001_Item
+	0x03DE	FIELD ITEM	Viridian Forest		Potion	forest001_Item_0
+	0x03DF	FIELD ITEM	Viridian Forest		Lure	forest001_Item_1
+	0x03E0	HIDDEN ITEM	Viridian Forest		Potion	forest001_HideItem
+	0x03E1	FIELD ITEM	Viridian Forest		Razz Berry (x3)	forest001_Item_4
+	0x03E2	FIELD ITEM	Viridian Forest		Poké Ball (x5)	forest001_Item_3
+	0x03E3	FIELD ITEM	Viridian Forest		Tiny Mushroom	forest001_Item_2
+	0x03E4	EVENT	Viridian Forest			forest001_tr0026_bugcatcher
+	0x03E5	EVENT	Viridian Forest			forest001_tr0027_shortpants
+	0x03E6	HIDDEN ITEM	Viridian Forest			forest001_PartnerStop
+	0x03E7	HIDDEN ITEM	Viridian Forest			forest001_PartnerStop_0
+	0x03E8		Route 2			r002g0101_tr0060_youngf
+	0x03E9		Route 2			r002g0101_tr0084_juveniles
+	0x03EA		Route 2			r002g0201_tr0059_youngm
+	0x03EB		Route 2			r002g0201_tr0064_oldm
+	0x03EC		Route 2			r002g0201_tr0029_elitem
+	0x03ED		Route 2			r002g0301_tr0030_elitef
+	0x03EE		Route 2			r002g0301_tr0057_childm
+	0x03EF		Route 2			r002r0101_tr0086_nresearcher
+	0x03F0		Route 2			r002r0101_tr0057_childm
+	0x03F1	FIELD ITEM	Mt. Moon	1F	Repel	r004d0101_Item
+	0x03F2	FIELD ITEM	Mt. Moon	1F	Potion	r004d0101_Item_0
+	0x03F3	FIELD ITEM	Mt. Moon	1F	Awakening	r004d0101_Item_1
+	0x03F4	FIELD ITEM	Mt. Moon	1F	Pearl	r004d0101_Item_2
+	0x03F5	FIELD ITEM	Mt. Moon	1F	Ether	r004d0101_Item_3
+	0x03F6	FIELD ITEM	Mt. Moon	1F	Great Ball (x5)	r004d0101_Item_4
+	0x03F7	HIDDEN ITEM	Mt. Moon	1F	Stardust	r004d0101_HideItem
+	0x03F8	EVENT	Mt. Moon	1F		r004d0101_pm0052_nyarth
+	0x03F9	EVENT	Mt. Moon	1F		r004d0101_tr0016_musashi
+	0x03FA	EVENT	Mt. Moon	1F		r004d0101_tr0017_kojiro
+	0x03FB	EVENT	Mt. Moon	1F		r004d0101_tr0067_middlem
+	0x03FC	HIDDEN ITEM	Mt. Moon	1F		r004d0101_PartnerStop
+	0x03FD	HIDDEN ITEM	Mt. Moon	1F		r004d0101_PartnerStop_0
+	0x03FE	HIDDEN ITEM	Mt. Moon	B1F	Big Mushroom	r004d0102_HideItem
+	0x03FF	EVENT	Mt. Moon	B1F		r004d0102_pm0052_nyarth
+	0x0400	HIDDEN ITEM	Mt. Moon	B1F		r004d0102_PartnerStop
+	0x0401	HIDDEN ITEM	Mt. Moon	B1F		r004d0102_PartnerStop_0
+	0x0402	HIDDEN ITEM	Mt. Moon	B1F		r004d0102_PartnerStop_1
+	0x0403	FIELD ITEM	Mt. Moon	B2F	Rare Candy	r004d0103_Item
+	0x0404	FIELD ITEM	Mt. Moon	B2F	Nugget	r004d0103_Item_0
+	0x0405	HIDDEN ITEM	Mt. Moon	B2F	Moon Stone	r004d0103_HideItem
+	0x0406	HIDDEN ITEM	Mt. Moon	B2F	Moon Stone	r004d0103_HideItem_0
+	0x0407	FIELD ITEM	Mt. Moon	B2F	Revive	r004d0103_Item_1
+	0x0408	FIELD ITEM	Mt. Moon	B2F	Potion	r004d0103_Item_2
+	0x0409	FIELD ITEM	Mt. Moon	B2F	Revive	r004d0103_Item_3
+	0x040A	EVENT	Mt. Moon	B2F		r004d0103_tr0054_scientist
+	0x040B	HIDDEN ITEM	Mt. Moon	B2F		r004d0103_PartnerStop
+	0x040C	HIDDEN ITEM	Mt. Moon	B2F		r004d0103_PartnerStop_0
+	0x040D	HIDDEN ITEM	Mt. Moon	B2F		r004d0103_PartnerStop_1
 	0x040E					r005r0101_tr0064_oldm
 	0x040F					r005r0101_tr0065_oldf
 	0x0410					r005u0101_tr0066_fat
 	0x0411					r006u0101_tr0063_adultf
 	0x0412					r007u0101_tr0033_woman
 	0x0413					r008u0101_tr0067_middlem
-	0x0414	FIELD ITEM				r010d0101_Item
-	0x0415	FIELD ITEM				r010d0101_Item_0
-	0x0416	FIELD ITEM				r010d0101_Item_1
-	0x0417	FIELD ITEM				r010d0101_Item_2
-	0x0418	FIELD ITEM				r010d0101_Item_3
-	0x0419	HIDDEN ITEM				r010d0101_HideItem
-	0x041A					r010d0101_tr0067_middlem
-	0x041B					r010d0101_PartnerStop
-	0x041C					r010d0101_PartnerStop_0
-	0x041D					r010d0101_PartnerStop_1
-	0x041E					r010d0101_PartnerStop_2
-	0x041F					r010d0101_PartnerStop_3
-	0x0420	FIELD ITEM				r010d0102_Item
-	0x0421	FIELD ITEM				r010d0102_Item_0
-	0x0422	FIELD ITEM				r010d0102_Item_1
-	0x0423	FIELD ITEM				r010d0102_Item_2
-	0x0424	FIELD ITEM				r010d0102_Item_3
-	0x0425	HIDDEN ITEM				r010d0102_HideItem
-	0x0426	FIELD ITEM				r010d0102_Item_4
-	0x0427					r010d0102_PartnerStop
-	0x0428					r010d0102_PartnerStop_0
-	0x0429					r010d0102_PartnerStop_2
-	0x042A					r010d0102_PartnerStop_3
-	0x042B					r010d0102_PartnerStop_4
-	0x042C	FIELD ITEM				r010r0101_Item
-	0x042D	FIELD ITEM				r010r0101_Item_0
-	0x042E	FIELD ITEM				r010r0101_Item_1
-	0x042F	FIELD ITEM				r010r0101_Item_2
-	0x0430	FIELD ITEM				r010r0101_Item_3
-	0x0431	HIDDEN ITEM				r010r0101_HideItem
-	0x0432	HIDDEN ITEM				r010r0101_HideItem_0
-	0x0433	FIELD ITEM				r010r0101_Item_4
-	0x0434	FIELD ITEM				r010r0101_Item_5
-	0x0435	FIELD ITEM				r010r0101_Item_6
-	0x0436	HIDDEN ITEM				r010r0101_HideItem_1
-	0x0437	HIDDEN ITEM				r010r0101_HideItem_2
-	0x0438	HIDDEN ITEM				r010r0101_HideItem_3
-	0x0439	STATIC BATTLE				r010r0101_pm0145_thunder
-	0x043A					r010r0101_marumain_01
-	0x043B					r010r0101_marumain_02
-	0x043C					r010r0101_marumain_03
-	0x043D					r010r0101_marumain_04
-	0x043E					r010r0101_PartnerStop
-	0x043F					r010r0101_PartnerStop_0
-	0x0440					r010r0101_PartnerStop_1
-	0x0441					r010r0101_PartnerStop_2
-	0x0442					r010r0101_PartnerStop_3
-	0x0443					r010r0101_PartnerStop_4
+	0x0414	FIELD ITEM	Rock Tunnel	1F	Repel	r010d0101_Item
+	0x0415	FIELD ITEM	Rock Tunnel	1F	Escape Rope	r010d0101_Item_0
+	0x0416	FIELD ITEM	Rock Tunnel	1F	Super Potion	r010d0101_Item_1
+	0x0417	FIELD ITEM	Rock Tunnel	1F	Pearl	r010d0101_Item_2
+	0x0418	FIELD ITEM	Rock Tunnel	1F	Stardust	r010d0101_Item_3
+	0x0419	HIDDEN ITEM	Rock Tunnel	1F	Revive	r010d0101_HideItem
+	0x041A	EVENT	Rock Tunnel	1F		r010d0101_tr0067_middlem
+	0x041B	HIDDEN ITEM	Rock Tunnel	1F		r010d0101_PartnerStop
+	0x041C	HIDDEN ITEM	Rock Tunnel	1F		r010d0101_PartnerStop_0
+	0x041D	HIDDEN ITEM	Rock Tunnel	1F		r010d0101_PartnerStop_1
+	0x041E	HIDDEN ITEM	Rock Tunnel	1F		r010d0101_PartnerStop_2
+	0x041F	HIDDEN ITEM	Rock Tunnel	1F		r010d0101_PartnerStop_3
+	0x0420	FIELD ITEM	Rock Tunnel	B1F	Revive	r010d0102_Item
+	0x0421	FIELD ITEM	Rock Tunnel	B1F	Great Ball (x3)	r010d0102_Item_0
+	0x0422	FIELD ITEM	Rock Tunnel	B1F	Full Heal	r010d0102_Item_1
+	0x0423	FIELD ITEM	Rock Tunnel	B1F	Super Potion	r010d0102_Item_2
+	0x0424	FIELD ITEM	Rock Tunnel	B1F	Dire Hit	r010d0102_Item_3
+	0x0425	HIDDEN ITEM	Rock Tunnel	B1F	Super Potion	r010d0102_HideItem
+	0x0426	FIELD ITEM	Rock Tunnel	B1F	Stardust	r010d0102_Item_4
+	0x0427	HIDDEN ITEM	Rock Tunnel	B1F		r010d0102_PartnerStop
+	0x0428	HIDDEN ITEM	Rock Tunnel	B1F		r010d0102_PartnerStop_0
+	0x0429	HIDDEN ITEM	Rock Tunnel	B1F		r010d0102_PartnerStop_2
+	0x042A	HIDDEN ITEM	Rock Tunnel	B1F		r010d0102_PartnerStop_3
+	0x042B	HIDDEN ITEM	Rock Tunnel	B1F		r010d0102_PartnerStop_4
+	0x042C	FIELD ITEM	Power Plant		Max Revive	r010r0101_Item
+	0x042D	FIELD ITEM	Power Plant		Rare Candy	r010r0101_Item_0
+	0x042E	FIELD ITEM	Power Plant		TM38 (Thunder)	r010r0101_Item_1
+	0x042F	FIELD ITEM	Power Plant		Max Potion	r010r0101_Item_2
+	0x0430	FIELD ITEM	Power Plant		Thunder Stone	r010r0101_Item_3
+	0x0431	HIDDEN ITEM	Power Plant		Voltorb Candy	r010r0101_HideItem
+	0x0432	HIDDEN ITEM	Power Plant		Pretty Wing	r010r0101_HideItem_0
+	0x0433	FIELD ITEM	Power Plant		Paralyze Heal	r010r0101_Item_4
+	0x0434	FIELD ITEM	Power Plant		X Sp. Def	r010r0101_Item_5
+	0x0435	FIELD ITEM	Power Plant		Max Potion	r010r0101_Item_6
+	0x0436	HIDDEN ITEM	Power Plant		Voltorb Candy	r010r0101_HideItem_1
+	0x0437	HIDDEN ITEM	Power Plant		Voltorb Candy	r010r0101_HideItem_2
+	0x0438	HIDDEN ITEM	Power Plant		Voltorb Candy	r010r0101_HideItem_3
+	0x0439	EVENT	Power Plant		Capture/Defeat Zapdos	r010r0101_pm0145_thunder
+	0x043A	STATIC BATTLE	Power Plant		Capture/Defeat Electrode	r010r0101_marumain_01
+	0x043B	STATIC BATTLE	Power Plant		Capture/Defeat Electrode	r010r0101_marumain_02
+	0x043C	STATIC BATTLE	Power Plant		Capture/Defeat Electrode	r010r0101_marumain_03
+	0x043D	STATIC BATTLE	Power Plant		Capture/Defeat Electrode	r010r0101_marumain_04
+	0x043E	HIDDEN ITEM	Power Plant			r010r0101_PartnerStop
+	0x043F	HIDDEN ITEM	Power Plant			r010r0101_PartnerStop_0
+	0x0440	HIDDEN ITEM	Power Plant			r010r0101_PartnerStop_1
+	0x0441	HIDDEN ITEM	Power Plant			r010r0101_PartnerStop_2
+	0x0442	HIDDEN ITEM	Power Plant			r010r0101_PartnerStop_3
+	0x0443	HIDDEN ITEM	Power Plant			r010r0101_PartnerStop_4
 	0x0444					r011d0101_tr0042_engineer
 	0x0445					r011d0101_pm0066_wanriky
 	0x0446					r011d0101_pm0066_wanriky_0
@@ -1118,54 +1118,54 @@
 	0x045D					r016r0101_pm0021_onisuzume
 	0x045E					r018g0101_tr0075_guard
 	0x045F					r018g0102_tr0035_girlscout
-	0x0460	FIELD ITEM				r020d0101_Item
-	0x0461	FIELD ITEM				r020d0101_Item_0
-	0x0462	HIDDEN ITEM				r020d0101_HideItem
-	0x0463	HIDDEN ITEM				r020d0101_HideItem_0
-	0x0464					r020d0101_tr0067_middlem
-	0x0465	FIELD ITEM				r020d0102_Item
-	0x0466	FIELD ITEM				r020d0102_Item_0
-	0x0467	FIELD ITEM				r020d0102_Item_1
-	0x0468	FIELD ITEM				r020d0102_Item_2
-	0x0469	HIDDEN ITEM				r020d0102_HideItem
-	0x046A					r020d0102_PartnerStop
-	0x046B	HIDDEN ITEM				r020d0103_HideItem
-	0x046C	FIELD ITEM				r020d0103_Item
-	0x046D	FIELD ITEM				r020d0103_Item_0
-	0x046E	HIDDEN ITEM				r020d0103_HideItem_0
-	0x046F	HIDDEN ITEM				r020d0103_HideItem_1
-	0x0470	HIDDEN ITEM				r020d0103_HideItem_2
-	0x0471					r020d0103_PartnerStop
-	0x0472					r020d0103_PartnerStop_0
-	0x0473					r020d0105_1_pm0144_freezer
-	0x0474	STATIC BATTLE				r020d0105_2_pm0144_freezer
-	0x0475					r022g0101_tr0075_guard
-	0x0476	FIELD ITEM				r023d0101_Item
-	0x0477	FIELD ITEM				r023d0101_Item_0
-	0x0478	HIDDEN ITEM				r023d0101_HideItem
-	0x0479	FIELD ITEM				r023d0101_Item_1
-	0x047A					r023d0101_PartnerStop
-	0x047B	FIELD ITEM				r023d0102_Item
-	0x047C	FIELD ITEM				r023d0102_Item_0
-	0x047D	FIELD ITEM				r023d0102_Item_1
-	0x047E	FIELD ITEM				r023d0102_Item_2
-	0x047F	HIDDEN ITEM				r023d0102_HideItem
-	0x0480	HIDDEN ITEM				r023d0102_HideItem_0
-	0x0481	STATIC BATTLE				r023d0102_pm0146_fire
-	0x0482					r023d0102_PartnerStop
-	0x0483	FIELD ITEM				r023d0103_Item
-	0x0484	FIELD ITEM				r023d0103_Item_0
-	0x0485	FIELD ITEM				r023d0103_Item_1
-	0x0486	FIELD ITEM				r023d0103_Item_2
-	0x0487	FIELD ITEM				r023d0103_Item_3
-	0x0488	HIDDEN ITEM				r023d0103_HideItem
-	0x0489	HIDDEN ITEM				r023d0103_HideItem_0
-	0x048A					r023d0103_tr0074_policef
-	0x048B					r023d0103_PartnerStop
-	0x048C					r023d0103_PartnerStop_0
-	0x048D					r023d0103_PartnerStop_1
-	0x048E					r025r0101_tr0006_masaki
-	0x048F					r025r0101_pm0033_nidorino
+	0x0460	FIELD ITEM	Seafoam Islands	1F	Ice Heal	r020d0101_Item
+	0x0461	FIELD ITEM	Seafoam Islands	1F	Escape Rope	r020d0101_Item_0
+	0x0462	HIDDEN ITEM	Seafoam Islands	1F	Heart Scale	r020d0101_HideItem
+	0x0463	HIDDEN ITEM	Seafoam Islands	1F	Heart Scale	r020d0101_HideItem_0
+	0x0464	EVENT	Seafoam Islands	1F		r020d0101_tr0067_middlem
+	0x0465	FIELD ITEM	Seafoam Islands	B1F	Super Lure	r020d0102_Item
+	0x0466	FIELD ITEM	Seafoam Islands	B1F	Great Ball (x5)	r020d0102_Item_0
+	0x0467	FIELD ITEM	Seafoam Islands	B1F	Super Repel	r020d0102_Item_1
+	0x0468	FIELD ITEM	Seafoam Islands	B1F	Max Potion	r020d0102_Item_2
+	0x0469	HIDDEN ITEM	Seafoam Islands	B1F	Max Revive	r020d0102_HideItem
+	0x046A	HIDDEN ITEM	Seafoam Islands	B1F		r020d0102_PartnerStop
+	0x046B	HIDDEN ITEM	Seafoam Islands	B2F	Pearl	r020d0103_HideItem
+	0x046C	FIELD ITEM	Seafoam Islands	B2F	TM55 (Ice Beam)	r020d0103_Item
+	0x046D	FIELD ITEM	Seafoam Islands	B2F	Ice Stone	r020d0103_Item_0
+	0x046E	HIDDEN ITEM	Seafoam Islands	B2F		r020d0103_HideItem_0
+	0x046F	HIDDEN ITEM	Seafoam Islands	B2F	Heart Scale	r020d0103_HideItem_1
+	0x0470	HIDDEN ITEM	Seafoam Islands	B2F	Heart Scale	r020d0103_HideItem_2
+	0x0471	HIDDEN ITEM	Seafoam Islands	B2F		r020d0103_PartnerStop
+	0x0472	HIDDEN ITEM	Seafoam Islands	B2F		r020d0103_PartnerStop_0
+	0x0473	EVENT	Seafoam Islands	B4F		r020d0105_1_pm0144_freezer
+	0x0474	EVENT	Seafoam Islands	B4F		r020d0105_2_pm0144_freezer
+	0x0475	EVENT	Route 22			r022g0101_tr0075_guard
+	0x0476	FIELD ITEM	Victory Road	1F	Leaf Stone	r023d0101_Item
+	0x0477	FIELD ITEM	Victory Road	1F	TM56 (Stealth Rock)	r023d0101_Item_0
+	0x0478	HIDDEN ITEM	Victory Road	1F	Mighty Candy	r023d0101_HideItem
+	0x0479	FIELD ITEM	Victory Road	1F	Ultra Ball (x3)	r023d0101_Item_1
+	0x047A	HIDDEN ITEM	Victory Road	1F		r023d0101_PartnerStop
+	0x047B	FIELD ITEM	Victory Road	2F	PP Max	r023d0102_Item
+	0x047C	FIELD ITEM	Victory Road	2F	Full Restore	r023d0102_Item_0
+	0x047D	FIELD ITEM	Victory Road	2F	TM49 (Superpower)	r023d0102_Item_1
+	0x047E	FIELD ITEM	Victory Road	2F	TM45 (Solar Beam)	r023d0102_Item_2
+	0x047F	HIDDEN ITEM	Victory Road	2F	Mighty Candy	r023d0102_HideItem
+	0x0480	HIDDEN ITEM	Victory Road	2F	Pretty Wing	r023d0102_HideItem_0
+	0x0481	EVENT	Victory Road	2F		r023d0102_pm0146_fire
+	0x0482	HIDDEN ITEM	Victory Road	2F		r023d0102_PartnerStop
+	0x0483	FIELD ITEM	Victory Road	3F	TM51 (Blizzard)	r023d0103_Item
+	0x0484	FIELD ITEM	Victory Road	3F	Max Revive	r023d0103_Item_0
+	0x0485	FIELD ITEM	Victory Road	3F	Golden Nanab Berry (x5)	r023d0103_Item_1
+	0x0486	FIELD ITEM	Victory Road	3F	Full Restore	r023d0103_Item_2
+	0x0487	FIELD ITEM	Victory Road	3F	Max Potion	r023d0103_Item_3
+	0x0488	HIDDEN ITEM	Victory Road	3F	Fresh Water (respawns often)	r023d0103_HideItem
+	0x0489	HIDDEN ITEM	Victory Road	3F	Tough Candy	r023d0103_HideItem_0
+	0x048A	EVENT	Victory Road	3F		r023d0103_tr0074_policef
+	0x048B	HIDDEN ITEM	Victory Road	3F		r023d0103_PartnerStop
+	0x048C	HIDDEN ITEM	Victory Road	3F		r023d0103_PartnerStop_0
+	0x048D	HIDDEN ITEM	Victory Road	3F		r023d0103_PartnerStop_1
+	0x048E	EVENT	Route 25			r025r0101_tr0006_masaki
+	0x048F	EVENT	Route 25			r025r0101_pm0033_nidorino
 	0x0490					s001r0101_tr0087_gostaff
 	0x0491					s001r0101_tr0033_woman
 	0x0492					s001r0101_tr0028_04_miniskirt
@@ -1202,48 +1202,48 @@
 	0x04B1					t003r0101_tr0044_researcher_0
 	0x04B2					t003r0101_tr0054_scientist
 	0x04B3					t003r0101_tr0044_researcher_1
-	0x04B4					t003r0101_PartnerStop
+	0x04B4	HIDDEN ITEM				t003r0101_PartnerStop
 	0x04B5					t003r0102_tr0086_nresearcher
 	0x04B6					t003r0102_tr0064_oldm
 	0x04B7					t003r0102_tr0083_juvenilem
 	0x04B8					t003r0102_tr0084_juveniles
 	0x04B9					t003r0102_tr0066_fat
-	0x04BA					t003r0102_PartnerStop
+	0x04BA	SIDE EVENT	Pewter City	Museum	Bring a partner that can evolve with a Moon Stone (Partner Findings)	t003r0102_PartnerStop
 	0x04BB					t003r0201_tr0057_childm
 	0x04BC					t003r0201_tr0067_middlem
 	0x04BD					t003r0201_pm0032_nidoranM
 	0x04BE					t003r0301_tr0064_oldm
 	0x04BF					t003r0301_tr0026_bugcatcher
-	0x04C0	FIELD ITEM				t004d0101_Item
-	0x04C1	FIELD ITEM				t004d0101_Item_0
-	0x04C2	FIELD ITEM				t004d0101_Item_1
-	0x04C3	FIELD ITEM				t004d0101_Item_2
-	0x04C4	HIDDEN ITEM				t004d0101_HideItem
-	0x04C5	HIDDEN ITEM				t004d0101_HideItem_0
-	0x04C6					t004d0101_PartnerStop
-	0x04C7	FIELD ITEM				t004d0102_Item
-	0x04C8	FIELD ITEM				t004d0102_Item_0
-	0x04C9	FIELD ITEM				t004d0102_Item_1
-	0x04CA	FIELD ITEM				t004d0102_Item_2
-	0x04CB	HIDDEN ITEM				t004d0102_HideItem
-	0x04CC	FIELD ITEM				t004d0102_Item_3
-	0x04CD					t004d0102_PartnerStop
-	0x04CE					t004d0102_PartnerStop_0
-	0x04CF	FIELD ITEM				t004d0103_Item
-	0x04D0	FIELD ITEM				t004d0103_Item_0
-	0x04D1	FIELD ITEM				t004d0103_Item_1
-	0x04D2	FIELD ITEM				t004d0103_Item_2
-	0x04D3	HIDDEN ITEM				t004d0103_HideItem
-	0x04D4	HIDDEN ITEM				t004d0103_HideItem_0
-	0x04D5	HIDDEN ITEM				t004d0103_HideItem_1
-	0x04D6	FIELD ITEM				t004d0103_Item_3
-	0x04D7	FIELD ITEM				t004d0103_Item_4
-	0x04D8	FIELD ITEM				t004d0103_Item_5
-	0x04D9	FIELD ITEM				t004d0103_Item_6
-	0x04DA	FIELD ITEM				t004d0103_Item_7
-	0x04DB	STATIC BATTLE				t004d0103_pm0150_mewtwo
-	0x04DC					t004d0103_PartnerStop
-	0x04DD					t004d0103_PartnerStop_0
+	0x04C0	FIELD ITEM	Cerulean Cave	1F	Max Revive	t004d0101_Item
+	0x04C1	FIELD ITEM	Cerulean Cave	1F	Max Repel	t004d0101_Item_0
+	0x04C2	FIELD ITEM	Cerulean Cave	1F	Full Heal	t004d0101_Item_1
+	0x04C3	FIELD ITEM	Cerulean Cave	1F	PP Max	t004d0101_Item_2
+	0x04C4	HIDDEN ITEM	Cerulean Cave	1F		t004d0101_HideItem
+	0x04C5	HIDDEN ITEM	Cerulean Cave	1F		t004d0101_HideItem_0
+	0x04C6	HIDDEN ITEM	Cerulean Cave	1F	Pearl (Partner Findings)	t004d0101_PartnerStop
+	0x04C7	FIELD ITEM	Cerulean Cave	2F	Full Restore	t004d0102_Item
+	0x04C8	FIELD ITEM	Cerulean Cave	2F	Rare Candy	t004d0102_Item_0
+	0x04C9	FIELD ITEM	Cerulean Cave	2F	Max Revive	t004d0102_Item_1
+	0x04CA	FIELD ITEM	Cerulean Cave	2F	Max Lure	t004d0102_Item_2
+	0x04CB	HIDDEN ITEM	Cerulean Cave	2F		t004d0102_HideItem
+	0x04CC	FIELD ITEM	Cerulean Cave	2F	Ultra Balls (x5)	t004d0102_Item_3
+	0x04CD	HIDDEN ITEM	Cerulean Cave	2F	Pearl (Partner Findings)	t004d0102_PartnerStop
+	0x04CE	HIDDEN ITEM	Cerulean Cave	2F	Stardust (Partner Findings)	t004d0102_PartnerStop_0
+	0x04CF	FIELD ITEM	Cerulean Cave	B1F	Escape Rope	t004d0103_Item
+	0x04D0	FIELD ITEM	Cerulean Cave	B1F	Full Restore	t004d0103_Item_0
+	0x04D1	FIELD ITEM	Cerulean Cave	B1F	Max Elixir	t004d0103_Item_1
+	0x04D2	FIELD ITEM	Cerulean Cave	B1F		t004d0103_Item_2
+	0x04D3	HIDDEN ITEM	Cerulean Cave	B1F	Max Revive	t004d0103_HideItem
+	0x04D4	HIDDEN ITEM	Cerulean Cave	B1F	Fossil (Random)	t004d0103_HideItem_0
+	0x04D5	HIDDEN ITEM	Cerulean Cave	B1F	PP Max	t004d0103_HideItem_1
+	0x04D6	FIELD ITEM	Cerulean Cave	B1F	Poké Ball	t004d0103_Item_3
+	0x04D7	FIELD ITEM	Cerulean Cave	B1F	Poké Ball	t004d0103_Item_4
+	0x04D8	FIELD ITEM	Cerulean Cave	B1F	Poké Ball	t004d0103_Item_5
+	0x04D9	FIELD ITEM	Cerulean Cave	B1F	Poké Ball	t004d0103_Item_6
+	0x04DA	FIELD ITEM	Cerulean Cave	B1F	Poké Ball	t004d0103_Item_7
+	0x04DB	EVENT	Cerulean Cave	B1F		t004d0103_pm0150_mewtwo
+	0x04DC	HIDDEN ITEM	Cerulean Cave	B1F		t004d0103_PartnerStop
+	0x04DD	HIDDEN ITEM	Cerulean Cave	B1F	Stardust (Partner Findings)	t004d0103_PartnerStop_0
 	0x04DE					t004gym01_tr0009_water
 	0x04DF					t004gym01_tr0070_gym
 	0x04E0					t004gym01_tr0037_botan
@@ -1276,42 +1276,42 @@
 	0x04FB					t005r0101_pm0033_nidorino
 	0x04FC					t005r0101_pm0054_koduck
 	0x04FD					t005r0201_tr0060_youngf
-	0x04FE					t005r0301_tr0065_oldf
-	0x04FF					t005r0301_tr0068_middlef
-	0x0500					t005r0301_tr0067_middlem
-	0x0501					t005r0301_tr0060_youngf
-	0x0502					t005r0301_tr0050_shaman
-	0x0503					t005r0301_tr0065_oldf_0
-	0x0504	HIDDEN ITEM				t005r0302_HideItem
-	0x0505	FIELD ITEM				t005r0302_Item
-	0x0506	FIELD ITEM				t005r0302_Item_0
-	0x0507					t005r0302_tr0050_shaman
-	0x0508	FIELD ITEM				t005r0303_Item
-	0x0509	FIELD ITEM				t005r0303_Item_0
-	0x050A	HIDDEN ITEM				t005r0303_HideItem
-	0x050B					t005r0303_tr0092_pghosts
-	0x050C					t005r0303_tr0092_pghosts_0
-	0x050D					t005r0303_tr0092_pghosts_1
-	0x050E					t005r0303_pm0092_ghos
-	0x050F					t005r0303_pm0092_ghos_0
-	0x0510					t005r0303_pm0093_ghost
-	0x0511					t005r0303_pm0104_karakara
-	0x0512	FIELD ITEM				t005r0304_Item
-	0x0513	FIELD ITEM				t005r0304_Item_0
-	0x0514	FIELD ITEM				t005r0304_Item_1
-	0x0515	HIDDEN ITEM				t005r0304_HideItem
-	0x0516					t005r0304_PartnerStop
-	0x0517	HIDDEN ITEM				t005r0305_HideItem
-	0x0518	FIELD ITEM				t005r0305_Item
-	0x0519	FIELD ITEM				t005r0305_Item_0
-	0x051A					t005r0305_tr0050_shaman
-	0x051B	FIELD ITEM				t005r0306_Item
-	0x051C	FIELD ITEM				t005r0306_Item_0
-	0x051D	FIELD ITEM				t005r0306_Item_1
-	0x051E	FIELD ITEM				t005r0306_Item_2
-	0x051F	HIDDEN ITEM				t005r0306_HideItem
-	0x0520					t005r0307_pm0052_nyarth
-	0x0521					t005r0401_tr0064_oldm
+	0x04FE	EVENT	Pokémon Tower	1F		t005r0301_tr0065_oldf
+	0x04FF	EVENT	Pokémon Tower	1F		t005r0301_tr0068_middlef
+	0x0500	EVENT	Pokémon Tower	1F		t005r0301_tr0067_middlem
+	0x0501	EVENT	Pokémon Tower	1F		t005r0301_tr0060_youngf
+	0x0502	EVENT	Pokémon Tower	1F		t005r0301_tr0050_shaman
+	0x0503	EVENT	Pokémon Tower	1F		t005r0301_tr0065_oldf_0
+	0x0504	HIDDEN ITEM	Pokémon Tower	2F	Pearl	t005r0302_HideItem
+	0x0505	FIELD ITEM	Pokémon Tower	2F	X Attack	t005r0302_Item
+	0x0506	FIELD ITEM	Pokémon Tower	2F	Elixir	t005r0302_Item_0
+	0x0507	EVENT	Pokémon Tower	2F		t005r0302_tr0050_shaman
+	0x0508	FIELD ITEM	Pokémon Tower	3F	Awakening	t005r0303_Item
+	0x0509	FIELD ITEM	Pokémon Tower	3F	Super Potion	t005r0303_Item_0
+	0x050A	HIDDEN ITEM	Pokémon Tower	3F	Star Piece	t005r0303_HideItem
+	0x050B	EVENT	Pokémon Tower	3F		t005r0303_tr0092_pghosts
+	0x050C	EVENT	Pokémon Tower	3F		t005r0303_tr0092_pghosts_0
+	0x050D	EVENT	Pokémon Tower	3F		t005r0303_tr0092_pghosts_1
+	0x050E	EVENT	Pokémon Tower	3F		t005r0303_pm0092_ghos
+	0x050F	EVENT	Pokémon Tower	3F		t005r0303_pm0092_ghos_0
+	0x0510	EVENT	Pokémon Tower	3F		t005r0303_pm0093_ghost
+	0x0511	EVENT	Pokémon Tower	3F		t005r0303_pm0104_karakara
+	0x0512	FIELD ITEM	Pokémon Tower	4F	Escape Rope	t005r0304_Item
+	0x0513	FIELD ITEM	Pokémon Tower	4F	TM04 (Teleport)	t005r0304_Item_0
+	0x0514	FIELD ITEM	Pokémon Tower	4F	Full Heal	t005r0304_Item_1
+	0x0515	HIDDEN ITEM	Pokémon Tower	4F	Super Potion	t005r0304_HideItem
+	0x0516	HIDDEN ITEM	Pokémon Tower	4F		t005r0304_PartnerStop
+	0x0517	HIDDEN ITEM	Pokémon Tower	5F	Big Pearl	t005r0305_HideItem
+	0x0518	FIELD ITEM	Pokémon Tower	5F	Ice Stone	t005r0305_Item
+	0x0519	FIELD ITEM	Pokémon Tower	5F	Nugget	t005r0305_Item_0
+	0x051A	EVENT	Pokémon Tower	5F		t005r0305_tr0050_shaman
+	0x051B	FIELD ITEM	Pokémon Tower	6F	Revive	t005r0306_Item
+	0x051C	FIELD ITEM	Pokémon Tower	6F	Rare Candy	t005r0306_Item_0
+	0x051D	FIELD ITEM	Pokémon Tower	6F	Ultra Ball (x3)	t005r0306_Item_1
+	0x051E	FIELD ITEM	Pokémon Tower	6F	Hyper Potion	t005r0306_Item_2
+	0x051F	HIDDEN ITEM	Pokémon Tower	6F	PP Up	t005r0306_HideItem
+	0x0520	EVENT	Pokémon Tower	7F		t005r0307_pm0052_nyarth
+	0x0521	EVENT				t005r0401_tr0064_oldm
 	0x0522					t006gym01_tr0010_volt
 	0x0523					t006gym01_tr0070_gym
 	0x0524					t006gym01_tr0058_childf
@@ -1339,46 +1339,46 @@
 	0x053A					t006r0201_tr0027_shortpants
 	0x053B					t006r0201_tr0035_girlscout
 	0x053C					t006r0201_tr0029_elitem
-	0x053D					t006r0302_tr0045_sailor
-	0x053E					t006r0302_tr0045_sailor_0
-	0x053F					t006r0303_tr0045_sailor
-	0x0540					t006r0304_tr0045_sailor
-	0x0541					t006r0306_tr0059_youngm
-	0x0542					t006r0306_tr0045_sailor
-	0x0543					t006r0306_tr0029_elitem
-	0x0544	FIELD ITEM				t006r0307_Item
-	0x0545	HIDDEN ITEM				t006r0307_HideItem
-	0x0546					t006r0307_tr0088_cook
-	0x0547					t006r0307_tr0088_cook_0
-	0x0548					t006r0307_tr0088_cook_1
-	0x0549					t006r0307_tr0088_cook_2
-	0x054A					t006r0307_tr0088_cook_3
-	0x054B					t006r0307_tr0088_cook_4
-	0x054C					t006r0307_tr0088_cook_5
-	0x054D					t006r0308_tr0082_captain
-	0x054E					t006r0309_tr0053_gentleman
-	0x054F					t006r0310_tr0064_oldm
-	0x0550	FIELD ITEM				t006r0311_Item
-	0x0551					t006r0311_tr0063_adultf
-	0x0552					t006r0312_tr0067_middlem
-	0x0553					t006r0312_tr0084_juveniles
-	0x0554					t006r0312_pm0040_pukurin
-	0x0555					t006r0313_tr0033_woman
-	0x0556					t006r0314_tr0063_adultf
-	0x0557					t006r0316_tr0053_gentleman
-	0x0558	FIELD ITEM				t006r0317_Item_0
-	0x0559					t006r0318_tr0053_gentleman
-	0x055A					t006r0318_tr0064_oldm
-	0x055B	FIELD ITEM				t006r0319_Item
-	0x055C					t006r0320_tr0053_gentleman
-	0x055D					t006r0320_tr0057_childm
-	0x055E					t006r0321_tr0084_juveniles
-	0x055F					t006r0321_tr0060_youngf
-	0x0560	FIELD ITEM				t006r0323_Item
-	0x0561	FIELD ITEM				t006r0324_Item_0
-	0x0562	FIELD ITEM				t006r0324_Item
-	0x0563					t006r0326_tr0045_sailor
-	0x0564					t006r0326_pm0067_goriky
+	0x053D	EVENT	S.S. Anne			t006r0302_tr0045_sailor
+	0x053E	EVENT	S.S. Anne			t006r0302_tr0045_sailor_0
+	0x053F	EVENT	S.S. Anne			t006r0303_tr0045_sailor
+	0x0540	EVENT	S.S. Anne			t006r0304_tr0045_sailor
+	0x0541	EVENT	S.S. Anne	Dock		t006r0306_tr0059_youngm
+	0x0542	EVENT	S.S. Anne	Dock		t006r0306_tr0045_sailor
+	0x0543	EVENT	S.S. Anne	Dock		t006r0306_tr0029_elitem
+	0x0544	FIELD ITEM	S.S. Anne	Kitchen	Super Repel	t006r0307_Item
+	0x0545	HIDDEN ITEM	S.S. Anne	Kitchen	Tiny Mushroom	t006r0307_HideItem
+	0x0546	EVENT	S.S. Anne	Kitchen		t006r0307_tr0088_cook
+	0x0547	EVENT	S.S. Anne	Kitchen		t006r0307_tr0088_cook_0
+	0x0548	EVENT	S.S. Anne	Kitchen		t006r0307_tr0088_cook_1
+	0x0549	EVENT	S.S. Anne	Kitchen		t006r0307_tr0088_cook_2
+	0x054A	EVENT	S.S. Anne	Kitchen		t006r0307_tr0088_cook_3
+	0x054B	EVENT	S.S. Anne	Kitchen		t006r0307_tr0088_cook_4
+	0x054C	EVENT	S.S. Anne	Kitchen		t006r0307_tr0088_cook_5
+	0x054D	EVENT	S.S. Anne			t006r0308_tr0082_captain
+	0x054E	EVENT	S.S. Anne			t006r0309_tr0053_gentleman
+	0x054F	EVENT	S.S. Anne			t006r0310_tr0064_oldm
+	0x0550	FIELD ITEM	S.S. Anne	1F	Paralyze Heal	t006r0311_Item
+	0x0551	EVENT	S.S. Anne	1F		t006r0311_tr0063_adultf
+	0x0552	EVENT	S.S. Anne	1F		t006r0312_tr0067_middlem
+	0x0553	EVENT	S.S. Anne	1F		t006r0312_tr0084_juveniles
+	0x0554	EVENT	S.S. Anne	1F		t006r0312_pm0040_pukurin
+	0x0555	EVENT	S.S. Anne	1F		t006r0313_tr0033_woman
+	0x0556	EVENT	S.S. Anne	1F		t006r0314_tr0063_adultf
+	0x0557	EVENT	S.S. Anne	2F		t006r0316_tr0053_gentleman
+	0x0558	FIELD ITEM	S.S. Anne	2F	Revive	t006r0317_Item_0
+	0x0559	EVENT	S.S. Anne	2F		t006r0318_tr0053_gentleman
+	0x055A	EVENT	S.S. Anne	2F		t006r0318_tr0064_oldm
+	0x055B	FIELD ITEM	S.S. Anne	2F	Nugget	t006r0319_Item
+	0x055C	EVENT	S.S. Anne	B1F		t006r0320_tr0053_gentleman
+	0x055D	EVENT	S.S. Anne	B1F		t006r0320_tr0057_childm
+	0x055E	EVENT	S.S. Anne	B1F		t006r0321_tr0084_juveniles
+	0x055F	EVENT	S.S. Anne	B1F		t006r0321_tr0060_youngf
+	0x0560	FIELD ITEM	S.S. Anne	B1F	Super Potion	t006r0323_Item
+	0x0561	FIELD ITEM	S.S. Anne	B1F	Full Heal	t006r0324_Item_0
+	0x0562	FIELD ITEM	S.S. Anne	B1F	Elixir	t006r0324_Item
+	0x0563	EVENT	S.S. Anne	B1F		t006r0326_tr0045_sailor
+	0x0564	EVENT	S.S. Anne	B1F		t006r0326_pm0067_goriky
 	0x0565					t006r0401_tr0043_birdkeeper
 	0x0566					t006r0401_tr0028_miniskirt
 	0x0567					t006r0401_pm0029_nidoranF
@@ -1398,7 +1398,7 @@
 	0x0575					t007r0103_tr0066_fat
 	0x0576					t007r0103_tr0061_adultm
 	0x0577					t007r0103_tr0066_fat_0
-	0x0578	FIELD ITEM				t007r0105_Item
+	0x0578	FIELD ITEM	Celadon City	Condominiums Rooftop	TM44 (Play Rough)	t007r0105_Item
 	0x0579					t007r0105_tr0062_muscle
 	0x057A					t007r0301_tr0088_cook
 	0x057B					t007r0301_tr0068_middlef
@@ -1433,18 +1433,18 @@
 	0x0598					t007r0505_tr0053_gentleman
 	0x0599					t007r0505_tr0084_juveniles
 	0x059A					t007r0505_tr0063_adultf
-	0x059B					t007r0505_PartnerStop
-	0x059C					t007r0505_PartnerStop_0
+	0x059B	HIDDEN ITEM				t007r0505_PartnerStop
+	0x059C	HIDDEN ITEM				t007r0505_PartnerStop_0
 	0x059D					t007r0506_tr0058_childf
 	0x059E					t007r0506_tr0059_youngm
 	0x059F					t007r0506_pm0016_poppo
 	0x05A0					t007r0506_pm0016_poppo_0
-	0x05A1	HIDDEN ITEM				t007r0601_HideItem
-	0x05A2	HIDDEN ITEM				t007r0601_HideItem_0
-	0x05A3	HIDDEN ITEM				t007r0601_HideItem_1
-	0x05A4	HIDDEN ITEM				t007r0601_HideItem_2
-	0x05A5	HIDDEN ITEM				t007r0601_HideItem_3
-	0x05A6	HIDDEN ITEM				t007r0601_HideItem_4
+	0x05A1	HIDDEN ITEM	Celadon City	Game Corner	Health Candy	t007r0601_HideItem
+	0x05A2	HIDDEN ITEM	Celadon City	Game Corner	PP Max	t007r0601_HideItem_0
+	0x05A3	HIDDEN ITEM	Celadon City	Game Corner	Tough Candy	t007r0601_HideItem_1
+	0x05A4	HIDDEN ITEM	Celadon City	Game Corner	Nanab Berry	t007r0601_HideItem_2
+	0x05A5	HIDDEN ITEM	Celadon City	Game Corner	Courage Candy	t007r0601_HideItem_3
+	0x05A6	HIDDEN ITEM	Celadon City	Game Corner	Pinap Berry	t007r0601_HideItem_4
 	0x05A7					t007r0601_tr0070_gym
 	0x05A8					t007r0601_tr0067_middlem
 	0x05A9					t007r0601_tr0051_gambler
@@ -1459,36 +1459,36 @@
 	0x05B2					t007r0601_tr0031_karate
 	0x05B3					t007r0601_tr0041_denkigroup
 	0x05B4					t007r0701_tr0064_oldm
-	0x05B5	FIELD ITEM				t007r0801_Item
-	0x05B6	HIDDEN ITEM				t007r0801_HideItem
-	0x05B7	FIELD ITEM				t007r0801_Item_0
-	0x05B8	FIELD ITEM				t007r0801_Item_1
-	0x05B9	FIELD ITEM				t007r0801_Item_2
-	0x05BA					t007r0801_tr0056_rocketf
-	0x05BB	FIELD ITEM				t007r0802_Item
-	0x05BC	FIELD ITEM				t007r0802_Item_0
-	0x05BD	FIELD ITEM				t007r0802_Item_1
-	0x05BE	FIELD ITEM				t007r0802_Item_2
-	0x05BF	HIDDEN ITEM				t007r0802_HideItem
-	0x05C0	FIELD ITEM				t007r0803_Item
-	0x05C1	FIELD ITEM				t007r0803_Item_0
-	0x05C2	HIDDEN ITEM				t007r0803_HideItem
-	0x05C3	FIELD ITEM				t007r0803_Item_1
-	0x05C4	FIELD ITEM				t007r0803_Item_2
-	0x05C5	FIELD ITEM				t007r0804_Item_0
-	0x05C6	FIELD ITEM				t007r0804_Item_1
-	0x05C7	FIELD ITEM				t007r0804_Item_2
-	0x05C8	HIDDEN ITEM				t007r0804_HideItem
-	0x05C9					t007r0804_tr0015_rocketboss
-	0x05CA					t007r0804_tr0016_musashi
-	0x05CB					t007r0804_tr0017_kojiro
-	0x05CC					t007r0804_tr0085_rocketcheif
-	0x05CD					t007r0804_tr0055_rocketm
-	0x05CE					t007r0804_tr0002_heroine
-	0x05CF					t007r0804_ball_mons
-	0x05D0					t007r0804_pm0104_karakara
-	0x05D1					t007r0804_pm0052_nyarth
-	0x05D2					t007r0804_ball_mons_0
+	0x05B5	FIELD ITEM	Team Rocked Hideout	B1F	Ultra Ball (x5)	t007r0801_Item
+	0x05B6	HIDDEN ITEM	Team Rocked Hideout	B1F	Full Heal	t007r0801_HideItem
+	0x05B7	FIELD ITEM	Team Rocked Hideout	B1F	Hyper Potion	t007r0801_Item_0
+	0x05B8	FIELD ITEM	Team Rocked Hideout	B1F	Great Ball (x5)	t007r0801_Item_1
+	0x05B9	FIELD ITEM	Team Rocked Hideout	B1F	Mighty Candy (x3)	t007r0801_Item_2
+	0x05BA	EVENT	Team Rocked Hideout	B1F		t007r0801_tr0056_rocketf
+	0x05BB	FIELD ITEM	Team Rocked Hideout	B2F	Nugget	t007r0802_Item
+	0x05BC	FIELD ITEM	Team Rocked Hideout	B2F	Awakening	t007r0802_Item_0
+	0x05BD	FIELD ITEM	Team Rocked Hideout	B2F	TM05 (Rest)	t007r0802_Item_1
+	0x05BE	FIELD ITEM	Team Rocked Hideout	B2F	PP Up	t007r0802_Item_2
+	0x05BF	HIDDEN ITEM	Team Rocked Hideout	B2F	X Accuracy	t007r0802_HideItem
+	0x05C0	FIELD ITEM	Team Rocked Hideout	B3F	TM20 (Dark Pulse)	t007r0803_Item
+	0x05C1	FIELD ITEM	Team Rocked Hideout	B3F	Rare Candy	t007r0803_Item_0
+	0x05C2	HIDDEN ITEM	Team Rocked Hideout	B3F	Guard Spec.	t007r0803_HideItem
+	0x05C3	FIELD ITEM	Team Rocked Hideout	B3F	Revive	t007r0803_Item_1
+	0x05C4	FIELD ITEM	Team Rocked Hideout	B3F	X Speed	t007r0803_Item_2
+	0x05C5	FIELD ITEM	Team Rocked Hideout	B4F	PP Up	t007r0804_Item_0
+	0x05C6	FIELD ITEM	Team Rocked Hideout	B4F	Hyper Potion	t007r0804_Item_1
+	0x05C7	FIELD ITEM	Team Rocked Hideout	B4F	Elixir	t007r0804_Item_2
+	0x05C8	HIDDEN ITEM	Team Rocked Hideout	B4F	Max Revive	t007r0804_HideItem
+	0x05C9	EVENT	Team Rocked Hideout	B4F		t007r0804_tr0015_rocketboss
+	0x05CA	EVENT	Team Rocked Hideout	B4F		t007r0804_tr0016_musashi
+	0x05CB	EVENT	Team Rocked Hideout	B4F		t007r0804_tr0017_kojiro
+	0x05CC	EVENT	Team Rocked Hideout	B4F		t007r0804_tr0085_rocketcheif
+	0x05CD	EVENT	Team Rocked Hideout	B4F		t007r0804_tr0055_rocketm
+	0x05CE	EVENT	Team Rocked Hideout	B4F		t007r0804_tr0002_heroine
+	0x05CF	EVENT	Team Rocked Hideout	B4F		t007r0804_ball_mons
+	0x05D0	EVENT	Team Rocked Hideout	B4F		t007r0804_pm0104_karakara
+	0x05D1	EVENT	Team Rocked Hideout	B4F		t007r0804_pm0052_nyarth
+	0x05D2	EVENT	Team Rocked Hideout	B4F		t007r0804_ball_mons_0
 	0x05D3					t008gym01_tr0012_poison
 	0x05D4					t008gym01_tr0064_oldm
 	0x05D5					t008gym01_tr0064_oldm_0
@@ -1570,36 +1570,36 @@
 	0x0621					t009r0104_tr0086_nresearcher
 	0x0622					t009r0104_tr0086_nresearcher_0
 	0x0623					t009r0104_tr0086_nresearcher_1
-	0x0624	HIDDEN ITEM				t009r0201_HideItem
-	0x0625	FIELD ITEM				t009r0201_Item
-	0x0626	FIELD ITEM				t009r0201_Item_0
-	0x0627	FIELD ITEM				t009r0201_Item_1
-	0x0628	FIELD ITEM				t009r0201_Item_2
-	0x0629	FIELD ITEM				t009r0201_Item_3
-	0x062A					t009r0201_tr0057_childm
-	0x062B	FIELD ITEM				t009r0202_Item
-	0x062C	FIELD ITEM				t009r0202_Item_0
-	0x062D	FIELD ITEM				t009r0202_Item_1
-	0x062E	FIELD ITEM				t009r0202_Item_2
-	0x062F	HIDDEN ITEM				t009r0202_HideItem
-	0x0630	FIELD ITEM				t009r0202_Item_3
-	0x0631	FIELD ITEM				t009r0203_Item
-	0x0632	FIELD ITEM				t009r0203_Item_0
-	0x0633	HIDDEN ITEM				t009r0203_HideItem
-	0x0634	FIELD ITEM				t009r0203_Item_1
-	0x0635	FIELD ITEM				t009r0203_Item_2
-	0x0636	FIELD ITEM				t009r0204_Item
-	0x0637	FIELD ITEM				t009r0204_Item_0
-	0x0638	FIELD ITEM				t009r0204_Item_1
-	0x0639	FIELD ITEM				t009r0204_Item_2
-	0x063A	FIELD ITEM				t009r0204_Item_3
-	0x063B	HIDDEN ITEM				t009r0204_HideItem
-	0x063C	HIDDEN ITEM				t009r0204_HideItem_0
-	0x063D	HIDDEN ITEM				t009r0204_HideItem_1
-	0x063E	HIDDEN ITEM				t009r0204_HideItem_2
-	0x063F	HIDDEN ITEM				t009r0204_HideItem_3
-	0x0640					t009r0204_PartnerStop
-	0x0641					t009r0204_PartnerStop_0
+	0x0624	HIDDEN ITEM	Pokémon Mansion	1F	Tough Candy	t009r0201_HideItem
+	0x0625	FIELD ITEM	Pokémon Mansion	1F	Max Elixir	t009r0201_Item
+	0x0626	FIELD ITEM	Pokémon Mansion	1F	Fire Stone	t009r0201_Item_0
+	0x0627	FIELD ITEM	Pokémon Mansion	1F	Max Repel	t009r0201_Item_1
+	0x0628	FIELD ITEM	Pokémon Mansion	1F	Silver Razz Berry (x5)	t009r0201_Item_2
+	0x0629	FIELD ITEM	Pokémon Mansion	1F	Max Lure	t009r0201_Item_3
+	0x062A	EVENT	Pokémon Mansion	1F		t009r0201_tr0057_childm
+	0x062B	FIELD ITEM	Pokémon Mansion	2F	Max Revive	t009r0202_Item
+	0x062C	FIELD ITEM	Pokémon Mansion	2F	PP Up	t009r0202_Item_0
+	0x062D	FIELD ITEM	Pokémon Mansion	2F	Max Ether	t009r0202_Item_1
+	0x062E	FIELD ITEM	Pokémon Mansion	2F	Ultra Ball (x3)	t009r0202_Item_2
+	0x062F	HIDDEN ITEM	Pokémon Mansion	2F	Courage Candy	t009r0202_HideItem
+	0x0630	FIELD ITEM	Pokémon Mansion	2F	Hyper Potion	t009r0202_Item_3
+	0x0631	FIELD ITEM	Pokémon Mansion	3F	TM21 (Foul Play)	t009r0203_Item
+	0x0632	FIELD ITEM	Pokémon Mansion	3F	Rare Candy	t009r0203_Item_0
+	0x0633	HIDDEN ITEM	Pokémon Mansion	3F	Courage Candy	t009r0203_HideItem
+	0x0634	FIELD ITEM	Pokémon Mansion	3F	Full Heal	t009r0203_Item_1
+	0x0635	FIELD ITEM	Pokémon Mansion	3F	X Accuracy	t009r0203_Item_2
+	0x0636	FIELD ITEM	Pokémon Mansion	B1F	Secret Key (Key Item)	t009r0204_Item
+	0x0637	FIELD ITEM	Pokémon Mansion	B1F	Max Potion	t009r0204_Item_0
+	0x0638	FIELD ITEM	Pokémon Mansion	B1F	Rare Candy	t009r0204_Item_1
+	0x0639	FIELD ITEM	Pokémon Mansion	B1F	Max Elixir	t009r0204_Item_2
+	0x063A	FIELD ITEM	Pokémon Mansion	B1F	TM52 (Sludge Bomb)	t009r0204_Item_3
+	0x063B	HIDDEN ITEM	Pokémon Mansion	B1F	Quick Candy	t009r0204_HideItem
+	0x063C	HIDDEN ITEM	Pokémon Mansion	B1F	Smart Candy	t009r0204_HideItem_0
+	0x063D	HIDDEN ITEM	Pokémon Mansion	B1F	Health Candy	t009r0204_HideItem_1
+	0x063E	HIDDEN ITEM	Pokémon Mansion	B1F	Smart Candy	t009r0204_HideItem_2
+	0x063F	HIDDEN ITEM	Pokémon Mansion	B1F	Quick Candy	t009r0204_HideItem_3
+	0x0640	HIDDEN ITEM	Pokémon Mansion	B1F		t009r0204_PartnerStop
+	0x0641	HIDDEN ITEM	Pokémon Mansion	B1F		t009r0204_PartnerStop_0
 	0x0642					t010champ01_tr0039_pokemaniac
 	0x0643					t010champ01_tr0069_pc
 	0x0644					t010champ01_pm0113_lucky
@@ -1661,7 +1661,7 @@
 	0x067C					t011r0101_tr0067_middlem
 	0x067D					t011r0101_tr0068_middlef
 	0x067E					t011r0101_pm0113_lucky
-	0x067F	HIDDEN ITEM				t011r0102_HideItem
+	0x067F	HIDDEN ITEM	Saffron City	Copycat's House	Moon Stone	t011r0102_HideItem
 	0x0680					t011r0102_tr0058_childf
 	0x0681					t011r0102_pm0084_dodo
 	0x0682					t011r0201_tr0060_youngf
@@ -1671,85 +1671,85 @@
 	0x0686					t011r0301_tr0083_juvenilem
 	0x0687					t011r0301_tr0084_juveniles
 	0x0688					t011r0301_pm0016_poppo
-	0x0689	FIELD ITEM				t011r0401_Item
-	0x068A					t011r0401_tr0080_stafff
-	0x068B					t011r0401_tr0003_rival
-	0x068C					t011r0401_tr0023_green
-	0x068D	FIELD ITEM				t011r0402_Item
-	0x068E	FIELD ITEM				t011r0402_Item_0
-	0x068F	HIDDEN ITEM				t011r0402_HideItem
-	0x0690					t011r0402_tr0080_stafff
-	0x0691	FIELD ITEM				t011r0403_Item
-	0x0692	FIELD ITEM				t011r0403_Item_0
-	0x0693	HIDDEN ITEM				t011r0403_HideItem
-	0x0694					t011r0403_tr0079_staffm
-	0x0695	FIELD ITEM				t011r0404_Item
-	0x0696	FIELD ITEM				t011r0404_Item_0
-	0x0697	FIELD ITEM				t011r0404_Item_1
-	0x0698	FIELD ITEM				t011r0404_Item_2
-	0x0699	FIELD ITEM				t011r0404_Item_3
-	0x069A	HIDDEN ITEM				t011r0404_HideItem
-	0x069B	FIELD ITEM				t011r0404_Item_4
-	0x069C					t011r0404_tr0079_staffm
-	0x069D	HIDDEN ITEM				t011r0405_HideItem
-	0x069E	FIELD ITEM				t011r0405_Item
-	0x069F	FIELD ITEM				t011r0405_Item_0
-	0x06A0	FIELD ITEM				t011r0405_Item_1
-	0x06A1	FIELD ITEM				t011r0405_Item_2
-	0x06A2	FIELD ITEM				t011r0405_Item_3
-	0x06A3					t011r0405_tr0085_rocketcheif
-	0x06A4					t011r0405_tr0056_rocketf
-	0x06A5					t011r0405_tr0003_rival
-	0x06A6					t011r0405_tr0079_staffm
-	0x06A7					t011r0405_pm0137_porygon
-	0x06A8					t011r0405_tr0079_staffm_0
-	0x06A9	FIELD ITEM				t011r0406_Item
-	0x06AA	FIELD ITEM				t011r0406_Item_0
-	0x06AB	HIDDEN ITEM				t011r0406_HideItem
-	0x06AC	HIDDEN ITEM				t011r0406_HideItem_0
-	0x06AD	FIELD ITEM				t011r0406_Item_1
-	0x06AE	FIELD ITEM				t011r0406_Item_2
-	0x06AF	FIELD ITEM				t011r0406_Item_3
-	0x06B0					t011r0406_tr0079_staffm
-	0x06B1					t011r0406_tr0079_staffm_0
-	0x06B2					t011r0406_tr0080_stafff
-	0x06B3					t011r0406_tr0080_stafff_0
-	0x06B4					t011r0406_tr0079_staffm_0_0
-	0x06B5	FIELD ITEM				t011r0407_Item
-	0x06B6	FIELD ITEM				t011r0407_Item_0
-	0x06B7	FIELD ITEM				t011r0407_Item_1
-	0x06B8	FIELD ITEM				t011r0407_Item_2
-	0x06B9	HIDDEN ITEM				t011r0407_HideItem
-	0x06BA					t011r0407_tr0085_rocketcheif
-	0x06BB					t011r0407_tr0003_rival
-	0x06BC					t011r0407_tr0079_staffm
-	0x06BD					t011r0407_tr0079_staffm_0
-	0x06BE					t011r0407_tr0079_staffm_0_0
-	0x06BF					t011r0407_tr0079_staffm_0_0_0
-	0x06C0					t011r0407_tr0080_stafff
-	0x06C1	HIDDEN ITEM				t011r0408_HideItem
-	0x06C2	FIELD ITEM				t011r0408_Item
-	0x06C3	FIELD ITEM				t011r0408_Item_0
-	0x06C4					t011r0408_tr0079_staffm
-	0x06C5	HIDDEN ITEM				t011r0409_HideItem
-	0x06C6	FIELD ITEM				t011r0409_Item
-	0x06C7	FIELD ITEM				t011r0409_Item_0
-	0x06C8	FIELD ITEM				t011r0409_Item_1
-	0x06C9	FIELD ITEM				t011r0409_Item_2
-	0x06CA					t011r0409_tr0069_pc
-	0x06CB	FIELD ITEM				t011r0410_Item
-	0x06CC	FIELD ITEM				t011r0410_Item_0
-	0x06CD	FIELD ITEM				t011r0410_Item_1
-	0x06CE	HIDDEN ITEM				t011r0410_HideItem
-	0x06CF	FIELD ITEM				t011r0410_Item_2
-	0x06D0					t011r0410_tr0080_stafff
-	0x06D1	FIELD ITEM				t011r0411_Item
-	0x06D2					t011r0411_tr0015_rocketboss
-	0x06D3					t011r0411_tr0078_president
-	0x06D4					t011r0411_tr0080_stafff
-	0x06D5					t011r0411_tr0016_musashi
-	0x06D6					t011r0411_tr0017_kojiro
-	0x06D7					t011r0411_pm0052_nyarth
+	0x0689	FIELD ITEM	Silph Co.	1F	X Sp. Atk	t011r0401_Item
+	0x068A	EVENT	Silph Co.	1F		t011r0401_tr0080_stafff
+	0x068B	EVENT	Silph Co.	1F		t011r0401_tr0003_rival
+	0x068C	EVENT	Silph Co.	1F		t011r0401_tr0023_green
+	0x068D	FIELD ITEM	Silph Co.	2F	X Attack	t011r0402_Item
+	0x068E	FIELD ITEM	Silph Co.	2F	Super Potion	t011r0402_Item_0
+	0x068F	HIDDEN ITEM	Silph Co.	2F	Fresh Water (respawns often)	t011r0402_HideItem
+	0x0690	EVENT	Silph Co.	2F		t011r0402_tr0080_stafff
+	0x0691	FIELD ITEM	Silph Co.	3F	Max Lure	t011r0403_Item
+	0x0692	FIELD ITEM	Silph Co.	3F	X Sp. Def	t011r0403_Item_0
+	0x0693	HIDDEN ITEM	Silph Co.	3F	Silver Razz Berry (x3)	t011r0403_HideItem
+	0x0694	EVENT	Silph Co.	3F		t011r0403_tr0079_staffm
+	0x0695	FIELD ITEM	Silph Co.	4F	Escape Rope	t011r0404_Item
+	0x0696	FIELD ITEM	Silph Co.	4F	Star Piece	t011r0404_Item_0
+	0x0697	FIELD ITEM	Silph Co.	4F	Full Heal	t011r0404_Item_1
+	0x0698	FIELD ITEM	Silph Co.	4F	Revive	t011r0404_Item_2
+	0x0699	FIELD ITEM	Silph Co.	4F	Dire Hit	t011r0404_Item_3
+	0x069A	HIDDEN ITEM	Silph Co.	4F	Fresh Water (respawns often)	t011r0404_HideItem
+	0x069B	FIELD ITEM	Silph Co.	4F	Great Ball (x5)	t011r0404_Item_4
+	0x069C	EVENT	Silph Co.	4F		t011r0404_tr0079_staffm
+	0x069D	HIDDEN ITEM	Silph Co.	5F	Silver Nanab Berry (x3)	t011r0405_HideItem
+	0x069E	FIELD ITEM	Silph Co.	5F	Max Ether	t011r0405_Item
+	0x069F	FIELD ITEM	Silph Co.	5F	TM54 (Flash Cannon)	t011r0405_Item_0
+	0x06A0	FIELD ITEM	Silph Co.	5F	Guard Spec.	t011r0405_Item_1
+	0x06A1	FIELD ITEM	Silph Co.	5F	Nugget	t011r0405_Item_2
+	0x06A2	FIELD ITEM	Silph Co.	5F	Poké Ball (x5)	t011r0405_Item_3
+	0x06A3	EVENT	Silph Co.	5F		t011r0405_tr0085_rocketcheif
+	0x06A4	EVENT	Silph Co.	5F		t011r0405_tr0056_rocketf
+	0x06A5	EVENT	Silph Co.	5F		t011r0405_tr0003_rival
+	0x06A6	EVENT	Silph Co.	5F		t011r0405_tr0079_staffm
+	0x06A7	EVENT	Silph Co.	5F		t011r0405_pm0137_porygon
+	0x06A8	EVENT	Silph Co.	5F		t011r0405_tr0079_staffm_0
+	0x06A9	FIELD ITEM	Silph Co.	6F	Max Repel	t011r0406_Item
+	0x06AA	FIELD ITEM	Silph Co.	6F	Hyper Potion	t011r0406_Item_0
+	0x06AB	HIDDEN ITEM	Silph Co.	6F	Fresh Water (respawns often)	t011r0406_HideItem
+	0x06AC	HIDDEN ITEM	Silph Co.	6F	Silver Pinap Berry (x3)	t011r0406_HideItem_0
+	0x06AD	FIELD ITEM	Silph Co.	6F	PP Up	t011r0406_Item_1
+	0x06AE	FIELD ITEM	Silph Co.	6F	X Sp. Atk	t011r0406_Item_2
+	0x06AF	FIELD ITEM	Silph Co.	6F	Super Potion	t011r0406_Item_3
+	0x06B0	EVENT	Silph Co.	6F		t011r0406_tr0079_staffm
+	0x06B1	EVENT	Silph Co.	6F		t011r0406_tr0079_staffm_0
+	0x06B2	EVENT	Silph Co.	6F		t011r0406_tr0080_stafff
+	0x06B3	EVENT	Silph Co.	6F		t011r0406_tr0080_stafff_0
+	0x06B4	EVENT	Silph Co.	6F		t011r0406_tr0079_staffm_0_0
+	0x06B5	FIELD ITEM	Silph Co.	7F	PP Up	t011r0407_Item
+	0x06B6	FIELD ITEM	Silph Co.	7F	TM34 (Dragon Pulse)	t011r0407_Item_0
+	0x06B7	FIELD ITEM	Silph Co.	7F	Smart Candy (x3)	t011r0407_Item_1
+	0x06B8	FIELD ITEM	Silph Co.	7F	Rare Candy	t011r0407_Item_2
+	0x06B9	HIDDEN ITEM	Silph Co.	7F	Nanab Berry (x3)	t011r0407_HideItem
+	0x06BA	EVENT	Silph Co.	7F		t011r0407_tr0085_rocketcheif
+	0x06BB	EVENT	Silph Co.	7F		t011r0407_tr0003_rival
+	0x06BC	EVENT	Silph Co.	7F		t011r0407_tr0079_staffm
+	0x06BD	EVENT	Silph Co.	7F		t011r0407_tr0079_staffm_0
+	0x06BE	EVENT	Silph Co.	7F		t011r0407_tr0079_staffm_0_0
+	0x06BF	EVENT	Silph Co.	7F		t011r0407_tr0079_staffm_0_0_0
+	0x06C0	EVENT	Silph Co.	7F		t011r0407_tr0080_stafff
+	0x06C1	HIDDEN ITEM	Silph Co.	8F	Silver Razz Berry (x3)	t011r0408_HideItem
+	0x06C2	FIELD ITEM	Silph Co.	8F	Revive	t011r0408_Item
+	0x06C3	FIELD ITEM	Silph Co.	8F	X Attack	t011r0408_Item_0
+	0x06C4	EVENT	Silph Co.	8F		t011r0408_tr0079_staffm
+	0x06C5	HIDDEN ITEM	Silph Co.	9F	Elixir	t011r0409_HideItem
+	0x06C6	FIELD ITEM	Silph Co.	9F	Great Ball (x3)	t011r0409_Item
+	0x06C7	FIELD ITEM	Silph Co.	9F	Poké Ball (x3)	t011r0409_Item_0
+	0x06C8	FIELD ITEM	Silph Co.	9F	Ultra Ball (x3)	t011r0409_Item_1
+	0x06C9	FIELD ITEM	Silph Co.	9F	Revive	t011r0409_Item_2
+	0x06CA	EVENT	Silph Co.	9F		t011r0409_tr0069_pc
+	0x06CB	FIELD ITEM	Silph Co.	10F	Max Revive	t011r0410_Item
+	0x06CC	FIELD ITEM	Silph Co.	10F	TM37 (Flamethrower)	t011r0410_Item_0
+	0x06CD	FIELD ITEM	Silph Co.	10F	Rare Candy	t011r0410_Item_1
+	0x06CE	HIDDEN ITEM	Silph Co.	10F	X Accuracy	t011r0410_HideItem
+	0x06CF	FIELD ITEM	Silph Co.	10F	Full Heal	t011r0410_Item_2
+	0x06D0	EVENT	Silph Co.	10F		t011r0410_tr0080_stafff
+	0x06D1	FIELD ITEM	Silph Co.	11F	Max Elixir	t011r0411_Item
+	0x06D2	EVENT	Silph Co.	11F		t011r0411_tr0015_rocketboss
+	0x06D3	EVENT	Silph Co.	11F		t011r0411_tr0078_president
+	0x06D4	EVENT	Silph Co.	11F		t011r0411_tr0080_stafff
+	0x06D5	EVENT	Silph Co.	11F		t011r0411_tr0016_musashi
+	0x06D6	EVENT	Silph Co.	11F		t011r0411_tr0017_kojiro
+	0x06D7	EVENT	Silph Co.	11F		t011r0411_pm0052_nyarth
 	0x06D8					t011r0501_tr0031_karate
 	0x06D9					t011r0501_pm0107_ebiwalar
 	0x06DA					t011r0501_pm0106_sawamular
@@ -1941,36 +1941,36 @@
 	0x0794					test_chr04_tr0092_pghosts
 	0x0795					test_chr04_tr0003_rival_2
 	0x0796					t007r0502_tr0071_clerkm_0
-	0x0797	FIELD ITEM				t002gym01_Item
+	0x0797	FIELD ITEM	Viridian City	Gym	Revive	t002gym01_Item
 	0x0798					t002gym01_pm0053_persian
 	0x0799					r020d0101_tr0035_girlscout
 	0x079A					t011gym01_tr0046_gang_1
-	0x079B	HIDDEN ITEM				t006r0301_HideItem
-	0x079C	HIDDEN ITEM				t007r0103_HideItem
-	0x079D	FIELD ITEM				t007r0104_Item
-	0x079E					t007r0506_tr0032_wondervogel
-	0x079F	HIDDEN ITEM				t006r0306_HideItem_0
-	0x07A0	FIELD ITEM				t009r0202_Item_4
-	0x07A1	HIDDEN ITEM				road017_HideItem_5
-	0x07A2	HIDDEN ITEM				road017_HideItem_6
-	0x07A3	HIDDEN ITEM				road017_HideItem_7
-	0x07A4	HIDDEN ITEM				road017_HideItem_8
-	0x07A5	HIDDEN ITEM				road017_HideItem_9
-	0x07A6	HIDDEN ITEM				road017_HideItem_10
-	0x07A7	HIDDEN ITEM				road017_HideItem_11
-	0x07A8	HIDDEN ITEM				road017_HideItem_12
-	0x07A9	HIDDEN ITEM				road017_HideItem_13
-	0x07AA	HIDDEN ITEM				road017_HideItem_14
-	0x07AB	HIDDEN ITEM				t004d0102_HideItem_0_1
-	0x07AC	HIDDEN ITEM				t004d0102_HideItem_0_2
-	0x07AD	HIDDEN ITEM				t004d0102_HideItem_0_3
-	0x07AE	HIDDEN ITEM				t004d0102_HideItem_0_4
-	0x07AF	HIDDEN ITEM				t004d0102_HideItem_0_5
-	0x07B0	HIDDEN ITEM				t004d0102_HideItem_1_1
-	0x07B1	HIDDEN ITEM				t004d0102_HideItem_1_2
-	0x07B2	HIDDEN ITEM				t004d0102_HideItem_1_3
-	0x07B3	HIDDEN ITEM				t004d0102_HideItem_1_4
-	0x07B4	HIDDEN ITEM				t004d0102_HideItem_1_5
+	0x079B	HIDDEN ITEM	Vermilion City	Harbor	Revive	t006r0301_HideItem
+	0x079C	HIDDEN ITEM	Celadon City	Condominiums 3F	Fresh Water	t007r0103_HideItem
+	0x079D	FIELD ITEM	Celadon City	Condominiums Rooftop	Health Candy (x3)	t007r0104_Item
+	0x079E	EVENT	Celadon City			t007r0506_tr0032_wondervogel
+	0x079F	HIDDEN ITEM	S.S. Anne	Dock	Pinap Berry (x3)	t006r0306_HideItem_0
+	0x07A0	FIELD ITEM	Pokémon Mansion	2F	Escape Rope	t009r0202_Item_4
+	0x07A1	HIDDEN ITEM	Road 17		Pinap Berry	road017_HideItem_5
+	0x07A2	HIDDEN ITEM	Road 17		Pinap Berry	road017_HideItem_6
+	0x07A3	HIDDEN ITEM	Road 17		Nanab Berry	road017_HideItem_7
+	0x07A4	HIDDEN ITEM	Road 17		Pinap Berry	road017_HideItem_8
+	0x07A5	HIDDEN ITEM	Road 17		Silver Razz Berry (x3)	road017_HideItem_9
+	0x07A6	HIDDEN ITEM	Road 17			road017_HideItem_10
+	0x07A7	HIDDEN ITEM	Road 17		Pinap Berry	road017_HideItem_11
+	0x07A8	HIDDEN ITEM	Road 17			road017_HideItem_12
+	0x07A9	HIDDEN ITEM	Road 17		Razz Berry (x3)	road017_HideItem_13
+	0x07AA	HIDDEN ITEM	Road 17			road017_HideItem_14
+	0x07AB	HIDDEN ITEM	Cerulean Cave	2F		t004d0102_HideItem_0_1
+	0x07AC	HIDDEN ITEM	Cerulean Cave	2F		t004d0102_HideItem_0_2
+	0x07AD	HIDDEN ITEM	Cerulean Cave	2F		t004d0102_HideItem_0_3
+	0x07AE	HIDDEN ITEM	Cerulean Cave	2F	Golden Pinap Berry	t004d0102_HideItem_0_4
+	0x07AF	HIDDEN ITEM	Cerulean Cave	2F	Golden Nanab Berry	t004d0102_HideItem_0_5
+	0x07B0	HIDDEN ITEM	Cerulean Cave	2F		t004d0102_HideItem_1_1
+	0x07B1	HIDDEN ITEM	Cerulean Cave	2F	Ultra Ball	t004d0102_HideItem_1_2
+	0x07B2	HIDDEN ITEM	Cerulean Cave	2F	Ultra Ball	t004d0102_HideItem_1_3
+	0x07B3	HIDDEN ITEM	Cerulean Cave	2F	Ultra Ball	t004d0102_HideItem_1_4
+	0x07B4	HIDDEN ITEM	Cerulean Cave	2F	Ultra Ball	t004d0102_HideItem_1_5
 	0x07B5					
 	0x07B6					
 	0x07B7					
@@ -2178,85 +2178,85 @@
 	0x0881					FE_MOT_T002_OLDM
 	0x0882					FE_TRAINER_FLAG_01
 	0x0883					FE_SUB_01_CLEAR
-	0x0884					FE_SUB_02_CLEAR
+	0x0884	GIFT	Route 4	PokéCenter	Buy Magikarp from man	FE_SUB_02_CLEAR
 	0x0885					FE_SUB_03_CLEAR
-	0x0886					FE_SUB_04_CLEAR
+	0x0886	GIFT	Pewter City	Museum	Old Amber from scientist	FE_SUB_04_CLEAR
 	0x0887					FE_SUB_04_PUTERACHECK
 	0x0888					FE_SUB_05_CLEAR
-	0x0889					FE_SUB_06_CLEAR
+	0x0889	GIFT	Route 12	House	TM32 (Dazzling Gleam) from old man	FE_SUB_06_CLEAR
 	0x088A					FE_SUB_07_CLEAR
-	0x088B					FE_SUB_08_CLEAR
-	0x088C					FE_SUB_09_CLEAR
-	0x088D					FE_SUB_09_CLEAR2
+	0x088B	GIFT	Silph Co.	7F	Lapras from man	FE_SUB_08_CLEAR
+	0x088C	GIFT	Vermilion City	Fan Club	Pikachu / Eevee Set from chairman	FE_SUB_09_CLEAR
+	0x088D	GIFT	Vermilion City	Fan Club	Raichu / Eevee evolutions Sets from chairman	FE_SUB_09_CLEAR2
 	0x088E					FE_SUB_10_FIRST
 	0x088F					FE_SUB_10_CLEAR
-	0x0890					FE_SUB_11_CLEAR
+	0x0890	GIFT	Saffron City	Mr. Psychic's House	TM40 (Psychic) from Mr. Psychic	FE_SUB_11_CLEAR
 	0x0891					FE_SUB_12_CLEAR
 	0x0892					FE_SUB_13_CLEAR
-	0x0893					FE_SUB_14_CLEAR
+	0x0893	EVENT	Route 11	Gate	Check for Judge Function unlock requisites	FE_SUB_14_CLEAR
 	0x0894					FE_SUB_15_CLEAR
 	0x0895					FE_SUB_T006R0306_TRAINER
 	0x0896					FE_SUB_16_CLEAR
 	0x0897					FE_SUB_17_CLEAR
 	0x0898					FE_SUB_18_CLEAR
 	0x0899					FE_SUB_19_CLEAR
-	0x089A					FE_SUB_20_CLEAR
+	0x089A	EVENT			Poké Flute first use explanation	FE_SUB_20_CLEAR
 	0x089B					FE_SUB_21_CLEAR
 	0x089C					FE_SUB_22_CLEAR
 	0x089D					FE_SUB_23_BTLAFTER
-	0x089E	GIFT				FE_SUB_23_CLEAR
+	0x089E	GIFT	Saffron City	Dojo	Hitmonachan / Hitmonlee from Karate Master	FE_SUB_23_CLEAR
 	0x089F					FE_SUB_24_CLEAR
-	0x08A0					FE_SUB_25_CLEAR
-	0x08A1					FE_SUB_26_CLEAR
-	0x08A2					FE_SUB_27_CLEAR
+	0x08A0	GIFT	Cinnabar Island	Lab	TM02 (Taunt) from scientist	FE_SUB_25_CLEAR
+	0x08A1	GIFT	Route 12	Gate	TM50 (Roost) from girl	FE_SUB_26_CLEAR
+	0x08A2	GIFT	Celadon City	Department Store 3F	TM03 (Helping Hand) from man	FE_SUB_27_CLEAR
 	0x08A3					FE_SUB_28_CLEAR
-	0x08A4					FE_SUB_29_CLEAR
-	0x08A5					FE_SUB_30_CLEAR
-	0x08A6					FE_SUB_31_CLEAR
+	0x08A4	GIFT	Silph Co.	2F	TM42 (Self Destruct) from woman	FE_SUB_29_CLEAR
+	0x08A5	GIFT	Celadon City		TM26 (Poison Jab) from old man	FE_SUB_30_CLEAR
+	0x08A6	GIFT	Viridian City		TM11 (Will-O-Wisp) from man	FE_SUB_31_CLEAR
 	0x08A7					FE_SUB_32_MUSASHI
 	0x08A8					FE_SUB_32_KOJIRO
 	0x08A9					FE_SUB_32_CLEAR
 	0x08AA					FE_SUB_33_CLEAR
 	0x08AB					FE_SUB_34_CLEAR
 	0x08AC					FE_SUB_35_CLEAR
-	0x08AD					FE_SUB_36_CLEAR
-	0x08AE					FE_SUB_37_CLEAR
-	0x08AF					FE_SUB_38_CLEAR
-	0x08B0					FE_SUB_39_CLEAR
-	0x08B1					FE_SUB_40_CLEAR
+	0x08AD	GIFT	Route 16	Gate	Ultra Ball (x30) from Oak's aide	FE_SUB_36_CLEAR
+	0x08AE	GIFT	Cerulean City		Bulbasaur from girl	FE_SUB_37_CLEAR
+	0x08AF	GIFT	Route 24		Charmander from guy	FE_SUB_38_CLEAR
+	0x08B0	GIFT	Vermilion City		Squirtle from officer	FE_SUB_39_CLEAR
+	0x08B1	EVENT	Silph Co.	9F	Spy nurse post invasion	FE_SUB_40_CLEAR
 	0x08B2					FE_SUB_40b_CLEAR
-	0x08B3					FE_SUB_41_CLEAR
+	0x08B3	GIFT	Route 16	House	TM14 (Fly) from girl	FE_SUB_41_CLEAR
 	0x08B4					FE_SUB_42_CLEAR
 	0x08B5					FE_SUB_43_CLEAR
-	0x08B6					FE_SUB_44_CLEAR
-	0x08B7					FE_SUB_44_PAPER
-	0x08B8					FE_SUB_45_CLEAR
+	0x08B6	TRAINER BATTLE	Team Rocket Hideout	B4F	Pokémon Trainer Archer	FE_SUB_44_CLEAR
+	0x08B7	EVENT	Team Rocket Hideout	B4F	Archer reads his letter	FE_SUB_44_PAPER
+	0x08B8	TRAINER BATTLE	Cerulean Cave	B1F	Pokémon Trainer Green	FE_SUB_45_CLEAR
 	0x08B9					FE_SUB_45_T004D0103_BALL
 	0x08BA					FE_SUB_45_T004D0103_BALL_ITEM
 	0x08BB					FE_SUB_45_TOWN004_BALL
 	0x08BC					FE_SUB_46_CLEAR
-	0x08BD					FE_SUB_47_DEMO_END
-	0x08BE					FE_SUB_47_CLEAR
-	0x08BF					FE_SUB_48_DEMO_END
-	0x08C0					FE_SUB_48_CLEAR
-	0x08C1					FE_SUB_49_DEMO_END
-	0x08C2					FE_SUB_49_CLEAR
-	0x08C3					FE_SUB_50_DEMO_DEND
-	0x08C4					FE_SUB_50_CLEAR
+	0x08BD	EVENT	Victory Road	2F	Played battle animation intro	FE_SUB_47_DEMO_END
+	0x08BE	STATIC BATTLE	Victory Road	2F	Capture Moltres	FE_SUB_47_CLEAR
+	0x08BF	EVENT	Power Plant		Played battle animation intro	FE_SUB_48_DEMO_END
+	0x08C0	STATIC BATTLE	Power Plant		Capture Zapdos	FE_SUB_48_CLEAR
+	0x08C1	EVENT	Seafoam Islands	B4F	Played battle animation intro	FE_SUB_49_DEMO_END
+	0x08C2	STATIC BATTLE	Seafoam Islands	B4F	Capture Articuno	FE_SUB_49_CLEAR
+	0x08C3	EVENT	Cerulean Cave	B1F	Played battle animation intro	FE_SUB_50_DEMO_DEND
+	0x08C4	STATIC BATTLE	Cerulean Cave	B1F	Capture Mewtwo	FE_SUB_50_CLEAR
 	0x08C5					FE_SUB_51_CLEAR
-	0x08C6					FE_SUB_52_CLEAR
-	0x08C7					FE_SUB_53_CLEAR
-	0x08C8					FE_SUB_54_CLEAR
-	0x08C9					FE_SUB_55_CLEAR
-	0x08CA					FE_SUB_56_CLEAR
-	0x08CB					FE_SUB_57_CLEAR
-	0x08CC					FE_SUB_58_CLEAR
-	0x08CD					FE_SUB_58_NORMAL_TALK
-	0x08CE					FE_SUB_58_MACH_TALK
-	0x08CF					FE_SUB_58_DART_TALK
+	0x08C6	GIFT	Route 15	Gate	Assistant Set from Oak's assistant	FE_SUB_52_CLEAR
+	0x08C7	GIFT	Saffron City		Officer Set from officer	FE_SUB_53_CLEAR
+	0x08C8	GIFT	Pokémon Tower	1F	Formal Set from old woman	FE_SUB_54_CLEAR
+	0x08C9	GIFT	Team Rocket Hideout	1F	Team Rocket Set from female grunt	FE_SUB_55_CLEAR
+	0x08CA	SIDE EVENT	Cerulean City		Deposit money in the fountain	FE_SUB_56_CLEAR
+	0x08CB	TRAINER BATTLE	Route 17		Team Rocket Jessie & James / Blast-Off Set gift	FE_SUB_57_CLEAR
+	0x08CC	GIFT	Cerulean City	Bike Maniac House	Heart Scales (x5) from owner after asking about all kinds of bikes	FE_SUB_58_CLEAR
+	0x08CD	EVENT	Cerulean City	Bike Maniac House		FE_SUB_58_NORMAL_TALK
+	0x08CE	EVENT	Cerulean City	Bike Maniac House		FE_SUB_58_MACH_TALK
+	0x08CF	EVENT	Cerulean City	Bike Maniac House		FE_SUB_58_DART_TALK
 	0x08D0					FE_SUB_59_CLEAR
-	0x08D1					FE_SUB_60_CLEAR
-	0x08D2					FE_SUB_61_CLEAR
+	0x08D1	GIFT	Saffron City		Porygon from man	FE_SUB_60_CLEAR
+	0x08D2	SIDE EVENT	Vermilion	Port	Meet Mina	FE_SUB_61_CLEAR
 	0x08D3					FE_SUB_62_CLEAR
 	0x08D4					FE_SUB_63_CLEAR
 	0x08D5					FE_SUB_64_CLEAR
@@ -2267,7 +2267,7 @@
 	0x08DA					FE_SUB_69_CLEAR
 	0x08DB					FE_SUB_70_CLEAR
 	0x08DC					FE_SUB_71_CLEAR
-	0x08DD					FE_SUB_72_CLEAR
+	0x08DD	EVENT	Celadon City		Sky Dash Learned	FE_SUB_72_CLEAR
 	0x08DE					FE_SUB_73_CLEAR
 	0x08DF					FE_SUB_74_CLEAR
 	0x08E0					FE_SUB_75_CLEAR
@@ -2292,7 +2292,7 @@
 	0x08F3					FE_EV0210_GOBACK
 	0x08F4					FE_MASTER_RED_BATTLE_TALKED
 	0x08F5					FE_EV0310_KINNOTAMA_GET
-	0x08F6					FE_EV0610_CLEAR
+	0x08F6				Saffron city related	FE_EV0610_CLEAR
 	0x08F7					FE_COACH_FIRST_01
 	0x08F8					FE_COACH_FIRST_02
 	0x08F9					FE_COACH_FIRST_03
@@ -2330,31 +2330,31 @@
 	0x0919					FE_SUB_88_FIRST_TALK
 	0x091A					FE_SUB_88_END
 	0x091B					FE_EV1025_KAIRIKIROOK
-	0x091C					FE_EV0690_ITEMGET
-	0x091D					FE_ROAD002_1_IAIGIRI_01_INIT_road002_1
-	0x091E					FE_ROAD002_1_IAIGIRI_02_INIT_road002_1
-	0x091F					FE_TOWN002_IAIGIRI_01_INIT_town002
-	0x0920					FE_TOWN002_IAIGIRI_02_INIT_town002
-	0x0921					FE_ROAD002_2_IAIGIRI_01_INIT_road002_2
-	0x0922					FE_ROAD002_2_IAIGIRI_02_INIT_road002_2
-	0x0923					FE_TOWN003_IAIGIRI_01_INIT_town003
-	0x0924					FE_ROAD009_IAIGIRI_01_INIT_road009
-	0x0925					FE_ROAD010_2_IAIGIRI_01_INIT_road010_2
-	0x0926					FE_ROAD010_2_IAIGIRI_02_INIT_road010_2
-	0x0927					FE_ROAD025_IAIGIRI_01_INIT_road025
-	0x0928					FE_TOWN004_IAIGIRI_01_INIT_town004
-	0x0929					FE_TOWN007_IAIGIRI_01_INIT_town007
-	0x092A					FE_TOWN007_IAIGIRI_02_INIT_town007
-	0x092B					FE_TOWN007_IAIGIRI_03_INIT_town007
-	0x092C					FE_ROAD008_IAIGIRI_01_INIT_road008
-	0x092D					FE_ROAD008_IAIGIRI_02_INIT_road008
-	0x092E					FE_ROAD012_IAIGIRI_01_INIT_road012
-	0x092F					FE_ROAD012_IAIGIRI_02_INIT_road012
-	0x0930					FE_ROAD012_IAIGIRI_03_INIT_road012
-	0x0931					FE_ROAD015_1_IAIGIRI_01_INIT_road015_1
-	0x0932					FE_ROAD015_1_IAIGIRI_02_INIT_road015_1
-	0x0933					FE_TOWN006_IAIGIRI_01_INIT_town006
-	0x0934					FE_T006R0308_IAIGIRI_01_INIT_t006r0308
+	0x091C	GIFT	Lavender Town		Great Ball (x20) from guy	FE_EV0690_ITEMGET
+	0x091D	EVENT				FE_ROAD002_1_IAIGIRI_01_INIT_road002_1
+	0x091E	EVENT				FE_ROAD002_1_IAIGIRI_02_INIT_road002_1
+	0x091F	EVENT				FE_TOWN002_IAIGIRI_01_INIT_town002
+	0x0920	EVENT				FE_TOWN002_IAIGIRI_02_INIT_town002
+	0x0921	EVENT				FE_ROAD002_2_IAIGIRI_01_INIT_road002_2
+	0x0922	EVENT				FE_ROAD002_2_IAIGIRI_02_INIT_road002_2
+	0x0923	EVENT				FE_TOWN003_IAIGIRI_01_INIT_town003
+	0x0924	EVENT				FE_ROAD009_IAIGIRI_01_INIT_road009
+	0x0925	EVENT				FE_ROAD010_2_IAIGIRI_01_INIT_road010_2
+	0x0926	EVENT				FE_ROAD010_2_IAIGIRI_02_INIT_road010_2
+	0x0927	EVENT				FE_ROAD025_IAIGIRI_01_INIT_road025
+	0x0928	EVENT				FE_TOWN004_IAIGIRI_01_INIT_town004
+	0x0929	EVENT				FE_TOWN007_IAIGIRI_01_INIT_town007
+	0x092A	EVENT				FE_TOWN007_IAIGIRI_02_INIT_town007
+	0x092B	EVENT				FE_TOWN007_IAIGIRI_03_INIT_town007
+	0x092C	EVENT				FE_ROAD008_IAIGIRI_01_INIT_road008
+	0x092D	EVENT				FE_ROAD008_IAIGIRI_02_INIT_road008
+	0x092E	EVENT				FE_ROAD012_IAIGIRI_01_INIT_road012
+	0x092F	EVENT				FE_ROAD012_IAIGIRI_02_INIT_road012
+	0x0930	EVENT				FE_ROAD012_IAIGIRI_03_INIT_road012
+	0x0931	EVENT				FE_ROAD015_1_IAIGIRI_01_INIT_road015_1
+	0x0932	EVENT				FE_ROAD015_1_IAIGIRI_02_INIT_road015_1
+	0x0933	EVENT				FE_TOWN006_IAIGIRI_01_INIT_town006
+	0x0934	EVENT				FE_T006R0308_IAIGIRI_01_INIT_t006r0308
 	0x0935					FE_T002GYM0_TRID_BEAST_06
 	0x0936					FE_SUB_87_CLEAR
 	0x0937					FE_MAIN_1510_IN
@@ -3710,19 +3710,19 @@
 	0x0E7D					
 	0x0E7E					
 	0x0E7F					
-	0x0E80					
-	0x0E81					
+	0x0E80	TRAINER BATTLE	Vermilion City	Harbor	Pokémon Trainer Mina (Daily Rematch)	
+	0x0E81	EVENT	Pewter City	PokéCenter	Buy Pewter Crunchies (Daily)	
 	0x0E82					
-	0x0E83					
-	0x0E84					
-	0x0E85					
-	0x0E86					
-	0x0E87					
-	0x0E88					
-	0x0E89					
-	0x0E8A					
-	0x0E8B					
-	0x0E8C					
+	0x0E83	TRAINER BATTLE	Pewter City	Gym	Gym Leader Brock (Daily Rematch)	
+	0x0E84	TRAINER BATTLE	Cerulean City	Gym	Gym Leader Misty (Daily Rematch)	
+	0x0E85	TRAINER BATTLE	Vermilion City	Gym	Gym Leader Lt. Surge (Daily Rematch)	
+	0x0E86	TRAINER BATTLE	Celadon City	Gym	Gym Leader Erika (Daily Rematch)	
+	0x0E87	TRAINER BATTLE	Fuchsia City	Gym	Gym Leader Koga (Daily Rematch)	
+	0x0E88	TRAINER BATTLE	Saffron City	Gym	Gym Leader Sabrina (Daily Rematch)	
+	0x0E89	TRAINER BATTLE	Cinnabar Island	Gym	Gym Leader Blaine (Daily Rematch)	
+	0x0E8A	TRAINER BATTLE	Viridian City	Gym	Gym Leader Blue (Daily Rematch)	
+	0x0E8B	GIFT	Fuchsia City	Safari Zones Warden's House	Nugget from Diglett (Daily)	
+	0x0E8C	GIFT	Pewter City		Big Pearl from woman for looking after Slowpoke (Daily)	
 	0x0E8D					
 	0x0E8E					
 	0x0E8F					
