@@ -9,11 +9,14 @@ namespace MissingEventFlagsCheckerPlugin
 {
     internal class FlagsGen1Y : FlagsOrganizer
     {
+        static string s_flagsList_res = null;
+
         bool[] m_eventFlags;
         bool[] m_obtainedHiddenCoinsFlags;
         bool[] m_obtainedHiddenItemsFlags;
         bool[] m_missableObjectFlags;
         bool[] m_completedInGameTradeFlags;
+        bool[] m_miscFlags;
         bool m_gotLaprasFlag;
 
 
@@ -69,9 +72,40 @@ namespace MissingEventFlagsCheckerPlugin
 
             // wEventFlags
             m_eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
+
+
+            // Misc flags
+            result = new bool[] { m_gotLaprasFlag };
+            m_miscFlags = result;
+
             m_eventFlagsList.Clear();
 
-            AssembleFlagsList();
+            //AssembleFlagsList();
+
+#if DEBUG
+            // Force refresh
+            s_flagsList_res = null;
+#endif
+
+            if (s_flagsList_res == null)
+            {
+                s_flagsList_res = ReadFlagsListRes("flags_gen1y.txt");
+            }
+
+            int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
+            int idxHideShowSection = s_flagsList_res.IndexOf("//\tHide-Show Flags");
+            int idxHiddenItemsSection = s_flagsList_res.IndexOf("//\tHidden Items Flags");
+            int idxHiddenCoinsSection = s_flagsList_res.IndexOf("//\tHidden Coins Flags");
+            int idxTradesSection = s_flagsList_res.IndexOf("//\tIn-Game Trades Flags");
+            int idxMiscSection = s_flagsList_res.IndexOf("//\tMisc");
+
+
+            AssembleList(s_flagsList_res.Substring(idxHideShowSection), m_missableObjectFlags);
+            AssembleList(s_flagsList_res.Substring(idxHiddenItemsSection), m_obtainedHiddenItemsFlags);
+            AssembleList(s_flagsList_res.Substring(idxHiddenCoinsSection), m_obtainedHiddenCoinsFlags);
+            AssembleList(s_flagsList_res.Substring(idxTradesSection), m_completedInGameTradeFlags);
+            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), m_eventFlags);
+            AssembleList(s_flagsList_res.Substring(idxMiscSection), m_miscFlags);
         }
 
         public override bool SupportsEditingFlag(FlagType flagType)
