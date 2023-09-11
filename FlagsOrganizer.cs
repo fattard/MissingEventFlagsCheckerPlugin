@@ -263,7 +263,7 @@ namespace MissingEventFlagsCheckerPlugin
 
                     do
                     {
-                        if (!string.IsNullOrWhiteSpace(s) && !s.StartsWith("//"))
+                        if (!string.IsNullOrWhiteSpace(s))
                         {
                             // End of section
                             if (s.StartsWith("//"))
