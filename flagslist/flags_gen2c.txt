@@ -1,3 +1,4 @@
+//	Event Flags					wEventFlags
 0x0000	EVENT					EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 0x0001	EVENT					EVENT_TEMPORARY_UNTIL_MAP_RELOAD_2
 0x0002	EVENT					EVENT_TEMPORARY_UNTIL_MAP_RELOAD_3
@@ -6,44 +7,44 @@
 0x0005	EVENT					EVENT_TEMPORARY_UNTIL_MAP_RELOAD_6
 0x0006	EVENT					EVENT_TEMPORARY_UNTIL_MAP_RELOAD_7
 0x0007	EVENT					EVENT_TEMPORARY_UNTIL_MAP_RELOAD_8
-0x0008	GIFT	Violet City	Gym	Receive TM31 (Mud Slap) from Leader Falkner		EVENT_GOT_TM31_MUD_SLAP
-0x0009	GIFT	Azalea Town	Gym	Receive TM49 (Fury Cutter) from Leader Bugsy		EVENT_GOT_TM49_FURY_CUTTER
-0x000A	GIFT	Cianwood City	Gym	Receive TM01 (Dynamic Punch) from Leader Chuck		EVENT_GOT_TM01_DYNAMICPUNCH
-0x000B	GIFT	Goldenrod City	Gym	Receive TM45 (Attract) from Leader Whitney		EVENT_GOT_TM45_ATTRACT
-0x000C	GIFT	Ecruteak City	Gym	Receive TM30 (Shadow Ball) from Leader Morty		EVENT_GOT_TM30_SHADOW_BALL
-0x000D	GIFT	Olivine City	Gym	Receive TM23 (Iron Tail) from Leader Jasmine		EVENT_GOT_TM23_IRON_TAIL
-0x000E	GIFT	Mahogany Town	Gym	Receive TM16 (Icy Wind) from Leader Pryce		EVENT_GOT_TM16_ICY_WIND
-0x000F	GIFT	Blackthorn City	Gym	Receive TM24 (Dragon Breath) from Leader Clair		EVENT_GOT_TM24_DRAGONBREATH
-0x0010	GIFT	Ilex Forest		Receive HM01 (Cut) from guy		EVENT_GOT_HM01_CUT
-0x0011	GIFT	Cianwood City		Receive HM02 (Fly) from woman		EVENT_GOT_HM02_FLY
-0x0012	GIFT	Ecruteak City	Dance Theater	Receive HM03 (Surf) from old man		EVENT_GOT_HM03_SURF
-0x0013	GIFT	Olivine City	House	Receive HM04 (Strength) from man		EVENT_GOT_HM04_STRENGTH
-0x0014	GIFT	Sprout Tower	3F	Receive HM05 (Flash) from Sage Li		EVENT_GOT_HM05_FLASH
-0x0015	GIFT	Team Rocket HQ	B2F	Receive HM06 (Whirlpool) from Lance		EVENT_GOT_HM06_WHIRLPOOL
+0x0008	ITEM GIFT	Violet City	Gym	Receive TM31 (Mud Slap) from Leader Falkner		EVENT_GOT_TM31_MUD_SLAP
+0x0009	ITEM GIFT	Azalea Town	Gym	Receive TM49 (Fury Cutter) from Leader Bugsy		EVENT_GOT_TM49_FURY_CUTTER
+0x000A	ITEM GIFT	Cianwood City	Gym	Receive TM01 (Dynamic Punch) from Leader Chuck		EVENT_GOT_TM01_DYNAMICPUNCH
+0x000B	ITEM GIFT	Goldenrod City	Gym	Receive TM45 (Attract) from Leader Whitney		EVENT_GOT_TM45_ATTRACT
+0x000C	ITEM GIFT	Ecruteak City	Gym	Receive TM30 (Shadow Ball) from Leader Morty		EVENT_GOT_TM30_SHADOW_BALL
+0x000D	ITEM GIFT	Olivine City	Gym	Receive TM23 (Iron Tail) from Leader Jasmine		EVENT_GOT_TM23_IRON_TAIL
+0x000E	ITEM GIFT	Mahogany Town	Gym	Receive TM16 (Icy Wind) from Leader Pryce		EVENT_GOT_TM16_ICY_WIND
+0x000F	ITEM GIFT	Blackthorn City	Gym	Receive TM24 (Dragon Breath) from Leader Clair		EVENT_GOT_TM24_DRAGONBREATH
+0x0010	ITEM GIFT	Ilex Forest		Receive HM01 (Cut) from guy		EVENT_GOT_HM01_CUT
+0x0011	ITEM GIFT	Cianwood City		Receive HM02 (Fly) from woman		EVENT_GOT_HM02_FLY
+0x0012	ITEM GIFT	Ecruteak City	Dance Theater	Receive HM03 (Surf) from old man		EVENT_GOT_HM03_SURF
+0x0013	ITEM GIFT	Olivine City	House	Receive HM04 (Strength) from man		EVENT_GOT_HM04_STRENGTH
+0x0014	ITEM GIFT	Sprout Tower	3F	Receive HM05 (Flash) from Sage Li		EVENT_GOT_HM05_FLASH
+0x0015	ITEM GIFT	Team Rocket HQ	B2F	Receive HM06 (Whirlpool) from Lance		EVENT_GOT_HM06_WHIRLPOOL
 0x0016	_UNUSED					
-0x0017	GIFT	Route 32	Pokémon Center	Receive Old Rod from man		EVENT_GOT_OLD_ROD
-0x0018	GIFT	Olivine City	House	Receive Good Rod from sailor		EVENT_GOT_GOOD_ROD
-0x0019	GIFT	Route 12	House	Receive Super Rod from fisherman		EVENT_GOT_SUPER_ROD
+0x0017	ITEM GIFT	Route 32	Pokémon Center	Receive Old Rod from man		EVENT_GOT_OLD_ROD
+0x0018	ITEM GIFT	Olivine City	House	Receive Good Rod from sailor		EVENT_GOT_GOOD_ROD
+0x0019	ITEM GIFT	Route 12	House	Receive Super Rod from fisherman		EVENT_GOT_SUPER_ROD
 0x001A	STORY EVENT	New Bark Town	Elm's Lab	Choose Starter		EVENT_GOT_A_POKEMON_FROM_ELM
 0x001B	EVENT			GOT_CYNDAQUIL_FROM_ELM		EVENT_GOT_CYNDAQUIL_FROM_ELM
 0x001C	EVENT			GOT_TOTODILE_FROM_ELM		EVENT_GOT_TOTODILE_FROM_ELM
 0x001D	EVENT			GOT_CHIKORITA_FROM_ELM		EVENT_GOT_CHIKORITA_FROM_ELM
-0x001E	GIFT	Route 30	Mr. Pokémon's House	Receive Mystery Egg from Mr. Pokémon		EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
+0x001E	ITEM GIFT	Route 30	Mr. Pokémon's House	Receive Mystery Egg from Mr. Pokémon		EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
 0x001F	EVENT			GAVE_MYSTERY_EGG_TO_ELM		EVENT_GAVE_MYSTERY_EGG_TO_ELM
 0x0020	EVENT			JASMINE_RETURNED_TO_GYM		EVENT_JASMINE_RETURNED_TO_GYM
 0x0021	EVENT			CLEARED_RADIO_TOWER		EVENT_CLEARED_RADIO_TOWER
 0x0022	EVENT			CLEARED_ROCKET_HIDEOUT		EVENT_CLEARED_ROCKET_HIDEOUT
-0x0023	GIFT	Cianwood City	Pharmacy	Receive Secret Potion		EVENT_GOT_SECRETPOTION_FROM_PHARMACY
-0x0024	GIFT	New Bark Town	Elm's Lab	Receive SS. Ticket from Elm		EVENT_GOT_SS_TICKET_FROM_ELM
+0x0023	ITEM GIFT	Cianwood City	Pharmacy	Receive Secret Potion		EVENT_GOT_SECRETPOTION_FROM_PHARMACY
+0x0024	ITEM GIFT	New Bark Town	Elm's Lab	Receive SS. Ticket from Elm		EVENT_GOT_SS_TICKET_FROM_ELM
 0x0025	EVENT			USED_THE_CARD_KEY_IN_THE_RADIO_TOWER		EVENT_USED_THE_CARD_KEY_IN_THE_RADIO_TOWER
 0x0026	EVENT			REFUSED_TO_HELP_LANCE_AT_LAKE_OF_RAGE		EVENT_REFUSED_TO_HELP_LANCE_AT_LAKE_OF_RAGE
-0x0027	GIFT	Route 30	House	Receive Berry from guy		EVENT_GOT_BERRY_FROM_ROUTE_30_HOUSE
+0x0027	ITEM GIFT	Route 30	House	Receive Berry from guy		EVENT_GOT_BERRY_FROM_ROUTE_30_HOUSE
 0x0028	EVENT			MADE_WHITNEY_CRY		EVENT_MADE_WHITNEY_CRY
 0x0029	EVENT			HERDED_FARFETCHD		EVENT_HERDED_FARFETCHD
 0x002A	STATIC BATTLE	Route 36		Capture/Defeat Sudowoodo		EVENT_FOUGHT_SUDOWOODO
 0x002B	EVENT			CLEARED_SLOWPOKE_WELL		EVENT_CLEARED_SLOWPOKE_WELL
 0x002C	EVENT			REFUSED_TO_TAKE_EGG_FROM_ELMS_AIDE		EVENT_REFUSED_TO_TAKE_EGG_FROM_ELMS_AIDE
-0x002D	GIFT	Violet City	Pokémon Center	Receive Togepi Egg from Oak's Aide		EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+0x002D	ITEM GIFT	Violet City	Pokémon Center	Receive Togepi Egg from Oak's Aide		EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
 0x002E	EVENT			MADE_UNOWN_APPEAR_IN_RUINS		EVENT_MADE_UNOWN_APPEAR_IN_RUINS
 0x002F	EVENT			FAST_SHIP_DESTINATION_OLIVINE		EVENT_FAST_SHIP_DESTINATION_OLIVINE
 0x0030	EVENT			FAST_SHIP_FIRST_TIME		EVENT_FAST_SHIP_FIRST_TIME
@@ -51,85 +52,85 @@
 0x0032	EVENT			FAST_SHIP_FOUND_GIRL		EVENT_FAST_SHIP_FOUND_GIRL
 0x0033	EVENT			FAST_SHIP_LAZY_SAILOR		EVENT_FAST_SHIP_LAZY_SAILOR
 0x0034	EVENT			FAST_SHIP_INFORMED_ABOUT_LAZY_SAILOR		EVENT_FAST_SHIP_INFORMED_ABOUT_LAZY_SAILOR
-0x0035	GIFT	Azalea Town	Kurt's House	Receive Lure Ball from Kurt		EVENT_KURT_GAVE_YOU_LURE_BALL
+0x0035	ITEM GIFT	Azalea Town	Kurt's House	Receive Lure Ball from Kurt		EVENT_KURT_GAVE_YOU_LURE_BALL
 0x0036	EVENT			INITIALIZED_EVENTS		EVENT_INITIALIZED_EVENTS
 0x0037	EVENT			JASMINE_EXPLAINED_AMPHYS_SICKNESS		EVENT_JASMINE_EXPLAINED_AMPHYS_SICKNESS
 0x0038	EVENT			LAKE_OF_RAGE_EXPLAINED_WEIRD_MAGIKARP		EVENT_LAKE_OF_RAGE_EXPLAINED_WEIRD_MAGIKARP
 0x0039	EVENT			LAKE_OF_RAGE_ASKED_FOR_MAGIKARP		EVENT_LAKE_OF_RAGE_ASKED_FOR_MAGIKARP
 0x003A	EVENT	Lake of Rage	Fishing Guru's House	LAKE_OF_RAGE_ELIXIR_ON_STANDBY		EVENT_LAKE_OF_RAGE_ELIXIR_ON_STANDBY
-0x003B	_UNUSED					const_skip ; unused
-0x003C	_UNUSED					const_skip ; unused
+0x003B	_UNUSED					
+0x003C	_UNUSED					
 0x003D	SIDE EVENT	Route 39	Moomoo Farm	Heal Moomoo		EVENT_HEALED_MOOMOO
-0x003E	GIFT	Route 39	Moomoo Farm	Receive TM13 (Snore) from farm's owner		EVENT_GOT_TM13_SNORE_FROM_MOOMOO_FARM
+0x003E	ITEM GIFT	Route 39	Moomoo Farm	Receive TM13 (Snore) from farm's owner		EVENT_GOT_TM13_SNORE_FROM_MOOMOO_FARM
 0x003F	EVENT			TALKED_TO_FARMER_ABOUT_MOOMOO		EVENT_TALKED_TO_FARMER_ABOUT_MOOMOO
 0x0040	EVENT			TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST		EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
 0x0041	EVENT			DUDE_TALKED_TO_YOU		EVENT_DUDE_TALKED_TO_YOU
 0x0042	EVENT			LEARNED_TO_CATCH_POKEMON		EVENT_LEARNED_TO_CATCH_POKEMON
 0x0043	EVENT			ELM_CALLED_ABOUT_STOLEN_POKEMON		EVENT_ELM_CALLED_ABOUT_STOLEN_POKEMON
 0x0044	EVENT			BEAT_ELITE_FOUR		EVENT_BEAT_ELITE_FOUR
-0x0045	GIFT	Cianwood City	Mania's House	Receive SHUCKIE (Shuckle) from Mania		EVENT_GOT_SHUCKIE
+0x0045	PKMN GIFT	Cianwood City	Mania's House	Receive SHUCKIE (Shuckle) from Mania		EVENT_GOT_SHUCKIE
 0x0046	SIDE EVENT	Cianwood City	Mania's House	Bring SHUCKIE back to Mania		EVENT_MANIA_TOOK_SHUCKIE_OR_LET_YOU_KEEP_HIM
-0x0047	GIFT	Radio Tower	3F	Receive TM11 (Sunny Day) from woman		EVENT_GOT_SUNNY_DAY_FROM_RADIO_TOWER
-0x0048	GIFT	Radio Tower	4F	Receive Pink Bow from Mary		EVENT_GOT_PINK_BOW_FROM_MARY
+0x0047	ITEM GIFT	Radio Tower	3F	Receive TM11 (Sunny Day) from woman		EVENT_GOT_SUNNY_DAY_FROM_RADIO_TOWER
+0x0048	ITEM GIFT	Radio Tower	4F	Receive Pink Bow from Mary		EVENT_GOT_PINK_BOW_FROM_MARY
 0x0049	EVENT			USED_BASEMENT_KEY		EVENT_USED_BASEMENT_KEY
-0x004A	GIFT	Goldenrod City	Underground	RECEIVED_CARD_KEY		EVENT_RECEIVED_CARD_KEY
-0x004B	GIFT	Route 36		Receive TM08 (Rock Smash) from man		EVENT_GOT_TM08_ROCK_SMASH
+0x004A	ITEM GIFT	Goldenrod City	Underground	RECEIVED_CARD_KEY		EVENT_RECEIVED_CARD_KEY
+0x004B	ITEM GIFT	Route 36		Receive TM08 (Rock Smash) from man		EVENT_GOT_TM08_ROCK_SMASH
 0x004C	EVENT			LANCE_HEALED_YOU_IN_TEAM_ROCKET_BASE		EVENT_LANCE_HEALED_YOU_IN_TEAM_ROCKET_BASE
-0x004D	GIFT	Cherrygrove City		GOT_MYSTIC_WATER_IN_CHERRYGROVE		EVENT_GOT_MYSTIC_WATER_IN_CHERRYGROVE
-0x004E	GIFT	Route 32		GOT_TM05_ROAR		EVENT_GOT_TM05_ROAR
-0x004F	GIFT	Goldenrod City	Bill's House	Receive Eevee from Bill		EVENT_GOT_EEVEE
-0x0050	GIFT	Route 35	South Gate	Receive KENYA (Spearow) from Randy		EVENT_GOT_KENYA
+0x004D	ITEM GIFT	Cherrygrove City		GOT_MYSTIC_WATER_IN_CHERRYGROVE		EVENT_GOT_MYSTIC_WATER_IN_CHERRYGROVE
+0x004E	ITEM GIFT	Route 32		GOT_TM05_ROAR		EVENT_GOT_TM05_ROAR
+0x004F	PKMN GIFT	Goldenrod City	Bill's House	Receive Eevee from Bill		EVENT_GOT_EEVEE
+0x0050	PKMN GIFT	Route 35	South Gate	Receive KENYA (Spearow) from Randy		EVENT_GOT_KENYA
 0x0051	EVENT			GAVE_KENYA		EVENT_GAVE_KENYA
-0x0052	GIFT	Route 35	South Gate	Receive HP Up from Randy		EVENT_GOT_HP_UP_FROM_RANDY
-0x0053	GIFT	Route 31		Receive TM50 (Nightmare) from Randy's friend		EVENT_GOT_TM50_NIGHTMARE
+0x0052	ITEM GIFT	Route 35	South Gate	Receive HP Up from Randy		EVENT_GOT_HP_UP_FROM_RANDY
+0x0053	ITEM GIFT	Route 31		Receive TM50 (Nightmare) from Randy's friend		EVENT_GOT_TM50_NIGHTMARE
 0x0054	EVENT			TOGEPI_HATCHED		EVENT_TOGEPI_HATCHED
 0x0055	EVENT			SHOWED_TOGEPI_TO_ELM		EVENT_SHOWED_TOGEPI_TO_ELM
-0x0056	GIFT	New Bark Town	Elm's Lab	Receive Everstone from Elm		EVENT_GOT_EVERSTONE_FROM_ELM
-0x0057	GIFT	National Park		Receive Quick Claw from woman		EVENT_GOT_QUICK_CLAW
-0x0058	GIFT	Lake of Rage		GOT_TM10_HIDDEN_POWER		EVENT_GOT_TM10_HIDDEN_POWER
-0x0059	GIFT	Route 43		GOT_TM36_SLUDGE_BOMB		EVENT_GOT_TM36_SLUDGE_BOMB
-0x005A	GIFT	Ecruteak City		GOT_ITEMFINDER		EVENT_GOT_ITEMFINDER
-0x005B	GIFT	Goldenrod City	Bike Shop	Receive Bicycle from shop owner		EVENT_GOT_BICYCLE
-0x005C	GIFT	Goldenrod City	Flower Shop	Receive Squirt Bottle from girl		EVENT_GOT_SQUIRTBOTTLE
-0x005D	GIFT	Route 32		GOT_MIRACLE_SEED_IN_ROUTE_32		EVENT_GOT_MIRACLE_SEED_IN_ROUTE_32
-0x005E	GIFT	Azalea Town	House	Receive Charcoal from charcoal maker's assistant		EVENT_GOT_CHARCOAL_IN_CHARCOAL_KILN
-0x005F	GIFT	Ilex Forest		GOT_TM02_HEADBUTT		EVENT_GOT_TM02_HEADBUTT
+0x0056	ITEM GIFT	New Bark Town	Elm's Lab	Receive Everstone from Elm		EVENT_GOT_EVERSTONE_FROM_ELM
+0x0057	ITEM GIFT	National Park		Receive Quick Claw from woman		EVENT_GOT_QUICK_CLAW
+0x0058	ITEM GIFT	Lake of Rage		GOT_TM10_HIDDEN_POWER		EVENT_GOT_TM10_HIDDEN_POWER
+0x0059	ITEM GIFT	Route 43		GOT_TM36_SLUDGE_BOMB		EVENT_GOT_TM36_SLUDGE_BOMB
+0x005A	ITEM GIFT	Ecruteak City		GOT_ITEMFINDER		EVENT_GOT_ITEMFINDER
+0x005B	ITEM GIFT	Goldenrod City	Bike Shop	Receive Bicycle from shop owner		EVENT_GOT_BICYCLE
+0x005C	ITEM GIFT	Goldenrod City	Flower Shop	Receive Squirt Bottle from girl		EVENT_GOT_SQUIRTBOTTLE
+0x005D	ITEM GIFT	Route 32		GOT_MIRACLE_SEED_IN_ROUTE_32		EVENT_GOT_MIRACLE_SEED_IN_ROUTE_32
+0x005E	ITEM GIFT	Azalea Town	House	Receive Charcoal from charcoal maker's assistant		EVENT_GOT_CHARCOAL_IN_CHARCOAL_KILN
+0x005F	ITEM GIFT	Ilex Forest		GOT_TM02_HEADBUTT		EVENT_GOT_TM02_HEADBUTT
 0x0060	EVENT			DECIDED_TO_HELP_LANCE		EVENT_DECIDED_TO_HELP_LANCE
-0x0061	GIFT	Mt. Mortar		Receive Tyrogue from Karate King		EVENT_GOT_TYROGUE_FROM_KIYO
+0x0061	PKMN GIFT	Mt. Mortar		Receive Tyrogue from Karate King		EVENT_GOT_TYROGUE_FROM_KIYO
 0x0062	EVENT			MET_FRIEDA_OF_FRIDAY		EVENT_MET_FRIEDA_OF_FRIDAY
-0x0063	GIFT	Route 32		Receive Poison Barb from Frieda (Friday)		EVENT_GOT_POISON_BARB_FROM_FRIEDA
+0x0063	ITEM GIFT	Route 32		Receive Poison Barb from Frieda (Friday)		EVENT_GOT_POISON_BARB_FROM_FRIEDA
 0x0064	EVENT			MET_TUSCANY_OF_TUESDAY		EVENT_MET_TUSCANY_OF_TUESDAY
-0x0065	GIFT	Route 29		Receive Pink Bow from Tuscany (Tuesday)		EVENT_GOT_PINK_BOW_FROM_TUSCANY
+0x0065	ITEM GIFT	Route 29		Receive Pink Bow from Tuscany (Tuesday)		EVENT_GOT_PINK_BOW_FROM_TUSCANY
 0x0066	EVENT			MET_ARTHUR_OF_THURSDAY		EVENT_MET_ARTHUR_OF_THURSDAY
-0x0067	GIFT	Route 36		Receive Hard Stone from Arthur (Thursday)		EVENT_GOT_HARD_STONE_FROM_ARTHUR
+0x0067	ITEM GIFT	Route 36		Receive Hard Stone from Arthur (Thursday)		EVENT_GOT_HARD_STONE_FROM_ARTHUR
 0x0068	EVENT			MET_SUNNY_OF_SUNDAY		EVENT_MET_SUNNY_OF_SUNDAY
-0x0069	GIFT	Route 37		Receive Magnet from Sunny (Sunday)		EVENT_GOT_MAGNET_FROM_SUNNY
+0x0069	ITEM GIFT	Route 37		Receive Magnet from Sunny (Sunday)		EVENT_GOT_MAGNET_FROM_SUNNY
 0x006A	EVENT			MET_WESLEY_OF_WEDNESDAY		EVENT_MET_WESLEY_OF_WEDNESDAY
-0x006B	GIFT	Lake of Rage		Receive Blackbelt from Wesley (Wednesday)		EVENT_GOT_BLACKBELT_FROM_WESLEY
+0x006B	ITEM GIFT	Lake of Rage		Receive Blackbelt from Wesley (Wednesday)		EVENT_GOT_BLACKBELT_FROM_WESLEY
 0x006C	EVENT			MET_SANTOS_OF_SATURDAY		EVENT_MET_SANTOS_OF_SATURDAY
-0x006D	GIFT	Blackthorn City		Receive Spell Tag from Santos (Saturday)		EVENT_GOT_SPELL_TAG_FROM_SANTOS
+0x006D	ITEM GIFT	Blackthorn City		Receive Spell Tag from Santos (Saturday)		EVENT_GOT_SPELL_TAG_FROM_SANTOS
 0x006E	EVENT			MET_MONICA_OF_MONDAY		EVENT_MET_MONICA_OF_MONDAY
-0x006F	GIFT	Route 40		Receive Sharp Beak from Monica (Monday)		EVENT_GOT_SHARP_BEAK_FROM_MONICA
-0x0070	GIFT	Route 34		Receive Soft Sand from Kate		EVENT_GOT_SOFT_SAND_FROM_KATE
-0x0071	GIFT	SS. Aqua		Receive Metal Coat from grandpa		EVENT_GOT_METAL_COAT_FROM_GRANDPA_ON_SS_AQUA
-0x0072	GIFT	Dark Cave		GOT_BLACKGLASSES_IN_DARK_CAVE		EVENT_GOT_BLACKGLASSES_IN_DARK_CAVE
-0x0073	GIFT	Slowpoke Well		GOT_KINGS_ROCK_IN_SLOWPOKE_WELL		EVENT_GOT_KINGS_ROCK_IN_SLOWPOKE_WELL
-0x0074	GIFT	Route 28		GOT_TM47_STEEL_WING		EVENT_GOT_TM47_STEEL_WING
-0x0075	GIFT	Tohjo Falls		GOT_TM37_SANDSTORM		EVENT_GOT_TM37_SANDSTORM
+0x006F	ITEM GIFT	Route 40		Receive Sharp Beak from Monica (Monday)		EVENT_GOT_SHARP_BEAK_FROM_MONICA
+0x0070	ITEM GIFT	Route 34		Receive Soft Sand from Kate		EVENT_GOT_SOFT_SAND_FROM_KATE
+0x0071	ITEM GIFT	SS. Aqua		Receive Metal Coat from grandpa		EVENT_GOT_METAL_COAT_FROM_GRANDPA_ON_SS_AQUA
+0x0072	ITEM GIFT	Dark Cave		GOT_BLACKGLASSES_IN_DARK_CAVE		EVENT_GOT_BLACKGLASSES_IN_DARK_CAVE
+0x0073	ITEM GIFT	Slowpoke Well		GOT_KINGS_ROCK_IN_SLOWPOKE_WELL		EVENT_GOT_KINGS_ROCK_IN_SLOWPOKE_WELL
+0x0074	ITEM GIFT	Route 28		GOT_TM47_STEEL_WING		EVENT_GOT_TM47_STEEL_WING
+0x0075	ITEM GIFT	Tohjo Falls		GOT_TM37_SANDSTORM		EVENT_GOT_TM37_SANDSTORM
 0x0076	EVENT			FIRST_TIME_BANKING_WITH_MOM		EVENT_FIRST_TIME_BANKING_WITH_MOM
 0x0077	EVENT			TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE		EVENT_TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE
-0x0078	GIFT			GOT_CLEAR_BELL		EVENT_GOT_CLEAR_BELL
-0x0079	GIFT			GOT_SILVER_WING		EVENT_GOT_SILVER_WING
-0x007A	GIFT	Ilex Forest		GOT_TM12_SWEET_SCENT		EVENT_GOT_TM12_SWEET_SCENT
+0x0078	ITEM GIFT			GOT_CLEAR_BELL		EVENT_GOT_CLEAR_BELL
+0x0079	ITEM GIFT			GOT_SILVER_WING		EVENT_GOT_SILVER_WING
+0x007A	ITEM GIFT	Ilex Forest		GOT_TM12_SWEET_SCENT		EVENT_GOT_TM12_SWEET_SCENT
 0x007B	SIDE EVENT	Ecruteak City	Burned Tower	Release the Beasts		EVENT_RELEASED_THE_BEASTS
-0x007C	GIFT	New Bark Town	Elm's Lab	Receive Master Ball from Elm		EVENT_GOT_MASTER_BALL_FROM_ELM
+0x007C	ITEM GIFT	New Bark Town	Elm's Lab	Receive Master Ball from Elm		EVENT_GOT_MASTER_BALL_FROM_ELM
 0x007D	HIDDEN ITEM	Tin Tower		TIN_TOWER_4F_HIDDEN_MAX_POTION		EVENT_TIN_TOWER_4F_HIDDEN_MAX_POTION
 0x007E	HIDDEN ITEM	Tin Tower		TIN_TOWER_5F_HIDDEN_FULL_RESTORE		EVENT_TIN_TOWER_5F_HIDDEN_FULL_RESTORE
 0x007F	HIDDEN ITEM	Tin Tower		TIN_TOWER_5F_HIDDEN_CARBOS		EVENT_TIN_TOWER_5F_HIDDEN_CARBOS
 0x0080	HIDDEN ITEM	Burned Tower		BURNED_TOWER_1F_HIDDEN_ETHER		EVENT_BURNED_TOWER_1F_HIDDEN_ETHER
-0x0081	_UNUSED					const_skip ; unused in Crystal
-0x0082	_UNUSED					const_skip ; unused in Crystal
-0x0083	_UNUSED					const_skip ; unused in Crystal
+0x0081	_UNUSED					
+0x0082	_UNUSED					
+0x0083	_UNUSED					
 0x0084	HIDDEN ITEM	National Park		NATIONAL_PARK_HIDDEN_FULL_HEAL		EVENT_NATIONAL_PARK_HIDDEN_FULL_HEAL
 0x0085	HIDDEN ITEM	Olivine City		OLIVINE_LIGHTHOUSE_5F_HIDDEN_HYPER_POTION		EVENT_OLIVINE_LIGHTHOUSE_5F_HIDDEN_HYPER_POTION
 0x0086	HIDDEN ITEM	Team Rocket HQ		TEAM_ROCKET_BASE_B1F_HIDDEN_REVIVE		EVENT_TEAM_ROCKET_BASE_B1F_HIDDEN_REVIVE
@@ -140,8 +141,8 @@
 0x008B	HIDDEN ITEM	Goldenrod City		GOLDENROD_UNDERGROUND_HIDDEN_PARLYZ_HEAL		EVENT_GOLDENROD_UNDERGROUND_HIDDEN_PARLYZ_HEAL
 0x008C	HIDDEN ITEM	Goldenrod City		GOLDENROD_UNDERGROUND_HIDDEN_SUPER_POTION		EVENT_GOLDENROD_UNDERGROUND_HIDDEN_SUPER_POTION
 0x008D	HIDDEN ITEM	Goldenrod City		GOLDENROD_UNDERGROUND_HIDDEN_ANTIDOTE		EVENT_GOLDENROD_UNDERGROUND_HIDDEN_ANTIDOTE
-0x008E	HIDDEN ITEM	Goldenrod City		GOLDENROD_UNDERGROUND_SWITCH_ROOM_ENTRANCES_HIDDEN_MAX_POTION		EVENT_GOLDENROD_UNDERGROUND_SWITCH_ROOM_ENTRANCES_HIDDEN_MAX_P
-0x008F	HIDDEN ITEM	Goldenrod City		GOLDENROD_UNDERGROUND_SWITCH_ROOM_ENTRANCES_HIDDEN_REVIVE		EVENT_GOLDENROD_UNDERGROUND_SWITCH_ROOM_ENTRANCES_HIDDEN_REVIV
+0x008E	HIDDEN ITEM	Goldenrod City		GOLDENROD_UNDERGROUND_SWITCH_ROOM_ENTRANCES_HIDDEN_MAX_POTION		EVENT_GOLDENROD_UNDERGROUND_SWITCH_ROOM_ENTRANCES_HIDDEN_MAX_POTION
+0x008F	HIDDEN ITEM	Goldenrod City		GOLDENROD_UNDERGROUND_SWITCH_ROOM_ENTRANCES_HIDDEN_REVIVE		EVENT_GOLDENROD_UNDERGROUND_SWITCH_ROOM_ENTRANCES_HIDDEN_REVIVE
 0x0090	HIDDEN ITEM	Mt. Mortar		MOUNT_MORTAR_1F_OUTSIDE_HIDDEN_HYPER_POTION		EVENT_MOUNT_MORTAR_1F_OUTSIDE_HIDDEN_HYPER_POTION
 0x0091	HIDDEN ITEM	Mt. Mortar		MOUNT_MORTAR_1F_INSIDE_HIDDEN_MAX_REPEL		EVENT_MOUNT_MORTAR_1F_INSIDE_HIDDEN_MAX_REPEL
 0x0092	HIDDEN ITEM	Mt. Mortar		MOUNT_MORTAR_2F_INSIDE_HIDDEN_FULL_RESTORE		EVENT_MOUNT_MORTAR_2F_INSIDE_HIDDEN_FULL_RESTORE
@@ -187,7 +188,7 @@
 0x00BA	EVENT			TALKED_TO_FLORIA_AT_FLOWER_SHOP		EVENT_TALKED_TO_FLORIA_AT_FLOWER_SHOP
 0x00BB	EVENT			BUGGING_KURT_TOO_MUCH		EVENT_BUGGING_KURT_TOO_MUCH
 0x00BC	EVENT			TALKED_TO_RUINS_COWARD		EVENT_TALKED_TO_RUINS_COWARD
-0x00BD	GIFT			GOT_DRATINI		EVENT_GOT_DRATINI
+0x00BD	PKMN GIFT			GOT_DRATINI		EVENT_GOT_DRATINI
 0x00BE	EVENT			CAN_GIVE_GS_BALL_TO_KURT		EVENT_CAN_GIVE_GS_BALL_TO_KURT
 0x00BF	EVENT			GAVE_GS_BALL_TO_KURT		EVENT_GAVE_GS_BALL_TO_KURT
 0x00C0	EVENT			FOREST_IS_RESTLESS		EVENT_FOREST_IS_RESTLESS
@@ -198,17 +199,17 @@
 0x00C5	_UNUSED					
 0x00C6	_UNUSED					
 0x00C7	_UNUSED					
-0x00C8	GIFT	Route 25		GOT_NUGGET_FROM_GUY		EVENT_GOT_NUGGET_FROM_GUY
+0x00C8	ITEM GIFT	Route 25		GOT_NUGGET_FROM_GUY		EVENT_GOT_NUGGET_FROM_GUY
 0x00C9	EVENT			RETURNED_MACHINE_PART		EVENT_RETURNED_MACHINE_PART
 0x00CA	EVENT			MET_MANAGER_AT_POWER_PLANT		EVENT_MET_MANAGER_AT_POWER_PLANT
 0x00CB	EVENT			MET_ROCKET_GRUNT_AT_CERULEAN_GYM		EVENT_MET_ROCKET_GRUNT_AT_CERULEAN_GYM
 0x00CC	SIDE EVENT	Pallet Town	Red's House	Meet Red's mom		EVENT_MET_REDS_MOM
 0x00CD	STORY EVENT	Power Plant		Restore power to Kanto		EVENT_RESTORED_POWER_TO_KANTO
-0x00CE	GIFT	Celadon City		GOT_COINS_FROM_GAMBLER_AT_CELADON		EVENT_GOT_COINS_FROM_GAMBLER_AT_CELADON
+0x00CE	ITEM GIFT	Celadon City		GOT_COINS_FROM_GAMBLER_AT_CELADON		EVENT_GOT_COINS_FROM_GAMBLER_AT_CELADON
 0x00CF	EVENT			MET_COPYCAT_FOUND_OUT_ABOUT_LOST_ITEM		EVENT_MET_COPYCAT_FOUND_OUT_ABOUT_LOST_ITEM
 0x00D0	EVENT			RETURNED_LOST_ITEM_TO_COPYCAT		EVENT_RETURNED_LOST_ITEM_TO_COPYCAT
-0x00D1	GIFT	Saffron City	Copycat's House	Receive Pass from Copycat		EVENT_GOT_PASS_FROM_COPYCAT
-0x00D2	GIFT	Vermilion City	Fan Club	Receive Lost Item fom man		EVENT_GOT_LOST_ITEM_FROM_FAN_CLUB
+0x00D1	ITEM GIFT	Saffron City	Copycat's House	Receive Pass from Copycat		EVENT_GOT_PASS_FROM_COPYCAT
+0x00D2	ITEM GIFT	Vermilion City	Fan Club	Receive Lost Item fom man		EVENT_GOT_LOST_ITEM_FROM_FAN_CLUB
 0x00D3	EVENT			LISTENED_TO_FAN_CLUB_PRESIDENT_BUT_BAG_WAS_FULL		EVENT_LISTENED_TO_FAN_CLUB_PRESIDENT_BUT_BAG_WAS_F
 0x00D4	EVENT			LISTENED_TO_FAN_CLUB_PRESIDENT		EVENT_LISTENED_TO_FAN_CLUB_PRESIDENT
 0x00D5	EVENT			TALKED_TO_SEAFOAM_GYM_GUIDE_ONCE		EVENT_TALKED_TO_SEAFOAM_GYM_GUIDE_ONCE
@@ -216,16 +217,16 @@
 0x00D7	EVENT			CINNABAR_ROCKS_CLEARED		EVENT_CINNABAR_ROCKS_CLEARED
 0x00D8	EVENT			CLEARED_NUGGET_BRIDGE		EVENT_CLEARED_NUGGET_BRIDGE
 0x00D9	EVENT			TALKED_TO_WARDENS_GRANDDAUGHTER		EVENT_TALKED_TO_WARDENS_GRANDDAUGHTER
-0x00DA	GIFT	Celadon City	Celadon Mansion	GOT_TM03_CURSE		EVENT_GOT_TM03_CURSE
-0x00DB	GIFT	Route 5	House	Receive Cleanse Tag from woman		EVENT_GOT_CLEANSE_TAG
-0x00DC	GIFT	Celadon City	Gym	Receive TM19 (Giga Drain) from Leader Erika		EVENT_GOT_TM19_GIGA_DRAIN
-0x00DD	GIFT	Fuchsia City	Gym	Receive TM06 (Toxic) from Leader Janine		EVENT_GOT_TM06_TOXIC
-0x00DE	GIFT	Saffron City	Silph Co.	Receive Up-Grade from old man		EVENT_GOT_UP_GRADE
-0x00DF	GIFT	Power Plant		GOT_TM07_ZAP_CANNON		EVENT_GOT_TM07_ZAP_CANNON
-0x00E0	GIFT	Viridian City		Receive TM42 (Dream Eater) from man		EVENT_GOT_TM42_DREAM_EATER
+0x00DA	ITEM GIFT	Celadon City	Celadon Mansion	GOT_TM03_CURSE		EVENT_GOT_TM03_CURSE
+0x00DB	ITEM GIFT	Route 5	House	Receive Cleanse Tag from woman		EVENT_GOT_CLEANSE_TAG
+0x00DC	ITEM GIFT	Celadon City	Gym	Receive TM19 (Giga Drain) from Leader Erika		EVENT_GOT_TM19_GIGA_DRAIN
+0x00DD	ITEM GIFT	Fuchsia City	Gym	Receive TM06 (Toxic) from Leader Janine		EVENT_GOT_TM06_TOXIC
+0x00DE	ITEM GIFT	Saffron City	Silph Co.	Receive Up-Grade from old man		EVENT_GOT_UP_GRADE
+0x00DF	ITEM GIFT	Power Plant		GOT_TM07_ZAP_CANNON		EVENT_GOT_TM07_ZAP_CANNON
+0x00E0	ITEM GIFT	Viridian City		Receive TM42 (Dream Eater) from man		EVENT_GOT_TM42_DREAM_EATER
 0x00E1	EVENT			TALKED_TO_OAK_IN_KANTO		EVENT_TALKED_TO_OAK_IN_KANTO
-0x00E2	GIFT	Vermilion City		Receive HP Up from man		EVENT_GOT_HP_UP_FROM_VERMILION_GUY
-0x00E3	GIFT	Saffron City	Mr. Psychic's House	Receive TM29 (Psychic) from Mr. Psychic		EVENT_GOT_TM29_PSYCHIC
+0x00E2	ITEM GIFT	Vermilion City		Receive HP Up from man		EVENT_GOT_HP_UP_FROM_VERMILION_GUY
+0x00E3	ITEM GIFT	Saffron City	Mr. Psychic's House	Receive TM29 (Psychic) from Mr. Psychic		EVENT_GOT_TM29_PSYCHIC
 0x00E4	HIDDEN ITEM	Diglett's Cave		DIGLETTS_CAVE_HIDDEN_MAX_REVIVE		EVENT_DIGLETTS_CAVE_HIDDEN_MAX_REVIVE
 0x00E5	HIDDEN ITEM	Underground Path North-South		UNDERGROUND_PATH_HIDDEN_FULL_RESTORE		EVENT_UNDERGROUND_PATH_HIDDEN_FULL_RESTORE
 0x00E6	HIDDEN ITEM	Underground Path North-South		UNDERGROUND_PATH_HIDDEN_X_SPECIAL		EVENT_UNDERGROUND_PATH_HIDDEN_X_SPECIAL
@@ -798,11 +799,11 @@
 0x031D	EVENT			SHOWED_STARYU_TO_BILLS_GRANDPA		EVENT_SHOWED_STARYU_TO_BILLS_GRANDPA
 0x031E	EVENT			SHOWED_GROWLITHE_VULPIX_TO_BILLS_GRANDPA		EVENT_SHOWED_GROWLITHE_VULPIX_TO_BILLS_GRANDPA
 0x031F	EVENT			SHOWED_PICHU_TO_BILLS_GRANDPA		EVENT_SHOWED_PICHU_TO_BILLS_GRANDPA
-0x0320	GIFT	Route 25	Bill's House	Receive Everstone from Bill's grandpa		EVENT_GOT_EVERSTONE_FROM_BILLS_GRANDPA
-0x0321	GIFT	Route 25	Bill's House	Receive Leaf Stone from Bill's grandpa		EVENT_GOT_LEAF_STONE_FROM_BILLS_GRANDPA
-0x0322	GIFT	Route 25	Bill's House	Receive Water Stone from Bill's grandpa		EVENT_GOT_WATER_STONE_FROM_BILLS_GRANDPA
-0x0323	GIFT	Route 25	Bill's House	Receive Fire Stone from Bill's grandpa		EVENT_GOT_FIRE_STONE_FROM_BILLS_GRANDPA
-0x0324	GIFT	Route 25	Bill's House	Receive Thunder Stone from Bill's grandpa		EVENT_GOT_THUNDERSTONE_FROM_BILLS_GRANDPA
+0x0320	ITEM GIFT	Route 25	Bill's House	Receive Everstone from Bill's grandpa		EVENT_GOT_EVERSTONE_FROM_BILLS_GRANDPA
+0x0321	ITEM GIFT	Route 25	Bill's House	Receive Leaf Stone from Bill's grandpa		EVENT_GOT_LEAF_STONE_FROM_BILLS_GRANDPA
+0x0322	ITEM GIFT	Route 25	Bill's House	Receive Water Stone from Bill's grandpa		EVENT_GOT_WATER_STONE_FROM_BILLS_GRANDPA
+0x0323	ITEM GIFT	Route 25	Bill's House	Receive Fire Stone from Bill's grandpa		EVENT_GOT_FIRE_STONE_FROM_BILLS_GRANDPA
+0x0324	ITEM GIFT	Route 25	Bill's House	Receive Thunder Stone from Bill's grandpa		EVENT_GOT_THUNDERSTONE_FROM_BILLS_GRANDPA
 0x0325	EVENT			LISTENED_TO_INITIAL_RADIO		EVENT_LISTENED_TO_INITIAL_RADIO
 0x0326	SIDE EVENT	Ruins of Alph		Open wall in Ho-Oh puzzle chamber		EVENT_WALL_OPENED_IN_HO_OH_CHAMBER
 0x0327	SIDE EVENT	Ruins of Alph		Open wall in Kabuto puzzle chamber		EVENT_WALL_OPENED_IN_KABUTO_CHAMBER
@@ -828,9 +829,9 @@
 0x033B	EVENT			ERIN_CALCIUM		EVENT_ERIN_CALCIUM
 0x033C	EVENT			BUENA_OFFERED_HER_PHONE_NUMBER		EVENT_BUENA_OFFERED_HER_PHONE_NUMBER
 0x033D	EVENT			MET_BUENA		EVENT_MET_BUENA
-0x033E	GIFT			GOT_ODD_EGG		EVENT_GOT_ODD_EGG
-0x033F	_UNUSED					const_skip ; unused
-0x0340	EVENT			GOT_GS_BALL_FROM_POKECOM_CENTER		EVENT_GOT_GS_BALL_FROM_POKECOM_CENTER
+0x033E	PKMN GIFT			GOT_ODD_EGG		EVENT_GOT_ODD_EGG
+0x033F	_UNUSED					
+0x0340	EVENT			GOT_GS_BALL_FROM_GOLDENROD_POKEMON_CENTER		EVENT_GOT_GS_BALL_FROM_GOLDENROD_POKEMON_CENTER
 0x0341	_UNUSED					
 0x0342	_UNUSED					
 0x0343	_UNUSED					
@@ -1776,7 +1777,7 @@
 0x06EF	EVENT			COPYCAT_2		EVENT_COPYCAT_2
 0x06F0	EVENT			GOLDENROD_SALE_OFF		EVENT_GOLDENROD_SALE_OFF
 0x06F1	EVENT			GOLDENROD_SALE_ON		EVENT_GOLDENROD_SALE_ON
-0x06F2	_UNUSED					const_skip ; unused in Crystal
+0x06F2	_UNUSED					
 0x06F3	EVENT			ILEX_FOREST_APPRENTICE		EVENT_ILEX_FOREST_APPRENTICE
 0x06F4	EVENT			ILEX_FOREST_CHARCOAL_MASTER		EVENT_ILEX_FOREST_CHARCOAL_MASTER
 0x06F5	EVENT			CHARCOAL_KILN_FARFETCH_D		EVENT_CHARCOAL_KILN_FARFETCH_D
@@ -1997,4 +1998,265 @@
 0x07CC	FIELD ITEM			MOUNT_MORTAR_B1F_PP_UP		EVENT_MOUNT_MORTAR_B1F_PP_UP
 0x07CD	FIELD ITEM			RADIO_TOWER_5F_ULTRA_BALL		EVENT_RADIO_TOWER_5F_ULTRA_BALL
 0x07CE	FIELD ITEM			DARK_CAVE_VIOLET_ENTRANCE_DIRE_HIT		EVENT_DARK_CAVE_VIOLET_ENTRANCE_DIRE_HIT
-0x07CF	EVENT			BATTLE_TOWER_OUTSIDE_SAILOR		EVENT_BATTLE_TOWER_OUTSIDE_SAILOR
+0x07CF	EVENT			BATTLE_TOWER_OPEN_CIVILIANS		EVENT_BATTLE_TOWER_OPEN_CIVILIANS
+						
+						
+						
+						
+//	Event Work					
+0x0000						wPokecenter2FSceneID
+0x0001						wTradeCenterSceneID
+0x0002						wColosseumSceneID
+0x0003						wTimeCapsuleSceneID
+0x0004				Power Plant	0:Normal,1:Guard will get a phone call (Story event)	wPowerPlantSceneID
+0x0005				Cerulean Gym	0:Normal,1:Rocket Grunt appeared (Story event)	wCeruleanGymSceneID
+0x0006				Route 25	0:Normal,1:Misty on a date (Story event)	wRoute25SceneID
+0x0007						wTrainerHouseB1FSceneID
+0x0008				League Reception Gate	0:Not shown 8 Johto Badges,1:Shown 8 Johto Badges	wVictoryRoadGateSceneID
+0x0009						wSaffronMagnetTrainStationSceneID
+0x000A						wRoute16GateSceneID
+0x000B						wRoute17Route18GateSceneID
+0x000C						wIndigoPlateauPokecenter1FSceneID
+0x000D				Will's Room	0:Reset,1:Recently accessed	wWillsRoomSceneID
+0x000E				Koga's Room	0:Reset,1:Recently accessed	wKogasRoomSceneID
+0x000F				Bruno's Room	0:Reset,1:Recently accessed	wBrunosRoomSceneID
+0x0010				Karen's Room	0:Reset,1:Recently accessed	wKarensRoomSceneID
+0x0011				Lance's Room	0:Reset,1:Recently accessed,2:Defeated Lance,3:DJ Mary and Oak Appeared	wLancesRoomSceneID
+0x0012				Hall of Fame Room	0:Lance will register your team,1:Recently accessed	wHallOfFameSceneID
+0x0013				Route 27 Man	0:Will say you entered Kanto,1:Said you entered Kanto	wRoute27SceneID
+0x0014				New Bark Town Lady	0:Before Starter (Blocks Route 29 access),1:After Starter (Allows Route 29 access)	wNewBarkTownSceneID
+0x0015				Elm Lab Event	0:Start of game,1:Asked to choose Starter (Can't leave Lab),2:Normal,3:Officer Appeared (Asks for Rival's name),5:Aide will give Potion,6:Aide will give 5 Poké Balls	wElmsLabSceneID
+0x0016				Mom	0:Start of game,1:Gave and explained PokéGear	wPlayersHouse1FSceneID
+0x0017				Dude (Route 29)	0:Normal,1:Will ask to show Capture Tutorial	wRoute29SceneID
+0x0018				Rival (Cherrygrove City)	0:Disappeared,1:Will battle you	wCherrygroveCitySceneID
+0x0019				Mr. Pokémon's House	0:Not Entered,1:Entered (Met Mr. Pokémon and Oak)	wMrPokemonsHouseSceneID
+0x001A				Route 32 Story Event	0:Dude blocks further access,1:Allowed further access (Accepted Egg from Aide),2:Encountered SlowpokeTail seller	wRoute32SceneID
+0x001B						wRoute35NationalParkGateSceneID
+0x001C				Suicune (Route 36)	0:Disappeared,1:Active	wRoute36SceneID
+0x001D						wRoute36NationalParkGateSceneID
+0x001E				Azalea Town Event	0:Normal,1:Rival will battle you,2:Kurt will give GS Ball outside of house (GS Ball event)	wAzaleaTownSceneID
+0x001F				Lass Bridget	0:Normal,1:Will inform you made Whitney cry	wGoldenrodGymSceneID
+0x0020						wGoldenrodMagnetTrainStationSceneID
+0x0021						wGoldenrodPokecenter1FSceneID
+0x0022				Rival (Olivine City)	0:Not Encountered,1:Encountered	wOlivineCitySceneID
+0x0023	_UNUSED					wRoute34SceneID
+0x0024	_UNUSED					wRoute34IlexForestGateSceneID
+0x0025				Tin Tower Gate Sage	0:Disallows Passage,1:Allows Passage	wEcruteakTinTowerEntranceSceneID
+0x0026				Wise Trio (Tin Tower Gate)	0:Disallows Tin Tower Passage,1:Allows Tin Tower Passage	wWiseTriosRoomSceneID
+0x0027				Ecruteak PokéCenter	0:Not Entered,1:Entered (Met Bill)	wEcruteakPokecenter1FSceneID
+0x0028				Ecruteak Gym	0:Old Man pushes you out,1:Accessible	wEcruteakGymSceneID
+0x0029				RageCandyBar Man	0:Blocks Route 44 access,1:Disappeared (Can access Route 44)	wMahoganyTownSceneID
+0x002A				Suicune (Route 42)	0:Disappeared,1:Active	wRoute42SceneID
+0x002B				Suicune (Cianwood City)	0:Disappeared,1:Active	wCianwoodCitySceneID
+0x002C				Battle Tower 1F	0:Not Accessed,1:Accessed	wBattleTower1FSceneID
+0x002D				Battle Tower Battle Room	0:Not Accessed,1:Accessed	wBattleTowerBattleRoomSceneID
+0x002E				Battle Tower Elevator	0:Not Accessed,1:Accessed	wBattleTowerElevatorSceneID
+0x002F				Battle Tower Hallway	0:Not Accessed,1:Accessed	wBattleTowerHallwaySceneID
+0x0030	_UNUSED					wBattleTowerOutsideSceneID
+0x0031				Route 43 Gate	0:Rocket Grunts appeared (Payment required),1:Paid Rocket Grunts/Grunts disappeared	wRoute43GateSceneID
+0x0032				Rival (Mt. Moon)	0:Will battle you,1:Disappeared	wMountMoonSceneID
+0x0033				Rival (Sprout Tower)	0:Not Encountered,1:Encountered	wSproutTower3FSceneID
+0x0034				Suicune (Tin Tower)	0:Battleable,1:Caught/Defeated	wTinTower1FSceneID
+0x0035				Burned Tower Story Event	0:Not Entered,1:Met Eusine,2:Defeated Rival	wBurnedTower1FSceneID
+0x0036				Legendary Beasts (Burned Tower)	0:Not Awakened,1:Awakened/Fled	wBurnedTowerB1FSceneID
+0x0037				Radio Tower 5F Story Event	0:Will battle imposter Director,1:Defeated disguised Rocket Executive,2:Defeated main Rocket Executive in studio room	wRadioTower5FSceneID
+0x0038						wRuinsOfAlphOutsideSceneID
+0x0039						wRuinsOfAlphResearchCenterSceneID
+0x003A				Upper-left Ruin (Ruins of Alph)	0:Not solved wall puzzle,1:Solved wall puzzle	wRuinsOfAlphHoOhChamberSceneID
+0x003B				Upper-right Ruin (Ruins of Alph)	0:Not solved wall puzzle,1:Solved wall puzzle	wRuinsOfAlphKabutoChamberSceneID
+0x003C				Lower-left Ruin (Ruins of Alph)	0:Not solved wall puzzle,1:Solved wall puzzle	wRuinsOfAlphOmanyteChamberSceneID
+0x003D				Lower-right Ruin (Ruins of Alph)	0:Not solved wall puzzle,1:Solved wall puzzle	wRuinsOfAlphAerodactylChamberSceneID
+0x003E						wRuinsOfAlphInnerChamberSceneID
+0x003F				Mahogany Souvenir Shop	0:Normal,1:Lance appeared (Story event)	wMahoganyMart1FSceneID
+0x0040						wTeamRocketBaseB1FSceneID
+0x0041				Hideout B2F Story Event	0:Not Accessed,1:Lance healed your party/Will battle Rocket Executive,2:Lance wants you to battle Electrode (Can't leave transmitter room),3:Transmitter deactivated	wTeamRocketBaseB2FSceneID
+0x0042				Hideout B3F Story Event	0:Not Accessed,1:Lance explained passwords,2:Encountered Rival,3:Defeated Rocket Executive	wTeamRocketBaseB3FSceneID
+0x0043				Rival (Underground)	0:Will battle you,1:Disappeared	wGoldenrodUndergroundSwitchRoomEntrancesSceneID
+0x0044	_UNUSED					wSilverCaveRoom3SceneID
+0x0045				Rival (Victory Road)	0:Will battle you,1:Disappeared	wVictoryRoadSceneID
+0x0046				Clair (Dragon's Den)	0:Disappeared,1:Will give you TM24 right outside Shrine	wDragonsDenB1FSceneID
+0x0047				Dragon's Den Shrine	0:Not Entered,1:Entered and took quiz	wDragonShrineSceneID
+0x0048						wOlivinePortSceneID
+0x0049						wVermilionPortSceneID
+0x004A				S.S. Aqua Event	0:Normal,2:Gentleman will bump into you (Story event)	wFastShip1FSceneID
+0x004B				S.S. Aqua B1F Sailor	0:Blocks further access,1:Allows further access	wFastShipB1FSceneID
+0x004C						wMountMoonSquareSceneID
+0x004D						wMobileTradeRoomSceneID
+0x004E						wMobileBattleRoomSceneID
+0x004F	_UNUSED					
+0x0050	_UNUSED					
+0x0051	_UNUSED					
+0x0052	_UNUSED					
+0x0053	_UNUSED					
+0x0054	_UNUSED					
+0x0055	_UNUSED					
+0x0056	_UNUSED					
+0x0057	_UNUSED					
+0x0058	_UNUSED					
+0x0059	_UNUSED					
+0x005A	_UNUSED					
+0x005B	_UNUSED					
+0x005C	_UNUSED					
+0x005D	_UNUSED					
+0x005E	_UNUSED					
+0x005F	_UNUSED					
+0x0060	_UNUSED					
+0x0061	_UNUSED					
+0x0062	_UNUSED					
+0x0063	_UNUSED					
+0x0064	_UNUSED					
+0x0065	_UNUSED					
+0x0066	_UNUSED					
+0x0067	_UNUSED					
+0x0068	_UNUSED					
+0x0069	_UNUSED					
+0x006A	_UNUSED					
+0x006B	_UNUSED					
+0x006C	_UNUSED					
+0x006D	_UNUSED					
+0x006E	_UNUSED					
+0x006F	_UNUSED					
+0x0070	_UNUSED					
+0x0071	_UNUSED					
+0x0072	_UNUSED					
+0x0073	_UNUSED					
+0x0074	_UNUSED					
+0x0075	_UNUSED					
+0x0076	_UNUSED					
+0x0077	_UNUSED					
+0x0078	_UNUSED					
+0x0079	_UNUSED					
+0x007A	_UNUSED					
+0x007B	_UNUSED					
+0x007C	_UNUSED					
+0x007D	_UNUSED					
+0x007E	_UNUSED					
+0x007F	_UNUSED					
+0x0080				Schoolboy Jack	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch,3:Had 3rd Rematch,4:Had 4th Rematch (Final)	wJackFightCount
+0x0081	_UNUSED					wBeverlyFightCount
+0x0082				Sailor Huey	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch,3:Had 3rd Rematch (Final)	wHueyFightCount
+0x0083				Cooltrainer Gaven	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch (Final)	wGavenFightCount
+0x0084				Cooltrainer Beth	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch (Final)	wBethFightCount
+0x0085				Bird Keeper Jose	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch (Final)	wJoseFightCount
+0x0086				Cooltrainer Reena	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch (Final)	wReenaFightCount
+0x0087				Youngster Joey	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch,3:Had 3rd Rematch,4:Had 4th Rematch (Final)	wJoeyFightCount
+0x0088				Bug Catcher Wade	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch,3:Had 3rd Rematch,4:Had 4th Rematch (Final)	wWadeFightCount
+0x0089				Fisher Ralph	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch,3:Had 3rd Rematch,4:Had 4th Rematch (Final)	wRalphFightCount
+0x008A				Picnicker Liz	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch,3:Had 3rd Rematch,4:Had 4th Rematch (Final)	wLizFightCount
+0x008B				Hiker Anthony	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch,3:Had 3rd Rematch,4:Had 4th Rematch (Final)	wAnthonyFightCount
+0x008C				Camper Todd	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch,3:Had 3rd Rematch,4:Had 4th Rematch (Final)	wToddFightCount
+0x008D				Picnicker Gina	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch,3:Had 3rd Rematch,4:Had 4th Rematch (Final)	wGinaFightCount
+0x008E	_UNUSED					wIrwinFightCount
+0x008F				Bug Catcher Arnie	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch,3:Had 3rd Rematch,4:Had 4th Rematch (Final)	wArnieFightCount
+0x0090				Schoolboy Alan	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch,3:Had 3rd Rematch,4:Had 4th Rematch (Final)	wAlanFightCount
+0x0091				Lass Dana	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch,3:Had 3rd Rematch,4:Had 4th Rematch (Final)	wDanaFightCount
+0x0092				Schoolboy Chad	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch,3:Had 3rd Rematch,4:Had 4th Rematch (Final)	wChadFightCount
+0x0093	_UNUSED					wDerekFightCount
+0x0094				Fisher Tully	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch,3:Had 3rd Rematch (Final)	wTullyFightCount
+0x0095				PokéManiac Brent	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch,3:Had 3rd Rematch (Final)	wBrentFightCount
+0x0096				Picnicker Tiffany	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch,3:Had 3rd Rematch (Final)	wTiffanyFightCount
+0x0097				Bird Keeper Vance	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch (Final)	wVanceFightCount
+0x0098				Fisher Wilton	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch (Final)	wWiltonFightCount
+0x0099	_UNUSED					wKenjiFightCount
+0x009A				Hiker Parry	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch (Final)	wParryFightCount
+0x009B				Picnicker Erin	0:Not Rematched,1:Had 1st Rematch,2:Had 2nd Rematch (Final)	wErinFightCount
+0x009C	_UNUSED					
+0x009D	_UNUSED					
+0x009E	_UNUSED					
+0x009F	_UNUSED					
+0x00A0	_UNUSED					
+0x00A1	_UNUSED					
+0x00A2	_UNUSED					
+0x00A3	_UNUSED					
+0x00A4	_UNUSED					
+0x00A5	_UNUSED					
+0x00A6	_UNUSED					
+0x00A7	_UNUSED					
+0x00A8	_UNUSED					
+0x00A9	_UNUSED					
+0x00AA	_UNUSED					
+0x00AB	_UNUSED					
+0x00AC	_UNUSED					
+0x00AD	_UNUSED					
+0x00AE	_UNUSED					
+0x00AF	_UNUSED					
+0x00B0	_UNUSED					
+0x00B1	_UNUSED					
+0x00B2	_UNUSED					
+0x00B3	_UNUSED					
+0x00B4	_UNUSED					
+0x00B5	_UNUSED					
+0x00B6	_UNUSED					
+0x00B7	_UNUSED					
+0x00B8	_UNUSED					
+0x00B9	_UNUSED					
+0x00BA	_UNUSED					
+0x00BB	_UNUSED					
+0x00BC	_UNUSED					
+0x00BD	_UNUSED					
+0x00BE	_UNUSED					
+0x00BF	_UNUSED					
+0x00C0	_UNUSED					
+0x00C1	_UNUSED					
+0x00C2	_UNUSED					
+0x00C3	_UNUSED					
+0x00C4	_UNUSED					
+0x00C5	_UNUSED					
+0x00C6	_UNUSED					
+0x00C7	_UNUSED					
+0x00C8	_UNUSED					
+0x00C9	_UNUSED					
+0x00CA	_UNUSED					
+0x00CB	_UNUSED					
+0x00CC	_UNUSED					
+0x00CD	_UNUSED					
+0x00CE	_UNUSED					
+0x00CF	_UNUSED					
+0x00D0	_UNUSED					
+0x00D1	_UNUSED					
+0x00D2	_UNUSED					
+0x00D3	_UNUSED					
+0x00D4	_UNUSED					
+0x00D5	_UNUSED					
+0x00D6	_UNUSED					
+0x00D7	_UNUSED					
+0x00D8	_UNUSED					
+0x00D9	_UNUSED					
+0x00DA	_UNUSED					
+0x00DB	_UNUSED					
+0x00DC	_UNUSED					
+0x00DD	_UNUSED					
+0x00DE	_UNUSED					
+0x00DF	_UNUSED					
+0x00E0	_UNUSED					
+0x00E1	_UNUSED					
+0x00E2	_UNUSED					
+0x00E3	_UNUSED					
+0x00E4	_UNUSED					
+0x00E5	_UNUSED					
+0x00E6	_UNUSED					
+0x00E7	_UNUSED					
+0x00E8	_UNUSED					
+0x00E9	_UNUSED					
+0x00EA	_UNUSED					
+0x00EB	_UNUSED					
+0x00EC	_UNUSED					
+0x00ED	_UNUSED					
+0x00EE	_UNUSED					
+0x00EF	_UNUSED					
+0x00F0	_UNUSED					
+0x00F1	_UNUSED					
+0x00F2	_UNUSED					
+0x00F3	_UNUSED					
+0x00F4	_UNUSED					
+0x00F5	_UNUSED					
+0x00F6	_UNUSED					
+0x00F7	_UNUSED					
+0x00F8	_UNUSED					
+0x00F9	_UNUSED					
+0x00FA	_UNUSED					
+0x00FB	_UNUSED					
+0x00FC	_UNUSED					
+0x00FD	_UNUSED					
+0x00FE	_UNUSED					
+0x00FF	_UNUSED					
