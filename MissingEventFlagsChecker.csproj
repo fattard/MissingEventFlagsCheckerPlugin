@@ -81,6 +81,8 @@
     <EmbeddedResource Include="SelectedFlagsEditor.resx">
       <DependentUpon>SelectedFlagsEditor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="flagslist\flags_gen1rb.txt" />
+    <EmbeddedResource Include="flagslist\flags_gen1y.txt" />
     <EmbeddedResource Include="flagslist\flags_gen2gs.txt" />
     <EmbeddedResource Include="flagslist\flags_gen2c.txt" />
     <EmbeddedResource Include="flagslist\flags_gen3rs.txt" />
