@@ -13,8 +13,6 @@ namespace MissingEventFlagsCheckerPlugin
 
         BattleTrainerStatus8b m_battleTrainerStatus;
         FlagWork8b m_flagWork;
-        int sysFlagStart;
-        int trainerFlagStart;
 
         protected override void InitFlagsData(SaveFile savFile)
         {
@@ -32,10 +30,31 @@ namespace MissingEventFlagsCheckerPlugin
                 s_flagsList_res = ReadFlagsListRes("flags_gen8bsbdsp.txt");
             }
 
-            AssembleList(s_flagsList_res);
-            AssembleWorkList<int>(null);
+            int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
+            int idxSysFlagsSection = s_flagsList_res.IndexOf("//\tSys Flags");
+            int idxTrainerFlagsSection = s_flagsList_res.IndexOf("//\tTrainer Flags");
+            int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
+
+            var sysFlagsVals = new bool[m_flagWork.CountSystem];
+            for (int i = 0; i < sysFlagsVals.Length; i++)
+            {
+                sysFlagsVals[i] = m_flagWork.GetSystemFlag(i);
+            }
+
+            var battleTrainerVals = new bool[707];
+            for (int i = 0; i < battleTrainerVals.Length; i++)
+            {
+                battleTrainerVals[i] = m_battleTrainerStatus.GetIsWin(i);
+            }
+
+            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection));
+            AssembleList(s_flagsList_res.Substring(idxSysFlagsSection), sysFlagsVals);
+            AssembleList(s_flagsList_res.Substring(idxTrainerFlagsSection), battleTrainerVals);
+
+            AssembleWorkList<int>(s_flagsList_res.Substring(idxEventWorkSection));
         }
 
+        /*
         protected override void AssembleList(string flagsList_res, bool[] customFlagValues = null)
         {
             var savEventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
@@ -78,6 +97,7 @@ namespace MissingEventFlagsCheckerPlugin
                 } while (s != null);
             }
         }
+        */
 
         public override bool SupportsEditingFlag(FlagType flagType)
         {
@@ -115,7 +135,7 @@ namespace MissingEventFlagsCheckerPlugin
                         if (f.FlagTypeVal == flagType)
                         {
                             f.IsSet = value;
-                            m_battleTrainerStatus.SetIsWin((int)f.FlagIdx - trainerFlagStart, value);
+                            m_battleTrainerStatus.SetIsWin((int)f.FlagIdx, value);
                         }
                     }
                 }
@@ -130,12 +150,12 @@ namespace MissingEventFlagsCheckerPlugin
                         if (f.FlagTypeVal == flagType)
                         {
                             f.IsSet = value;
-                            if (f.FlagIdx >= flagHelper.EventFlagCount)
+                            /*if (f.FlagIdx >= flagHelper.EventFlagCount)
                             {
                                 m_flagWork.SetSystemFlag((int)f.FlagIdx - m_flagWork.CountFlag, value);
                             }
 
-                            else
+                            else*/
                             {
                                 flagHelper.SetEventFlag((int)f.FlagIdx, value);
                             }
