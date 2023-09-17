@@ -50,7 +50,7 @@ namespace MissingEventFlagsCheckerPlugin
                 string s = reader.ReadLine();
                 do
                 {
-                    if (!string.IsNullOrWhiteSpace(s))
+                    if (!string.IsNullOrWhiteSpace(s) && !s.StartsWith("//"))
                     {
                         var flagDetail = new FlagDetail(s);
                         if (flagDetail.AHTB != 0)
