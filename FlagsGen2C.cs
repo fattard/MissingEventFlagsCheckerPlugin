@@ -11,9 +11,24 @@ namespace MissingEventFlagsCheckerPlugin
     {
         static string s_flagsList_res = null;
 
+        bool[] m_completedInGameTradeFlags;
+
+        enum FlagOffsets
+        {
+            CompletedInGameTradeFlags = 0x24EE
+        }
+
         protected override void InitFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
+
+            // wTradeFlags
+            bool[] result = new bool[8];
+            for (int i = 0; i < result.Length; i++)
+            {
+                result[i] = m_savFile.GetFlag((int)FlagOffsets.CompletedInGameTradeFlags + (i >> 3), i & 7);
+            }
+            m_completedInGameTradeFlags = result;
 
 #if DEBUG
             // Force refresh
@@ -26,10 +41,13 @@ namespace MissingEventFlagsCheckerPlugin
             }
 
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
+            int idxTradeFlagsSection = s_flagsList_res.IndexOf("//\tTrade Flags");
             int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
 
 
             AssembleList(s_flagsList_res.Substring(idxEventFlagsSection));
+            AssembleList(s_flagsList_res.Substring(idxTradeFlagsSection), m_completedInGameTradeFlags);
+
             AssembleWorkList<byte>(s_flagsList_res.Substring(idxEventWorkSection));
         }
 
