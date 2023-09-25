@@ -39,6 +39,7 @@ namespace MissingEventFlagsCheckerPlugin
         protected class FlagDetail
         {
             public long OrderKey { get; set; }
+            public int SourceIdx { get; set; }
             public uint FlagIdx { get; private set; }
             public FlagType FlagTypeVal { get; private set; }
             public string FlagTypeTxt => FlagTypeVal.AsText();
@@ -68,6 +69,7 @@ namespace MissingEventFlagsCheckerPlugin
                 IsSet = false;
                 //OrderKey = string.IsNullOrWhiteSpace(info[0]) ? (FlagIdx + 100000) : Convert.ToInt64(info[0]);
                 OrderKey = (FlagIdx + 100000);
+                SourceIdx = 0;
             }
 
             public FlagDetail(uint flagIdx, FlagType flagType, string detailMsg) : this(flagIdx, flagType, "", detailMsg)
@@ -83,6 +85,7 @@ namespace MissingEventFlagsCheckerPlugin
                 LocationName = locationName;
                 DetailMsg = detailMsg;
                 IsSet = false;
+                SourceIdx = 0;
             }
 
             public override string ToString()
@@ -233,6 +236,40 @@ namespace MissingEventFlagsCheckerPlugin
             }
         }
 
+        protected virtual void AssembleList(string flagsList_res, int sourceIdx, bool[] flagValues)
+        {
+            using (System.IO.StringReader reader = new System.IO.StringReader(flagsList_res))
+            {
+                string s = reader.ReadLine();
+
+                // Skip header
+                if (s.StartsWith("//"))
+                {
+                    s = reader.ReadLine();
+                }
+
+                do
+                {
+                    if (!string.IsNullOrWhiteSpace(s))
+                    {
+                        // End of section
+                        if (s.StartsWith("//"))
+                        {
+                            break;
+                        }
+
+                        var flagDetail = new FlagDetail(s);
+                        flagDetail.IsSet = flagValues[flagDetail.FlagIdx];
+                        flagDetail.SourceIdx = sourceIdx;
+                        m_eventFlagsList.Add(flagDetail);
+                    }
+
+                    s = reader.ReadLine();
+
+                } while (s != null);
+            }
+        }
+
 
         protected virtual void AssembleWorkList<T>(string workList_res) where T: unmanaged
         {
@@ -321,9 +358,17 @@ namespace MissingEventFlagsCheckerPlugin
         public virtual void DumpAllFlags()
         {
             StringBuilder sb = new StringBuilder(100 * 1024);
+            int curSourceIdx = 0;
+
             for (int i = 0; i < m_eventFlagsList.Count; ++i)
             {
-                sb.AppendFormat("FLAG_0x{0:X4} {1}\t{2}\r\n", i, m_eventFlagsList[i].IsSet,
+                if (curSourceIdx != m_eventFlagsList[i].SourceIdx)
+                {
+                    curSourceIdx = m_eventFlagsList[i].SourceIdx;
+                    sb.Append("\r\n\r\n");
+                }
+
+                sb.AppendFormat("FLAG_0x{0:X4} {1}\t{2}\r\n", m_eventFlagsList[i].FlagIdx, m_eventFlagsList[i].IsSet,
                     m_eventFlagsList[i].FlagTypeVal == FlagType._Unused ? "UNUSED" : m_eventFlagsList[i].ToString());
             }
 
