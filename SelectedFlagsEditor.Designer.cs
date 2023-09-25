@@ -34,19 +34,21 @@ namespace MissingEventFlagsCheckerPlugin
             this.fieldItemsChk = new System.Windows.Forms.CheckBox();
             this.hiddenItemsChk = new System.Windows.Forms.CheckBox();
             this.trainerBattlesChk = new System.Windows.Forms.CheckBox();
-            this.giftsChk = new System.Windows.Forms.CheckBox();
+            this.itemGiftsChk = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pkmnGiftsChk = new System.Windows.Forms.CheckBox();
             this.miscEventsChk = new System.Windows.Forms.CheckBox();
             this.berryTreesChk = new System.Windows.Forms.CheckBox();
             this.sideEventsChk = new System.Windows.Forms.CheckBox();
             this.inGameTradesChk = new System.Windows.Forms.CheckBox();
             this.staticEncounterChk = new System.Windows.Forms.CheckBox();
+            this.collectablesChk = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // markFlagsBtn
             // 
-            this.markFlagsBtn.Location = new System.Drawing.Point(30, 270);
+            this.markFlagsBtn.Location = new System.Drawing.Point(30, 317);
             this.markFlagsBtn.Name = "markFlagsBtn";
             this.markFlagsBtn.Size = new System.Drawing.Size(125, 23);
             this.markFlagsBtn.TabIndex = 10;
@@ -56,7 +58,7 @@ namespace MissingEventFlagsCheckerPlugin
             // 
             // unmarkFlagsBtn
             // 
-            this.unmarkFlagsBtn.Location = new System.Drawing.Point(180, 270);
+            this.unmarkFlagsBtn.Location = new System.Drawing.Point(180, 317);
             this.unmarkFlagsBtn.Name = "unmarkFlagsBtn";
             this.unmarkFlagsBtn.Size = new System.Drawing.Size(125, 23);
             this.unmarkFlagsBtn.TabIndex = 11;
@@ -87,95 +89,117 @@ namespace MissingEventFlagsCheckerPlugin
             // trainerBattlesChk
             // 
             this.trainerBattlesChk.AutoSize = true;
-            this.trainerBattlesChk.Location = new System.Drawing.Point(6, 79);
+            this.trainerBattlesChk.Location = new System.Drawing.Point(6, 103);
             this.trainerBattlesChk.Name = "trainerBattlesChk";
             this.trainerBattlesChk.Size = new System.Drawing.Size(64, 17);
-            this.trainerBattlesChk.TabIndex = 4;
+            this.trainerBattlesChk.TabIndex = 5;
             this.trainerBattlesChk.Text = "Trainers";
             this.trainerBattlesChk.UseVisualStyleBackColor = true;
             // 
-            // giftsChk
+            // itemGiftsChk
             // 
-            this.giftsChk.AutoSize = true;
-            this.giftsChk.Location = new System.Drawing.Point(6, 56);
-            this.giftsChk.Name = "giftsChk";
-            this.giftsChk.Size = new System.Drawing.Size(47, 17);
-            this.giftsChk.TabIndex = 3;
-            this.giftsChk.Text = "Gifts";
-            this.giftsChk.UseVisualStyleBackColor = true;
+            this.itemGiftsChk.AutoSize = true;
+            this.itemGiftsChk.Location = new System.Drawing.Point(6, 56);
+            this.itemGiftsChk.Name = "itemGiftsChk";
+            this.itemGiftsChk.Size = new System.Drawing.Size(70, 17);
+            this.itemGiftsChk.TabIndex = 3;
+            this.itemGiftsChk.Text = "Item Gifts";
+            this.itemGiftsChk.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.collectablesChk);
+            this.groupBox1.Controls.Add(this.pkmnGiftsChk);
             this.groupBox1.Controls.Add(this.miscEventsChk);
             this.groupBox1.Controls.Add(this.berryTreesChk);
             this.groupBox1.Controls.Add(this.sideEventsChk);
             this.groupBox1.Controls.Add(this.inGameTradesChk);
             this.groupBox1.Controls.Add(this.staticEncounterChk);
-            this.groupBox1.Controls.Add(this.giftsChk);
+            this.groupBox1.Controls.Add(this.itemGiftsChk);
             this.groupBox1.Controls.Add(this.fieldItemsChk);
             this.groupBox1.Controls.Add(this.trainerBattlesChk);
             this.groupBox1.Controls.Add(this.hiddenItemsChk);
             this.groupBox1.Location = new System.Drawing.Point(85, 20);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(170, 217);
+            this.groupBox1.Size = new System.Drawing.Size(170, 268);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
+            // 
+            // pkmnGiftsChk
+            // 
+            this.pkmnGiftsChk.AutoSize = true;
+            this.pkmnGiftsChk.Location = new System.Drawing.Point(6, 80);
+            this.pkmnGiftsChk.Name = "pkmnGiftsChk";
+            this.pkmnGiftsChk.Size = new System.Drawing.Size(81, 17);
+            this.pkmnGiftsChk.TabIndex = 4;
+            this.pkmnGiftsChk.Text = "PKMN Gifts";
+            this.pkmnGiftsChk.UseVisualStyleBackColor = true;
             // 
             // miscEventsChk
             // 
             this.miscEventsChk.AutoSize = true;
-            this.miscEventsChk.Location = new System.Drawing.Point(7, 173);
+            this.miscEventsChk.Location = new System.Drawing.Point(6, 197);
             this.miscEventsChk.Name = "miscEventsChk";
             this.miscEventsChk.Size = new System.Drawing.Size(87, 17);
-            this.miscEventsChk.TabIndex = 8;
+            this.miscEventsChk.TabIndex = 9;
             this.miscEventsChk.Text = "Misc. Events";
             this.miscEventsChk.UseVisualStyleBackColor = true;
             // 
             // berryTreesChk
             // 
             this.berryTreesChk.AutoSize = true;
-            this.berryTreesChk.Location = new System.Drawing.Point(7, 196);
+            this.berryTreesChk.Location = new System.Drawing.Point(6, 220);
             this.berryTreesChk.Name = "berryTreesChk";
             this.berryTreesChk.Size = new System.Drawing.Size(80, 17);
-            this.berryTreesChk.TabIndex = 9;
+            this.berryTreesChk.TabIndex = 10;
             this.berryTreesChk.Text = "Berry Trees";
             this.berryTreesChk.UseVisualStyleBackColor = true;
             // 
             // sideEventsChk
             // 
             this.sideEventsChk.AutoSize = true;
-            this.sideEventsChk.Location = new System.Drawing.Point(7, 150);
+            this.sideEventsChk.Location = new System.Drawing.Point(6, 174);
             this.sideEventsChk.Name = "sideEventsChk";
             this.sideEventsChk.Size = new System.Drawing.Size(83, 17);
-            this.sideEventsChk.TabIndex = 7;
+            this.sideEventsChk.TabIndex = 8;
             this.sideEventsChk.Text = "Side Events";
             this.sideEventsChk.UseVisualStyleBackColor = true;
             // 
             // inGameTradesChk
             // 
             this.inGameTradesChk.AutoSize = true;
-            this.inGameTradesChk.Location = new System.Drawing.Point(7, 127);
+            this.inGameTradesChk.Location = new System.Drawing.Point(6, 151);
             this.inGameTradesChk.Name = "inGameTradesChk";
             this.inGameTradesChk.Size = new System.Drawing.Size(102, 17);
-            this.inGameTradesChk.TabIndex = 6;
+            this.inGameTradesChk.TabIndex = 7;
             this.inGameTradesChk.Text = "In-Game Trades";
             this.inGameTradesChk.UseVisualStyleBackColor = true;
             // 
             // staticEncounterChk
             // 
             this.staticEncounterChk.AutoSize = true;
-            this.staticEncounterChk.Location = new System.Drawing.Point(7, 103);
+            this.staticEncounterChk.Location = new System.Drawing.Point(6, 127);
             this.staticEncounterChk.Name = "staticEncounterChk";
             this.staticEncounterChk.Size = new System.Drawing.Size(88, 17);
-            this.staticEncounterChk.TabIndex = 5;
+            this.staticEncounterChk.TabIndex = 6;
             this.staticEncounterChk.Text = "Static Battles";
             this.staticEncounterChk.UseVisualStyleBackColor = true;
+            // 
+            // collectablesChk
+            // 
+            this.collectablesChk.AutoSize = true;
+            this.collectablesChk.Location = new System.Drawing.Point(6, 243);
+            this.collectablesChk.Name = "collectablesChk";
+            this.collectablesChk.Size = new System.Drawing.Size(83, 17);
+            this.collectablesChk.TabIndex = 11;
+            this.collectablesChk.Text = "Collectables";
+            this.collectablesChk.UseVisualStyleBackColor = true;
             // 
             // SelectedFlagsEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 311);
+            this.ClientSize = new System.Drawing.Size(334, 361);
             this.Controls.Add(this.unmarkFlagsBtn);
             this.Controls.Add(this.markFlagsBtn);
             this.Controls.Add(this.groupBox1);
@@ -194,12 +218,14 @@ namespace MissingEventFlagsCheckerPlugin
         private System.Windows.Forms.CheckBox fieldItemsChk;
         private System.Windows.Forms.CheckBox hiddenItemsChk;
         private System.Windows.Forms.CheckBox trainerBattlesChk;
-        private System.Windows.Forms.CheckBox giftsChk;
+        private System.Windows.Forms.CheckBox itemGiftsChk;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.CheckBox staticEncounterChk;
         private System.Windows.Forms.CheckBox miscEventsChk;
         private System.Windows.Forms.CheckBox berryTreesChk;
         private System.Windows.Forms.CheckBox sideEventsChk;
         private System.Windows.Forms.CheckBox inGameTradesChk;
+        private System.Windows.Forms.CheckBox pkmnGiftsChk;
+        private System.Windows.Forms.CheckBox collectablesChk;
     }
 }

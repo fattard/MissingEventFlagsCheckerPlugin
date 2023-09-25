@@ -23,13 +23,15 @@ namespace MissingEventFlagsCheckerPlugin
 
             fieldItemsChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.FieldItem);
             hiddenItemsChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.HiddenItem);
-            giftsChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.Gift);
+            itemGiftsChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.ItemGift);
+            pkmnGiftsChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.PkmnGift);
             trainerBattlesChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.TrainerBattle);
             staticEncounterChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.StaticBattle);
             inGameTradesChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.InGameTrade);
             sideEventsChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.SideEvent);
             miscEventsChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.GeneralEvent);
             berryTreesChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.BerryTree);
+            collectablesChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.Collectable);
         }
 
         private void markFlagsBtn_Click(object sender, EventArgs e)
@@ -40,9 +42,12 @@ namespace MissingEventFlagsCheckerPlugin
             if (hiddenItemsChk.Checked)
                 m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.HiddenItem);
 
-            if (giftsChk.Checked)
-                m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.Gift);
+            if (itemGiftsChk.Checked)
+                m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.ItemGift);
 
+            if (pkmnGiftsChk.Checked)
+                m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.PkmnGift);
+            
             if (trainerBattlesChk.Checked)
                 m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.TrainerBattle);
 
@@ -61,6 +66,9 @@ namespace MissingEventFlagsCheckerPlugin
             if (berryTreesChk.Checked)
                 m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.BerryTree);
 
+            if (collectablesChk.Checked)
+                m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.Collectable);
+
             Close();
         }
 
@@ -72,8 +80,11 @@ namespace MissingEventFlagsCheckerPlugin
             if (hiddenItemsChk.Checked)
                 m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.HiddenItem);
 
-            if (giftsChk.Checked)
-                m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.Gift);
+            if (itemGiftsChk.Checked)
+                m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.ItemGift);
+
+            if (pkmnGiftsChk.Checked)
+                m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.PkmnGift);
 
             if (trainerBattlesChk.Checked)
                 m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.TrainerBattle);
@@ -92,6 +103,9 @@ namespace MissingEventFlagsCheckerPlugin
 
             if (berryTreesChk.Checked)
                 m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.BerryTree);
+
+            if (collectablesChk.Checked)
+                m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.Collectable);
 
             Close();
         }
