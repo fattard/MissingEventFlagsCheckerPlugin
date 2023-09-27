@@ -35,6 +35,52 @@ namespace MissingEventFlagsCheckerPlugin
             Gift = ItemGift,
         }
 
+        protected class EventDetail
+        {
+            public int EvtSource { get; private set; }
+            public ulong EvtId { get; private set; }
+            public FlagType EvtTypeVal { get; private set; }
+            public string Location { get; private set; }
+            public string DescTxt { get; private set; }
+            public bool IsDone { get; set; }
+
+            public EventDetail(string detailEntry, Dictionary<string, int> sources)
+            {
+                string[] info = detailEntry.Split('\t');
+
+                if (info.Length < 7)
+                {
+                    throw new ArgumentException("Argument detailEntry format is not valid");
+                }
+
+                EvtSource = sources[info[1]];
+                EvtId = ParseDecOrHex(info[2]);
+                EvtTypeVal = EvtTypeVal.Parse(info[3]);
+
+                Location = info[4];
+                if (!string.IsNullOrWhiteSpace(info[5]))
+                {
+                    Location += " " + info[5];
+                }
+                DescTxt = info[6];
+                IsDone = false;
+            }
+
+
+            public override string ToString()
+            {
+                if (string.IsNullOrEmpty(Location))
+                {
+                    return string.Format("{0} - {1}", EvtTypeVal.AsText(), DescTxt);
+                }
+
+                else
+                {
+                    return string.Format("{0} - {1} - {2}", EvtTypeVal.AsText(), Location, DescTxt);
+                }
+            }
+        }
+
 
         protected class FlagDetail
         {
@@ -189,12 +235,17 @@ namespace MissingEventFlagsCheckerPlugin
 
         protected List<FlagDetail> m_eventFlagsList = new List<FlagDetail>(4096);
         protected List<WorkDetail> m_eventWorkList = new List<WorkDetail>(4096);
+        protected List<EventDetail> m_checkEventsList = new List<EventDetail>(4096);
+
+        protected Dictionary<string, int> m_flagsSourceInfo = new Dictionary<string, int>(10);
 
         protected virtual void InitFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
             m_eventFlagsList.Clear();
             m_eventWorkList.Clear();
+            m_checkEventsList.Clear();
+            m_flagsSourceInfo.Clear();
         }
 
         protected virtual void AssembleList(string flagsList_res, bool[] customFlagValues = null)
@@ -320,19 +371,57 @@ namespace MissingEventFlagsCheckerPlugin
             }
         }
 
+        protected void ParseCheckList(string chkList_res)
+        {
+            m_checkEventsList.Clear();
+
+            using (System.IO.StringReader reader = new System.IO.StringReader(chkList_res))
+            {
+                string s = reader.ReadLine();
+
+                do
+                {
+                    if (!string.IsNullOrWhiteSpace(s))
+                    {
+                        var evtDetail = new EventDetail(s, m_flagsSourceInfo);
+                        evtDetail.IsDone = IsEvtSet(evtDetail);
+                        m_checkEventsList.Add(evtDetail);
+                    }
+
+                    s = reader.ReadLine();
+
+                } while (s != null);
+            }
+        }
+
 
         #region Actions
 
         public virtual void ExportMissingFlags()
         {
-            m_eventFlagsList.Sort((x, y) => (int)(x.OrderKey - y.OrderKey));
-
             StringBuilder sb = new StringBuilder(100 * 1024);
-            for (int i = 0; i < m_eventFlagsList.Count; ++i)
+
+            if (m_checkEventsList.Count == 0)
             {
-                if (!m_eventFlagsList[i].IsSet && ShouldExportEvent(m_eventFlagsList[i]))
+                m_eventFlagsList.Sort((x, y) => (int)(x.OrderKey - y.OrderKey));
+
+                for (int i = 0; i < m_eventFlagsList.Count; ++i)
                 {
-                    sb.Append($"{m_eventFlagsList[i]}\r\n");
+                    if (!m_eventFlagsList[i].IsSet && ShouldExportEvent(m_eventFlagsList[i]))
+                    {
+                        sb.Append($"{m_eventFlagsList[i]}\r\n");
+                    }
+                }
+            }
+
+            else
+            {
+                for (int i = 0; i < m_checkEventsList.Count; ++i)
+                {
+                    if (m_checkEventsList[i].EvtTypeVal != FlagType._Separator && !m_checkEventsList[i].IsDone)
+                    {
+                        sb.Append($"{m_checkEventsList[i]}\r\n");
+                    }
                 }
             }
 
@@ -341,14 +430,33 @@ namespace MissingEventFlagsCheckerPlugin
 
         public virtual void ExportChecklist()
         {
-            m_eventFlagsList.Sort((x, y) => (int)(x.OrderKey - y.OrderKey));
-
             StringBuilder sb = new StringBuilder(100 * 1024);
-            for (int i = 0; i < m_eventFlagsList.Count; ++i)
+
+            if (m_checkEventsList.Count == 0)
             {
-                if (ShouldExportEvent(m_eventFlagsList[i]))
+                m_eventFlagsList.Sort((x, y) => (int)(x.OrderKey - y.OrderKey));
+
+                for (int i = 0; i < m_eventFlagsList.Count; ++i)
                 {
-                    sb.AppendFormat("[{0}] {1}\r\n", m_eventFlagsList[i].IsSet ? "x" : " ", m_eventFlagsList[i]);
+                    if (ShouldExportEvent(m_eventFlagsList[i]))
+                    {
+                        sb.AppendFormat("[{0}] {1}\r\n", m_eventFlagsList[i].IsSet ? "x" : " ", m_eventFlagsList[i]);
+                    }
+                }
+            }
+
+            else
+            {
+                for (int i = 0; i < m_checkEventsList.Count; ++i)
+                {
+                    if (m_checkEventsList[i].EvtTypeVal != FlagType._Separator)
+                    {
+                        sb.AppendFormat("[{0}] {1}\r\n", m_checkEventsList[i].IsDone ? "x" : " ", m_checkEventsList[i]);
+                    }
+                    else
+                    {
+                        sb.Append("\r\n");
+                    }
                 }
             }
 
@@ -389,6 +497,7 @@ namespace MissingEventFlagsCheckerPlugin
         public abstract void MarkFlags(FlagType flagType);
         public abstract void UnmarkFlags(FlagType flagType);
         public abstract bool SupportsEditingFlag(FlagType flagType);
+        protected virtual bool IsEvtSet(EventDetail evtDetail) => false;
 
         #endregion
 
@@ -435,6 +544,13 @@ namespace MissingEventFlagsCheckerPlugin
         }
 
 
+        public static ulong ParseDecOrHex(string str)
+        {
+            if (str.StartsWith("0x"))
+                return Convert.ToUInt64(str, 16);
+
+            return Convert.ToUInt64(str);
+        }
 
         public static FlagsOrganizer OrganizeFlags(SaveFile savFile)
         {
