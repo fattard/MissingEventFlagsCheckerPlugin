@@ -45,7 +45,9 @@ namespace MissingEventFlagsCheckerPlugin
         {
             m_savFile = savFile;
 
-            if ((m_savFile as SAV1).Japanese)
+            var savFile_SAV1 = (m_savFile as SAV1);
+
+            if (savFile_SAV1.Japanese)
             {
                 //TODO:
             }
@@ -115,6 +117,27 @@ namespace MissingEventFlagsCheckerPlugin
 
             // wEventFlags
             bool[] eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
+
+            // Check Pokedex
+            bool completedPokedex = true;
+            bool isMewRegistered = false;
+            for (ushort i = 001; i <= 151; i++)
+            {
+                switch (i)
+                {
+                    case 151: // Mew
+                        isMewRegistered = savFile_SAV1.GetCaught(i);
+                        break;
+
+                    default:
+                        if (!savFile_SAV1.GetCaught(i))
+                        {
+                            completedPokedex = false;
+                        }
+                        break;
+
+                }
+            }
 
 #if DEBUG
             // Force refresh
