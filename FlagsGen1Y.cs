@@ -13,14 +13,26 @@ namespace MissingEventFlagsCheckerPlugin
 
         enum FlagOffsets_INTL
         {
-            BadgeFlags_INTL = 0x2602,
-            MissableObjectFlags_INTL = 0x2852,
-            ObtainedHiddenItems_INTL = 0x299C,
-            ObtainedHiddenCoins_INTL = 0x29AA,
-            RodFlags_INTL = 0x29D4,
-            LaprasFlag_INTL = 0x29DA,
-            CompletedInGameTradeFlags_INTL = 0x29E3,
-            EventFlags_INTL = 0x29F3,
+            BadgeFlags = 0x2602,
+            MissableObjectFlags = 0x2852,
+            ObtainedHiddenItems = 0x299C,
+            ObtainedHiddenCoins = 0x29AA,
+            RodFlags = 0x29D4,
+            LaprasFlag = 0x29DA,
+            CompletedInGameTradeFlags = 0x29E3,
+            EventFlags = 0x29F3,
+        }
+
+        enum FlagOffsets_JAP
+        {
+            BadgeFlags = 0x25F8,
+            MissableObjectFlags = 0x2848,
+            ObtainedHiddenItems = 0x2992,
+            ObtainedHiddenCoins = 0x29A0,
+            RodFlags = 0x29CA,
+            LaprasFlag = 0x29D0,
+            CompletedInGameTradeFlags = 0x29D9,
+            EventFlags = 0x29E9,
         }
 
         int BadgeFlagsOffset;
@@ -48,17 +60,23 @@ namespace MissingEventFlagsCheckerPlugin
 
             if (savFile_SAV1.Japanese)
             {
-                //TODO:
+                BadgeFlagsOffset = (int)FlagOffsets_JAP.BadgeFlags;
+                MissableObjectFlagsOffset = (int)FlagOffsets_JAP.MissableObjectFlags;
+                ObtainedHiddenItemsOffset = (int)FlagOffsets_JAP.ObtainedHiddenItems;
+                ObtainedHiddenCoinsOffset = (int)FlagOffsets_JAP.ObtainedHiddenCoins;
+                RodFlagsOffset = (int)FlagOffsets_JAP.RodFlags;
+                LaprasFlagOffset = (int)FlagOffsets_JAP.LaprasFlag;
+                CompletedInGameTradeFlagsOffset = (int)FlagOffsets_JAP.CompletedInGameTradeFlags;
             }
             else
             {
-                BadgeFlagsOffset = (int)FlagOffsets_INTL.BadgeFlags_INTL;
-                MissableObjectFlagsOffset = (int)FlagOffsets_INTL.MissableObjectFlags_INTL;
-                ObtainedHiddenItemsOffset = (int)FlagOffsets_INTL.ObtainedHiddenItems_INTL;
-                ObtainedHiddenCoinsOffset = (int)FlagOffsets_INTL.ObtainedHiddenCoins_INTL;
-                RodFlagsOffset = (int)FlagOffsets_INTL.RodFlags_INTL;
-                LaprasFlagOffset = (int)FlagOffsets_INTL.LaprasFlag_INTL;
-                CompletedInGameTradeFlagsOffset = (int)FlagOffsets_INTL.CompletedInGameTradeFlags_INTL;
+                BadgeFlagsOffset = (int)FlagOffsets_INTL.BadgeFlags;
+                MissableObjectFlagsOffset = (int)FlagOffsets_INTL.MissableObjectFlags;
+                ObtainedHiddenItemsOffset = (int)FlagOffsets_INTL.ObtainedHiddenItems;
+                ObtainedHiddenCoinsOffset = (int)FlagOffsets_INTL.ObtainedHiddenCoins;
+                RodFlagsOffset = (int)FlagOffsets_INTL.RodFlags;
+                LaprasFlagOffset = (int)FlagOffsets_INTL.LaprasFlag;
+                CompletedInGameTradeFlagsOffset = (int)FlagOffsets_INTL.CompletedInGameTradeFlags;
             }
 
             // wObtainedBadges
