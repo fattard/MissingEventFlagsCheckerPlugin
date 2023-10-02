@@ -14,6 +14,10 @@ namespace MissingEventFlagsCheckerPlugin
         BattleTrainerStatus8b m_battleTrainerStatus;
         FlagWork8b m_flagWork;
 
+        const int Src_EventFlags = 0;
+        const int Src_SysFlags = 1;
+        const int Src_TrainerFlags = 2;
+
         protected override void InitEventFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
@@ -47,9 +51,11 @@ namespace MissingEventFlagsCheckerPlugin
                 battleTrainerVals[i] = m_battleTrainerStatus.GetIsWin(i);
             }
 
-            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), 0, (m_savFile as IEventFlagArray).GetEventFlags());
-            AssembleList(s_flagsList_res.Substring(idxSysFlagsSection), 1, sysFlagsVals);
-            AssembleList(s_flagsList_res.Substring(idxTrainerFlagsSection), 2, battleTrainerVals);
+            bool[] eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
+
+            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), Src_EventFlags, eventFlags);
+            AssembleList(s_flagsList_res.Substring(idxSysFlagsSection), Src_SysFlags, sysFlagsVals);
+            AssembleList(s_flagsList_res.Substring(idxTrainerFlagsSection), Src_TrainerFlags, battleTrainerVals);
 
             AssembleWorkList<int>(s_flagsList_res.Substring(idxEventWorkSection));
 
@@ -65,51 +71,6 @@ namespace MissingEventFlagsCheckerPlugin
                 }
             }
         }
-
-        /*
-        protected override void AssembleList(string flagsList_res, bool[] customFlagValues = null)
-        {
-            var savEventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
-            
-            var sysFlags = new bool[m_flagWork.CountSystem];
-
-            sysFlagStart = m_flagWork.CountFlag;
-            trainerFlagStart = m_flagWork.CountFlag + m_flagWork.CountSystem;
-
-            m_eventFlagsList.Clear();
-            using (System.IO.StringReader reader = new System.IO.StringReader(flagsList_res))
-            {
-                string s = reader.ReadLine();
-                do
-                {
-                    if (!string.IsNullOrWhiteSpace(s))
-                    {
-                        var flagDetail = new FlagDetail(s);
-
-                        if (flagDetail.FlagIdx < savEventFlags.Length)
-                        {
-                            flagDetail.IsSet = savEventFlags[flagDetail.FlagIdx];
-                        }
-
-                        else if (flagDetail.FlagIdx < (trainerFlagStart))
-                        {
-                            flagDetail.IsSet = m_flagWork.GetSystemFlag((int)flagDetail.FlagIdx - sysFlagStart);
-                        }
-
-                        else if (flagDetail.FlagTypeVal == FlagType.TrainerBattle)
-                        {
-                            flagDetail.IsSet = m_battleTrainerStatus.GetIsWin((int)flagDetail.FlagIdx - trainerFlagStart);
-                        }
-                        
-                        m_eventFlagsList.Add(flagDetail);
-                    }
-
-                    s = reader.ReadLine();
-
-                } while (s != null);
-            }
-        }
-        */
 
         public override bool SupportsEditingFlag(EventFlagType flagType)
         {
@@ -139,38 +100,27 @@ namespace MissingEventFlagsCheckerPlugin
         {
             if (SupportsEditingFlag(flagType))
             {
-                // Trainer status
-                if (flagType == EventFlagType.TrainerBattle)
+                foreach (var evt in m_eventsChecklist)
                 {
-                    foreach (var f in m_eventFlagsList)
+                    if (evt.EvtTypeVal == flagType)
                     {
-                        if (f.FlagTypeVal == flagType)
+                        int idx = (int)evt.EvtId;
+
+                        evt.IsDone = value;
+
+                        switch (evt.EvtSource)
                         {
-                            f.IsSet = value;
-                            m_battleTrainerStatus.SetIsWin((int)f.FlagIdx, value);
-                        }
-                    }
-                }
+                            case Src_EventFlags:
+                                m_flagWork.SetFlag(idx, value);
+                                break;
 
-                // Common event flags
-                else
-                {
-                    var flagHelper = (m_savFile as IEventFlagArray);
+                            case Src_SysFlags:
+                                m_flagWork.SetSystemFlag(idx, value);
+                                break;
 
-                    foreach (var f in m_eventFlagsList)
-                    {
-                        if (f.FlagTypeVal == flagType)
-                        {
-                            f.IsSet = value;
-                            /*if (f.FlagIdx >= flagHelper.EventFlagCount)
-                            {
-                                m_flagWork.SetSystemFlag((int)f.FlagIdx - m_flagWork.CountFlag, value);
-                            }
-
-                            else*/
-                            {
-                                flagHelper.SetEventFlag((int)f.FlagIdx, value);
-                            }
+                            case Src_TrainerFlags:
+                                m_battleTrainerStatus.SetIsWin(idx, value);
+                                break;
                         }
                     }
                 }
@@ -205,15 +155,15 @@ namespace MissingEventFlagsCheckerPlugin
 
             switch (evtDetail.EvtSource)
             {
-                case 0: // EventFlags
-                    isEvtSet = (m_savFile as IEventFlagArray).GetEventFlag(idx);
+                case Src_EventFlags:
+                    isEvtSet = m_flagWork.GetFlag(idx);
                     break;
 
-                case 1: // SysFlags
+                case Src_SysFlags:
                     isEvtSet = m_flagWork.GetSystemFlag(idx);
                     break;
 
-                case 2: // TrainerFlags
+                case Src_TrainerFlags:
                     isEvtSet = m_battleTrainerStatus.GetIsWin(idx);
                     break;
 

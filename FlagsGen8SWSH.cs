@@ -92,12 +92,12 @@ namespace MissingEventFlagsCheckerPlugin
             {
                 var blocks = (m_savFile as ISCBlockArray).Accessor;
 
-                foreach (var f in m_eventFlagsList)
+                foreach (var evt in m_eventsChecklist)
                 {
-                    if (f.FlagTypeVal == flagType)
+                    if (evt.EvtTypeVal == flagType)
                     {
-                        f.IsSet = value;
-                        blocks.GetBlockSafe((uint)f.FlagIdx).ChangeBooleanType(value ? SCTypeCode.Bool2 : SCTypeCode.Bool1);
+                        evt.IsDone = value;
+                        blocks.GetBlockSafe((uint)evt.EvtId).ChangeBooleanType(value ? SCTypeCode.Bool2 : SCTypeCode.Bool1);
                     }
                 }
             }

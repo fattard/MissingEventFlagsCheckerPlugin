@@ -92,15 +92,15 @@ namespace MissingEventFlagsCheckerPlugin
             {
                 var flagHelper = (m_savFile as IEventFlagArray);
 
-                foreach (var f in m_eventFlagsList)
+                foreach (var evt in m_eventsChecklist)
                 {
-                    if (f.FlagTypeVal == flagType)
+                    if (evt.EvtTypeVal == flagType)
                     {
-                        int fIdx = (int)f.FlagIdx;
+                        int fIdx = (int)evt.EvtId;
 
-                        f.IsSet = value;
+                        evt.IsDone = value;
 
-                        switch (f.SourceIdx)
+                        switch (evt.EvtSource)
                         {
                             case 0: // EventFlags
                                 flagHelper.SetEventFlag(fIdx, value);

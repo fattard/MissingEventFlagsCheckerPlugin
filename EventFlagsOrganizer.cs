@@ -99,7 +99,7 @@ namespace MissingEventFlagsCheckerPlugin
             public EventDetail(FlagsOrganizer.FlagDetail flagDetail)
             {
                 EvtSource = flagDetail.SourceIdx;
-                EvtId = flagDetail.FlagIdx;
+                EvtId = flagDetail.AHTB;
                 EvtTypeVal = flagDetail.FlagTypeVal;
                 Location = flagDetail.LocationName;
                 DescTxt = flagDetail.DetailMsg;

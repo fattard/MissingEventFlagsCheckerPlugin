@@ -231,14 +231,14 @@ namespace MissingEventFlagsCheckerPlugin
                     {
                         using (var writer = new System.IO.BinaryWriter(ms))
                         {
-                            foreach (var f in m_eventFlagsList)
+                            foreach (var evt in m_eventsChecklist)
                             {
                                 if (ms.Position < ms.Length)
                                 {
-                                    if (f.FlagTypeVal == flagType)
+                                    if (evt.EvtTypeVal == flagType)
                                     {
-                                        f.IsSet = value;
-                                        writer.Write(f.AHTB);
+                                        evt.IsDone = value;
+                                        writer.Write(evt.EvtId);
                                         writer.Write(value ? (ulong)1 : (ulong)0);
                                     }
                                 }
@@ -254,14 +254,14 @@ namespace MissingEventFlagsCheckerPlugin
                     {
                         using (var writer = new System.IO.BinaryWriter(ms))
                         {
-                            foreach (var f in m_eventFlagsList)
+                            foreach (var evt in m_eventsChecklist)
                             {
                                 if (ms.Position < ms.Length)
                                 {
-                                    if (f.FlagTypeVal == flagType)
+                                    if (evt.EvtTypeVal == flagType)
                                     {
-                                        f.IsSet = value;
-                                        writer.Write(value ? f.AHTB : 0xCBF29CE484222645);
+                                        evt.IsDone = value;
+                                        writer.Write(value ? evt.EvtId : 0xCBF29CE484222645);
                                         writer.Write(value ? (ulong)1 : (ulong)0);
                                     }
                                 }
@@ -279,12 +279,12 @@ namespace MissingEventFlagsCheckerPlugin
 
                 else if (flagType == EventFlagType.SideEvent || flagType == EventFlagType.InGameTrade || flagType == EventFlagType.Gift)
                 {
-                    foreach (var f in m_eventFlagsList)
+                    foreach (var evt in m_eventsChecklist)
                     {
-                        if (f.FlagTypeVal == flagType)
+                        if (evt.EvtTypeVal == flagType)
                         {
-                            f.IsSet = value;
-                            savEventBlocks.GetBlockSafe(f.FlagIdx).ChangeBooleanType(value ? SCTypeCode.Bool2 : SCTypeCode.Bool1);
+                            evt.IsDone = value;
+                            savEventBlocks.GetBlockSafe((uint)evt.EvtId).ChangeBooleanType(value ? SCTypeCode.Bool2 : SCTypeCode.Bool1);
                         }
                     }
                 }
@@ -300,38 +300,6 @@ namespace MissingEventFlagsCheckerPlugin
                     }
                 }*/
             }
-        }
-
-        public override void ExportMissingEvents()
-        {
-            //m_eventFlagsList.Sort((x, y) => x.OrderKey - y.OrderKey);
-
-            StringBuilder sb = new StringBuilder(100 * 1024);
-            for (int i = 0; i < m_eventFlagsList.Count; ++i)
-            {
-                if (!m_eventFlagsList[i].IsSet && ShouldExportEvent(m_eventFlagsList[i]))
-                {
-                    sb.Append($"{m_eventFlagsList[i]}\r\n");
-                }
-            }
-
-            System.IO.File.WriteAllText(string.Format("missing_events_{0}.txt", m_savFile.Version), sb.ToString());
-        }
-
-        public override void ExportChecklist()
-        {
-            //m_eventFlagsList.Sort((x, y) => x.OrderKey - y.OrderKey);
-
-            StringBuilder sb = new StringBuilder(100 * 1024);
-            for (int i = 0; i < m_eventFlagsList.Count; ++i)
-            {
-                if (ShouldExportEvent(m_eventFlagsList[i]))
-                {
-                    sb.AppendFormat("[{0}] {1}\r\n", m_eventFlagsList[i].IsSet ? "x" : " ", m_eventFlagsList[i]);
-                }
-            }
-
-            System.IO.File.WriteAllText(string.Format("checklist_{0}.txt", m_savFile.Version), sb.ToString());
         }
 
         public override void DumpAllFlags()

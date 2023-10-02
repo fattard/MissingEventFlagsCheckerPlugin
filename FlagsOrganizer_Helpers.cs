@@ -10,139 +10,139 @@ namespace MissingEventFlagsCheckerPlugin
 
     static class FlagTypeExtensions
     {
-        public static FlagsOrganizer.EventFlagType Parse(this FlagsOrganizer.EventFlagType flagType, string txt)
+        public static EventFlagsOrganizer.EventFlagType Parse(this EventFlagsOrganizer.EventFlagType flagType, string txt)
         {
             switch (txt)
             {
                 case "FIELD ITEM":
-                    flagType = FlagsOrganizer.EventFlagType.FieldItem;
+                    flagType = EventFlagsOrganizer.EventFlagType.FieldItem;
                     break;
 
                 case "HIDDEN ITEM":
-                    flagType = FlagsOrganizer.EventFlagType.HiddenItem;
+                    flagType = EventFlagsOrganizer.EventFlagType.HiddenItem;
                     break;
 
                 case "SPECIAL ITEM":
-                    flagType = FlagsOrganizer.EventFlagType.SpecialItem;
+                    flagType = EventFlagsOrganizer.EventFlagType.SpecialItem;
                     break;
 
                 case "TRAINER BATTLE":
-                    flagType = FlagsOrganizer.EventFlagType.TrainerBattle;
+                    flagType = EventFlagsOrganizer.EventFlagType.TrainerBattle;
                     break;
 
                 case "STATIC BATTLE":
                 case "STATIONARY_BATTLE":
-                    flagType = FlagsOrganizer.EventFlagType.StaticBattle;
+                    flagType = EventFlagsOrganizer.EventFlagType.StaticBattle;
                     break;
 
                 case "IN-GAME TRADE":
-                    flagType = FlagsOrganizer.EventFlagType.InGameTrade;
+                    flagType = EventFlagsOrganizer.EventFlagType.InGameTrade;
                     break;
 
                 case "GIFT":
                 case "ITEM GIFT":
-                    flagType = FlagsOrganizer.EventFlagType.ItemGift;
+                    flagType = EventFlagsOrganizer.EventFlagType.ItemGift;
                     break;
 
                 case "PKMN GIFT":
-                    flagType = FlagsOrganizer.EventFlagType.PkmnGift;
+                    flagType = EventFlagsOrganizer.EventFlagType.PkmnGift;
                     break;
 
                 case "EVENT":
-                    flagType = FlagsOrganizer.EventFlagType.GeneralEvent;
+                    flagType = EventFlagsOrganizer.EventFlagType.GeneralEvent;
                     break;
 
                 case "SIDE EVENT":
-                    flagType = FlagsOrganizer.EventFlagType.SideEvent;
+                    flagType = EventFlagsOrganizer.EventFlagType.SideEvent;
                     break;
 
                 case "STORY EVENT":
-                    flagType = FlagsOrganizer.EventFlagType.StoryEvent;
+                    flagType = EventFlagsOrganizer.EventFlagType.StoryEvent;
                     break;
 
                 case "BERRY TREE":
-                    flagType = FlagsOrganizer.EventFlagType.BerryTree;
+                    flagType = EventFlagsOrganizer.EventFlagType.BerryTree;
                     break;
 
                 case "COLLECTABLE":
-                    flagType = FlagsOrganizer.EventFlagType.Collectable;
+                    flagType = EventFlagsOrganizer.EventFlagType.Collectable;
                     break;
 
                 case "_UNUSED":
-                    flagType = FlagsOrganizer.EventFlagType._Unused;
+                    flagType = EventFlagsOrganizer.EventFlagType._Unused;
                     break;
 
                 case "_SEPARATOR":
-                    flagType = FlagsOrganizer.EventFlagType._Separator;
+                    flagType = EventFlagsOrganizer.EventFlagType._Separator;
                     break;
 
                 default:
-                    flagType = FlagsOrganizer.EventFlagType._Unknown;
+                    flagType = EventFlagsOrganizer.EventFlagType._Unknown;
                     break;
             }
 
             return flagType;
         }
 
-        public static string AsText(this FlagsOrganizer.EventFlagType flagType)
+        public static string AsText(this EventFlagsOrganizer.EventFlagType flagType)
         {
             string flagTypeTxt = "";
 
             switch (flagType)
             {
-                case FlagsOrganizer.EventFlagType.FieldItem:
+                case EventFlagsOrganizer.EventFlagType.FieldItem:
                     flagTypeTxt = "FIELD ITEM";
                     break;
 
-                case FlagsOrganizer.EventFlagType.HiddenItem:
+                case EventFlagsOrganizer.EventFlagType.HiddenItem:
                     flagTypeTxt = "HIDDEN ITEM";
                     break;
 
-                case FlagsOrganizer.EventFlagType.SpecialItem:
+                case EventFlagsOrganizer.EventFlagType.SpecialItem:
                     flagTypeTxt = "SPECIAL ITEM";
                     break;
 
-                case FlagsOrganizer.EventFlagType.TrainerBattle:
+                case EventFlagsOrganizer.EventFlagType.TrainerBattle:
                     flagTypeTxt = "TRAINER BATTLE";
                     break;
 
-                case FlagsOrganizer.EventFlagType.StaticBattle:
+                case EventFlagsOrganizer.EventFlagType.StaticBattle:
                     flagTypeTxt = "STATIC BATTLE";
                     break;
 
-                case FlagsOrganizer.EventFlagType.InGameTrade:
+                case EventFlagsOrganizer.EventFlagType.InGameTrade:
                     flagTypeTxt = "IN-GAME TRADE";
                     break;
 
-                case FlagsOrganizer.EventFlagType.ItemGift:
+                case EventFlagsOrganizer.EventFlagType.ItemGift:
                     flagTypeTxt = "ITEM GIFT";
                     break;
 
-                case FlagsOrganizer.EventFlagType.PkmnGift:
+                case EventFlagsOrganizer.EventFlagType.PkmnGift:
                     flagTypeTxt = "PKMN GIFT";
                     break;
 
-                case FlagsOrganizer.EventFlagType.GeneralEvent:
+                case EventFlagsOrganizer.EventFlagType.GeneralEvent:
                     flagTypeTxt = "EVENT";
                     break;
 
-                case FlagsOrganizer.EventFlagType.SideEvent:
+                case EventFlagsOrganizer.EventFlagType.SideEvent:
                     flagTypeTxt = "SIDE EVENT";
                     break;
 
-                case FlagsOrganizer.EventFlagType.StoryEvent:
+                case EventFlagsOrganizer.EventFlagType.StoryEvent:
                     flagTypeTxt = "STORY EVENT";
                     break;
 
-                case FlagsOrganizer.EventFlagType.BerryTree:
+                case EventFlagsOrganizer.EventFlagType.BerryTree:
                     flagTypeTxt = "BERRY TREE";
                     break;
 
-                case FlagsOrganizer.EventFlagType.Collectable:
+                case EventFlagsOrganizer.EventFlagType.Collectable:
                     flagTypeTxt = "COLLECTABLE";
                     break;
 
-                case FlagsOrganizer.EventFlagType._Unused:
+                case EventFlagsOrganizer.EventFlagType._Unused:
                     flagTypeTxt = "_UNUSED";
                     break;
 
@@ -157,7 +157,7 @@ namespace MissingEventFlagsCheckerPlugin
 
 
 
-    class DummyOrgFlags : FlagsOrganizer
+    class DummyOrg : EventFlagsOrganizer
     {
         protected override void InitEventFlagsData(SaveFile savFile)
         {
@@ -167,7 +167,7 @@ namespace MissingEventFlagsCheckerPlugin
 
             for (int i = 0; i < savEventFlags.Length; ++i)
             {
-                m_eventFlagsList.Add(new FlagDetail((uint)i, EventFlagType._Unknown, "", "") { IsSet = savEventFlags[i] });
+                m_eventFlagsList.Add(new FlagsOrganizer.FlagDetail((uint)i, EventFlagType._Unknown, "", "") { IsSet = savEventFlags[i] });
             }
         }
 
@@ -183,7 +183,7 @@ namespace MissingEventFlagsCheckerPlugin
     }
 
 
-    class DummyOrgBlockFlags : FlagsOrganizer
+    class DummyOrgBlockFlags : EventFlagsOrganizer
     {
         List<SCBlock> m_blockEventFlags;
 
@@ -206,7 +206,7 @@ namespace MissingEventFlagsCheckerPlugin
             for (int i = 0; i < m_blockEventFlags.Count; ++i)
             {
                 var b = m_blockEventFlags[i];
-                m_eventFlagsList.Add(new FlagDetail(b.Key, EventFlagType._Unknown, "", "") { IsSet = b.Type == SCTypeCode.Bool2 });
+                m_eventFlagsList.Add(new FlagsOrganizer.FlagDetail(b.Key, EventFlagType._Unknown, "", "") { IsSet = b.Type == SCTypeCode.Bool2 });
             }
         }
 
@@ -216,16 +216,12 @@ namespace MissingEventFlagsCheckerPlugin
 
         public override void DumpAllFlags()
         {
-            StringBuilder sb = new StringBuilder(100 * 1024);
+            StringBuilder sb = new StringBuilder(512 * 1024);
             
             for (int i = 0; i < m_eventFlagsList.Count; ++i)
             {
-#if DEBUG
                 sb.AppendFormat("FLAG_0x{0:X8} {1}\t{2}\r\n", m_eventFlagsList[i].FlagIdx, m_eventFlagsList[i].IsSet,
                     m_eventFlagsList[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : m_eventFlagsList[i].ToString());
-#else
-                sb.AppendFormat("FLAG_0x{0:X8} {1}\r\n", m_eventFlagsList[i].FlagIdx, m_eventFlagsList[i].IsSet);
-#endif
             }
 
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());

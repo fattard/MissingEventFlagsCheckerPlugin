@@ -30,7 +30,6 @@ namespace MissingEventFlagsCheckerPlugin
         int RodFlagsOffset;
         int LaprasFlagOffset;
         int CompletedInGameTradeFlagsOffset;
-        int EventFlagsOffset;
 
         const int Src_EventFlags = 0;
         const int Src_HideShowFlags = 1;
@@ -60,7 +59,6 @@ namespace MissingEventFlagsCheckerPlugin
                 RodFlagsOffset = (int)FlagOffsets_INTL.RodFlags_INTL;
                 LaprasFlagOffset = (int)FlagOffsets_INTL.LaprasFlag_INTL;
                 CompletedInGameTradeFlagsOffset = (int)FlagOffsets_INTL.CompletedInGameTradeFlags_INTL;
-                EventFlagsOffset = (int)FlagOffsets_INTL.EventFlags_INTL;
             }
 
             // wObtainedBadges
@@ -216,66 +214,69 @@ namespace MissingEventFlagsCheckerPlugin
 
         void ChangeFlagsVal(EventFlagType flagType, bool value)
         {
-            var flagHelper = (m_savFile as IEventFlagArray);
-
-            foreach (var f in m_eventFlagsList)
+            if (SupportsEditingFlag(flagType))
             {
-                if (f.FlagTypeVal == flagType)
+                var flagHelper = (m_savFile as IEventFlagArray);
+
+                foreach (var evt in m_eventsChecklist)
                 {
-                    int fIdx = (int)f.FlagIdx;
-                    
-                    f.IsSet = value;
-
-                    switch (f.SourceIdx)
+                    if (evt.EvtTypeVal == flagType)
                     {
-                        case Src_EventFlags:
-                            flagHelper.SetEventFlag(fIdx, value);
-                            break;
+                        int idx = (int)evt.EvtId;
 
-                        case Src_HideShowFlags:
-                            m_savFile.SetFlag(MissableObjectFlagsOffset + (fIdx >> 3), fIdx & 7, value);
-                            break;
+                        evt.IsDone = value;
 
-                        case Src_HiddenItemFlags:
-                            m_savFile.SetFlag(ObtainedHiddenItemsOffset + (fIdx >> 3), fIdx & 7, value);
-                            break;
+                        switch (evt.EvtSource)
+                        {
+                            case Src_EventFlags:
+                                flagHelper.SetEventFlag(idx, value);
+                                break;
 
-                        case Src_HiddenCoinsFlags:
-                            m_savFile.SetFlag(ObtainedHiddenCoinsOffset + (fIdx >> 3), fIdx & 7, value);
-                            break;
+                            case Src_HideShowFlags:
+                                m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
+                                break;
 
-                        case Src_TradeFlags:
-                            m_savFile.SetFlag(CompletedInGameTradeFlagsOffset + (fIdx >> 3), fIdx & 7, value);
-                            break;
+                            case Src_HiddenItemFlags:
+                                m_savFile.SetFlag(ObtainedHiddenItemsOffset + (idx >> 3), idx & 7, value);
+                                break;
 
-                        case Src_BadgesFlags:
-                            m_savFile.SetFlag(BadgeFlagsOffset + (fIdx >> 3), fIdx & 7, value);
-                            break;
+                            case Src_HiddenCoinsFlags:
+                                m_savFile.SetFlag(ObtainedHiddenCoinsOffset + (idx >> 3), idx & 7, value);
+                                break;
 
-                        case Src_MiscFlags:
-                            {
-                                switch (fIdx)
+                            case Src_TradeFlags:
+                                m_savFile.SetFlag(CompletedInGameTradeFlagsOffset + (idx >> 3), idx & 7, value);
+                                break;
+
+                            case Src_BadgesFlags:
+                                m_savFile.SetFlag(BadgeFlagsOffset + (idx >> 3), idx & 7, value);
+                                break;
+
+                            case Src_MiscFlags:
                                 {
-                                    case 0x00: // Lapras flag
-                                        m_savFile.SetFlag(LaprasFlagOffset, 0, value);
-                                        break;
+                                    switch (idx)
+                                    {
+                                        case 0x00: // Lapras flag
+                                            m_savFile.SetFlag(LaprasFlagOffset, 0, value);
+                                            break;
 
-                                    case 0x01: // Old Rod flag
-                                        m_savFile.SetFlag(RodFlagsOffset, 3, value);
-                                        break;
+                                        case 0x01: // Old Rod flag
+                                            m_savFile.SetFlag(RodFlagsOffset, 3, value);
+                                            break;
 
-                                    case 0x02: // Good Rod flag
-                                        m_savFile.SetFlag(RodFlagsOffset, 4, value);
-                                        break;
+                                        case 0x02: // Good Rod flag
+                                            m_savFile.SetFlag(RodFlagsOffset, 4, value);
+                                            break;
 
-                                    case 0x03: // Super Rod flag
-                                        m_savFile.SetFlag(RodFlagsOffset, 5, value);
-                                        break;
+                                        case 0x03: // Super Rod flag
+                                            m_savFile.SetFlag(RodFlagsOffset, 5, value);
+                                            break;
+                                    }
                                 }
-                            }
-                            break;
-                    }
+                                break;
+                        }
 
+                    }
                 }
             }
         }

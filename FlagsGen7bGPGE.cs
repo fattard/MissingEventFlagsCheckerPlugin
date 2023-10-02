@@ -83,12 +83,12 @@ namespace MissingEventFlagsCheckerPlugin
             {
                 var flagHelper = (m_savFile as IEventFlagArray);
 
-                foreach (var f in m_eventFlagsList)
+                foreach (var evt in m_eventsChecklist)
                 {
-                    if (f.FlagTypeVal == flagType)
+                    if (evt.EvtTypeVal == flagType)
                     {
-                        f.IsSet = value;
-                        flagHelper.SetEventFlag((int)f.FlagIdx, value);
+                        evt.IsDone = value;
+                        flagHelper.SetEventFlag((int)evt.EvtId, value);
                     }
                 }
             }
