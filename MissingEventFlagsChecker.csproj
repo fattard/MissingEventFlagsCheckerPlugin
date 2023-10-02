@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EventFlagsOrganizer.cs" />
     <Compile Include="FlagsGen1RB.cs" />
     <Compile Include="FlagsGen1Y.cs" />
     <Compile Include="FlagsGen2C.cs" />

@@ -13,7 +13,7 @@ namespace MissingEventFlagsCheckerPlugin
 
         EventWork7b m_eventWorkData;
 
-        protected override void InitFlagsData(SaveFile savFile)
+        protected override void InitEventFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
             m_eventWorkData = (m_savFile as SAV7b).EventWork;
@@ -25,7 +25,7 @@ namespace MissingEventFlagsCheckerPlugin
 
             if (s_flagsList_res == null)
             {
-                s_flagsList_res = ReadFlagsListRes("flags_gen7blgpe.txt");
+                s_flagsList_res = ReadResFile("flags_gen7blgpe.txt");
             }
 
             AssembleList(s_flagsList_res);
@@ -34,20 +34,20 @@ namespace MissingEventFlagsCheckerPlugin
             m_eventWorkList.Clear();
             for (uint i = 0; i < m_eventWorkData.CountWork; i++)
             {
-                var workDetail = new WorkDetail(i, FlagType._Unknown, "");
+                var workDetail = new WorkDetail(i, EventFlagType._Unknown, "");
                 workDetail.Value = Convert.ToInt64(m_eventWorkData.GetWork((int)workDetail.WorkIdx));
                 m_eventWorkList.Add(workDetail);
             }
         }
 
-        public override bool SupportsEditingFlag(FlagType flagType)
+        public override bool SupportsEditingFlag(EventFlagType flagType)
         {
             switch (flagType)
             {
-                case FlagType.FieldItem:
-                case FlagType.HiddenItem:
-                case FlagType.TrainerBattle:
-                case FlagType.InGameTrade:
+                case EventFlagType.FieldItem:
+                case EventFlagType.HiddenItem:
+                case EventFlagType.TrainerBattle:
+                case EventFlagType.InGameTrade:
                     return true;
 
                 default:
@@ -55,17 +55,17 @@ namespace MissingEventFlagsCheckerPlugin
             }
         }
 
-        public override void MarkFlags(FlagType flagType)
+        public override void MarkFlags(EventFlagType flagType)
         {
             ChangeFlagsVal(flagType, value: true);
         }
 
-        public override void UnmarkFlags(FlagType flagType)
+        public override void UnmarkFlags(EventFlagType flagType)
         {
             ChangeFlagsVal(flagType, value: false);
         }
 
-        void ChangeFlagsVal(FlagType flagType, bool value)
+        void ChangeFlagsVal(EventFlagType flagType, bool value)
         {
             if (SupportsEditingFlag(flagType))
             {
@@ -84,7 +84,7 @@ namespace MissingEventFlagsCheckerPlugin
 
         protected override bool ShouldExportEvent(FlagDetail eventDetail)
         {
-            if (eventDetail.FlagTypeVal == FlagType.GeneralEvent)
+            if (eventDetail.FlagTypeVal == EventFlagType.GeneralEvent)
             {
                 bool shouldInclude = false;
 

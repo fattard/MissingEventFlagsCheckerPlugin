@@ -1,27 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PKHeX.Core;
+using System;
 using System.Windows.Forms;
-using PKHeX.Core;
 
 namespace MissingEventFlagsCheckerPlugin
 {
     public class MissingEventFlagsChecker : IPlugin
     {
         public string Name => "Missing Event Flags Checker";
-        public string NameExportMissingFlags => "Export only the missing flags";
+        public string NameExportMissingFlags => "Export only the missing events";
         public string NameExportChecklistFlags => "Export full Checklist";
         public string NameEditFlags => "Edit flags...";
         public string NameDumpAllFlags => "Dump all Flags";
-        public int Priority => 1; // Loading order, lowest is first.
+        public int Priority => 100; // Loading order, lowest is first.
         public ISaveFileProvider SaveFileEditor { get; private set; } = null;
 
         private ToolStripMenuItem ctrl;
 
-        private ToolStripMenuItem menuEntry_ExporMissingFlags;
-        private ToolStripMenuItem menuEntry_ExporChecklist;
+        private ToolStripMenuItem menuEntry_ExportMissingEvents;
+        private ToolStripMenuItem menuEntry_ExportChecklist;
         private ToolStripMenuItem menuEntry_EditFlags;
         private ToolStripMenuItem menuEntry_DumpAllFlags;
 
@@ -45,89 +41,85 @@ namespace MissingEventFlagsCheckerPlugin
             ctrl.Enabled = false;
             tools.DropDownItems.Add(ctrl);
 
-            menuEntry_ExporChecklist = new ToolStripMenuItem(NameExportChecklistFlags);
-            menuEntry_ExporChecklist.Enabled = false;
-            menuEntry_ExporChecklist.Click += new EventHandler(ExportChecklist);
-            ctrl.DropDownItems.Add(menuEntry_ExporChecklist);
+            menuEntry_ExportChecklist = new ToolStripMenuItem(NameExportChecklistFlags);
+            menuEntry_ExportChecklist.Enabled = false;
+            menuEntry_ExportChecklist.Click += new EventHandler(ExportChecklist_UIEvt);
+            ctrl.DropDownItems.Add(menuEntry_ExportChecklist);
 
-            menuEntry_ExporMissingFlags = new ToolStripMenuItem(NameExportMissingFlags);
-            menuEntry_ExporMissingFlags.Enabled = false;
-            menuEntry_ExporMissingFlags.Click += new EventHandler(ExportMissingFlags);
-            ctrl.DropDownItems.Add(menuEntry_ExporMissingFlags);
+            menuEntry_ExportMissingEvents = new ToolStripMenuItem(NameExportMissingFlags);
+            menuEntry_ExportMissingEvents.Enabled = false;
+            menuEntry_ExportMissingEvents.Click += new EventHandler(ExportMissingEvents_UIEvt);
+            ctrl.DropDownItems.Add(menuEntry_ExportMissingEvents);
 
             menuEntry_DumpAllFlags = new ToolStripMenuItem(NameDumpAllFlags);
             menuEntry_DumpAllFlags.Enabled = false;
-            menuEntry_DumpAllFlags.Click += new EventHandler(DumpAllFlags);
+            menuEntry_DumpAllFlags.Click += new EventHandler(DumpAllFlags_UIEvt);
             ctrl.DropDownItems.Add(menuEntry_DumpAllFlags);
 
             menuEntry_EditFlags = new ToolStripMenuItem(NameEditFlags);
             menuEntry_EditFlags.Enabled = false;
-            menuEntry_EditFlags.Click += new EventHandler(EditFlags);
+            menuEntry_EditFlags.Click += new EventHandler(EditFlags_UIEvt);
 #if DEBUG
             ctrl.DropDownItems.Add(menuEntry_EditFlags);
 #endif
         }
 
-        private void ExportMissingFlags(object sender, EventArgs e)
+        private void ExportMissingEvents_UIEvt(object sender, EventArgs e)
         {
-            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
+            var eventsOrganizer = EventFlagsOrganizer.OrganizeEventFlags(SaveFileEditor.SAV);
 
-            if (flagsOrganizer == null)
+            if (eventsOrganizer == null)
             {
                 throw new FormatException("Unsupported SAV format: " + SaveFileEditor.SAV.Version);
             }
 
-            flagsOrganizer.ExportMissingFlags();
+            eventsOrganizer.ExportMissingEvents();
         }
 
-
-        private void ExportChecklist(object sender, EventArgs e)
+        private void ExportChecklist_UIEvt(object sender, EventArgs e)
         {
-            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
+            var eventsOrganizer = EventFlagsOrganizer.OrganizeEventFlags(SaveFileEditor.SAV);
 
-            if (flagsOrganizer == null)
+            if (eventsOrganizer == null)
             {
                 throw new FormatException("Unsupported SAV format: " + SaveFileEditor.SAV.Version);
             }
 
-            flagsOrganizer.ExportChecklist();
+            eventsOrganizer.ExportChecklist();
         }
 
-
-        private void DumpAllFlags(object sender, EventArgs e)
+        private void DumpAllFlags_UIEvt(object sender, EventArgs e)
         {
-            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
+            var eventsOrganizer = EventFlagsOrganizer.OrganizeEventFlags(SaveFileEditor.SAV);
 
-            if (flagsOrganizer == null)
+            if (eventsOrganizer == null)
             {
                 throw new FormatException("Unsupported SAV format: " + SaveFileEditor.SAV.Version);
             }
 
-            flagsOrganizer.DumpAllFlags();
+            eventsOrganizer.DumpAllFlags();
         }
 
-
-        private void EditFlags(object sender, EventArgs e)
+        private void EditFlags_UIEvt(object sender, EventArgs e)
         {
-            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
+            var eventsOrganizer = EventFlagsOrganizer.OrganizeEventFlags(SaveFileEditor.SAV);
 
-            if (flagsOrganizer == null)
+            if (eventsOrganizer == null)
             {
                 throw new FormatException("Unsupported SAV format: " + SaveFileEditor.SAV.Version);
             }
 
-            var form = new SelectedFlagsEditor(flagsOrganizer);
+            var form = new SelectedFlagsEditor(eventsOrganizer);
             form.ShowDialog();
         }
-
 
         public void NotifySaveLoaded()
         {
             if (ctrl != null)
             {
                 ctrl.Enabled = true;
-                menuEntry_ExporMissingFlags.Enabled = true;
-                menuEntry_ExporChecklist.Enabled = true;
+                menuEntry_ExportMissingEvents.Enabled = true;
+                menuEntry_ExportChecklist.Enabled = true;
                 menuEntry_DumpAllFlags.Enabled = true;
                 menuEntry_EditFlags.Enabled = true;
 
@@ -179,8 +171,8 @@ namespace MissingEventFlagsCheckerPlugin
 
                     //TEMP: dump flags only
                     case GameVersion.PLA:
-                        menuEntry_ExporMissingFlags.Enabled = false;
-                        menuEntry_ExporChecklist.Enabled = false;
+                        menuEntry_ExportMissingEvents.Enabled = false;
+                        menuEntry_ExportChecklist.Enabled = false;
                         menuEntry_EditFlags.Enabled = false;
                         break;
                 }
@@ -189,12 +181,11 @@ namespace MissingEventFlagsCheckerPlugin
                 // Quick dump all flags on load during DEBUG
                 if (ctrl.Enabled)
                 {
-                    DumpAllFlags(null, null);
+                    DumpAllFlags_UIEvt(null, null);
                 }
 #endif
 
             }
-                
         }
 
         public bool TryLoadFile(string filePath)

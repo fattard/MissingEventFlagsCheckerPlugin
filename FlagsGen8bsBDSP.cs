@@ -14,7 +14,7 @@ namespace MissingEventFlagsCheckerPlugin
         BattleTrainerStatus8b m_battleTrainerStatus;
         FlagWork8b m_flagWork;
 
-        protected override void InitFlagsData(SaveFile savFile)
+        protected override void InitEventFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
             m_battleTrainerStatus = (m_savFile as SAV8BS).BattleTrainer;
@@ -27,7 +27,7 @@ namespace MissingEventFlagsCheckerPlugin
 
             if (s_flagsList_res == null)
             {
-                s_flagsList_res = ReadFlagsListRes("flags_gen8bsbdsp.txt");
+                s_flagsList_res = ReadResFile("flags_gen8bsbdsp.txt");
             }
 
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
@@ -99,13 +99,13 @@ namespace MissingEventFlagsCheckerPlugin
         }
         */
 
-        public override bool SupportsEditingFlag(FlagType flagType)
+        public override bool SupportsEditingFlag(EventFlagType flagType)
         {
             switch (flagType)
             {
-                case FlagType.FieldItem:
-                case FlagType.HiddenItem:
-                case FlagType.TrainerBattle:
+                case EventFlagType.FieldItem:
+                case EventFlagType.HiddenItem:
+                case EventFlagType.TrainerBattle:
                     return true;
 
                 default:
@@ -113,22 +113,22 @@ namespace MissingEventFlagsCheckerPlugin
             }
         }
 
-        public override void MarkFlags(FlagType flagType)
+        public override void MarkFlags(EventFlagType flagType)
         {
             ChangeFlagsVal(flagType, value: true);
         }
 
-        public override void UnmarkFlags(FlagType flagType)
+        public override void UnmarkFlags(EventFlagType flagType)
         {
             ChangeFlagsVal(flagType, value: false);
         }
 
-        void ChangeFlagsVal(FlagType flagType, bool value)
+        void ChangeFlagsVal(EventFlagType flagType, bool value)
         {
             if (SupportsEditingFlag(flagType))
             {
                 // Trainer status
-                if (flagType == FlagType.TrainerBattle)
+                if (flagType == EventFlagType.TrainerBattle)
                 {
                     foreach (var f in m_eventFlagsList)
                     {
@@ -167,7 +167,7 @@ namespace MissingEventFlagsCheckerPlugin
 
         protected override bool ShouldExportEvent(FlagDetail eventDetail)
         {
-            if (eventDetail.FlagTypeVal == FlagType.GeneralEvent)
+            if (eventDetail.FlagTypeVal == EventFlagType.GeneralEvent)
             {
                 bool shouldInclude = false;
 

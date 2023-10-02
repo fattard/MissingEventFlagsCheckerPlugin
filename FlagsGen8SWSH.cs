@@ -11,7 +11,7 @@ namespace MissingEventFlagsCheckerPlugin
     {
         static string s_flagsList_res = null;
 
-        protected override void InitFlagsData(SaveFile savFile)
+        protected override void InitEventFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
 
@@ -22,7 +22,7 @@ namespace MissingEventFlagsCheckerPlugin
 
             if (s_flagsList_res == null)
             {
-                s_flagsList_res = ReadFlagsListRes("flags_gen8swsh.txt");
+                s_flagsList_res = ReadResFile("flags_gen8swsh.txt");
             }
 
             AssembleList(s_flagsList_res);
@@ -50,13 +50,13 @@ namespace MissingEventFlagsCheckerPlugin
             }
         }
 
-        public override bool SupportsEditingFlag(FlagType flagType)
+        public override bool SupportsEditingFlag(EventFlagType flagType)
         {
             switch (flagType)
             {
-                case FlagType.FieldItem:
-                case FlagType.HiddenItem:
-                case FlagType.TrainerBattle:
+                case EventFlagType.FieldItem:
+                case EventFlagType.HiddenItem:
+                case EventFlagType.TrainerBattle:
                     return true;
 
                 default:
@@ -64,17 +64,17 @@ namespace MissingEventFlagsCheckerPlugin
             }
         }
 
-        public override void MarkFlags(FlagType flagType)
+        public override void MarkFlags(EventFlagType flagType)
         {
             ChangeFlagsVal(flagType, value: true);
         }
 
-        public override void UnmarkFlags(FlagType flagType)
+        public override void UnmarkFlags(EventFlagType flagType)
         {
             ChangeFlagsVal(flagType, value: false);
         }
 
-        void ChangeFlagsVal(FlagType flagType, bool value)
+        void ChangeFlagsVal(EventFlagType flagType, bool value)
         {
             if (SupportsEditingFlag(flagType))
             {
@@ -98,7 +98,7 @@ namespace MissingEventFlagsCheckerPlugin
             for (int i = 0; i < m_eventFlagsList.Count; ++i)
             {
                 sb.AppendFormat("FLAG_0x{0:X8} {1}\t{2}\r\n", m_eventFlagsList[i].FlagIdx, m_eventFlagsList[i].IsSet,
-                    m_eventFlagsList[i].FlagTypeVal == FlagType._Unused ? "UNUSED" : m_eventFlagsList[i].ToString());
+                    m_eventFlagsList[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : m_eventFlagsList[i].ToString());
             }
 
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
@@ -106,7 +106,7 @@ namespace MissingEventFlagsCheckerPlugin
 
         protected override bool ShouldExportEvent(FlagDetail eventDetail)
         {
-            if (eventDetail.FlagTypeVal == FlagType.GeneralEvent)
+            if (eventDetail.FlagTypeVal == EventFlagType.GeneralEvent)
             {
                 bool shouldInclude = false;
 

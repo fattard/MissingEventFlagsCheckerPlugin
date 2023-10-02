@@ -13,61 +13,61 @@ namespace MissingEventFlagsCheckerPlugin
 {
     public partial class SelectedFlagsEditor : Form
     {
-        FlagsOrganizer m_flagsOrganizer;
+        EventFlagsOrganizer m_eventFlagsOrganizer;
 
-        public SelectedFlagsEditor(FlagsOrganizer flagsOrganizer)
+        public SelectedFlagsEditor(EventFlagsOrganizer eventFlagsOrganizer)
         {
-            m_flagsOrganizer = flagsOrganizer;
+            m_eventFlagsOrganizer = eventFlagsOrganizer;
 
             InitializeComponent();
 
-            fieldItemsChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.FieldItem);
-            hiddenItemsChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.HiddenItem);
-            itemGiftsChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.ItemGift);
-            pkmnGiftsChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.PkmnGift);
-            trainerBattlesChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.TrainerBattle);
-            staticEncounterChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.StaticBattle);
-            inGameTradesChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.InGameTrade);
-            sideEventsChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.SideEvent);
-            miscEventsChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.GeneralEvent);
-            berryTreesChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.BerryTree);
-            collectablesChk.Enabled = m_flagsOrganizer.SupportsEditingFlag(FlagsOrganizer.FlagType.Collectable);
+            fieldItemsChk.Enabled = m_eventFlagsOrganizer.SupportsEditingFlag(EventFlagsOrganizer.EventFlagType.FieldItem);
+            hiddenItemsChk.Enabled = m_eventFlagsOrganizer.SupportsEditingFlag(EventFlagsOrganizer.EventFlagType.HiddenItem);
+            itemGiftsChk.Enabled = m_eventFlagsOrganizer.SupportsEditingFlag(EventFlagsOrganizer.EventFlagType.ItemGift);
+            pkmnGiftsChk.Enabled = m_eventFlagsOrganizer.SupportsEditingFlag(EventFlagsOrganizer.EventFlagType.PkmnGift);
+            trainerBattlesChk.Enabled = m_eventFlagsOrganizer.SupportsEditingFlag(EventFlagsOrganizer.EventFlagType.TrainerBattle);
+            staticEncounterChk.Enabled = m_eventFlagsOrganizer.SupportsEditingFlag(EventFlagsOrganizer.EventFlagType.StaticBattle);
+            inGameTradesChk.Enabled = m_eventFlagsOrganizer.SupportsEditingFlag(EventFlagsOrganizer.EventFlagType.InGameTrade);
+            sideEventsChk.Enabled = m_eventFlagsOrganizer.SupportsEditingFlag(EventFlagsOrganizer.EventFlagType.SideEvent);
+            miscEventsChk.Enabled = m_eventFlagsOrganizer.SupportsEditingFlag(EventFlagsOrganizer.EventFlagType.GeneralEvent);
+            berryTreesChk.Enabled = m_eventFlagsOrganizer.SupportsEditingFlag(EventFlagsOrganizer.EventFlagType.BerryTree);
+            collectablesChk.Enabled = m_eventFlagsOrganizer.SupportsEditingFlag(EventFlagsOrganizer.EventFlagType.Collectable);
         }
 
         private void markFlagsBtn_Click(object sender, EventArgs e)
         {
             if (fieldItemsChk.Checked)
-                m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.FieldItem);
+                m_eventFlagsOrganizer.MarkFlags(EventFlagsOrganizer.EventFlagType.FieldItem);
 
             if (hiddenItemsChk.Checked)
-                m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.HiddenItem);
+                m_eventFlagsOrganizer.MarkFlags(EventFlagsOrganizer.EventFlagType.HiddenItem);
 
             if (itemGiftsChk.Checked)
-                m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.ItemGift);
+                m_eventFlagsOrganizer.MarkFlags(EventFlagsOrganizer.EventFlagType.ItemGift);
 
             if (pkmnGiftsChk.Checked)
-                m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.PkmnGift);
+                m_eventFlagsOrganizer.MarkFlags(EventFlagsOrganizer.EventFlagType.PkmnGift);
             
             if (trainerBattlesChk.Checked)
-                m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.TrainerBattle);
+                m_eventFlagsOrganizer.MarkFlags(EventFlagsOrganizer.EventFlagType.TrainerBattle);
 
             if (staticEncounterChk.Checked)
-                m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.StaticBattle);
+                m_eventFlagsOrganizer.MarkFlags(EventFlagsOrganizer.EventFlagType.StaticBattle);
 
             if (inGameTradesChk.Checked)
-                m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.InGameTrade);
+                m_eventFlagsOrganizer.MarkFlags(EventFlagsOrganizer.EventFlagType.InGameTrade);
 
             if (sideEventsChk.Checked)
-                m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.SideEvent);
+                m_eventFlagsOrganizer.MarkFlags(EventFlagsOrganizer.EventFlagType.SideEvent);
 
             if (miscEventsChk.Checked)
-                m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.GeneralEvent);
+                m_eventFlagsOrganizer.MarkFlags(EventFlagsOrganizer.EventFlagType.GeneralEvent);
 
             if (berryTreesChk.Checked)
-                m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.BerryTree);
+                m_eventFlagsOrganizer.MarkFlags(EventFlagsOrganizer.EventFlagType.BerryTree);
 
             if (collectablesChk.Checked)
-                m_flagsOrganizer.MarkFlags(FlagsOrganizer.FlagType.Collectable);
+                m_eventFlagsOrganizer.MarkFlags(EventFlagsOrganizer.EventFlagType.Collectable);
 
             Close();
         }
@@ -75,37 +75,37 @@ namespace MissingEventFlagsCheckerPlugin
         private void unmarkFlagsBtn_Click(object sender, EventArgs e)
         {
             if (fieldItemsChk.Checked)
-                m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.FieldItem);
+                m_eventFlagsOrganizer.UnmarkFlags(EventFlagsOrganizer.EventFlagType.FieldItem);
 
             if (hiddenItemsChk.Checked)
-                m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.HiddenItem);
+                m_eventFlagsOrganizer.UnmarkFlags(EventFlagsOrganizer.EventFlagType.HiddenItem);
 
             if (itemGiftsChk.Checked)
-                m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.ItemGift);
+                m_eventFlagsOrganizer.UnmarkFlags(EventFlagsOrganizer.EventFlagType.ItemGift);
 
             if (pkmnGiftsChk.Checked)
-                m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.PkmnGift);
+                m_eventFlagsOrganizer.UnmarkFlags(EventFlagsOrganizer.EventFlagType.PkmnGift);
 
             if (trainerBattlesChk.Checked)
-                m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.TrainerBattle);
+                m_eventFlagsOrganizer.UnmarkFlags(EventFlagsOrganizer.EventFlagType.TrainerBattle);
 
             if (staticEncounterChk.Checked)
-                m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.StaticBattle);
+                m_eventFlagsOrganizer.UnmarkFlags(EventFlagsOrganizer.EventFlagType.StaticBattle);
 
             if (inGameTradesChk.Checked)
-                m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.InGameTrade);
+                m_eventFlagsOrganizer.UnmarkFlags(EventFlagsOrganizer.EventFlagType.InGameTrade);
 
             if (sideEventsChk.Checked)
-                m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.SideEvent);
+                m_eventFlagsOrganizer.UnmarkFlags(EventFlagsOrganizer.EventFlagType.SideEvent);
 
             if (miscEventsChk.Checked)
-                m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.GeneralEvent);
+                m_eventFlagsOrganizer.UnmarkFlags(EventFlagsOrganizer.EventFlagType.GeneralEvent);
 
             if (berryTreesChk.Checked)
-                m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.BerryTree);
+                m_eventFlagsOrganizer.UnmarkFlags(EventFlagsOrganizer.EventFlagType.BerryTree);
 
             if (collectablesChk.Checked)
-                m_flagsOrganizer.UnmarkFlags(FlagsOrganizer.FlagType.Collectable);
+                m_eventFlagsOrganizer.UnmarkFlags(EventFlagsOrganizer.EventFlagType.Collectable);
 
             Close();
         }

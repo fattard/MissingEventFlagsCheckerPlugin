@@ -12,7 +12,7 @@ namespace MissingEventFlagsCheckerPlugin
         static string s_flagsList_res = null;
         Dictionary<ulong, bool> m_blocksStatus;
 
-        protected override void InitFlagsData(SaveFile savFile)
+        protected override void InitEventFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
             m_blocksStatus = new Dictionary<ulong, bool>(4000);
@@ -24,7 +24,7 @@ namespace MissingEventFlagsCheckerPlugin
 
             if (s_flagsList_res == null)
             {
-                s_flagsList_res = ReadFlagsListRes("flags_gen9sv.txt");
+                s_flagsList_res = ReadResFile("flags_gen9sv.txt");
             }
 
             AssembleList(s_flagsList_res);
@@ -67,7 +67,7 @@ namespace MissingEventFlagsCheckerPlugin
 
                                 switch (flagDetail.FlagTypeVal)
                                 {
-                                    case FlagType.StaticBattle:
+                                    case EventFlagType.StaticBattle:
                                         {
                                             switch (flagDetail.FlagIdx)
                                             {
@@ -82,7 +82,7 @@ namespace MissingEventFlagsCheckerPlugin
                                         }
                                         break;
 
-                                    case FlagType.StoryEvent:
+                                    case EventFlagType.StoryEvent:
                                         {
                                             switch (flagDetail.FlagIdx)
                                             {
@@ -132,7 +132,7 @@ namespace MissingEventFlagsCheckerPlugin
             // Fill missing block status
             foreach (var pair in m_blocksStatus)
             {
-                m_eventFlagsList.Add(new FlagDetail((uint)pair.Key, FlagType._Unknown, "", "") { IsSet = pair.Value, AHTB = pair.Key });
+                m_eventFlagsList.Add(new FlagDetail((uint)pair.Key, EventFlagType._Unknown, "", "") { IsSet = pair.Value, AHTB = pair.Key });
             }
 
 
@@ -176,17 +176,17 @@ namespace MissingEventFlagsCheckerPlugin
             }
         }
 
-        public override bool SupportsEditingFlag(FlagType flagType)
+        public override bool SupportsEditingFlag(EventFlagType flagType)
         {
             switch (flagType)
             {
-                case FlagType.FieldItem:
+                case EventFlagType.FieldItem:
                 //case FlagType.HiddenItem:
-                case FlagType.TrainerBattle:
-                case FlagType.SideEvent:
-                case FlagType.InGameTrade:
-                case FlagType.StaticBattle:
-                case FlagType.Gift:
+                case EventFlagType.TrainerBattle:
+                case EventFlagType.SideEvent:
+                case EventFlagType.InGameTrade:
+                case EventFlagType.StaticBattle:
+                case EventFlagType.Gift:
                     return true;
 
                 default:
@@ -194,24 +194,24 @@ namespace MissingEventFlagsCheckerPlugin
             }
         }
 
-        public override void MarkFlags(FlagType flagType)
+        public override void MarkFlags(EventFlagType flagType)
         {
             ChangeFlagsVal(flagType, value: true);
         }
 
-        public override void UnmarkFlags(FlagType flagType)
+        public override void UnmarkFlags(EventFlagType flagType)
         {
             ChangeFlagsVal(flagType, value: false);
         }
 
-        void ChangeFlagsVal(FlagType flagType, bool value)
+        void ChangeFlagsVal(EventFlagType flagType, bool value)
         {
             if (SupportsEditingFlag(flagType))
             {
                 var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
                 byte[] bdata;
 
-                if (flagType == FlagType.FieldItem)
+                if (flagType == EventFlagType.FieldItem)
                 {
                     bdata = savEventBlocks.GetBlockSafe(0x2482AD60).Data;
                     using (var ms = new System.IO.MemoryStream(bdata))
@@ -234,7 +234,7 @@ namespace MissingEventFlagsCheckerPlugin
                     }
                 }
                 
-                else if (flagType == FlagType.TrainerBattle)
+                else if (flagType == EventFlagType.TrainerBattle)
                 {
                     bdata = savEventBlocks.GetBlockSafe(0xF018C4AC).Data;
                     using (var ms = new System.IO.MemoryStream(bdata))
@@ -264,7 +264,7 @@ namespace MissingEventFlagsCheckerPlugin
                     }
                 }
 
-                else if (flagType == FlagType.SideEvent || flagType == FlagType.InGameTrade || flagType == FlagType.Gift)
+                else if (flagType == EventFlagType.SideEvent || flagType == EventFlagType.InGameTrade || flagType == EventFlagType.Gift)
                 {
                     foreach (var f in m_eventFlagsList)
                     {
@@ -289,7 +289,7 @@ namespace MissingEventFlagsCheckerPlugin
             }
         }
 
-        public override void ExportMissingFlags()
+        public override void ExportMissingEvents()
         {
             //m_eventFlagsList.Sort((x, y) => x.OrderKey - y.OrderKey);
 
@@ -328,7 +328,7 @@ namespace MissingEventFlagsCheckerPlugin
             for (int i = 0; i < m_eventFlagsList.Count; ++i)
             {
                 sb.AppendFormat("FLAG_0x{0:X16} {1}\t{2}\r\n", m_eventFlagsList[i].AHTB, m_eventFlagsList[i].IsSet,
-                    m_eventFlagsList[i].FlagTypeVal == FlagType._Unused ? "UNUSED" : m_eventFlagsList[i].ToString());
+                    m_eventFlagsList[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : m_eventFlagsList[i].ToString());
             }
 
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
@@ -336,7 +336,7 @@ namespace MissingEventFlagsCheckerPlugin
 
         protected override bool ShouldExportEvent(FlagDetail eventDetail)
         {
-            if (eventDetail.FlagTypeVal == FlagType.GeneralEvent)
+            if (eventDetail.FlagTypeVal == EventFlagType.GeneralEvent)
             {
                 bool shouldInclude = false;
 
