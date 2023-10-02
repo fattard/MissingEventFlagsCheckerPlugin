@@ -47,11 +47,23 @@ namespace MissingEventFlagsCheckerPlugin
                 battleTrainerVals[i] = m_battleTrainerStatus.GetIsWin(i);
             }
 
-            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection));
-            AssembleList(s_flagsList_res.Substring(idxSysFlagsSection), sysFlagsVals);
-            AssembleList(s_flagsList_res.Substring(idxTrainerFlagsSection), battleTrainerVals);
+            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), 0, (m_savFile as IEventFlagArray).GetEventFlags());
+            AssembleList(s_flagsList_res.Substring(idxSysFlagsSection), 1, sysFlagsVals);
+            AssembleList(s_flagsList_res.Substring(idxTrainerFlagsSection), 2, battleTrainerVals);
 
             AssembleWorkList<int>(s_flagsList_res.Substring(idxEventWorkSection));
+
+            //TEMP
+            m_eventsChecklist.Clear();
+            foreach (var flagDetail in m_eventFlagsList)
+            {
+                if (ShouldExportEvent(flagDetail))
+                {
+                    var evtDetail = new EventDetail(flagDetail);
+                    evtDetail.IsDone = IsEvtSet(evtDetail);
+                    m_eventsChecklist.Add(evtDetail);
+                }
+            }
         }
 
         /*
@@ -184,6 +196,33 @@ namespace MissingEventFlagsCheckerPlugin
             {
                 return base.ShouldExportEvent(eventDetail);
             }
+        }
+
+        protected override bool IsEvtSet(EventDetail evtDetail)
+        {
+            bool isEvtSet = false;
+            int idx = (int)evtDetail.EvtId;
+
+            switch (evtDetail.EvtSource)
+            {
+                case 0: // EventFlags
+                    isEvtSet = (m_savFile as IEventFlagArray).GetEventFlag(idx);
+                    break;
+
+                case 1: // SysFlags
+                    isEvtSet = m_flagWork.GetSystemFlag(idx);
+                    break;
+
+                case 2: // TrainerFlags
+                    isEvtSet = m_battleTrainerStatus.GetIsWin(idx);
+                    break;
+
+                default:
+                    isEvtSet = false;
+                    break;
+            }
+
+            return isEvtSet;
         }
 
     }

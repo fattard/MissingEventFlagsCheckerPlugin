@@ -11,8 +11,6 @@ namespace MissingEventFlagsCheckerPlugin
     {
         static string s_flagsList_res = null;
 
-        bool[] m_completedInGameTradeFlags;
-
         enum FlagOffsets
         {
             CompletedInGameTradeFlags = 0x24EE
@@ -28,7 +26,7 @@ namespace MissingEventFlagsCheckerPlugin
             {
                 result[i] = m_savFile.GetFlag((int)FlagOffsets.CompletedInGameTradeFlags + (i >> 3), i & 7);
             }
-            m_completedInGameTradeFlags = result;
+            bool[] completedInGameTradeFlags = result;
 
 #if DEBUG
             // Force refresh
@@ -45,10 +43,22 @@ namespace MissingEventFlagsCheckerPlugin
             int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
 
 
-            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection));
-            AssembleList(s_flagsList_res.Substring(idxTradeFlagsSection), m_completedInGameTradeFlags);
+            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), 0, (m_savFile as IEventFlagArray).GetEventFlags());
+            AssembleList(s_flagsList_res.Substring(idxTradeFlagsSection), 1, completedInGameTradeFlags);
 
             AssembleWorkList<byte>(s_flagsList_res.Substring(idxEventWorkSection));
+
+            //TEMP
+            m_eventsChecklist.Clear();
+            foreach (var flagDetail in m_eventFlagsList)
+            {
+                if (ShouldExportEvent(flagDetail))
+                {
+                    var evtDetail = new EventDetail(flagDetail);
+                    evtDetail.IsDone = IsEvtSet(evtDetail);
+                    m_eventsChecklist.Add(evtDetail);
+                }
+            }
         }
 
         public override bool SupportsEditingFlag(EventFlagType flagType)
@@ -58,6 +68,7 @@ namespace MissingEventFlagsCheckerPlugin
                 case EventFlagType.FieldItem:
                 case EventFlagType.HiddenItem:
                 case EventFlagType.TrainerBattle:
+                case EventFlagType.InGameTrade:
                     return true;
 
                 default:
@@ -85,8 +96,20 @@ namespace MissingEventFlagsCheckerPlugin
                 {
                     if (f.FlagTypeVal == flagType)
                     {
+                        int fIdx = (int)f.FlagIdx;
+
                         f.IsSet = value;
-                        flagHelper.SetEventFlag((int)f.FlagIdx, value);
+
+                        switch (f.SourceIdx)
+                        {
+                            case 0: // EventFlags
+                                flagHelper.SetEventFlag(fIdx, value);
+                                break;
+
+                            case 1: // TradeFlags
+                                m_savFile.SetFlag((int)FlagOffsets.CompletedInGameTradeFlags + (fIdx >> 3), fIdx & 7, value);
+                                break;
+                        }
                     }
                 }
             }
@@ -111,6 +134,29 @@ namespace MissingEventFlagsCheckerPlugin
             {
                 return base.ShouldExportEvent(eventDetail);
             }
+        }
+
+        protected override bool IsEvtSet(EventDetail evtDetail)
+        {
+            bool isEvtSet = false;
+            int idx = (int)evtDetail.EvtId;
+
+            switch (evtDetail.EvtSource)
+            {
+                case 0: // EventFlags
+                    isEvtSet = (m_savFile as IEventFlagArray).GetEventFlag(idx);
+                    break;
+
+                case 1: // TradeFlags
+                    isEvtSet = m_savFile.GetFlag((int)FlagOffsets.CompletedInGameTradeFlags + (idx >> 3), idx & 7);
+                    break;
+
+                default:
+                    isEvtSet = false;
+                    break;
+            }
+
+            return isEvtSet;
         }
     }
 

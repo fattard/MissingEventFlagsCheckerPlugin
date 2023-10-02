@@ -26,6 +26,18 @@ namespace MissingEventFlagsCheckerPlugin
             }
 
             AssembleList(s_flagsList_res);
+
+            //TEMP
+            m_eventsChecklist.Clear();
+            foreach (var flagDetail in m_eventFlagsList)
+            {
+                if (ShouldExportEvent(flagDetail))
+                {
+                    var evtDetail = new EventDetail(flagDetail);
+                    evtDetail.IsDone = IsEvtSet(evtDetail);
+                    m_eventsChecklist.Add(evtDetail);
+                }
+            }
         }
 
         protected override void AssembleList(string flagsList_res, bool[] customFlagValues = null)
@@ -123,6 +135,26 @@ namespace MissingEventFlagsCheckerPlugin
             {
                 return base.ShouldExportEvent(eventDetail);
             }
+        }
+
+        protected override bool IsEvtSet(EventDetail evtDetail)
+        {
+            bool isEvtSet = false;
+            ulong idx = (uint)evtDetail.EvtId;
+            var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
+
+            switch (evtDetail.EvtSource)
+            {
+                case 0: // Bool blocks
+                    isEvtSet = (savEventBlocks.GetBlockSafe((uint)idx).Type == SCTypeCode.Bool2);
+                    break;
+
+                default:
+                    isEvtSet = false;
+                    break;
+            }
+
+            return isEvtSet;
         }
 
     }

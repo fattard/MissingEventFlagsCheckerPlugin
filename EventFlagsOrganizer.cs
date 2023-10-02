@@ -96,6 +96,17 @@ namespace MissingEventFlagsCheckerPlugin
             }
 
 
+            public EventDetail(FlagsOrganizer.FlagDetail flagDetail)
+            {
+                EvtSource = flagDetail.SourceIdx;
+                EvtId = flagDetail.FlagIdx;
+                EvtTypeVal = flagDetail.FlagTypeVal;
+                Location = flagDetail.LocationName;
+                DescTxt = flagDetail.DetailMsg;
+                IsDone = false;
+            }
+
+
             public override string ToString()
             {
                 if (string.IsNullOrEmpty(Location))

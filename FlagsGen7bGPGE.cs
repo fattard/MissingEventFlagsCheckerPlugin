@@ -38,6 +38,18 @@ namespace MissingEventFlagsCheckerPlugin
                 workDetail.Value = Convert.ToInt64(m_eventWorkData.GetWork((int)workDetail.WorkIdx));
                 m_eventWorkList.Add(workDetail);
             }
+
+            //TEMP
+            m_eventsChecklist.Clear();
+            foreach (var flagDetail in m_eventFlagsList)
+            {
+                if (ShouldExportEvent(flagDetail))
+                {
+                    var evtDetail = new EventDetail(flagDetail);
+                    evtDetail.IsDone = IsEvtSet(evtDetail);
+                    m_eventsChecklist.Add(evtDetail);
+                }
+            }
         }
 
         public override bool SupportsEditingFlag(EventFlagType flagType)
@@ -101,6 +113,25 @@ namespace MissingEventFlagsCheckerPlugin
             {
                 return base.ShouldExportEvent(eventDetail);
             }
+        }
+
+        protected override bool IsEvtSet(EventDetail evtDetail)
+        {
+            bool isEvtSet = false;
+            int idx = (int)evtDetail.EvtId;
+
+            switch (evtDetail.EvtSource)
+            {
+                case 0: // EventFlags
+                    isEvtSet = (m_savFile as IEventFlagArray).GetEventFlag(idx);
+                    break;
+
+                default:
+                    isEvtSet = false;
+                    break;
+            }
+
+            return isEvtSet;
         }
 
     }

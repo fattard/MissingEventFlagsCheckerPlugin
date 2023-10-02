@@ -28,6 +28,19 @@ namespace MissingEventFlagsCheckerPlugin
             }
 
             AssembleList(s_flagsList_res);
+
+            //TEMP
+            m_eventsChecklist.Clear();
+            foreach (var flagDetail in m_eventFlagsList)
+            {
+                if (ShouldExportEvent(flagDetail))
+                {
+                    var evtDetail = new EventDetail(flagDetail);
+                    //evtDetail.IsDone = IsEvtSet(evtDetail);
+                    evtDetail.IsDone = flagDetail.IsSet;
+                    m_eventsChecklist.Add(evtDetail);
+                }
+            }
         }
 
         protected override void AssembleList(string flagsList_res, bool[] customFlagValues = null)

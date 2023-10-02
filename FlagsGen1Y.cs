@@ -170,6 +170,18 @@ namespace MissingEventFlagsCheckerPlugin
             AssembleList(s_flagsList_res.Substring(idxBadgesSection), Src_BadgesFlags, badgeFlags);
             AssembleList(s_flagsList_res.Substring(idxMiscSection), Src_MiscFlags, miscFlags);
 
+            //TEMP
+            m_eventsChecklist.Clear();
+            foreach (var flagDetail in m_eventFlagsList)
+            {
+                if (ShouldExportEvent(flagDetail))
+                {
+                    var evtDetail = new EventDetail(flagDetail);
+                    evtDetail.IsDone = IsEvtSet(evtDetail);
+                    m_eventsChecklist.Add(evtDetail);
+                }
+            }
+
             // Reset S.S. Anne
             {
                 //(m_savFile as IEventFlagArray).SetEventFlag(0x5E1, false);
@@ -290,6 +302,68 @@ namespace MissingEventFlagsCheckerPlugin
             {
                 return base.ShouldExportEvent(eventDetail);
             }
+        }
+
+        protected override bool IsEvtSet(EventDetail evtDetail)
+        {
+            bool isEvtSet = false;
+            int idx = (int)evtDetail.EvtId;
+
+            switch (evtDetail.EvtSource)
+            {
+                case Src_EventFlags:
+                    isEvtSet = (m_savFile as IEventFlagArray).GetEventFlag(idx);
+                    break;
+
+                case Src_HideShowFlags:
+                    isEvtSet = m_savFile.GetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7);
+                    break;
+
+                case Src_HiddenItemFlags:
+                    isEvtSet = m_savFile.GetFlag(ObtainedHiddenItemsOffset + (idx >> 3), idx & 7);
+                    break;
+
+                case Src_HiddenCoinsFlags:
+                    isEvtSet = m_savFile.GetFlag(ObtainedHiddenCoinsOffset + (idx >> 3), idx & 7);
+                    break;
+
+                case Src_TradeFlags:
+                    isEvtSet = m_savFile.GetFlag(CompletedInGameTradeFlagsOffset + (idx >> 3), idx & 7);
+                    break;
+
+                case Src_BadgesFlags:
+                    isEvtSet = m_savFile.GetFlag(BadgeFlagsOffset + (idx >> 3), idx & 7);
+                    break;
+
+                case Src_MiscFlags:
+                    {
+                        switch (idx)
+                        {
+                            case 0x00: // Lapras flag
+                                isEvtSet = m_savFile.GetFlag(LaprasFlagOffset, 0);
+                                break;
+
+                            case 0x01: // Old Rod flag
+                                isEvtSet = m_savFile.GetFlag(RodFlagsOffset, 3);
+                                break;
+
+                            case 0x02: // Good Rod flag
+                                isEvtSet = m_savFile.GetFlag(RodFlagsOffset, 4);
+                                break;
+
+                            case 0x03: // Super Rod flag
+                                isEvtSet = m_savFile.GetFlag(RodFlagsOffset, 5);
+                                break;
+                        }
+                    }
+                    break;
+
+                default:
+                    isEvtSet = false;
+                    break;
+            }
+
+            return isEvtSet;
         }
     }
 
