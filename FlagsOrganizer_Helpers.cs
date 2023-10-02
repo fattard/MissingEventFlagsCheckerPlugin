@@ -167,7 +167,7 @@ namespace MissingEventFlagsCheckerPlugin
 
             for (int i = 0; i < savEventFlags.Length; ++i)
             {
-                m_eventFlagsList.Add(new FlagsOrganizer.FlagDetail((uint)i, EventFlagType._Unknown, "", "") { IsSet = savEventFlags[i] });
+                m_eventFlagsList.Add(new FlagsOrganizer.FlagDetail((uint)i, source: 0, EventFlagType._Unknown, "", "") { IsSet = savEventFlags[i] });
             }
         }
 
@@ -206,7 +206,7 @@ namespace MissingEventFlagsCheckerPlugin
             for (int i = 0; i < m_blockEventFlags.Count; ++i)
             {
                 var b = m_blockEventFlags[i];
-                m_eventFlagsList.Add(new FlagsOrganizer.FlagDetail(b.Key, EventFlagType._Unknown, "", "") { IsSet = b.Type == SCTypeCode.Bool2 });
+                m_eventFlagsList.Add(new FlagsOrganizer.FlagDetail(b.Key, source: 0, EventFlagType._Unknown, "", "") { IsSet = b.Type == SCTypeCode.Bool2 });
             }
         }
 

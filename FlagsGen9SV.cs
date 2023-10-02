@@ -145,7 +145,7 @@ namespace MissingEventFlagsCheckerPlugin
             // Fill missing block status
             foreach (var pair in m_blocksStatus)
             {
-                m_eventFlagsList.Add(new FlagDetail((uint)pair.Key, EventFlagType._Unknown, "", "") { IsSet = pair.Value, AHTB = pair.Key });
+                m_eventFlagsList.Add(new FlagDetail((uint)pair.Key, source: 0, EventFlagType._Unknown, "", "") { IsSet = pair.Value, AHTB = pair.Key });
             }
 
 

@@ -47,11 +47,7 @@ namespace MissingEventFlagsCheckerPlugin
                 SourceIdx = 0;
             }
 
-            public FlagDetail(uint flagIdx, EventFlagType flagType, string detailMsg) : this(flagIdx, flagType, "", detailMsg)
-            {
-            }
-
-            public FlagDetail(uint flagIdx, EventFlagType flagType, string locationName, string detailMsg)
+            public FlagDetail(uint flagIdx, int source, EventFlagType flagType, string locationName, string detailMsg)
             {
                 OrderKey = (flagIdx + 100000);
                 AHTB = (ulong)flagIdx;
@@ -60,7 +56,7 @@ namespace MissingEventFlagsCheckerPlugin
                 LocationName = locationName;
                 DetailMsg = detailMsg;
                 IsSet = false;
-                SourceIdx = 0;
+                SourceIdx = source;
             }
 
             public override string ToString()

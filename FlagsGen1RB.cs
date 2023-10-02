@@ -177,6 +177,16 @@ namespace MissingEventFlagsCheckerPlugin
                 }
             }
 
+            var newF = new FlagDetail(0, 10, EventFlagType.SideEvent, "", "Complete the regional Kanto Pokédex");
+            var newE = new EventDetail(newF);
+            newE.IsDone = completedPokedex;
+            m_eventsChecklist.Add(newE);
+
+            newF = new FlagDetail(1, 10, EventFlagType.SideEvent, "", "Register the mythical Mew in the Pokédex");
+            newE = new EventDetail(newF);
+            newE.IsDone = isMewRegistered;
+            m_eventsChecklist.Add(newE);
+
             // Reset S.S. Anne
             {
                 //(m_savFile as IEventFlagArray).SetEventFlag(0x5E1, false);
