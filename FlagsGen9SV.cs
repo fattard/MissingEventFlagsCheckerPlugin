@@ -54,6 +54,8 @@ namespace MissingEventFlagsCheckerPlugin
             FillBlockStatus(savEventBlocks.GetBlockSafe(0x2482AD60).Data, endKey: 0x0000000000000000);
             // Trainer Status
             FillBlockStatus(savEventBlocks.GetBlockSafe(0xF018C4AC).Data, endKey: 0xCBF29CE484222645);
+            // Trainer Status Expansion (v2.0.2+)
+            FillBlockStatus(savEventBlocks.GetBlockSafe(0x28E475DE).Data, endKey: 0xCBF29CE484222645);
 
             //TODO:
             // Ghimighoul chests
@@ -162,6 +164,12 @@ namespace MissingEventFlagsCheckerPlugin
 
         void FillBlockStatus(byte[] aData, ulong endKey)
         {
+            // Ignore dummy blocks
+            if (aData.Length == 0)
+            {
+                return;
+            }
+
             using (var ms = new System.IO.MemoryStream(aData))
             {
                 using (var reader = new System.IO.BinaryReader(ms))
