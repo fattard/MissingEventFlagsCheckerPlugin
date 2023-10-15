@@ -133,6 +133,13 @@ namespace MissingEventFlagsCheckerPlugin
 
                 var savData = SaveFileEditor.SAV;
 
+                // Prevent usage if state is not Exportable
+                if (!savData.State.Exportable)
+                {
+                    ctrl.Enabled = false;
+                    return;
+                }
+
                 switch (savData.Version)
                 {
                     case GameVersion.Any:
