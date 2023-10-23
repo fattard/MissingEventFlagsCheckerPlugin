@@ -1,8 +1,13 @@
-//	Misc					
+//	Misc-wd72e					wd72e
 0x00	PKMN GIFT	Silph Co.	7F	Lapras from employee		wd72e: bit0
-0x01	ITEM GIFT	Vermilion City	House	Old Rod from Fishing Guru		wd728: bit3
-0x02	ITEM GIFT	Fuchsia City	House	Good Rod from Fishing Guru		wd728: bit4
-0x03	ITEM GIFT	Route 12	House	Super Rod from Fishing Guru		wd728: bit5
+						
+						
+						
+						
+//	Misc-wd728					wd728
+0x03	ITEM GIFT	Vermilion City	House	Old Rod from Fishing Guru		wd728: bit3
+0x04	ITEM GIFT	Fuchsia City	House	Good Rod from Fishing Guru		wd728: bit4
+0x05	ITEM GIFT	Route 12	House	Super Rod from Fishing Guru		wd728: bit5
 						
 						
 						

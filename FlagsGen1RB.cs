@@ -49,7 +49,8 @@ namespace MissingEventFlagsCheckerPlugin
         const int Src_HiddenCoinsFlags = 3;
         const int Src_TradeFlags = 4;
         const int Src_BadgesFlags = 5;
-        const int Src_MiscFlags = 6;
+        const int Src_Misc_wd728 = 6;
+        const int Src_Misc_wd72e = 7;
 
 
         protected override void InitEventFlagsData(SaveFile savFile)
@@ -120,16 +121,20 @@ namespace MissingEventFlagsCheckerPlugin
             bool[] completedInGameTradeFlags = result;
 
             // wd728
-            bool gotOldRod = m_savFile.GetFlag(RodFlagsOffset, 3);
-            bool gotGoodRod = m_savFile.GetFlag(RodFlagsOffset, 4);
-            bool gotSuperRod = m_savFile.GetFlag(RodFlagsOffset, 5);
+            result = new bool[8];
+            for (int i = 0; i < result.Length; i++)
+            {
+                result[i] = m_savFile.GetFlag(RodFlagsOffset + (i >> 3), i & 7);
+            }
+            bool[] miscFlags_wd728 = result;
 
             // wd72e
-            bool gotLaprasFlag = m_savFile.GetFlag(LaprasFlagOffset, 0);
-
-            // Unified Misc flags
-            result = new bool[] { gotLaprasFlag, gotOldRod, gotGoodRod, gotSuperRod };
-            bool[] miscFlags = result;
+            result = new bool[8];
+            for (int i = 0; i < result.Length; i++)
+            {
+                result[i] = m_savFile.GetFlag(LaprasFlagOffset + (i >> 3), i & 7);
+            }
+            bool[] miscFlags_wd72e = result;
 
             // wEventFlags
             bool[] eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
@@ -171,7 +176,8 @@ namespace MissingEventFlagsCheckerPlugin
             int idxHiddenCoinsSection = s_flagsList_res.IndexOf("//\tHidden Coins Flags");
             int idxTradesSection = s_flagsList_res.IndexOf("//\tIn-Game Trades Flags");
             int idxBadgesSection = s_flagsList_res.IndexOf("//\tBadges Flags");
-            int idxMiscSection = s_flagsList_res.IndexOf("//\tMisc");
+            int idxMisc_wd728_Section = s_flagsList_res.IndexOf("//\tMisc-wd728");
+            int idxMisc_wd72e_Section = s_flagsList_res.IndexOf("//\tMisc-wd72e");
 
             m_eventFlagsList.Clear();
 
@@ -181,7 +187,8 @@ namespace MissingEventFlagsCheckerPlugin
             AssembleList(s_flagsList_res.Substring(idxHiddenCoinsSection), Src_HiddenCoinsFlags, obtainedHiddenCoinsFlags);
             AssembleList(s_flagsList_res.Substring(idxTradesSection), Src_TradeFlags, completedInGameTradeFlags);
             AssembleList(s_flagsList_res.Substring(idxBadgesSection), Src_BadgesFlags, badgeFlags);
-            AssembleList(s_flagsList_res.Substring(idxMiscSection), Src_MiscFlags, miscFlags);
+            AssembleList(s_flagsList_res.Substring(idxMisc_wd728_Section), Src_Misc_wd728, miscFlags_wd728);
+            AssembleList(s_flagsList_res.Substring(idxMisc_wd72e_Section), Src_Misc_wd72e, miscFlags_wd72e);
 
             //TEMP
             m_eventsChecklist.Clear();
@@ -280,27 +287,12 @@ namespace MissingEventFlagsCheckerPlugin
                                 m_savFile.SetFlag(BadgeFlagsOffset + (idx >> 3), idx & 7, value);
                                 break;
 
-                            case Src_MiscFlags:
-                                {
-                                    switch (idx)
-                                    {
-                                        case 0x00: // Lapras flag
-                                            m_savFile.SetFlag(LaprasFlagOffset, 0, value);
-                                            break;
+                            case Src_Misc_wd728:
+                                m_savFile.SetFlag(RodFlagsOffset + (idx >> 3), idx & 7, value);
+                                break;
 
-                                        case 0x01: // Old Rod flag
-                                            m_savFile.SetFlag(RodFlagsOffset, 3, value);
-                                            break;
-
-                                        case 0x02: // Good Rod flag
-                                            m_savFile.SetFlag(RodFlagsOffset, 4, value);
-                                            break;
-
-                                        case 0x03: // Super Rod flag
-                                            m_savFile.SetFlag(RodFlagsOffset, 5, value);
-                                            break;
-                                    }
-                                }
+                            case Src_Misc_wd72e:
+                                m_savFile.SetFlag(LaprasFlagOffset + (idx >> 3), idx & 7, value);
                                 break;
                         }
 
@@ -361,27 +353,12 @@ namespace MissingEventFlagsCheckerPlugin
                     isEvtSet = m_savFile.GetFlag(BadgeFlagsOffset + (idx >> 3), idx & 7);
                     break;
 
-                case Src_MiscFlags:
-                    {
-                        switch (idx)
-                        {
-                            case 0x00: // Lapras flag
-                                isEvtSet = m_savFile.GetFlag(LaprasFlagOffset, 0);
-                                break;
+                case Src_Misc_wd728:
+                    isEvtSet = m_savFile.GetFlag(RodFlagsOffset + (idx >> 3), idx & 7);
+                    break;
 
-                            case 0x01: // Old Rod flag
-                                isEvtSet = m_savFile.GetFlag(RodFlagsOffset, 3);
-                                break;
-
-                            case 0x02: // Good Rod flag
-                                isEvtSet = m_savFile.GetFlag(RodFlagsOffset, 4);
-                                break;
-
-                            case 0x03: // Super Rod flag
-                                isEvtSet = m_savFile.GetFlag(RodFlagsOffset, 5);
-                                break;
-                        }
-                    }
+                case Src_Misc_wd72e:
+                    isEvtSet = m_savFile.GetFlag(LaprasFlagOffset + (idx >> 3), idx & 7);
                     break;
 
                 default:
