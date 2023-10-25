@@ -10,6 +10,7 @@ namespace MissingEventFlagsCheckerPlugin
     internal class FlagsGen1RB : FlagsOrganizer
     {
         static string s_flagsList_res = null;
+        static string s_chkdb_res = null;
 
         enum FlagOffsets_INTL
         {
@@ -43,6 +44,10 @@ namespace MissingEventFlagsCheckerPlugin
         int LaprasFlagOffset;
         int CompletedInGameTradeFlagsOffset;
 
+        bool m_Dex_completedRegional;
+        bool m_Dex_isMythicalRegistered_Mew;
+        bool m_Dex_fullyCompleted;
+
         const int Src_EventFlags = 0;
         const int Src_HideShowFlags = 1;
         const int Src_HiddenItemFlags = 2;
@@ -51,6 +56,10 @@ namespace MissingEventFlagsCheckerPlugin
         const int Src_BadgesFlags = 5;
         const int Src_Misc_wd728 = 6;
         const int Src_Misc_wd72e = 7;
+
+        const int Src_EventFlagsEX = 10;
+        const int Src_HideShowFlagsEX = 11;
+        const int Src_Dex = 12;
 
 
         protected override void InitEventFlagsData(SaveFile savFile)
@@ -80,143 +89,52 @@ namespace MissingEventFlagsCheckerPlugin
                 CompletedInGameTradeFlagsOffset = (int)FlagOffsets_INTL.CompletedInGameTradeFlags;
             }
 
-            // wObtainedBadges
-            bool[] result = new bool[8];
-            for (int i = 0; i < result.Length; i++)
-            {
-                result[i] = m_savFile.GetFlag(BadgeFlagsOffset + (i >> 3), i & 7);
-            }
-            bool[] badgeFlags = result;
-
-            // wMissableObjectIndex
-            result = new bool[32 * 8];
-            for (int i = 0; i < result.Length; i++)
-            {
-                result[i] = m_savFile.GetFlag(MissableObjectFlagsOffset + (i >> 3), i & 7);
-            }
-            bool[] missableObjectFlags = result;
-
-            // wObtainedHiddenItemsFlags
-            result = new bool[112];
-            for (int i = 0; i < result.Length; i++)
-            {
-                result[i] = m_savFile.GetFlag(ObtainedHiddenItemsOffset + (i >> 3), i & 7);
-            }
-            bool[] obtainedHiddenItemsFlags = result;
-
-            // wObtainedHiddenCoinsFlags
-            result = new bool[16];
-            for (int i = 0; i < result.Length; i++)
-            {
-                result[i] = m_savFile.GetFlag(ObtainedHiddenCoinsOffset + (i >> 3), i & 7);
-            }
-            bool[] obtainedHiddenCoinsFlags = result;
-
-            // wCompletedInGameTradeFlags
-            result = new bool[16];
-            for (int i = 0; i < result.Length; i++)
-            {
-                result[i] = m_savFile.GetFlag(CompletedInGameTradeFlagsOffset + (i >> 3), i & 7);
-            }
-            bool[] completedInGameTradeFlags = result;
-
-            // wd728
-            result = new bool[8];
-            for (int i = 0; i < result.Length; i++)
-            {
-                result[i] = m_savFile.GetFlag(RodFlagsOffset + (i >> 3), i & 7);
-            }
-            bool[] miscFlags_wd728 = result;
-
-            // wd72e
-            result = new bool[8];
-            for (int i = 0; i < result.Length; i++)
-            {
-                result[i] = m_savFile.GetFlag(LaprasFlagOffset + (i >> 3), i & 7);
-            }
-            bool[] miscFlags_wd72e = result;
-
-            // wEventFlags
-            bool[] eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
-
             // Check Pokedex
-            bool completedPokedex = true;
-            bool isMewRegistered = false;
+            m_Dex_completedRegional = true;
+            m_Dex_isMythicalRegistered_Mew = false;
             for (ushort i = 001; i <= 151; i++)
             {
                 switch (i)
                 {
                     case 151: // Mew
-                        isMewRegistered = savFile_SAV1.GetCaught(i);
+                        m_Dex_isMythicalRegistered_Mew = savFile_SAV1.GetCaught(i);
                         break;
 
                     default:
                         if (!savFile_SAV1.GetCaught(i))
                         {
-                            completedPokedex = false;
+                            m_Dex_completedRegional = false;
                         }
                         break;
-
                 }
             }
+
+            m_Dex_fullyCompleted = m_Dex_completedRegional && m_Dex_isMythicalRegistered_Mew;
+
+            m_flagsSourceInfo["EvtFlags"] = Src_EventFlags;
+            m_flagsSourceInfo["HS-Flags"] = Src_HideShowFlags;
+            m_flagsSourceInfo["HI-Flags"] = Src_HiddenItemFlags;
+            m_flagsSourceInfo["HC-Flags"] = Src_HiddenCoinsFlags;
+            m_flagsSourceInfo["TradeFlags"] = Src_TradeFlags;
+            m_flagsSourceInfo["Badges"] = Src_BadgesFlags;
+            m_flagsSourceInfo["wd72e"] = Src_Misc_wd72e;
+            m_flagsSourceInfo["wd728"] = Src_Misc_wd728;
+            m_flagsSourceInfo["EvtFlagsEX"] = Src_EventFlagsEX;
+            m_flagsSourceInfo["HS-FlagsEX"] = Src_HideShowFlagsEX;
+            m_flagsSourceInfo["Dex"] = Src_Dex;
+            m_flagsSourceInfo["-"] = -1;
 
 #if DEBUG
             // Force refresh
-            s_flagsList_res = null;
+            s_chkdb_res = null;
 #endif
 
-            if (s_flagsList_res == null)
+            if (s_chkdb_res == null)
             {
-                s_flagsList_res = ReadResFile("flags_gen1rb.txt");
+                s_chkdb_res = ReadResFile("chkdb_gen1rb.txt");
             }
 
-            int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
-            int idxHideShowSection = s_flagsList_res.IndexOf("//\tHide-Show Flags");
-            int idxHiddenItemsSection = s_flagsList_res.IndexOf("//\tHidden Items Flags");
-            int idxHiddenCoinsSection = s_flagsList_res.IndexOf("//\tHidden Coins Flags");
-            int idxTradesSection = s_flagsList_res.IndexOf("//\tIn-Game Trades Flags");
-            int idxBadgesSection = s_flagsList_res.IndexOf("//\tBadges Flags");
-            int idxMisc_wd728_Section = s_flagsList_res.IndexOf("//\tMisc-wd728");
-            int idxMisc_wd72e_Section = s_flagsList_res.IndexOf("//\tMisc-wd72e");
-
-            m_eventFlagsList.Clear();
-
-            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), Src_EventFlags, eventFlags);
-            AssembleList(s_flagsList_res.Substring(idxHideShowSection), Src_HideShowFlags, missableObjectFlags);
-            AssembleList(s_flagsList_res.Substring(idxHiddenItemsSection), Src_HiddenItemFlags, obtainedHiddenItemsFlags);
-            AssembleList(s_flagsList_res.Substring(idxHiddenCoinsSection), Src_HiddenCoinsFlags, obtainedHiddenCoinsFlags);
-            AssembleList(s_flagsList_res.Substring(idxTradesSection), Src_TradeFlags, completedInGameTradeFlags);
-            AssembleList(s_flagsList_res.Substring(idxBadgesSection), Src_BadgesFlags, badgeFlags);
-            AssembleList(s_flagsList_res.Substring(idxMisc_wd728_Section), Src_Misc_wd728, miscFlags_wd728);
-            AssembleList(s_flagsList_res.Substring(idxMisc_wd72e_Section), Src_Misc_wd72e, miscFlags_wd72e);
-
-            //TEMP
-            m_eventsChecklist.Clear();
-            foreach (var flagDetail in m_eventFlagsList)
-            {
-                if (ShouldExportEvent(flagDetail))
-                {
-                    var evtDetail = new EventDetail(flagDetail);
-                    evtDetail.IsDone = IsEvtSet(evtDetail);
-                    m_eventsChecklist.Add(evtDetail);
-                }
-            }
-
-            var newF = new FlagDetail(0, 10, EventFlagType.SideEvent, "", "Complete the regional Kanto Pokédex");
-            var newE = new EventDetail(newF);
-            newE.IsDone = completedPokedex;
-            m_eventsChecklist.Add(newE);
-
-            newF = new FlagDetail(1, 10, EventFlagType.SideEvent, "", "Register the mythical Mew in the Pokédex");
-            newE = new EventDetail(newF);
-            newE.IsDone = isMewRegistered;
-            m_eventsChecklist.Add(newE);
-
-            // Reset S.S. Anne
-            {
-                //(m_savFile as IEventFlagArray).SetEventFlag(0x5E1, false);
-                //(m_savFile as IEventFlagArray).SetEventFlag(0x5E2, false);
-            }
+            ParseChecklist(s_chkdb_res);
         }
 
         public override bool SupportsEditingFlag(EventFlagType flagType)
@@ -301,27 +219,6 @@ namespace MissingEventFlagsCheckerPlugin
             }
         }
 
-        protected override bool ShouldExportEvent(FlagDetail eventDetail)
-        {
-            if (eventDetail.FlagTypeVal == EventFlagType.GeneralEvent)
-            {
-                bool shouldInclude = false;
-
-                switch (eventDetail.FlagIdx)
-                {
-                    default:
-                        shouldInclude = false;
-                        break;
-                }
-
-                return shouldInclude;
-            }
-            else
-            {
-                return base.ShouldExportEvent(eventDetail);
-            }
-        }
-
         protected override bool IsEvtSet(EventDetail evtDetail)
         {
             bool isEvtSet = false;
@@ -361,12 +258,169 @@ namespace MissingEventFlagsCheckerPlugin
                     isEvtSet = m_savFile.GetFlag(LaprasFlagOffset + (idx >> 3), idx & 7);
                     break;
 
+                case Src_EventFlagsEX:
+                    {
+                        switch (idx)
+                        {
+                            case 0x356: // Choice: Hitmonlee / Hitmonchan
+                                isEvtSet = (m_savFile as IEventFlagArray).GetEventFlag(0x356) ||
+                                           (m_savFile as IEventFlagArray).GetEventFlag(0x357);
+                                break;
+
+                            case 0x57E: // Choice: Dome Fossil / Helix Fossil
+                                isEvtSet = (m_savFile as IEventFlagArray).GetEventFlag(0x57E) ||
+                                           (m_savFile as IEventFlagArray).GetEventFlag(0x57F);
+                                break;
+
+                            default:
+                                isEvtSet = false;
+                                break;
+                        }
+                    }
+                    break;
+
+                case Src_HideShowFlagsEX:
+                    {
+                        switch (idx)
+                        {
+                            case 0x87: // Silph Scope
+                                isEvtSet = m_savFile.GetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7) &&
+                                           m_savFile.GetFlag(MissableObjectFlagsOffset + (0x83 >> 3), 0x83 & 7); // HS_ROCKET_HIDEOUT_B4F_GIOVANNI
+                                break;
+
+                            case 0x88: // Lift Key
+                                isEvtSet = m_savFile.GetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7) &&
+                                           (m_savFile as IEventFlagArray).GetEventFlag(0x6A6); // EVENT_ROCKET_DROPPED_LIFT_KEY
+                                break;
+
+                            default:
+                                isEvtSet = false;
+                                break;
+                        }
+                    }
+                    break;
+
+                case Src_Dex:
+                    {
+                        switch (idx)
+                        {
+                            case 0: // Regional complete
+                                isEvtSet = m_Dex_completedRegional;
+                                break;
+
+                            case 1: // Mew
+                                isEvtSet = m_Dex_isMythicalRegistered_Mew;
+                                break;
+
+                            case 2: // Fully completed
+                                isEvtSet = m_Dex_fullyCompleted;
+                                break;
+                        }
+                    }
+                    break;
+
                 default:
                     isEvtSet = false;
                     break;
             }
 
             return isEvtSet;
+        }
+
+
+        public override void DumpAllFlags()
+        {
+            // wObtainedBadges
+            bool[] result = new bool[8];
+            for (int i = 0; i < result.Length; i++)
+            {
+                result[i] = m_savFile.GetFlag(BadgeFlagsOffset + (i >> 3), i & 7);
+            }
+            bool[] badgeFlags = result;
+
+            // wMissableObjectIndex
+            result = new bool[32 * 8];
+            for (int i = 0; i < result.Length; i++)
+            {
+                result[i] = m_savFile.GetFlag(MissableObjectFlagsOffset + (i >> 3), i & 7);
+            }
+            bool[] missableObjectFlags = result;
+
+            // wObtainedHiddenItemsFlags
+            result = new bool[112];
+            for (int i = 0; i < result.Length; i++)
+            {
+                result[i] = m_savFile.GetFlag(ObtainedHiddenItemsOffset + (i >> 3), i & 7);
+            }
+            bool[] obtainedHiddenItemsFlags = result;
+
+            // wObtainedHiddenCoinsFlags
+            result = new bool[16];
+            for (int i = 0; i < result.Length; i++)
+            {
+                result[i] = m_savFile.GetFlag(ObtainedHiddenCoinsOffset + (i >> 3), i & 7);
+            }
+            bool[] obtainedHiddenCoinsFlags = result;
+
+            // wCompletedInGameTradeFlags
+            result = new bool[16];
+            for (int i = 0; i < result.Length; i++)
+            {
+                result[i] = m_savFile.GetFlag(CompletedInGameTradeFlagsOffset + (i >> 3), i & 7);
+            }
+            bool[] completedInGameTradeFlags = result;
+
+            // wd728
+            result = new bool[8];
+            for (int i = 0; i < result.Length; i++)
+            {
+                result[i] = m_savFile.GetFlag(RodFlagsOffset + (i >> 3), i & 7);
+            }
+            bool[] miscFlags_wd728 = result;
+
+            // wd72e
+            result = new bool[8];
+            for (int i = 0; i < result.Length; i++)
+            {
+                result[i] = m_savFile.GetFlag(LaprasFlagOffset + (i >> 3), i & 7);
+            }
+            bool[] miscFlags_wd72e = result;
+
+            // wEventFlags
+            bool[] eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
+
+#if DEBUG
+            // Force refresh
+            s_flagsList_res = null;
+#endif
+
+            if (s_flagsList_res == null)
+            {
+                s_flagsList_res = ReadResFile("flags_gen1rb.txt");
+            }
+
+            int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
+            int idxHideShowSection = s_flagsList_res.IndexOf("//\tHide-Show Flags");
+            int idxHiddenItemsSection = s_flagsList_res.IndexOf("//\tHidden Items Flags");
+            int idxHiddenCoinsSection = s_flagsList_res.IndexOf("//\tHidden Coins Flags");
+            int idxTradesSection = s_flagsList_res.IndexOf("//\tIn-Game Trades Flags");
+            int idxBadgesSection = s_flagsList_res.IndexOf("//\tBadges Flags");
+            int idxMisc_wd728_Section = s_flagsList_res.IndexOf("//\tMisc-wd728");
+            int idxMisc_wd72e_Section = s_flagsList_res.IndexOf("//\tMisc-wd72e");
+
+            m_eventFlagsList.Clear();
+
+            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), Src_EventFlags, eventFlags);
+            AssembleList(s_flagsList_res.Substring(idxHideShowSection), Src_HideShowFlags, missableObjectFlags);
+            AssembleList(s_flagsList_res.Substring(idxHiddenItemsSection), Src_HiddenItemFlags, obtainedHiddenItemsFlags);
+            AssembleList(s_flagsList_res.Substring(idxHiddenCoinsSection), Src_HiddenCoinsFlags, obtainedHiddenCoinsFlags);
+            AssembleList(s_flagsList_res.Substring(idxTradesSection), Src_TradeFlags, completedInGameTradeFlags);
+            AssembleList(s_flagsList_res.Substring(idxBadgesSection), Src_BadgesFlags, badgeFlags);
+            AssembleList(s_flagsList_res.Substring(idxMisc_wd728_Section), Src_Misc_wd728, miscFlags_wd728);
+            AssembleList(s_flagsList_res.Substring(idxMisc_wd72e_Section), Src_Misc_wd72e, miscFlags_wd72e);
+
+
+            base.DumpAllFlags();
         }
     }
 
