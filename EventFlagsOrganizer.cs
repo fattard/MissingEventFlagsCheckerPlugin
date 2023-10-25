@@ -77,21 +77,21 @@ namespace MissingEventFlagsCheckerPlugin
             {
                 string[] info = detailEntry.Split('\t');
 
-                if (info.Length < 7)
+                if (info.Length < 6)
                 {
                     throw new ArgumentException("Argument detailEntry format is not valid");
                 }
 
-                EvtSource = sources[info[1]];
-                EvtId = ParseDecOrHex(info[2]);
-                EvtTypeVal = EvtTypeVal.Parse(info[3]);
+                EvtSource = sources[info[0]];
+                EvtId = ParseDecOrHex(info[1]);
+                EvtTypeVal = EvtTypeVal.Parse(info[2]);
 
-                Location = info[4];
-                if (!string.IsNullOrWhiteSpace(info[5]))
+                Location = info[3];
+                if (!string.IsNullOrWhiteSpace(info[4]))
                 {
-                    Location += " " + info[5];
+                    Location += " " + info[4];
                 }
-                DescTxt = info[6];
+                DescTxt = info[5];
                 IsDone = false;
             }
 
