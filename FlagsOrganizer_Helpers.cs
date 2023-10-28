@@ -64,6 +64,10 @@ namespace MissingEventFlagsCheckerPlugin
                     flagType = EventFlagsOrganizer.EventFlagType.BerryTree;
                     break;
 
+                case "FLY SPOT":
+                    flagType = EventFlagsOrganizer.EventFlagType.FlySpot;
+                    break;
+
                 case "COLLECTABLE":
                     flagType = EventFlagsOrganizer.EventFlagType.Collectable;
                     break;
@@ -136,6 +140,10 @@ namespace MissingEventFlagsCheckerPlugin
 
                 case EventFlagsOrganizer.EventFlagType.BerryTree:
                     flagTypeTxt = "BERRY TREE";
+                    break;
+
+                case EventFlagsOrganizer.EventFlagType.FlySpot:
+                    flagTypeTxt = "FLY SPOT";
                     break;
 
                 case EventFlagsOrganizer.EventFlagType.Collectable:

@@ -36,19 +36,20 @@ namespace MissingEventFlagsCheckerPlugin
             this.trainerBattlesChk = new System.Windows.Forms.CheckBox();
             this.itemGiftsChk = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.collectablesChk = new System.Windows.Forms.CheckBox();
             this.pkmnGiftsChk = new System.Windows.Forms.CheckBox();
             this.miscEventsChk = new System.Windows.Forms.CheckBox();
             this.berryTreesChk = new System.Windows.Forms.CheckBox();
             this.sideEventsChk = new System.Windows.Forms.CheckBox();
             this.inGameTradesChk = new System.Windows.Forms.CheckBox();
             this.staticEncounterChk = new System.Windows.Forms.CheckBox();
-            this.collectablesChk = new System.Windows.Forms.CheckBox();
+            this.flySpotsChk = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // markFlagsBtn
             // 
-            this.markFlagsBtn.Location = new System.Drawing.Point(30, 317);
+            this.markFlagsBtn.Location = new System.Drawing.Point(30, 332);
             this.markFlagsBtn.Name = "markFlagsBtn";
             this.markFlagsBtn.Size = new System.Drawing.Size(125, 23);
             this.markFlagsBtn.TabIndex = 10;
@@ -58,7 +59,7 @@ namespace MissingEventFlagsCheckerPlugin
             // 
             // unmarkFlagsBtn
             // 
-            this.unmarkFlagsBtn.Location = new System.Drawing.Point(180, 317);
+            this.unmarkFlagsBtn.Location = new System.Drawing.Point(180, 332);
             this.unmarkFlagsBtn.Name = "unmarkFlagsBtn";
             this.unmarkFlagsBtn.Size = new System.Drawing.Size(125, 23);
             this.unmarkFlagsBtn.TabIndex = 11;
@@ -108,6 +109,7 @@ namespace MissingEventFlagsCheckerPlugin
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.flySpotsChk);
             this.groupBox1.Controls.Add(this.collectablesChk);
             this.groupBox1.Controls.Add(this.pkmnGiftsChk);
             this.groupBox1.Controls.Add(this.miscEventsChk);
@@ -121,9 +123,19 @@ namespace MissingEventFlagsCheckerPlugin
             this.groupBox1.Controls.Add(this.hiddenItemsChk);
             this.groupBox1.Location = new System.Drawing.Point(85, 20);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(170, 268);
+            this.groupBox1.Size = new System.Drawing.Size(170, 288);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
+            // 
+            // collectablesChk
+            // 
+            this.collectablesChk.AutoSize = true;
+            this.collectablesChk.Location = new System.Drawing.Point(6, 266);
+            this.collectablesChk.Name = "collectablesChk";
+            this.collectablesChk.Size = new System.Drawing.Size(83, 17);
+            this.collectablesChk.TabIndex = 11;
+            this.collectablesChk.Text = "Collectables";
+            this.collectablesChk.UseVisualStyleBackColor = true;
             // 
             // pkmnGiftsChk
             // 
@@ -148,7 +160,7 @@ namespace MissingEventFlagsCheckerPlugin
             // berryTreesChk
             // 
             this.berryTreesChk.AutoSize = true;
-            this.berryTreesChk.Location = new System.Drawing.Point(6, 220);
+            this.berryTreesChk.Location = new System.Drawing.Point(6, 243);
             this.berryTreesChk.Name = "berryTreesChk";
             this.berryTreesChk.Size = new System.Drawing.Size(80, 17);
             this.berryTreesChk.TabIndex = 10;
@@ -185,21 +197,21 @@ namespace MissingEventFlagsCheckerPlugin
             this.staticEncounterChk.Text = "Static Battles";
             this.staticEncounterChk.UseVisualStyleBackColor = true;
             // 
-            // collectablesChk
+            // flySpotsChk
             // 
-            this.collectablesChk.AutoSize = true;
-            this.collectablesChk.Location = new System.Drawing.Point(6, 243);
-            this.collectablesChk.Name = "collectablesChk";
-            this.collectablesChk.Size = new System.Drawing.Size(83, 17);
-            this.collectablesChk.TabIndex = 11;
-            this.collectablesChk.Text = "Collectables";
-            this.collectablesChk.UseVisualStyleBackColor = true;
+            this.flySpotsChk.AutoSize = true;
+            this.flySpotsChk.Location = new System.Drawing.Point(6, 220);
+            this.flySpotsChk.Name = "flySpotsChk";
+            this.flySpotsChk.Size = new System.Drawing.Size(69, 17);
+            this.flySpotsChk.TabIndex = 12;
+            this.flySpotsChk.Text = "Fly Spots";
+            this.flySpotsChk.UseVisualStyleBackColor = true;
             // 
             // SelectedFlagsEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 361);
+            this.ClientSize = new System.Drawing.Size(334, 381);
             this.Controls.Add(this.unmarkFlagsBtn);
             this.Controls.Add(this.markFlagsBtn);
             this.Controls.Add(this.groupBox1);
@@ -227,5 +239,6 @@ namespace MissingEventFlagsCheckerPlugin
         private System.Windows.Forms.CheckBox inGameTradesChk;
         private System.Windows.Forms.CheckBox pkmnGiftsChk;
         private System.Windows.Forms.CheckBox collectablesChk;
+        private System.Windows.Forms.CheckBox flySpotsChk;
     }
 }

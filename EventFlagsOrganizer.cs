@@ -23,6 +23,7 @@ namespace MissingEventFlagsCheckerPlugin
             GeneralEvent,
             SideEvent,
             StoryEvent,
+            FlySpot,
             BerryTree,
             Collectable,
 

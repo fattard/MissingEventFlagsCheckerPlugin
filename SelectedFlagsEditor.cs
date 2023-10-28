@@ -30,6 +30,7 @@ namespace MissingEventFlagsCheckerPlugin
             inGameTradesChk.Enabled = m_eventFlagsOrganizer.SupportsEditingFlag(EventFlagsOrganizer.EventFlagType.InGameTrade);
             sideEventsChk.Enabled = m_eventFlagsOrganizer.SupportsEditingFlag(EventFlagsOrganizer.EventFlagType.SideEvent);
             miscEventsChk.Enabled = m_eventFlagsOrganizer.SupportsEditingFlag(EventFlagsOrganizer.EventFlagType.GeneralEvent);
+            flySpotsChk.Enabled = m_eventFlagsOrganizer.SupportsEditingFlag(EventFlagsOrganizer.EventFlagType.FlySpot);
             berryTreesChk.Enabled = m_eventFlagsOrganizer.SupportsEditingFlag(EventFlagsOrganizer.EventFlagType.BerryTree);
             collectablesChk.Enabled = m_eventFlagsOrganizer.SupportsEditingFlag(EventFlagsOrganizer.EventFlagType.Collectable);
         }
@@ -62,6 +63,9 @@ namespace MissingEventFlagsCheckerPlugin
 
             if (miscEventsChk.Checked)
                 m_eventFlagsOrganizer.MarkFlags(EventFlagsOrganizer.EventFlagType.GeneralEvent);
+
+            if (flySpotsChk.Checked)
+                m_eventFlagsOrganizer.MarkFlags(EventFlagsOrganizer.EventFlagType.FlySpot);
 
             if (berryTreesChk.Checked)
                 m_eventFlagsOrganizer.MarkFlags(EventFlagsOrganizer.EventFlagType.BerryTree);
@@ -100,6 +104,9 @@ namespace MissingEventFlagsCheckerPlugin
 
             if (miscEventsChk.Checked)
                 m_eventFlagsOrganizer.UnmarkFlags(EventFlagsOrganizer.EventFlagType.GeneralEvent);
+
+            if (flySpotsChk.Checked)
+                m_eventFlagsOrganizer.UnmarkFlags(EventFlagsOrganizer.EventFlagType.FlySpot);
 
             if (berryTreesChk.Checked)
                 m_eventFlagsOrganizer.UnmarkFlags(EventFlagsOrganizer.EventFlagType.BerryTree);
