@@ -83,7 +83,7 @@
 0x43	EVENT					HS_POKEMON_TOWER_7F_MR_FUJI
 0x44	EVENT					HS_MR_FUJIS_HOUSE_MR_FUJI
 0x45	PKMN GIFT	Celadon City	Mansion Rooftop	Eevee in the item ball		HS_CELADON_MANSION_EEVEE_GIFT
-0x46	EVENT					HS_GAME_CORNER_ROCKET
+0x46	TRAINER BATTLE	Celadon City	Game Corner	Team Rocket Grunt		HS_GAME_CORNER_ROCKET
 0x47	FIELD ITEM	Fuchsia City	Warden's House	Rare Candy		HS_WARDENS_HOUSE_ITEM
 0x48	FIELD ITEM	Pokémon Mansion	1F	Escape Rope		HS_POKEMON_MANSION_1F_ITEM_1
 0x49	FIELD ITEM	Pokémon Mansion	1F	Carbos		HS_POKEMON_MANSION_1F_ITEM_2
@@ -389,6 +389,7 @@
 						
 						
 						
+						
 //	Hidden Coins Flags					wObtainedHiddenCoinsFlags
 0x00	HIDDEN ITEM	Celadon City	Game Corner	10 coins		COINS_GAME_CORNER_0
 0x01	HIDDEN ITEM	Celadon City	Game Corner	10 coins		COINS_GAME_CORNER_1
@@ -411,17 +412,38 @@
 						
 						
 //	In-Game Trades Flags					wCompletedInGameTradeFlags
-0x00	IN-GAME TRADE	Route 11	Gate	Trade Lickitung for GURIO (Dugtrio)		TRADE_FOR_GURIO
-0x01	IN-GAME TRADE	Route 2	House	Trade Clefairy for MILES (Mr. Mime)		TRADE_FOR_MILES
+0x00	IN-GAME TRADE	Route 11	Gate	Trade Lickitung for Dugtrio (GURIO)		TRADE_FOR_GURIO
+0x01	IN-GAME TRADE	Route 2	House	Trade Clefairy for Mr. Mime (MILES)		TRADE_FOR_MILES
 0x02	_UNUSED					TRADE_FOR_STINGER
-0x03	IN-GAME TRADE	Cinnabar Island	Pokémon Lab	Trade Kangaskhan for STICKY (Muk)		TRADE_FOR_STICKY
+0x03	IN-GAME TRADE	Cinnabar Island	Pokémon Lab	Trade Kangaskhan for Muk (STICKY)		TRADE_FOR_STICKY
 0x04	_UNUSED					TRADE_FOR_BART
-0x05	IN-GAME TRADE	Route 18	South Gate	Trade Tangela for SPIKE (Parasect)		TRADE_FOR_SPIKE
+0x05	IN-GAME TRADE	Route 18	South Gate	Trade Tangela for Parasect (SPIKE)		TRADE_FOR_SPIKE
 0x06	_UNUSED					TRADE_FOR_MARTY
-0x07	IN-GAME TRADE	Cinnabar Island	Pokémon Lab	Trade Golduck for BUFFY (Rhydon)		TRADE_FOR_BUFFY
-0x08	IN-GAME TRADE	Cinnabar Island	Pokémon Lab	Trade Growlithe for CEZANNE (Dewgong)		TRADE_FOR_CEZANNE
-0x09	IN-GAME TRADE	Underground Path	South Entrance	Trade Cubone for RICKY (Machoke)		TRADE_FOR_RICKY
+0x07	IN-GAME TRADE	Cinnabar Island	Pokémon Lab	Trade Golduck for Rhydon (BUFFY)		TRADE_FOR_BUFFY
+0x08	IN-GAME TRADE	Cinnabar Island	Pokémon Lab	Trade Growlithe for Dewgong (CEZANNE)		TRADE_FOR_CEZANNE
+0x09	IN-GAME TRADE	Underground Path	South Entrance	Trade Cubone for Machoke (RICKY)		TRADE_FOR_RICKY
 0x0A	_UNUSED					
+0x0B	_UNUSED					
+0x0C	_UNUSED					
+0x0D	_UNUSED					
+0x0E	_UNUSED					
+0x0F	_UNUSED					
+						
+						
+						
+						
+//	Fly Spot Flags					wTownVisitedFlag
+0x00	FLY SPOT	Pallet Town		Unlock Pallet Town fly spot		
+0x01	FLY SPOT	Viridian City		Unlock Viridian City fly spot		
+0x02	FLY SPOT	Pewter City		Unlock Pewter City fly spot		
+0x03	FLY SPOT	Cerulean City		Unlock Cerulean City fly spot		
+0x04	FLY SPOT	Lavender Town		Unlock Lavender Town fly spot		
+0x05	FLY SPOT	Vermilion City		Unlock Vermilion City fly spot		
+0x06	FLY SPOT	Celadon City		Unlock Celadon City fly spot		
+0x07	FLY SPOT	Fuchsia City		Unlock Fuchsia City fly spot		
+0x08	FLY SPOT	Cinnabar Island		Unlock Cinnabar Island fly spot		
+0x09	FLY SPOT	Indigo Plateau		Unlock Indigo Plateau fly spot		
+0x0A	FLY SPOT	Saffron City		Unlock Saffron City fly spot		
 0x0B	_UNUSED					
 0x0C	_UNUSED					
 0x0D	_UNUSED					
@@ -480,7 +502,7 @@
 0x020	EVENT					EVENT_FOLLOWED_OAK_INTO_LAB_2
 0x021	EVENT					EVENT_OAK_ASKED_TO_CHOOSE_MON
 0x022	STORY EVENT	Pallet Town	Oak's Lab	Choose First Partner		EVENT_GOT_STARTER
-0x023	EVENT					EVENT_BATTLED_RIVAL_IN_OAKS_LAB
+0x023	TRAINER BATTLE	Pallet Town	Oak's Lab	Rival		EVENT_BATTLED_RIVAL_IN_OAKS_LAB
 0x024	ITEM GIFT	Pallet Town	Oak's Lab	[Missable] Poké Ball (x5) from Prof. Oak		EVENT_GOT_POKEBALLS_FROM_OAK
 0x025	STORY EVENT	Pallet Town	Oak's Lab	Receive Pokédex from Prof. Oak		EVENT_GOT_POKEDEX
 0x026	EVENT					EVENT_PALLET_AFTER_GETTING_POKEBALLS_2
@@ -2301,7 +2323,7 @@
 0x73D	_UNUSED					
 0x73E	_UNUSED					
 0x73F	EVENT					EVENT_SILPH_CO_6_UNLOCKED_DOOR
-0x740	TRAINER BATTLE	Silph Co.	6F	Rival		EVENT_BEAT_SILPH_CO_RIVAL
+0x740	TRAINER BATTLE	Silph Co.	7F	Rival		EVENT_BEAT_SILPH_CO_RIVAL
 0x741	_UNUSED					
 0x742	_UNUSED					
 0x743	_UNUSED					
