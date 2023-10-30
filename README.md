@@ -14,11 +14,12 @@ For completionists, this may give you that satisfaction that you have explored a
 
 This action will export the internal tracked database of event flags in a checklist format
 
-    [ ] not aquired
-    [x] aquired
+    [ ] not completed
+    [x] completed
 
 Each entry will have a category, a location name, and a description.  
 This checklist will have all entries current in the internal database, and may be expanded later as research is done.  
+You can find samples of the full checklists at the [Wiki](https://github.com/fattard/MissingEventFlagsCheckerPlugin/wiki) section.  
 The exported file will contains the name *checklist_VERSION.txt* that will be created alongside the PKHeX program path.
 
 **Note: The checklist may contain unused data, which will be filtered out later, as well as being sorted in some confusing order that will also be fixed in later versions, as documentation on the flags progresses**
