@@ -16,8 +16,10 @@ namespace MissingEventFlagsCheckerPlugin
         {
             BadgeFlags = 0x2602,
             MissableObjectFlags = 0x2852,
+            GameProgressFlags = 0x289C,
             ObtainedHiddenItems = 0x299C,
             ObtainedHiddenCoins = 0x29AA,
+            FlySpotFlags = 0x29B7,
             RodFlags = 0x29D4,
             LaprasFlag = 0x29DA,
             CompletedInGameTradeFlags = 0x29E3,
@@ -28,8 +30,10 @@ namespace MissingEventFlagsCheckerPlugin
         {
             BadgeFlags = 0x25F8,
             MissableObjectFlags = 0x2848,
+            GameProgressFlags = 0x2892,
             ObtainedHiddenItems = 0x2992,
             ObtainedHiddenCoins = 0x29A0,
+            FlySpotFlags = 0x29AD,
             RodFlags = 0x29CA,
             LaprasFlag = 0x29D0,
             CompletedInGameTradeFlags = 0x29D9,
@@ -38,8 +42,10 @@ namespace MissingEventFlagsCheckerPlugin
 
         int BadgeFlagsOffset;
         int MissableObjectFlagsOffset;
+        int GameProgressWorkOffset;
         int ObtainedHiddenItemsOffset;
         int ObtainedHiddenCoinsOffset;
+        int FlySpotFlagsOffset;
         int RodFlagsOffset;
         int LaprasFlagOffset;
         int CompletedInGameTradeFlagsOffset;
@@ -55,9 +61,11 @@ namespace MissingEventFlagsCheckerPlugin
         const int Src_HiddenItemFlags = 2;
         const int Src_HiddenCoinsFlags = 3;
         const int Src_TradeFlags = 4;
-        const int Src_BadgesFlags = 5;
-        const int Src_Misc_wd728 = 6;
-        const int Src_Misc_wd72e = 7;
+        const int Src_FlySpotFlags = 5;
+        const int Src_BadgesFlags = 6;
+        const int Src_Misc_wd728 = 7;
+        const int Src_Misc_wd72e = 8;
+        const int Src_WorkArea = 9;
 
         const int Src_EventFlagsEX = 10;
         const int Src_HideShowFlagsEX = 11;
@@ -76,8 +84,10 @@ namespace MissingEventFlagsCheckerPlugin
             {
                 BadgeFlagsOffset = (int)FlagOffsets_JAP.BadgeFlags;
                 MissableObjectFlagsOffset = (int)FlagOffsets_JAP.MissableObjectFlags;
+                GameProgressWorkOffset = (int)FlagOffsets_JAP.GameProgressFlags;
                 ObtainedHiddenItemsOffset = (int)FlagOffsets_JAP.ObtainedHiddenItems;
                 ObtainedHiddenCoinsOffset = (int)FlagOffsets_JAP.ObtainedHiddenCoins;
+                FlySpotFlagsOffset = (int)FlagOffsets_JAP.FlySpotFlags;
                 RodFlagsOffset = (int)FlagOffsets_JAP.RodFlags;
                 LaprasFlagOffset = (int)FlagOffsets_JAP.LaprasFlag;
                 CompletedInGameTradeFlagsOffset = (int)FlagOffsets_JAP.CompletedInGameTradeFlags;
@@ -86,8 +96,10 @@ namespace MissingEventFlagsCheckerPlugin
             {
                 BadgeFlagsOffset = (int)FlagOffsets_INTL.BadgeFlags;
                 MissableObjectFlagsOffset = (int)FlagOffsets_INTL.MissableObjectFlags;
+                GameProgressWorkOffset = (int)FlagOffsets_INTL.GameProgressFlags;
                 ObtainedHiddenItemsOffset = (int)FlagOffsets_INTL.ObtainedHiddenItems;
                 ObtainedHiddenCoinsOffset = (int)FlagOffsets_INTL.ObtainedHiddenCoins;
+                FlySpotFlagsOffset = (int)FlagOffsets_INTL.FlySpotFlags;
                 RodFlagsOffset = (int)FlagOffsets_INTL.RodFlags;
                 LaprasFlagOffset = (int)FlagOffsets_INTL.LaprasFlag;
                 CompletedInGameTradeFlagsOffset = (int)FlagOffsets_INTL.CompletedInGameTradeFlags;
@@ -123,9 +135,11 @@ namespace MissingEventFlagsCheckerPlugin
             m_flagsSourceInfo["HI-Flags"] = Src_HiddenItemFlags;
             m_flagsSourceInfo["HC-Flags"] = Src_HiddenCoinsFlags;
             m_flagsSourceInfo["TradeFlags"] = Src_TradeFlags;
+            m_flagsSourceInfo["FlyFlags"] = Src_FlySpotFlags;
             m_flagsSourceInfo["Badges"] = Src_BadgesFlags;
             m_flagsSourceInfo["wd72e"] = Src_Misc_wd72e;
             m_flagsSourceInfo["wd728"] = Src_Misc_wd728;
+            m_flagsSourceInfo["WorkArea"] = Src_WorkArea;
             m_flagsSourceInfo["EvtFlagsEX"] = Src_EventFlagsEX;
             m_flagsSourceInfo["HS-FlagsEX"] = Src_HideShowFlagsEX;
             m_flagsSourceInfo["Dex"] = Src_Dex;
@@ -156,6 +170,7 @@ namespace MissingEventFlagsCheckerPlugin
                 case EventFlagType.InGameTrade:
                 case EventFlagType.ItemGift:
                 case EventFlagType.PkmnGift:
+                case EventFlagType.FlySpot:
                     return true;
 
                 default:
@@ -205,6 +220,10 @@ namespace MissingEventFlagsCheckerPlugin
                                 m_savFile.SetFlag(ObtainedHiddenCoinsOffset + (idx >> 3), idx & 7, value);
                                 break;
 
+                            case Src_FlySpotFlags:
+                                m_savFile.SetFlag(FlySpotFlagsOffset + (idx >> 3), idx & 7, value);
+                                break;
+
                             case Src_TradeFlags:
                                 m_savFile.SetFlag(CompletedInGameTradeFlagsOffset + (idx >> 3), idx & 7, value);
                                 break;
@@ -219,6 +238,20 @@ namespace MissingEventFlagsCheckerPlugin
 
                             case Src_Misc_wd72e:
                                 m_savFile.SetFlag(LaprasFlagOffset + (idx >> 3), idx & 7, value);
+                                break;
+
+                            case Src_WorkArea:
+                                {
+                                    switch (idx)
+                                    {
+                                        case 0x75: // S.S. Anne 2F
+                                            m_savFile.Data[GameProgressWorkOffset + idx] = value ? (byte)0x4 : (byte)0x0;
+                                            break;
+
+                                        default:
+                                            break;
+                                    }
+                                }
                                 break;
                         }
 
@@ -248,6 +281,10 @@ namespace MissingEventFlagsCheckerPlugin
 
                 case Src_HiddenCoinsFlags:
                     isEvtSet = m_savFile.GetFlag(ObtainedHiddenCoinsOffset + (idx >> 3), idx & 7);
+                    break;
+
+                case Src_FlySpotFlags:
+                    isEvtSet = m_savFile.GetFlag(FlySpotFlagsOffset + (idx >> 3), idx & 7);
                     break;
 
                 case Src_TradeFlags:
@@ -299,6 +336,21 @@ namespace MissingEventFlagsCheckerPlugin
                             case 0x8C: // Lift Key
                                 isEvtSet = m_savFile.GetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7) &&
                                            (m_savFile as IEventFlagArray).GetEventFlag(0x6A6); // EVENT_ROCKET_DROPPED_LIFT_KEY
+                                break;
+
+                            default:
+                                isEvtSet = false;
+                                break;
+                        }
+                    }
+                    break;
+
+                case Src_WorkArea:
+                    {
+                        switch (idx)
+                        {
+                            case 0x75: // S.S. Anne 2F
+                                isEvtSet = m_savFile.Data[GameProgressWorkOffset + idx] == 0x4;
                                 break;
 
                             default:
@@ -374,6 +426,14 @@ namespace MissingEventFlagsCheckerPlugin
             }
             bool[] obtainedHiddenCoinsFlags = result;
 
+            // wTownVisitedFlag
+            result = new bool[16];
+            for (int i = 0; i < result.Length; i++)
+            {
+                result[i] = m_savFile.GetFlag(FlySpotFlagsOffset + (i >> 3), i & 7);
+            }
+            bool[] flySpotFlags = result;
+
             // wCompletedInGameTradeFlags
             result = new bool[16];
             for (int i = 0; i < result.Length; i++)
@@ -415,6 +475,7 @@ namespace MissingEventFlagsCheckerPlugin
             int idxHideShowSection = s_flagsList_res.IndexOf("//\tHide-Show Flags");
             int idxHiddenItemsSection = s_flagsList_res.IndexOf("//\tHidden Items Flags");
             int idxHiddenCoinsSection = s_flagsList_res.IndexOf("//\tHidden Coins Flags");
+            int idxFlySpotSection = s_flagsList_res.IndexOf("//\tFly Spot Flags");
             int idxTradesSection = s_flagsList_res.IndexOf("//\tIn-Game Trades Flags");
             int idxBadgesSection = s_flagsList_res.IndexOf("//\tBadges Flags");
             int idxMisc_wd728_Section = s_flagsList_res.IndexOf("//\tMisc-wd728");
@@ -426,6 +487,7 @@ namespace MissingEventFlagsCheckerPlugin
             AssembleList(s_flagsList_res.Substring(idxHideShowSection), Src_HideShowFlags, missableObjectFlags);
             AssembleList(s_flagsList_res.Substring(idxHiddenItemsSection), Src_HiddenItemFlags, obtainedHiddenItemsFlags);
             AssembleList(s_flagsList_res.Substring(idxHiddenCoinsSection), Src_HiddenCoinsFlags, obtainedHiddenCoinsFlags);
+            AssembleList(s_flagsList_res.Substring(idxFlySpotSection), Src_FlySpotFlags, flySpotFlags);
             AssembleList(s_flagsList_res.Substring(idxTradesSection), Src_TradeFlags, completedInGameTradeFlags);
             AssembleList(s_flagsList_res.Substring(idxBadgesSection), Src_BadgesFlags, badgeFlags);
             AssembleList(s_flagsList_res.Substring(idxMisc_wd728_Section), Src_Misc_wd728, miscFlags_wd728);
