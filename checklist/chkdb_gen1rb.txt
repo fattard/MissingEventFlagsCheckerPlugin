@@ -1,587 +1,661 @@
+FlyFlags	0x00	FLY SPOT	Pallet Town		Unlock Pallet Town fly spot
 EvtFlags	0x022	STORY EVENT	Pallet Town	Oak's Lab	Choose First Partner
+EvtFlags	0x023	TRAINER BATTLE	Pallet Town	Oak's Lab	Rival
+-	0	_SEPARATOR			
 EvtFlags	0x3C0	ITEM GIFT	Route 1		Potion from boy
+FlyFlags	0x01	FLY SPOT	Viridian City		Unlock Viridian City fly spot
 EvtFlags	0x039	SPECIAL ITEM	Viridian City	Poké Mart	Oak's Parcel from clerk
+-	0	_SEPARATOR			
 EvtFlags	0x038	STORY EVENT	Pallet Town	Oak's Lab	Deliver Oak's Parcel
 EvtFlags	0x025	STORY EVENT	Pallet Town	Oak's Lab	Receive Pokédex from Prof. Oak
 EvtFlags	0x018	ITEM GIFT	Pallet Town	Rival's House	Town Map from Daisy
+-	0	_SEPARATOR			
 HI-Flags	0x23	HIDDEN ITEM	Viridian City		Potion
 EvtFlags	0x029	ITEM GIFT	Viridian City		TM42 (Dream Eater) from man
 EvtFlags	0x525	TRAINER BATTLE	Route 22		[Missable] Rival (No Badges Battle)
 EvtFlags	0x024	ITEM GIFT	Pallet Town	Oak's Lab	[Missable] Poké Ball (x5) from Prof. Oak
-HS-Flags	0x64	FIELD ITEM	Viridian Forest		Antidote
-HS-Flags	0x65	FIELD ITEM	Viridian Forest		Potion
-HS-Flags	0x66	FIELD ITEM	Viridian Forest		Poké Ball
-HI-Flags	0x00	HIDDEN ITEM	Viridian Forest		Potion
+-	0	_SEPARATOR			
 HI-Flags	0x01	HIDDEN ITEM	Viridian Forest		Antidote
+HS-Flags	0x66	FIELD ITEM	Viridian Forest		Poké Ball
 EvtFlags	0x562	TRAINER BATTLE	Viridian Forest		Bug Catcher (Rick)
 EvtFlags	0x563	TRAINER BATTLE	Viridian Forest		Bug Catcher (Doug)
+HS-Flags	0x64	FIELD ITEM	Viridian Forest		Antidote
+HS-Flags	0x65	FIELD ITEM	Viridian Forest		Potion
+HI-Flags	0x00	HIDDEN ITEM	Viridian Forest		Potion
 EvtFlags	0x564	TRAINER BATTLE	Viridian Forest		Bug Catcher (Sammy)
-HS-Flags	0x19	FIELD ITEM	Route 2		Moon Stone
-HS-Flags	0x1A	FIELD ITEM	Route 2		HP Up
-TradeFlags	0x01	IN-GAME TRADE	Route 2	House	Trade Abra for MARCEL (Mr. Mime)
+-	0	_SEPARATOR			
+TradeFlags	0x01	IN-GAME TRADE	Route 2	House	Trade Abra for Mr. Mime (MARCEL)
 EvtFlags	0x3D8	ITEM GIFT	Route 2	Gate	HM05 (Flash) from Oak's Aide
+HS-Flags	0x1A	FIELD ITEM	Route 2		HP Up
+HS-Flags	0x19	FIELD ITEM	Route 2		Moon Stone
+-	0	_SEPARATOR			
+FlyFlags	0x02	FLY SPOT	Pewter City		Unlock Pewter City fly spot
 EvtFlags	0x072	TRAINER BATTLE	Pewter City	Gym	Jr. Trainer♂ (Liam)
 EvtFlags	0x077	TRAINER BATTLE	Pewter City	Gym	Leader Brock
 Badges	0x00	STORY EVENT	Pewter City	Gym	Earn the Boulder Badge
 EvtFlags	0x076	ITEM GIFT	Pewter City	Gym	TM34 (Bide) from Brock
+-	0	_SEPARATOR			
 EvtFlags	0x069	ITEM GIFT	Pewter City	Museum	Old Amber from scientist
+-	0	_SEPARATOR			
+EvtFlags	0x3E4	TRAINER BATTLE	Route 3		Lass (Janice)
 EvtFlags	0x3E2	TRAINER BATTLE	Route 3		Bug Catcher (Colton)
 EvtFlags	0x3E3	TRAINER BATTLE	Route 3		Youngster (Ben)
-EvtFlags	0x3E4	TRAINER BATTLE	Route 3		Lass (Janice)
 EvtFlags	0x3E5	TRAINER BATTLE	Route 3		Bug Catcher (Greg)
 EvtFlags	0x3E6	TRAINER BATTLE	Route 3		Lass (Sally)
 EvtFlags	0x3E7	TRAINER BATTLE	Route 3		Youngster (Calvin)
 EvtFlags	0x3E8	TRAINER BATTLE	Route 3		Bug Catcher (James)
 EvtFlags	0x3E9	TRAINER BATTLE	Route 3		Lass (Robin)
 EvtFlags	0x3FF	PKMN GIFT	Route 4	Poké Center	Bought Magikarp from salesman
+-	0	_SEPARATOR			
+HS-Flags	0x6C	FIELD ITEM	Mt. Moon	1F	TM12 (Water Gun)
 HS-Flags	0x67	FIELD ITEM	Mt. Moon	1F	Potion
-HS-Flags	0x68	FIELD ITEM	Mt. Moon	1F	Moon Stone
+EvtFlags	0x576	TRAINER BATTLE	Mt. Moon	1F	Bug Catcher (Kent)
+EvtFlags	0x575	TRAINER BATTLE	Mt. Moon	1F	Lass (Iris)
+EvtFlags	0x574	TRAINER BATTLE	Mt. Moon	1F	Super Nerd (Jovan)
+HS-Flags	0x6B	FIELD ITEM	Mt. Moon	1F	Potion
+EvtFlags	0x577	TRAINER BATTLE	Mt. Moon	1F	Bug Catcher (Robby)
 HS-Flags	0x69	FIELD ITEM	Mt. Moon	1F	Rare Candy
 HS-Flags	0x6A	FIELD ITEM	Mt. Moon	1F	Escape Rope
-HS-Flags	0x6B	FIELD ITEM	Mt. Moon	1F	Potion
-HS-Flags	0x6C	FIELD ITEM	Mt. Moon	1F	TM12 (Water Gun)
-HS-Flags	0x6F	FIELD ITEM	Mt. Moon	B2F	HP Up
-HS-Flags	0x70	FIELD ITEM	Mt. Moon	B2F	TM01 (Mega Punch)
-HI-Flags	0x02	HIDDEN ITEM	Mt. Moon	B2F	Moon Stone
-HI-Flags	0x31	HIDDEN ITEM	Mt. Moon	B2F	Ether
-EvtFlags	0x571	TRAINER BATTLE	Mt. Moon	1F	Hiker (Marcos)
-EvtFlags	0x572	TRAINER BATTLE	Mt. Moon	1F	Youngster (Josh)
 EvtFlags	0x573	TRAINER BATTLE	Mt. Moon	1F	Lass (Miriam)
-EvtFlags	0x574	TRAINER BATTLE	Mt. Moon	1F	Super Nerd (Jovan)
-EvtFlags	0x575	TRAINER BATTLE	Mt. Moon	1F	Lass (Iris)
-EvtFlags	0x576	TRAINER BATTLE	Mt. Moon	1F	Bug Catcher (Kent)
-EvtFlags	0x577	TRAINER BATTLE	Mt. Moon	1F	Bug Catcher (Robby)
-EvtFlags	0x579	TRAINER BATTLE	Mt. Moon	B2F	Super Nerd (Miguel)
-EvtFlags	0x57A	TRAINER BATTLE	Mt. Moon	B2F	Team Rocket Grunt
+EvtFlags	0x572	TRAINER BATTLE	Mt. Moon	1F	Youngster (Josh)
+EvtFlags	0x571	TRAINER BATTLE	Mt. Moon	1F	Hiker (Marcos)
+HS-Flags	0x68	FIELD ITEM	Mt. Moon	1F	Moon Stone
+HS-Flags	0x6F	FIELD ITEM	Mt. Moon	B2F	HP Up
 EvtFlags	0x57B	TRAINER BATTLE	Mt. Moon	B2F	Team Rocket Grunt
 EvtFlags	0x57C	TRAINER BATTLE	Mt. Moon	B2F	Team Rocket Grunt
+HS-Flags	0x70	FIELD ITEM	Mt. Moon	B2F	TM01 (Mega Punch)
+HI-Flags	0x31	HIDDEN ITEM	Mt. Moon	B2F	Ether
 EvtFlags	0x57D	TRAINER BATTLE	Mt. Moon	B2F	Team Rocket Grunt
+EvtFlags	0x57A	TRAINER BATTLE	Mt. Moon	B2F	Team Rocket Grunt
+HI-Flags	0x02	HIDDEN ITEM	Mt. Moon	B2F	Moon Stone
+EvtFlags	0x579	TRAINER BATTLE	Mt. Moon	B2F	Super Nerd (Miguel)
 EvtFlagsEX	0x57E	SPECIAL ITEM	Mt. Moon	B2F	Dome Fossil / Helix Fossil
-HS-Flags	0x1B	FIELD ITEM	Route 4		TM04 (Whirlwind)
+-	0	_SEPARATOR			
 HI-Flags	0x35	HIDDEN ITEM	Route 4		Great Ball
+HS-Flags	0x1B	FIELD ITEM	Route 4		TM04 (Whirlwind)
 EvtFlags	0x3F2	TRAINER BATTLE	Route 4		Lass (Crissy)
-HS-Flags	0x06	ITEM GIFT	Cerulean City		TM28 (Dig) from Team Rocket thief
+-	0	_SEPARATOR			
+FlyFlags	0x03	FLY SPOT	Cerulean City		Unlock Cerulean City fly spot
 HI-Flags	0x34	HIDDEN ITEM	Cerulean City		Rare Candy
-TradeFlags	0x06	IN-GAME TRADE	Cerulean City	House	Trade Poliwhirl for LOLA (Jynx)
-Badges	0x01	STORY EVENT	Cerulean City	Gym	Earn the Cascade Badge
+TradeFlags	0x06	IN-GAME TRADE	Cerulean City	House	Trade Poliwhirl for Jynx (LOLA)
 EvtFlags	0x098	TRAINER BATTLE	Cerulean City		Rival
-EvtFlags	0x0A7	TRAINER BATTLE	Cerulean City		Team Rocket Grunt
-EvtFlags	0x0BA	TRAINER BATTLE	Cerulean City	Gym	Jr. Trainer♀ (Diana)
+-	0	_SEPARATOR			
 EvtFlags	0x0BB	TRAINER BATTLE	Cerulean City	Gym	Swimmer (Luis)
-EvtFlags	0x0BE	ITEM GIFT	Cerulean City	Gym	TM11 (Bubble Beam) from Misty
+EvtFlags	0x0BA	TRAINER BATTLE	Cerulean City	Gym	Jr. Trainer♀ (Diana)
 EvtFlags	0x0BF	TRAINER BATTLE	Cerulean City	Gym	Leader Misty
-EvtFlags	0x0C0	ITEM GIFT	Cerulean City	Bike Shop	Bicycle from owner in exchange for a voucher
-HS-Flags	0x25	FIELD ITEM	Route 24		TM45 (Thunder Wave)
+Badges	0x01	STORY EVENT	Cerulean City	Gym	Earn the Cascade Badge
+EvtFlags	0x0BE	ITEM GIFT	Cerulean City	Gym	TM11 (Bubble Beam) from Misty
+-	0	_SEPARATOR			
+EvtFlags	0x547	TRAINER BATTLE	Route 24		Bug Catcher (Cale)
+EvtFlags	0x546	TRAINER BATTLE	Route 24		Lass (Ali)
+EvtFlags	0x545	TRAINER BATTLE	Route 24		Youngster (Timmy)
+EvtFlags	0x544	TRAINER BATTLE	Route 24		Lass (Reli)
+EvtFlags	0x543	TRAINER BATTLE	Route 24		Jr. Trainer♂ (Kevin)
 EvtFlags	0x540	ITEM GIFT	Route 24		Nugget for defeating all trainers on the bridge
 EvtFlags	0x541	TRAINER BATTLE	Route 24		Team Rocket Grunt
 EvtFlags	0x542	TRAINER BATTLE	Route 24		Jr. Trainer♂ (Shane)
-EvtFlags	0x543	TRAINER BATTLE	Route 24		Jr. Trainer♂ (Kevin)
-EvtFlags	0x544	TRAINER BATTLE	Route 24		Lass (Reli)
-EvtFlags	0x545	TRAINER BATTLE	Route 24		Youngster (Timmy)
-EvtFlags	0x546	TRAINER BATTLE	Route 24		Lass (Ali)
-EvtFlags	0x547	TRAINER BATTLE	Route 24		Bug Catcher (Cale)
-HS-Flags	0x26	FIELD ITEM	Route 25		TM19 (Seismic Toss)
-HI-Flags	0x03	HIDDEN ITEM	Route 25		Ether
+HS-Flags	0x25	FIELD ITEM	Route 24		TM45 (Thunder Wave)
+-	0	_SEPARATOR			
+EvtFlags	0x557	TRAINER BATTLE	Route 25		Hiker (Franklin)
 HI-Flags	0x30	HIDDEN ITEM	Route 25		Elixer
+EvtFlags	0x559	TRAINER BATTLE	Route 25		Hiker (Wayne)
 EvtFlags	0x551	TRAINER BATTLE	Route 25		Youngster (Joey)
 EvtFlags	0x552	TRAINER BATTLE	Route 25		Youngster (Dan)
-EvtFlags	0x553	TRAINER BATTLE	Route 25		Jr. Trainer♂ (Flint)
 EvtFlags	0x554	TRAINER BATTLE	Route 25		Lass (Kelsey)
+EvtFlags	0x558	TRAINER BATTLE	Route 25		Hiker (Nob)
+EvtFlags	0x553	TRAINER BATTLE	Route 25		Jr. Trainer♂ (Flint)
+HS-Flags	0x26	FIELD ITEM	Route 25		TM19 (Seismic Toss)
 EvtFlags	0x555	TRAINER BATTLE	Route 25		Youngster (Chad)
 EvtFlags	0x556	TRAINER BATTLE	Route 25		Lass (Haley)
-EvtFlags	0x557	TRAINER BATTLE	Route 25		Hiker (Franklin)
-EvtFlags	0x558	TRAINER BATTLE	Route 25		Hiker (Nob)
-EvtFlags	0x559	TRAINER BATTLE	Route 25		Hiker (Wayne)
+HI-Flags	0x03	HIDDEN ITEM	Route 25		Ether
 EvtFlags	0x55C	ITEM GIFT	Route 25	Sea Cottage	S.S. Ticket from Bill
+-	0	_SEPARATOR			
+EvtFlags	0x0A7	TRAINER BATTLE	Cerulean City		Team Rocket Grunt
+HS-Flags	0x06	ITEM GIFT	Cerulean City		TM28 (Dig) from Team Rocket thief
+EvtFlags	0x0C0	ITEM GIFT	Cerulean City	Bike Shop	Bicycle from owner in exchange for a voucher
+-	0	_SEPARATOR			
 HI-Flags	0x2B	HIDDEN ITEM	Underground Path	North-South	Full Restore
 HI-Flags	0x2C	HIDDEN ITEM	Underground Path	North-South	X Special
-TradeFlags	0x09	IN-GAME TRADE	Underground Path	South Entrance	Trade Nidoran♂ for SPOT (Nidoran♀)
+TradeFlags	0x09	IN-GAME TRADE	Underground Path	South Entrance	Trade Nidoran♂ for Nidoran♀ (SPOT)
+-	0	_SEPARATOR			
+EvtFlags	0x413	TRAINER BATTLE	Route 6		Bug Catcher (Keigo)
 EvtFlags	0x411	TRAINER BATTLE	Route 6		Jr. Trainer♂ (Ricky)
 EvtFlags	0x412	TRAINER BATTLE	Route 6		Jr. Trainer♀ (Nancy)
-EvtFlags	0x413	TRAINER BATTLE	Route 6		Bug Catcher (Keigo)
-EvtFlags	0x414	TRAINER BATTLE	Route 6		Jr. Trainer♂ (Jeff)
-EvtFlags	0x415	TRAINER BATTLE	Route 6		Jr. Trainer♀ (Isabelle)
 EvtFlags	0x416	TRAINER BATTLE	Route 6		Bug Catcher (Elijah)
+EvtFlags	0x415	TRAINER BATTLE	Route 6		Jr. Trainer♀ (Isabelle)
+EvtFlags	0x414	TRAINER BATTLE	Route 6		Jr. Trainer♂ (Jeff)
+-	0	_SEPARATOR			
+FlyFlags	0x05	FLY SPOT	Vermilion City		Unlock Vermilion City fly spot
 wd728	0x03	ITEM GIFT	Vermilion City	House	Old Rod from Fishing Guru
-HI-Flags	0x33	HIDDEN ITEM	Vermilion City		Max Ether
-TradeFlags	0x04	IN-GAME TRADE	Vermilion City	House	Trade Spearow for DUX (Farfetch'd)
 EvtFlags	0x151	ITEM GIFT	Vermilion City	Pokémon Fan Club	Bike Voucher from chairman
-HS-Flags	0x72	FIELD ITEM	S.S. Anne	1F	[Missable] TM08 (Body Slam)
-HS-Flags	0x73	FIELD ITEM	S.S. Anne	2F	[Missable] Max Ether
-HS-Flags	0x74	FIELD ITEM	S.S. Anne	2F	[Missable] Rare Candy
-HS-Flags	0x75	FIELD ITEM	S.S. Anne	B1F	[Missable] Ether
-HS-Flags	0x76	FIELD ITEM	S.S. Anne	B1F	[Missable] TM44 (Rest)
-HS-Flags	0x77	FIELD ITEM	S.S. Anne	B1F	[Missable] Max Potion
-HI-Flags	0x05	HIDDEN ITEM	S.S. Anne	Kitchen	[Missable] Great Ball
+TradeFlags	0x04	IN-GAME TRADE	Vermilion City	House	Trade Spearow for Farfetch'd (DUX)
+HI-Flags	0x33	HIDDEN ITEM	Vermilion City		Max Ether
+-	0	_SEPARATOR			
+EvtFlags	0x616	TRAINER BATTLE	S.S. Anne	B1F	[Missable] Fisherman (Barny)
+EvtFlags	0x615	TRAINER BATTLE	S.S. Anne	B1F	[Missable] Sailor (Phillip)
 HI-Flags	0x06	HIDDEN ITEM	S.S. Anne	B1F	[Missable] Hyper Potion
-EvtFlags	0x5C4	TRAINER BATTLE	S.S. Anne		[Missable] Sailor (Edmond)
-EvtFlags	0x5C5	TRAINER BATTLE	S.S. Anne		[Missable] Sailor (Trevor)
+EvtFlags	0x613	TRAINER BATTLE	S.S. Anne	B1F	[Missable] Sailor (Huey)
+HS-Flags	0x76	FIELD ITEM	S.S. Anne	B1F	[Missable] TM44 (Rest)
+EvtFlags	0x614	TRAINER BATTLE	S.S. Anne	B1F	[Missable] Sailor (Dylan)
+HS-Flags	0x75	FIELD ITEM	S.S. Anne	B1F	[Missable] Ether
+EvtFlags	0x612	TRAINER BATTLE	S.S. Anne	B1F	[Missable] Sailor (Duncan)
+EvtFlags	0x611	TRAINER BATTLE	S.S. Anne	B1F	[Missable] Sailor (Leonard)
+HS-Flags	0x77	FIELD ITEM	S.S. Anne	B1F	[Missable] Max Potion
+EvtFlags	0x5F1	TRAINER BATTLE	S.S. Anne	1F	[Missable] Gentleman (Thomas)
+EvtFlags	0x5F2	TRAINER BATTLE	S.S. Anne	1F	[Missable] Gentleman (Arthur)
+EvtFlags	0x5F4	TRAINER BATTLE	S.S. Anne	1F	[Missable] Lass (Ann)
+EvtFlags	0x5F3	TRAINER BATTLE	S.S. Anne	1F	[Missable] Youngster (Tyler)
+HS-Flags	0x72	FIELD ITEM	S.S. Anne	1F	[Missable] TM08 (Body Slam)
+HI-Flags	0x05	HIDDEN ITEM	S.S. Anne	Kitchen	[Missable] Great Ball
+EvtFlags	0x5C5	TRAINER BATTLE	S.S. Anne	Deck	[Missable] Sailor (Trevor)
+EvtFlags	0x5C4	TRAINER BATTLE	S.S. Anne	Deck	[Missable] Sailor (Edmond)
+EvtFlags	0x602	TRAINER BATTLE	S.S. Anne	2F	[Missable] Fisherman (Dale)
+EvtFlags	0x601	TRAINER BATTLE	S.S. Anne	2F	[Missable] Gentleman (Brooks)
+HS-Flags	0x73	FIELD ITEM	S.S. Anne	2F	[Missable] Max Ether
+EvtFlags	0x603	TRAINER BATTLE	S.S. Anne	2F	[Missable] Gentleman (Lamar)
+EvtFlags	0x604	TRAINER BATTLE	S.S. Anne	2F	[Missable] Lass (Dawn)
+HS-Flags	0x74	FIELD ITEM	S.S. Anne	2F	[Missable] Rare Candy
+WorkArea	0x75	TRAINER BATTLE	S.S. Anne	2F	Rival
 EvtFlags	0x5E0	ITEM GIFT	S.S. Anne	3F	HM01 (Cut) from captain
-EvtFlags	0x5F1	TRAINER BATTLE	S.S. Anne		[Missable] Gentleman (Thomas)
-EvtFlags	0x5F2	TRAINER BATTLE	S.S. Anne		[Missable] Gentleman (Arthur)
-EvtFlags	0x5F3	TRAINER BATTLE	S.S. Anne		[Missable] Youngster (Tyler)
-EvtFlags	0x5F4	TRAINER BATTLE	S.S. Anne		[Missable] Lass (Ann)
-EvtFlags	0x601	TRAINER BATTLE	S.S. Anne		[Missable] Gentleman (Brooks)
-EvtFlags	0x602	TRAINER BATTLE	S.S. Anne		[Missable] Fisherman (Dale)
-EvtFlags	0x603	TRAINER BATTLE	S.S. Anne		[Missable] Gentleman (Lamar)
-EvtFlags	0x604	TRAINER BATTLE	S.S. Anne		[Missable] Lass (Dawn)
-EvtFlags	0x611	TRAINER BATTLE	S.S. Anne		[Missable] Sailor (Leonard)
-EvtFlags	0x612	TRAINER BATTLE	S.S. Anne		[Missable] Sailor (Duncan)
-EvtFlags	0x613	TRAINER BATTLE	S.S. Anne		[Missable] Sailor (Huey)
-EvtFlags	0x614	TRAINER BATTLE	S.S. Anne		[Missable] Sailor (Dylan)
-EvtFlags	0x615	TRAINER BATTLE	S.S. Anne		[Missable] Sailor (Phillip)
-EvtFlags	0x616	TRAINER BATTLE	S.S. Anne		[Missable] Fisherman (Barny)
-Badges	0x02	STORY EVENT	Vermilion City	Gym	Earn the Thunder Badge
-EvtFlags	0x162	TRAINER BATTLE	Vermilion City	Gym	Gentleman (Tucker)
-EvtFlags	0x163	TRAINER BATTLE	Vermilion City	Gym	Rocker (Baily)
+-	0	_SEPARATOR			
 EvtFlags	0x164	TRAINER BATTLE	Vermilion City	Gym	Sailor (Dwayne)
-EvtFlags	0x166	ITEM GIFT	Vermilion City	Gym	TM24 (Thunderbolt) from Lt. Surge
+EvtFlags	0x163	TRAINER BATTLE	Vermilion City	Gym	Rocker (Baily)
+EvtFlags	0x162	TRAINER BATTLE	Vermilion City	Gym	Gentleman (Tucker)
 EvtFlags	0x167	TRAINER BATTLE	Vermilion City	Gym	Leader Lt. Surge
-HI-Flags	0x24	HIDDEN ITEM	Route 11		Escape Rope
-TradeFlags	0x00	IN-GAME TRADE	Route 11	Gate	Trade Nidorino for TERRY (Nidorina)
-EvtFlags	0x471	TRAINER BATTLE	Route 11		Gambler (Hugo)
-EvtFlags	0x472	TRAINER BATTLE	Route 11		Gambler (Jasper)
+Badges	0x02	STORY EVENT	Vermilion City	Gym	Earn the Thunder Badge
+EvtFlags	0x166	ITEM GIFT	Vermilion City	Gym	TM24 (Thunderbolt) from Lt. Surge
+-	0	_SEPARATOR			
 EvtFlags	0x473	TRAINER BATTLE	Route 11		Youngster (Eddie)
-EvtFlags	0x474	TRAINER BATTLE	Route 11		Engineer (Braxton)
-EvtFlags	0x475	TRAINER BATTLE	Route 11		Youngster (Dillon)
-EvtFlags	0x476	TRAINER BATTLE	Route 11		Gambler (Dirk)
-EvtFlags	0x477	TRAINER BATTLE	Route 11		Gambler (Darian)
-EvtFlags	0x478	TRAINER BATTLE	Route 11		Youngster (Yasu)
-EvtFlags	0x479	TRAINER BATTLE	Route 11		Engineer (Bernie)
+EvtFlags	0x471	TRAINER BATTLE	Route 11		Gambler (Hugo)
 EvtFlags	0x47A	TRAINER BATTLE	Route 11		Youngster (Dave)
+EvtFlags	0x475	TRAINER BATTLE	Route 11		Youngster (Dillon)
+EvtFlags	0x472	TRAINER BATTLE	Route 11		Gambler (Jasper)
+EvtFlags	0x474	TRAINER BATTLE	Route 11		Engineer (Braxton)
+EvtFlags	0x477	TRAINER BATTLE	Route 11		Gambler (Darian)
+EvtFlags	0x479	TRAINER BATTLE	Route 11		Engineer (Bernie)
+EvtFlags	0x478	TRAINER BATTLE	Route 11		Youngster (Yasu)
+EvtFlags	0x476	TRAINER BATTLE	Route 11		Gambler (Dirk)
+HI-Flags	0x24	HIDDEN ITEM	Route 11		Escape Rope
 EvtFlags	0x47F	ITEM GIFT	Route 11	Gate	Itemfinder from Oak's Aide
-HS-Flags	0x1C	FIELD ITEM	Route 9		TM30 (Teleport)
-HI-Flags	0x04	HIDDEN ITEM	Route 9		Ether
+TradeFlags	0x00	IN-GAME TRADE	Route 11	Gate	Trade Nidorino for Nidorina (TERRY)
+-	0	_SEPARATOR			
 EvtFlags	0x441	TRAINER BATTLE	Route 9		Jr. Trainer♀ (Alicia)
-EvtFlags	0x442	TRAINER BATTLE	Route 9		Jr. Trainer♂ (Chris)
-EvtFlags	0x443	TRAINER BATTLE	Route 9		Jr. Trainer♂ (Drew)
-EvtFlags	0x444	TRAINER BATTLE	Route 9		Jr. Trainer♀ (Caitlin)
 EvtFlags	0x445	TRAINER BATTLE	Route 9		Hiker (Jeremy)
-EvtFlags	0x446	TRAINER BATTLE	Route 9		Hiker (Brice)
+HS-Flags	0x1C	FIELD ITEM	Route 9		TM30 (Teleport)
+EvtFlags	0x442	TRAINER BATTLE	Route 9		Jr. Trainer♂ (Chris)
 EvtFlags	0x447	TRAINER BATTLE	Route 9		Bug Catcher (Brent)
+HI-Flags	0x04	HIDDEN ITEM	Route 9		Ether
 EvtFlags	0x448	TRAINER BATTLE	Route 9		Hiker (Alan)
 EvtFlags	0x449	TRAINER BATTLE	Route 9		Bug Catcher (Conner)
-HI-Flags	0x07	HIDDEN ITEM	Route 10		Super Potion
-HI-Flags	0x08	HIDDEN ITEM	Route 10		Max Ether
-EvtFlags	0x451	TRAINER BATTLE	Route 10		PokéManiac (Mark)
-EvtFlags	0x452	TRAINER BATTLE	Route 10		Hiker (Clark)
-EvtFlags	0x453	TRAINER BATTLE	Route 10		PokéManiac (Herman)
+EvtFlags	0x443	TRAINER BATTLE	Route 9		Jr. Trainer♂ (Drew)
+EvtFlags	0x446	TRAINER BATTLE	Route 9		Hiker (Brice)
+EvtFlags	0x444	TRAINER BATTLE	Route 9		Jr. Trainer♀ (Caitlin)
+-	0	_SEPARATOR			
 EvtFlags	0x454	TRAINER BATTLE	Route 10		Jr. Trainer♀ (Heidi)
-EvtFlags	0x455	TRAINER BATTLE	Route 10		Hiker (Trent)
-EvtFlags	0x456	TRAINER BATTLE	Route 10		Jr. Trainer♀ (Carol)
+HI-Flags	0x07	HIDDEN ITEM	Route 10		Super Potion
+-	0	_SEPARATOR			
+EvtFlags	0x45C	TRAINER BATTLE	Rock Tunnel	1F	PokéManiac (Ashton)
 EvtFlags	0x459	TRAINER BATTLE	Rock Tunnel	1F	Hiker (Lenny)
 EvtFlags	0x45A	TRAINER BATTLE	Rock Tunnel	1F	Hiker (Oliver)
 EvtFlags	0x45B	TRAINER BATTLE	Rock Tunnel	1F	Hiker (Lucas)
-EvtFlags	0x45C	TRAINER BATTLE	Rock Tunnel	1F	PokéManiac (Ashton)
 EvtFlags	0x45D	TRAINER BATTLE	Rock Tunnel	1F	Jr. Trainer♀ (Leah)
-EvtFlags	0x45E	TRAINER BATTLE	Rock Tunnel	1F	Jr. Trainer♀ (Dana)
 EvtFlags	0x45F	TRAINER BATTLE	Rock Tunnel	1F	Jr. Trainer♀ (Ariana)
+EvtFlags	0x45E	TRAINER BATTLE	Rock Tunnel	1F	Jr. Trainer♀ (Dana)
+EvtFlags	0x9B8	TRAINER BATTLE	Rock Tunnel	B1F	PokéManiac (Winston)
+EvtFlags	0x9B6	TRAINER BATTLE	Rock Tunnel	B1F	Jr. Trainer♀ (Martha)
+EvtFlags	0x9B4	TRAINER BATTLE	Rock Tunnel	B1F	PokéManiac (Steve)
+EvtFlags	0x9B5	TRAINER BATTLE	Rock Tunnel	B1F	Hiker (Allen)
+EvtFlags	0x9B7	TRAINER BATTLE	Rock Tunnel	B1F	Hiker (Eric)
 EvtFlags	0x9B1	TRAINER BATTLE	Rock Tunnel	B1F	Jr. Trainer♀ (Sofia)
 EvtFlags	0x9B2	TRAINER BATTLE	Rock Tunnel	B1F	Hiker (Dudley)
 EvtFlags	0x9B3	TRAINER BATTLE	Rock Tunnel	B1F	PokéManiac (Cooper)
-EvtFlags	0x9B4	TRAINER BATTLE	Rock Tunnel	B1F	PokéManiac (Steve)
-EvtFlags	0x9B5	TRAINER BATTLE	Rock Tunnel	B1F	Hiker (Allen)
-EvtFlags	0x9B6	TRAINER BATTLE	Rock Tunnel	B1F	Jr. Trainer♀ (Martha)
-EvtFlags	0x9B7	TRAINER BATTLE	Rock Tunnel	B1F	Hiker (Eric)
-EvtFlags	0x9B8	TRAINER BATTLE	Rock Tunnel	B1F	PokéManiac (Winston)
-EvtFlags	0x431	TRAINER BATTLE	Route 8		Super Nerd (Aidan)
-EvtFlags	0x432	TRAINER BATTLE	Route 8		Gambler (Stan)
+-	0	_SEPARATOR			
+EvtFlags	0x456	TRAINER BATTLE	Route 10		Jr. Trainer♀ (Carol)
+HI-Flags	0x08	HIDDEN ITEM	Route 10		Max Ether
+EvtFlags	0x452	TRAINER BATTLE	Route 10		Hiker (Clark)
+EvtFlags	0x455	TRAINER BATTLE	Route 10		Hiker (Trent)
+EvtFlags	0x453	TRAINER BATTLE	Route 10		PokéManiac (Herman)
+-	0	_SEPARATOR			
+FlyFlags	0x04	FLY SPOT	Lavender Town		Unlock Lavender Town fly spot
+EvtFlags	0x439	TRAINER BATTLE	Route 8		Lass (Julia)
+EvtFlags	0x438	TRAINER BATTLE	Route 8		Gambler (Rich)
 EvtFlags	0x433	TRAINER BATTLE	Route 8		Super Nerd (Glenn)
 EvtFlags	0x434	TRAINER BATTLE	Route 8		Lass (Paige)
 EvtFlags	0x435	TRAINER BATTLE	Route 8		Super Nerd (Leslie)
 EvtFlags	0x436	TRAINER BATTLE	Route 8		Lass (Andrea)
 EvtFlags	0x437	TRAINER BATTLE	Route 8		Lass (Megan)
-EvtFlags	0x438	TRAINER BATTLE	Route 8		Gambler (Rich)
-EvtFlags	0x439	TRAINER BATTLE	Route 8		Lass (Julia)
+EvtFlags	0x432	TRAINER BATTLE	Route 8		Gambler (Stan)
+EvtFlags	0x431	TRAINER BATTLE	Route 8		Super Nerd (Aidan)
+-	0	_SEPARATOR			
 HI-Flags	0x2D	HIDDEN ITEM	Underground Path	West-East	Nugget
 HI-Flags	0x2E	HIDDEN ITEM	Underground Path	West-East	Elixer
+-	0	_SEPARATOR			
+FlyFlags	0x06	FLY SPOT	Celadon City		Unlock Celadon City fly spot
 HS-Flags	0x45	PKMN GIFT	Celadon City	Mansion Rooftop	Eevee in the item ball
 HI-Flags	0x2F	HIDDEN ITEM	Celadon City		PP Up
-HC-Flags	0x00	HIDDEN ITEM	Celadon City	Game Corner	10 coins
-HC-Flags	0x01	HIDDEN ITEM	Celadon City	Game Corner	10 coins
-HC-Flags	0x02	HIDDEN ITEM	Celadon City	Game Corner	20 coins
-HC-Flags	0x03	HIDDEN ITEM	Celadon City	Game Corner	10 coins
-HC-Flags	0x04	HIDDEN ITEM	Celadon City	Game Corner	10 coins
-HC-Flags	0x05	HIDDEN ITEM	Celadon City	Game Corner	20 coins
-HC-Flags	0x06	HIDDEN ITEM	Celadon City	Game Corner	10 coins
-HC-Flags	0x07	HIDDEN ITEM	Celadon City	Game Corner	10 coins
-HC-Flags	0x08	HIDDEN ITEM	Celadon City	Game Corner	10 coins
-HC-Flags	0x09	HIDDEN ITEM	Celadon City	Game Corner	20 coins
-HC-Flags	0x0A	HIDDEN ITEM	Celadon City	Game Corner	100 coins
-Badges	0x03	STORY EVENT	Celadon City	Gym	Earn the Rainbow Badge
+EvtFlags	0x1E0	ITEM GIFT	Celadon City	Restaurant	Coin Case from man
 EvtFlags	0x180	ITEM GIFT	Celadon City		TM41 (Softboiled) from man across the pond
+EvtFlags	0x18F	ITEM GIFT	Celadon Department Store	3F	TM18 (Counter) from man
 EvtFlags	0x18C	ITEM GIFT	Celadon Department Store	Roofttop	TM13 (Ice Beam) from girl in exchange for a Fresh Water
 EvtFlags	0x18D	ITEM GIFT	Celadon Department Store	Roofttop	TM48 (Rock Slide) from girl in exchange for a Soda Pop
 EvtFlags	0x18E	ITEM GIFT	Celadon Department Store	Roofttop	TM49 (Tri Attack) from girl in exchange for a Lemonade
-EvtFlags	0x18F	ITEM GIFT	Celadon Department Store	3F	TM18 (Counter) from man
-EvtFlags	0x1A8	ITEM GIFT	Celadon City	Gym	TM21 (Mega Drain) from Erika
-EvtFlags	0x1A9	TRAINER BATTLE	Celadon City	Gym	Leader Erika
+-	0	_SEPARATOR			
 EvtFlags	0x1AA	TRAINER BATTLE	Celadon City	Gym	Lass (Kay)
 EvtFlags	0x1AB	TRAINER BATTLE	Celadon City	Gym	Beauty (Bridget)
-EvtFlags	0x1AC	TRAINER BATTLE	Celadon City	Gym	Jr. Trainer♀ (Tina)
 EvtFlags	0x1AD	TRAINER BATTLE	Celadon City	Gym	Beauty (Tamia)
-EvtFlags	0x1AE	TRAINER BATTLE	Celadon City	Gym	Lass (Lisa)
+EvtFlags	0x1AC	TRAINER BATTLE	Celadon City	Gym	Jr. Trainer♀ (Tina)
 EvtFlags	0x1AF	TRAINER BATTLE	Celadon City	Gym	Beauty (Lori)
 EvtFlags	0x1B0	TRAINER BATTLE	Celadon City	Gym	Cooltrainer♀ (Mary)
-EvtFlags	0x1BA	ITEM GIFT	Celadon City	Game Corner	10 coins from fisherman
+EvtFlags	0x1AE	TRAINER BATTLE	Celadon City	Gym	Lass (Lisa)
+EvtFlags	0x1A9	TRAINER BATTLE	Celadon City	Gym	Leader Erika
+Badges	0x03	STORY EVENT	Celadon City	Gym	Earn the Rainbow Badge
+EvtFlags	0x1A8	ITEM GIFT	Celadon City	Gym	TM21 (Mega Drain) from Erika
+-	0	_SEPARATOR			
+HC-Flags	0x07	HIDDEN ITEM	Celadon City	Game Corner	10 coins
 EvtFlags	0x1BB	ITEM GIFT	Celadon City	Game Corner	20 coins from gentleman
 EvtFlags	0x1BC	ITEM GIFT	Celadon City	Game Corner	20 coins from scientist
-EvtFlags	0x1E0	ITEM GIFT	Celadon City	Restaurant	Coin Case from man
-HS-Flags	0x7B	FIELD ITEM	Rocket Hideout	B1F	Escape Rope
-HS-Flags	0x7C	FIELD ITEM	Rocket Hideout	B1F	Hyper Potion
-HS-Flags	0x7D	FIELD ITEM	Rocket Hideout	B2F	Moon Stone
-HS-Flags	0x7E	FIELD ITEM	Rocket Hideout	B2F	Nugget
-HS-Flags	0x7F	FIELD ITEM	Rocket Hideout	B2F	TM07 (Horn Drill)
-HS-Flags	0x80	FIELD ITEM	Rocket Hideout	B2F	Super Potion
-HS-Flags	0x81	FIELD ITEM	Rocket Hideout	B3F	TM10 (Double-Edge)
-HS-Flags	0x82	FIELD ITEM	Rocket Hideout	B3F	Rare Candy
-HS-Flags	0x84	FIELD ITEM	Rocket Hideout	B4F	HP Up
-HS-Flags	0x85	FIELD ITEM	Rocket Hideout	B4F	TM02 (Razor Wind)
-HS-Flags	0x86	FIELD ITEM	Rocket Hideout	B4F	Iron
-HS-FlagsEX	0x87	FIELD ITEM	Rocket Hideout	B4F	Silph Scope
-HS-FlagsEX	0x88	FIELD ITEM	Rocket Hideout	B4F	Lift Key
-HI-Flags	0x09	HIDDEN ITEM	Rocket Hideout	B1F	PP Up
-HI-Flags	0x0A	HIDDEN ITEM	Rocket Hideout	B3F	Nugget
-HI-Flags	0x0B	HIDDEN ITEM	Rocket Hideout	B4F	Super Potion
-EvtFlags	0x671	TRAINER BATTLE	Rocket Hideout	B1F	Team Rocket Grunt
+HC-Flags	0x0A	HIDDEN ITEM	Celadon City	Game Corner	100 coins
+HC-Flags	0x09	HIDDEN ITEM	Celadon City	Game Corner	20 coins
+HC-Flags	0x06	HIDDEN ITEM	Celadon City	Game Corner	10 coins
+HC-Flags	0x05	HIDDEN ITEM	Celadon City	Game Corner	20 coins
+HC-Flags	0x08	HIDDEN ITEM	Celadon City	Game Corner	10 coins
+HC-Flags	0x01	HIDDEN ITEM	Celadon City	Game Corner	10 coins
+HC-Flags	0x03	HIDDEN ITEM	Celadon City	Game Corner	10 coins
+EvtFlags	0x1BA	ITEM GIFT	Celadon City	Game Corner	10 coins from fisherman
+HC-Flags	0x02	HIDDEN ITEM	Celadon City	Game Corner	20 coins
+HC-Flags	0x04	HIDDEN ITEM	Celadon City	Game Corner	10 coins
+HC-Flags	0x00	HIDDEN ITEM	Celadon City	Game Corner	10 coins
+HS-Flags	0x46	TRAINER BATTLE	Celadon City	Game Corner	Team Rocket Grunt
+-	0	_SEPARATOR			
 EvtFlags	0x672	TRAINER BATTLE	Rocket Hideout	B1F	Team Rocket Grunt
+HS-Flags	0x7B	FIELD ITEM	Rocket Hideout	B1F	Escape Rope
+EvtFlags	0x671	TRAINER BATTLE	Rocket Hideout	B1F	Team Rocket Grunt
+HI-Flags	0x09	HIDDEN ITEM	Rocket Hideout	B1F	PP Up
 EvtFlags	0x673	TRAINER BATTLE	Rocket Hideout	B1F	Team Rocket Grunt
 EvtFlags	0x674	TRAINER BATTLE	Rocket Hideout	B1F	Team Rocket Grunt
+HS-Flags	0x7C	FIELD ITEM	Rocket Hideout	B1F	Hyper Potion
 EvtFlags	0x675	TRAINER BATTLE	Rocket Hideout	B1F	Team Rocket Grunt
 EvtFlags	0x681	TRAINER BATTLE	Rocket Hideout	B2F	Team Rocket Grunt
-EvtFlags	0x691	TRAINER BATTLE	Rocket Hideout	B3F	Team Rocket Grunt
+HS-Flags	0x7E	FIELD ITEM	Rocket Hideout	B2F	Nugget
+HS-Flags	0x7D	FIELD ITEM	Rocket Hideout	B2F	Moon Stone
+HS-Flags	0x7F	FIELD ITEM	Rocket Hideout	B2F	TM07 (Horn Drill)
+HS-Flags	0x80	FIELD ITEM	Rocket Hideout	B2F	Super Potion
 EvtFlags	0x692	TRAINER BATTLE	Rocket Hideout	B3F	Team Rocket Grunt
+HS-Flags	0x81	FIELD ITEM	Rocket Hideout	B3F	TM10 (Double-Edge)
+HI-Flags	0x0A	HIDDEN ITEM	Rocket Hideout	B3F	Nugget
+HS-Flags	0x82	FIELD ITEM	Rocket Hideout	B3F	Rare Candy
+EvtFlags	0x691	TRAINER BATTLE	Rocket Hideout	B3F	Team Rocket Grunt
+HS-Flags	0x84	FIELD ITEM	Rocket Hideout	B4F	HP Up
+HS-Flags	0x85	FIELD ITEM	Rocket Hideout	B4F	TM02 (Razor Wind)
+EvtFlags	0x6A4	TRAINER BATTLE	Rocket Hideout	B4F	Team Rocket Grunt
+HS-FlagsEX	0x88	FIELD ITEM	Rocket Hideout	B4F	Lift Key
 EvtFlags	0x6A2	TRAINER BATTLE	Rocket Hideout	B4F	Team Rocket Grunt
 EvtFlags	0x6A3	TRAINER BATTLE	Rocket Hideout	B4F	Team Rocket Grunt
-EvtFlags	0x6A4	TRAINER BATTLE	Rocket Hideout	B4F	Team Rocket Grunt
+HS-Flags	0x86	FIELD ITEM	Rocket Hideout	B4F	Iron
 EvtFlags	0x6A7	TRAINER BATTLE	Rocket Hideout	B4F	Boss Giovanni
-HS-Flags	0x39	FIELD ITEM	Pokémon Tower	3F	Escape Rope
-HS-Flags	0x3A	FIELD ITEM	Pokémon Tower	4F	Elixer
-HS-Flags	0x3B	FIELD ITEM	Pokémon Tower	4F	Awakening
-HS-Flags	0x3C	FIELD ITEM	Pokémon Tower	4F	HP Up
-HS-Flags	0x3D	FIELD ITEM	Pokémon Tower	5F	Nugget
-HS-Flags	0x3E	FIELD ITEM	Pokémon Tower	6F	Rare Candy
-HS-Flags	0x3F	FIELD ITEM	Pokémon Tower	6F	X Accuracy
-HI-Flags	0x0C	HIDDEN ITEM	Pokémon Tower	5F	Elixer
+HS-FlagsEX	0x87	FIELD ITEM	Rocket Hideout	B4F	Silph Scope
+HI-Flags	0x0B	HIDDEN ITEM	Rocket Hideout	B4F	Super Potion
+-	0	_SEPARATOR			
 EvtFlags	0x0EF	TRAINER BATTLE	Pokémon Tower	2F	Rival
 EvtFlags	0x0F1	TRAINER BATTLE	Pokémon Tower	3F	Channeler (Hope)
-EvtFlags	0x0F2	TRAINER BATTLE	Pokémon Tower	3F	Channeler (Carly)
+HS-Flags	0x39	FIELD ITEM	Pokémon Tower	3F	Escape Rope
 EvtFlags	0x0F3	TRAINER BATTLE	Pokémon Tower	3F	Channeler (Patricia)
-EvtFlags	0x0F9	TRAINER BATTLE	Pokémon Tower	4F	Channeler (Paula)
+EvtFlags	0x0F2	TRAINER BATTLE	Pokémon Tower	3F	Channeler (Carly)
 EvtFlags	0x0FA	TRAINER BATTLE	Pokémon Tower	4F	Channeler (Laurel)
+HS-Flags	0x3A	FIELD ITEM	Pokémon Tower	4F	Elixer
+HS-Flags	0x3B	FIELD ITEM	Pokémon Tower	4F	Awakening
 EvtFlags	0x0FB	TRAINER BATTLE	Pokémon Tower	4F	Channeler (Jody)
-EvtFlags	0x102	TRAINER BATTLE	Pokémon Tower	5F	Channeler (Tammy)
+HS-Flags	0x3C	FIELD ITEM	Pokémon Tower	4F	HP Up
+EvtFlags	0x0F9	TRAINER BATTLE	Pokémon Tower	4F	Channeler (Paula)
+HI-Flags	0x0C	HIDDEN ITEM	Pokémon Tower	5F	Elixer
 EvtFlags	0x103	TRAINER BATTLE	Pokémon Tower	5F	Channeler (Ruth)
+EvtFlags	0x102	TRAINER BATTLE	Pokémon Tower	5F	Channeler (Tammy)
 EvtFlags	0x104	TRAINER BATTLE	Pokémon Tower	5F	Channeler (Karina)
+HS-Flags	0x3D	FIELD ITEM	Pokémon Tower	5F	Nugget
 EvtFlags	0x105	TRAINER BATTLE	Pokémon Tower	5F	Channeler (Janae)
 EvtFlags	0x109	TRAINER BATTLE	Pokémon Tower	6F	Channeler (Angelica)
-EvtFlags	0x10A	TRAINER BATTLE	Pokémon Tower	6F	Channeler (Emilia)
+HS-Flags	0x3F	FIELD ITEM	Pokémon Tower	6F	X Accuracy
 EvtFlags	0x10B	TRAINER BATTLE	Pokémon Tower	6F	Channeler (Jennifer)
+EvtFlags	0x10A	TRAINER BATTLE	Pokémon Tower	6F	Channeler (Emilia)
+HS-Flags	0x3E	FIELD ITEM	Pokémon Tower	6F	Rare Candy
 EvtFlags	0x10F	STORY EVENT	Pokémon Tower	6F	Defeat Ghost Marowak
 EvtFlags	0x111	TRAINER BATTLE	Pokémon Tower	7F	Team Rocket Grunt
 EvtFlags	0x112	TRAINER BATTLE	Pokémon Tower	7F	Team Rocket Grunt
 EvtFlags	0x113	TRAINER BATTLE	Pokémon Tower	7F	Team Rocket Grunt
 EvtFlags	0x128	ITEM GIFT	Lavender Town	Pokémon House	Poké Flute from Mr. Fuji
-wd728	0x05	ITEM GIFT	Route 12	House	Super Rod from Fishing Guru
-HS-Flags	0x1E	FIELD ITEM	Route 12		TM16 (Pay Day)
-HS-Flags	0x1F	FIELD ITEM	Route 12		Iron
-HI-Flags	0x25	HIDDEN ITEM	Route 12		Hyper Potion
+-	0	_SEPARATOR			
 EvtFlags	0x480	ITEM GIFT	Route 12	Gate	TM39 (Swift) from girl
 EvtFlags	0x482	TRAINER BATTLE	Route 12		Fisherman (Ned)
+HS-Flags	0x1E	FIELD ITEM	Route 12		TM16 (Pay Day)
 EvtFlags	0x483	TRAINER BATTLE	Route 12		Fisherman (Chip)
-EvtFlags	0x484	TRAINER BATTLE	Route 12		Jr. Trainer♂ (Justin)
-EvtFlags	0x485	TRAINER BATTLE	Route 12		Rocker (Luca)
 EvtFlags	0x486	TRAINER BATTLE	Route 12		Fisherman (Hank)
 EvtFlags	0x487	TRAINER BATTLE	Route 12		Fisherman (Elliot)
-EvtFlags	0x488	TRAINER BATTLE	Route 12		Fisherman (Andrew)
 EvtFlags	0x48F	STATIC BATTLE	Route 12		Captured/Defeated Snorlax
-HI-Flags	0x0D	HIDDEN ITEM	Route 13		PP Up
-HI-Flags	0x0E	HIDDEN ITEM	Route 13		Calcium
+HI-Flags	0x25	HIDDEN ITEM	Route 12		Hyper Potion
+EvtFlags	0x485	TRAINER BATTLE	Route 12		Rocker (Luca)
+wd728	0x05	ITEM GIFT	Route 12	House	Super Rod from Fishing Guru
+EvtFlags	0x488	TRAINER BATTLE	Route 12		Fisherman (Andrew)
+HS-Flags	0x1F	FIELD ITEM	Route 12		Iron
+EvtFlags	0x484	TRAINER BATTLE	Route 12		Jr. Trainer♂ (Justin)
+-	0	_SEPARATOR			
+EvtFlags	0x495	TRAINER BATTLE	Route 13		Jr. Trainer♀ (Alma)
 EvtFlags	0x491	TRAINER BATTLE	Route 13		Bird Keeper (Sebastian)
 EvtFlags	0x492	TRAINER BATTLE	Route 13		Jr. Trainer♀ (Susie)
-EvtFlags	0x493	TRAINER BATTLE	Route 13		Jr. Trainer♀ (Valerie)
-EvtFlags	0x494	TRAINER BATTLE	Route 13		Jr. Trainer♀ (Gwen)
-EvtFlags	0x495	TRAINER BATTLE	Route 13		Jr. Trainer♀ (Alma)
-EvtFlags	0x496	TRAINER BATTLE	Route 13		Bird Keeper (Perry)
 EvtFlags	0x497	TRAINER BATTLE	Route 13		Beauty (Lola)
 EvtFlags	0x498	TRAINER BATTLE	Route 13		Beauty (Sheila)
-EvtFlags	0x499	TRAINER BATTLE	Route 13		Biker (Jared)
+EvtFlags	0x493	TRAINER BATTLE	Route 13		Jr. Trainer♀ (Valerie)
+HI-Flags	0x0E	HIDDEN ITEM	Route 13		Calcium
+EvtFlags	0x494	TRAINER BATTLE	Route 13		Jr. Trainer♀ (Gwen)
 EvtFlags	0x49A	TRAINER BATTLE	Route 13		Bird Keeper (Robert)
+HI-Flags	0x0D	HIDDEN ITEM	Route 13		PP Up
+EvtFlags	0x496	TRAINER BATTLE	Route 13		Bird Keeper (Perry)
+EvtFlags	0x499	TRAINER BATTLE	Route 13		Biker (Jared)
+-	0	_SEPARATOR			
 EvtFlags	0x4A1	TRAINER BATTLE	Route 14		Bird Keeper (Carter)
 EvtFlags	0x4A2	TRAINER BATTLE	Route 14		Bird Keeper (Mitch)
 EvtFlags	0x4A3	TRAINER BATTLE	Route 14		Bird Keeper (Beck)
 EvtFlags	0x4A4	TRAINER BATTLE	Route 14		Bird Keeper (Marlon)
-EvtFlags	0x4A5	TRAINER BATTLE	Route 14		Bird Keeper (Donald)
-EvtFlags	0x4A6	TRAINER BATTLE	Route 14		Bird Keeper (Benny)
-EvtFlags	0x4A7	TRAINER BATTLE	Route 14		Biker (Lukas)
-EvtFlags	0x4A8	TRAINER BATTLE	Route 14		Biker (Isaac)
 EvtFlags	0x4A9	TRAINER BATTLE	Route 14		Biker (Gerald)
+EvtFlags	0x4A5	TRAINER BATTLE	Route 14		Bird Keeper (Donald)
+EvtFlags	0x4A7	TRAINER BATTLE	Route 14		Biker (Lukas)
 EvtFlags	0x4AA	TRAINER BATTLE	Route 14		Biker (Malik)
+EvtFlags	0x4A8	TRAINER BATTLE	Route 14		Biker (Isaac)
+EvtFlags	0x4A6	TRAINER BATTLE	Route 14		Bird Keeper (Benny)
+-	0	_SEPARATOR			
+EvtFlags	0x4B9	TRAINER BATTLE	Route 15		Jr. Trainer♀ (Celia)
 HS-Flags	0x20	FIELD ITEM	Route 15		TM20 (Rage)
-EvtFlags	0x4B0	ITEM GIFT	Route 15	Gate	Exp. All from Oak's Aide
-EvtFlags	0x4B1	TRAINER BATTLE	Route 15		Jr. Trainer♀ (Kindra)
 EvtFlags	0x4B2	TRAINER BATTLE	Route 15		Jr. Trainer♀ (Becky)
-EvtFlags	0x4B3	TRAINER BATTLE	Route 15		Bird Keeper (Edwin)
-EvtFlags	0x4B4	TRAINER BATTLE	Route 15		Bird Keeper (Chester)
 EvtFlags	0x4B5	TRAINER BATTLE	Route 15		Beauty (Grace)
-EvtFlags	0x4B6	TRAINER BATTLE	Route 15		Beauty (Olivia)
 EvtFlags	0x4B7	TRAINER BATTLE	Route 15		Biker (Ernest)
 EvtFlags	0x4B8	TRAINER BATTLE	Route 15		Biker (Alex)
-EvtFlags	0x4B9	TRAINER BATTLE	Route 15		Jr. Trainer♀ (Celia)
+EvtFlags	0x4B6	TRAINER BATTLE	Route 15		Beauty (Olivia)
+EvtFlags	0x4B1	TRAINER BATTLE	Route 15		Jr. Trainer♀ (Kindra)
+EvtFlags	0x4B4	TRAINER BATTLE	Route 15		Bird Keeper (Chester)
+EvtFlags	0x4B3	TRAINER BATTLE	Route 15		Bird Keeper (Edwin)
 EvtFlags	0x4BA	TRAINER BATTLE	Route 15		Jr. Trainer♀ (Yazmin)
+EvtFlags	0x4B0	ITEM GIFT	Route 15	Gate	Exp. All from Oak's Aide
+-	0	_SEPARATOR			
+EvtFlags	0x4CE	ITEM GIFT	Route 16	House	HM02 (Fly) from girl
+EvtFlags	0x4C9	STATIC BATTLE	Route 16		Captured/Defeated Snorlax
 EvtFlags	0x4C1	TRAINER BATTLE	Route 16		Biker (Lao)
 EvtFlags	0x4C2	TRAINER BATTLE	Route 16		Cue Ball (Koji)
 EvtFlags	0x4C3	TRAINER BATTLE	Route 16		Cue Ball (Luke)
 EvtFlags	0x4C4	TRAINER BATTLE	Route 16		Biker (Hideo)
 EvtFlags	0x4C5	TRAINER BATTLE	Route 16		Cue Ball (Camron)
 EvtFlags	0x4C6	TRAINER BATTLE	Route 16		Biker (Ruben)
-EvtFlags	0x4C9	STATIC BATTLE	Route 16		Captured/Defeated Snorlax
-EvtFlags	0x4CE	ITEM GIFT	Route 16	House	HM02 (Fly) from girl
-HI-Flags	0x26	HIDDEN ITEM	Route 17		Rare Candy
-HI-Flags	0x27	HIDDEN ITEM	Route 17		Full Restore
-HI-Flags	0x28	HIDDEN ITEM	Route 17		PP Up
-HI-Flags	0x29	HIDDEN ITEM	Route 17		Max Revive
-HI-Flags	0x2A	HIDDEN ITEM	Route 17		Max Elixer
-EvtFlags	0x4D1	TRAINER BATTLE	Route 17		Cue Ball (Raul)
+-	0	_SEPARATOR			
 EvtFlags	0x4D2	TRAINER BATTLE	Route 17		Cue Ball (Isaiah)
+EvtFlags	0x4D1	TRAINER BATTLE	Route 17		Cue Ball (Raul)
+HI-Flags	0x26	HIDDEN ITEM	Route 17		Rare Candy
 EvtFlags	0x4D3	TRAINER BATTLE	Route 17		Biker (Virgil)
 EvtFlags	0x4D4	TRAINER BATTLE	Route 17		Biker (Billy)
+HI-Flags	0x27	HIDDEN ITEM	Route 17		Full Restore
+HI-Flags	0x29	HIDDEN ITEM	Route 17		Max Revive
+EvtFlags	0x4D7	TRAINER BATTLE	Route 17		Cue Ball (Jamal)
+EvtFlags	0x4D9	TRAINER BATTLE	Route 17		Biker (Jaxon)
 EvtFlags	0x4D5	TRAINER BATTLE	Route 17		Biker (Nikolas)
 EvtFlags	0x4D6	TRAINER BATTLE	Route 17		Cue Ball (Zeek)
-EvtFlags	0x4D7	TRAINER BATTLE	Route 17		Cue Ball (Jamal)
+HI-Flags	0x28	HIDDEN ITEM	Route 17		PP Up
 EvtFlags	0x4D8	TRAINER BATTLE	Route 17		Cue Ball (Corey)
-EvtFlags	0x4D9	TRAINER BATTLE	Route 17		Biker (Jaxon)
+HI-Flags	0x2A	HIDDEN ITEM	Route 17		Max Elixer
 EvtFlags	0x4DA	TRAINER BATTLE	Route 17		Biker (William)
-TradeFlags	0x05	IN-GAME TRADE	Route 18	South Gate	Trade Slowbro for MARC (Lickitung)
+-	0	_SEPARATOR			
+TradeFlags	0x05	IN-GAME TRADE	Route 18	South Gate	Trade Slowbro for Lickitung (MARC)
 EvtFlags	0x4E1	TRAINER BATTLE	Route 18		Bird Keeper (Wilton)
-EvtFlags	0x4E2	TRAINER BATTLE	Route 18		Bird Keeper (Ramiro)
 EvtFlags	0x4E3	TRAINER BATTLE	Route 18		Bird Keeper (Jacob)
+EvtFlags	0x4E2	TRAINER BATTLE	Route 18		Bird Keeper (Ramiro)
+-	0	_SEPARATOR			
+FlyFlags	0x07	FLY SPOT	Fuchsia City		Unlock Fuchsia City fly spot
 wd728	0x04	ITEM GIFT	Fuchsia City	House	Good Rod from Fishing Guru
-HS-Flags	0x47	FIELD ITEM	Fuchsia City	Warden's House	Rare Candy
-Badges	0x04	STORY EVENT	Fuchsia City	Gym	Earn the Soul Badge
 EvtFlags	0x238	ITEM GIFT	Fuchsia City	Warden's House	HM04 (Strength) from warden in exchange for his Gold Teeth
-EvtFlags	0x258	ITEM GIFT	Fuchsia City	Gym	TM06 (Toxic) from Koga
-EvtFlags	0x259	TRAINER BATTLE	Fuchsia City	Gym	Leader Koga
+HS-Flags	0x47	FIELD ITEM	Fuchsia City	Warden's House	Rare Candy
+-	0	_SEPARATOR			
+EvtFlags	0x25C	TRAINER BATTLE	Fuchsia City	Gym	Juggler (Nate)
 EvtFlags	0x25A	TRAINER BATTLE	Fuchsia City	Gym	Juggler (Kayden)
 EvtFlags	0x25B	TRAINER BATTLE	Fuchsia City	Gym	Juggler (Kirk)
-EvtFlags	0x25C	TRAINER BATTLE	Fuchsia City	Gym	Juggler (Nate)
-EvtFlags	0x25D	TRAINER BATTLE	Fuchsia City	Gym	Tamer (Phil)
 EvtFlags	0x25E	TRAINER BATTLE	Fuchsia City	Gym	Tamer (Edgar)
+EvtFlags	0x25D	TRAINER BATTLE	Fuchsia City	Gym	Tamer (Phil)
 EvtFlags	0x25F	TRAINER BATTLE	Fuchsia City	Gym	Juggler (Shawn)
-HS-Flags	0xC3	FIELD ITEM	Safari Zone	East	Full Restore
-HS-Flags	0xC4	FIELD ITEM	Safari Zone	East	Max Potion
-HS-Flags	0xC5	FIELD ITEM	Safari Zone	East	Carbos
-HS-Flags	0xC6	FIELD ITEM	Safari Zone	East	TM37 (Egg Bomb)
-HS-Flags	0xC7	FIELD ITEM	Safari Zone	North	Protein
-HS-Flags	0xC8	FIELD ITEM	Safari Zone	North	TM40 (Skull Bash)
-HS-Flags	0xC9	FIELD ITEM	Safari Zone	West	Max Potion
-HS-Flags	0xCA	FIELD ITEM	Safari Zone	West	TM32 (Double Team)
-HS-Flags	0xCB	FIELD ITEM	Safari Zone	West	Max Revive
-HS-Flags	0xCC	FIELD ITEM	Safari Zone	West	Gold Teeth
+EvtFlags	0x259	TRAINER BATTLE	Fuchsia City	Gym	Leader Koga
+Badges	0x04	STORY EVENT	Fuchsia City	Gym	Earn the Soul Badge
+EvtFlags	0x258	ITEM GIFT	Fuchsia City	Gym	TM06 (Toxic) from Koga
+-	0	_SEPARATOR			
 HS-Flags	0xCD	FIELD ITEM	Safari Zone	Center	Nugget
+HS-Flags	0xC5	FIELD ITEM	Safari Zone	East	Carbos
+HS-Flags	0xC4	FIELD ITEM	Safari Zone	East	Max Potion
+HS-Flags	0xC6	FIELD ITEM	Safari Zone	East	TM37 (Egg Bomb)
+HS-Flags	0xC3	FIELD ITEM	Safari Zone	East	Full Restore
+HS-Flags	0xC8	FIELD ITEM	Safari Zone	North	TM40 (Skull Bash)
+HS-Flags	0xC7	FIELD ITEM	Safari Zone	North	Protein
+HS-Flags	0xCC	FIELD ITEM	Safari Zone	West	Gold Teeth
+HS-Flags	0xCA	FIELD ITEM	Safari Zone	West	TM32 (Double Team)
 HI-Flags	0x11	HIDDEN ITEM	Safari Zone	West	Revive
 EvtFlags	0x880	ITEM GIFT	Safari Zone	West	HM03 (Surf) from man in Secret House
-wd72e	0x00	PKMN GIFT	Silph Co.	7F	Lapras from employee
-HS-Flags	0x90	FIELD ITEM	Silph Co.	3F	Hyper Potion
-HS-Flags	0x94	FIELD ITEM	Silph Co.	4F	Full Heal
-HS-Flags	0x95	FIELD ITEM	Silph Co.	4F	Max Revive
-HS-Flags	0x96	FIELD ITEM	Silph Co.	4F	Escape Rope
-HS-Flags	0x9B	FIELD ITEM	Silph Co.	5F	TM09 (Take Down)
-HS-Flags	0x9C	FIELD ITEM	Silph Co.	5F	Protein
-HS-Flags	0x9D	FIELD ITEM	Silph Co.	5F	Card Key
-HS-Flags	0xA1	FIELD ITEM	Silph Co.	6F	HP Up
-HS-Flags	0xA2	FIELD ITEM	Silph Co.	6F	X Accuracy
-HS-Flags	0xA8	FIELD ITEM	Silph Co.	7F	Calcium
-HS-Flags	0xA9	FIELD ITEM	Silph Co.	7F	TM03 (Swords Dance)
-HS-Flags	0xB4	FIELD ITEM	Silph Co.	10F	TM26 (Earthquake)
-HS-Flags	0xB5	FIELD ITEM	Silph Co.	10F	Rare Candy
-HS-Flags	0xB6	FIELD ITEM	Silph Co.	10F	Carbos
-HI-Flags	0x12	HIDDEN ITEM	Silph Co.	5F	Elixer
-HI-Flags	0x13	HIDDEN ITEM	Silph Co.	9F	Max Potion
-EvtFlags	0x6F2	TRAINER BATTLE	Silph Co.	2F	[Missable] Scientist (Connor)
+HS-Flags	0xC9	FIELD ITEM	Safari Zone	West	Max Potion
+HS-Flags	0xCB	FIELD ITEM	Safari Zone	West	Max Revive
+-	0	_SEPARATOR			
+FlyFlags	0x0A	FLY SPOT	Saffron City		Unlock Saffron City fly spot
+EvtFlags	0x6F5	TRAINER BATTLE	Silph Co.	2F	[Missable] Team Rocket Grunt
 EvtFlags	0x6F3	TRAINER BATTLE	Silph Co.	2F	[Missable] Scientist (Jerry)
 EvtFlags	0x6F4	TRAINER BATTLE	Silph Co.	2F	[Missable] Team Rocket Grunt
-EvtFlags	0x6F5	TRAINER BATTLE	Silph Co.	2F	[Missable] Team Rocket Grunt
+EvtFlags	0x6F2	TRAINER BATTLE	Silph Co.	2F	[Missable] Scientist (Connor)
 EvtFlags	0x6FF	ITEM GIFT	Silph Co.	2F	TM36 (Self-Destruct) from woman
 EvtFlags	0x702	TRAINER BATTLE	Silph Co.	3F	Team Rocket Grunt
 EvtFlags	0x703	TRAINER BATTLE	Silph Co.	3F	[Missable] Scientist (Jose)
+HS-Flags	0x90	FIELD ITEM	Silph Co.	3F	Hyper Potion
+EvtFlags	0x714	TRAINER BATTLE	Silph Co.	4F	[Missable] Team Rocket Grunt
 EvtFlags	0x712	TRAINER BATTLE	Silph Co.	4F	[Missable] Team Rocket Grunt
 EvtFlags	0x713	TRAINER BATTLE	Silph Co.	4F	[Missable] Scientist (Rodney)
-EvtFlags	0x714	TRAINER BATTLE	Silph Co.	4F	[Missable] Team Rocket Grunt
-EvtFlags	0x722	TRAINER BATTLE	Silph Co.	5F	[Missable] Team Rocket Grunt
-EvtFlags	0x723	TRAINER BATTLE	Silph Co.	5F	[Missable] Scientist (Beau)
-EvtFlags	0x724	TRAINER BATTLE	Silph Co.	5F	[Missable] Juggler (Dalton)
+HS-Flags	0x94	FIELD ITEM	Silph Co.	4F	Full Heal
+HS-Flags	0x95	FIELD ITEM	Silph Co.	4F	Max Revive
+HS-Flags	0x96	FIELD ITEM	Silph Co.	4F	Escape Rope
 EvtFlags	0x725	TRAINER BATTLE	Silph Co.	5F	[Missable] Team Rocket Grunt
+EvtFlags	0x724	TRAINER BATTLE	Silph Co.	5F	[Missable] Juggler (Dalton)
+HI-Flags	0x12	HIDDEN ITEM	Silph Co.	5F	Elixer
+EvtFlags	0x723	TRAINER BATTLE	Silph Co.	5F	[Missable] Scientist (Beau)
+HS-Flags	0x9C	FIELD ITEM	Silph Co.	5F	Protein
+HS-Flags	0x9B	FIELD ITEM	Silph Co.	5F	TM09 (Take Down)
+EvtFlags	0x722	TRAINER BATTLE	Silph Co.	5F	[Missable] Team Rocket Grunt
+HS-Flags	0x9D	FIELD ITEM	Silph Co.	5F	Card Key
 EvtFlags	0x736	TRAINER BATTLE	Silph Co.	6F	[Missable] Team Rocket Grunt
 EvtFlags	0x737	TRAINER BATTLE	Silph Co.	6F	[Missable] Scientist (Taylor)
+HS-Flags	0xA1	FIELD ITEM	Silph Co.	6F	HP Up
+HS-Flags	0xA2	FIELD ITEM	Silph Co.	6F	X Accuracy
 EvtFlags	0x738	TRAINER BATTLE	Silph Co.	6F	[Missable] Team Rocket Grunt
-EvtFlags	0x740	TRAINER BATTLE	Silph Co.	6F	Rival
+EvtFlags	0x747	TRAINER BATTLE	Silph Co.	7F	[Missable] Team Rocket Grunt
+HS-Flags	0xA9	FIELD ITEM	Silph Co.	7F	TM03 (Swords Dance)
+EvtFlags	0x748	TRAINER BATTLE	Silph Co.	7F	[Missable] Team Rocket Grunt
 EvtFlags	0x745	TRAINER BATTLE	Silph Co.	7F	[Missable] Team Rocket Grunt
 EvtFlags	0x746	TRAINER BATTLE	Silph Co.	7F	[Missable] Scientist (Joshua)
-EvtFlags	0x747	TRAINER BATTLE	Silph Co.	7F	[Missable] Team Rocket Grunt
-EvtFlags	0x748	TRAINER BATTLE	Silph Co.	7F	[Missable] Team Rocket Grunt
+HS-Flags	0xA8	FIELD ITEM	Silph Co.	7F	Calcium
+EvtFlags	0x740	TRAINER BATTLE	Silph Co.	7F	Rival
+wd72e	0x00	PKMN GIFT	Silph Co.	7F	Lapras from employee
 EvtFlags	0x752	TRAINER BATTLE	Silph Co.	8F	[Missable] Team Rocket Grunt
-EvtFlags	0x753	TRAINER BATTLE	Silph Co.	8F	[Missable] Scientist (Parker)
 EvtFlags	0x754	TRAINER BATTLE	Silph Co.	8F	[Missable] Team Rocket Grunt
-EvtFlags	0x762	TRAINER BATTLE	Silph Co.	9F	[Missable] Team Rocket Grunt
+EvtFlags	0x753	TRAINER BATTLE	Silph Co.	8F	[Missable] Scientist (Parker)
 EvtFlags	0x763	TRAINER BATTLE	Silph Co.	9F	[Missable] Scientist (Ed)
 EvtFlags	0x764	TRAINER BATTLE	Silph Co.	9F	[Missable] Team Rocket Grunt
-EvtFlags	0x771	TRAINER BATTLE	Silph Co.	10F	[Missable] Team Rocket Grunt
+HI-Flags	0x13	HIDDEN ITEM	Silph Co.	9F	Max Potion
+EvtFlags	0x762	TRAINER BATTLE	Silph Co.	9F	[Missable] Team Rocket Grunt
 EvtFlags	0x772	TRAINER BATTLE	Silph Co.	10F	[Missable] Scientist (Travis)
-EvtFlags	0x784	TRAINER BATTLE	Silph Co.	11F	Team Rocket Grunt
+EvtFlags	0x771	TRAINER BATTLE	Silph Co.	10F	[Missable] Team Rocket Grunt
+HS-Flags	0xB6	FIELD ITEM	Silph Co.	10F	Carbos
+HS-Flags	0xB5	FIELD ITEM	Silph Co.	10F	Rare Candy
+HS-Flags	0xB4	FIELD ITEM	Silph Co.	10F	TM26 (Earthquake)
 EvtFlags	0x785	TRAINER BATTLE	Silph Co.	11F	[Missable] Team Rocket Grunt
-EvtFlags	0x78D	ITEM GIFT	Silph Co.	11F	Master Ball from Silph Co.'s president
+EvtFlags	0x784	TRAINER BATTLE	Silph Co.	11F	Team Rocket Grunt
 EvtFlags	0x78F	TRAINER BATTLE	Silph Co.	11F	Boss Giovanni
+EvtFlags	0x78D	ITEM GIFT	Silph Co.	11F	Master Ball from Silph Co.'s president
+-	0	_SEPARATOR			
 HI-Flags	0x14	HIDDEN ITEM	Saffron City	Copycat's House	Nugget
-Badges	0x05	STORY EVENT	Saffron City	Gym	Earn the Marsh Badge
 EvtFlags	0x340	ITEM GIFT	Saffron City	Copycat's House	TM31 (Mimic) from Copycat in exchange for a Poké Doll
-EvtFlags	0x350	SIDE EVENT	Saffron City	Dojo	Defeat Karate Master
-EvtFlags	0x351	TRAINER BATTLE	Saffron City	Dojo	Black Belt (Koichi)
-EvtFlags	0x352	TRAINER BATTLE	Saffron City	Dojo	Black Belt (Mike)
+EvtFlags	0x3B0	ITEM GIFT	Saffron City	Mr. Psychic's House	TM29 (Psychic) from Mr. Psychic
+-	0	_SEPARATOR			
+EvtFlags	0x355	TRAINER BATTLE	Saffron City	Dojo	Black Belt (Hitoshi)
 EvtFlags	0x353	TRAINER BATTLE	Saffron City	Dojo	Black Belt (Hideki)
 EvtFlags	0x354	TRAINER BATTLE	Saffron City	Dojo	Black Belt (Aaron)
-EvtFlags	0x355	TRAINER BATTLE	Saffron City	Dojo	Black Belt (Hitoshi)
+EvtFlags	0x352	TRAINER BATTLE	Saffron City	Dojo	Black Belt (Mike)
+EvtFlags	0x351	TRAINER BATTLE	Saffron City	Dojo	Black Belt (Koichi)
+EvtFlags	0x350	SIDE EVENT	Saffron City	Dojo	Defeat Karate Master
 EvtFlagsEX	0x356	PKMN GIFT	Saffron City	Dojo	Hitmonlee / Hitmonchan from the item ball
-EvtFlags	0x360	ITEM GIFT	Saffron City	Gym	TM46 (Psywave) from Sabrina
-EvtFlags	0x361	TRAINER BATTLE	Saffron City	Gym	Leader Sabrina
-EvtFlags	0x362	TRAINER BATTLE	Saffron City	Gym	Channeler (Amanda)
-EvtFlags	0x363	TRAINER BATTLE	Saffron City	Gym	Psychic (Johan)
-EvtFlags	0x364	TRAINER BATTLE	Saffron City	Gym	Channeler (Stacy)
-EvtFlags	0x365	TRAINER BATTLE	Saffron City	Gym	Psychic (Tyron)
-EvtFlags	0x366	TRAINER BATTLE	Saffron City	Gym	Channeler (Tasha)
+-	0	_SEPARATOR			
 EvtFlags	0x367	TRAINER BATTLE	Saffron City	Gym	Psychic (Cameron)
+EvtFlags	0x365	TRAINER BATTLE	Saffron City	Gym	Psychic (Tyron)
+EvtFlags	0x364	TRAINER BATTLE	Saffron City	Gym	Channeler (Stacy)
 EvtFlags	0x368	TRAINER BATTLE	Saffron City	Gym	Psychic (Preston)
-EvtFlags	0x3B0	ITEM GIFT	Saffron City	Mr. Psychic's House	TM29 (Psychic) from Mr. Psychic
+EvtFlags	0x362	TRAINER BATTLE	Saffron City	Gym	Channeler (Amanda)
+EvtFlags	0x366	TRAINER BATTLE	Saffron City	Gym	Channeler (Tasha)
+EvtFlags	0x363	TRAINER BATTLE	Saffron City	Gym	Psychic (Johan)
+EvtFlags	0x361	TRAINER BATTLE	Saffron City	Gym	Leader Sabrina
+Badges	0x05	STORY EVENT	Saffron City	Gym	Earn the Marsh Badge
+EvtFlags	0x360	ITEM GIFT	Saffron City	Gym	TM46 (Psywave) from Sabrina
+-	0	_SEPARATOR			
 EvtFlags	0x4F1	TRAINER BATTLE	Route 19		Swimmer (Richard)
 EvtFlags	0x4F2	TRAINER BATTLE	Route 19		Swimmer (Reece)
+EvtFlags	0x4F6	TRAINER BATTLE	Route 19		Swimmer (Tony)
 EvtFlags	0x4F3	TRAINER BATTLE	Route 19		Swimmer (Matthew)
 EvtFlags	0x4F4	TRAINER BATTLE	Route 19		Swimmer (Douglas)
 EvtFlags	0x4F5	TRAINER BATTLE	Route 19		Swimmer (David)
-EvtFlags	0x4F6	TRAINER BATTLE	Route 19		Swimmer (Tony)
-EvtFlags	0x4F7	TRAINER BATTLE	Route 19		Beauty (Anya)
-EvtFlags	0x4F8	TRAINER BATTLE	Route 19		Beauty (Alice)
 EvtFlags	0x4F9	TRAINER BATTLE	Route 19		Swimmer (Axle)
+EvtFlags	0x4F8	TRAINER BATTLE	Route 19		Beauty (Alice)
+EvtFlags	0x4F7	TRAINER BATTLE	Route 19		Beauty (Anya)
 EvtFlags	0x4FA	TRAINER BATTLE	Route 19		Beauty (Connie)
+-	0	_SEPARATOR			
 EvtFlags	0x501	TRAINER BATTLE	Route 20		Swimmer (Barry)
+EvtFlags	0x506	TRAINER BATTLE	Route 20		Swimmer (Darrin)
 EvtFlags	0x502	TRAINER BATTLE	Route 20		Beauty (Shirley)
 EvtFlags	0x503	TRAINER BATTLE	Route 20		Beauty (Tiffany)
 EvtFlags	0x504	TRAINER BATTLE	Route 20		Jr. Trainer♀ (Irene)
 EvtFlags	0x505	TRAINER BATTLE	Route 20		Swimmer (Dean)
-EvtFlags	0x506	TRAINER BATTLE	Route 20		Swimmer (Darrin)
 EvtFlags	0x507	TRAINER BATTLE	Route 20		Bird Keeper (Roger)
 EvtFlags	0x508	TRAINER BATTLE	Route 20		Beauty (Nora)
 EvtFlags	0x509	TRAINER BATTLE	Route 20		Jr. Trainer♀ (Missy)
 EvtFlags	0x50A	TRAINER BATTLE	Route 20		Beauty (Melissa)
+-	0	_SEPARATOR			
 HI-Flags	0x19	HIDDEN ITEM	Seafoam Islands	B2F	Nugget
-HI-Flags	0x1A	HIDDEN ITEM	Seafoam Islands	B4F	Ultra Ball
 HI-Flags	0x32	HIDDEN ITEM	Seafoam Islands	B3F	Max Elixer
+HI-Flags	0x1A	HIDDEN ITEM	Seafoam Islands	B4F	Ultra Ball
 EvtFlags	0x9DA	STATIC BATTLE	Seafoam Islands	B4F	Captured/Defeated Articuno
-TradeFlags	0x03	IN-GAME TRADE	Cinnabar Island	Pokémon Lab	Trade Ponyta for SAILOR (Seel)
-TradeFlags	0x07	IN-GAME TRADE	Cinnabar Island	Pokémon Lab	Trade Raichu for DORIS (Electrode)
-TradeFlags	0x08	IN-GAME TRADE	Cinnabar Island	Pokémon Lab	Trade Venonat for CRINKLES (Tangela)
+-	0	_SEPARATOR			
+FlyFlags	0x08	FLY SPOT	Cinnabar Island		Unlock Cinnabar Island fly spot
 EvtFlags	0x2D7	ITEM GIFT	Cinnabar Island	Pokémon Lab	TM35 (Metronome) from scientist
+TradeFlags	0x03	IN-GAME TRADE	Cinnabar Island	Pokémon Lab	Trade Ponyta for Seel (SAILOR)
+TradeFlags	0x07	IN-GAME TRADE	Cinnabar Island	Pokémon Lab	Trade Raichu for Electrode (DORIS)
+TradeFlags	0x08	IN-GAME TRADE	Cinnabar Island	Pokémon Lab	Trade Venonat for Tangela (CRINKLES)
+-	0	_SEPARATOR			
+HI-Flags	0x1B	HIDDEN ITEM	Pokémon Mansion	1F	Moon Stone
 HS-Flags	0x48	FIELD ITEM	Pokémon Mansion	1F	Escape Rope
+EvtFlags	0x289	TRAINER BATTLE	Pokémon Mansion	1F	Scientist (Ted)
 HS-Flags	0x49	FIELD ITEM	Pokémon Mansion	1F	Carbos
+EvtFlags	0x801	TRAINER BATTLE	Pokémon Mansion	2F	Burglar (Arnie)
 HS-Flags	0xBB	FIELD ITEM	Pokémon Mansion	2F	Calcium
+EvtFlags	0x811	TRAINER BATTLE	Pokémon Mansion	3F	Burglar (Simon)
+HI-Flags	0x1C	HIDDEN ITEM	Pokémon Mansion	3F	Max Revive
 HS-Flags	0xBC	FIELD ITEM	Pokémon Mansion	3F	Max Potion
 HS-Flags	0xBD	FIELD ITEM	Pokémon Mansion	3F	Iron
-HS-Flags	0xBE	FIELD ITEM	Pokémon Mansion	B1F	Rare Candy
-HS-Flags	0xBF	FIELD ITEM	Pokémon Mansion	B1F	Full Restore
-HS-Flags	0xC0	FIELD ITEM	Pokémon Mansion	B1F	TM14 (Blizzard)
-HS-Flags	0xC1	FIELD ITEM	Pokémon Mansion	B1F	TM22 (Solar Beam)
-HS-Flags	0xC2	FIELD ITEM	Pokémon Mansion	B1F	Secret Key
-HI-Flags	0x0F	HIDDEN ITEM	Pokémon Mansion	B1F	Rare Candy
-HI-Flags	0x1B	HIDDEN ITEM	Pokémon Mansion	1F	Moon Stone
-HI-Flags	0x1C	HIDDEN ITEM	Pokémon Mansion	3F	Max Revive
-EvtFlags	0x289	TRAINER BATTLE	Pokémon Mansion	1F	Scientist (Ted)
-EvtFlags	0x801	TRAINER BATTLE	Pokémon Mansion	2F	Burglar (Arnie)
-EvtFlags	0x811	TRAINER BATTLE	Pokémon Mansion	3F	Burglar (Simon)
 EvtFlags	0x812	TRAINER BATTLE	Pokémon Mansion	3F	Scientist (Braydon)
+HS-Flags	0xBF	FIELD ITEM	Pokémon Mansion	B1F	Full Restore
 EvtFlags	0x821	TRAINER BATTLE	Pokémon Mansion	B1F	Burglar (Lewis)
+HS-Flags	0xC0	FIELD ITEM	Pokémon Mansion	B1F	TM14 (Blizzard)
 EvtFlags	0x822	TRAINER BATTLE	Pokémon Mansion	B1F	Scientist (Ivan)
-Badges	0x06	STORY EVENT	Cinnabar Island	Gym	Earn the Volcano Badge
-EvtFlags	0x298	ITEM GIFT	Cinnabar Island	Gym	TM38 (Fire Blast) from Blaine
-EvtFlags	0x299	TRAINER BATTLE	Cinnabar Island	Gym	Leader Blaine
-EvtFlags	0x29A	TRAINER BATTLE	Cinnabar Island	Gym	Super Nerd (Erik)
+HS-Flags	0xBE	FIELD ITEM	Pokémon Mansion	B1F	Rare Candy
+HS-Flags	0xC1	FIELD ITEM	Pokémon Mansion	B1F	TM22 (Solar Beam)
+HI-Flags	0x0F	HIDDEN ITEM	Pokémon Mansion	B1F	Rare Candy
+HS-Flags	0xC2	FIELD ITEM	Pokémon Mansion	B1F	Secret Key
+-	0	_SEPARATOR			
 EvtFlags	0x29B	TRAINER BATTLE	Cinnabar Island	Gym	Burglar (Quinn)
+EvtFlags	0x29A	TRAINER BATTLE	Cinnabar Island	Gym	Super Nerd (Erik)
 EvtFlags	0x29C	TRAINER BATTLE	Cinnabar Island	Gym	Super Nerd (Avery)
 EvtFlags	0x29D	TRAINER BATTLE	Cinnabar Island	Gym	Burglar (Ramon)
 EvtFlags	0x29E	TRAINER BATTLE	Cinnabar Island	Gym	Super Nerd (Derek)
 EvtFlags	0x29F	TRAINER BATTLE	Cinnabar Island	Gym	Burglar (Dusty)
 EvtFlags	0x2A0	TRAINER BATTLE	Cinnabar Island	Gym	Super Nerd (Zac)
-EvtFlags	0x511	TRAINER BATTLE	Route 21		Fisherman (Ronald)
-EvtFlags	0x512	TRAINER BATTLE	Route 21		Fisherman (Wade)
-EvtFlags	0x513	TRAINER BATTLE	Route 21		Swimmer (Spencer)
-EvtFlags	0x514	TRAINER BATTLE	Route 21		Cue Ball (Martin)
-EvtFlags	0x515	TRAINER BATTLE	Route 21		Swimmer (Jack)
+EvtFlags	0x299	TRAINER BATTLE	Cinnabar Island	Gym	Leader Blaine
+Badges	0x06	STORY EVENT	Cinnabar Island	Gym	Earn the Volcano Badge
+EvtFlags	0x298	ITEM GIFT	Cinnabar Island	Gym	TM38 (Fire Blast) from Blaine
+-	0	_SEPARATOR			
 EvtFlags	0x516	TRAINER BATTLE	Route 21		Swimmer (Jerome)
 EvtFlags	0x517	TRAINER BATTLE	Route 21		Swimmer (Roland)
-EvtFlags	0x518	TRAINER BATTLE	Route 21		Fisherman (Claude)
+EvtFlags	0x515	TRAINER BATTLE	Route 21		Swimmer (Jack)
 EvtFlags	0x519	TRAINER BATTLE	Route 21		Fisherman (Nolan)
+EvtFlags	0x518	TRAINER BATTLE	Route 21		Fisherman (Claude)
+EvtFlags	0x513	TRAINER BATTLE	Route 21		Swimmer (Spencer)
+EvtFlags	0x514	TRAINER BATTLE	Route 21		Cue Ball (Martin)
+EvtFlags	0x511	TRAINER BATTLE	Route 21		Fisherman (Ronald)
+EvtFlags	0x512	TRAINER BATTLE	Route 21		Fisherman (Wade)
+-	0	_SEPARATOR			
 HS-Flags	0x33	FIELD ITEM	Viridian City	Gym	Revive
+EvtFlags	0x058	TRAINER BATTLE	Viridian City	Gym	Tamer (Cole)
+EvtFlags	0x055	TRAINER BATTLE	Viridian City	Gym	Black Belt (Kiyo)
+EvtFlags	0x059	TRAINER BATTLE	Viridian City	Gym	Cooltrainer♂ (Samuel)
 EvtFlags	0x052	TRAINER BATTLE	Viridian City	Gym	Cooltrainer♂ (Yuji)
 EvtFlags	0x053	TRAINER BATTLE	Viridian City	Gym	Black Belt (Atsushi)
 EvtFlags	0x054	TRAINER BATTLE	Viridian City	Gym	Tamer (Jason)
-EvtFlags	0x055	TRAINER BATTLE	Viridian City	Gym	Black Belt (Kiyo)
 EvtFlags	0x056	TRAINER BATTLE	Viridian City	Gym	Cooltrainer♂ (Warren)
 EvtFlags	0x057	TRAINER BATTLE	Viridian City	Gym	Black Belt (Takashi)
-EvtFlags	0x058	TRAINER BATTLE	Viridian City	Gym	Tamer (Cole)
-EvtFlags	0x059	TRAINER BATTLE	Viridian City	Gym	Cooltrainer♂ (Samuel)
 EvtFlags	0x051	TRAINER BATTLE	Viridian City	Gym	Leader Giovanni
 Badges	0x07	STORY EVENT	Viridian City	Gym	Earn the Earth Badge
 EvtFlags	0x050	ITEM GIFT	Viridian City	Gym	TM27 (Fissure) from Giovanni
+-	0	_SEPARATOR			
 EvtFlags	0x526	TRAINER BATTLE	Route 22		Rival (8 Badges Battle)
-HI-Flags	0x1D	HIDDEN ITEM	Route 23		Full Restore
-HI-Flags	0x1E	HIDDEN ITEM	Route 23		Ultra Ball
+-	0	_SEPARATOR			
 HI-Flags	0x1F	HIDDEN ITEM	Route 23		Max Ether
-HS-Flags	0x5C	FIELD ITEM	Victory Road	2F	TM17 (Submission)
-HS-Flags	0x5D	FIELD ITEM	Victory Road	2F	Full Heal
-HS-Flags	0x5E	FIELD ITEM	Victory Road	2F	TM05 (Mega Kick)
-HS-Flags	0x5F	FIELD ITEM	Victory Road	2F	Guard Spec.
-HS-Flags	0x78	FIELD ITEM	Victory Road	3F	Max Revive
-HS-Flags	0x79	FIELD ITEM	Victory Road	3F	TM47 (Explosion)
+HI-Flags	0x1E	HIDDEN ITEM	Route 23		Ultra Ball
+HI-Flags	0x1D	HIDDEN ITEM	Route 23		Full Restore
+-	0	_SEPARATOR			
 HS-Flags	0xD4	FIELD ITEM	Victory Road	1F	TM43 (Sky Attack)
 HS-Flags	0xD5	FIELD ITEM	Victory Road	1F	Rare Candy
-HI-Flags	0x20	HIDDEN ITEM	Victory Road	2F	Ultra Ball
-HI-Flags	0x21	HIDDEN ITEM	Victory Road	2F	Full Restore
-EvtFlags	0x539	TRAINER BATTLE	Victory Road	2F	Black Belt (Daisuke)
-EvtFlags	0x53A	TRAINER BATTLE	Victory Road	2F	Juggler (Nelson)
-EvtFlags	0x53B	TRAINER BATTLE	Victory Road	2F	Tamer (Vincent)
-EvtFlags	0x53C	TRAINER BATTLE	Victory Road	2F	PokéManiac (Dawson)
-EvtFlags	0x53D	TRAINER BATTLE	Victory Road	2F	Juggler (Gregory)
-EvtFlags	0x53E	STATIC BATTLE	Victory Road	2F	Captured/Defeated Moltres
-EvtFlags	0x661	TRAINER BATTLE	Victory Road	3F	Cooltrainer♂ (George)
-EvtFlags	0x662	TRAINER BATTLE	Victory Road	3F	Cooltrainer♀ (Caroline)
-EvtFlags	0x663	TRAINER BATTLE	Victory Road	3F	Cooltrainer♂ (Colby)
-EvtFlags	0x664	TRAINER BATTLE	Victory Road	3F	Cooltrainer♀ (Alexa)
 EvtFlags	0x911	TRAINER BATTLE	Victory Road	1F	Cooltrainer♀ (Naomi)
 EvtFlags	0x912	TRAINER BATTLE	Victory Road	1F	Cooltrainer♂ (Rolando)
+EvtFlags	0x539	TRAINER BATTLE	Victory Road	2F	Black Belt (Daisuke)
+HS-Flags	0x5E	FIELD ITEM	Victory Road	2F	TM05 (Mega Kick)
+EvtFlags	0x53A	TRAINER BATTLE	Victory Road	2F	Juggler (Nelson)
+EvtFlags	0x53B	TRAINER BATTLE	Victory Road	2F	Tamer (Vincent)
+HS-Flags	0x5D	FIELD ITEM	Victory Road	2F	Full Heal
+EvtFlags	0x53D	TRAINER BATTLE	Victory Road	2F	Juggler (Gregory)
+HS-Flags	0x5C	FIELD ITEM	Victory Road	2F	TM17 (Submission)
+EvtFlags	0x53C	TRAINER BATTLE	Victory Road	2F	PokéManiac (Dawson)
+HI-Flags	0x20	HIDDEN ITEM	Victory Road	2F	Ultra Ball
+HS-Flags	0x5F	FIELD ITEM	Victory Road	2F	Guard Spec.
+EvtFlags	0x53E	STATIC BATTLE	Victory Road	2F	Captured/Defeated Moltres
+HI-Flags	0x21	HIDDEN ITEM	Victory Road	2F	Full Restore
+EvtFlags	0x661	TRAINER BATTLE	Victory Road	3F	Cooltrainer♂ (George)
+HS-Flags	0x79	FIELD ITEM	Victory Road	3F	TM47 (Explosion)
+EvtFlags	0x662	TRAINER BATTLE	Victory Road	3F	Cooltrainer♀ (Caroline)
+HS-Flags	0x78	FIELD ITEM	Victory Road	3F	Max Revive
+EvtFlags	0x663	TRAINER BATTLE	Victory Road	3F	Cooltrainer♂ (Colby)
+EvtFlags	0x664	TRAINER BATTLE	Victory Road	3F	Cooltrainer♀ (Alexa)
+-	0	_SEPARATOR			
+EvtFlags	0x451	TRAINER BATTLE	Route 10		PokéManiac (Mark)
 HS-Flags	0x56	FIELD ITEM	Power Plant		Carbos
-HS-Flags	0x57	FIELD ITEM	Power Plant		HP Up
-HS-Flags	0x58	FIELD ITEM	Power Plant		Rare Candy
-HS-Flags	0x59	FIELD ITEM	Power Plant		TM25 (Thunder)
-HS-Flags	0x5A	FIELD ITEM	Power Plant		TM33 (Reflect)
-HI-Flags	0x17	HIDDEN ITEM	Power Plant		Max Elixer
-HI-Flags	0x18	HIDDEN ITEM	Power Plant		PP Up
 EvtFlags	0x461	STATIC BATTLE	Power Plant		Captured/Defeated Voltorb
 EvtFlags	0x462	STATIC BATTLE	Power Plant		Captured/Defeated Voltorb
-EvtFlags	0x463	STATIC BATTLE	Power Plant		Captured/Defeated Voltorb
 EvtFlags	0x464	STATIC BATTLE	Power Plant		Captured/Defeated Electrode
+HI-Flags	0x17	HIDDEN ITEM	Power Plant		Max Elixer
+HS-Flags	0x5A	FIELD ITEM	Power Plant		TM33 (Reflect)
 EvtFlags	0x465	STATIC BATTLE	Power Plant		Captured/Defeated Voltorb
+EvtFlags	0x463	STATIC BATTLE	Power Plant		Captured/Defeated Voltorb
 EvtFlags	0x466	STATIC BATTLE	Power Plant		Captured/Defeated Voltorb
-EvtFlags	0x467	STATIC BATTLE	Power Plant		Captured/Defeated Electrode
+HS-Flags	0x59	FIELD ITEM	Power Plant		TM25 (Thunder)
 EvtFlags	0x468	STATIC BATTLE	Power Plant		Captured/Defeated Voltorb
+HS-Flags	0x58	FIELD ITEM	Power Plant		Rare Candy
+HS-Flags	0x57	FIELD ITEM	Power Plant		HP Up
+EvtFlags	0x467	STATIC BATTLE	Power Plant		Captured/Defeated Electrode
+HI-Flags	0x18	HIDDEN ITEM	Power Plant		PP Up
 EvtFlags	0x469	STATIC BATTLE	Power Plant		Captured/Defeated Zapdos
+-	0	_SEPARATOR			
+FlyFlags	0x09	FLY SPOT	Indigo Plateau		Unlock Indigo Plateau fly spot
 HS-Flags	0x08	STORY EVENT	Indigo Plateau		Become Pokémon League Champion and finish main story
-HS-Flags	0x35	FIELD ITEM	Cerulean Cave	1F	Full Restore
+-	0	_SEPARATOR			
 HS-Flags	0x36	FIELD ITEM	Cerulean Cave	1F	Max Elixer
 HS-Flags	0x37	FIELD ITEM	Cerulean Cave	1F	Nugget
-HS-Flags	0xCE	FIELD ITEM	Cerulean Cave	2F	PP Up
-HS-Flags	0xCF	FIELD ITEM	Cerulean Cave	2F	Ultra Ball
-HS-Flags	0xD0	FIELD ITEM	Cerulean Cave	2F	Full Restore
-HS-Flags	0xD2	FIELD ITEM	Cerulean Cave	B1F	Ultra Ball
-HS-Flags	0xD3	FIELD ITEM	Cerulean Cave	B1F	Max Revive
+HS-Flags	0x35	FIELD ITEM	Cerulean Cave	1F	Full Restore
 HI-Flags	0x15	HIDDEN ITEM	Cerulean Cave	1F	Rare Candy
+HS-Flags	0xCE	FIELD ITEM	Cerulean Cave	2F	PP Up
+HS-Flags	0xD0	FIELD ITEM	Cerulean Cave	2F	Full Restore
+HS-Flags	0xCF	FIELD ITEM	Cerulean Cave	2F	Ultra Ball
+HS-Flags	0xD3	FIELD ITEM	Cerulean Cave	B1F	Max Revive
+HS-Flags	0xD2	FIELD ITEM	Cerulean Cave	B1F	Ultra Ball
 HI-Flags	0x16	HIDDEN ITEM	Cerulean Cave	B1F	Ultra Ball
 EvtFlags	0x8C1	STATIC BATTLE	Cerulean Cave	B1F	Captured/Defeated Mewtwo
 -	0	_SEPARATOR			
