@@ -8,6 +8,8 @@ It is really easy to miss a hidden item, or a partially covered field item, or e
 This plugin will report any of the above, so you can properly look for it.  
 For completionists, this may give you that satisfaction that you have explored and gathered all 100% of what the game provides you to acquire.
 
+If you need to edit the event flags, you can use the companion plugin [FlagsEditorEX](https://github.com/fattard/FlagsEditorEXPlugin).
+
 ## Actions
 
 ### Export full Checklist
