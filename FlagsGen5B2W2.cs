@@ -9,7 +9,7 @@ namespace MissingEventFlagsCheckerPlugin
 {
     internal class FlagsGen5B2W2 : FlagsOrganizer
     {
-        static string s_flagsList_res = null;
+        static string s_chkdb_res = null;
 
         protected override void InitEventFlagsData(SaveFile savFile)
         {
@@ -17,32 +17,18 @@ namespace MissingEventFlagsCheckerPlugin
 
 #if DEBUG
             // Force refresh
-            s_flagsList_res = null;
+            s_chkdb_res = null;
 #endif
 
-            if (s_flagsList_res == null)
+            if (s_chkdb_res == null)
             {
-                s_flagsList_res = ReadResFile("flags_gen5b2w2.txt");
+                s_chkdb_res = ReadResFile("chkdb_gen5b2w2.txt");
             }
 
-            int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
-            int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
+            m_flagsSourceInfo["0"] = 0;
+            m_flagsSourceInfo["-"] = -1;
 
-
-            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection));
-            AssembleWorkList<ushort>(s_flagsList_res.Substring(idxEventWorkSection));
-
-            //TEMP
-            m_eventsChecklist.Clear();
-            foreach (var flagDetail in m_eventFlagsList)
-            {
-                if (ShouldExportEvent(flagDetail))
-                {
-                    var evtDetail = new EventDetail(flagDetail);
-                    evtDetail.IsDone = IsEvtSet(evtDetail);
-                    m_eventsChecklist.Add(evtDetail);
-                }
-            }
+            ParseChecklist(s_chkdb_res);
         }
 
         public override bool SupportsEditingFlag(EventFlagType flagType)

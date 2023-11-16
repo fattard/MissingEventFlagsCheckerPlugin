@@ -9,7 +9,7 @@ namespace MissingEventFlagsCheckerPlugin
 {
     internal class FlagsGen7bGPGE : FlagsOrganizer
     {
-        static string s_flagsList_res = null;
+        static string s_chkdb_res = null;
 
         EventWork7b m_eventWorkData;
 
@@ -20,36 +20,18 @@ namespace MissingEventFlagsCheckerPlugin
 
 #if DEBUG
             // Force refresh
-            s_flagsList_res = null;
+            s_chkdb_res = null;
 #endif
 
-            if (s_flagsList_res == null)
+            if (s_chkdb_res == null)
             {
-                s_flagsList_res = ReadResFile("flags_gen7blgpe.txt");
+                s_chkdb_res = ReadResFile("chkdb_gen7blgpe.txt");
             }
 
-            AssembleList(s_flagsList_res);
+            m_flagsSourceInfo["0"] = 0;
+            m_flagsSourceInfo["-"] = -1;
 
-            // AssembleWorkList<int>
-            m_eventWorkList.Clear();
-            for (uint i = 0; i < m_eventWorkData.CountWork; i++)
-            {
-                var workDetail = new WorkDetail(i, EventFlagType._Unknown, "");
-                workDetail.Value = Convert.ToInt64(m_eventWorkData.GetWork((int)workDetail.WorkIdx));
-                m_eventWorkList.Add(workDetail);
-            }
-
-            //TEMP
-            m_eventsChecklist.Clear();
-            foreach (var flagDetail in m_eventFlagsList)
-            {
-                if (ShouldExportEvent(flagDetail))
-                {
-                    var evtDetail = new EventDetail(flagDetail);
-                    evtDetail.IsDone = IsEvtSet(evtDetail);
-                    m_eventsChecklist.Add(evtDetail);
-                }
-            }
+            ParseChecklist(s_chkdb_res);
         }
 
         public override bool SupportsEditingFlag(EventFlagType flagType)
@@ -106,7 +88,7 @@ namespace MissingEventFlagsCheckerPlugin
                         shouldInclude = false;
                         break;
                 }
-                
+
                 return shouldInclude;
             }
             else

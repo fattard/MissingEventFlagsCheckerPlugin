@@ -9,7 +9,7 @@ namespace MissingEventFlagsCheckerPlugin
 {
     internal class FlagsGen8bsBDSP : FlagsOrganizer
     {
-        static string s_flagsList_res = null;
+        static string s_chkdb_res = null;
 
         BattleTrainerStatus8b m_battleTrainerStatus;
         FlagWork8b m_flagWork;
@@ -26,50 +26,20 @@ namespace MissingEventFlagsCheckerPlugin
 
 #if DEBUG
             // Force refresh
-            s_flagsList_res = null;
+            s_chkdb_res = null;
 #endif
 
-            if (s_flagsList_res == null)
+            if (s_chkdb_res == null)
             {
-                s_flagsList_res = ReadResFile("flags_gen8bsbdsp.txt");
+                s_chkdb_res = ReadResFile("chkdb_gen8bsbdsp.txt");
             }
 
-            int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
-            int idxSysFlagsSection = s_flagsList_res.IndexOf("//\tSys Flags");
-            int idxTrainerFlagsSection = s_flagsList_res.IndexOf("//\tTrainer Flags");
-            int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
+            m_flagsSourceInfo["EvtFlags"] = Src_EventFlags;
+            m_flagsSourceInfo["SysFlags"] = Src_SysFlags;
+            m_flagsSourceInfo["TRFlags"] = Src_TrainerFlags;
+            m_flagsSourceInfo["-"] = -1;
 
-            var sysFlagsVals = new bool[m_flagWork.CountSystem];
-            for (int i = 0; i < sysFlagsVals.Length; i++)
-            {
-                sysFlagsVals[i] = m_flagWork.GetSystemFlag(i);
-            }
-
-            var battleTrainerVals = new bool[707];
-            for (int i = 0; i < battleTrainerVals.Length; i++)
-            {
-                battleTrainerVals[i] = m_battleTrainerStatus.GetIsWin(i);
-            }
-
-            bool[] eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
-
-            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), Src_EventFlags, eventFlags);
-            AssembleList(s_flagsList_res.Substring(idxSysFlagsSection), Src_SysFlags, sysFlagsVals);
-            AssembleList(s_flagsList_res.Substring(idxTrainerFlagsSection), Src_TrainerFlags, battleTrainerVals);
-
-            AssembleWorkList<int>(s_flagsList_res.Substring(idxEventWorkSection));
-
-            //TEMP
-            m_eventsChecklist.Clear();
-            foreach (var flagDetail in m_eventFlagsList)
-            {
-                if (ShouldExportEvent(flagDetail))
-                {
-                    var evtDetail = new EventDetail(flagDetail);
-                    evtDetail.IsDone = IsEvtSet(evtDetail);
-                    m_eventsChecklist.Add(evtDetail);
-                }
-            }
+            ParseChecklist(s_chkdb_res);
         }
 
         public override bool SupportsEditingFlag(EventFlagType flagType)

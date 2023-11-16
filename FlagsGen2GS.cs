@@ -9,7 +9,7 @@ namespace MissingEventFlagsCheckerPlugin
 {
     internal class FlagsGen2GS : FlagsOrganizer
     {
-        static string s_flagsList_res = null;
+        static string s_chkdb_res = null;
 
         enum FlagOffsets
         {
@@ -20,45 +20,21 @@ namespace MissingEventFlagsCheckerPlugin
         {
             m_savFile = savFile;
 
-            // wTradeFlags
-            bool[] result = new bool[8];
-            for (int i = 0; i < result.Length; i++)
-            {
-                result[i] = m_savFile.GetFlag((int)FlagOffsets.CompletedInGameTradeFlags + (i >> 3), i & 7);
-            }
-            bool[] completedInGameTradeFlags = result;
-
 #if DEBUG
             // Force refresh
-            s_flagsList_res = null;
+            s_chkdb_res = null;
 #endif
 
-            if (s_flagsList_res == null)
+            if (s_chkdb_res == null)
             {
-                s_flagsList_res = ReadResFile("flags_gen2gs.txt");
+                s_chkdb_res = ReadResFile("chkdb_gen2gs.txt");
             }
 
-            int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
-            int idxTradeFlagsSection = s_flagsList_res.IndexOf("//\tTrade Flags");
-            int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
+            m_flagsSourceInfo["0"] = 0;
+            m_flagsSourceInfo["1"] = 1; // Trade flags
+            m_flagsSourceInfo["-"] = -1;
 
-
-            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), 0, (m_savFile as IEventFlagArray).GetEventFlags());
-            AssembleList(s_flagsList_res.Substring(idxTradeFlagsSection), 1, completedInGameTradeFlags);
-
-            AssembleWorkList<byte>(s_flagsList_res.Substring(idxEventWorkSection));
-
-            //TEMP
-            m_eventsChecklist.Clear();
-            foreach (var flagDetail in m_eventFlagsList)
-            {
-                if (ShouldExportEvent(flagDetail))
-                {
-                    var evtDetail = new EventDetail(flagDetail);
-                    evtDetail.IsDone = IsEvtSet(evtDetail);
-                    m_eventsChecklist.Add(evtDetail);
-                }
-            }
+            ParseChecklist(s_chkdb_res);
         }
 
         public override bool SupportsEditingFlag(EventFlagType flagType)

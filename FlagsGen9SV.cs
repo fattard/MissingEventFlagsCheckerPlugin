@@ -9,7 +9,7 @@ namespace MissingEventFlagsCheckerPlugin
 {
     internal class FlagsGen9SV : FlagsOrganizer
     {
-        static string s_flagsList_res = null;
+        static string s_chkdb_res = null;
         Dictionary<ulong, bool> m_blocksStatus;
 
         protected override void InitEventFlagsData(SaveFile savFile)
@@ -19,28 +19,20 @@ namespace MissingEventFlagsCheckerPlugin
 
 #if DEBUG
             // Force refresh
-            s_flagsList_res = null;
+            s_chkdb_res = null;
 #endif
 
-            if (s_flagsList_res == null)
+            if (s_chkdb_res == null)
             {
-                s_flagsList_res = ReadResFile("flags_gen9sv.txt");
+                s_chkdb_res = ReadResFile("chkdb_gen9sv.txt");
             }
 
-            AssembleList(s_flagsList_res);
+            m_flagsSourceInfo["EvtFlags"] = 0;
+            m_flagsSourceInfo["ItemFlags"] = 1;
+            m_flagsSourceInfo["TRFlags"] = 2;
+            m_flagsSourceInfo["-"] = -1;
 
-            //TEMP
-            m_eventsChecklist.Clear();
-            foreach (var flagDetail in m_eventFlagsList)
-            {
-                if (ShouldExportEvent(flagDetail))
-                {
-                    var evtDetail = new EventDetail(flagDetail);
-                    //evtDetail.IsDone = IsEvtSet(evtDetail);
-                    evtDetail.IsDone = flagDetail.IsSet;
-                    m_eventsChecklist.Add(evtDetail);
-                }
-            }
+            ParseChecklist(s_chkdb_res);
         }
 
         protected override void AssembleList(string flagsList_res, bool[] customFlagValues = null)
