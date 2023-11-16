@@ -7,7 +7,7 @@ using PKHeX.Core;
 
 namespace MissingEventFlagsCheckerPlugin
 {
-    internal class FlagsGen8SWSH : FlagsOrganizer
+    internal class FlagsGen8SWSH : EventFlagsOrganizer
     {
         static string s_chkdb_res = null;
 
@@ -29,103 +29,6 @@ namespace MissingEventFlagsCheckerPlugin
             m_flagsSourceInfo["-"] = -1;
 
             ParseChecklist(s_chkdb_res);
-        }
-
-        protected override void AssembleList(string flagsList_res, bool[] customFlagValues = null)
-        {
-            var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
-            m_eventFlagsList.Clear();
-            using (System.IO.StringReader reader = new System.IO.StringReader(flagsList_res))
-            {
-                string s = reader.ReadLine();
-                do
-                {
-                    if (!string.IsNullOrWhiteSpace(s))
-                    {
-                        var flagDetail = new FlagDetail(s);
-                        flagDetail.IsSet = (savEventBlocks.GetBlockSafe((uint)flagDetail.FlagIdx).Type == SCTypeCode.Bool2);
-                        m_eventFlagsList.Add(flagDetail);
-                    }
-
-                    s = reader.ReadLine();
-
-                } while (s != null);
-            }
-        }
-
-        public override bool SupportsEditingFlag(EventFlagType flagType)
-        {
-            switch (flagType)
-            {
-                case EventFlagType.FieldItem:
-                case EventFlagType.HiddenItem:
-                case EventFlagType.TrainerBattle:
-                    return true;
-
-                default:
-                    return false;
-            }
-        }
-
-        public override void MarkFlags(EventFlagType flagType)
-        {
-            ChangeFlagsVal(flagType, value: true);
-        }
-
-        public override void UnmarkFlags(EventFlagType flagType)
-        {
-            ChangeFlagsVal(flagType, value: false);
-        }
-
-        void ChangeFlagsVal(EventFlagType flagType, bool value)
-        {
-            if (SupportsEditingFlag(flagType))
-            {
-                var blocks = (m_savFile as ISCBlockArray).Accessor;
-
-                foreach (var evt in m_eventsChecklist)
-                {
-                    if (evt.EvtTypeVal == flagType)
-                    {
-                        evt.IsDone = value;
-                        blocks.GetBlockSafe((uint)evt.EvtId).ChangeBooleanType(value ? SCTypeCode.Bool2 : SCTypeCode.Bool1);
-                    }
-                }
-            }
-        }
-
-        public override void DumpAllFlags()
-        {
-            StringBuilder sb = new StringBuilder(100 * 1024);
-
-            for (int i = 0; i < m_eventFlagsList.Count; ++i)
-            {
-                sb.AppendFormat("FLAG_0x{0:X8} {1}\t{2}\r\n", m_eventFlagsList[i].FlagIdx, m_eventFlagsList[i].IsSet,
-                    m_eventFlagsList[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : m_eventFlagsList[i].ToString());
-            }
-
-            System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
-        }
-
-        protected override bool ShouldExportEvent(FlagDetail eventDetail)
-        {
-            if (eventDetail.FlagTypeVal == EventFlagType.GeneralEvent)
-            {
-                bool shouldInclude = false;
-
-                switch (eventDetail.FlagIdx)
-                {
-                    default:
-                        shouldInclude = false;
-                        break;
-                }
-
-                return shouldInclude;
-            }
-            else
-            {
-                return base.ShouldExportEvent(eventDetail);
-            }
         }
 
         protected override bool IsEvtSet(EventDetail evtDetail)

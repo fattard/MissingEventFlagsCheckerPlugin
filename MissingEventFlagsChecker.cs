@@ -9,7 +9,6 @@ namespace MissingEventFlagsCheckerPlugin
         public string Name => "Missing Event Flags Checker";
         public string NameExportMissingFlags => "Export only the missing events";
         public string NameExportChecklistFlags => "Export full Checklist";
-        public string NameDumpAllFlags => "Dump all Flags";
         public int Priority => 100; // Loading order, lowest is first.
         public ISaveFileProvider SaveFileEditor { get; private set; } = null;
 
@@ -17,7 +16,6 @@ namespace MissingEventFlagsCheckerPlugin
 
         private ToolStripMenuItem menuEntry_ExportMissingEvents;
         private ToolStripMenuItem menuEntry_ExportChecklist;
-        private ToolStripMenuItem menuEntry_DumpAllFlags;
 
         public void Initialize(params object[] args)
         {
@@ -48,11 +46,6 @@ namespace MissingEventFlagsCheckerPlugin
             menuEntry_ExportMissingEvents.Enabled = false;
             menuEntry_ExportMissingEvents.Click += new EventHandler(ExportMissingEvents_UIEvt);
             ctrl.DropDownItems.Add(menuEntry_ExportMissingEvents);
-
-            menuEntry_DumpAllFlags = new ToolStripMenuItem(NameDumpAllFlags);
-            menuEntry_DumpAllFlags.Enabled = false;
-            menuEntry_DumpAllFlags.Click += new EventHandler(DumpAllFlags_UIEvt);
-            ctrl.DropDownItems.Add(menuEntry_DumpAllFlags);
         }
 
         private void ExportMissingEvents_UIEvt(object sender, EventArgs e)
@@ -79,18 +72,6 @@ namespace MissingEventFlagsCheckerPlugin
             eventsOrganizer.ExportChecklist();
         }
 
-        private void DumpAllFlags_UIEvt(object sender, EventArgs e)
-        {
-            var eventsOrganizer = EventFlagsOrganizer.OrganizeEventFlags(SaveFileEditor.SAV);
-
-            if (eventsOrganizer == null)
-            {
-                throw new FormatException("Unsupported SAV format: " + SaveFileEditor.SAV.Version);
-            }
-
-            eventsOrganizer.DumpAllFlags();
-        }
-
         public void NotifySaveLoaded()
         {
             if (ctrl != null)
@@ -98,7 +79,6 @@ namespace MissingEventFlagsCheckerPlugin
                 ctrl.Enabled = true;
                 menuEntry_ExportMissingEvents.Enabled = true;
                 menuEntry_ExportChecklist.Enabled = true;
-                menuEntry_DumpAllFlags.Enabled = true;
 
                 var savData = SaveFileEditor.SAV;
 
@@ -153,7 +133,7 @@ namespace MissingEventFlagsCheckerPlugin
                         break;
 
 
-                    //TEMP: dump flags only
+                    //TEMP:
                     case GameVersion.PLA:
                         menuEntry_ExportMissingEvents.Enabled = false;
                         menuEntry_ExportChecklist.Enabled = false;
@@ -166,7 +146,5 @@ namespace MissingEventFlagsCheckerPlugin
         {
             return false; // no action taken
         }
-
     }
-
 }

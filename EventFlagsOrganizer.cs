@@ -29,9 +29,6 @@ namespace MissingEventFlagsCheckerPlugin
 
             _Unused,
             _Separator,
-
-            //TODO: remove
-            Gift = ItemGift,
         }
 
         /// <summary>
@@ -97,17 +94,6 @@ namespace MissingEventFlagsCheckerPlugin
             }
 
 
-            public EventDetail(FlagsOrganizer.FlagDetail flagDetail)
-            {
-                EvtSource = flagDetail.SourceIdx;
-                EvtId = flagDetail.AHTB;
-                EvtTypeVal = flagDetail.FlagTypeVal;
-                Location = flagDetail.LocationName;
-                DescTxt = flagDetail.DetailMsg;
-                IsDone = false;
-            }
-
-
             public override string ToString()
             {
                 if (string.IsNullOrEmpty(Location))
@@ -125,10 +111,7 @@ namespace MissingEventFlagsCheckerPlugin
 
         protected SaveFile m_savFile;
 
-        protected List<FlagsOrganizer.FlagDetail> m_eventFlagsList = new List<FlagsOrganizer.FlagDetail>(4096);
-        protected List<FlagsOrganizer.WorkDetail> m_eventWorkList = new List<FlagsOrganizer.WorkDetail>(4096);
         protected List<EventDetail> m_eventsChecklist = new List<EventDetail>(4096);
-
         protected Dictionary<string, int> m_flagsSourceInfo = new Dictionary<string, int>(10);
 
         /// <summary>
@@ -142,8 +125,6 @@ namespace MissingEventFlagsCheckerPlugin
         protected virtual void InitEventFlagsData(SaveFile savFile)
         {
             m_savFile = savFile;
-            m_eventFlagsList.Clear();
-            m_eventWorkList.Clear();
             m_eventsChecklist.Clear();
             m_flagsSourceInfo.Clear();
         }
@@ -207,42 +188,6 @@ namespace MissingEventFlagsCheckerPlugin
 
             System.IO.File.WriteAllText(string.Format("missing_events_{0}.txt", m_savFile.Version), sb.ToString());
         }
-
-        public virtual void DumpAllFlags()
-        {
-            StringBuilder sb = new StringBuilder(512 * 1024);
-            int curSourceIdx = 0;
-
-            foreach (var flagDetail in m_eventFlagsList)
-            {
-                // Put a separator when source change
-                if (curSourceIdx != flagDetail.SourceIdx)
-                {
-                    curSourceIdx = flagDetail.SourceIdx;
-                    sb.Append("\r\n\r\n");
-                }
-
-                sb.AppendFormat("FLAG_0x{0:X4} {1}\t{2}\r\n", flagDetail.FlagIdx, flagDetail.IsSet,
-                    flagDetail.FlagTypeVal == EventFlagType._Unused ? "UNUSED" : flagDetail.ToString());
-            }
-
-            if (m_eventWorkList.Count > 0)
-            {
-                sb.Append("\r\n\r\n");
-
-                foreach (var workDetail in m_eventWorkList)
-                {
-                    sb.AppendFormat("WORK_0x{0:X4} => {1,5}\t{2}\r\n", workDetail.WorkIdx, workDetail.Value,
-                        workDetail.FlagTypeVal == EventFlagType._Unused ? "UNUSED" : workDetail.ToString());
-                }
-            }
-
-            System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
-        }
-
-        public abstract bool SupportsEditingFlag(EventFlagType flagType);
-        public abstract void MarkFlags(EventFlagType flagType);
-        public abstract void UnmarkFlags(EventFlagType flagType);
 
         #endregion Actions
 
@@ -419,7 +364,7 @@ namespace MissingEventFlagsCheckerPlugin
 
 
                 case GameVersion.PLA:
-                    eventsOrganizer = new DummyOrgBlockFlags();
+                    //eventsOrganizer = new DummyOrgBlockFlags();
                     break;
 
                 default:

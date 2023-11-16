@@ -7,7 +7,7 @@ using PKHeX.Core;
 
 namespace MissingEventFlagsCheckerPlugin
 {
-    internal class FlagsGen7SM : FlagsOrganizer
+    internal class FlagsGen7SM : EventFlagsOrganizer
     {
         static string s_chkdb_res = null;
 
@@ -29,68 +29,6 @@ namespace MissingEventFlagsCheckerPlugin
             m_flagsSourceInfo["-"] = -1;
 
             ParseChecklist(s_chkdb_res);
-        }
-
-        public override bool SupportsEditingFlag(EventFlagType flagType)
-        {
-            switch (flagType)
-            {
-                case EventFlagType.FieldItem:
-                case EventFlagType.HiddenItem:
-                case EventFlagType.TrainerBattle:
-                    return true;
-
-                default:
-                    return false;
-            }
-        }
-
-        public override void MarkFlags(EventFlagType flagType)
-        {
-            ChangeFlagsVal(flagType, value: true);
-        }
-
-        public override void UnmarkFlags(EventFlagType flagType)
-        {
-            ChangeFlagsVal(flagType, value: false);
-        }
-
-        void ChangeFlagsVal(EventFlagType flagType, bool value)
-        {
-            if (SupportsEditingFlag(flagType))
-            {
-                var flagHelper = (m_savFile as IEventFlagArray);
-
-                foreach (var evt in m_eventsChecklist)
-                {
-                    if (evt.EvtTypeVal == flagType)
-                    {
-                        evt.IsDone = value;
-                        flagHelper.SetEventFlag((int)evt.EvtId, value);
-                    }
-                }
-            }
-        }
-
-        protected override bool ShouldExportEvent(FlagDetail eventDetail)
-        {
-            if (eventDetail.FlagTypeVal == EventFlagType.GeneralEvent)
-            {
-                bool shouldInclude = false;
-
-                switch (eventDetail.FlagIdx)
-                {
-                    default:
-                        shouldInclude = false;
-                        break;
-                }
-
-                return shouldInclude;
-            }
-            else
-            {
-                return base.ShouldExportEvent(eventDetail);
-            }
         }
 
         protected override bool IsEvtSet(EventDetail evtDetail)

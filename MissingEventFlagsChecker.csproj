@@ -67,7 +67,6 @@
     <Compile Include="FlagsGen5BW.cs" />
     <Compile Include="FlagsGen4HGSS.cs" />
     <Compile Include="FlagsGen4Pt.cs" />
-    <Compile Include="FlagsOrganizer.cs" />
     <Compile Include="FlagsOrganizer_Helpers.cs" />
     <Compile Include="MissingEventFlagsChecker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
