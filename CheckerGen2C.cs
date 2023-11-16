@@ -7,11 +7,16 @@ using PKHeX.Core;
 
 namespace MissingEventFlagsCheckerPlugin
 {
-    internal class FlagsGen8SWSH : EventFlagsOrganizer
+    internal class CheckerGen2C : EventFlagsChecker
     {
         static string s_chkdb_res = null;
 
-        protected override void InitEventFlagsData(SaveFile savFile)
+        enum FlagOffsets
+        {
+            CompletedInGameTradeFlags = 0x24EE
+        }
+
+        protected override void InitData(SaveFile savFile)
         {
             m_savFile = savFile;
 
@@ -22,10 +27,11 @@ namespace MissingEventFlagsCheckerPlugin
 
             if (s_chkdb_res == null)
             {
-                s_chkdb_res = ReadResFile("chkdb_gen8swsh.txt");
+                s_chkdb_res = ReadResFile("chkdb_gen2c.txt");
             }
 
             m_flagsSourceInfo["0"] = 0;
+            m_flagsSourceInfo["1"] = 1; // Trade flags
             m_flagsSourceInfo["-"] = -1;
 
             ParseChecklist(s_chkdb_res);
@@ -34,13 +40,16 @@ namespace MissingEventFlagsCheckerPlugin
         protected override bool IsEvtSet(EventDetail evtDetail)
         {
             bool isEvtSet = false;
-            ulong idx = (uint)evtDetail.EvtId;
-            var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
+            int idx = (int)evtDetail.EvtId;
 
             switch (evtDetail.EvtSource)
             {
-                case 0: // Bool blocks
-                    isEvtSet = (savEventBlocks.GetBlockSafe((uint)idx).Type == SCTypeCode.Bool2);
+                case 0: // EventFlags
+                    isEvtSet = (m_savFile as IEventFlagArray).GetEventFlag(idx);
+                    break;
+
+                case 1: // TradeFlags
+                    isEvtSet = m_savFile.GetFlag((int)FlagOffsets.CompletedInGameTradeFlags + (idx >> 3), idx & 7);
                     break;
 
                 default:
@@ -50,7 +59,6 @@ namespace MissingEventFlagsCheckerPlugin
 
             return isEvtSet;
         }
-
     }
 
 }

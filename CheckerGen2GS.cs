@@ -7,11 +7,16 @@ using PKHeX.Core;
 
 namespace MissingEventFlagsCheckerPlugin
 {
-    internal class FlagsGen4Pt : EventFlagsOrganizer
+    internal class CheckerGen2GS : EventFlagsChecker
     {
         static string s_chkdb_res = null;
 
-        protected override void InitEventFlagsData(SaveFile savFile)
+        enum FlagOffsets
+        {
+            CompletedInGameTradeFlags = 0x24ED
+        }
+
+        protected override void InitData(SaveFile savFile)
         {
             m_savFile = savFile;
 
@@ -22,10 +27,11 @@ namespace MissingEventFlagsCheckerPlugin
 
             if (s_chkdb_res == null)
             {
-                s_chkdb_res = ReadResFile("chkdb_gen4pt.txt");
+                s_chkdb_res = ReadResFile("chkdb_gen2gs.txt");
             }
 
             m_flagsSourceInfo["0"] = 0;
+            m_flagsSourceInfo["1"] = 1; // Trade flags
             m_flagsSourceInfo["-"] = -1;
 
             ParseChecklist(s_chkdb_res);
@@ -42,6 +48,10 @@ namespace MissingEventFlagsCheckerPlugin
                     isEvtSet = (m_savFile as IEventFlagArray).GetEventFlag(idx);
                     break;
 
+                case 1: // TradeFlags
+                    isEvtSet = m_savFile.GetFlag((int)FlagOffsets.CompletedInGameTradeFlags + (idx >> 3), idx & 7);
+                    break;
+
                 default:
                     isEvtSet = false;
                     break;
@@ -49,7 +59,6 @@ namespace MissingEventFlagsCheckerPlugin
 
             return isEvtSet;
         }
-
     }
 
 }

@@ -7,12 +7,12 @@ using PKHeX.Core;
 
 namespace MissingEventFlagsCheckerPlugin
 {
-    internal class FlagsGen9SV : EventFlagsOrganizer
+    internal class CheckerGen9SV : EventFlagsChecker
     {
         static string s_chkdb_res = null;
         Dictionary<ulong, bool> m_blocksStatus;
 
-        protected override void InitEventFlagsData(SaveFile savFile)
+        protected override void InitData(SaveFile savFile)
         {
             m_savFile = savFile;
             m_blocksStatus = new Dictionary<ulong, bool>(4000);

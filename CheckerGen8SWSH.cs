@@ -7,16 +7,13 @@ using PKHeX.Core;
 
 namespace MissingEventFlagsCheckerPlugin
 {
-    internal class FlagsGen7bGPGE : EventFlagsOrganizer
+    internal class CheckerGen8SWSH : EventFlagsChecker
     {
         static string s_chkdb_res = null;
 
-        EventWork7b m_eventWorkData;
-
-        protected override void InitEventFlagsData(SaveFile savFile)
+        protected override void InitData(SaveFile savFile)
         {
             m_savFile = savFile;
-            m_eventWorkData = (m_savFile as SAV7b).EventWork;
 
 #if DEBUG
             // Force refresh
@@ -25,7 +22,7 @@ namespace MissingEventFlagsCheckerPlugin
 
             if (s_chkdb_res == null)
             {
-                s_chkdb_res = ReadResFile("chkdb_gen7blgpe.txt");
+                s_chkdb_res = ReadResFile("chkdb_gen8swsh.txt");
             }
 
             m_flagsSourceInfo["0"] = 0;
@@ -37,12 +34,13 @@ namespace MissingEventFlagsCheckerPlugin
         protected override bool IsEvtSet(EventDetail evtDetail)
         {
             bool isEvtSet = false;
-            int idx = (int)evtDetail.EvtId;
+            ulong idx = (uint)evtDetail.EvtId;
+            var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
 
             switch (evtDetail.EvtSource)
             {
-                case 0: // EventFlags
-                    isEvtSet = (m_savFile as IEventFlagArray).GetEventFlag(idx);
+                case 0: // Bool blocks
+                    isEvtSet = (savEventBlocks.GetBlockSafe((uint)idx).Type == SCTypeCode.Bool2);
                     break;
 
                 default:

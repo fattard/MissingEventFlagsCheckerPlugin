@@ -7,7 +7,7 @@ using PKHeX.Core;
 
 namespace MissingEventFlagsCheckerPlugin
 {
-    internal class FlagsGen1Y : EventFlagsOrganizer
+    internal class CheckerGen1Y : EventFlagsChecker
     {
         static string s_chkdb_res = null;
 
@@ -73,7 +73,7 @@ namespace MissingEventFlagsCheckerPlugin
         const int Src_HiScore = 13;
 
 
-        protected override void InitEventFlagsData(SaveFile savFile)
+        protected override void InitData(SaveFile savFile)
         {
             m_savFile = savFile;
 

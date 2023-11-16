@@ -8,147 +8,147 @@ using PKHeX.Core;
 namespace MissingEventFlagsCheckerPlugin
 {
 
-    static class FlagTypeExtensions
+    static class EventFlagTypeExtensions
     {
-        public static EventFlagsOrganizer.EventFlagType Parse(this EventFlagsOrganizer.EventFlagType flagType, string txt)
+        public static EventFlagsChecker.EventFlagType Parse(this EventFlagsChecker.EventFlagType flagType, string txt)
         {
             switch (txt)
             {
                 case "FIELD ITEM":
-                    flagType = EventFlagsOrganizer.EventFlagType.FieldItem;
+                    flagType = EventFlagsChecker.EventFlagType.FieldItem;
                     break;
 
                 case "HIDDEN ITEM":
-                    flagType = EventFlagsOrganizer.EventFlagType.HiddenItem;
+                    flagType = EventFlagsChecker.EventFlagType.HiddenItem;
                     break;
 
                 case "SPECIAL ITEM":
-                    flagType = EventFlagsOrganizer.EventFlagType.SpecialItem;
+                    flagType = EventFlagsChecker.EventFlagType.SpecialItem;
                     break;
 
                 case "TRAINER BATTLE":
-                    flagType = EventFlagsOrganizer.EventFlagType.TrainerBattle;
+                    flagType = EventFlagsChecker.EventFlagType.TrainerBattle;
                     break;
 
                 case "STATIC BATTLE":
-                    flagType = EventFlagsOrganizer.EventFlagType.StaticBattle;
+                    flagType = EventFlagsChecker.EventFlagType.StaticBattle;
                     break;
 
                 case "IN-GAME TRADE":
-                    flagType = EventFlagsOrganizer.EventFlagType.InGameTrade;
+                    flagType = EventFlagsChecker.EventFlagType.InGameTrade;
                     break;
 
                 case "ITEM GIFT":
-                    flagType = EventFlagsOrganizer.EventFlagType.ItemGift;
+                    flagType = EventFlagsChecker.EventFlagType.ItemGift;
                     break;
 
                 case "PKMN GIFT":
-                    flagType = EventFlagsOrganizer.EventFlagType.PkmnGift;
+                    flagType = EventFlagsChecker.EventFlagType.PkmnGift;
                     break;
 
                 case "EVENT":
-                    flagType = EventFlagsOrganizer.EventFlagType.GeneralEvent;
+                    flagType = EventFlagsChecker.EventFlagType.GeneralEvent;
                     break;
 
                 case "SIDE EVENT":
-                    flagType = EventFlagsOrganizer.EventFlagType.SideEvent;
+                    flagType = EventFlagsChecker.EventFlagType.SideEvent;
                     break;
 
                 case "STORY EVENT":
-                    flagType = EventFlagsOrganizer.EventFlagType.StoryEvent;
+                    flagType = EventFlagsChecker.EventFlagType.StoryEvent;
                     break;
 
                 case "BERRY TREE":
-                    flagType = EventFlagsOrganizer.EventFlagType.BerryTree;
+                    flagType = EventFlagsChecker.EventFlagType.BerryTree;
                     break;
 
                 case "FLY SPOT":
-                    flagType = EventFlagsOrganizer.EventFlagType.FlySpot;
+                    flagType = EventFlagsChecker.EventFlagType.FlySpot;
                     break;
 
                 case "COLLECTABLE":
-                    flagType = EventFlagsOrganizer.EventFlagType.Collectable;
+                    flagType = EventFlagsChecker.EventFlagType.Collectable;
                     break;
 
                 case "_UNUSED":
-                    flagType = EventFlagsOrganizer.EventFlagType._Unused;
+                    flagType = EventFlagsChecker.EventFlagType._Unused;
                     break;
 
                 case "_SEPARATOR":
-                    flagType = EventFlagsOrganizer.EventFlagType._Separator;
+                    flagType = EventFlagsChecker.EventFlagType._Separator;
                     break;
 
                 default:
-                    flagType = EventFlagsOrganizer.EventFlagType._Unknown;
+                    flagType = EventFlagsChecker.EventFlagType._Unknown;
                     break;
             }
 
             return flagType;
         }
 
-        public static string AsText(this EventFlagsOrganizer.EventFlagType flagType)
+        public static string AsText(this EventFlagsChecker.EventFlagType flagType)
         {
             string flagTypeTxt = "";
 
             switch (flagType)
             {
-                case EventFlagsOrganizer.EventFlagType.FieldItem:
+                case EventFlagsChecker.EventFlagType.FieldItem:
                     flagTypeTxt = "FIELD ITEM";
                     break;
 
-                case EventFlagsOrganizer.EventFlagType.HiddenItem:
+                case EventFlagsChecker.EventFlagType.HiddenItem:
                     flagTypeTxt = "HIDDEN ITEM";
                     break;
 
-                case EventFlagsOrganizer.EventFlagType.SpecialItem:
+                case EventFlagsChecker.EventFlagType.SpecialItem:
                     flagTypeTxt = "SPECIAL ITEM";
                     break;
 
-                case EventFlagsOrganizer.EventFlagType.TrainerBattle:
+                case EventFlagsChecker.EventFlagType.TrainerBattle:
                     flagTypeTxt = "TRAINER BATTLE";
                     break;
 
-                case EventFlagsOrganizer.EventFlagType.StaticBattle:
+                case EventFlagsChecker.EventFlagType.StaticBattle:
                     flagTypeTxt = "STATIC BATTLE";
                     break;
 
-                case EventFlagsOrganizer.EventFlagType.InGameTrade:
+                case EventFlagsChecker.EventFlagType.InGameTrade:
                     flagTypeTxt = "IN-GAME TRADE";
                     break;
 
-                case EventFlagsOrganizer.EventFlagType.ItemGift:
+                case EventFlagsChecker.EventFlagType.ItemGift:
                     flagTypeTxt = "ITEM GIFT";
                     break;
 
-                case EventFlagsOrganizer.EventFlagType.PkmnGift:
+                case EventFlagsChecker.EventFlagType.PkmnGift:
                     flagTypeTxt = "PKMN GIFT";
                     break;
 
-                case EventFlagsOrganizer.EventFlagType.GeneralEvent:
+                case EventFlagsChecker.EventFlagType.GeneralEvent:
                     flagTypeTxt = "EVENT";
                     break;
 
-                case EventFlagsOrganizer.EventFlagType.SideEvent:
+                case EventFlagsChecker.EventFlagType.SideEvent:
                     flagTypeTxt = "SIDE EVENT";
                     break;
 
-                case EventFlagsOrganizer.EventFlagType.StoryEvent:
+                case EventFlagsChecker.EventFlagType.StoryEvent:
                     flagTypeTxt = "STORY EVENT";
                     break;
 
-                case EventFlagsOrganizer.EventFlagType.BerryTree:
+                case EventFlagsChecker.EventFlagType.BerryTree:
                     flagTypeTxt = "BERRY TREE";
                     break;
 
-                case EventFlagsOrganizer.EventFlagType.FlySpot:
+                case EventFlagsChecker.EventFlagType.FlySpot:
                     flagTypeTxt = "FLY SPOT";
                     break;
 
-                case EventFlagsOrganizer.EventFlagType.Collectable:
+                case EventFlagsChecker.EventFlagType.Collectable:
                     flagTypeTxt = "COLLECTABLE";
                     break;
 
-                case EventFlagsOrganizer.EventFlagType._Unused:
+                case EventFlagsChecker.EventFlagType._Unused:
                     flagTypeTxt = "_UNUSED";
                     break;
 

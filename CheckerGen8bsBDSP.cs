@@ -7,7 +7,7 @@ using PKHeX.Core;
 
 namespace MissingEventFlagsCheckerPlugin
 {
-    internal class FlagsGen8bsBDSP : EventFlagsOrganizer
+    internal class CheckerGen8bsBDSP : EventFlagsChecker
     {
         static string s_chkdb_res = null;
 
@@ -18,7 +18,7 @@ namespace MissingEventFlagsCheckerPlugin
         const int Src_SysFlags = 1;
         const int Src_TrainerFlags = 2;
 
-        protected override void InitEventFlagsData(SaveFile savFile)
+        protected override void InitData(SaveFile savFile)
         {
             m_savFile = savFile;
             m_battleTrainerStatus = (m_savFile as SAV8BS).BattleTrainer;

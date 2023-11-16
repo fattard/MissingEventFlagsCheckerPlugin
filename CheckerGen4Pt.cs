@@ -7,11 +7,11 @@ using PKHeX.Core;
 
 namespace MissingEventFlagsCheckerPlugin
 {
-    internal class FlagsGen7USUM : EventFlagsOrganizer
+    internal class CheckerGen4Pt : EventFlagsChecker
     {
         static string s_chkdb_res = null;
 
-        protected override void InitEventFlagsData(SaveFile savFile)
+        protected override void InitData(SaveFile savFile)
         {
             m_savFile = savFile;
 
@@ -22,7 +22,7 @@ namespace MissingEventFlagsCheckerPlugin
 
             if (s_chkdb_res == null)
             {
-                s_chkdb_res = ReadResFile("chkdb_gen7usum.txt");
+                s_chkdb_res = ReadResFile("chkdb_gen4pt.txt");
             }
 
             m_flagsSourceInfo["0"] = 0;

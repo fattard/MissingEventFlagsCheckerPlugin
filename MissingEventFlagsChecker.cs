@@ -50,26 +50,26 @@ namespace MissingEventFlagsCheckerPlugin
 
         private void ExportMissingEvents_UIEvt(object sender, EventArgs e)
         {
-            var eventsOrganizer = EventFlagsOrganizer.OrganizeEventFlags(SaveFileEditor.SAV);
+            var eventsChecker = EventFlagsChecker.CreateEventFlagsChecker(SaveFileEditor.SAV);
 
-            if (eventsOrganizer == null)
+            if (eventsChecker == null)
             {
                 throw new FormatException("Unsupported SAV format: " + SaveFileEditor.SAV.Version);
             }
 
-            eventsOrganizer.ExportMissingEvents();
+            eventsChecker.ExportMissingEvents();
         }
 
         private void ExportChecklist_UIEvt(object sender, EventArgs e)
         {
-            var eventsOrganizer = EventFlagsOrganizer.OrganizeEventFlags(SaveFileEditor.SAV);
+            var eventsChecker = EventFlagsChecker.CreateEventFlagsChecker(SaveFileEditor.SAV);
 
-            if (eventsOrganizer == null)
+            if (eventsChecker == null)
             {
                 throw new FormatException("Unsupported SAV format: " + SaveFileEditor.SAV.Version);
             }
 
-            eventsOrganizer.ExportChecklist();
+            eventsChecker.ExportChecklist();
         }
 
         public void NotifySaveLoaded()

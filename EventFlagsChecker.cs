@@ -6,7 +6,7 @@ using PKHeX.Core;
 
 namespace MissingEventFlagsCheckerPlugin
 {
-    public abstract class EventFlagsOrganizer
+    public abstract class EventFlagsChecker
     {
         public enum EventFlagType
         {
@@ -119,15 +119,8 @@ namespace MissingEventFlagsCheckerPlugin
         /// </summary>
         public List<EventDetail> EventsChecklist => m_eventsChecklist;
 
-        //TODO: convert to abstract when refactor is over
-        protected virtual bool IsEvtSet(EventDetail evtDetail) => false;
-
-        protected virtual void InitEventFlagsData(SaveFile savFile)
-        {
-            m_savFile = savFile;
-            m_eventsChecklist.Clear();
-            m_flagsSourceInfo.Clear();
-        }
+        protected abstract bool IsEvtSet(EventDetail evtDetail);
+        protected abstract void InitData(SaveFile savFile);
 
         protected void ParseChecklist(string chkList_res)
         {
@@ -192,7 +185,7 @@ namespace MissingEventFlagsCheckerPlugin
         #endregion Actions
 
 
-        protected static ulong ParseDecOrHex(string str)
+        public static ulong ParseDecOrHex(string str)
         {
             if (str.StartsWith("0x"))
                 return Convert.ToUInt64(str, 16);
@@ -228,9 +221,9 @@ namespace MissingEventFlagsCheckerPlugin
             return contentTxt;
         }
 
-        public static EventFlagsOrganizer OrganizeEventFlags(SaveFile savFile)
+        public static EventFlagsChecker CreateEventFlagsChecker(SaveFile savFile)
         {
-            EventFlagsOrganizer eventsOrganizer = null;
+            EventFlagsChecker eventsOrganizer = null;
 
             switch (savFile.Version)
             {
@@ -253,113 +246,113 @@ namespace MissingEventFlagsCheckerPlugin
                 case GameVersion.RD:
                 case GameVersion.GN:
                 case GameVersion.RB:
-                    eventsOrganizer = new FlagsGen1RB();
+                    eventsOrganizer = new CheckerGen1RB();
                     break;
 
                 case GameVersion.YW:
-                    eventsOrganizer = new FlagsGen1Y();
+                    eventsOrganizer = new CheckerGen1Y();
                     break;
 
                 case GameVersion.GD:
                 case GameVersion.SI:
                 case GameVersion.GS:
-                    eventsOrganizer = new FlagsGen2GS();
+                    eventsOrganizer = new CheckerGen2GS();
                     break;
 
                 case GameVersion.C:
-                    eventsOrganizer = new FlagsGen2C();
+                    eventsOrganizer = new CheckerGen2C();
                     break;
 
                 case GameVersion.R:
                 case GameVersion.S:
                 case GameVersion.RS:
-                    eventsOrganizer = new FlagsGen3RS();
+                    eventsOrganizer = new CheckerGen3RS();
                     break;
 
                 case GameVersion.FR:
                 case GameVersion.LG:
                 case GameVersion.FRLG:
-                    eventsOrganizer = new FlagsGen3FRLG();
+                    eventsOrganizer = new CheckerGen3FRLG();
                     break;
 
                 case GameVersion.E:
-                    eventsOrganizer = new FlagsGen3E();
+                    eventsOrganizer = new CheckerGen3E();
                     break;
 
                 case GameVersion.D:
                 case GameVersion.P:
                 case GameVersion.DP:
-                    eventsOrganizer = new FlagsGen4DP();
+                    eventsOrganizer = new CheckerGen4DP();
                     break;
 
                 case GameVersion.Pt:
-                    eventsOrganizer = new FlagsGen4Pt();
+                    eventsOrganizer = new CheckerGen4Pt();
                     break;
 
                 case GameVersion.HG:
                 case GameVersion.SS:
                 case GameVersion.HGSS:
-                    eventsOrganizer = new FlagsGen4HGSS();
+                    eventsOrganizer = new CheckerGen4HGSS();
                     break;
 
                 case GameVersion.B:
                 case GameVersion.W:
                 case GameVersion.BW:
-                    eventsOrganizer = new FlagsGen5BW();
+                    eventsOrganizer = new CheckerGen5BW();
                     break;
 
                 case GameVersion.B2:
                 case GameVersion.W2:
                 case GameVersion.B2W2:
-                    eventsOrganizer = new FlagsGen5B2W2();
+                    eventsOrganizer = new CheckerGen5B2W2();
                     break;
 
                 case GameVersion.X:
                 case GameVersion.Y:
                 case GameVersion.XY:
-                    eventsOrganizer = new FlagsGen6XY();
+                    eventsOrganizer = new CheckerGen6XY();
                     break;
 
                 case GameVersion.OR:
                 case GameVersion.AS:
                 case GameVersion.ORAS:
-                    eventsOrganizer = new FlagsGen6ORAS();
+                    eventsOrganizer = new CheckerGen6ORAS();
                     break;
 
                 case GameVersion.SN:
                 case GameVersion.MN:
                 case GameVersion.SM:
-                    eventsOrganizer = new FlagsGen7SM();
+                    eventsOrganizer = new CheckerGen7SM();
                     break;
 
                 case GameVersion.US:
                 case GameVersion.UM:
                 case GameVersion.USUM:
-                    eventsOrganizer = new FlagsGen7USUM();
+                    eventsOrganizer = new CheckerGen7USUM();
                     break;
 
                 case GameVersion.GP:
                 case GameVersion.GE:
                 case GameVersion.GG:
-                    eventsOrganizer = new FlagsGen7bGPGE();
+                    eventsOrganizer = new CheckerGen7bGPGE();
                     break;
 
                 case GameVersion.BD:
                 case GameVersion.SP:
                 case GameVersion.BDSP:
-                    eventsOrganizer = new FlagsGen8bsBDSP();
+                    eventsOrganizer = new CheckerGen8bsBDSP();
                     break;
 
                 case GameVersion.SW:
                 case GameVersion.SH:
                 case GameVersion.SWSH:
-                    eventsOrganizer = new FlagsGen8SWSH();
+                    eventsOrganizer = new CheckerGen8SWSH();
                     break;
 
                 case GameVersion.SL:
                 case GameVersion.VL:
                 case GameVersion.SV:
-                    eventsOrganizer = new FlagsGen9SV();
+                    eventsOrganizer = new CheckerGen9SV();
                     break;
 
 
@@ -373,7 +366,7 @@ namespace MissingEventFlagsCheckerPlugin
 
             if (eventsOrganizer != null)
             {
-                eventsOrganizer.InitEventFlagsData(savFile);
+                eventsOrganizer.InitData(savFile);
             }
 
             return eventsOrganizer;
