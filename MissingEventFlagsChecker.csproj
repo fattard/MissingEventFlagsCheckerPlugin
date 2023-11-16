@@ -73,30 +73,26 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="flagslist\flags_gen1rb.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen1y.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen2gs.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen2c.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen3rs.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen3e.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen3frlg.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen4dp.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen4pt.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen4hgss.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen5bw.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen5b2w2.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen6xy.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen6oras.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen7sm.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen7usum.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen7blgpe.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen8bsbdsp.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen8swsh.txt" />
-    <EmbeddedResource Include="flagslist\flags_gen9sv.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="checklist\chkdb_gen1rb.txt" />
     <EmbeddedResource Include="checklist\chkdb_gen1y.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen2c.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen2gs.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen3e.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen3frlg.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen3rs.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen4dp.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen4hgss.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen4pt.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen5bw.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen5b2w2.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen6xy.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen6oras.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen7sm.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen7usum.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen7blgpe.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen8swsh.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen8bsbdsp.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen9sv.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
