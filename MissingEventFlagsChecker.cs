@@ -131,13 +131,6 @@ namespace MissingEventFlagsCheckerPlugin
                             }
                         }
                         break;
-
-
-                    //TEMP:
-                    case GameVersion.PLA:
-                        menuEntry_ExportMissingEvents.Enabled = false;
-                        menuEntry_ExportChecklist.Enabled = false;
-                        break;
                 }
             }
         }

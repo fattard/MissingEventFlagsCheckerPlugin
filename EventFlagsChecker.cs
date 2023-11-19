@@ -343,6 +343,10 @@ namespace MissingEventFlagsCheckerPlugin
                     eventsOrganizer = new CheckerGen8BDSP();
                     break;
 
+                case GameVersion.PLA:
+                    eventsOrganizer = new CheckerGen8LA();
+                    break;
+
                 case GameVersion.SW:
                 case GameVersion.SH:
                 case GameVersion.SWSH:
@@ -355,10 +359,6 @@ namespace MissingEventFlagsCheckerPlugin
                     eventsOrganizer = new CheckerGen9SV();
                     break;
 
-
-                case GameVersion.PLA:
-                    //eventsOrganizer = new DummyOrgBlockFlags();
-                    break;
 
                 default:
                     break;

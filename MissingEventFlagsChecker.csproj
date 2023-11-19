@@ -57,7 +57,8 @@
     <Compile Include="CheckerGen4DP.cs" />
     <Compile Include="CheckerGen9SV.cs" />
     <Compile Include="CheckerGen8SWSH.cs" />
-    <Compile Include="CheckerGen8bsBDSP.cs" />
+    <Compile Include="CheckerGen8BDSP.cs" />
+    <Compile Include="CheckerGen8LA.cs" />    
     <Compile Include="CheckerGen7bGPGE.cs" />
     <Compile Include="CheckerGen7SM.cs" />
     <Compile Include="CheckerGen7USUM.cs" />
@@ -90,7 +91,8 @@
     <EmbeddedResource Include="checklist\chkdb_gen7usum.txt" />
     <EmbeddedResource Include="checklist\chkdb_gen7blgpe.txt" />
     <EmbeddedResource Include="checklist\chkdb_gen8swsh.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen8bsbdsp.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen8bdsp.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen8la.txt" />
     <EmbeddedResource Include="checklist\chkdb_gen9sv.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
