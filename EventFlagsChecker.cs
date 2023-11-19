@@ -16,7 +16,7 @@ namespace MissingEventFlagsCheckerPlugin
             HiddenItem,
             SpecialItem,
             TrainerBattle,
-            StaticBattle,
+            StaticEncounter,
             InGameTrade,
             ItemGift,
             PkmnGift,
@@ -340,7 +340,7 @@ namespace MissingEventFlagsCheckerPlugin
                 case GameVersion.BD:
                 case GameVersion.SP:
                 case GameVersion.BDSP:
-                    eventsOrganizer = new CheckerGen8bsBDSP();
+                    eventsOrganizer = new CheckerGen8BDSP();
                     break;
 
                 case GameVersion.SW:

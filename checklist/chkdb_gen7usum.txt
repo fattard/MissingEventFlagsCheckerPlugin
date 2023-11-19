@@ -47,19 +47,19 @@
 0	0x01F7	PKMN GIFT			Received Gift Cosmog
 0	0x01F8	PKMN GIFT			Received Gift Aerodactyl
 0	0x0206	PKMN GIFT			Received Surfing Pikachu
-0	0x0223	STATIC BATTLE			Defeated Bewear in Hau'oli City
-0	0x025F	STATIC BATTLE			Defeated Route 14 Frillish
+0	0x0223	STATIC ENCOUNTER			Defeated Bewear in Hau'oli City
+0	0x025F	STATIC ENCOUNTER			Defeated Route 14 Frillish
 0	0x0285	ITEM GIFT			FE_SUB406_ITEMGET
 0	0x0286	SIDE EVENT			Seen Mimikyu in Pikachu Valley RV
 0	0x028E	PKMN GIFT			Received Gift Type: Null (1)
 0	0x0299	ITEM GIFT			FE_SUB044_VC_ITEMGET
 0	0x044D	PKMN GIFT			Received Gift Type: Null (2)
-0	0x0610	STATIC BATTLE			Necrozma Captured
-0	0x0638	STATIC BATTLE			(UM) Defeated Route 15 Sandygast
-0	0x065B	STATIC BATTLE			Solgaleo/Lunala Captured
-0	0x06C2	STATIC BATTLE			Electrode Disappeared (Team Rocket's Castle Southwest Wing, side room 2)
-0	0x06C3	STATIC BATTLE			Electrode Disappeared (Team Rocket's Castle Southwest Wing, side room 11)
-0	0x06C4	STATIC BATTLE			Electrode Disappeared (Team Rocket's Castle Southeast Wing, side room)
+0	0x0610	STATIC ENCOUNTER			Necrozma Captured
+0	0x0638	STATIC ENCOUNTER			(UM) Defeated Route 15 Sandygast
+0	0x065B	STATIC ENCOUNTER			Solgaleo/Lunala Captured
+0	0x06C2	STATIC ENCOUNTER			Electrode Disappeared (Team Rocket's Castle Southwest Wing, side room 2)
+0	0x06C3	STATIC ENCOUNTER			Electrode Disappeared (Team Rocket's Castle Southwest Wing, side room 11)
+0	0x06C4	STATIC ENCOUNTER			Electrode Disappeared (Team Rocket's Castle Southeast Wing, side room)
 0	0x09DC	FIELD ITEM			FV_FLD_ITEM_0
 0	0x09DD	FIELD ITEM			FV_FLD_ITEM_1
 0	0x09DE	FIELD ITEM			FV_FLD_ITEM_2
@@ -1240,45 +1240,45 @@
 0	0x0FEF	STORY EVENT			Unlocked Sharpedo Jet
 0	0x0FF0	STORY EVENT			Unlocked Charizard Glide
 0	0x1013	SIDE EVENT			Unlocked IV Judge
-0	0x10A4	STATIC BATTLE			(US) Raikou Captured
-0	0x10A5	STATIC BATTLE			(UM) Entei Captured
-0	0x10A6	STATIC BATTLE			Suicune Captured
-0	0x10A7	STATIC BATTLE			(UM) Lugia Captured
-0	0x10A8	STATIC BATTLE			(US) Ho-Oh Captured
-0	0x10A9	STATIC BATTLE			Uxie Captured
-0	0x10AA	STATIC BATTLE			Mesprit Captured
-0	0x10AB	STATIC BATTLE			Azelf Captured
-0	0x10AC	STATIC BATTLE			(US) Dialga Captured
-0	0x10AD	STATIC BATTLE			(UM) Palkia Captured
-0	0x10AE	STATIC BATTLE			(US) Heatran Captured
-0	0x10AF	STATIC BATTLE			(UM) Regigigas Captured
-0	0x10B0	STATIC BATTLE			Giratina Captured
-0	0x10B1	STATIC BATTLE			Cresselia Captured
-0	0x10B2	STATIC BATTLE			Cobalion Captured
-0	0x10B3	STATIC BATTLE			Terrakion Captured
-0	0x10B4	STATIC BATTLE			Virizion Captured
-0	0x10B5	STATIC BATTLE			(US) Tornadus Captured
-0	0x10B6	STATIC BATTLE			(UM) Thundurus Captured
-0	0x10B7	STATIC BATTLE			(US) Reshiram Captured
-0	0x10B8	STATIC BATTLE			(UM) Zekrom Captured
-0	0x10B9	STATIC BATTLE			Landorus Captured
-0	0x10BA	STATIC BATTLE			Kyurem Captured
-0	0x10BB	STATIC BATTLE			(UM) Latias Captured
-0	0x10BC	STATIC BATTLE			(US) Latios Captured
-0	0x10BD	STATIC BATTLE			Regirock Captured
-0	0x10BE	STATIC BATTLE			Regice Captured
-0	0x10BF	STATIC BATTLE			Registeel Captured
-0	0x10C0	STATIC BATTLE			(US) Groudon Captured
-0	0x10C1	STATIC BATTLE			(UM) Kyogre Captured
-0	0x10C2	STATIC BATTLE			Rayquaza Captured
-0	0x1112	STATIC BATTLE			(UM) Stakataka in Poni Grove
-0	0x1113	STATIC BATTLE			(US) Blacephalon in Poni Grove
-0	0x1144	STATIC BATTLE			Articuno Captured
-0	0x1145	STATIC BATTLE			Zapdos Captured
-0	0x1146	STATIC BATTLE			Moltres Captured
-0	0x1147	STATIC BATTLE			Mewtwo Captured
-0	0x1148	STATIC BATTLE			(US) Xerneas Captured
-0	0x1149	STATIC BATTLE			(UM) Yveltal Captured
+0	0x10A4	STATIC ENCOUNTER			(US) Raikou Captured
+0	0x10A5	STATIC ENCOUNTER			(UM) Entei Captured
+0	0x10A6	STATIC ENCOUNTER			Suicune Captured
+0	0x10A7	STATIC ENCOUNTER			(UM) Lugia Captured
+0	0x10A8	STATIC ENCOUNTER			(US) Ho-Oh Captured
+0	0x10A9	STATIC ENCOUNTER			Uxie Captured
+0	0x10AA	STATIC ENCOUNTER			Mesprit Captured
+0	0x10AB	STATIC ENCOUNTER			Azelf Captured
+0	0x10AC	STATIC ENCOUNTER			(US) Dialga Captured
+0	0x10AD	STATIC ENCOUNTER			(UM) Palkia Captured
+0	0x10AE	STATIC ENCOUNTER			(US) Heatran Captured
+0	0x10AF	STATIC ENCOUNTER			(UM) Regigigas Captured
+0	0x10B0	STATIC ENCOUNTER			Giratina Captured
+0	0x10B1	STATIC ENCOUNTER			Cresselia Captured
+0	0x10B2	STATIC ENCOUNTER			Cobalion Captured
+0	0x10B3	STATIC ENCOUNTER			Terrakion Captured
+0	0x10B4	STATIC ENCOUNTER			Virizion Captured
+0	0x10B5	STATIC ENCOUNTER			(US) Tornadus Captured
+0	0x10B6	STATIC ENCOUNTER			(UM) Thundurus Captured
+0	0x10B7	STATIC ENCOUNTER			(US) Reshiram Captured
+0	0x10B8	STATIC ENCOUNTER			(UM) Zekrom Captured
+0	0x10B9	STATIC ENCOUNTER			Landorus Captured
+0	0x10BA	STATIC ENCOUNTER			Kyurem Captured
+0	0x10BB	STATIC ENCOUNTER			(UM) Latias Captured
+0	0x10BC	STATIC ENCOUNTER			(US) Latios Captured
+0	0x10BD	STATIC ENCOUNTER			Regirock Captured
+0	0x10BE	STATIC ENCOUNTER			Regice Captured
+0	0x10BF	STATIC ENCOUNTER			Registeel Captured
+0	0x10C0	STATIC ENCOUNTER			(US) Groudon Captured
+0	0x10C1	STATIC ENCOUNTER			(UM) Kyogre Captured
+0	0x10C2	STATIC ENCOUNTER			Rayquaza Captured
+0	0x1112	STATIC ENCOUNTER			(UM) Stakataka in Poni Grove
+0	0x1113	STATIC ENCOUNTER			(US) Blacephalon in Poni Grove
+0	0x1144	STATIC ENCOUNTER			Articuno Captured
+0	0x1145	STATIC ENCOUNTER			Zapdos Captured
+0	0x1146	STATIC ENCOUNTER			Moltres Captured
+0	0x1147	STATIC ENCOUNTER			Mewtwo Captured
+0	0x1148	STATIC ENCOUNTER			(US) Xerneas Captured
+0	0x1149	STATIC ENCOUNTER			(UM) Yveltal Captured
 0	0x1158	SIDE EVENT			Battle Style Learned: Elegant
 0	0x1159	SIDE EVENT			Battle Style Learned: Girlish
 0	0x115A	SIDE EVENT			Battle Style Learned: Reverent

@@ -7,7 +7,7 @@ using PKHeX.Core;
 
 namespace MissingEventFlagsCheckerPlugin
 {
-    internal class CheckerGen8bsBDSP : EventFlagsChecker
+    internal class CheckerGen8BDSP : EventFlagsChecker
     {
         static string s_chkdb_res = null;
 
@@ -31,7 +31,7 @@ namespace MissingEventFlagsCheckerPlugin
 
             if (s_chkdb_res == null)
             {
-                s_chkdb_res = ReadResFile("chkdb_gen8bsbdsp.txt");
+                s_chkdb_res = ReadResFile("chkdb_gen8bdsp.txt");
             }
 
             m_flagsSourceInfo["EvtFlags"] = Src_EventFlags;

@@ -20,7 +20,7 @@
 0	0x0023	ITEM GIFT	Cianwood City	Pharmacy	Receive Secret Potion
 0	0x0024	ITEM GIFT	New Bark Town	Elm's Lab	Receive SS. Ticket from Elm
 0	0x0027	ITEM GIFT	Route 30	House	Receive Berry from guy
-0	0x002A	STATIC BATTLE	Route 36		Capture/Defeat Sudowoodo
+0	0x002A	STATIC ENCOUNTER	Route 36		Capture/Defeat Sudowoodo
 0	0x002D	PKMN GIFT	Violet City	Pokémon Center	Receive Togepi Egg from Oak's Aide
 0	0x0035	ITEM GIFT	Azalea Town	Kurt's House	Receive Lure Ball from Kurt
 0	0x003D	SIDE EVENT	Route 39	Moomoo Farm	Heal Moomoo
@@ -218,8 +218,8 @@
 0	0x02CF	SIDE EVENT			DECO_BIG_SNORLAX_DOLL
 0	0x02D0	SIDE EVENT			DECO_BIG_ONIX_DOLL
 0	0x02D1	SIDE EVENT			DECO_BIG_LAPRAS_DOLL
-0	0x0317	STATIC BATTLE	Tin Tower	Top	Capture/Defeat Ho-Oh
-0	0x0318	STATIC BATTLE	Whirl Islands	B2F (Inner Cave)	Capture/Defeat Lugia
+0	0x0317	STATIC ENCOUNTER	Tin Tower	Top	Capture/Defeat Ho-Oh
+0	0x0318	STATIC ENCOUNTER	Whirl Islands	B2F (Inner Cave)	Capture/Defeat Lugia
 0	0x0320	ITEM GIFT	Route 25	Bill's House	Receive Everstone from Bill's grandpa
 0	0x0321	ITEM GIFT	Route 25	Bill's House	Receive Leaf Stone from Bill's grandpa
 0	0x0322	ITEM GIFT	Route 25	Bill's House	Receive Water Stone from Bill's grandpa
@@ -809,8 +809,8 @@
 0	0x06BA	FIELD ITEM	Route 45		ROUTE_45_ELIXER
 0	0x06BB	FIELD ITEM	Route 45		ROUTE_45_MAX_POTION
 0	0x06BC	FIELD ITEM	Route 46		ROUTE_46_DIRE_HIT
-0	0x0750	STATIC BATTLE	Vermilion City		Capture/Defeat Snorlax
-0	0x0751	STATIC BATTLE	Lake of Rage		Capture/Defeat Red Gyarados
+0	0x0750	STATIC ENCOUNTER	Vermilion City		Capture/Defeat Snorlax
+0	0x0751	STATIC ENCOUNTER	Lake of Rage		Capture/Defeat Red Gyarados
 0	0x077D	FIELD ITEM	Saffron City		PICKED_UP_FOCUS_BAND
 0	0x077E	FIELD ITEM	Rock Tunnel		ROCK_TUNNEL_1F_ELIXER
 0	0x077F	FIELD ITEM	Rock Tunnel		ROCK_TUNNEL_1F_TM_STEEL_WING

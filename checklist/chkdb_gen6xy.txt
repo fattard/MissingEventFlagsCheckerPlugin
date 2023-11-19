@@ -2,12 +2,12 @@
 0	0x00B9	IN-GAME TRADE			Traded for Bisharp in Snowbelle City
 0	0x00BE	IN-GAME TRADE			Traded with Shauna
 0	0x00BF	IN-GAME TRADE			Traded for Steelix in Cyllage City
-0	0x00D2	STATIC BATTLE			Zygarde Captured
-0	0x00D3	STATIC BATTLE			Mewtwo Captured
+0	0x00D2	STATIC ENCOUNTER			Zygarde Captured
+0	0x00D3	STATIC ENCOUNTER			Mewtwo Captured
 0	0x012B	PKMN GIFT			Claimed Diancie via Mystery Gift (PokéCenter Event Completed)
 0	0x013F	STORY EVENT			Claimed Kanto Starter from Sycamore
 0	0x0140	IN-GAME TRADE			Traded with Diantha
-0	0x0141	STATIC BATTLE			Snorlax Captured
+0	0x0141	STATIC ENCOUNTER			Snorlax Captured
 0	0x017D	SIDE EVENT			Singles Statuette
 0	0x017E	SIDE EVENT			Doubles Statuette
 0	0x017F	SIDE EVENT			Triples Statuette

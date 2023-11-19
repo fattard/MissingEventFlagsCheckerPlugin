@@ -4,9 +4,9 @@
 0	0x0103	IN-GAME TRADE			Traded for Rotom on Route 15
 0	0x0121	PKMN GIFT			Received N's Zorua
 0	0x0127	ITEM GIFT	Undella Town	PokéCenter	Prism Scale from man
-0	0x012C	STATIC BATTLE			Virizion (Rematch, Level +20)
-0	0x012E	STATIC BATTLE			Cobalion (Rematch, Level +20)
-0	0x0149	STATIC BATTLE			Terrakion (Rematch, Level +20)
+0	0x012C	STATIC ENCOUNTER			Virizion (Rematch, Level +20)
+0	0x012E	STATIC ENCOUNTER			Cobalion (Rematch, Level +20)
+0	0x0149	STATIC ENCOUNTER			Terrakion (Rematch, Level +20)
 0	0x0180	ITEM GIFT	Route 11		Favored Mail from woman in trailer
 0	0x018A	PKMN GIFT			Received Eevee Gift
 0	0x0195	IN-GAME TRADE			Traded for Tangrowth in Humilau City
@@ -20,33 +20,33 @@
 0	0x01B5	PKMN GIFT			Received Happiny Egg Gift
 0	0x01BD	ITEM GIFT			Chose Cover/Plume Fossil from Lenora
 0	0x01C0	ITEM GIFT	PWT	Exterior	Rocky Helmet from worker
-0	0x029B	STATIC BATTLE			Reshiram/Zekrom Disappeared
+0	0x029B	STATIC ENCOUNTER			Reshiram/Zekrom Disappeared
 0	0x029F	SIDE EVENT	Nimbasa City		Dropped Item
-0	0x0321	STATIC BATTLE			Virizion Disappeared
-0	0x0322	STATIC BATTLE			Cobalion Disappeared
-0	0x032A	STATIC BATTLE			Terrakion Disappeared
+0	0x0321	STATIC ENCOUNTER			Virizion Disappeared
+0	0x0322	STATIC ENCOUNTER			Cobalion Disappeared
+0	0x032A	STATIC ENCOUNTER			Terrakion Disappeared
 0	0x0354	ITEM GIFT	Castelia City	Battle Company (1F)	Exp. Share from President
-0	0x0381	STATIC BATTLE			Cresselia Disappeared
+0	0x0381	STATIC ENCOUNTER			Cresselia Disappeared
 0	0x0383	SIDE EVENT	Strange House		Lunar Wing
-0	0x0384	STATIC BATTLE			Heatran Disappeared
-0	0x0396	STATIC BATTLE			Uxie Disappeared
-0	0x0397	STATIC BATTLE			Mesprit Disappeared
-0	0x0398	STATIC BATTLE			Azelf Disappeared
-0	0x0399	STATIC BATTLE			Regice Disappeared
-0	0x039A	STATIC BATTLE			Regirock Disappeared
-0	0x039B	STATIC BATTLE			Registeel Disappeared
-0	0x039C	STATIC BATTLE			Regigigas Disappeared
-0	0x03A1	STATIC BATTLE	Route 6		Capture/Defeat Foongus
-0	0x03A3	STATIC BATTLE	Route 6		Capture/Defeat Foongus
-0	0x03A6	STATIC BATTLE	Route 11		Capture/Defeat Amoonguss
-0	0x03A7	STATIC BATTLE	Route 11		Capture/Defeat Amoonguss
-0	0x03A8	STATIC BATTLE	Route 22		Capture/Defeat Amoonguss
-0	0x03A9	STATIC BATTLE	Route 22		Capture/Defeat Amoonguss
-0	0x03AC	STATIC BATTLE	Route 23		Capture/Defeat Amoonguss
-0	0x03B2	STATIC BATTLE			Shiny Haxorus in Nature Preserve disappeared
+0	0x0384	STATIC ENCOUNTER			Heatran Disappeared
+0	0x0396	STATIC ENCOUNTER			Uxie Disappeared
+0	0x0397	STATIC ENCOUNTER			Mesprit Disappeared
+0	0x0398	STATIC ENCOUNTER			Azelf Disappeared
+0	0x0399	STATIC ENCOUNTER			Regice Disappeared
+0	0x039A	STATIC ENCOUNTER			Regirock Disappeared
+0	0x039B	STATIC ENCOUNTER			Registeel Disappeared
+0	0x039C	STATIC ENCOUNTER			Regigigas Disappeared
+0	0x03A1	STATIC ENCOUNTER	Route 6		Capture/Defeat Foongus
+0	0x03A3	STATIC ENCOUNTER	Route 6		Capture/Defeat Foongus
+0	0x03A6	STATIC ENCOUNTER	Route 11		Capture/Defeat Amoonguss
+0	0x03A7	STATIC ENCOUNTER	Route 11		Capture/Defeat Amoonguss
+0	0x03A8	STATIC ENCOUNTER	Route 22		Capture/Defeat Amoonguss
+0	0x03A9	STATIC ENCOUNTER	Route 22		Capture/Defeat Amoonguss
+0	0x03AC	STATIC ENCOUNTER	Route 23		Capture/Defeat Amoonguss
+0	0x03B2	STATIC ENCOUNTER			Shiny Haxorus in Nature Preserve disappeared
 0	0x03C7	ITEM GIFT	Lostlorn Forest		TM95 (Snarl) from Backpacker
 0	0x03E4	PKMN GIFT			Benga with Shiny Gible/Dratini Gift disappeared from Alder's house
-0	0x03EC	STATIC BATTLE			Kyurem Disappeared
+0	0x03EC	STATIC ENCOUNTER			Kyurem Disappeared
 0	0x0448	FIELD ITEM			000 (Flag 0x448)
 0	0x0449	FIELD ITEM			001 (Flag 0x449)
 0	0x044A	FIELD ITEM			002 (Flag 0x44A)
@@ -1199,8 +1199,8 @@
 0	0x090D	TRAINER BATTLE			757 (Flag 0x90D)
 0	0x090E	TRAINER BATTLE			758 (Flag 0x90E)
 0	0x090F	TRAINER BATTLE			759 (Flag 0x90F)
-0	0x0AD6	STATIC BATTLE			Weekly Mandibuzz/Braviary on Route 4 disappeared
-0	0x0AD7	STATIC BATTLE			Weekly Jellicent in Undella Bay disappeared
+0	0x0AD6	STATIC ENCOUNTER			Weekly Mandibuzz/Braviary on Route 4 disappeared
+0	0x0AD7	STATIC ENCOUNTER			Weekly Jellicent in Undella Bay disappeared
 0	0x0B00	HIDDEN ITEM			000 (Flag 0xB00)
 0	0x0B01	HIDDEN ITEM			001 (Flag 0xB01)
 0	0x0B02	HIDDEN ITEM			002 (Flag 0xB02)

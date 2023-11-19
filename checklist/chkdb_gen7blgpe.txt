@@ -270,10 +270,10 @@
 0	0x0436	HIDDEN ITEM	Power Plant		Voltorb Candy
 0	0x0437	HIDDEN ITEM	Power Plant		Voltorb Candy
 0	0x0438	HIDDEN ITEM	Power Plant		Voltorb Candy
-0	0x043A	STATIC BATTLE	Power Plant		Capture/Defeat Electrode
-0	0x043B	STATIC BATTLE	Power Plant		Capture/Defeat Electrode
-0	0x043C	STATIC BATTLE	Power Plant		Capture/Defeat Electrode
-0	0x043D	STATIC BATTLE	Power Plant		Capture/Defeat Electrode
+0	0x043A	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode
+0	0x043B	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode
+0	0x043C	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode
+0	0x043D	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode
 0	0x043E	HIDDEN ITEM	Power Plant		r010r0101_PartnerStop
 0	0x043F	HIDDEN ITEM	Power Plant		r010r0101_PartnerStop_0
 0	0x0440	HIDDEN ITEM	Power Plant		r010r0101_PartnerStop_1
@@ -530,10 +530,10 @@
 0	0x08B3	ITEM GIFT	Route 16	House	TM14 (Fly) from girl
 0	0x08B6	TRAINER BATTLE	Team Rocket Hideout	B4F	Pokémon Trainer Archer
 0	0x08B8	TRAINER BATTLE	Cerulean Cave	B1F	Pokémon Trainer Green
-0	0x08BE	STATIC BATTLE	Victory Road	2F	Capture Moltres
-0	0x08C0	STATIC BATTLE	Power Plant		Capture Zapdos
-0	0x08C2	STATIC BATTLE	Seafoam Islands	B4F	Capture Articuno
-0	0x08C4	STATIC BATTLE	Cerulean Cave	B1F	Capture Mewtwo
+0	0x08BE	STATIC ENCOUNTER	Victory Road	2F	Capture Moltres
+0	0x08C0	STATIC ENCOUNTER	Power Plant		Capture Zapdos
+0	0x08C2	STATIC ENCOUNTER	Seafoam Islands	B4F	Capture Articuno
+0	0x08C4	STATIC ENCOUNTER	Cerulean Cave	B1F	Capture Mewtwo
 0	0x08C6	ITEM GIFT	Route 15	Gate	Assistant Set from Oak's assistant
 0	0x08C7	ITEM GIFT	Saffron City		Officer Set from officer
 0	0x08C8	ITEM GIFT	Pokémon Tower	1F	Formal Set from old woman
@@ -552,8 +552,8 @@
 0	0x08F2	IN-GAME TRADE			FE_FIELD_TRADE_FIRST_07
 0	0x091C	ITEM GIFT	Lavender Town		Great Ball (x20) from guy
 0	0x093F	IN-GAME TRADE			FE_FIELD_TRADE_FIRST_08
-0	0x0940	STATIC BATTLE	Route 12		FE_CAPTURE_KABIGON_ROAD012
-0	0x0941	STATIC BATTLE	Route 16		FE_CAPTURE_KABIGON_ROAD016
+0	0x0940	STATIC ENCOUNTER	Route 12		FE_CAPTURE_KABIGON_ROAD012
+0	0x0941	STATIC ENCOUNTER	Route 16		FE_CAPTURE_KABIGON_ROAD016
 0	0x0AB0	TRAINER BATTLE			TR_000
 0	0x0AB1	TRAINER BATTLE			TR_001
 0	0x0AB2	TRAINER BATTLE			TR_002

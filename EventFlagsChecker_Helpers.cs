@@ -30,8 +30,8 @@ namespace MissingEventFlagsCheckerPlugin
                     flagType = EventFlagsChecker.EventFlagType.TrainerBattle;
                     break;
 
-                case "STATIC BATTLE":
-                    flagType = EventFlagsChecker.EventFlagType.StaticBattle;
+                case "STATIC ENCOUNTER":
+                    flagType = EventFlagsChecker.EventFlagType.StaticEncounter;
                     break;
 
                 case "IN-GAME TRADE":
@@ -108,8 +108,8 @@ namespace MissingEventFlagsCheckerPlugin
                     flagTypeTxt = "TRAINER BATTLE";
                     break;
 
-                case EventFlagsChecker.EventFlagType.StaticBattle:
-                    flagTypeTxt = "STATIC BATTLE";
+                case EventFlagsChecker.EventFlagType.StaticEncounter:
+                    flagTypeTxt = "STATIC ENCOUNTER";
                     break;
 
                 case EventFlagsChecker.EventFlagType.InGameTrade:

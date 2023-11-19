@@ -7,24 +7,24 @@
 0	0x0160	SIDE EVENT			Reshiram/Zekrom (N's Castle) Disappeared
 0	0x0163	SIDE EVENT			Darmanitan (middle-left) disappeared from Desert Resort
 0	0x0168	IN-GAME TRADE			Darmanitan (bottom-left) disappeared from Desert Resort
-0	0x0289	STATIC BATTLE			Darmanitan (top-left) disappeared from Desert Resort
-0	0x028A	STATIC BATTLE			Darmanitan (middle-right) disappeared from Desert Resort
-0	0x028B	STATIC BATTLE			Darmanitan (top-right) disappeared from Desert Resort
+0	0x0289	STATIC ENCOUNTER			Darmanitan (top-left) disappeared from Desert Resort
+0	0x028A	STATIC ENCOUNTER			Darmanitan (middle-right) disappeared from Desert Resort
+0	0x028B	STATIC ENCOUNTER			Darmanitan (top-right) disappeared from Desert Resort
 0	0x0295	STORY EVENT			Reshiram/Zekrom (Dragonspiral Tower) Disappeared
-0	0x0297	STATIC BATTLE			Capture/Defeat Foongus
-0	0x0298	STATIC BATTLE			Capture/Defeat Foongus
-0	0x0299	STATIC BATTLE			Capture/Defeat Amoongus
-0	0x029A	STATIC BATTLE			Capture/Defeat Amoongus
-0	0x029B	STATIC BATTLE			Capture/Defeat Foongus
-0	0x02FE	STATIC BATTLE			Capture/Defeat Foongus
-0	0x02FF	STATIC BATTLE	Route 6		Kyurem Disappeared
-0	0x0300	STATIC BATTLE	Route 6		Volcarona Disappeared
-0	0x0301	STATIC BATTLE	Route 10		
-0	0x0302	STATIC BATTLE	Route 10		
-0	0x0303	STATIC BATTLE	Route 10		
-0	0x0304	STATIC BATTLE	Route 10		
-0	0x0321	STATIC BATTLE			
-0	0x032A	STATIC BATTLE			
+0	0x0297	STATIC ENCOUNTER			Capture/Defeat Foongus
+0	0x0298	STATIC ENCOUNTER			Capture/Defeat Foongus
+0	0x0299	STATIC ENCOUNTER			Capture/Defeat Amoongus
+0	0x029A	STATIC ENCOUNTER			Capture/Defeat Amoongus
+0	0x029B	STATIC ENCOUNTER			Capture/Defeat Foongus
+0	0x02FE	STATIC ENCOUNTER			Capture/Defeat Foongus
+0	0x02FF	STATIC ENCOUNTER	Route 6		Kyurem Disappeared
+0	0x0300	STATIC ENCOUNTER	Route 6		Volcarona Disappeared
+0	0x0301	STATIC ENCOUNTER	Route 10		
+0	0x0302	STATIC ENCOUNTER	Route 10		
+0	0x0303	STATIC ENCOUNTER	Route 10		
+0	0x0304	STATIC ENCOUNTER	Route 10		
+0	0x0321	STATIC ENCOUNTER			
+0	0x032A	STATIC ENCOUNTER			
 0	0x0380	HIDDEN ITEM			000 (Flag 0x380)
 0	0x0381	HIDDEN ITEM			001 (Flag 0x381)
 0	0x0382	HIDDEN ITEM			002 (Flag 0x382)

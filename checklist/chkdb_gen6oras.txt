@@ -110,7 +110,7 @@
 0	0x0121	ITEM GIFT			FE_R123R0201_ITEMGET_01
 0	0x012A	PKMN GIFT			Received Diancite
 0	0x012D	STORY EVENT			Defeated Primal Groudon/Kyogre (Story Event)
-0	0x012F	STATIC BATTLE			Spiritomb Captured
+0	0x012F	STATIC ENCOUNTER			Spiritomb Captured
 0	0x0134	PKMN GIFT			Received Prison Bottle
 0	0x0136	PKMN GIFT			Received Johto Starter
 0	0x0137	PKMN GIFT			Received Unova Starter
@@ -163,26 +163,26 @@
 0	0x0184	SIDE EVENT			Super Rotation Unlocked
 0	0x0185	SIDE EVENT			Super Multi Unlocked
 0	0x01BB	ITEM GIFT			Found Big Nugget in Trick House Prize Room
-0	0x01F8	STATIC BATTLE			Invisible Kecleon Disappeared (Route 119, Above the Waterfall)
-0	0x01FA	STATIC BATTLE			Invisible Kecleon Disappeared (Route 120, Stairs)
-0	0x01FC	STATIC BATTLE			Invisible Kecleon Disappeared (Route 120, Left of Long Grass Maze)
-0	0x01FE	STATIC BATTLE			Invisible Kecleon Disappeared (Lavaridge Town)
-0	0x0200	STATIC BATTLE			Invisible Kecleon Disappeared (Mossdeep Space Center)
-0	0x0203	STATIC BATTLE			Latias Disappeared
-0	0x0204	STATIC BATTLE			Latios Disappeared
+0	0x01F8	STATIC ENCOUNTER			Invisible Kecleon Disappeared (Route 119, Above the Waterfall)
+0	0x01FA	STATIC ENCOUNTER			Invisible Kecleon Disappeared (Route 120, Stairs)
+0	0x01FC	STATIC ENCOUNTER			Invisible Kecleon Disappeared (Route 120, Left of Long Grass Maze)
+0	0x01FE	STATIC ENCOUNTER			Invisible Kecleon Disappeared (Lavaridge Town)
+0	0x0200	STATIC ENCOUNTER			Invisible Kecleon Disappeared (Mossdeep Space Center)
+0	0x0203	STATIC ENCOUNTER			Latias Disappeared
+0	0x0204	STATIC ENCOUNTER			Latios Disappeared
 0	0x02B4	SIDE EVENT			Defeated Winstrate Family
-0	0x02BE	STATIC BATTLE			Invisible Kecleon Disappeared (Route 120, Bridge)
+0	0x02BE	STATIC ENCOUNTER			Invisible Kecleon Disappeared (Route 120, Bridge)
 0	0x0315	SIDE EVENT			Root Fossil Disappeared from Route 111
 0	0x0316	SIDE EVENT			Claw Fossil Disappeared from Route 111
 0	0x0328	PKMN GIFT			Breeder (Cosplay Pikachu Changer) Disappeared
-0	0x039F	STATIC BATTLE			Voltorb 1 Disappeared from New Mauville
-0	0x03A0	STATIC BATTLE			Voltorb 2 Disappeared from New Mauville
-0	0x03A1	STATIC BATTLE			Voltorb 3 Disappeared from New Mauville
-0	0x03A2	STATIC BATTLE			Voltorb 4 Disappeared from New Mauville
-0	0x0412	STATIC BATTLE			(AS) Electrode 1 Disappeared from Team Aqua Hideout
-0	0x0413	STATIC BATTLE			(AS) Electrode 2 Disappeared from Team Aqua Hideout
-0	0x0414	STATIC BATTLE			(OR) Electrode 1 Disappeared from Team Magma Hideout
-0	0x0415	STATIC BATTLE			(OR) Electrode 2 Disappeared from Team Magma Hideout
+0	0x039F	STATIC ENCOUNTER			Voltorb 1 Disappeared from New Mauville
+0	0x03A0	STATIC ENCOUNTER			Voltorb 2 Disappeared from New Mauville
+0	0x03A1	STATIC ENCOUNTER			Voltorb 3 Disappeared from New Mauville
+0	0x03A2	STATIC ENCOUNTER			Voltorb 4 Disappeared from New Mauville
+0	0x0412	STATIC ENCOUNTER			(AS) Electrode 1 Disappeared from Team Aqua Hideout
+0	0x0413	STATIC ENCOUNTER			(AS) Electrode 2 Disappeared from Team Aqua Hideout
+0	0x0414	STATIC ENCOUNTER			(OR) Electrode 1 Disappeared from Team Magma Hideout
+0	0x0415	STATIC ENCOUNTER			(OR) Electrode 2 Disappeared from Team Magma Hideout
 0	0x044C	HIDDEN ITEM			FLAG_HIDEITEM_000
 0	0x044D	HIDDEN ITEM			FLAG_HIDEITEM_001
 0	0x044E	HIDDEN ITEM			FLAG_HIDEITEM_002
@@ -1842,37 +1842,37 @@
 0	0x0B55	SIDE EVENT			Can Fly to Pokémon League
 0	0x0B56	SIDE EVENT			Can Fly to Safari Zone
 0	0x0B57	STORY EVENT			Discovered Southern Island (Story Event)
-0	0x0B5B	STATIC BATTLE			Raikou Captured
-0	0x0B5C	STATIC BATTLE			Entei Captured
-0	0x0B5D	STATIC BATTLE			Suicune Captured
-0	0x0B5E	STATIC BATTLE			(AS) Lugia Captured
-0	0x0B5F	STATIC BATTLE			(OR) Ho-Oh Captured
-0	0x0B60	STATIC BATTLE			Uxie Captured
-0	0x0B61	STATIC BATTLE			Mesprit Captured
-0	0x0B62	STATIC BATTLE			Azelf Captured
-0	0x0B63	STATIC BATTLE			(AS) Dialga Captured
-0	0x0B64	STATIC BATTLE			(OR) Palkia Captured
-0	0x0B65	STATIC BATTLE			Heatran Captured
-0	0x0B66	STATIC BATTLE			Regigigas Captured
-0	0x0B67	STATIC BATTLE			Giratina Captured
-0	0x0B68	STATIC BATTLE			Cresselia Captured
-0	0x0B69	STATIC BATTLE			Cobalion Captured
-0	0x0B6A	STATIC BATTLE			Terrakion Captured
-0	0x0B6B	STATIC BATTLE			Virizion Captured
-0	0x0B6C	STATIC BATTLE			(OR) Tornadus Captured
-0	0x0B6D	STATIC BATTLE			(AS) Thundurus Captured
-0	0x0B6E	STATIC BATTLE			(OR) Reshiram Captured
-0	0x0B6F	STATIC BATTLE			(AS) Zekrom Captured
-0	0x0B70	STATIC BATTLE			Landorus Captured
-0	0x0B71	STATIC BATTLE			Kyurem Captured
-0	0x0B72	STATIC BATTLE			Latias Captured
-0	0x0B73	STATIC BATTLE			Latios Captured
-0	0x0B74	STATIC BATTLE			Regirock Captured
-0	0x0B75	STATIC BATTLE			Regice Captured
-0	0x0B76	STATIC BATTLE			Registeel Captured
-0	0x0B77	STATIC BATTLE			(OR) Groudon Captured
-0	0x0B78	STATIC BATTLE			(AS) Kyogre Captured
-0	0x0B7A	STATIC BATTLE			Deoxys Captured @ Sky Pillar
+0	0x0B5B	STATIC ENCOUNTER			Raikou Captured
+0	0x0B5C	STATIC ENCOUNTER			Entei Captured
+0	0x0B5D	STATIC ENCOUNTER			Suicune Captured
+0	0x0B5E	STATIC ENCOUNTER			(AS) Lugia Captured
+0	0x0B5F	STATIC ENCOUNTER			(OR) Ho-Oh Captured
+0	0x0B60	STATIC ENCOUNTER			Uxie Captured
+0	0x0B61	STATIC ENCOUNTER			Mesprit Captured
+0	0x0B62	STATIC ENCOUNTER			Azelf Captured
+0	0x0B63	STATIC ENCOUNTER			(AS) Dialga Captured
+0	0x0B64	STATIC ENCOUNTER			(OR) Palkia Captured
+0	0x0B65	STATIC ENCOUNTER			Heatran Captured
+0	0x0B66	STATIC ENCOUNTER			Regigigas Captured
+0	0x0B67	STATIC ENCOUNTER			Giratina Captured
+0	0x0B68	STATIC ENCOUNTER			Cresselia Captured
+0	0x0B69	STATIC ENCOUNTER			Cobalion Captured
+0	0x0B6A	STATIC ENCOUNTER			Terrakion Captured
+0	0x0B6B	STATIC ENCOUNTER			Virizion Captured
+0	0x0B6C	STATIC ENCOUNTER			(OR) Tornadus Captured
+0	0x0B6D	STATIC ENCOUNTER			(AS) Thundurus Captured
+0	0x0B6E	STATIC ENCOUNTER			(OR) Reshiram Captured
+0	0x0B6F	STATIC ENCOUNTER			(AS) Zekrom Captured
+0	0x0B70	STATIC ENCOUNTER			Landorus Captured
+0	0x0B71	STATIC ENCOUNTER			Kyurem Captured
+0	0x0B72	STATIC ENCOUNTER			Latias Captured
+0	0x0B73	STATIC ENCOUNTER			Latios Captured
+0	0x0B74	STATIC ENCOUNTER			Regirock Captured
+0	0x0B75	STATIC ENCOUNTER			Regice Captured
+0	0x0B76	STATIC ENCOUNTER			Registeel Captured
+0	0x0B77	STATIC ENCOUNTER			(OR) Groudon Captured
+0	0x0B78	STATIC ENCOUNTER			(AS) Kyogre Captured
+0	0x0B7A	STATIC ENCOUNTER			Deoxys Captured @ Sky Pillar
 0	0x0BA3	SIDE EVENT			Can Fly to Secret Islet
 0	0x0BA4	SIDE EVENT			Can Fly to Secret Shore
 0	0x0BA5	SIDE EVENT			Can Fly to Secret Meadow

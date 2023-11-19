@@ -330,7 +330,7 @@ HS-Flags	0x1F	FIELD ITEM	Route 12		TM16 (Pay Day)
 EvtFlags	0x483	TRAINER BATTLE	Route 12		Fisherman (Chip)
 EvtFlags	0x486	TRAINER BATTLE	Route 12		Fisherman (Hank)
 EvtFlags	0x487	TRAINER BATTLE	Route 12		Fisherman (Elliot)
-EvtFlags	0x48F	STATIC BATTLE	Route 12		Capture/Defeat Snorlax
+EvtFlags	0x48F	STATIC ENCOUNTER	Route 12		Capture/Defeat Snorlax
 HI-Flags	0x1D	HIDDEN ITEM	Route 12		Hyper Potion
 EvtFlags	0x485	TRAINER BATTLE	Route 12		Rocker (Luca)
 wd728	0x05	ITEM GIFT	Route 12	House	Super Rod from Fishing Guru
@@ -376,7 +376,7 @@ EvtFlags	0x4BA	TRAINER BATTLE	Route 15		Jr. Trainer♀ (Yazmin)
 EvtFlags	0x4B0	ITEM GIFT	Route 15	Gate	Exp. All from Oak's Aide
 -	0	_SEPARATOR			
 EvtFlags	0x4CE	ITEM GIFT	Route 16	House	HM02 (Fly) from girl
-EvtFlags	0x4C9	STATIC BATTLE	Route 16		Capture/Defeat Snorlax
+EvtFlags	0x4C9	STATIC ENCOUNTER	Route 16		Capture/Defeat Snorlax
 EvtFlags	0x4C1	TRAINER BATTLE	Route 16		Biker (Lao)
 EvtFlags	0x4C2	TRAINER BATTLE	Route 16		Cue Ball (Koji)
 EvtFlags	0x4C3	TRAINER BATTLE	Route 16		Cue Ball (Luke)
@@ -535,7 +535,7 @@ EvtFlags	0x50A	TRAINER BATTLE	Route 20		Beauty (Melissa)
 HI-Flags	0x08	HIDDEN ITEM	Seafoam Islands	B2F	Nugget
 HI-Flags	0x09	HIDDEN ITEM	Seafoam Islands	B3F	Max Elixer
 HI-Flags	0x0A	HIDDEN ITEM	Seafoam Islands	B4F	Ultra Ball
-EvtFlags	0x9DA	STATIC BATTLE	Seafoam Islands	B4F	Capture/Defeat Articuno
+EvtFlags	0x9DA	STATIC ENCOUNTER	Seafoam Islands	B4F	Capture/Defeat Articuno
 -	0	_SEPARATOR			
 FlyFlags	0x08	FLY SPOT	Cinnabar Island		Unlock Cinnabar Island fly spot
 EvtFlags	0x2D7	ITEM GIFT	Cinnabar Island	Pokémon Lab	TM35 (Metronome) from scientist
@@ -617,7 +617,7 @@ HS-Flags	0x5C	FIELD ITEM	Victory Road	2F	TM17 (Submission)
 EvtFlags	0x53C	TRAINER BATTLE	Victory Road	2F	PokéManiac (Dawson)
 HI-Flags	0x28	HIDDEN ITEM	Victory Road	2F	Ultra Ball
 HS-Flags	0x5F	FIELD ITEM	Victory Road	2F	Guard Spec.
-EvtFlags	0x53E	STATIC BATTLE	Victory Road	2F	Capture/Defeat Moltres
+EvtFlags	0x53E	STATIC ENCOUNTER	Victory Road	2F	Capture/Defeat Moltres
 HI-Flags	0x29	HIDDEN ITEM	Victory Road	2F	Full Restore
 EvtFlags	0x661	TRAINER BATTLE	Victory Road	3F	Cooltrainer♂ (George)
 HS-Flags	0x7B	FIELD ITEM	Victory Road	3F	TM47 (Explosion)
@@ -628,21 +628,21 @@ EvtFlags	0x664	TRAINER BATTLE	Victory Road	3F	Cooltrainer♀ (Alexa)
 -	0	_SEPARATOR			
 EvtFlags	0x451	TRAINER BATTLE	Route 10		PokéManiac (Mark)
 HS-Flags	0x56	FIELD ITEM	Power Plant		Carbos
-EvtFlags	0x461	STATIC BATTLE	Power Plant		Capture/Defeat Voltorb
-EvtFlags	0x462	STATIC BATTLE	Power Plant		Capture/Defeat Voltorb
-EvtFlags	0x464	STATIC BATTLE	Power Plant		Capture/Defeat Electrode
+EvtFlags	0x461	STATIC ENCOUNTER	Power Plant		Capture/Defeat Voltorb
+EvtFlags	0x462	STATIC ENCOUNTER	Power Plant		Capture/Defeat Voltorb
+EvtFlags	0x464	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode
 HI-Flags	0x1A	HIDDEN ITEM	Power Plant		Max Elixer
 HS-Flags	0x5A	FIELD ITEM	Power Plant		TM33 (Reflect)
-EvtFlags	0x465	STATIC BATTLE	Power Plant		Capture/Defeat Voltorb
-EvtFlags	0x463	STATIC BATTLE	Power Plant		Capture/Defeat Voltorb
-EvtFlags	0x466	STATIC BATTLE	Power Plant		Capture/Defeat Voltorb
+EvtFlags	0x465	STATIC ENCOUNTER	Power Plant		Capture/Defeat Voltorb
+EvtFlags	0x463	STATIC ENCOUNTER	Power Plant		Capture/Defeat Voltorb
+EvtFlags	0x466	STATIC ENCOUNTER	Power Plant		Capture/Defeat Voltorb
 HS-Flags	0x59	FIELD ITEM	Power Plant		TM25 (Thunder)
-EvtFlags	0x468	STATIC BATTLE	Power Plant		Capture/Defeat Voltorb
+EvtFlags	0x468	STATIC ENCOUNTER	Power Plant		Capture/Defeat Voltorb
 HS-Flags	0x58	FIELD ITEM	Power Plant		Rare Candy
 HS-Flags	0x57	FIELD ITEM	Power Plant		HP Up
-EvtFlags	0x467	STATIC BATTLE	Power Plant		Capture/Defeat Electrode
+EvtFlags	0x467	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode
 HI-Flags	0x1B	HIDDEN ITEM	Power Plant		PP Up
-EvtFlags	0x469	STATIC BATTLE	Power Plant		Capture/Defeat Zapdos
+EvtFlags	0x469	STATIC ENCOUNTER	Power Plant		Capture/Defeat Zapdos
 -	0	_SEPARATOR			
 FlyFlags	0x09	FLY SPOT	Indigo Plateau		Unlock Indigo Plateau fly spot
 HS-Flags	0x09	STORY EVENT	Indigo Plateau		Become Pokémon League Champion and finish main story
@@ -662,7 +662,7 @@ HI-Flags	0x06	HIDDEN ITEM	Cerulean Cave	B1F	PP Up
 HS-Flags	0xD9	FIELD ITEM	Cerulean Cave	B1F	Ultra Ball
 HS-Flags	0xDA	FIELD ITEM	Cerulean Cave	B1F	Max Revive
 HS-Flags	0xD8	FIELD ITEM	Cerulean Cave	B1F	Ultra Ball
-EvtFlags	0x8C1	STATIC BATTLE	Cerulean Cave	B1F	Capture/Defeat Mewtwo
+EvtFlags	0x8C1	STATIC ENCOUNTER	Cerulean Cave	B1F	Capture/Defeat Mewtwo
 -	0	_SEPARATOR			
 Score	0x00	SIDE EVENT	Route 19		Have a Hi-Score in the Pikachu's Beach minigame
 -	0	_SEPARATOR			

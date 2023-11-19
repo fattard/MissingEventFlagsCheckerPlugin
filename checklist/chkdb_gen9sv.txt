@@ -4356,7 +4356,7 @@ EvtFlags	0xFC221F98	SIDE EVENT			Removed Chi-Yu Stake 5
 EvtFlags	0x6714A749	SIDE EVENT			Removed Chi-Yu Stake 6
 EvtFlags	0xC83DEFF6	SIDE EVENT			Removed Chi-Yu Stake 7
 EvtFlags	0xCA415ABF	SIDE EVENT			Removed Chi-Yu Stake 8
-EvtFlags	0x987B8A24	STATIC BATTLE	Area Zero		Capture wild Koraidon / Miraidon
+EvtFlags	0x987B8A24	STATIC ENCOUNTER	Area Zero		Capture wild Koraidon / Miraidon
 EvtFlags	0xCEF6C179	IN-GAME TRADE	Cortondo		Traded a Flabébé for Snom (Snowsalot)
 EvtFlags	0xCEF6BC60	IN-GAME TRADE	Cascarrafa		Traded a Paldean Wooper for Wooper (Manchester)
 EvtFlags	0xCEF6BE13	IN-GAME TRADE	Levincia		Traded a Pincurchin for Haunter (Hauntikins)
@@ -4402,39 +4402,39 @@ EvtFlags	0x1672A8E4	SIDE EVENT	Porto Marinada	Auction	Purchased Lustrous Globe
 EvtFlags	0xFE092048	SIDE EVENT	Porto Marinada	Auction	Purchased Griseous Core
 EvtFlags	0x06B12DD6	SIDE EVENT	Porto Marinada	Auction	Purchased Scroll Of Darkness
 EvtFlags	0x06B14087	SIDE EVENT	Porto Marinada	Auction	Purchased Scroll Of Waters
-EvtFlags	0x2D7B5238	STATIC BATTLE	Casseroya Lake		Captured Titan Tatsugiri
-EvtFlags	0x740065E9	STATIC BATTLE	East Province (Area Three)		Captured Titan Orthworm
-EvtFlags	0x7C6F7BD2	STATIC BATTLE	West Province (Area One)		Captured Titan Bombirdier
-EvtFlags	0x8CFF73AE	STATIC BATTLE	South Province (Area Three)		Captured Titan Klawf
-EvtFlags	0xDCFC1846	STATIC BATTLE	Asado Desert		Captured Titan Great Tusk / Iron Treads
-EvtFlags	0x1282B067	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_00
-EvtFlags	0x1282AEB4	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_01
-EvtFlags	0x1282B3CD	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_02
-EvtFlags	0x1282B21A	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_03
-EvtFlags	0x1282A99B	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_04
-EvtFlags	0x1282A7E8	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_05
-EvtFlags	0x1282AD01	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_06
-EvtFlags	0x1282AB4E	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_07
-EvtFlags	0x1282A2CF	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_08
-EvtFlags	0x1282A11C	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_09
-EvtFlags	0x127F96DE	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_10
-EvtFlags	0x127F9891	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_11
-EvtFlags	0x127F9378	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_12
-EvtFlags	0x127F952B	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_13
-EvtFlags	0x127F9DAA	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_14
-EvtFlags	0x127F9F5D	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_15
-EvtFlags	0x127F9A44	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_16
-EvtFlags	0x127F9BF7	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_17
-EvtFlags	0x127F8946	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_18
-EvtFlags	0x127F8AF9	STATIC BATTLE	Casseroya Lake		SUSHI_DAMMY_19
+EvtFlags	0x2D7B5238	STATIC ENCOUNTER	Casseroya Lake		Captured Titan Tatsugiri
+EvtFlags	0x740065E9	STATIC ENCOUNTER	East Province (Area Three)		Captured Titan Orthworm
+EvtFlags	0x7C6F7BD2	STATIC ENCOUNTER	West Province (Area One)		Captured Titan Bombirdier
+EvtFlags	0x8CFF73AE	STATIC ENCOUNTER	South Province (Area Three)		Captured Titan Klawf
+EvtFlags	0xDCFC1846	STATIC ENCOUNTER	Asado Desert		Captured Titan Great Tusk / Iron Treads
+EvtFlags	0x1282B067	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_00
+EvtFlags	0x1282AEB4	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_01
+EvtFlags	0x1282B3CD	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_02
+EvtFlags	0x1282B21A	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_03
+EvtFlags	0x1282A99B	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_04
+EvtFlags	0x1282A7E8	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_05
+EvtFlags	0x1282AD01	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_06
+EvtFlags	0x1282AB4E	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_07
+EvtFlags	0x1282A2CF	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_08
+EvtFlags	0x1282A11C	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_09
+EvtFlags	0x127F96DE	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_10
+EvtFlags	0x127F9891	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_11
+EvtFlags	0x127F9378	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_12
+EvtFlags	0x127F952B	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_13
+EvtFlags	0x127F9DAA	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_14
+EvtFlags	0x127F9F5D	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_15
+EvtFlags	0x127F9A44	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_16
+EvtFlags	0x127F9BF7	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_17
+EvtFlags	0x127F8946	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_18
+EvtFlags	0x127F8AF9	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_19
 EvtFlags	0x0DDBBC62	STORY EVENT			Finished The Teal Mask story
 EvtFlags	0xA066600C	SIDE EVENT			Claimed Kitakami Pokedex Diploma
 EvtFlags	0xCB190E5E	SIDE EVENT			KCompletedBillyONareQuestPart1
 EvtFlags	0x6BBE8497	SIDE EVENT			KCompletedBillyONareQuestPart2
 EvtFlags	0xDB267000	SIDE EVENT			KCompletedBillyONareQuestPart3
-EvtFlags	0x7042479E	STATIC BATTLE			KCapturedOkidogi
-EvtFlags	0x9F5556DD	STATIC BATTLE			KCapturedMunkidori
-EvtFlags	0xFF7CAD99	STATIC BATTLE			KCapturedFezandipiti
+EvtFlags	0x7042479E	STATIC ENCOUNTER			KCapturedOkidogi
+EvtFlags	0x9F5556DD	STATIC ENCOUNTER			KCapturedMunkidori
+EvtFlags	0xFF7CAD99	STATIC ENCOUNTER			KCapturedFezandipiti
 EvtFlags	0x19B5A525	ITEM GIFT			KOgreClanReward1
 EvtFlags	0x19B5A00C	ITEM GIFT			KOgreClanReward2
 EvtFlags	0x19B5A1BF	ITEM GIFT			KOgreClanReward3

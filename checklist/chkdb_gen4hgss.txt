@@ -20,26 +20,26 @@
 0	0x0165	IN-GAME TRADE			Traded with Brock
 0	0x0166	IN-GAME TRADE			Traded with Jasmine
 0	0x0167	IN-GAME TRADE			Traded with Steven
-0	0x016A	STATIC BATTLE			Caught Red Gyarados
+0	0x016A	STATIC ENCOUNTER			Caught Red Gyarados
 0	0x0177	SIDE EVENT			Got Hoenn Starter from Steven
 0	0x0184	SIDE EVENT			Obtained 1 Shiny Crown (Trainer Card Upgrade)
-0	0x01C2	STATIC BATTLE			Route 36 Sudowoodo Disappeared
+0	0x01C2	STATIC ENCOUNTER			Route 36 Sudowoodo Disappeared
 0	0x01C9	STORY EVENT			Raikou Roamed
 0	0x01CA	STORY EVENT			Entei Roamed
 0	0x01CB	STORY EVENT			Suicune (Burned Tower) Fled
-0	0x01E3	STATIC BATTLE			Red Gyarados Disappeared
-0	0x01F5	STATIC BATTLE			Team Rocket HQ Electrode (1) Disappeared
-0	0x01F6	STATIC BATTLE			Team Rocket HQ Electrode (2) Disappeared
-0	0x01F7	STATIC BATTLE			Team Rocket HQ Electrode (3) Disappeared
+0	0x01E3	STATIC ENCOUNTER			Red Gyarados Disappeared
+0	0x01F5	STATIC ENCOUNTER			Team Rocket HQ Electrode (1) Disappeared
+0	0x01F6	STATIC ENCOUNTER			Team Rocket HQ Electrode (2) Disappeared
+0	0x01F7	STATIC ENCOUNTER			Team Rocket HQ Electrode (3) Disappeared
 0	0x021B	SIDE EVENT			Solved Ruins of Alph Escape Rope wall puzzle
 0	0x021D	SIDE EVENT			Solved Ruins of Alph Flash wall puzzle
 0	0x021F	SIDE EVENT			Solved Ruins of Alph Water Stone wall puzzle
 0	0x0221	SIDE EVENT			Solved Ruins of Alph Ho-Oh wall puzzle
-0	0x0242	STATIC BATTLE			Ho-Oh Disappeared
-0	0x0243	STATIC BATTLE			Lugia Disappeared
-0	0x0261	STATIC BATTLE			Sleeping Snorlax Disappeared
-0	0x0297	STATIC BATTLE			Zapdos Disappeared
-0	0x02A1	STATIC BATTLE			Suicune (Route 25) Disappeared
+0	0x0242	STATIC ENCOUNTER			Ho-Oh Disappeared
+0	0x0243	STATIC ENCOUNTER			Lugia Disappeared
+0	0x0261	STATIC ENCOUNTER			Sleeping Snorlax Disappeared
+0	0x0297	STATIC ENCOUNTER			Zapdos Disappeared
+0	0x02A1	STATIC ENCOUNTER			Suicune (Route 25) Disappeared
 0	0x02B5	TRAINER BATTLE			Had Whitney Rematch
 0	0x02B6	TRAINER BATTLE			Had Janine Rematch
 0	0x02B7	TRAINER BATTLE			Had Clair Rematch
@@ -56,12 +56,12 @@
 0	0x02C2	TRAINER BATTLE			Had Morty Rematch
 0	0x02C3	TRAINER BATTLE			Had Jasmine Rematch
 0	0x02C4	TRAINER BATTLE			Had Pryce Rematch
-0	0x02D1	STATIC BATTLE			Kyogre/Groudon Disappeared
-0	0x02D2	STATIC BATTLE			Rayquaza Disappeared
-0	0x0305	STATIC BATTLE			Mewtwo Disappeared
-0	0x0306	STATIC BATTLE			Articuno Disappeared
-0	0x0307	STATIC BATTLE			Moltres Disappeared
-0	0x030D	STATIC BATTLE			Latias/Latios (Pewter City) Disappeared
+0	0x02D1	STATIC ENCOUNTER			Kyogre/Groudon Disappeared
+0	0x02D2	STATIC ENCOUNTER			Rayquaza Disappeared
+0	0x0305	STATIC ENCOUNTER			Mewtwo Disappeared
+0	0x0306	STATIC ENCOUNTER			Articuno Disappeared
+0	0x0307	STATIC ENCOUNTER			Moltres Disappeared
+0	0x030D	STATIC ENCOUNTER			Latias/Latios (Pewter City) Disappeared
 0	0x030E	SIDE EVENT			Suicune (Back to Burned Tower) Disappeared
 0	0x0320	HIDDEN ITEM	New Bark Town		Potion
 0	0x0321	HIDDEN ITEM	Cherrygrove City		Nugget
@@ -1589,4 +1589,4 @@
 0	0x095E	TRAINER BATTLE			
 0	0x095F	TRAINER BATTLE			
 0	0x0964	STORY EVENT			Entered Hall of Fame (Trainer Card Upgrade)
-0	0x0AB8	STATIC BATTLE			Friday Lapras Disappeared
+0	0x0AB8	STATIC ENCOUNTER			Friday Lapras Disappeared

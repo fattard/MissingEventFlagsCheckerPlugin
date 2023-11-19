@@ -1091,23 +1091,23 @@
 0	0x0CCA	FLY SPOT	Poni Island		Exeggutor Island
 0	0x0CCB	FLY SPOT	Aether Paradise Island		Aether Paradise
 0	0x0D2B	SIDE EVENT	Battle Tree		Defeated Red or Blue in Battle tree
-0	0x0D52	STATIC BATTLE	Digglett'sTunnel/Wela Volanco Park	Grass	Nihilego Disappered
-0	0x0D53	STATIC BATTLE	Melemele Meadow	Grass	First Pheromosa Disappeared (Moon)
-0	0x0D54	STATIC BATTLE	Melemele Meadow	Grass	First Buzzwole Disappeared (Sun)
-0	0x0D55	STATIC BATTLE	Melemele Meadow	Grass	Second Buzzwole Disappeared (Sun)
-0	0x0D56	STATIC BATTLE	Melemele Meadow	Grass	Second Pheromosa Disappeared (Moon)
-0	0x0D57	STATIC BATTLE	Melemele Meadow	Grass	Third Pheromosa Disappeared (Moon)
-0	0x0D58	STATIC BATTLE	Melemele Meadow	Grass	Fourth Pheromosa Disappeared (Moon)
-0	0x0D59	STATIC BATTLE	Lush Jungle/Memorial Hill	Grass	First Xurtitree Disappeared
-0	0x0D5A	STATIC BATTLE	Lush Jungle/Memorial Hill	Grass	Second Xurtitree Disappeared
-0	0x0D5B	STATIC BATTLE	Route 17/Malie Garden	Grass	First Kartana Diasppeared (Sun)
-0	0x0D6C	STATIC BATTLE	Route 17/Malie Garden	Grass	Second Kartana Diasppeared (Sun)
-0	0x0D6D	STATIC BATTLE	Route 17/Malie Garden	Grass	Third Kartana Diasppeared (Sun)
-0	0x0D6E	STATIC BATTLE	Route 17/Malie Garden	Grass	Fourth Kartana Diasppeared (Sun)
-0	0x0D6F	STATIC BATTLE	Haina Desert/Malie Garden	Grass	First Celesteela Disappeared (Moon)
-0	0x0D70	STATIC BATTLE	Haina Desert/Malie Garden	Grass	Second Celesteela Disappeared (Moon)
-0	0x0D72	STATIC BATTLE	Resolution Cave	B1F	Guzzlord Disappeared
-0	0x0D74	STATIC BATTLE	Ten Carat Hill	Overwrold/Grass	Necrozma Disappeared
+0	0x0D52	STATIC ENCOUNTER	Digglett'sTunnel/Wela Volanco Park	Grass	Nihilego Disappered
+0	0x0D53	STATIC ENCOUNTER	Melemele Meadow	Grass	First Pheromosa Disappeared (Moon)
+0	0x0D54	STATIC ENCOUNTER	Melemele Meadow	Grass	First Buzzwole Disappeared (Sun)
+0	0x0D55	STATIC ENCOUNTER	Melemele Meadow	Grass	Second Buzzwole Disappeared (Sun)
+0	0x0D56	STATIC ENCOUNTER	Melemele Meadow	Grass	Second Pheromosa Disappeared (Moon)
+0	0x0D57	STATIC ENCOUNTER	Melemele Meadow	Grass	Third Pheromosa Disappeared (Moon)
+0	0x0D58	STATIC ENCOUNTER	Melemele Meadow	Grass	Fourth Pheromosa Disappeared (Moon)
+0	0x0D59	STATIC ENCOUNTER	Lush Jungle/Memorial Hill	Grass	First Xurtitree Disappeared
+0	0x0D5A	STATIC ENCOUNTER	Lush Jungle/Memorial Hill	Grass	Second Xurtitree Disappeared
+0	0x0D5B	STATIC ENCOUNTER	Route 17/Malie Garden	Grass	First Kartana Diasppeared (Sun)
+0	0x0D6C	STATIC ENCOUNTER	Route 17/Malie Garden	Grass	Second Kartana Diasppeared (Sun)
+0	0x0D6D	STATIC ENCOUNTER	Route 17/Malie Garden	Grass	Third Kartana Diasppeared (Sun)
+0	0x0D6E	STATIC ENCOUNTER	Route 17/Malie Garden	Grass	Fourth Kartana Diasppeared (Sun)
+0	0x0D6F	STATIC ENCOUNTER	Haina Desert/Malie Garden	Grass	First Celesteela Disappeared (Moon)
+0	0x0D70	STATIC ENCOUNTER	Haina Desert/Malie Garden	Grass	Second Celesteela Disappeared (Moon)
+0	0x0D72	STATIC ENCOUNTER	Resolution Cave	B1F	Guzzlord Disappeared
+0	0x0D74	STATIC ENCOUNTER	Ten Carat Hill	Overwrold/Grass	Necrozma Disappeared
 0	0x0D8E	FLY SPOT	Ula Ula		Po Town
 0	0x0D91	FLY SPOT	Ula Ula Island		Lake of the Sunne
 0	0x0D92	FLY SPOT	Poni Island		Altar of the Sun

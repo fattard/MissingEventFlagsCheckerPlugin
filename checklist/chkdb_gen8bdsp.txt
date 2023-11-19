@@ -77,13 +77,13 @@ EvtFlags	0x00EA	ITEM GIFT			FE_KUJI_ACCE_GET
 EvtFlags	0x00EC	ITEM GIFT			FE_R209R0105_ITEM_GET
 EvtFlags	0x00ED	ITEM GIFT			FE_SIIRUIRE_GET
 EvtFlags	0x00EF	ITEM GIFT			FE_C04R0601_ITEM_GET
-EvtFlags	0x00F1	STATIC BATTLE			Captured Regigigas
+EvtFlags	0x00F1	STATIC ENCOUNTER			Captured Regigigas
 EvtFlags	0x00F2	ITEM GIFT			FE_C06R0301_ITEM_GET
 EvtFlags	0x00F3	ITEM GIFT			FE_D24R0201_ITEM_GET
-EvtFlags	0x00F6	STATIC BATTLE			Captured Heatran
-EvtFlags	0x00F7	STATIC BATTLE			Captured Giratina
-EvtFlags	0x00FB	STATIC BATTLE			Captured Azelf
-EvtFlags	0x00FC	STATIC BATTLE			Captured Uxie
+EvtFlags	0x00F6	STATIC ENCOUNTER			Captured Heatran
+EvtFlags	0x00F7	STATIC ENCOUNTER			Captured Giratina
+EvtFlags	0x00FB	STATIC ENCOUNTER			Captured Azelf
+EvtFlags	0x00FC	STATIC ENCOUNTER			Captured Uxie
 EvtFlags	0x00FD	ITEM GIFT			FE_C06_ACCE_GET
 EvtFlags	0x00FE	ITEM GIFT			FE_C07R0201_ACCE_GET
 EvtFlags	0x00FF	ITEM GIFT			FE_D03_ACCE_GET
@@ -106,10 +106,10 @@ EvtFlags	0x0116	ITEM GIFT			FE_C06R0601_ITEM_GET_BEAUTIFUL
 EvtFlags	0x0117	ITEM GIFT			FE_C06R0601_ITEM_GET_CUTE
 EvtFlags	0x0118	ITEM GIFT			FE_C06R0601_ITEM_GET_CLEVER
 EvtFlags	0x0119	ITEM GIFT			FE_C06R0601_ITEM_GET_STRONG
-EvtFlags	0x011E	STATIC BATTLE			Captured Rotom
+EvtFlags	0x011E	STATIC ENCOUNTER			Captured Rotom
 EvtFlags	0x012F	ITEM GIFT			FE_C05R1101_POFIN_GET
 EvtFlags	0x0130	ITEM GIFT			FE_C05_ALL_GOODS_GET
-EvtFlags	0x0134	STATIC BATTLE			Captured Dialga/Palkia
+EvtFlags	0x0134	STATIC ENCOUNTER			Captured Dialga/Palkia
 EvtFlags	0x0135	ITEM GIFT			FE_D06R0206_ITEM_GET
 EvtFlags	0x025B	HIDDEN ITEM			FT_DROP_ITEM_0
 EvtFlags	0x025C	HIDDEN ITEM			FT_DROP_ITEM_1
@@ -660,24 +660,24 @@ EvtFlags	0x04FF	ITEM GIFT			FE_C02_SEAL_GET1
 EvtFlags	0x0500	ITEM GIFT			FE_C02_SEAL_GET2
 EvtFlags	0x0501	FIELD ITEM			FV_FLD_ITEM_256
 EvtFlags	0x0502	ITEM GIFT			FE_C01_SEAL_GET1
-EvtFlags	0x0503	STATIC BATTLE			Captured Regirock
-EvtFlags	0x0504	STATIC BATTLE			Captured Regice
-EvtFlags	0x0505	STATIC BATTLE			Captured Registeel
-EvtFlags	0x0506	STATIC BATTLE			(SP) Captured Articuno
-EvtFlags	0x0507	STATIC BATTLE			(SP) Captured Zapdos
-EvtFlags	0x0508	STATIC BATTLE			(SP) Captured Moltres
-EvtFlags	0x0509	STATIC BATTLE			(BD) Captured Raikou
-EvtFlags	0x050A	STATIC BATTLE			(BD) Captured Entei
-EvtFlags	0x050B	STATIC BATTLE			(BD) Captured Suicune
-EvtFlags	0x050C	STATIC BATTLE			Captured Latias
-EvtFlags	0x050D	STATIC BATTLE			Captured Latios
-EvtFlags	0x050F	STATIC BATTLE			(BD) Captured Ho-Oh
-EvtFlags	0x0510	STATIC BATTLE			(SP) Captured Lugia
-EvtFlags	0x0511	STATIC BATTLE			Captured Groudon
-EvtFlags	0x0512	STATIC BATTLE			Captured Kyogre
-EvtFlags	0x0513	STATIC BATTLE			Captured Rayquaza
-EvtFlags	0x0514	STATIC BATTLE			Captured Mewtwo
-EvtFlags	0x0515	STATIC BATTLE			Defeated Distortion Room's Giratina
+EvtFlags	0x0503	STATIC ENCOUNTER			Captured Regirock
+EvtFlags	0x0504	STATIC ENCOUNTER			Captured Regice
+EvtFlags	0x0505	STATIC ENCOUNTER			Captured Registeel
+EvtFlags	0x0506	STATIC ENCOUNTER			(SP) Captured Articuno
+EvtFlags	0x0507	STATIC ENCOUNTER			(SP) Captured Zapdos
+EvtFlags	0x0508	STATIC ENCOUNTER			(SP) Captured Moltres
+EvtFlags	0x0509	STATIC ENCOUNTER			(BD) Captured Raikou
+EvtFlags	0x050A	STATIC ENCOUNTER			(BD) Captured Entei
+EvtFlags	0x050B	STATIC ENCOUNTER			(BD) Captured Suicune
+EvtFlags	0x050C	STATIC ENCOUNTER			Captured Latias
+EvtFlags	0x050D	STATIC ENCOUNTER			Captured Latios
+EvtFlags	0x050F	STATIC ENCOUNTER			(BD) Captured Ho-Oh
+EvtFlags	0x0510	STATIC ENCOUNTER			(SP) Captured Lugia
+EvtFlags	0x0511	STATIC ENCOUNTER			Captured Groudon
+EvtFlags	0x0512	STATIC ENCOUNTER			Captured Kyogre
+EvtFlags	0x0513	STATIC ENCOUNTER			Captured Rayquaza
+EvtFlags	0x0514	STATIC ENCOUNTER			Captured Mewtwo
+EvtFlags	0x0515	STATIC ENCOUNTER			Defeated Distortion Room's Giratina
 EvtFlags	0x0517	ITEM GIFT			FE_TURIZAO_GET
 EvtFlags	0x0592	SIDE EVENT			FE_TOWER_MASTER_WINED
 EvtFlags	0x05AF	FIELD ITEM			FV_FLD_ITEM_257
