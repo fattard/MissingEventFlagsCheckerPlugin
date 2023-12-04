@@ -285,10 +285,13 @@ namespace MissingEventFlagsCheckerPlugin
             bool isEvtSet = false;
             int idx = (int)evtDetail.EvtId;
 
+            var eventWorkHelper = (m_savFile as IEventWorkArray<byte>);
+            var eventFlagsHelper = (m_savFile as IEventFlagArray);
+
             switch (evtDetail.EvtSource)
             {
                 case Src_EventFlags:
-                    isEvtSet = (m_savFile as IEventFlagArray).GetEventFlag(idx);
+                    isEvtSet = eventFlagsHelper.GetEventFlag(idx);
                     break;
 
                 case Src_SysFlags:
@@ -305,10 +308,19 @@ namespace MissingEventFlagsCheckerPlugin
 
                 case Src_WorkArea:
                     {
-                        var eventWorkHelper = (m_savFile as IEventWorkArray<byte>);
-
                         switch (idx)
                         {
+                            // Rival
+                            case 0x28: // wBurnedTower1FSceneID
+                            case 0x32: // wGoldenrodUndergroundSwitchRoomEntrancesSceneID
+                            case 0x34: // wVictoryRoadSceneID
+                            case 0x26: // wMountMoonSceneID
+                                {
+                                    isEvtSet = eventWorkHelper.GetWork(idx) != 0;
+                                }
+                                break;
+
+
                             default:
                                 isEvtSet = false;
                                 break;
@@ -320,6 +332,86 @@ namespace MissingEventFlagsCheckerPlugin
                     {
                         switch (idx)
                         {
+                            case 0x00: // Elm's aide gives Potion in lab
+                                {
+                                    isEvtSet = eventFlagsHelper.GetEventFlag(0x1A) // EVENT_GOT_A_POKEMON_FROM_ELM
+                                        && eventWorkHelper.GetWork(0x15) != 5 // wElmsLabSceneID
+                                        ;
+                                }
+                                break;
+
+                            case 0x01: // Rival battle at Cherrygrove
+                                {
+                                    isEvtSet = eventFlagsHelper.GetEventFlag(0x43) // EVENT_ELM_CALLED_ABOUT_STOLEN_POKEMON
+                                        && eventWorkHelper.GetWork(0x18) == 0 // wCherrygroveCitySceneID
+                                        ;
+                                }
+                                break;
+
+                            case 0x02: // Elm's aide gives Poké Ball (x5)
+                                {
+                                    isEvtSet = eventFlagsHelper.GetEventFlag(0x1F) // EVENT_GAVE_MYSTERY_EGG_TO_ELM
+                                        && eventWorkHelper.GetWork(0x15) != 6 // wElmsLabSceneID
+                                        ;
+                                }
+                                break;
+
+                            case 0x03: // Exchange Red Scale for Exp. Share
+                                {
+                                    isEvtSet = (!eventFlagsHelper.GetEventFlag(0x6D4) || eventFlagsHelper.GetEventFlag(0x60)) // !EVENT_LAKE_OF_RAGE_LANCE || EVENT_DECIDED_TO_HELP_LANCE
+                                        && !HasItemInBag(m_savFile.Inventory, 66) // Checks if Red Scale is not in Bag
+                                        ;
+                                }
+                                break;
+
+                            case 0x04: // Rival battle at Azalea
+                                {
+                                    isEvtSet = eventFlagsHelper.GetEventFlag(0x2B) // EVENT_CLEARED_SLOWPOKE_WELL
+                                        && eventWorkHelper.GetWork(0x1D) == 0 // wAzaleaTownSceneID
+                                        ;
+                                }
+                                break;
+
+                            case 0x05: // Unlock Mystery Gift
+                                {
+                                    isEvtSet = m_savFile.Data[0xBE3] == 0x00;
+                                    //isEvtSet = sav2.MysteryGiftIsUnlocked;
+                                }
+                                break;
+
+                            case 0x06: // Unlock Time Capsule
+                                {
+                                    isEvtSet = !eventFlagsHelper.GetEventFlag(0x712) // EVENT_MET_BILL
+                                        && !GetSysFlag(0x52) // ENGINE_TIME_CAPSULE
+                                        ;
+                                }
+                                break;
+
+
+                            case 0x07: // Hidden Item - Machine Part
+                                {
+                                    isEvtSet = eventFlagsHelper.GetEventFlag(0xCB) // EVENT_MET_ROCKET_GRUNT_AT_CERULEAN_GYM
+                                        && eventFlagsHelper.GetEventFlag(0xFB) // EVENT_FOUND_MACHINE_PART_IN_CERULEAN_GYM
+                                        ;
+                                }
+                                break;
+
+                            case 0x08: // Help Bike Shop owner
+                                {
+                                    isEvtSet = !GetSysFlag(0x14) // ENGINE_BIKE_SHOP_CALL_ENABLED
+                                        && eventFlagsHelper.GetEventFlag(0x5B) // EVENT_GOT_BICYCLE
+                                        ;
+                                }
+                                break;
+
+                            case 0x09: // Red battle at Mt. Silver
+                                {
+                                    isEvtSet = eventFlagsHelper.GetEventFlag(0x74F) // EVENT_OPENED_MT_SILVER
+                                        && eventFlagsHelper.GetEventFlag(0x762) // EVENT_RED_IN_MT_SILVER
+                                        ;
+                                }
+                                break;
+
                             default:
                                 isEvtSet = false;
                                 break;
