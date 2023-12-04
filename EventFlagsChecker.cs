@@ -184,6 +184,21 @@ namespace MissingEventFlagsCheckerPlugin
 
         #endregion Actions
 
+        public static bool HasItemInBag(IReadOnlyList<InventoryPouch> bag, int itemID)
+        {
+            foreach (var pouch in bag)
+            {
+                for (int i = 0; i < pouch.Items.Length; i++)
+                {
+                    if (pouch.Items[i].Index == itemID)
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
 
         public static ulong ParseDecOrHex(string str)
         {
