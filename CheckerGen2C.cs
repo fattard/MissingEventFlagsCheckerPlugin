@@ -35,6 +35,7 @@ namespace MissingEventFlagsCheckerPlugin
             UnlockedUnowns = 0x2A81,
             DayCareMan = 0x2A83,
             DayCareLady = 0x2ABA,
+            BestMagikarpLengthFeet = 0x2B76,
             PlayerGender = 0x3E3D,
         }
 
@@ -60,6 +61,7 @@ namespace MissingEventFlagsCheckerPlugin
         int UnlockedUnownsOffset;
         int DayCareManOffset;
         int DayCareLadyOffset;
+        int BestMagikarpLengthFeet;
         int PlayerGenderOffset;
 
         bool m_Dex_completedRegional;
@@ -116,6 +118,7 @@ namespace MissingEventFlagsCheckerPlugin
                 UnlockedUnownsOffset = (int)FlagOffsets_INTL.UnlockedUnowns;
                 DayCareManOffset = (int)FlagOffsets_INTL.DayCareMan;
                 DayCareLadyOffset = (int)FlagOffsets_INTL.DayCareLady;
+                BestMagikarpLengthFeet = (int)FlagOffsets_INTL.BestMagikarpLengthFeet;
                 PlayerGenderOffset = (int)FlagOffsets_INTL.PlayerGender;
             }
 
@@ -503,6 +506,14 @@ namespace MissingEventFlagsCheckerPlugin
                                 {
                                     isEvtSet = eventFlagsHelper.GetEventFlag(0x74F) // EVENT_OPENED_MT_SILVER
                                         && eventFlagsHelper.GetEventFlag(0x762) // EVENT_RED_IN_MT_SILVER
+                                        ;
+                                }
+                                break;
+
+                            case 0x0A: // Best Magikarp size record
+                                {
+                                    isEvtSet = m_savFile.Data[BestMagikarpLengthFeet] > 3
+                                        || m_savFile.Data[BestMagikarpLengthFeet + 1] > 6
                                         ;
                                 }
                                 break;
