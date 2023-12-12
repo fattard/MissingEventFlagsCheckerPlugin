@@ -249,7 +249,7 @@ EvtFlags	0x0475	TRAINER BATTLE	Route 38		Schoolboy Chad
 -	0	_SEPARATOR			
 EvtFlags	0x043F	TRAINER BATTLE	Route 39		Psychic Norman
 EvtFlags	0x00AA	HIDDEN ITEM	Route 39		Nugget
-EvtFlags	0x003D	SIDE EVENT	Route 39	Moomoo Farm	Heal Moomoo
+EvtFlags	0x003D	SIDE EVENT	Route 39	Moomoo Farm	Heal Moomoo with Berries
 EvtFlags	0x003E	ITEM GIFT	Route 39	Moomoo Farm	Receive TM13 (Snore) from farm's owner
 EvtFlags	0x04DA	TRAINER BATTLE	Route 39		Pokéfan♀ Ruth
 EvtFlags	0x04CE	TRAINER BATTLE	Route 39		Pokéfan♂ Derek
@@ -276,6 +276,7 @@ EvtFlags	0x0665	FIELD ITEM	Olivine Lighthouse	5F	Rare Candy
 EvtFlags	0x0579	TRAINER BATTLE	Olivine Lighthouse	5F	Sailor Ernest
 EvtFlags	0x0666	FIELD ITEM	Olivine Lighthouse	5F	Great Ball
 EvtFlags	0x0668	FIELD ITEM	Olivine Lighthouse	6F	Super Potion
+EvtFlags	0x0020	STORY EVENT	Olivine Lighthouse	6F	Bring Secret Medicine to Jasmine and cure Amphy
 -	0	_SEPARATOR			
 EvtFlags	0x00AB	HIDDEN ITEM	Route 40		Hyper Potion
 EvtFlags	0x0595	TRAINER BATTLE	Route 40		Swimmer♂ Simon
@@ -577,7 +578,7 @@ EvtFlags	0x04C7	TRAINER BATTLE	Vermilion City	Gym	Leader Lt. Surge
 SysFlags	0x24	STORY EVENT	Vermilion City	Gym	Earn the Thunder Badge
 -	0	_SEPARATOR			
 EvtFlags	0x0750	STATIC ENCOUNTER	Vermilion City		Capture/Defeat Snorlax
-EvtFlags	0x00D2	ITEM GIFT	Vermilion City	Fan Club	Receive Lost Item fom man
+EvtFlags	0x00D2	ITEM GIFT	Vermilion City	Fan Club	Receive Lost Item from man
 EvtFlags	0x00E2	ITEM GIFT	Vermilion City		Receive HP Up from man
 -	0	_SEPARATOR			
 SysFlags	0x3B	FLY SPOT	Saffron City		Unlock Saffron City fly spot
@@ -596,7 +597,7 @@ EvtFlags	0x00D0	SIDE EVENT	Saffron City	Copycat's House	Return Lost Item to Copy
 EvtFlags	0x00D1	ITEM GIFT	Saffron City	Copycat's House	Receive Pass from Copycat
 -	0	_SEPARATOR			
 SysFlags	0x3C	FLY SPOT	Celadon City		Unlock Celadon City fly spot
-EvtFlags	0x00DA	ITEM GIFT	Celadon City	Mansion Rooftop	Receive TM03 (Curse) from man at night
+EvtFlags	0x00DA	ITEM GIFT	Celadon City	Mansion Rooftop	[Night] Receive TM03 (Curse) from man
 EvtFlags	0x00CE	ITEM GIFT	Celadon City	Game Corner	Receive 18 coins from gambler
 EvtFlags	0x00F9	HIDDEN ITEM	Celadon City	Restaurant	Leftovers
 EvtFlags	0x00FD	HIDDEN ITEM	Celadon City		PP Up
@@ -955,7 +956,7 @@ SysFlags	0x56	TRAINER BATTLE	Viridian City	Trainer Hall	[Daily] Battle in the Tr
 -	0	_SEPARATOR			
 EvtFlags	0x00EC	HIDDEN ITEM	Mt. Moon	Square	[Monday Night] Moon Stone
 SysFlags	0x58	STATIC ENCOUNTER	Union Cave	B2F	[Friday] Capture/Defeat Lapras
-SysFlags	0x5A	ITEM GIFT	Goldenrod Department Store	5F	[Sunday] Receive TM27 (Return) / TM21 (Frustration) from recepcionist
+SysFlags	0x5A	ITEM GIFT	Goldenrod Department Store	5F	[Sunday] Receive TM27 (Return) / TM21 (Frustration) from receptionist
 -	0	_SEPARATOR			
 SysFlags	0x5C	TRAINER BATTLE	Indigo Plateau		[Monday, Wednesday] Rival
 SysFlags	0x50	SIDE EVENT	National Park		[Tuesday, Thursday, Saturday] Participate in the Bug Catching Contest

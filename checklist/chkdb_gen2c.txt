@@ -29,16 +29,22 @@ EvtFlags	0x05AA	TRAINER BATTLE	Route 30		Youngster Mikey
 EvtFlags	0x0538	TRAINER BATTLE	Route 30		Bug Catcher Don
 EvtFlags	0x00A4	HIDDEN ITEM	Route 30		Potion
 EvtEX	0x03	ITEM GIFT	Route 30	Mr. Pokémon's House	Receive Exp. Share from Mr. Pokémon in exchange for a Red Scale
-TrainerEX	0x11	TRAINER BATTLE	Route 30		Youngster Joey (Rematch 1)
-TrainerEX	0x12	TRAINER BATTLE	Route 30		Youngster Joey (Rematch 2)
-TrainerEX	0x13	TRAINER BATTLE	Route 30		Youngster Joey (Rematch 3)
-TrainerEX	0x14	TRAINER BATTLE	Route 30		Youngster Joey (Rematch 4)
+-	0	_SEPARATOR			
+TrainerEX	0x071	TRAINER BATTLE	Route 30		Youngster Joey (Rematch 1)
+TrainerEX	0x072	TRAINER BATTLE	Route 30		Youngster Joey (Rematch 2)
+TrainerEX	0x073	TRAINER BATTLE	Route 30		Youngster Joey (Rematch 3)
+TrainerEX	0x074	TRAINER BATTLE	Route 30		Youngster Joey (Rematch 4)
 EvtFlags	0x0266	ITEM GIFT	Route 30		Receive HP Up from Youngster Joey (Rematch 4)
 -	0	_SEPARATOR			
 EvtFlags	0x06AE	FIELD ITEM	Route 31		Potion
 EvtFlags	0x053B	TRAINER BATTLE	Route 31		Bug Catcher Wade
 EvtFlags	0x06AF	FIELD ITEM	Route 31		Poké Ball
 EvtFlags	0x0053	ITEM GIFT	Route 31		Receive TM50 (Nightmare) from Randy's friend
+-	0	_SEPARATOR			
+TrainerEX	0x081	TRAINER BATTLE	Route 31		Bug Catcher Wade (Rematch 1)
+TrainerEX	0x082	TRAINER BATTLE	Route 31		Bug Catcher Wade (Rematch 2)
+TrainerEX	0x083	TRAINER BATTLE	Route 31		Bug Catcher Wade (Rematch 3)
+TrainerEX	0x084	TRAINER BATTLE	Route 31		Bug Catcher Wade (Rematch 4)
 -	0	_SEPARATOR			
 SysFlags	0x43	FLY SPOT	Violet City		Unlock Violet City fly spot
 TradeFlags	0x01	IN-GAME TRADE	Violet City	House	Trade Bellsprout for Onix (ROCKY)
@@ -83,6 +89,15 @@ EvtFlags	0x00A5	HIDDEN ITEM	Route 32		Great Ball
 EvtFlags	0x0017	ITEM GIFT	Route 32	Pokémon Center	Receive Old Rod from man
 EvtFlags	0x0407	TRAINER BATTLE	Route 32		Bird Keeper Peter
 EvtFlags	0x0063	ITEM GIFT	Route 32		Receive Poison Barb from Frieda (Friday)
+-	0	_SEPARATOR			
+TrainerEX	0x0A1	TRAINER BATTLE	Route 32		Picnicker Liz (Rematch 1)
+TrainerEX	0x0A2	TRAINER BATTLE	Route 32		Picnicker Liz (Rematch 2)
+TrainerEX	0x0A3	TRAINER BATTLE	Route 32		Picnicker Liz (Rematch 3)
+TrainerEX	0x0A4	TRAINER BATTLE	Route 32		Picnicker Liz (Rematch 4)
+TrainerEX	0x091	TRAINER BATTLE	Route 32		Fisher Ralph (Rematch 1)
+TrainerEX	0x092	TRAINER BATTLE	Route 32		Fisher Ralph (Rematch 2)
+TrainerEX	0x093	TRAINER BATTLE	Route 32		Fisher Ralph (Rematch 3)
+TrainerEX	0x094	TRAINER BATTLE	Route 32		Fisher Ralph (Rematch 4)
 -	0	_SEPARATOR			
 EvtFlags	0x002E	SIDE EVENT	Ruins of Alph		Unlock Unown spawns
 SysFlags	0x0C	SIDE EVENT	Ruins of Alph	Research Center	Upgrade Pokédex with Unown Dex mode
@@ -134,6 +149,10 @@ EvtFlags	0x055B	TRAINER BATTLE	Union Cave	B2F	Cooltrainer♀ Gwen
 EvtFlags	0x0569	TRAINER BATTLE	Union Cave	B2F	Cooltrainer♀ Emma
 -	0	_SEPARATOR			
 EvtFlags	0x0528	TRAINER BATTLE	Route 33		Hiker Anthony
+TrainerEX	0x0B1	TRAINER BATTLE	Route 33		Hiker Anthony (Rematch 1)
+TrainerEX	0x0B2	TRAINER BATTLE	Route 33		Hiker Anthony (Rematch 2)
+TrainerEX	0x0B3	TRAINER BATTLE	Route 33		Hiker Anthony (Rematch 3)
+TrainerEX	0x0B4	TRAINER BATTLE	Route 33		Hiker Anthony (Rematch 4)
 -	0	_SEPARATOR			
 SysFlags	0x44	FLY SPOT	Azalea Town		Unlock Azalea Town fly spot
 EvtFlags	0x00B1	HIDDEN ITEM	Azalea Town		Full Heal
@@ -185,7 +204,16 @@ EvtFlags	0x0560	TRAINER BATTLE	Route 34		Cooltrainer♀ Irene
 EvtFlags	0x056B	TRAINER BATTLE	Route 34		Cooltrainer♀ Jenn
 EvtFlags	0x055F	TRAINER BATTLE	Route 34		Cooltrainer♀ Kate
 EvtFlags	0x0070	ITEM GIFT	Route 34		Receive Soft Sand from Kate
-EvtFlags	0x0100	ITEM GIFT	Route 34		Receive Leaf Stone from Picnicker Gina
+EvtFlags	0x0100	ITEM GIFT	Route 34		Receive Leaf Stone from Picnicker Gina after a phone call
+-	0	_SEPARATOR			
+TrainerEX	0x0D1	TRAINER BATTLE	Route 34		Picnicker Gina (Rematch 1)
+TrainerEX	0x0D2	TRAINER BATTLE	Route 34		Picnicker Gina (Rematch 2)
+TrainerEX	0x0D3	TRAINER BATTLE	Route 34		Picnicker Gina (Rematch 3)
+TrainerEX	0x0D4	TRAINER BATTLE	Route 34		Picnicker Gina (Rematch 4)
+TrainerEX	0x0C1	TRAINER BATTLE	Route 34		Camper Todd (Rematch 1)
+TrainerEX	0x0C2	TRAINER BATTLE	Route 34		Camper Todd (Rematch 2)
+TrainerEX	0x0C3	TRAINER BATTLE	Route 34		Camper Todd (Rematch 3)
+TrainerEX	0x0C4	TRAINER BATTLE	Route 34		Camper Todd (Rematch 4)
 -	0	_SEPARATOR			
 SysFlags	0x46	FLY SPOT	Goldenrod City		Unlock Goldenrod City fly spot
 EvtFlags	0x005B	ITEM GIFT	Goldenrod City	Bike Shop	Receive Bicycle from shop owner
@@ -223,6 +251,11 @@ EvtFlags	0x03FD	TRAINER BATTLE	Route 35		Bird Keeper Bryan
 EvtFlags	0x06B2	FIELD ITEM	Route 35		TM04 (Rollout)
 EvtFlags	0x0052	ITEM GIFT	Route 35	South Gate	Receive HP Up from Randy
 -	0	_SEPARATOR			
+TrainerEX	0x0F1	TRAINER BATTLE	Route 35		Bug Catcher Arnie (Rematch 1)
+TrainerEX	0x0F2	TRAINER BATTLE	Route 35		Bug Catcher Arnie (Rematch 2)
+TrainerEX	0x0F3	TRAINER BATTLE	Route 35		Bug Catcher Arnie (Rematch 3)
+TrainerEX	0x0F4	TRAINER BATTLE	Route 35		Bug Catcher Arnie (Rematch 4)
+-	0	_SEPARATOR			
 EvtFlags	0x0057	ITEM GIFT	National Park		Receive Quick Claw from woman
 EvtFlags	0x04D9	TRAINER BATTLE	National Park		Pokéfan♀ Beverly
 EvtFlags	0x046C	TRAINER BATTLE	National Park		Schoolboy Jack
@@ -232,12 +265,22 @@ EvtFlags	0x0658	FIELD ITEM	National Park		Paralyze Heal
 EvtFlags	0x0659	FIELD ITEM	National Park		TM28 (Dig)
 EvtFlags	0x0084	HIDDEN ITEM	National Park		Full Heal
 -	0	_SEPARATOR			
+TrainerEX	0x001	TRAINER BATTLE	National Park		Schoolboy Jack (Rematch 1)
+TrainerEX	0x002	TRAINER BATTLE	National Park		Schoolboy Jack (Rematch 2)
+TrainerEX	0x003	TRAINER BATTLE	National Park		Schoolboy Jack (Rematch 3)
+TrainerEX	0x004	TRAINER BATTLE	National Park		Schoolboy Jack (Rematch 4)
+-	0	_SEPARATOR			
 EvtFlags	0x0440	TRAINER BATTLE	Route 36		Psychic Mark
 EvtFlags	0x046E	TRAINER BATTLE	Route 36		Schoolboy Alan
 EvtFlags	0x002A	STATIC ENCOUNTER	Route 36		Capture/Defeat Sudowoodo
 EvtFlags	0x004B	ITEM GIFT	Route 36		Receive TM08 (Rock Smash) from man
 EvtFlags	0x0067	ITEM GIFT	Route 36		Receive Hard Stone from Arthur (Thursday)
-EvtFlags	0x0101	ITEM GIFT	Route 36		Receive Fire Stone from Schoolboy Alan
+EvtFlags	0x0101	ITEM GIFT	Route 36		Receive Fire Stone from Schoolboy Alan after a phone call
+-	0	_SEPARATOR			
+TrainerEX	0x101	TRAINER BATTLE	Route 36		Schoolboy Alan (Rematch 1)
+TrainerEX	0x102	TRAINER BATTLE	Route 36		Schoolboy Alan (Rematch 2)
+TrainerEX	0x103	TRAINER BATTLE	Route 36		Schoolboy Alan (Rematch 3)
+TrainerEX	0x104	TRAINER BATTLE	Route 36		Schoolboy Alan (Rematch 4)
 -	0	_SEPARATOR			
 EvtFlags	0x0465	TRAINER BATTLE	Route 37		Twins Ann & Anne
 EvtFlags	0x043E	TRAINER BATTLE	Route 37		Psychic Greg
@@ -277,11 +320,20 @@ EvtFlags	0x057E	TRAINER BATTLE	Route 38		Sailor Harry
 EvtFlags	0x051E	TRAINER BATTLE	Route 38		Lass Dana
 EvtFlags	0x0475	TRAINER BATTLE	Route 38		Schoolboy Chad
 EvtFlags	0x05C1	TRAINER BATTLE	Route 38		Beauty Olivia
-EvtFlags	0x0102	ITEM GIFT	Route 38		Receive Thunder Stone from Lass Dana
+EvtFlags	0x0102	ITEM GIFT	Route 38		Receive Thunder Stone from Lass Dana after a phone call
+-	0	_SEPARATOR			
+TrainerEX	0x111	TRAINER BATTLE	Route 38		Lass Dana (Rematch 1)
+TrainerEX	0x112	TRAINER BATTLE	Route 38		Lass Dana (Rematch 2)
+TrainerEX	0x113	TRAINER BATTLE	Route 38		Lass Dana (Rematch 3)
+TrainerEX	0x114	TRAINER BATTLE	Route 38		Lass Dana (Rematch 4)
+TrainerEX	0x121	TRAINER BATTLE	Route 38		Schoolboy Chad (Rematch 1)
+TrainerEX	0x122	TRAINER BATTLE	Route 38		Schoolboy Chad (Rematch 2)
+TrainerEX	0x123	TRAINER BATTLE	Route 38		Schoolboy Chad (Rematch 3)
+TrainerEX	0x124	TRAINER BATTLE	Route 38		Schoolboy Chad (Rematch 4)
 -	0	_SEPARATOR			
 EvtFlags	0x043F	TRAINER BATTLE	Route 39		Psychic Norman
 EvtFlags	0x00AA	HIDDEN ITEM	Route 39		Nugget
-EvtFlags	0x003D	SIDE EVENT	Route 39	Moomoo Farm	Heal Moomoo
+EvtFlags	0x003D	SIDE EVENT	Route 39	Moomoo Farm	Heal Moomoo with Berries
 EvtFlags	0x003E	ITEM GIFT	Route 39	Moomoo Farm	Receive TM13 (Snore) from farm's owner
 EvtFlags	0x04DA	TRAINER BATTLE	Route 39		Pokéfan♀ Ruth
 EvtFlags	0x04CE	TRAINER BATTLE	Route 39		Pokéfan♂ Derek
@@ -296,7 +348,6 @@ EvtFlags	0x00EA	HIDDEN ITEM	Olivine City	Harbor	Protein
 -	0	_SEPARATOR			
 EvtFlags	0x049E	TRAINER BATTLE	Olivine Lighthouse	2F	Gentleman Alfred
 EvtFlags	0x0576	TRAINER BATTLE	Olivine Lighthouse	2F	Sailor Huey
-EvtFlags	0x0265	ITEM GIFT	Olivine Lighthouse	2F	Receive Protein from Sailor Huey
 EvtFlags	0x03FE	TRAINER BATTLE	Olivine Lighthouse	3F	Bird Keeper Theo
 EvtFlags	0x049A	TRAINER BATTLE	Olivine Lighthouse	3F	Gentleman Preston
 EvtFlags	0x0577	TRAINER BATTLE	Olivine Lighthouse	3F	Sailor Terrell
@@ -310,6 +361,12 @@ EvtFlags	0x0665	FIELD ITEM	Olivine Lighthouse	5F	Rare Candy
 EvtFlags	0x0579	TRAINER BATTLE	Olivine Lighthouse	5F	Sailor Ernest
 EvtFlags	0x0666	FIELD ITEM	Olivine Lighthouse	5F	Super Repel
 EvtFlags	0x0668	FIELD ITEM	Olivine Lighthouse	6F	Super Potion
+EvtFlags	0x0020	STORY EVENT	Olivine Lighthouse	6F	Bring Secret Medicine to Jasmine and cure Amphy
+-	0	_SEPARATOR			
+TrainerEX	0x021	TRAINER BATTLE	Olivine Lighthouse	2F	Sailor Huey (Rematch 1)
+TrainerEX	0x022	TRAINER BATTLE	Olivine Lighthouse	2F	Sailor Huey (Rematch 2)
+TrainerEX	0x023	TRAINER BATTLE	Olivine Lighthouse	2F	Sailor Huey (Rematch 3)
+EvtFlags	0x0265	ITEM GIFT	Olivine Lighthouse	2F	Receive Protein from Sailor Huey (Rematch 3)
 -	0	_SEPARATOR			
 EvtFlags	0x00AB	HIDDEN ITEM	Route 40		Hyper Potion
 EvtFlags	0x0595	TRAINER BATTLE	Route 40		Swimmer♂ Simon
@@ -358,7 +415,11 @@ EvtFlags	0x06B4	FIELD ITEM	Route 42		Super Potion
 EvtFlags	0x0454	TRAINER BATTLE	Route 42		Fisher Tully
 EvtFlags	0x04E7	TRAINER BATTLE	Route 42		PokéManiac Shane
 EvtFlags	0x0529	TRAINER BATTLE	Route 42		Hiker Benjamin
-EvtFlags	0x0103	ITEM GIFT	Route 42		Receive Water Stone from Fisher Tully
+EvtFlags	0x0103	ITEM GIFT	Route 42		Receive Water Stone from Fisher Tully after a phone call
+-	0	_SEPARATOR			
+TrainerEX	0x141	TRAINER BATTLE	Route 42		Fisher Tully (Rematch 1)
+TrainerEX	0x142	TRAINER BATTLE	Route 42		Fisher Tully (Rematch 2)
+TrainerEX	0x143	TRAINER BATTLE	Route 42		Fisher Tully (Rematch 3)
 -	0	_SEPARATOR			
 EvtFlags	0x067B	FIELD ITEM	Mt. Mortar	1F Outside	Ether
 EvtFlags	0x067C	FIELD ITEM	Mt. Mortar	1F Outside	Revive
@@ -400,7 +461,14 @@ EvtFlags	0x04E9	TRAINER BATTLE	Route 43		PokéManiac Brent
 EvtFlags	0x04EA	TRAINER BATTLE	Route 43		PokéManiac Ron
 EvtFlags	0x04E8	TRAINER BATTLE	Route 43		PokéManiac Ben
 EvtFlags	0x0059	ITEM GIFT	Route 43		Receive TM36 (Sludge Bomb) from guard
-EvtFlags	0x0104	ITEM GIFT	Route 43		Receive Pink Bow from Picnicker Tiffany
+EvtFlags	0x0104	ITEM GIFT	Route 43		Receive Pink Bow from Picnicker Tiffany after a phone call
+-	0	_SEPARATOR			
+TrainerEX	0x161	TRAINER BATTLE	Route 43		Picnicker Tiffany (Rematch 1)
+TrainerEX	0x162	TRAINER BATTLE	Route 43		Picnicker Tiffany (Rematch 2)
+TrainerEX	0x163	TRAINER BATTLE	Route 43		Picnicker Tiffany (Rematch 3)
+TrainerEX	0x151	TRAINER BATTLE	Route 43		PokéManiac Brent (Rematch 1)
+TrainerEX	0x152	TRAINER BATTLE	Route 43		PokéManiac Brent (Rematch 2)
+TrainerEX	0x153	TRAINER BATTLE	Route 43		PokéManiac Brent (Rematch 3)
 -	0	_SEPARATOR			
 SysFlags	0x4A	FLY SPOT	Lake of Rage		Unlock Lake of Rage fly spot
 EvtFlags	0x00B5	HIDDEN ITEM	Lake of Rage		Full Restore
@@ -464,7 +532,12 @@ EvtFlags	0x0457	TRAINER BATTLE	Route 44		Fisher Wilton
 EvtFlags	0x04F0	TRAINER BATTLE	Route 44		PokéManiac Zach
 EvtFlags	0x06B7	FIELD ITEM	Route 44		Ultra Ball
 EvtFlags	0x0401	TRAINER BATTLE	Route 44		Bird Keeper Vance
-EvtFlags	0x0267	ITEM GIFT	Route 44		Receive Carbos from Bird Keeper Vance
+-	0	_SEPARATOR			
+TrainerEX	0x181	TRAINER BATTLE	Route 44		Fisher Wilton (Rematch 1)
+TrainerEX	0x182	TRAINER BATTLE	Route 44		Fisher Wilton (Rematch 2)
+TrainerEX	0x171	TRAINER BATTLE	Route 44		Bird Keeper Vance (Rematch 1)
+TrainerEX	0x172	TRAINER BATTLE	Route 44		Bird Keeper Vance (Rematch 2)
+EvtFlags	0x0267	ITEM GIFT	Route 44		Receive Carbos from Bird Keeper Vance (Rematch 2)
 -	0	_SEPARATOR			
 EvtFlags	0x0688	FIELD ITEM	Ice Path	1F	HM07 (Waterfall)
 EvtFlags	0x07BE	FIELD ITEM	Ice Path	1F	Protein
@@ -566,13 +639,19 @@ EvtFlags	0x06B9	FIELD ITEM	Route 45		Revive
 EvtFlags	0x052B	TRAINER BATTLE	Route 45		Hiker Michael
 EvtFlags	0x05C3	TRAINER BATTLE	Route 45		Camper Quentin
 EvtFlags	0x00AF	HIDDEN ITEM	Route 45		PP Up
-EvtFlags	0x0268	ITEM GIFT	Route 45		Receive Iron from Hiker Parry
+-	0	_SEPARATOR			
+TrainerEX	0x1A1	TRAINER BATTLE	Route 45		Hiker Parry (Rematch 1)
+TrainerEX	0x1A2	TRAINER BATTLE	Route 45		Hiker Parry (Rematch 2)
+EvtFlags	0x0268	ITEM GIFT	Route 45		Receive Iron from Hiker Parry (Rematch 2)
 -	0	_SEPARATOR			
 EvtFlags	0x0424	TRAINER BATTLE	Route 46		Camper Ted
 EvtFlags	0x0487	TRAINER BATTLE	Route 46		Picnicker Erin
 EvtFlags	0x06BC	FIELD ITEM	Route 46		X Speed
 EvtFlags	0x052E	TRAINER BATTLE	Route 46		Hiker Bailey
-EvtFlags	0x0269	ITEM GIFT	Route 46		Receive Calcium from Picnicker Erin
+-	0	_SEPARATOR			
+TrainerEX	0x1B1	TRAINER BATTLE	Route 46		Picnicker Erin (Rematch 1)
+TrainerEX	0x1B2	TRAINER BATTLE	Route 46		Picnicker Erin (Rematch 2)
+EvtFlags	0x0269	ITEM GIFT	Route 46		Receive Calcium from Picnicker Erin (Rematch 2)
 -	0	_SEPARATOR			
 EvtFlags	0x0072	ITEM GIFT	Dark Cave		Receive Black Glasses from man
 EvtFlags	0x06A1	FIELD ITEM	Dark Cave		Revive
@@ -596,6 +675,11 @@ EvtFlags	0x0408	TRAINER BATTLE	Route 27		Bird Keeper Jose
 EvtFlags	0x06AB	FIELD ITEM	Route 27		TM22 (Solar Beam)
 EvtFlags	0x0564	TRAINER BATTLE	Route 27		Cooltrainer♀ Reena
 -	0	_SEPARATOR			
+TrainerEX	0x051	TRAINER BATTLE	Route 27		Bird Keeper Jose (Rematch 1)
+TrainerEX	0x052	TRAINER BATTLE	Route 27		Bird Keeper Jose (Rematch 2)
+TrainerEX	0x061	TRAINER BATTLE	Route 27		Cooltrainer♀ Reena (Rematch 1)
+TrainerEX	0x062	TRAINER BATTLE	Route 27		Cooltrainer♀ Reena (Rematch 2)
+-	0	_SEPARATOR			
 EvtFlags	0x0462	TRAINER BATTLE	Route 26		Fisher Scott
 EvtFlags	0x0442	TRAINER BATTLE	Route 26		Psychic Richard
 EvtFlags	0x0562	TRAINER BATTLE	Route 26		Cooltrainer♀ Joyce
@@ -603,6 +687,11 @@ EvtFlags	0x0551	TRAINER BATTLE	Route 26		Cooltrainer♂ Gaven
 EvtFlags	0x0550	TRAINER BATTLE	Route 26		Cooltrainer♂ Jake
 EvtFlags	0x0563	TRAINER BATTLE	Route 26		Cooltrainer♀ Beth
 EvtFlags	0x06AA	FIELD ITEM	Route 26		Max Elixer
+-	0	_SEPARATOR			
+TrainerEX	0x031	TRAINER BATTLE	Route 26		Cooltrainer♂ Gaven (Rematch 1)
+TrainerEX	0x032	TRAINER BATTLE	Route 26		Cooltrainer♂ Gaven (Rematch 2)
+TrainerEX	0x041	TRAINER BATTLE	Route 26		Cooltrainer♀ Beth (Rematch 1)
+TrainerEX	0x042	TRAINER BATTLE	Route 26		Cooltrainer♀ Beth (Rematch 2)
 -	0	_SEPARATOR			
 EvtFlags	0x009F	HIDDEN ITEM	Victory Road		Full Heal
 EvtFlags	0x06A6	FIELD ITEM	Victory Road		Full Heal
@@ -640,7 +729,7 @@ EvtFlags	0x04C7	TRAINER BATTLE	Vermilion City	Gym	Leader Lt. Surge
 SysFlags	0x25	STORY EVENT	Vermilion City	Gym	Earn the Thunder Badge
 -	0	_SEPARATOR			
 EvtFlags	0x0750	STATIC ENCOUNTER	Vermilion City		Capture/Defeat Snorlax
-EvtFlags	0x00D2	ITEM GIFT	Vermilion City	Fan Club	Receive Lost Item fom man
+EvtFlags	0x00D2	ITEM GIFT	Vermilion City	Fan Club	Receive Lost Item from man
 EvtFlags	0x00E2	ITEM GIFT	Vermilion City		Receive HP Up from man
 -	0	_SEPARATOR			
 EvtFlags	0x05C7	TRAINER BATTLE	Route 6		Pokéfan♂ Rex
@@ -662,7 +751,7 @@ EvtFlags	0x00D0	SIDE EVENT	Saffron City	Copycat's House	Return Lost Item to Copy
 EvtFlags	0x00D1	ITEM GIFT	Saffron City	Copycat's House	Receive Pass from Copycat
 -	0	_SEPARATOR			
 SysFlags	0x3D	FLY SPOT	Celadon City		Unlock Celadon City fly spot
-EvtFlags	0x00DA	ITEM GIFT	Celadon City	Mansion Rooftop	Receive TM03 (Curse) from man at night
+EvtFlags	0x00DA	ITEM GIFT	Celadon City	Mansion Rooftop	[Night] Receive TM03 (Curse) from man
 EvtFlags	0x00CE	ITEM GIFT	Celadon City	Game Corner	Receive 18 coins from gambler
 EvtFlags	0x00F9	HIDDEN ITEM	Celadon City	Restaurant	Leftovers
 EvtFlags	0x00FD	HIDDEN ITEM	Celadon City		PP Up
@@ -1035,7 +1124,7 @@ SysFlags	0x57	TRAINER BATTLE	Viridian City	Trainer Hall	[Daily] Battle in the Tr
 -	0	_SEPARATOR			
 EvtFlags	0x00EC	HIDDEN ITEM	Mt. Moon	Square	[Monday Night] Moon Stone
 SysFlags	0x59	STATIC ENCOUNTER	Union Cave	B2F	[Friday] Capture/Defeat Lapras
-SysFlags	0x5B	ITEM GIFT	Goldenrod Department Store	5F	[Sunday] Receive TM27 (Return) / TM21 (Frustration) from recepcionist
+SysFlags	0x5B	ITEM GIFT	Goldenrod Department Store	5F	[Sunday] Receive TM27 (Return) / TM21 (Frustration) from receptionist
 -	0	_SEPARATOR			
 SysFlags	0x5D	TRAINER BATTLE	Indigo Plateau		[Monday, Wednesday] Rival
 SysFlags	0x51	SIDE EVENT	National Park		[Tuesday, Thursday, Saturday] Participate in the Bug Catching Contest
