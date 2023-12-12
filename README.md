@@ -34,12 +34,6 @@ The exported file will contains the name *missing_events_VERSION.txt* that will 
 
 **Note: The list may contain unused data, which will be filtered out later, as well as being sorted in some confusing order that will also be fixed in later versions, as documentation on the flags progresses**
 
-### Dump all Flags
-
-This action will export the entire flag database with the current flag states (True/False), and a description of the flag (when available).  
-This action is mainly for researching flag states and diffing previous/current states to discover and document the flag usages, that will be added as human readable information to be used in the Checklist.  
-The exported file will contains the name *flags_dump_VERSION.txt* that will be created alongside the PKHeX program path.
-
 ## Supported Games
 All mainline games are supported (limited descriptions for many of them)
 
@@ -53,7 +47,7 @@ All mainline games are supported (limited descriptions for many of them)
 - Sword / Shield / Brilliant Diamond / Shiny Pearl
 - Scarlet / Violet
 
-***\* Legends: Arceus*** supports only "Dump all flags" action
+***\* Legends: Arceus*** support is experimental
 
 ## Contributing
 
