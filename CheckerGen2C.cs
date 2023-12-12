@@ -527,12 +527,10 @@ namespace MissingEventFlagsCheckerPlugin
 
                 case Src_TrainerEX:
                     {
-                        switch (idx)
-                        {
-                            default:
-                                isEvtSet = false;
-                                break;
-                        }
+                        int evtWorkIdx = (idx >> 4) + 0x80;
+                        int rematchesCount = idx & 0xF;
+
+                        isEvtSet = eventWorkHelper.GetWork(evtWorkIdx) >= rematchesCount;
                     }
                     break;
 
