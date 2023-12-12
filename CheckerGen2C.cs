@@ -289,12 +289,12 @@ namespace MissingEventFlagsCheckerPlugin
 
                 { idx++, (DailyFlags2Offset, 0) }, // DAILYFLAGS2_MT_MOON_SQUARE_CLEFAIRY_F
                 { idx++, (DailyFlags2Offset, 1) }, // DAILYFLAGS2_UNION_CAVE_LAPRAS_F
-                { idx++, (DailyFlags1Offset, 2) }, // DAILYFLAGS2_GOLDENROD_UNDERGROUND_GOT_HAIRCUT_F
-                { idx++, (DailyFlags1Offset, 3) }, // DAILYFLAGS2_GOLDENROD_DEPT_STORE_TM27_RETURN_F
-                { idx++, (DailyFlags1Offset, 4) }, // DAILYFLAGS2_DAISYS_GROOMING_F
-                { idx++, (DailyFlags1Offset, 5) }, // DAILYFLAGS2_INDIGO_PLATEAU_RIVAL_FIGHT_F
-                { idx++, (DailyFlags1Offset, 6) }, // DAILYFLAGS2_MOVE_TUTOR_F
-                { idx++, (DailyFlags1Offset, 7) }, // DAILYFLAGS2_BUENAS_PASSWORD_F
+                { idx++, (DailyFlags2Offset, 2) }, // DAILYFLAGS2_GOLDENROD_UNDERGROUND_GOT_HAIRCUT_F
+                { idx++, (DailyFlags2Offset, 3) }, // DAILYFLAGS2_GOLDENROD_DEPT_STORE_TM27_RETURN_F
+                { idx++, (DailyFlags2Offset, 4) }, // DAILYFLAGS2_DAISYS_GROOMING_F
+                { idx++, (DailyFlags2Offset, 5) }, // DAILYFLAGS2_INDIGO_PLATEAU_RIVAL_FIGHT_F
+                { idx++, (DailyFlags2Offset, 6) }, // DAILYFLAGS2_MOVE_TUTOR_F
+                { idx++, (DailyFlags2Offset, 7) }, // DAILYFLAGS2_BUENAS_PASSWORD_F
 
                 { idx++, (SwarmFlagsOffset, 0) }, // SWARMFLAGS_BUENAS_PASSWORD_F
                 { idx++, (SwarmFlagsOffset, 1) }, // SWARMFLAGS_GOLDENROD_DEPT_STORE_SALE_F
