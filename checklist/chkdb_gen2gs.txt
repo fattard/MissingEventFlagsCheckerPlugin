@@ -79,11 +79,7 @@ EvtFlags	0x0407	TRAINER BATTLE	Route 32		Bird Keeper Peter
 EvtFlags	0x0063	ITEM GIFT	Route 32		Receive Poison Barb from Frieda (Friday)
 -	0	_SEPARATOR			
 EvtFlags	0x002E	SIDE EVENT	Ruins of Alph		Unlock Unown spawns
-SysFlags	0x2A	SIDE EVENT	Ruins of Alph		Unlock Unowns A to K spanws
-SysFlags	0x2B	SIDE EVENT	Ruins of Alph		Unlock Unowns L to R spanws
-SysFlags	0x2C	SIDE EVENT	Ruins of Alph		Unlock Unowns S to W spanws
-SysFlags	0x2D	SIDE EVENT	Ruins of Alph		Unlock Unowns X to Z spanws
-SysFlags	0x0C	SIDE EVENT	Ruins of Alph		Unlock Unown Dex
+SysFlags	0x0C	SIDE EVENT	Ruins of Alph	Research Center	Upgrade Pokédex with Unown Dex mode
 EvtFlags	0x02A1	SIDE EVENT	Ruins of Alph	Kabuto Chamber	Solve Kabuto puzzle
 EvtFlags	0x02A3	SIDE EVENT	Ruins of Alph	Aerodactyl Chamber	Solve Aerodactyl puzzle
 EvtFlags	0x043A	TRAINER BATTLE	Ruins of Alph		Psychic Nathan
@@ -175,6 +171,7 @@ EvtFlags	0x0516	TRAINER BATTLE	Goldenrod City	Gym	Lass Bridget
 EvtFlags	0x04BF	TRAINER BATTLE	Goldenrod City	Gym	Leader Whitney
 SysFlags	0x1C	STORY EVENT	Goldenrod City	Gym	Earn the Plain Badge
 EvtFlags	0x000B	ITEM GIFT	Goldenrod City	Gym	Receive TM45 (Attract) from Leader Whitney
+-	0	_SEPARATOR			
 EvtFlags	0x005C	ITEM GIFT	Goldenrod City	Flower Shop	Receive Squirt Bottle from girl
 EvtFlags	0x004F	PKMN GIFT	Goldenrod City	Bill's House	Receive Eevee from Bill
 -	0	_SEPARATOR			
@@ -236,6 +233,7 @@ EvtFlags	0x058B	TRAINER BATTLE	Ecruteak City	Gym	Medium Martha
 EvtFlags	0x04C0	TRAINER BATTLE	Ecruteak City	Gym	Leader Morty
 SysFlags	0x1D	STORY EVENT	Ecruteak City	Gym	Earn the Fog Badge
 EvtFlags	0x000C	ITEM GIFT	Ecruteak City	Gym	Receive TM30 (Shadow Ball) from Leader Morty
+-	0	_SEPARATOR			
 EvtFlags	0x04DF	TRAINER BATTLE	Ecruteak City	Dance Theater	Kimono Girl Naoko
 EvtFlags	0x04E0	TRAINER BATTLE	Ecruteak City	Dance Theater	Kimono Girl Sayo
 EvtFlags	0x04E1	TRAINER BATTLE	Ecruteak City	Dance Theater	Kimono Girl Zuki
@@ -311,6 +309,7 @@ EvtFlags	0x04AA	TRAINER BATTLE	Cianwood City	Gym	Blackbelt Lung
 EvtFlags	0x04C2	TRAINER BATTLE	Cianwood City	Gym	Leader Chuck
 SysFlags	0x1F	STORY EVENT	Cianwood City	Gym	Earn the Storm Badge
 EvtFlags	0x000A	ITEM GIFT	Cianwood City	Gym	Receive TM01 (Dynamic Punch) from Leader Chuck
+-	0	_SEPARATOR			
 EvtFlags	0x0011	ITEM GIFT	Cianwood City		Receive HM02 (Fly) from woman
 EvtFlags	0x0046	SIDE EVENT	Cianwood City	Mania's House	Bring SHUCKIE back to Mania
 -	0	_SEPARATOR			
@@ -721,11 +720,11 @@ EvtFlags	0x0588	TRAINER BATTLE	Route 25		Super Nerd Pat
 EvtFlags	0x00D8	ITEM GIFT	Route 25		Receive Nugget from Cooltrainer Kevin
 EvtFlags	0x0558	TRAINER BATTLE	Route 25		Cooltrainer♂ Kevin
 EvtFlags	0x078B	FIELD ITEM	Route 25		Protein
-EvtFlags	0x0320	ITEM GIFT	Route 25	Bill's House	Receive Everstone from Bill's grandpa
-EvtFlags	0x0321	ITEM GIFT	Route 25	Bill's House	Receive Leaf Stone from Bill's grandpa
-EvtFlags	0x0322	ITEM GIFT	Route 25	Bill's House	Receive Water Stone from Bill's grandpa
-EvtFlags	0x0323	ITEM GIFT	Route 25	Bill's House	Receive Fire Stone from Bill's grandpa
-EvtFlags	0x0324	ITEM GIFT	Route 25	Bill's House	Receive Thunder Stone from Bill's grandpa
+EvtFlags	0x0320	ITEM GIFT	Route 25	Sea Cottage	Receive Everstone from Bill's grandpa
+EvtFlags	0x0321	ITEM GIFT	Route 25	Sea Cottage	Receive Leaf Stone from Bill's grandpa
+EvtFlags	0x0322	ITEM GIFT	Route 25	Sea Cottage	Receive Water Stone from Bill's grandpa
+EvtFlags	0x0323	ITEM GIFT	Route 25	Sea Cottage	Receive Fire Stone from Bill's grandpa
+EvtFlags	0x0324	ITEM GIFT	Route 25	Sea Cottage	Receive Thunder Stone from Bill's grandpa
 -	0	_SEPARATOR			
 EvtFlags	0x00E4	HIDDEN ITEM	Diglett's Cave		Max Revive
 -	0	_SEPARATOR			
@@ -835,24 +834,96 @@ EvtFlags	0x009B	HIDDEN ITEM	Mt. Silver	Section 1	Ultra Ball
 EvtFlags	0x009C	HIDDEN ITEM	Mt. Silver	Section 2	Max Potion
 EvtFlags	0x069C	FIELD ITEM	Mt. Silver	Section 2 Cave	Max Revive
 EvtFlags	0x069D	FIELD ITEM	Mt. Silver	Section 2 Cave	Full Restore
-					
-BerryTrees	0x14	BERRY TREE	Azalea Town		[Daily] Collect White Apricorn from Berry Tree
-BerryTrees	0x1E	BERRY TREE	Fuchsia City		[Daily] Collect Burnt Berry from Berry Tree
-SysFlags	0x5A	ITEM GIFT	Goldenrod Department Store	5F	[Sunday] Receive TM27 (Return) / TM21 (Frustration)
-EvtFlags	0x00EC	HIDDEN ITEM	Mt. Moon	Square	[Monday Night] Moon Stone
+EvtEX	0x09	TRAINER BATTLE	Mt. Silver	Section 3	Trainer Red
+-	0	_SEPARATOR			
+EvtFlags	0x0557	TRAINER BATTLE	S.S. Aqua	Eastbound	Cooltrainer♂ Sean
+EvtFlags	0x0567	TRAINER BATTLE	S.S. Aqua	Eastbound	Cooltrainer♀ Carol
+EvtFlags	0x049B	TRAINER BATTLE	S.S. Aqua	Eastbound	Gentleman Edward
+EvtFlags	0x04B2	TRAINER BATTLE	S.S. Aqua	Eastbound	Beauty Cassie
+EvtFlags	0x0445	TRAINER BATTLE	S.S. Aqua	Eastbound	Psychic Rodney
+EvtFlags	0x0589	TRAINER BATTLE	S.S. Aqua	Eastbound	Super Nerd Shawn
+EvtFlags	0x0459	TRAINER BATTLE	S.S. Aqua	Eastbound	Fisher Jonah
+EvtFlags	0x057B	TRAINER BATTLE	S.S. Aqua	Eastbound	Sailor Garrett
+EvtFlags	0x04AC	TRAINER BATTLE	S.S. Aqua	Eastbound	Blackbelt Wai
+-	0	_SEPARATOR			
+EvtFlags	0x04EB	TRAINER BATTLE	S.S. Aqua	Westbound	PokéManiac Ethan
+EvtFlags	0x042F	TRAINER BATTLE	S.S. Aqua	Westbound	Burglar Corey
+EvtFlags	0x0540	TRAINER BATTLE	S.S. Aqua	Westbound	Bug Catcher Ken
+EvtFlags	0x0493	TRAINER BATTLE	S.S. Aqua	Westbound	Guitarist Clyde
+EvtFlags	0x04D4	TRAINER BATTLE	S.S. Aqua	Westbound	Pokéfan♂ Jeremy
+EvtFlags	0x04DD	TRAINER BATTLE	S.S. Aqua	Westbound	Pokéfan♀ Georgia
+EvtFlags	0x057C	TRAINER BATTLE	S.S. Aqua	Westbound	Sailor Kenneth
+EvtFlags	0x05B7	TRAINER BATTLE	S.S. Aqua	Westbound	Teacher Shirley
+EvtFlags	0x0476	TRAINER BATTLE	S.S. Aqua	Westbound	Schoolboy Nate
+EvtFlags	0x0477	TRAINER BATTLE	S.S. Aqua	Westbound	Schoolboy Ricky
+-	0	_SEPARATOR			
+EvtFlags	0x02A4	COLLECTABLE			Decoration: Feathery Bed
+EvtFlags	0x02A5	COLLECTABLE			Decoration: Pink Bed
+EvtFlags	0x02A6	COLLECTABLE			Decoration: Polkadot Bed
+EvtFlags	0x02A7	COLLECTABLE			Decoration: Pikachu Bed
+EvtFlags	0x02A8	COLLECTABLE			Decoration: Red Carpet
+EvtFlags	0x02A9	COLLECTABLE			Decoration: Blue Carpet
+EvtFlags	0x02AA	COLLECTABLE			Decoration: Yellow Carpet
+EvtFlags	0x02AB	COLLECTABLE			Decoration: Green Carpet
+EvtFlags	0x02AC	COLLECTABLE			Decoration: Magna Plant
+EvtFlags	0x02AD	COLLECTABLE			Decoration: Tropic Plant
+EvtFlags	0x02AE	COLLECTABLE			Decoration: Jumbo Plant
+EvtFlags	0x02AF	COLLECTABLE			Decoration: Town Map
+EvtFlags	0x02B0	COLLECTABLE			Decoration: Pikachu Poster
+EvtFlags	0x02B1	COLLECTABLE			Decoration: Clefairy Poster
+EvtFlags	0x02B2	COLLECTABLE			Decoration: Jigglypuff Poster
+EvtFlags	0x02B3	COLLECTABLE			Decoration: NES
+EvtFlags	0x02B4	COLLECTABLE			Decoration: Super NES
+EvtFlags	0x02B5	COLLECTABLE			Decoration: Nintendo64
+EvtFlags	0x02B6	COLLECTABLE			Decoration: Virtual Boy
+EvtFlags	0x02B7	COLLECTABLE			Decoration: Pikachu Doll
+EvtFlags	0x02B8	COLLECTABLE			Decoration: Surfing Pikachu Doll
+EvtFlags	0x02B9	COLLECTABLE			Decoration: Clefairy Doll
+EvtFlags	0x02BA	COLLECTABLE			Decoration: Jigglypuff Doll
+EvtFlags	0x02BB	COLLECTABLE			Decoration: Bulbasaur Doll
+EvtFlags	0x02BC	COLLECTABLE			Decoration: Charmander Doll
+EvtFlags	0x02BD	COLLECTABLE			Decoration: Squirtle Doll
+EvtFlags	0x02BE	COLLECTABLE			Decoration: Poliwag Doll
+EvtFlags	0x02BF	COLLECTABLE			Decoration: Diglett Doll
+EvtFlags	0x02C0	COLLECTABLE			Decoration: Starmie Doll
+EvtFlags	0x02C1	COLLECTABLE			Decoration: Magikarp Doll
+EvtFlags	0x02C2	COLLECTABLE			Decoration: Oddish Doll
+EvtFlags	0x02C3	COLLECTABLE			Decoration: Gengar Doll
+EvtFlags	0x02C4	COLLECTABLE			Decoration: Shellder Doll
+EvtFlags	0x02C5	COLLECTABLE			Decoration: Grimer Doll
+EvtFlags	0x02C6	COLLECTABLE			Decoration: Voltorb Doll
+EvtFlags	0x02C7	COLLECTABLE			Decoration: Weedle Doll
+EvtFlags	0x02C8	COLLECTABLE			Decoration: Unown Doll
+EvtFlags	0x02C9	COLLECTABLE			Decoration: Geodude Doll
+EvtFlags	0x02CA	COLLECTABLE			Decoration: Machop Doll
+EvtFlags	0x02CB	COLLECTABLE			Decoration: Tentacool Doll
+EvtFlags	0x02CD	COLLECTABLE			Decoration: Gold Trophy
+EvtFlags	0x02CE	COLLECTABLE			Decoration: Silver Trophy
+EvtFlags	0x02CF	COLLECTABLE			Decoration: Big Snorlax Doll
+EvtFlags	0x02D0	COLLECTABLE			Decoration: Big Onix Doll
+EvtFlags	0x02D1	COLLECTABLE			Decoration: Big Lapras Doll
+-	0	_SEPARATOR			
+EvtEX	0x08	SIDE EVENT			Help the Bike Shop owner advertise his bike
+-	0	_SEPARATOR			
+EvtEX	0x0A	SIDE EVENT	Lake of Rage	House	Beat the Magikarp size record
+-	0	_SEPARATOR			
+SysFlags	0x0D	SIDE EVENT			Catch PokéRus for the first time
+-	0	_SEPARATOR			
+Dex	0x00	SIDE EVENT			Complete the regional Johto Pokédex
+Dex	0x01	SIDE EVENT			Register the mythical Mew in the Pokédex
+Dex	0x02	SIDE EVENT			Register the mythical Celebi in the Pokédex
+Dex	0x03	SIDE EVENT			Fully complete the Pokédex (251 species registered)
+-	0	_SEPARATOR			
+-	0	_SEPARATOR			
+-	0	_SEPARATOR			
 BerryTrees	0x01	BERRY TREE	Route 29		[Daily] Collect Berry from Berry Tree
-BerryTrees	0x1C	BERRY TREE	Pewter City		[Daily] Collect Ice Berry from Berry Tree
-BerryTrees	0x1D	BERRY TREE	Pewter City		[Daily] Collect Mint Berry from Berry Tree
-BerryTrees	0x1A	BERRY TREE	Route 1		[Daily] Collect Bitter Berry from Berry Tree
-BerryTrees	0x18	BERRY TREE	Route 11		[Daily] Collect Berry from Berry Tree
-BerryTrees	0x19	BERRY TREE	Route 2		[Daily] Collect PsnCureBerry from Berry Tree
-BerryTrees	0x0E	BERRY TREE	Route 26		[Daily] Collect Ice Berry from Berry Tree
 BerryTrees	0x02	BERRY TREE	Route 30		[Daily] Collect Berry from Berry Tree
 BerryTrees	0x05	BERRY TREE	Route 30		[Daily] Collect PsnCureBerry from Berry Tree
 BerryTrees	0x07	BERRY TREE	Route 31		[Daily] Collect Bitter Berry from Berry Tree
+BerryTrees	0x09	BERRY TREE	Violet City		[Daily] Collect PrzCureBerry from Berry Tree
 BerryTrees	0x06	BERRY TREE	Route 33		[Daily] Collect PsnCureBerry from Berry Tree
+BerryTrees	0x14	BERRY TREE	Azalea Town		[Daily] Collect White Apricorn from Berry Tree
 BerryTrees	0x0B	BERRY TREE	Route 35		[Daily] Collect MysteryBerry from Berry Tree
-EvtFlags	0x06F8	EVENT	Route 36		Sudowoodo sprite disappeared
 BerryTrees	0x0D	BERRY TREE	Route 36		[Daily] Collect Ice Berry from Berry Tree
 BerryTrees	0x11	BERRY TREE	Route 37		[Daily] Collect Red Apricorn from Berry Tree
 BerryTrees	0x12	BERRY TREE	Route 37		[Daily] Collect Blue Apricorn from Berry Tree
@@ -867,86 +938,24 @@ BerryTrees	0x10	BERRY TREE	Route 44		[Daily] Collect Burnt Berry from Berry Tree
 BerryTrees	0x0C	BERRY TREE	Route 45		[Daily] Collect MysteryBerry from Berry Tree
 BerryTrees	0x04	BERRY TREE	Route 46		[Daily] Collect Berry from Berry Tree
 BerryTrees	0x0A	BERRY TREE	Route 46		[Daily] Collect PrzCureBerry from Berry Tree
+BerryTrees	0x0E	BERRY TREE	Route 26		[Daily] Collect Ice Berry from Berry Tree
+BerryTrees	0x1A	BERRY TREE	Route 1		[Daily] Collect Bitter Berry from Berry Tree
+BerryTrees	0x19	BERRY TREE	Route 2		[Daily] Collect PsnCureBerry from Berry Tree
+BerryTrees	0x1C	BERRY TREE	Pewter City		[Daily] Collect Ice Berry from Berry Tree
+BerryTrees	0x1D	BERRY TREE	Pewter City		[Daily] Collect Mint Berry from Berry Tree
 BerryTrees	0x1B	BERRY TREE	Route 8		[Daily] Collect PrzCureBerry from Berry Tree
-BerryTrees	0x09	BERRY TREE	Violet City		[Daily] Collect PrzCureBerry from Berry Tree
-EvtFlags	0x042F	TRAINER BATTLE	S.S. Aqua	Westbound	Burglar Corey
-EvtFlags	0x0445	TRAINER BATTLE	S.S. Aqua	Eastbound	Psychic Rodney
-EvtFlags	0x0459	TRAINER BATTLE	S.S. Aqua	Eastbound	Fisher Jonah
-EvtFlags	0x0476	TRAINER BATTLE	S.S. Aqua	Westbound	Schoolboy Nate
-EvtFlags	0x0477	TRAINER BATTLE	S.S. Aqua	Westbound	Schoolboy Ricky
-EvtFlags	0x0493	TRAINER BATTLE	S.S. Aqua	Westbound	Guitarist Clyde
-EvtFlags	0x049B	TRAINER BATTLE	S.S. Aqua	Eastbound	Gentleman Edward
-EvtFlags	0x04AC	TRAINER BATTLE	S.S. Aqua	Eastbound	Blackbelt Wai
-EvtFlags	0x04B2	TRAINER BATTLE	S.S. Aqua	Eastbound	Beauty Cassie
-EvtFlags	0x04D4	TRAINER BATTLE	S.S. Aqua	Westbound	Pokéfan♂ Jeremy
-EvtFlags	0x04DD	TRAINER BATTLE	S.S. Aqua	Westbound	Pokéfan♀ Georgia
-EvtFlags	0x04EB	TRAINER BATTLE	S.S. Aqua	Westbound	PokéManiac Ethan
-EvtFlags	0x0540	TRAINER BATTLE	S.S. Aqua	Westbound	Bug Catcher Ken
-EvtFlags	0x0557	TRAINER BATTLE	S.S. Aqua	Eastbound	Cooltrainer♂ Sean
-EvtFlags	0x0567	TRAINER BATTLE	S.S. Aqua	Eastbound	Cooltrainer♀ Carol
-EvtFlags	0x057B	TRAINER BATTLE	S.S. Aqua	Eastbound	Sailor Garrett
-EvtFlags	0x057C	TRAINER BATTLE	S.S. Aqua	Westbound	Sailor Kenneth
-EvtFlags	0x0589	TRAINER BATTLE	S.S. Aqua	Eastbound	Super Nerd Shawn
-EvtFlags	0x05B7	TRAINER BATTLE	S.S. Aqua	Westbound	Teacher Shirley
-EvtFlags	0x073C	EVENT	Tin Tower	Top	Ho-Oh sprite disappeared
-EvtFlags	0x0760	EVENT	Union Cave	B2F	Lapras sprite disappeared
+BerryTrees	0x18	BERRY TREE	Route 11		[Daily] Collect Berry from Berry Tree
+BerryTrees	0x1E	BERRY TREE	Fuchsia City		[Daily] Collect Burnt Berry from Berry Tree
+-	0	_SEPARATOR			
+SysFlags	0x4F	SIDE EVENT	Azalea Town	Kurt's House	[Daily] Give Apricorn to Kurt make balls
+SysFlags	0x4D	SIDE EVENT	Goldenrod Radio Tower	1F	[Daily] Win any prize in the Lucky Number Show
+SysFlags	0x59	SIDE EVENT	Goldenrod Tunnel	B1F	[Daily] Give a haircut to a party member
+SysFlags	0x5B	SIDE EVENT	Pallet Town	Blue's House	[Daily 3PM] Let Daisy groom a party member
+SysFlags	0x56	TRAINER BATTLE	Viridian City	Trainer Hall	[Daily] Battle in the Trainer Hall
+-	0	_SEPARATOR			
+EvtFlags	0x00EC	HIDDEN ITEM	Mt. Moon	Square	[Monday Night] Moon Stone
 SysFlags	0x58	STATIC ENCOUNTER	Union Cave	B2F	[Friday] Capture/Defeat Lapras
-EvtFlags	0x0770	EVENT	Vermilion City		Snorlax sprite disappeared
-SysFlags	0x56	TRAINER BATTLE	Viridian City	Trainer Hall	[Daily] Trainer Hall trainer
-EvtFlags	0x073D	EVENT	Whirl Islands	B2F (Inner Cave)	Lugia sprite disappeared
-EvtFlags	0x0051	SIDE EVENT			
-EvtFlags	0x0054	SIDE EVENT			Togepi Egg hatched
-EvtFlags	0x02A4	COLLECTABLE			DECO_BED_1
-EvtFlags	0x02A5	COLLECTABLE			DECO_BED_2
-EvtFlags	0x02A6	COLLECTABLE			DECO_BED_3
-EvtFlags	0x02A7	COLLECTABLE			DECO_BED_4
-EvtFlags	0x02A8	COLLECTABLE			DECO_CARPET_1
-EvtFlags	0x02A9	COLLECTABLE			DECO_CARPET_2
-EvtFlags	0x02AA	COLLECTABLE			DECO_CARPET_3
-EvtFlags	0x02AB	COLLECTABLE			DECO_CARPET_4
-EvtFlags	0x02AC	COLLECTABLE			DECO_PLANT_1
-EvtFlags	0x02AD	COLLECTABLE			DECO_PLANT_2
-EvtFlags	0x02AE	COLLECTABLE			DECO_PLANT_3
-EvtFlags	0x02AF	COLLECTABLE			DECO_POSTER_1
-EvtFlags	0x02B0	COLLECTABLE			DECO_POSTER_2
-EvtFlags	0x02B1	COLLECTABLE			DECO_POSTER_3
-EvtFlags	0x02B2	COLLECTABLE			DECO_POSTER_4
-EvtFlags	0x02B3	COLLECTABLE			DECO_FAMICOM
-EvtFlags	0x02B4	COLLECTABLE			DECO_SNES
-EvtFlags	0x02B5	COLLECTABLE			DECO_N64
-EvtFlags	0x02B6	COLLECTABLE			DECO_VIRTUAL_BOY
-EvtFlags	0x02B7	COLLECTABLE			DECO_PIKACHU_DOLL
-EvtFlags	0x02B8	COLLECTABLE			DECO_SURFING_PIKACHU_DOLL
-EvtFlags	0x02B9	COLLECTABLE			DECO_CLEFAIRY_DOLL
-EvtFlags	0x02BA	COLLECTABLE			DECO_JIGGLYPUFF_DOLL
-EvtFlags	0x02BB	COLLECTABLE			DECO_BULBASAUR_DOLL
-EvtFlags	0x02BC	COLLECTABLE			DECO_CHARMANDER_DOLL
-EvtFlags	0x02BD	COLLECTABLE			DECO_SQUIRTLE_DOLL
-EvtFlags	0x02BE	COLLECTABLE			DECO_POLIWAG_DOLL
-EvtFlags	0x02BF	COLLECTABLE			DECO_DIGLETT_DOLL
-EvtFlags	0x02C0	COLLECTABLE			DECO_STARMIE_DOLL
-EvtFlags	0x02C1	COLLECTABLE			DECO_MAGIKARP_DOLL
-EvtFlags	0x02C2	COLLECTABLE			DECO_ODDISH_DOLL
-EvtFlags	0x02C3	COLLECTABLE			DECO_GENGAR_DOLL
-EvtFlags	0x02C4	COLLECTABLE			DECO_SHELLDER_DOLL
-EvtFlags	0x02C5	COLLECTABLE			DECO_GRIMER_DOLL
-EvtFlags	0x02C6	COLLECTABLE			DECO_VOLTORB_DOLL
-EvtFlags	0x02C7	COLLECTABLE			DECO_WEEDLE_DOLL
-EvtFlags	0x02C8	COLLECTABLE			DECO_UNOWN_DOLL
-EvtFlags	0x02C9	COLLECTABLE			DECO_GEODUDE_DOLL
-EvtFlags	0x02CA	COLLECTABLE			DECO_MACHOP_DOLL
-EvtFlags	0x02CB	COLLECTABLE			DECO_TENTACOOL_DOLL
-EvtFlags	0x02CC	COLLECTABLE			PLAYERS_ROOM_POSTER
-EvtFlags	0x02CD	COLLECTABLE			DECO_GOLD_TROPHY
-EvtFlags	0x02CE	COLLECTABLE			DECO_SILVER_TROPHY
-EvtFlags	0x02CF	COLLECTABLE			DECO_BIG_SNORLAX_DOLL
-EvtFlags	0x02D0	COLLECTABLE			DECO_BIG_ONIX_DOLL
-EvtFlags	0x02D1	COLLECTABLE			DECO_BIG_LAPRAS_DOLL
-EvtEX	0x08	SIDE EVENT			Help Bike Shop owner advertise his bike
-SysFlags	0x0D	SIDE EVENT			Catch PokéRus for the first time
-Dex	0x00	SIDE EVENT			Complete the regional Johto Pokédex
-Dex	0x01	SIDE EVENT			Register the mythical Mew in the Pokédex
-Dex	0x02	SIDE EVENT			Register the mythical Celebi in the Pokédex
-Dex	0x03	SIDE EVENT			Fully complete the Pokédex (251 species registered)
-EvtEX	0x09	TRAINER BATTLE	Mt. Silver		Trainer Red
-EvtEX	0x0A	SIDE EVENT	Lake of Rage		Beat the Magikarp length record
+SysFlags	0x5A	ITEM GIFT	Goldenrod Department Store	5F	[Sunday] Receive TM27 (Return) / TM21 (Frustration) from recepcionist
+-	0	_SEPARATOR			
+SysFlags	0x5C	TRAINER BATTLE	Indigo Plateau		[Monday, Wednesday] Rival
+SysFlags	0x50	SIDE EVENT	National Park		[Tuesday, Thursday, Saturday] Participate in the Bug Catching Contest
