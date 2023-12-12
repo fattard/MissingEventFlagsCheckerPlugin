@@ -190,6 +190,7 @@ EvtFlags	0x0100	ITEM GIFT	Route 34		Receive Leaf Stone from Picnicker Gina
 SysFlags	0x46	FLY SPOT	Goldenrod City		Unlock Goldenrod City fly spot
 EvtFlags	0x005B	ITEM GIFT	Goldenrod City	Bike Shop	Receive Bicycle from shop owner
 SysFlags	0x00	SIDE EVENT	Goldenrod Radio Tower	1F	Receive the Radio card for the PokéGear from woman
+EvtFlags	0x033D	SIDE EVENT	Goldenrod Radio Tower	2F	Receive Blue Card from Buena
 TradeFlags	0x00	IN-GAME TRADE	Goldenrod Department Store	5F	Trade Abra for Machop (MUSCLE)
 EvtEX	0x05	SIDE EVENT	Goldenrod Department Store	5F	Unlock Mystery Gift feature
 EvtFlags	0x0678	FIELD ITEM	Goldenrod Department Store	B1F	Ultra Ball
@@ -1027,6 +1028,7 @@ BerryTrees	0x1E	BERRY TREE	Fuchsia City		[Daily] Collect Burnt Berry from Berry 
 -	0	_SEPARATOR			
 SysFlags	0x50	SIDE EVENT	Azalea Town	Kurt's House	[Daily] Give Apricorn to Kurt make balls
 SysFlags	0x4E	SIDE EVENT	Goldenrod Radio Tower	1F	[Daily] Win any prize in the Lucky Number Show
+SysFlags	0x60	SIDE EVENT	Goldenrod Radio Tower	2F	[Daily Night] Participate in the Buena's Password Show
 SysFlags	0x5A	SIDE EVENT	Goldenrod Tunnel	B1F	[Daily] Give a haircut to a party member
 SysFlags	0x5C	SIDE EVENT	Pallet Town	Blue's House	[Daily 3PM] Let Daisy groom a party member
 SysFlags	0x57	TRAINER BATTLE	Viridian City	Trainer Hall	[Daily] Battle in the Trainer Hall
@@ -1037,3 +1039,4 @@ SysFlags	0x5B	ITEM GIFT	Goldenrod Department Store	5F	[Sunday] Receive TM27 (Ret
 -	0	_SEPARATOR			
 SysFlags	0x5D	TRAINER BATTLE	Indigo Plateau		[Monday, Wednesday] Rival
 SysFlags	0x51	SIDE EVENT	National Park		[Tuesday, Thursday, Saturday] Participate in the Bug Catching Contest
+SysFlags	0x5E	SIDE EVENT	Goldenrod City		[Wednesday, Saturday] Teach a move from the Move Tutor
