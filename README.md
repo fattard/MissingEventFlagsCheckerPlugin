@@ -5,10 +5,16 @@ The main purpose is to check your save data and report back important Event Flag
 
 It is really easy to miss a hidden item, or a partially covered field item, or even that isolated trainer that needs lots of entering/exiting cave doors and get you lost in the path.
 
-This plugin will report any of the above, so you can properly look for it.  
+This plugin will report all of the above, so you can properly look for it.  
 For completionists, this may give you that satisfaction that you have explored and gathered all 100% of what the game provides you to acquire.
 
-If you need to edit the event flags, you can use the companion plugin [FlagsEditorEX](https://github.com/fattard/FlagsEditorEXPlugin).
+If you need to edit the event flags or just dump them, you can use the companion plugin [FlagsEditorEX](https://github.com/fattard/FlagsEditorEXPlugin).
+
+## Setup Instructions
+- Download the plugin from the latest release [here](https://github.com/fattard/MissingEventFlagsCheckerPlugin/releases/latest).
+- Extract and unblock them in Windows' Properties Menu.
+- Put them in the *plugins* folder that is in the same directory as the PKHeX program path.
+- Check for more instructions examples if you have trouble: [Manually Installing PKHeX Plugins](https://github.com/architdate/PKHeX-Plugins/wiki/Installing-PKHeX-Plugins#manual-installation-or-installing-older-releases).
 
 ## Actions
 
@@ -28,7 +34,7 @@ The exported file will contains the name *checklist_VERSION.txt* that will be cr
 
 ### Export only Missing Flags
 
-This action will export only the tracked flags not marked yet, so you can refer only for the stuff you missed.  
+This action will export only the tracked events that are not marked yet, so you can refer only for the stuff you missed.  
 If the result file is empty, you are missing nothing.  
 The exported file will contains the name *missing_events_VERSION.txt* that will be created alongside the PKHeX program path.
 
@@ -44,14 +50,12 @@ All mainline games are supported (limited descriptions for many of them)
 - Black / White / Black 2 / White 2
 - X / Y / Omega Ruby / Alpha Sapphire
 - Sun / Moon / Ultra Sun / Ultra Moon / Let's Go Pikachu / Let's Go Eevee
-- Sword / Shield / Brilliant Diamond / Shiny Pearl
+- Sword / Shield / Brilliant Diamond / Shiny Pearl / Legends: Arceus
 - Scarlet / Violet
-
-***\* Legends: Arceus*** support is experimental
 
 ## Contributing
 
-The event flags is being researched little by little.  
+The event flags are being researched little by little.  
 As the flags gets documented and descriptions are created, they will be embedded into the next version of the plugin.
 
 All research work can be checked here
