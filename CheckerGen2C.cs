@@ -473,7 +473,7 @@ namespace MissingEventFlagsCheckerPlugin
 
                             case 0x05: // Unlock Mystery Gift
                                 {
-                                    isEvtSet = m_savFile.Data[0xBE3] == 0x00;
+                                    isEvtSet = m_savFile.Data[0xBE3] != 0xFF;
                                     //isEvtSet = sav2.MysteryGiftIsUnlocked;
                                 }
                                 break;
