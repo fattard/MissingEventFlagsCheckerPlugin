@@ -1084,36 +1084,36 @@ Dex	0x03	SIDE EVENT			Fully complete the Pokédex (251 species registered)
 -	0	_SEPARATOR			
 -	0	_SEPARATOR			
 -	0	_SEPARATOR			
-BerryTrees	0x01	BERRY TREE	Route 29		[Daily] Collect Berry from Berry Tree
-BerryTrees	0x02	BERRY TREE	Route 30		[Daily] Collect Berry from Berry Tree
-BerryTrees	0x05	BERRY TREE	Route 30		[Daily] Collect PsnCureBerry from Berry Tree
-BerryTrees	0x07	BERRY TREE	Route 31		[Daily] Collect Bitter Berry from Berry Tree
-BerryTrees	0x09	BERRY TREE	Violet City		[Daily] Collect PrzCureBerry from Berry Tree
-BerryTrees	0x06	BERRY TREE	Route 33		[Daily] Collect PsnCureBerry from Berry Tree
-BerryTrees	0x14	BERRY TREE	Azalea Town		[Daily] Collect White Apricorn from Berry Tree
-BerryTrees	0x0B	BERRY TREE	Route 35		[Daily] Collect MysteryBerry from Berry Tree
-BerryTrees	0x0D	BERRY TREE	Route 36		[Daily] Collect Ice Berry from Berry Tree
-BerryTrees	0x11	BERRY TREE	Route 37		[Daily] Collect Red Apricorn from Berry Tree
-BerryTrees	0x12	BERRY TREE	Route 37		[Daily] Collect Blue Apricorn from Berry Tree
-BerryTrees	0x13	BERRY TREE	Route 37		[Daily] Collect Black Apricorn from Berry Tree
-BerryTrees	0x03	BERRY TREE	Route 38		[Daily] Collect Berry from Berry Tree
-BerryTrees	0x0F	BERRY TREE	Route 39		[Daily] Collect Mint Berry from Berry Tree
-BerryTrees	0x15	BERRY TREE	Route 42		[Daily] Collect Pink Apricorn from Berry Tree
-BerryTrees	0x16	BERRY TREE	Route 42		[Daily] Collect Green Apricorn from Berry Tree
-BerryTrees	0x17	BERRY TREE	Route 42		[Daily] Collect Yellow Apricorn from Berry Tree
-BerryTrees	0x08	BERRY TREE	Route 43		[Daily] Collect Bitter Berry from Berry Tree
-BerryTrees	0x10	BERRY TREE	Route 44		[Daily] Collect Burnt Berry from Berry Tree
-BerryTrees	0x0C	BERRY TREE	Route 45		[Daily] Collect MysteryBerry from Berry Tree
-BerryTrees	0x04	BERRY TREE	Route 46		[Daily] Collect Berry from Berry Tree
-BerryTrees	0x0A	BERRY TREE	Route 46		[Daily] Collect PrzCureBerry from Berry Tree
-BerryTrees	0x0E	BERRY TREE	Route 26		[Daily] Collect Ice Berry from Berry Tree
-BerryTrees	0x1A	BERRY TREE	Route 1		[Daily] Collect Bitter Berry from Berry Tree
-BerryTrees	0x19	BERRY TREE	Route 2		[Daily] Collect PsnCureBerry from Berry Tree
-BerryTrees	0x1C	BERRY TREE	Pewter City		[Daily] Collect Ice Berry from Berry Tree
-BerryTrees	0x1D	BERRY TREE	Pewter City		[Daily] Collect Mint Berry from Berry Tree
-BerryTrees	0x1B	BERRY TREE	Route 8		[Daily] Collect PrzCureBerry from Berry Tree
-BerryTrees	0x18	BERRY TREE	Route 11		[Daily] Collect Berry from Berry Tree
-BerryTrees	0x1E	BERRY TREE	Fuchsia City		[Daily] Collect Burnt Berry from Berry Tree
+BerryTrees	0x00	BERRY TREE	Route 29		[Daily] Collect Berry from Berry Tree
+BerryTrees	0x01	BERRY TREE	Route 30		[Daily] Collect Berry from Berry Tree
+BerryTrees	0x04	BERRY TREE	Route 30		[Daily] Collect PsnCureBerry from Berry Tree
+BerryTrees	0x06	BERRY TREE	Route 31		[Daily] Collect Bitter Berry from Berry Tree
+BerryTrees	0x08	BERRY TREE	Violet City		[Daily] Collect PrzCureBerry from Berry Tree
+BerryTrees	0x05	BERRY TREE	Route 33		[Daily] Collect PsnCureBerry from Berry Tree
+BerryTrees	0x13	BERRY TREE	Azalea Town		[Daily] Collect White Apricorn from Berry Tree
+BerryTrees	0x0A	BERRY TREE	Route 35		[Daily] Collect MysteryBerry from Berry Tree
+BerryTrees	0x0C	BERRY TREE	Route 36		[Daily] Collect Ice Berry from Berry Tree
+BerryTrees	0x10	BERRY TREE	Route 37		[Daily] Collect Red Apricorn from Berry Tree
+BerryTrees	0x11	BERRY TREE	Route 37		[Daily] Collect Blue Apricorn from Berry Tree
+BerryTrees	0x12	BERRY TREE	Route 37		[Daily] Collect Black Apricorn from Berry Tree
+BerryTrees	0x02	BERRY TREE	Route 38		[Daily] Collect Berry from Berry Tree
+BerryTrees	0x0E	BERRY TREE	Route 39		[Daily] Collect Mint Berry from Berry Tree
+BerryTrees	0x14	BERRY TREE	Route 42		[Daily] Collect Pink Apricorn from Berry Tree
+BerryTrees	0x15	BERRY TREE	Route 42		[Daily] Collect Green Apricorn from Berry Tree
+BerryTrees	0x16	BERRY TREE	Route 42		[Daily] Collect Yellow Apricorn from Berry Tree
+BerryTrees	0x07	BERRY TREE	Route 43		[Daily] Collect Bitter Berry from Berry Tree
+BerryTrees	0x0F	BERRY TREE	Route 44		[Daily] Collect Burnt Berry from Berry Tree
+BerryTrees	0x0B	BERRY TREE	Route 45		[Daily] Collect MysteryBerry from Berry Tree
+BerryTrees	0x03	BERRY TREE	Route 46		[Daily] Collect Berry from Berry Tree
+BerryTrees	0x09	BERRY TREE	Route 46		[Daily] Collect PrzCureBerry from Berry Tree
+BerryTrees	0x0D	BERRY TREE	Route 26		[Daily] Collect Ice Berry from Berry Tree
+BerryTrees	0x19	BERRY TREE	Route 1		[Daily] Collect Bitter Berry from Berry Tree
+BerryTrees	0x18	BERRY TREE	Route 2		[Daily] Collect PsnCureBerry from Berry Tree
+BerryTrees	0x1B	BERRY TREE	Pewter City		[Daily] Collect Ice Berry from Berry Tree
+BerryTrees	0x1C	BERRY TREE	Pewter City		[Daily] Collect Mint Berry from Berry Tree
+BerryTrees	0x1A	BERRY TREE	Route 8		[Daily] Collect PrzCureBerry from Berry Tree
+BerryTrees	0x17	BERRY TREE	Route 11		[Daily] Collect Berry from Berry Tree
+BerryTrees	0x1D	BERRY TREE	Fuchsia City		[Daily] Collect Burnt Berry from Berry Tree
 -	0	_SEPARATOR			
 SysFlags	0x50	SIDE EVENT	Azalea Town	Kurt's House	[Daily] Give Apricorn to Kurt make balls
 SysFlags	0x4E	SIDE EVENT	Goldenrod Radio Tower	1F	[Daily] Win any prize in the Lucky Number Show
