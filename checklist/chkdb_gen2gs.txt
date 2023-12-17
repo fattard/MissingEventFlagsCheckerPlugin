@@ -76,7 +76,7 @@ EvtFlags	0x05AC	TRAINER BATTLE	Route 32		Youngster Gordon
 EvtFlags	0x00A5	HIDDEN ITEM	Route 32		Great Ball
 EvtFlags	0x0017	ITEM GIFT	Route 32	Pokémon Center	Receive Old Rod from man
 EvtFlags	0x0407	TRAINER BATTLE	Route 32		Bird Keeper Peter
-EvtFlags	0x0063	ITEM GIFT	Route 32		Receive Poison Barb from Frieda (Friday)
+EvtFlags	0x0063	ITEM GIFT	Route 32		[Friday] Receive Poison Barb from Frieda
 -	0	_SEPARATOR			
 EvtFlags	0x002E	SIDE EVENT	Ruins of Alph		Unlock Unown spawns
 SysFlags	0x0C	SIDE EVENT	Ruins of Alph	Research Center	Upgrade Pokédex with Unown Dex mode
@@ -201,12 +201,12 @@ EvtFlags	0x0440	TRAINER BATTLE	Route 36		Psychic Mark
 EvtFlags	0x046E	TRAINER BATTLE	Route 36		Schoolboy Alan
 EvtFlags	0x002A	STATIC ENCOUNTER	Route 36		Capture/Defeat Sudowoodo
 EvtFlags	0x004B	ITEM GIFT	Route 36		Receive TM08 (Rock Smash) from man
-EvtFlags	0x0067	ITEM GIFT	Route 36		Receive Hard Stone from Arthur (Thursday)
+EvtFlags	0x0067	ITEM GIFT	Route 36		[Thursday] Receive Hard Stone from Arthur
 -	0	_SEPARATOR			
 EvtFlags	0x0465	TRAINER BATTLE	Route 37		Twins Ann & Anne
 EvtFlags	0x043E	TRAINER BATTLE	Route 37		Psychic Greg
 EvtFlags	0x00A9	HIDDEN ITEM	Route 37		Ether
-EvtFlags	0x0069	ITEM GIFT	Route 37		Receive Magnet from Sunny (Sunday)
+EvtFlags	0x0069	ITEM GIFT	Route 37		[Sunday] Receive Magnet from Sunny
 -	0	_SEPARATOR			
 SysFlags	0x47	FLY SPOT	Ecruteak City		Unlock Ecruteak City fly spot
 EvtFlags	0x005A	ITEM GIFT	Ecruteak City	House	Receive Itemfinder from guy
@@ -283,7 +283,7 @@ EvtFlags	0x0595	TRAINER BATTLE	Route 40		Swimmer♂ Simon
 EvtFlags	0x03E8	TRAINER BATTLE	Route 40		Swimmer♀ Elaine
 EvtFlags	0x03E9	TRAINER BATTLE	Route 40		Swimmer♀ Paula
 EvtFlags	0x0596	TRAINER BATTLE	Route 40		Swimmer♂ Randall
-EvtFlags	0x006F	ITEM GIFT	Route 40		Receive Sharp Beak from Monica (Monday)
+EvtFlags	0x006F	ITEM GIFT	Route 40		[Monday] Receive Sharp Beak from Monica
 -	0	_SEPARATOR			
 EvtFlags	0x0597	TRAINER BATTLE	Route 41		Swimmer♂ Charlie
 EvtFlags	0x03EA	TRAINER BATTLE	Route 41		Swimmer♀ Kaylee
@@ -368,7 +368,7 @@ EvtFlags	0x0456	TRAINER BATTLE	Lake of Rage		Fisher Raymond
 EvtFlags	0x0455	TRAINER BATTLE	Lake of Rage		Fisher Andre
 EvtFlags	0x055C	TRAINER BATTLE	Lake of Rage		Cooltrainer♀ Lois
 EvtFlags	0x0549	TRAINER BATTLE	Lake of Rage		Cooltrainer♂ Aaron
-EvtFlags	0x006B	ITEM GIFT	Lake of Rage		Receive Blackbelt from Wesley (Wednesday)
+EvtFlags	0x006B	ITEM GIFT	Lake of Rage		[Wednesday] Receive Blackbelt from Wesley
 -	0	_SEPARATOR			
 EvtFlags	0x0500	TRAINER BATTLE	Team Rocket HQ	B1F	[Missable] Team Rocket Grunt
 EvtFlags	0x04A1	TRAINER BATTLE	Team Rocket HQ	B1F	[Missable] Scientist Jed
@@ -430,7 +430,7 @@ EvtFlags	0x068E	FIELD ITEM	Ice Path	B3F	Never-Melt Ice
 -	0	_SEPARATOR			
 SysFlags	0x4A	FLY SPOT	Blackthorn City		Unlock Blackthorn City fly spot
 TradeFlags	0x03	IN-GAME TRADE	Blackthorn City	House	Trade Dragonair♀ for Rhydon (DON)
-EvtFlags	0x006D	ITEM GIFT	Blackthorn City		Receive Spell Tag from Santos (Saturday)
+EvtFlags	0x006D	ITEM GIFT	Blackthorn City		[Saturday] Receive Spell Tag from Santos
 -	0	_SEPARATOR			
 EvtFlags	0x04F3	TRAINER BATTLE	Goldenrod Radio Tower	1F	Team Rocket Grunt
 EvtFlags	0x0511	TRAINER BATTLE	Goldenrod Radio Tower	2F	Team Rocket Grunt
@@ -820,7 +820,7 @@ EvtFlags	0x0650	FIELD ITEM	Tin Tower	7F	Max Revive
 EvtFlags	0x0651	FIELD ITEM	Tin Tower	8F	Nugget
 EvtFlags	0x0652	FIELD ITEM	Tin Tower	8F	Max Elixer
 EvtFlags	0x0653	FIELD ITEM	Tin Tower	8F	Full Restore
-EvtFlags	0x0317	STATIC ENCOUNTER	Tin Tower	Top	Capture/Defeat Ho-Oh
+EvtFlags	0x0317	STATIC ENCOUNTER	Tin Tower	Roof	Capture/Defeat Ho-Oh
 -	0	_SEPARATOR			
 EvtFlags	0x0074	ITEM GIFT	Route 28	House	Receive TM47 (Steel Wing) from celebrity
 EvtFlags	0x00A3	HIDDEN ITEM	Route 28		Rare Candy
