@@ -5065,6 +5065,9 @@ EvtFlags	0x0D707154	STORY EVENT	South Province (Area Three)		Unlocked Ride Dash 
 EvtFlags	0x6ABB01F7	STORY EVENT	Casseroya Lake		Unlocked Ride Climb power
 EvtFlags	0x9DDF953F	STORY EVENT	Asado Desert		Unlocked Ride Glide power
 EvtFlags	0x76FF4AF0	STORY EVENT	West Province (Area One)		Unlocked Ride Swim power
+EvtFlags	0xF4670B74	SIDE EVENT			KUnlockedLetsGo
+EvtFlags	0x13DB4C8F	STORY EVENT			KUnlockedTeraTypeChanging
+EvtFlags	0xCB13D905	SIDE EVENT			KUnlockedEmotes
 EvtFlags	0x92CE2CF6	STORY EVENT			Finished Main Story
 EvtFlags	0xF7900D11	SIDE EVENT			Claimed Pokédex Diploma
 EvtFlags	0x44CA754B	SIDE EVENT			Receive Master Rank Ribbon (Ranked Battle)
@@ -5230,13 +5233,67 @@ EvtFlags	0x19B59CA6	ITEM GIFT			KOgreClanReward4
 EvtFlags	0x19B59E59	ITEM GIFT			KOgreClanReward5
 EvtFlags	0x19B59940	ITEM GIFT			KOgreClanReward6
 EvtFlags	0x19B59AF3	ITEM GIFT			KOgreClanReward7
+EvtFlags	0xA5596DD0	SIDE EVENT			KOgreOustinClearedNormal
+EvtFlags	0x17AD6C82	SIDE EVENT			KOgreOustinClearedHard
 EvtFlags	0x0DDBBAAF	STORY EVENT			KGameClearIndigoDisk
 EvtFlags	0x3A9255B2	SIDE EVENT			Unlocked Ride Fly power
+EvtFlags	0xD236F495	SIDE EVENT			KUnlockedSpecialCoaches
+EvtFlags	0xF26983F0	SIDE EVENT			KUnlockedBlueberryQuests
+EvtFlags	0x9D6CE802	SIDE EVENT			KUnlockedAdvancedBBQs
+EvtFlags	0x9D6CE64F	SIDE EVENT			KUnlockedGroupBBQs
+EvtFlags	0xB5236DCD	SIDE EVENT			KUnlockedSpecialCoachPenny
+EvtFlags	0xBD5944BF	SIDE EVENT			KUnlockedSpecialCoachPoppy
+EvtFlags	0x45825C80	SIDE EVENT			KUnlockedSpecialCoachRika
+EvtFlags	0xB59CC7B0	SIDE EVENT			KUnlockedSpecialCoachGeeta
+EvtFlags	0x70F44B91	SIDE EVENT			KUnlockedSpecialCoachArven
+EvtFlags	0x1D854087	SIDE EVENT			KUnlockedSpecialCoachNemona
+EvtFlags	0xF12544CF	SIDE EVENT			KUnlockedSpecialCoachHassel
+EvtFlags	0x0B403D86	SIDE EVENT			KUnlockedSpecialCoachDendra
+EvtFlags	0x7D6C9A65	SIDE EVENT			KUnlockedSpecialCoachJacq
+EvtFlags	0x4287D1DC	SIDE EVENT			KUnlockedSpecialCoachClavell
+EvtFlags	0xE0DBBCF8	SIDE EVENT			KUnlockedSpecialCoachMiriam
+EvtFlags	0xD067C9D2	SIDE EVENT			KUnlockedSpecialCoachRaifort
+EvtFlags	0x119B604D	SIDE EVENT			KUnlockedSpecialCoachSaguaro
+EvtFlags	0xE3FFF180	SIDE EVENT			KUnlockedSpecialCoachSalvatore
+EvtFlags	0xFA1952E8	SIDE EVENT			KUnlockedSpecialCoachTyme
+EvtFlags	0x5044B3DF	SIDE EVENT			KItemMachineUnlockedStellarShard
+EvtFlags	0x9BC0F251	SIDE EVENT			KUnlockedBallThrowSet01
+EvtFlags	0x9BC0ED38	SIDE EVENT			KUnlockedBallThrowSet02
+EvtFlags	0x9BC0EEEB	SIDE EVENT			KUnlockedBallThrowSet03
+EvtFlags	0xFAE9772D	SIDE EVENT			KUnlockedTerariumStarters01
+EvtFlags	0xFAE9757A	SIDE EVENT			KUnlockedTerariumStarters02
+EvtFlags	0xFAE973C7	SIDE EVENT			KUnlockedTerariumStarters03
+EvtFlags	0xFAE97214	SIDE EVENT			KUnlockedTerariumStarters04
+EvtFlags	0x255992C9	SIDE EVENT			KUnlockedClubroomStyleSet01
+EvtFlags	0x25598DB0	SIDE EVENT			KUnlockedClubroomStyleSet02
+EvtFlags	0x25598F63	SIDE EVENT			KUnlockedClubroomStyleSet03
+EvtFlags	0x511570D8	SIDE EVENT			KUnlockedDLCEmote06
+EvtFlags	0xB49C2E43	SIDE EVENT			KUnlockedDLCEmote07
+EvtFlags	0x0F5E8B36	SIDE EVENT			KUnlockedDLCEmote08
+EvtFlags	0x5D1C2089	SIDE EVENT			KUnlockedDLCEmote09
+EvtFlags	0xD57ACCDC	SIDE EVENT			KUnlockedDLCEmote10
+EvtFlags	0x8E6B4987	SIDE EVENT			KUnlockedDLCEmote11
+EvtFlags	0x6F5EF795	SIDE EVENT			KUnlockedDLCSelfie00
+EvtFlags	0x102D3DA2	SIDE EVENT			KUnlockedDLCSelfie01
+EvtFlags	0xBE729BEF	SIDE EVENT			KUnlockedDLCSelfie02
+EvtFlags	0xACEBDCB6	SIDE EVENT			KUnlockedPhotoDeco00
+EvtFlags	0xFAA97209	SIDE EVENT			KUnlockedPhotoDeco01
+EvtFlags	0xEEA2C258	SIDE EVENT			KUnlockedPhotoDeco02
+EvtFlags	0x52297FC3	SIDE EVENT			KUnlockedPhotoDeco03
+EvtFlags	0xA256D5DA	SIDE EVENT			KUnlockedPhotoDeco04
+EvtFlags	0x71D1646D	SIDE EVENT			KUnlockedPhotoDeco05
+EvtFlags	0x73081E5C	SIDE EVENT			KUnlockedPhotoDeco06
+EvtFlags	0x2BF89B07	SIDE EVENT			KUnlockedPhotoDeco07
+EvtFlags	0x11A8ED8E	SIDE EVENT			KUnlockedPhotoDeco08
+EvtFlags	0xB707E501	SIDE EVENT			KUnlockedPhotoDeco09
+EvtFlags	0xBF2E7F93	SIDE EVENT			KUnlockedPhotoDeco10
+EvtFlags	0x940817E8	SIDE EVENT			KUnlockedPhotoDeco11
 EvtFlags	0x9950D651	SIDE EVENT			Claimed Blueberry Pokedex Diploma
 EvtFlags	0x3FCD09A3	SIDE EVENT			KUnlockedDressupUpgrade02
 EvtFlags	0x1922C364	SIDE EVENT			KUnlockedHairSalonUpgrade02
 EvtFlags	0x04A230FA	STORY EVENT			KBattledStellarTerapagosOnce
 EvtFlags	0x88DEDE8E	SIDE EVENT			KUnlockedAtticusAuctions
 EvtFlags	0x47CDA43D	SIDE EVENT			KUnlockedSynchroMachine
+EvtFlags	0x20B167D8	SIDE EVENT			FSYS_PHOTO_CONVERSION_ENABLE
 EvtFlags	0x4EF04CF2	STORY EVENT			FSYS_SCENARIO_LAST_EPISODE_CLEAR
 EvtFlags	0x59AFCA7B	STORY EVENT			FSYS_TBALL_POWERUP_ENABLE
