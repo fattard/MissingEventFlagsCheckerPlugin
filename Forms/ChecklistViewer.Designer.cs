@@ -137,7 +137,7 @@
             filterBySearchChk.Location = new Point(309, 514);
             filterBySearchChk.Name = "filterBySearchChk";
             filterBySearchChk.Size = new Size(133, 19);
-            filterBySearchChk.TabIndex = 3;
+            filterBySearchChk.TabIndex = 5;
             filterBySearchChk.Text = "Filter by search term";
             filterBySearchChk.UseVisualStyleBackColor = true;
             filterBySearchChk.CheckedChanged += FilterBySearchChk_CheckedChanged;
@@ -148,7 +148,7 @@
             searchTermBox.Location = new Point(309, 539);
             searchTermBox.Name = "searchTermBox";
             searchTermBox.Size = new Size(250, 23);
-            searchTermBox.TabIndex = 4;
+            searchTermBox.TabIndex = 6;
             searchTermBox.KeyDown += SearchTermBox_KeyDown;
             // 
             // exportCurrentViewBtn
@@ -157,7 +157,7 @@
             exportCurrentViewBtn.Location = new Point(599, 470);
             exportCurrentViewBtn.Name = "exportCurrentViewBtn";
             exportCurrentViewBtn.Size = new Size(210, 27);
-            exportCurrentViewBtn.TabIndex = 5;
+            exportCurrentViewBtn.TabIndex = 7;
             exportCurrentViewBtn.Text = "Export current view";
             exportCurrentViewBtn.UseVisualStyleBackColor = true;
             exportCurrentViewBtn.Click += ExportCurrentViewBtn_Click;
@@ -168,7 +168,7 @@
             exportFullChecklistBtn.Location = new Point(599, 503);
             exportFullChecklistBtn.Name = "exportFullChecklistBtn";
             exportFullChecklistBtn.Size = new Size(210, 27);
-            exportFullChecklistBtn.TabIndex = 6;
+            exportFullChecklistBtn.TabIndex = 8;
             exportFullChecklistBtn.Text = "Export Full Checklist";
             exportFullChecklistBtn.UseVisualStyleBackColor = true;
             exportFullChecklistBtn.Click += ExportFullChecklistBtn_Click;
@@ -179,7 +179,7 @@
             exportMissingEventsBtn.Location = new Point(599, 536);
             exportMissingEventsBtn.Name = "exportMissingEventsBtn";
             exportMissingEventsBtn.Size = new Size(210, 27);
-            exportMissingEventsBtn.TabIndex = 7;
+            exportMissingEventsBtn.TabIndex = 9;
             exportMissingEventsBtn.Text = "Export only missing events";
             exportMissingEventsBtn.UseVisualStyleBackColor = true;
             exportMissingEventsBtn.Click += ExportMissingEventsBtn_Click;
@@ -193,7 +193,7 @@
             showTimedEventsChk.Location = new Point(18, 541);
             showTimedEventsChk.Name = "showTimedEventsChk";
             showTimedEventsChk.Size = new Size(164, 19);
-            showTimedEventsChk.TabIndex = 8;
+            showTimedEventsChk.TabIndex = 3;
             showTimedEventsChk.Text = "Show Daily/Weekly events";
             showTimedEventsChk.UseVisualStyleBackColor = true;
             showTimedEventsChk.CheckedChanged += ShowTimedEventsChk_CheckedChanged;
@@ -204,7 +204,7 @@
             closeBtn.Location = new Point(837, 536);
             closeBtn.Name = "closeBtn";
             closeBtn.Size = new Size(110, 27);
-            closeBtn.TabIndex = 9;
+            closeBtn.TabIndex = 10;
             closeBtn.Text = "Close";
             closeBtn.UseVisualStyleBackColor = true;
             closeBtn.Click += CloseBtn_Click;
@@ -216,7 +216,6 @@
             totalsLabel.Location = new Point(12, 8);
             totalsLabel.Name = "totalsLabel";
             totalsLabel.Size = new Size(40, 15);
-            totalsLabel.TabIndex = 10;
             totalsLabel.Text = "Totals:";
             // 
             // totalsCountTxt
@@ -226,7 +225,6 @@
             totalsCountTxt.Location = new Point(70, 8);
             totalsCountTxt.Name = "totalsCountTxt";
             totalsCountTxt.Size = new Size(48, 15);
-            totalsCountTxt.TabIndex = 11;
             totalsCountTxt.Text = "000/000";
             // 
             // getFlagsEditorExLinkLabel
@@ -235,7 +233,7 @@
             getFlagsEditorExLinkLabel.Location = new Point(657, 8);
             getFlagsEditorExLinkLabel.Name = "getFlagsEditorExLinkLabel";
             getFlagsEditorExLinkLabel.Size = new Size(180, 15);
-            getFlagsEditorExLinkLabel.TabIndex = 12;
+            getFlagsEditorExLinkLabel.TabIndex = 11;
             getFlagsEditorExLinkLabel.TabStop = true;
             getFlagsEditorExLinkLabel.Text = "Download FlagsEditorEX";
             getFlagsEditorExLinkLabel.TextAlign = ContentAlignment.TopRight;
@@ -249,7 +247,7 @@
             editEventsBtn.Location = new Point(837, 4);
             editEventsBtn.Name = "editEventsBtn";
             editEventsBtn.Size = new Size(110, 23);
-            editEventsBtn.TabIndex = 13;
+            editEventsBtn.TabIndex = 12;
             editEventsBtn.Text = "Edit Events";
             editEventsBtn.UseVisualStyleBackColor = true;
             editEventsBtn.Click += EditEventsBtn_Click;
@@ -262,7 +260,7 @@
             filterByCategoryCombo.Location = new Point(309, 473);
             filterByCategoryCombo.Name = "filterByCategoryCombo";
             filterByCategoryCombo.Size = new Size(250, 23);
-            filterByCategoryCombo.TabIndex = 14;
+            filterByCategoryCombo.TabIndex = 4;
             filterByCategoryCombo.SelectedIndexChanged += FilterByCategoryCombo_SelectedIndexChanged;
             // 
             // ChecklistViewer
