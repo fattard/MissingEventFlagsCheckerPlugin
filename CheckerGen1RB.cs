@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PKHeX.Core;
-
-namespace MissingEventFlagsCheckerPlugin
+﻿namespace MissingEventFlagsCheckerPlugin
 {
     internal class CheckerGen1RB : EventFlagsChecker
     {
-        static string s_chkdb_res = null;
+        static string? s_chkdb_res = null;
 
         enum FlagOffsets_INTL
         {
@@ -73,7 +66,7 @@ namespace MissingEventFlagsCheckerPlugin
         {
             m_savFile = savFile;
 
-            var savFile_SAV1 = (m_savFile as SAV1);
+            var savFile_SAV1 = (SAV1)m_savFile;
 
             if (savFile_SAV1.Japanese)
             {
@@ -158,39 +151,39 @@ namespace MissingEventFlagsCheckerPlugin
             switch (evtDetail.EvtSource)
             {
                 case Src_EventFlags:
-                    isEvtSet = (m_savFile as IEventFlagArray).GetEventFlag(idx);
+                    isEvtSet = ((IEventFlagArray)m_savFile!).GetEventFlag(idx);
                     break;
 
                 case Src_HideShowFlags:
-                    isEvtSet = m_savFile.GetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7);
+                    isEvtSet = m_savFile!.GetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7);
                     break;
 
                 case Src_HiddenItemFlags:
-                    isEvtSet = m_savFile.GetFlag(ObtainedHiddenItemsOffset + (idx >> 3), idx & 7);
+                    isEvtSet = m_savFile!.GetFlag(ObtainedHiddenItemsOffset + (idx >> 3), idx & 7);
                     break;
 
                 case Src_HiddenCoinsFlags:
-                    isEvtSet = m_savFile.GetFlag(ObtainedHiddenCoinsOffset + (idx >> 3), idx & 7);
+                    isEvtSet = m_savFile!.GetFlag(ObtainedHiddenCoinsOffset + (idx >> 3), idx & 7);
                     break;
 
                 case Src_FlySpotFlags:
-                    isEvtSet = m_savFile.GetFlag(FlySpotFlagsOffset + (idx >> 3), idx & 7);
+                    isEvtSet = m_savFile!.GetFlag(FlySpotFlagsOffset + (idx >> 3), idx & 7);
                     break;
 
                 case Src_TradeFlags:
-                    isEvtSet = m_savFile.GetFlag(CompletedInGameTradeFlagsOffset + (idx >> 3), idx & 7);
+                    isEvtSet = m_savFile!.GetFlag(CompletedInGameTradeFlagsOffset + (idx >> 3), idx & 7);
                     break;
 
                 case Src_BadgesFlags:
-                    isEvtSet = m_savFile.GetFlag(BadgeFlagsOffset + (idx >> 3), idx & 7);
+                    isEvtSet = m_savFile!.GetFlag(BadgeFlagsOffset + (idx >> 3), idx & 7);
                     break;
 
                 case Src_Misc_wd728:
-                    isEvtSet = m_savFile.GetFlag(RodFlagsOffset + (idx >> 3), idx & 7);
+                    isEvtSet = m_savFile!.GetFlag(RodFlagsOffset + (idx >> 3), idx & 7);
                     break;
 
                 case Src_Misc_wd72e:
-                    isEvtSet = m_savFile.GetFlag(LaprasFlagOffset + (idx >> 3), idx & 7);
+                    isEvtSet = m_savFile!.GetFlag(LaprasFlagOffset + (idx >> 3), idx & 7);
                     break;
 
                 case Src_EventFlagsEX:
@@ -198,13 +191,13 @@ namespace MissingEventFlagsCheckerPlugin
                         switch (idx)
                         {
                             case 0x356: // Choice: Hitmonlee / Hitmonchan
-                                isEvtSet = (m_savFile as IEventFlagArray).GetEventFlag(0x356) ||
-                                           (m_savFile as IEventFlagArray).GetEventFlag(0x357);
+                                isEvtSet = ((IEventFlagArray)m_savFile!).GetEventFlag(0x356) ||
+                                           ((IEventFlagArray)m_savFile!).GetEventFlag(0x357);
                                 break;
 
                             case 0x57E: // Choice: Dome Fossil / Helix Fossil
-                                isEvtSet = (m_savFile as IEventFlagArray).GetEventFlag(0x57E) ||
-                                           (m_savFile as IEventFlagArray).GetEventFlag(0x57F);
+                                isEvtSet = ((IEventFlagArray)m_savFile!).GetEventFlag(0x57E) ||
+                                           ((IEventFlagArray)m_savFile!).GetEventFlag(0x57F);
                                 break;
 
                             default:
@@ -219,13 +212,13 @@ namespace MissingEventFlagsCheckerPlugin
                         switch (idx)
                         {
                             case 0x87: // Silph Scope
-                                isEvtSet = m_savFile.GetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7) &&
-                                           m_savFile.GetFlag(MissableObjectFlagsOffset + (0x83 >> 3), 0x83 & 7); // HS_ROCKET_HIDEOUT_B4F_GIOVANNI
+                                isEvtSet = m_savFile!.GetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7) &&
+                                           m_savFile!.GetFlag(MissableObjectFlagsOffset + (0x83 >> 3), 0x83 & 7); // HS_ROCKET_HIDEOUT_B4F_GIOVANNI
                                 break;
 
                             case 0x88: // Lift Key
-                                isEvtSet = m_savFile.GetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7) &&
-                                           (m_savFile as IEventFlagArray).GetEventFlag(0x6A6); // EVENT_ROCKET_DROPPED_LIFT_KEY
+                                isEvtSet = m_savFile!.GetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7) &&
+                                           ((IEventFlagArray)m_savFile!).GetEventFlag(0x6A6); // EVENT_ROCKET_DROPPED_LIFT_KEY
                                 break;
 
                             default:
@@ -240,7 +233,7 @@ namespace MissingEventFlagsCheckerPlugin
                         switch (idx)
                         {
                             case 0x75: // S.S. Anne 2F
-                                isEvtSet = m_savFile.Data[GameProgressWorkOffset + idx] == 0x4;
+                                isEvtSet = m_savFile!.Data[GameProgressWorkOffset + idx] == 0x4;
                                 break;
 
                             default:

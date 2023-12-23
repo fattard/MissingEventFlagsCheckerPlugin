@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using PKHeX.Core;
-
-namespace MissingEventFlagsCheckerPlugin
+﻿namespace MissingEventFlagsCheckerPlugin
 {
     public abstract class EventFlagsChecker
     {
@@ -109,7 +103,7 @@ namespace MissingEventFlagsCheckerPlugin
         }
 
 
-        protected SaveFile m_savFile;
+        protected SaveFile? m_savFile;
 
         protected List<EventDetail> m_eventsChecklist = new List<EventDetail>(4096);
         protected Dictionary<string, int> m_flagsSourceInfo = new Dictionary<string, int>(10);
@@ -128,7 +122,12 @@ namespace MissingEventFlagsCheckerPlugin
 
             using (System.IO.StringReader reader = new System.IO.StringReader(chkList_res))
             {
-                string s = reader.ReadLine();
+                string? s = reader.ReadLine();
+
+                if (s is null)
+                {
+                    return;
+                }
 
                 do
                 {
@@ -141,7 +140,7 @@ namespace MissingEventFlagsCheckerPlugin
 
                     s = reader.ReadLine();
 
-                } while (s != null);
+                } while (s is not null);
             }
         }
 
@@ -164,7 +163,7 @@ namespace MissingEventFlagsCheckerPlugin
                 }
             }
 
-            System.IO.File.WriteAllText(string.Format("checklist_{0}.txt", m_savFile.Version), sb.ToString());
+            System.IO.File.WriteAllText(string.Format("checklist_{0}.txt", m_savFile!.Version), sb.ToString());
         }
 
         public virtual void ExportMissingEvents()
@@ -179,7 +178,7 @@ namespace MissingEventFlagsCheckerPlugin
                 }
             }
 
-            System.IO.File.WriteAllText(string.Format("missing_events_{0}.txt", m_savFile.Version), sb.ToString());
+            System.IO.File.WriteAllText(string.Format("missing_events_{0}.txt", m_savFile!.Version), sb.ToString());
         }
 
         #endregion Actions
@@ -208,21 +207,39 @@ namespace MissingEventFlagsCheckerPlugin
             return Convert.ToUInt64(str);
         }
 
-        protected static string ReadResFile(string resName)
+        public static long ParseDecOrHexSigned(string str)
         {
-            string contentTxt = null;
+            if (str.StartsWith("0x"))
+                return Convert.ToInt64(str, 16);
+
+            return Convert.ToInt64(str);
+        }
+
+        protected static string ReadResFile(string resName, string? langCode = null)
+        {
+            string? contentTxt = null;
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
-            // Try off-res first
-            var offResPath = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location), resName);
+            // Try outside file first
+            var offResPath = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location)!, resName);
             if (!System.IO.File.Exists(offResPath))
             {
                 resName = assembly.GetManifestResourceNames().Single(str => str.EndsWith(resName));
 
+                try
+                {
+                    resName = assembly.GetManifestResourceNames().Single(str => str.EndsWith(resName));
+                }
+                catch (InvalidOperationException)
+                {
+                    // Load default language
+                    return ReadResFile(resName, "en");
+                }
+
                 using (var stream = assembly.GetManifestResourceStream(resName))
                 {
-                    using (var reader = new System.IO.StreamReader(stream))
+                    using (var reader = new System.IO.StreamReader(stream!))
                     {
                         contentTxt = reader.ReadToEnd();
                     }
@@ -238,151 +255,130 @@ namespace MissingEventFlagsCheckerPlugin
 
         public static EventFlagsChecker CreateEventFlagsChecker(SaveFile savFile)
         {
-            EventFlagsChecker eventsOrganizer = null;
-
-            switch (savFile.Version)
+            EventFlagsChecker? eventsOrganizer = savFile.Version switch
             {
-                case GameVersion.Any:
-                case GameVersion.RBY:
-                case GameVersion.StadiumJ:
-                case GameVersion.Stadium:
-                case GameVersion.Stadium2:
-                case GameVersion.RSBOX:
-                case GameVersion.COLO:
-                case GameVersion.XD:
-                case GameVersion.CXD:
-                case GameVersion.BATREV:
-                case GameVersion.ORASDEMO:
-                case GameVersion.GO:
-                case GameVersion.Unknown:
-                case GameVersion.Invalid:
-                    break; // unsupported format
+                GameVersion.Any or
+                GameVersion.RBY or
+                GameVersion.StadiumJ or
+                GameVersion.Stadium or
+                GameVersion.Stadium2 or
+                GameVersion.RSBOX or
+                GameVersion.COLO or
+                GameVersion.XD or
+                GameVersion.CXD or
+                GameVersion.BATREV or
+                GameVersion.ORASDEMO or
+                GameVersion.GO or
+                GameVersion.Unknown or
+                GameVersion.Invalid
+                    // unsupported format
+                    => null,
 
-                case GameVersion.RD:
-                case GameVersion.GN:
-                case GameVersion.RB:
-                    eventsOrganizer = new CheckerGen1RB();
-                    break;
+                GameVersion.RD or
+                GameVersion.GN or
+                GameVersion.BU or
+                GameVersion.RB
+                    => new CheckerGen1RB(),
 
-                case GameVersion.YW:
-                    eventsOrganizer = new CheckerGen1Y();
-                    break;
+                GameVersion.YW
+                    => new CheckerGen1Y(),
 
-                case GameVersion.GD:
-                case GameVersion.SI:
-                case GameVersion.GS:
-                    eventsOrganizer = new CheckerGen2GS();
-                    break;
+                GameVersion.GD or
+                GameVersion.SI or
+                GameVersion.GS
+                    => new CheckerGen2GS(),
 
-                case GameVersion.C:
-                    eventsOrganizer = new CheckerGen2C();
-                    break;
+                GameVersion.C
+                    => new CheckerGen2C(),
 
-                case GameVersion.R:
-                case GameVersion.S:
-                case GameVersion.RS:
-                    eventsOrganizer = new CheckerGen3RS();
-                    break;
+                GameVersion.R or
+                GameVersion.S or
+                GameVersion.RS
+                    => new CheckerGen3RS(),
 
-                case GameVersion.FR:
-                case GameVersion.LG:
-                case GameVersion.FRLG:
-                    eventsOrganizer = new CheckerGen3FRLG();
-                    break;
+                GameVersion.FR or
+                GameVersion.LG or
+                GameVersion.FRLG
+                    => new CheckerGen3FRLG(),
 
-                case GameVersion.E:
-                    eventsOrganizer = new CheckerGen3E();
-                    break;
+                GameVersion.E
+                    => new CheckerGen3E(),
 
-                case GameVersion.D:
-                case GameVersion.P:
-                case GameVersion.DP:
-                    eventsOrganizer = new CheckerGen4DP();
-                    break;
+                GameVersion.D or
+                GameVersion.P or
+                GameVersion.DP
+                    => new CheckerGen4DP(),
 
-                case GameVersion.Pt:
-                    eventsOrganizer = new CheckerGen4Pt();
-                    break;
+                GameVersion.Pt
+                    => new CheckerGen4Pt(),
 
-                case GameVersion.HG:
-                case GameVersion.SS:
-                case GameVersion.HGSS:
-                    eventsOrganizer = new CheckerGen4HGSS();
-                    break;
+                GameVersion.HG or
+                GameVersion.SS or
+                GameVersion.HGSS
+                    => new CheckerGen4HGSS(),
 
-                case GameVersion.B:
-                case GameVersion.W:
-                case GameVersion.BW:
-                    eventsOrganizer = new CheckerGen5BW();
-                    break;
+                GameVersion.B or
+                GameVersion.W or
+                GameVersion.BW
+                    => new CheckerGen5BW(),
 
-                case GameVersion.B2:
-                case GameVersion.W2:
-                case GameVersion.B2W2:
-                    eventsOrganizer = new CheckerGen5B2W2();
-                    break;
+                GameVersion.B2 or
+                GameVersion.W2 or
+                GameVersion.B2W2
+                    => new CheckerGen5B2W2(),
 
-                case GameVersion.X:
-                case GameVersion.Y:
-                case GameVersion.XY:
-                    eventsOrganizer = new CheckerGen6XY();
-                    break;
+                GameVersion.X or
+                GameVersion.Y or
+                GameVersion.XY
+                    => new CheckerGen6XY(),
 
-                case GameVersion.OR:
-                case GameVersion.AS:
-                case GameVersion.ORAS:
-                    eventsOrganizer = new CheckerGen6ORAS();
-                    break;
+                GameVersion.OR or
+                GameVersion.AS or
+                GameVersion.ORAS
+                    => new CheckerGen6ORAS(),
 
-                case GameVersion.SN:
-                case GameVersion.MN:
-                case GameVersion.SM:
-                    eventsOrganizer = new CheckerGen7SM();
-                    break;
+                GameVersion.SN or
+                GameVersion.MN or
+                GameVersion.SM
+                    => new CheckerGen7SM(),
 
-                case GameVersion.US:
-                case GameVersion.UM:
-                case GameVersion.USUM:
-                    eventsOrganizer = new CheckerGen7USUM();
-                    break;
+                GameVersion.US or
+                GameVersion.UM or
+                GameVersion.USUM
+                    => new CheckerGen7USUM(),
 
-                case GameVersion.GP:
-                case GameVersion.GE:
-                case GameVersion.GG:
-                    eventsOrganizer = new CheckerGen7bGPGE();
-                    break;
+                GameVersion.GP or
+                GameVersion.GE or
+                GameVersion.GG
+                    => new CheckerGen7bGPGE(),
 
-                case GameVersion.BD:
-                case GameVersion.SP:
-                case GameVersion.BDSP:
-                    eventsOrganizer = new CheckerGen8BDSP();
-                    break;
+                GameVersion.SW or
+                GameVersion.SH or
+                GameVersion.SWSH
+                    => new CheckerGen8SWSH(),
 
-                case GameVersion.PLA:
-                    eventsOrganizer = new CheckerGen8LA();
-                    break;
+                GameVersion.BD or
+                GameVersion.SP or
+                GameVersion.BDSP
+                    => new CheckerGen8BDSP(),
 
-                case GameVersion.SW:
-                case GameVersion.SH:
-                case GameVersion.SWSH:
-                    eventsOrganizer = new CheckerGen8SWSH();
-                    break;
+                GameVersion.PLA
+                    => new CheckerGen8LA(),
 
-                case GameVersion.SL:
-                case GameVersion.VL:
-                case GameVersion.SV:
-                    eventsOrganizer = new CheckerGen9SV();
-                    break;
+                GameVersion.SL or
+                GameVersion.VL or
+                GameVersion.SV
+                    => new CheckerGen9SV(),
 
+                _ => null
+            };
 
-                default:
-                    break;
+            if (eventsOrganizer is null)
+            {
+                throw new FormatException($"Unsupported SAV format: {savFile.Version}");
             }
 
-            if (eventsOrganizer != null)
-            {
-                eventsOrganizer.InitData(savFile);
-            }
+            eventsOrganizer.InitData(savFile);
 
             return eventsOrganizer;
         }

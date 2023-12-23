@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PKHeX.Core;
-
-namespace MissingEventFlagsCheckerPlugin
+﻿namespace MissingEventFlagsCheckerPlugin
 {
     internal class CheckerGen2C : EventFlagsChecker
     {
-        static string s_chkdb_res = null;
+        static string? s_chkdb_res = null;
 
         enum FlagOffsets_INTL
         {
@@ -135,7 +128,7 @@ namespace MissingEventFlagsCheckerPlugin
                     case 151: // Mew
                         m_Dex_isMythicalRegistered_Mew = savFile_SAV2.GetCaught(i);
                         break;
-                    
+
                     case 251: // Celebi
                         m_Dex_isMythicalRegistered_Celebi = savFile_SAV2.GetCaught(i);
                         break;
@@ -376,7 +369,7 @@ namespace MissingEventFlagsCheckerPlugin
         bool GetSysFlag(int idx)
         {
             var (offset, flagIdx) = m_sysFlagsTbl[idx];
-            return m_savFile.GetFlag(offset + (flagIdx >> 3), flagIdx & 7);
+            return m_savFile!.GetFlag(offset + (flagIdx >> 3), flagIdx & 7);
         }
 
         protected override bool IsEvtSet(EventDetail evtDetail)
@@ -384,8 +377,8 @@ namespace MissingEventFlagsCheckerPlugin
             bool isEvtSet = false;
             int idx = (int)evtDetail.EvtId;
 
-            var eventWorkHelper = (m_savFile as IEventWorkArray<byte>);
-            var eventFlagsHelper = (m_savFile as IEventFlagArray);
+            var eventWorkHelper = (IEventWorkArray<byte>)m_savFile!;
+            var eventFlagsHelper = ((IEventFlagArray)m_savFile!);
             var sav2 = (m_savFile as SAV2);
 
             switch (evtDetail.EvtSource)
@@ -399,11 +392,11 @@ namespace MissingEventFlagsCheckerPlugin
                     break;
 
                 case Src_TradeFlags:
-                    isEvtSet = m_savFile.GetFlag(TradeFlagsOffset + (idx >> 3), idx & 7);
+                    isEvtSet = m_savFile!.GetFlag(TradeFlagsOffset + (idx >> 3), idx & 7);
                     break;
 
                 case Src_BerryTreeFlags:
-                    isEvtSet = m_savFile.GetFlag(BerryTreeFlagsOffset + (idx >> 3), idx & 7);
+                    isEvtSet = m_savFile!.GetFlag(BerryTreeFlagsOffset + (idx >> 3), idx & 7);
                     break;
 
                 case Src_WorkArea:
@@ -458,7 +451,7 @@ namespace MissingEventFlagsCheckerPlugin
                             case 0x03: // Exchange Red Scale for Exp. Share
                                 {
                                     isEvtSet = (!eventFlagsHelper.GetEventFlag(0x6D4) || eventFlagsHelper.GetEventFlag(0x60)) // !EVENT_LAKE_OF_RAGE_LANCE || EVENT_DECIDED_TO_HELP_LANCE
-                                        && !HasItemInBag(m_savFile.Inventory, 66) // Checks if Red Scale is not in Bag
+                                        && !HasItemInBag(m_savFile!.Inventory, 66) // Checks if Red Scale is not in Bag
                                         ;
                                 }
                                 break;
@@ -473,7 +466,7 @@ namespace MissingEventFlagsCheckerPlugin
 
                             case 0x05: // Unlock Mystery Gift
                                 {
-                                    isEvtSet = m_savFile.Data[0xBE3] != 0xFF;
+                                    isEvtSet = m_savFile!.Data[0xBE3] != 0xFF;
                                     //isEvtSet = sav2.MysteryGiftIsUnlocked;
                                 }
                                 break;
@@ -512,8 +505,8 @@ namespace MissingEventFlagsCheckerPlugin
 
                             case 0x0A: // Best Magikarp size record
                                 {
-                                    isEvtSet = m_savFile.Data[BestMagikarpLengthFeet] > 3
-                                        || m_savFile.Data[BestMagikarpLengthFeet + 1] > 6
+                                    isEvtSet = m_savFile!.Data[BestMagikarpLengthFeet] > 3
+                                        || m_savFile!.Data[BestMagikarpLengthFeet + 1] > 6
                                         ;
                                 }
                                 break;

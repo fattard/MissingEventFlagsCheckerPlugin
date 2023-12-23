@@ -1,22 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PKHeX.Core;
-
-namespace MissingEventFlagsCheckerPlugin
+﻿namespace MissingEventFlagsCheckerPlugin
 {
     internal class CheckerGen7bGPGE : EventFlagsChecker
     {
-        static string s_chkdb_res = null;
+        static string? s_chkdb_res = null;
 
-        EventWork7b m_eventWorkData;
+        EventWork7b? m_eventWorkData;
 
         protected override void InitData(SaveFile savFile)
         {
             m_savFile = savFile;
-            m_eventWorkData = (m_savFile as SAV7b).EventWork;
+            m_eventWorkData = ((SAV7b)m_savFile).EventWork;
 
 #if DEBUG
             // Force refresh
@@ -42,7 +35,7 @@ namespace MissingEventFlagsCheckerPlugin
             switch (evtDetail.EvtSource)
             {
                 case 0: // EventFlags
-                    isEvtSet = (m_savFile as IEventFlagArray).GetEventFlag(idx);
+                    isEvtSet = ((IEventFlagArray)m_savFile!).GetEventFlag(idx);
                     break;
 
                 default:

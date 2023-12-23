@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PKHeX.Core;
-
-namespace MissingEventFlagsCheckerPlugin
+﻿namespace MissingEventFlagsCheckerPlugin
 {
     internal class CheckerGen5BW : EventFlagsChecker
     {
-        static string s_chkdb_res = null;
+        static string? s_chkdb_res = null;
 
         protected override void InitData(SaveFile savFile)
         {
@@ -39,7 +32,7 @@ namespace MissingEventFlagsCheckerPlugin
             switch (evtDetail.EvtSource)
             {
                 case 0: // EventFlags
-                    isEvtSet = (m_savFile as IEventFlagArray).GetEventFlag(idx);
+                    isEvtSet = ((IEventFlagArray)m_savFile!).GetEventFlag(idx);
                     break;
 
                 default:

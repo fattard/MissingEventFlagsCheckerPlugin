@@ -1,16 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PKHeX.Core;
-
-namespace MissingEventFlagsCheckerPlugin
+﻿namespace MissingEventFlagsCheckerPlugin
 {
     internal class CheckerGen9SV : EventFlagsChecker
     {
-        static string s_chkdb_res = null;
-        Dictionary<ulong, bool> m_blocksStatus;
+        static string? s_chkdb_res = null;
+        Dictionary<ulong, bool>? m_blocksStatus;
 
         protected override void InitData(SaveFile savFile)
         {
@@ -39,7 +32,7 @@ namespace MissingEventFlagsCheckerPlugin
         {
             bool isEvtSet = false;
             ulong idx = (uint)evtDetail.EvtId;
-            var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
+            var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
 
             switch (evtDetail.EvtSource)
             {

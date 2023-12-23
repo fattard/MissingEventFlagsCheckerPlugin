@@ -1,163 +1,47 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PKHeX.Core;
-
-namespace MissingEventFlagsCheckerPlugin
+﻿namespace MissingEventFlagsCheckerPlugin
 {
 
     static class EventFlagTypeExtensions
     {
-        public static EventFlagsChecker.EventFlagType Parse(this EventFlagsChecker.EventFlagType flagType, string txt)
+        public static EventFlagsChecker.EventFlagType Parse(this EventFlagsChecker.EventFlagType flagType, string txt) => txt switch
         {
-            switch (txt)
-            {
-                case "FIELD ITEM":
-                    flagType = EventFlagsChecker.EventFlagType.FieldItem;
-                    break;
+            "FIELD ITEM" => EventFlagsChecker.EventFlagType.FieldItem,
+            "HIDDEN ITEM" => EventFlagsChecker.EventFlagType.HiddenItem,
+            "SPECIAL ITEM" => EventFlagsChecker.EventFlagType.SpecialItem,
+            "TRAINER BATTLE" => EventFlagsChecker.EventFlagType.TrainerBattle,
+            "STATIC ENCOUNTER" => EventFlagsChecker.EventFlagType.StaticEncounter,
+            "IN-GAME TRADE" => EventFlagsChecker.EventFlagType.InGameTrade,
+            "ITEM GIFT" => EventFlagsChecker.EventFlagType.ItemGift,
+            "PKMN GIFT" => EventFlagsChecker.EventFlagType.PkmnGift,
+            "EVENT" => EventFlagsChecker.EventFlagType.GeneralEvent,
+            "SIDE EVENT" => EventFlagsChecker.EventFlagType.SideEvent,
+            "STORY EVENT" => EventFlagsChecker.EventFlagType.StoryEvent,
+            "BERRY TREE" => EventFlagsChecker.EventFlagType.BerryTree,
+            "FLY SPOT" => EventFlagsChecker.EventFlagType.FlySpot,
+            "COLLECTABLE" => EventFlagsChecker.EventFlagType.Collectable,
+            "_UNUSED" => EventFlagsChecker.EventFlagType._Unused,
+            "_SEPARATOR" => EventFlagsChecker.EventFlagType._Separator,
+            _ => EventFlagsChecker.EventFlagType._Unknown,
+        };
 
-                case "HIDDEN ITEM":
-                    flagType = EventFlagsChecker.EventFlagType.HiddenItem;
-                    break;
-
-                case "SPECIAL ITEM":
-                    flagType = EventFlagsChecker.EventFlagType.SpecialItem;
-                    break;
-
-                case "TRAINER BATTLE":
-                    flagType = EventFlagsChecker.EventFlagType.TrainerBattle;
-                    break;
-
-                case "STATIC ENCOUNTER":
-                    flagType = EventFlagsChecker.EventFlagType.StaticEncounter;
-                    break;
-
-                case "IN-GAME TRADE":
-                    flagType = EventFlagsChecker.EventFlagType.InGameTrade;
-                    break;
-
-                case "ITEM GIFT":
-                    flagType = EventFlagsChecker.EventFlagType.ItemGift;
-                    break;
-
-                case "PKMN GIFT":
-                    flagType = EventFlagsChecker.EventFlagType.PkmnGift;
-                    break;
-
-                case "EVENT":
-                    flagType = EventFlagsChecker.EventFlagType.GeneralEvent;
-                    break;
-
-                case "SIDE EVENT":
-                    flagType = EventFlagsChecker.EventFlagType.SideEvent;
-                    break;
-
-                case "STORY EVENT":
-                    flagType = EventFlagsChecker.EventFlagType.StoryEvent;
-                    break;
-
-                case "BERRY TREE":
-                    flagType = EventFlagsChecker.EventFlagType.BerryTree;
-                    break;
-
-                case "FLY SPOT":
-                    flagType = EventFlagsChecker.EventFlagType.FlySpot;
-                    break;
-
-                case "COLLECTABLE":
-                    flagType = EventFlagsChecker.EventFlagType.Collectable;
-                    break;
-
-                case "_UNUSED":
-                    flagType = EventFlagsChecker.EventFlagType._Unused;
-                    break;
-
-                case "_SEPARATOR":
-                    flagType = EventFlagsChecker.EventFlagType._Separator;
-                    break;
-
-                default:
-                    flagType = EventFlagsChecker.EventFlagType._Unknown;
-                    break;
-            }
-
-            return flagType;
-        }
-
-        public static string AsText(this EventFlagsChecker.EventFlagType flagType)
+        public static string AsText(this EventFlagsChecker.EventFlagType flagType) => flagType switch
         {
-            string flagTypeTxt = "";
-
-            switch (flagType)
-            {
-                case EventFlagsChecker.EventFlagType.FieldItem:
-                    flagTypeTxt = "FIELD ITEM";
-                    break;
-
-                case EventFlagsChecker.EventFlagType.HiddenItem:
-                    flagTypeTxt = "HIDDEN ITEM";
-                    break;
-
-                case EventFlagsChecker.EventFlagType.SpecialItem:
-                    flagTypeTxt = "SPECIAL ITEM";
-                    break;
-
-                case EventFlagsChecker.EventFlagType.TrainerBattle:
-                    flagTypeTxt = "TRAINER BATTLE";
-                    break;
-
-                case EventFlagsChecker.EventFlagType.StaticEncounter:
-                    flagTypeTxt = "STATIC ENCOUNTER";
-                    break;
-
-                case EventFlagsChecker.EventFlagType.InGameTrade:
-                    flagTypeTxt = "IN-GAME TRADE";
-                    break;
-
-                case EventFlagsChecker.EventFlagType.ItemGift:
-                    flagTypeTxt = "ITEM GIFT";
-                    break;
-
-                case EventFlagsChecker.EventFlagType.PkmnGift:
-                    flagTypeTxt = "PKMN GIFT";
-                    break;
-
-                case EventFlagsChecker.EventFlagType.GeneralEvent:
-                    flagTypeTxt = "EVENT";
-                    break;
-
-                case EventFlagsChecker.EventFlagType.SideEvent:
-                    flagTypeTxt = "SIDE EVENT";
-                    break;
-
-                case EventFlagsChecker.EventFlagType.StoryEvent:
-                    flagTypeTxt = "STORY EVENT";
-                    break;
-
-                case EventFlagsChecker.EventFlagType.BerryTree:
-                    flagTypeTxt = "BERRY TREE";
-                    break;
-
-                case EventFlagsChecker.EventFlagType.FlySpot:
-                    flagTypeTxt = "FLY SPOT";
-                    break;
-
-                case EventFlagsChecker.EventFlagType.Collectable:
-                    flagTypeTxt = "COLLECTABLE";
-                    break;
-
-                case EventFlagsChecker.EventFlagType._Unused:
-                    flagTypeTxt = "_UNUSED";
-                    break;
-
-                default:
-                    flagTypeTxt = "";
-                    break;
-            }
-
-            return flagTypeTxt;
-        }
+            EventFlagsChecker.EventFlagType.FieldItem => "FIELD ITEM",
+            EventFlagsChecker.EventFlagType.HiddenItem => "HIDDEN ITEM",
+            EventFlagsChecker.EventFlagType.SpecialItem => "SPECIAL ITEM",
+            EventFlagsChecker.EventFlagType.TrainerBattle => "TRAINER BATTLE",
+            EventFlagsChecker.EventFlagType.StaticEncounter => "STATIC ENCOUNTER",
+            EventFlagsChecker.EventFlagType.InGameTrade => "IN-GAME TRADE",
+            EventFlagsChecker.EventFlagType.ItemGift => "ITEM GIFT",
+            EventFlagsChecker.EventFlagType.PkmnGift => "PKMN GIFT",
+            EventFlagsChecker.EventFlagType.GeneralEvent => "EVENT",
+            EventFlagsChecker.EventFlagType.SideEvent => "SIDE EVENT",
+            EventFlagsChecker.EventFlagType.StoryEvent => "STORY EVENT",
+            EventFlagsChecker.EventFlagType.BerryTree => "BERRY TREE",
+            EventFlagsChecker.EventFlagType.FlySpot => "FLY SPOT",
+            EventFlagsChecker.EventFlagType.Collectable => "COLLECTABLE",
+            EventFlagsChecker.EventFlagType._Unused => "_UNUSED",
+            _ => "",
+        };
     }
 }
