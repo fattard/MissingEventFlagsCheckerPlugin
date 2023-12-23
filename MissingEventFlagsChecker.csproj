@@ -16,27 +16,27 @@
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Include="checklist\chkdb_gen1rb.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen1y.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen2c.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen2gs.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen3e.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen3frlg.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen3rs.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen4dp.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen4hgss.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen4pt.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen5bw.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen5b2w2.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen6xy.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen6oras.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen7sm.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen7usum.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen7blgpe.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen8swsh.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen8bdsp.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen8la.txt" />
-    <EmbeddedResource Include="checklist\chkdb_gen9sv.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen1rb_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen1y_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen2c_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen2gs_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen3e_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen3frlg_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen3rs_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen4dp_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen4hgss_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen4pt_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen5bw_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen5b2w2_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen6xy_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen6oras_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen7sm_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen7usum_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen7blgpe_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen8swsh_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen8bdsp_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen8la_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen9sv_en.txt" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="PKHeX.Core" Version="23.12.22" />

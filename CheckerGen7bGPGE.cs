@@ -18,7 +18,7 @@
 
             if (s_chkdb_res == null)
             {
-                s_chkdb_res = ReadResFile("chkdb_gen7blgpe.txt");
+                s_chkdb_res = ReadResFile("chkdb_gen7blgpe");
             }
 
             m_flagsSourceInfo["0"] = 0;

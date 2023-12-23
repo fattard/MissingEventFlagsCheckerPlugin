@@ -15,7 +15,7 @@
 
             if (s_chkdb_res == null)
             {
-                s_chkdb_res = ReadResFile("chkdb_gen8swsh.txt");
+                s_chkdb_res = ReadResFile("chkdb_gen8swsh");
             }
 
             m_flagsSourceInfo["0"] = 0;

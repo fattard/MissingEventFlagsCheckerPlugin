@@ -15,7 +15,7 @@
 
             if (s_chkdb_res == null)
             {
-                s_chkdb_res = ReadResFile("chkdb_gen6oras.txt");
+                s_chkdb_res = ReadResFile("chkdb_gen6oras");
             }
 
             m_flagsSourceInfo["0"] = 0;

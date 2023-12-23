@@ -15,7 +15,7 @@
 
             if (s_chkdb_res == null)
             {
-                s_chkdb_res = ReadResFile("chkdb_gen8la.txt");
+                s_chkdb_res = ReadResFile("chkdb_gen8la");
             }
 
             m_flagsSourceInfo["0"] = 0;

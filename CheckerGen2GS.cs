@@ -146,7 +146,7 @@
 
             if (s_chkdb_res == null)
             {
-                s_chkdb_res = ReadResFile("chkdb_gen2gs.txt");
+                s_chkdb_res = ReadResFile("chkdb_gen2gs");
             }
 
             ParseChecklist(s_chkdb_res);

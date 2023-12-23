@@ -242,23 +242,30 @@
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
+            if (langCode is null)
+            {
+                langCode = GameInfo.CurrentLanguage;
+            }
+
+            string resFileName = $"{resName}_{langCode}.txt";
+
             // Try outside file first
-            var offResPath = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location)!, resName);
+            var offResPath = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location)!, resFileName);
             if (!System.IO.File.Exists(offResPath))
             {
-                resName = assembly.GetManifestResourceNames().Single(str => str.EndsWith(resName));
+                resFileName = assembly.GetManifestResourceNames().Single(str => str.EndsWith(resFileName));
 
                 try
                 {
-                    resName = assembly.GetManifestResourceNames().Single(str => str.EndsWith(resName));
+                    resFileName = assembly.GetManifestResourceNames().Single(str => str.EndsWith(resFileName));
                 }
                 catch (InvalidOperationException)
                 {
                     // Load default language
-                    return ReadResFile(resName, "en");
+                    return ReadResFile(resFileName, "en");
                 }
 
-                using (var stream = assembly.GetManifestResourceStream(resName))
+                using (var stream = assembly.GetManifestResourceStream(resFileName))
                 {
                     using (var reader = new System.IO.StreamReader(stream!))
                     {

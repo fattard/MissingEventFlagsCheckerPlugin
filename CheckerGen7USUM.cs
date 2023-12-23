@@ -15,7 +15,7 @@
 
             if (s_chkdb_res == null)
             {
-                s_chkdb_res = ReadResFile("chkdb_gen7usum.txt");
+                s_chkdb_res = ReadResFile("chkdb_gen7usum");
             }
 
             m_flagsSourceInfo["0"] = 0;

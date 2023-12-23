@@ -24,7 +24,7 @@
 
             if (s_chkdb_res == null)
             {
-                s_chkdb_res = ReadResFile("chkdb_gen8bdsp.txt");
+                s_chkdb_res = ReadResFile("chkdb_gen8bdsp");
             }
 
             m_flagsSourceInfo["EvtFlags"] = Src_EventFlags;
