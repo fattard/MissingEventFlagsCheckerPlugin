@@ -5,6 +5,7 @@
         public string Name => "Missing Event Flags Checker";
         public string NameExportMissingFlags => "Export only the missing events";
         public string NameExportChecklistFlags => "Export full Checklist";
+        public string NameChecklistViewer => "Checklist Viewer";
         public int Priority => 100; // Loading order, lowest is first.
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
         public ISaveFileProvider SaveFileEditor { get; private set; }
@@ -12,6 +13,7 @@
 
         private ToolStripMenuItem? ctrl;
 
+        private ToolStripMenuItem? menuEntry_ChecklistViewer;
         private ToolStripMenuItem? menuEntry_ExportMissingEvents;
         private ToolStripMenuItem? menuEntry_ExportChecklist;
 
@@ -34,6 +36,11 @@
             ctrl = new ToolStripMenuItem(Name);
             ctrl.Enabled = false;
             tools.DropDownItems.Add(ctrl);
+
+            menuEntry_ChecklistViewer = new ToolStripMenuItem(NameChecklistViewer);
+            menuEntry_ChecklistViewer.Enabled = false;
+            menuEntry_ChecklistViewer.Click += ChecklistViewer_UIEvt;
+            ctrl.DropDownItems.Add(menuEntry_ChecklistViewer);
 
             menuEntry_ExportChecklist = new ToolStripMenuItem(NameExportChecklistFlags);
             menuEntry_ExportChecklist.Enabled = false;
@@ -58,9 +65,16 @@
             eventsChecker.ExportChecklist();
         }
 
+        private void ChecklistViewer_UIEvt(object? sender, EventArgs e)
+        {
+            var form = new Forms.ChecklistViewer(SaveFileEditor.SAV);
+            form.ShowDialog();
+        }
+
         public void NotifySaveLoaded()
         {
             ctrl!.Enabled = true;
+            menuEntry_ChecklistViewer!.Enabled = true;
             menuEntry_ExportMissingEvents!.Enabled = true;
             menuEntry_ExportChecklist!.Enabled = true;
 

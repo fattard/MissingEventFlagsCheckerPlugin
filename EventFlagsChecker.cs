@@ -113,6 +113,8 @@
         /// </summary>
         public List<EventDetail> EventsChecklist => m_eventsChecklist;
 
+        public SaveFile? SaveFile => m_savFile;
+
         protected abstract bool IsEvtSet(EventDetail evtDetail);
         protected abstract void InitData(SaveFile savFile);
 
