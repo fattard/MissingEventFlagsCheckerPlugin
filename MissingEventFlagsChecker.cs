@@ -3,19 +3,12 @@
     public class MissingEventFlagsChecker : IPlugin
     {
         public string Name => "Missing Event Flags Checker";
-        public string NameExportMissingFlags => "Export only the missing events";
-        public string NameExportChecklistFlags => "Export full Checklist";
-        public string NameChecklistViewer => "Checklist Viewer";
         public int Priority => 100; // Loading order, lowest is first.
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
         public ISaveFileProvider SaveFileEditor { get; private set; }
 #pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
 
         private ToolStripMenuItem? ctrl;
-
-        private ToolStripMenuItem? menuEntry_ChecklistViewer;
-        private ToolStripMenuItem? menuEntry_ExportMissingEvents;
-        private ToolStripMenuItem? menuEntry_ExportChecklist;
 
         public void Initialize(params object[] args)
         {
@@ -35,38 +28,8 @@
         {
             ctrl = new ToolStripMenuItem(Name);
             ctrl.Enabled = false;
+            ctrl.Click += ChecklistViewer_UIEvt;
             tools.DropDownItems.Add(ctrl);
-
-            menuEntry_ChecklistViewer = new ToolStripMenuItem(NameChecklistViewer);
-            menuEntry_ChecklistViewer.Enabled = false;
-            menuEntry_ChecklistViewer.Click += ChecklistViewer_UIEvt;
-            ctrl.DropDownItems.Add(menuEntry_ChecklistViewer);
-
-            menuEntry_ExportChecklist = new ToolStripMenuItem(NameExportChecklistFlags);
-            menuEntry_ExportChecklist.Enabled = false;
-            menuEntry_ExportChecklist.Click += ExportChecklist_UIEvt;
-            ctrl.DropDownItems.Add(menuEntry_ExportChecklist);
-
-            menuEntry_ExportMissingEvents = new ToolStripMenuItem(NameExportMissingFlags);
-            menuEntry_ExportMissingEvents.Enabled = false;
-            menuEntry_ExportMissingEvents.Click += ExportMissingEvents_UIEvt;
-            ctrl.DropDownItems.Add(menuEntry_ExportMissingEvents);
-        }
-
-        private void ExportMissingEvents_UIEvt(object? sender, EventArgs e)
-        {
-            var eventsChecker = EventFlagsChecker.CreateEventFlagsChecker(SaveFileEditor.SAV);
-            var fileContent = eventsChecker.ExportMissingEvents();
-
-            System.IO.File.WriteAllText(string.Format("missing_events_{0}.txt", SaveFileEditor.SAV.Version), fileContent);
-        }
-
-        private void ExportChecklist_UIEvt(object? sender, EventArgs e)
-        {
-            var eventsChecker = EventFlagsChecker.CreateEventFlagsChecker(SaveFileEditor.SAV);
-            var fileContent = eventsChecker.ExportChecklist();
-
-            System.IO.File.WriteAllText(string.Format("checklist_{0}.txt", SaveFileEditor.SAV.Version), fileContent);
         }
 
         private void ChecklistViewer_UIEvt(object? sender, EventArgs e)
@@ -78,9 +41,6 @@
         public void NotifySaveLoaded()
         {
             ctrl!.Enabled = true;
-            menuEntry_ChecklistViewer!.Enabled = true;
-            menuEntry_ExportMissingEvents!.Enabled = true;
-            menuEntry_ExportChecklist!.Enabled = true;
 
             var savData = SaveFileEditor.SAV;
 
@@ -121,13 +81,6 @@
                 _ => true
             };
 
-#if DEBUG
-            // Quick export full checklist on load during DEBUG
-            if (ctrl.Enabled)
-            {
-                ExportChecklist_UIEvt(null, new EventArgs());
-            }
-#endif
         }
 
         public bool TryLoadFile(string filePath)
