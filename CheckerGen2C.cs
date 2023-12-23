@@ -32,6 +32,35 @@
             PlayerGender = 0x3E3D,
         }
 
+        enum FlagOffsets_JAP
+        {
+            StatusFlags = 0x23BC,
+            StatusFlags2 = 0x23BD,
+            MomSavingMoney = 0x23C4,
+            JohtoBadges = 0x23C7,
+            KantoBadges = 0x23C8,
+            PokegearFlags = 0x24C7,
+            TradeFlags = 0x24D0,
+            FarfetchdPosition = 0x24D4,
+            CelebiEvent = 0x2736,
+            BikeFlags = 0x2738,
+            DailyFlags1 = 0x2761,
+            DailyFlags2 = 0x2762,
+            SwarmFlags = 0x2763,
+            FruitTreeFlags = 0x276A,
+            UnusedTwoDayTimerOn = 0x277C, // ?
+            DailyRematchFlags = 0x278F,
+            DailyPhoneItemFlags = 0x2793,
+            DailyPhoneTimeOfDayFlags = 0x2797,
+            LuckyNumberShowFlag = 0x27E0,
+            VisitedSpawns = 0x27E8,
+            UnlockedUnowns = 0x2A04,
+            DayCareMan = 0x2A06,
+            DayCareLady = 0x2A33,
+            BestMagikarpLengthFeet = 0x2ADB,
+            PlayerGender = 0x8000,
+        }
+
         int StatusFlagsOffset;
         int StatusFlags2Offset;
         int MomSavingMoneyOffset;
@@ -80,14 +109,34 @@
 
             var savFile_SAV2 = (SAV2)m_savFile;
 
-            /*if (savFile_SAV2.Japanese)
+            if (savFile_SAV2.Japanese)
             {
+                StatusFlagsOffset = (int)FlagOffsets_JAP.StatusFlags;
+                StatusFlags2Offset = (int)FlagOffsets_JAP.StatusFlags2;
+                MomSavingMoneyOffset = (int)FlagOffsets_JAP.MomSavingMoney;
+                JohtoBadgesOffset = (int)FlagOffsets_JAP.JohtoBadges;
+                KantoBadgesOffset = (int)FlagOffsets_JAP.KantoBadges;
+                PokegearFlagsOffset = (int)FlagOffsets_JAP.PokegearFlags;
+                TradeFlagsOffset = (int)FlagOffsets_JAP.TradeFlags;
+                CelebiEventOffset = (int)FlagOffsets_JAP.CelebiEvent;
+                BikeFlagsOffset = (int)FlagOffsets_JAP.BikeFlags;
+                DailyFlags1Offset = (int)FlagOffsets_JAP.DailyFlags1;
+                DailyFlags2Offset = (int)FlagOffsets_JAP.DailyFlags2;
+                SwarmFlagsOffset = (int)FlagOffsets_JAP.SwarmFlags;
+                BerryTreeFlagsOffset = (int)FlagOffsets_JAP.FruitTreeFlags;
+                UnusedTwoDayTimerOnOffset = (int)FlagOffsets_JAP.UnusedTwoDayTimerOn;
+                DailyRematchFlagsOffset = (int)FlagOffsets_JAP.DailyRematchFlags;
+                DailyPhoneItemFlagsOffset = (int)FlagOffsets_JAP.DailyPhoneItemFlags;
+                DailyPhoneTimeOfDayFlagsOffset = (int)FlagOffsets_JAP.DailyPhoneTimeOfDayFlags;
+                LuckyNumberShowFlagOffset = (int)FlagOffsets_JAP.LuckyNumberShowFlag;
+                VisitedSpawnsOffset = (int)FlagOffsets_JAP.VisitedSpawns;
+                UnlockedUnownsOffset = (int)FlagOffsets_JAP.UnlockedUnowns;
+                DayCareManOffset = (int)FlagOffsets_JAP.DayCareMan;
+                DayCareLadyOffset = (int)FlagOffsets_JAP.DayCareLady;
+                BestMagikarpLengthFeet = (int)FlagOffsets_JAP.BestMagikarpLengthFeet;
+                PlayerGenderOffset = (int)FlagOffsets_JAP.PlayerGender;
             }
-            else if (savFile_SAV2.Korean)
-            {
-
-            }
-            else*/
+            else
             {
                 StatusFlagsOffset = (int)FlagOffsets_INTL.StatusFlags;
                 StatusFlags2Offset = (int)FlagOffsets_INTL.StatusFlags2;
@@ -379,7 +428,7 @@
 
             var eventWorkHelper = (IEventWorkArray<byte>)m_savFile!;
             var eventFlagsHelper = ((IEventFlagArray)m_savFile!);
-            var sav2 = (m_savFile as SAV2);
+            var sav2 = (SAV2)m_savFile!;
 
             switch (evtDetail.EvtSource)
             {
@@ -505,9 +554,19 @@
 
                             case 0x0A: // Best Magikarp size record
                                 {
-                                    isEvtSet = m_savFile!.Data[BestMagikarpLengthFeet] > 3
-                                        || m_savFile!.Data[BestMagikarpLengthFeet + 1] > 6
-                                        ;
+                                    if (sav2.Japanese)
+                                    {
+                                        isEvtSet = m_savFile!.Data[BestMagikarpLengthFeet] > 0x04
+                                            || m_savFile!.Data[BestMagikarpLengthFeet + 1] > 0x1D
+                                            ;
+                                    }
+
+                                    else
+                                    {
+                                        isEvtSet = m_savFile!.Data[BestMagikarpLengthFeet] > 3
+                                            || m_savFile!.Data[BestMagikarpLengthFeet + 1] > 6
+                                            ;
+                                    }
                                 }
                                 break;
 

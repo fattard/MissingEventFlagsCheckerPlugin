@@ -26,6 +26,50 @@
             BestMagikarpLengthFeet = 0x2B9B,
         }
 
+        enum FlagOffsets_JAP
+        {
+            StatusFlags = 0x23BA,
+            StatusFlags2 = 0x23BB,
+            MomSavingMoney = 0x23C2,
+            JohtoBadges = 0x23C5,
+            KantoBadges = 0x23C6,
+            PokegearFlags = 0x24C5,
+            TradeFlags = 0x24CE,
+            BikeFlags = 0x275B,
+            DailyFlags1 = 0x2784,
+            DailyFlags2 = 0x2785,
+            FruitTreeFlags = 0x278D,
+            UnusedTwoDayTimerOn = 0x279F, // ?
+            LuckyNumberShowFlag = 0x2803,
+            VisitedSpawns = 0x280A,
+            UnlockedUnowns = 0x2A28,
+            DayCareMan = 0x2A2A,
+            DayCareLady = 0x2A57,
+            BestMagikarpLengthFeet = 0x2AFF,
+        }
+
+        enum FlagOffsets_KOR
+        {
+            StatusFlags = 0x23D1,
+            StatusFlags2 = 0x23D2,
+            MomSavingMoney = 0x23D9,
+            JohtoBadges = 0x23DC,
+            KantoBadges = 0x23DD,
+            PokegearFlags = 0x24DC,
+            TradeFlags = 0x24E5,
+            BikeFlags = 0x27EF,
+            DailyFlags1 = 0x2818,
+            DailyFlags2 = 0x2819,
+            FruitTreeFlags = 0x2821,
+            UnusedTwoDayTimerOn = 0x282F, // ?
+            LuckyNumberShowFlag = 0x2893,
+            VisitedSpawns = 0x289A,
+            UnlockedUnowns = 0x2AE8,
+            DayCareMan = 0x2AEA,
+            DayCareLady = 0x2B21,
+            BestMagikarpLengthFeet = 0x2BDD,
+        }
+
         int StatusFlagsOffset;
         int StatusFlags2Offset;
         int MomSavingMoneyOffset;
@@ -68,14 +112,49 @@
 
             var savFile_SAV2 = (SAV2)m_savFile;
 
-            /*if (savFile_SAV2.Japanese)
+            if (savFile_SAV2.Japanese)
             {
+                StatusFlagsOffset = (int)FlagOffsets_JAP.StatusFlags;
+                StatusFlags2Offset = (int)FlagOffsets_JAP.StatusFlags2;
+                MomSavingMoneyOffset = (int)FlagOffsets_JAP.MomSavingMoney;
+                JohtoBadgesOffset = (int)FlagOffsets_JAP.JohtoBadges;
+                KantoBadgesOffset = (int)FlagOffsets_JAP.KantoBadges;
+                PokegearFlagsOffset = (int)FlagOffsets_JAP.PokegearFlags;
+                TradeFlagsOffset = (int)FlagOffsets_JAP.TradeFlags;
+                BikeFlagsOffset = (int)FlagOffsets_JAP.BikeFlags;
+                DailyFlags1Offset = (int)FlagOffsets_JAP.DailyFlags1;
+                DailyFlags2Offset = (int)FlagOffsets_JAP.DailyFlags2;
+                BerryTreeFlagsOffset = (int)FlagOffsets_JAP.FruitTreeFlags;
+                UnusedTwoDayTimerOnOffset = (int)FlagOffsets_JAP.UnusedTwoDayTimerOn;
+                LuckyNumberShowFlagOffset = (int)FlagOffsets_JAP.LuckyNumberShowFlag;
+                VisitedSpawnsOffset = (int)FlagOffsets_JAP.VisitedSpawns;
+                UnlockedUnownsOffset = (int)FlagOffsets_JAP.UnlockedUnowns;
+                DayCareManOffset = (int)FlagOffsets_JAP.DayCareMan;
+                DayCareLadyOffset = (int)FlagOffsets_JAP.DayCareLady;
+                BestMagikarpLengthFeet = (int)FlagOffsets_JAP.BestMagikarpLengthFeet;
             }
             else if (savFile_SAV2.Korean)
             {
-
+                StatusFlagsOffset = (int)FlagOffsets_KOR.StatusFlags;
+                StatusFlags2Offset = (int)FlagOffsets_KOR.StatusFlags2;
+                MomSavingMoneyOffset = (int)FlagOffsets_KOR.MomSavingMoney;
+                JohtoBadgesOffset = (int)FlagOffsets_KOR.JohtoBadges;
+                KantoBadgesOffset = (int)FlagOffsets_KOR.KantoBadges;
+                PokegearFlagsOffset = (int)FlagOffsets_KOR.PokegearFlags;
+                TradeFlagsOffset = (int)FlagOffsets_KOR.TradeFlags;
+                BikeFlagsOffset = (int)FlagOffsets_KOR.BikeFlags;
+                DailyFlags1Offset = (int)FlagOffsets_KOR.DailyFlags1;
+                DailyFlags2Offset = (int)FlagOffsets_KOR.DailyFlags2;
+                BerryTreeFlagsOffset = (int)FlagOffsets_KOR.FruitTreeFlags;
+                UnusedTwoDayTimerOnOffset = (int)FlagOffsets_KOR.UnusedTwoDayTimerOn;
+                LuckyNumberShowFlagOffset = (int)FlagOffsets_KOR.LuckyNumberShowFlag;
+                VisitedSpawnsOffset = (int)FlagOffsets_KOR.VisitedSpawns;
+                UnlockedUnownsOffset = (int)FlagOffsets_KOR.UnlockedUnowns;
+                DayCareManOffset = (int)FlagOffsets_KOR.DayCareMan;
+                DayCareLadyOffset = (int)FlagOffsets_KOR.DayCareLady;
+                BestMagikarpLengthFeet = (int)FlagOffsets_KOR.BestMagikarpLengthFeet;
             }
-            else*/
+            else
             {
                 StatusFlagsOffset = (int)FlagOffsets_INTL.StatusFlags;
                 StatusFlags2Offset = (int)FlagOffsets_INTL.StatusFlags2;
@@ -283,6 +362,7 @@
 
             var eventWorkHelper = (IEventWorkArray<byte>)m_savFile!;
             var eventFlagsHelper = ((IEventFlagArray)m_savFile!);
+            var sav2 = (SAV2)m_savFile!;
 
             switch (evtDetail.EvtSource)
             {
@@ -410,9 +490,19 @@
 
                             case 0x0A: // Best Magikarp size record
                                 {
-                                    isEvtSet = m_savFile!.Data[BestMagikarpLengthFeet] > 3
-                                        || m_savFile!.Data[BestMagikarpLengthFeet + 1] > 6
-                                        ;
+                                    if (sav2.Japanese || sav2.Korean)
+                                    {
+                                        isEvtSet = m_savFile!.Data[BestMagikarpLengthFeet] > 0x04
+                                            || m_savFile!.Data[BestMagikarpLengthFeet + 1] > 0x1D
+                                            ;
+                                    }
+
+                                    else
+                                    {
+                                        isEvtSet = m_savFile!.Data[BestMagikarpLengthFeet] > 3
+                                            || m_savFile!.Data[BestMagikarpLengthFeet + 1] > 6
+                                            ;
+                                    }
                                 }
                                 break;
 
