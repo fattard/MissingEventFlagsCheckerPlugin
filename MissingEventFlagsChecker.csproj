@@ -42,6 +42,10 @@
     <PackageReference Include="PKHeX.Core" Version="23.12.22" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="localization\lang_br.txt" />
+    <EmbeddedResource Include="localization\lang_en.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <Using Include="PKHeX.Core" />
     <Using Include="System.Text" />
   </ItemGroup>

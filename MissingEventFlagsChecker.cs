@@ -12,6 +12,8 @@
 
         public void Initialize(params object[] args)
         {
+            //LocalizedStrings.Initialize("br");
+            LocalizedStrings.Initialize(GameInfo.CurrentLanguage);
             SaveFileEditor = (ISaveFileProvider)Array.Find(args, z => z is ISaveFileProvider)!;
             var menu = (ToolStrip)Array.Find(args, z => z is ToolStrip)!;
             LoadMenuStrip(menu);

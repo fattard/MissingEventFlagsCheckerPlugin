@@ -15,13 +15,14 @@ namespace MissingEventFlagsCheckerPlugin.Forms
         public ChecklistViewer(SaveFile saveFile)
         {
             InitializeComponent();
+            LocalizedStrings.LocalizeForm(this);
 
             dataGridView.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
 
-            filterByCategoryCombo.Items.Add("- All -");
+            filterByCategoryCombo.Items.Add(LocalizedStrings.Find("ChecklistViewer.flagsCategoryComboAll", "- All -"));
             for (EventFlagType i = (EventFlagType._Unknown) + 1; i < EventFlagType._Unused; i++)
             {
-                filterByCategoryCombo.Items.Add(i.AsText());
+                filterByCategoryCombo.Items.Add(i.AsLocalizedText());
             }
 
             try

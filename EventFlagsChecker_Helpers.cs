@@ -43,5 +43,10 @@
             EventFlagsChecker.EventFlagType._Unused => "_UNUSED",
             _ => "",
         };
+
+        public static string AsLocalizedText(this EventFlagsChecker.EventFlagType flagType)
+        {
+            return LocalizedStrings.Find($"EventFlagType.{flagType}", flagType.ToString());
+        }
     }
 }
