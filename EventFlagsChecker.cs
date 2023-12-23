@@ -149,7 +149,7 @@
 
         #region Actions
 
-        public virtual void ExportChecklist()
+        public virtual string ExportChecklist(bool includeTimedEvents = true)
         {
             StringBuilder sb = new StringBuilder(512 * 1024);
 
@@ -165,10 +165,10 @@
                 }
             }
 
-            System.IO.File.WriteAllText(string.Format("checklist_{0}.txt", m_savFile!.Version), sb.ToString());
+            return sb.ToString();
         }
 
-        public virtual void ExportMissingEvents()
+        public virtual string ExportMissingEvents(bool includeTimedEvents = true)
         {
             StringBuilder sb = new StringBuilder(512 * 1024);
 
@@ -180,7 +180,7 @@
                 }
             }
 
-            System.IO.File.WriteAllText(string.Format("missing_events_{0}.txt", m_savFile!.Version), sb.ToString());
+            return sb.ToString();
         }
 
         #endregion Actions

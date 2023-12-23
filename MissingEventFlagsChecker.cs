@@ -56,13 +56,17 @@
         private void ExportMissingEvents_UIEvt(object? sender, EventArgs e)
         {
             var eventsChecker = EventFlagsChecker.CreateEventFlagsChecker(SaveFileEditor.SAV);
-            eventsChecker.ExportMissingEvents();
+            var fileContent = eventsChecker.ExportMissingEvents();
+
+            System.IO.File.WriteAllText(string.Format("missing_events_{0}.txt", SaveFileEditor.SAV.Version), fileContent);
         }
 
         private void ExportChecklist_UIEvt(object? sender, EventArgs e)
         {
             var eventsChecker = EventFlagsChecker.CreateEventFlagsChecker(SaveFileEditor.SAV);
-            eventsChecker.ExportChecklist();
+            var fileContent = eventsChecker.ExportChecklist();
+
+            System.IO.File.WriteAllText(string.Format("checklist_{0}.txt", SaveFileEditor.SAV.Version), fileContent);
         }
 
         private void ChecklistViewer_UIEvt(object? sender, EventArgs e)

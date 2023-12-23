@@ -105,17 +105,48 @@ namespace MissingEventFlagsCheckerPlugin.Forms
                 }
             }
 
-            System.IO.File.WriteAllText(string.Format("checklist_custom_{0}.txt", m_checker.SaveFile!.Version), sb.ToString());
+            SaveFileDialog saveFileDialog = new SaveFileDialog()
+            {
+                Filter = "Text File|*.txt",
+                FileName = string.Format("checklist_custom_{0}.txt", m_checker.SaveFile!.Version),
+            };
+            var result = saveFileDialog.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                System.IO.File.WriteAllText(saveFileDialog.FileName, sb.ToString());
+            }
         }
 
         private void ExportFullChecklistBtn_Click(object sender, EventArgs e)
         {
-            m_checker.ExportChecklist();
+            var fileContent = m_checker.ExportChecklist();
+
+            SaveFileDialog saveFileDialog = new SaveFileDialog()
+            {
+                Filter = "Text File|*.txt",
+                FileName = string.Format("checklist_{0}.txt", m_checker.SaveFile!.Version),
+            };
+            var result = saveFileDialog.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                System.IO.File.WriteAllText(saveFileDialog.FileName, fileContent);
+            }
         }
 
         private void ExportMissingEventsBtn_Click(object sender, EventArgs e)
         {
-            m_checker.ExportMissingEvents();
+            var fileContent = m_checker.ExportMissingEvents();
+
+            SaveFileDialog saveFileDialog = new SaveFileDialog()
+            {
+                Filter = "Text File|*.txt",
+                FileName = string.Format("missing_events_{0}.txt", m_checker.SaveFile!.Version),
+            };
+            var result = saveFileDialog.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                System.IO.File.WriteAllText(saveFileDialog.FileName, fileContent);
+            }
         }
 
         private void CloseBtn_Click(object sender, EventArgs e)
