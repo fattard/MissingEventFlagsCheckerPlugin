@@ -61,6 +61,11 @@
             public bool IsDone { get; set; }
 
             /// <summary>
+            /// Informs if this event is timed, like a daily or weekly recurring event
+            /// </summary>
+            public bool IsTimedEvent { get; set; }
+
+            /// <summary>
             /// Create a new EventDetail by parsing a checklist tsv line and a list of flags sources
             /// </summary>
             /// <param name="detailEntry">A single line from the checklist tsv file</param>
@@ -85,6 +90,7 @@
                 }
                 DescTxt = info[5];
                 IsDone = false;
+                IsTimedEvent = false;
             }
 
 
@@ -125,6 +131,7 @@
             using (System.IO.StringReader reader = new System.IO.StringReader(chkList_res))
             {
                 string? s = reader.ReadLine();
+                bool isTimedEventRange = false;
 
                 if (s is null)
                 {
@@ -137,6 +144,18 @@
                     {
                         var evtDetail = new EventDetail(s, m_flagsSourceInfo);
                         evtDetail.IsDone = IsEvtSet(evtDetail);
+
+                        if (evtDetail.EvtTypeVal == EventFlagType._Separator)
+                        {
+                            if (evtDetail.DescTxt == "TIMED_EVENTS_BEGIN")
+                                isTimedEventRange = true;
+
+                            else if (evtDetail.DescTxt == "TIMED_EVENTS_END")
+                                isTimedEventRange = false;
+                        }
+
+                        evtDetail.IsTimedEvent = isTimedEventRange;
+
                         m_eventsChecklist.Add(evtDetail);
                     }
 
@@ -149,13 +168,13 @@
 
         #region Actions
 
-        public virtual string ExportChecklist(bool includeTimedEvents = true)
+        public virtual string ExportChecklist(bool includeTimedEvents)
         {
             StringBuilder sb = new StringBuilder(512 * 1024);
 
             foreach (var evt in m_eventsChecklist)
             {
-                if (evt.EvtTypeVal != EventFlagType._Separator)
+                if (evt.EvtTypeVal != EventFlagType._Separator && (includeTimedEvents || !evt.IsTimedEvent))
                 {
                     sb.AppendFormat("[{0}] {1}\r\n", evt.IsDone ? "x" : " ", evt.ToString());
                 }
@@ -168,13 +187,13 @@
             return sb.ToString();
         }
 
-        public virtual string ExportMissingEvents(bool includeTimedEvents = true)
+        public virtual string ExportMissingEvents(bool includeTimedEvents)
         {
             StringBuilder sb = new StringBuilder(512 * 1024);
 
             foreach (var evt in m_eventsChecklist)
             {
-                if (evt.EvtTypeVal != EventFlagType._Separator && !evt.IsDone)
+                if (evt.EvtTypeVal != EventFlagType._Separator && !evt.IsDone && (includeTimedEvents || !evt.IsTimedEvent))
                 {
                     sb.Append($"{evt}\r\n");
                 }

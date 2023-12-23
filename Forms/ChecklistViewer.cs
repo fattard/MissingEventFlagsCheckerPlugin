@@ -53,7 +53,7 @@ namespace MissingEventFlagsCheckerPlugin.Forms
 
             foreach (var evt in m_checker.EventsChecklist)
             {
-                if (evt.EvtTypeVal != EventFlagType._Separator)
+                if (evt.EvtTypeVal != EventFlagType._Separator && (showTimedEventsChk.Checked || !evt.IsTimedEvent))
                 {
                     m_checkerList.Add(evt);
                 }
@@ -119,7 +119,7 @@ namespace MissingEventFlagsCheckerPlugin.Forms
 
         private void ExportFullChecklistBtn_Click(object sender, EventArgs e)
         {
-            var fileContent = m_checker.ExportChecklist();
+            var fileContent = m_checker.ExportChecklist(showTimedEventsChk.Checked);
 
             SaveFileDialog saveFileDialog = new SaveFileDialog()
             {
@@ -135,7 +135,7 @@ namespace MissingEventFlagsCheckerPlugin.Forms
 
         private void ExportMissingEventsBtn_Click(object sender, EventArgs e)
         {
-            var fileContent = m_checker.ExportMissingEvents();
+            var fileContent = m_checker.ExportMissingEvents(showTimedEventsChk.Checked);
 
             SaveFileDialog saveFileDialog = new SaveFileDialog()
             {
@@ -156,6 +156,8 @@ namespace MissingEventFlagsCheckerPlugin.Forms
 
         private void ShowTimedEventsChk_CheckedChanged(object sender, EventArgs e)
         {
+            ReloadAllData(m_checker.SaveFile!);
+            RefreshTotals();
             RefreshDataGrid();
         }
 

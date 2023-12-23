@@ -1082,7 +1082,7 @@ Dex	0x01	SIDE EVENT			Register the mythical Mew in the Pokédex
 Dex	0x02	SIDE EVENT			Register the mythical Celebi in the Pokédex
 Dex	0x03	SIDE EVENT			Fully complete the Pokédex (251 species registered)
 -	0	_SEPARATOR			
--	0	_SEPARATOR			
+-	0	_SEPARATOR			TIMED_EVENTS_BEGIN
 -	0	_SEPARATOR			
 BerryTrees	0x00	BERRY TREE	Route 29		[Daily] Collect Berry from Berry Tree
 BerryTrees	0x01	BERRY TREE	Route 30		[Daily] Collect Berry from Berry Tree
