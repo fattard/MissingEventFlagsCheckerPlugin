@@ -450,7 +450,20 @@
 
                             case 0x05: // Unlock Mystery Gift
                                 {
-                                    isEvtSet = m_savFile!.Data[0xBE3] != 0xFF;
+                                    //TODO: wait PKHeX bug fix
+                                    if (sav2.Japanese)
+                                    {
+                                        isEvtSet = m_savFile!.Data[0xB51] != 0xFF;
+                                    }
+                                    else if (sav2.Korean)
+                                    {
+                                        isEvtSet = m_savFile!.Data[0xFE3] != 0xFF;
+                                    }
+                                    else
+                                    {
+                                        isEvtSet = m_savFile!.Data[0xBE3] != 0xFF;
+                                    }
+
                                     //isEvtSet = sav2.MysteryGiftIsUnlocked;
                                 }
                                 break;
