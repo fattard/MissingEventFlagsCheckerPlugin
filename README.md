@@ -8,7 +8,7 @@ For completionists, this may give you that satisfaction that you have explored a
 
 If you need to edit the event flags or just dump them, you can use the companion plugin [FlagsEditorEX](https://github.com/fattard/FlagsEditorEXPlugin).  
 
-*Note: This is a WIP plugin, it already covers **the most important parts of each game**, but it far from ideal.*  
+*Note: This is a WIP plugin, it already covers **the most important parts of each game**, but it is far from ideal.*  
 *Gen1 and Gen2 games are now fully supported, while remaining ones are partially supported.*
 
 ## Setup Instructions
