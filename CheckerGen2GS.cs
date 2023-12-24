@@ -90,6 +90,7 @@
         int BestMagikarpLengthFeet;
 
         bool m_Dex_completedRegional;
+        bool m_Dex_completedUnownDex;
         bool m_Dex_isMythicalRegistered_Mew;
         bool m_Dex_isMythicalRegistered_Celebi;
         bool m_Dex_fullyCompleted;
@@ -203,7 +204,18 @@
                 }
             }
 
+            m_Dex_completedUnownDex = true;
+            for (int i = 0; i < 26; i++)
+            {
+                if (m_savFile.Data[UnlockedUnownsOffset - (26 + i)] == 0)
+                {
+                    m_Dex_completedUnownDex = false;
+                    break;
+                }
+            }
+
             m_Dex_fullyCompleted = m_Dex_completedRegional
+                && m_Dex_completedUnownDex
                 && m_Dex_isMythicalRegistered_Mew
                 && m_Dex_isMythicalRegistered_Celebi
                 ;
@@ -534,15 +546,19 @@
                                 isEvtSet = m_Dex_completedRegional;
                                 break;
 
-                            case 1: // Mew
+                            case 1: // UnownDex complete
+                                isEvtSet = m_Dex_completedUnownDex;
+                                break;
+
+                            case 2: // Mew
                                 isEvtSet = m_Dex_isMythicalRegistered_Mew;
                                 break;
 
-                            case 2: // Celebi
+                            case 3: // Celebi
                                 isEvtSet = m_Dex_isMythicalRegistered_Celebi;
                                 break;
 
-                            case 3: // Fully completed
+                            case 4: // Fully completed
                                 isEvtSet = m_Dex_fullyCompleted;
                                 break;
                         }

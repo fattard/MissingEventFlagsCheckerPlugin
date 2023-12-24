@@ -1078,9 +1078,10 @@ EvtEX	0x0A	SIDE EVENT	Lake of Rage	House	Beat the Magikarp size record
 SysFlags	0x0D	SIDE EVENT			Catch PokéRus for the first time
 -	0	_SEPARATOR			
 Dex	0x00	SIDE EVENT			Complete the regional Johto Pokédex
-Dex	0x01	SIDE EVENT			Register the mythical Mew in the Pokédex
-Dex	0x02	SIDE EVENT			Register the mythical Celebi in the Pokédex
-Dex	0x03	SIDE EVENT			Fully complete the Pokédex (251 species registered)
+Dex	0x01	SIDE EVENT			Complete the Unown Dex
+Dex	0x02	SIDE EVENT			Register the mythical Mew in the Pokédex
+Dex	0x03	SIDE EVENT			Register the mythical Celebi in the Pokédex
+Dex	0x04	SIDE EVENT			Fully complete the Pokédex (251 species registered)
 -	0	_SEPARATOR			
 -	0	_SEPARATOR			TIMED_EVENTS_BEGIN
 -	0	_SEPARATOR			
