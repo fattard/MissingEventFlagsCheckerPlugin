@@ -737,7 +737,7 @@ EvtFlags	0x05C8	TRAINER BATTLE	Route 6		Pokéfan♂ Allan
 -	0	_SEPARATOR			
 SysFlags	0x3C	FLY SPOT	Saffron City		Unlock Saffron City fly spot
 EvtFlags	0x00E3	ITEM GIFT	Saffron City	Mr. Psychic's House	Receive TM29 (Psychic) from Mr. Psychic
-EvtFlags	0x00DE	ITEM GIFT	Saffron City	Silph Co.	Receive Up-Grade from old man
+EvtFlags	0x00DE	ITEM GIFT	Saffron City	Silph Co.	Receive Up-Grade from guard
 EvtFlags	0x077D	FIELD ITEM	Saffron City	Dojo	Focus Band
 -	0	_SEPARATOR			
 EvtFlags	0x0590	TRAINER BATTLE	Saffron City	Gym	Medium Rebecca
