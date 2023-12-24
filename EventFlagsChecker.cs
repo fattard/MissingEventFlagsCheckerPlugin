@@ -242,10 +242,7 @@
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
-            if (langCode is null)
-            {
-                langCode = GameInfo.CurrentLanguage;
-            }
+            langCode ??= GameInfo.CurrentLanguage;
 
             string resFileName = $"{resName}_{langCode}.txt";
 

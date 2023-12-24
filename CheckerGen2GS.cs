@@ -105,7 +105,7 @@
         const int Src_TrainerEX = 6;
         const int Src_Dex = 7;
 
-        Dictionary<int, (int offset, int flagIdx)> m_sysFlagsTbl = new Dictionary<int, (int offset, int flagIdx)>();
+        Dictionary<int, (int offset, int flagIdx)> m_sysFlagsTbl = [];
 
         protected override void InitData(SaveFile savFile)
         {
@@ -235,10 +235,7 @@
             s_chkdb_res = null;
 #endif
 
-            if (s_chkdb_res == null)
-            {
-                s_chkdb_res = ReadResFile("chkdb_gen2gs");
-            }
+            s_chkdb_res ??= ReadResFile("chkdb_gen2gs");
 
             ParseChecklist(s_chkdb_res);
         }

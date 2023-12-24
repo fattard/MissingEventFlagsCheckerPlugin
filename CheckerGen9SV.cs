@@ -15,10 +15,7 @@
             s_chkdb_res = null;
 #endif
 
-            if (s_chkdb_res == null)
-            {
-                s_chkdb_res = ReadResFile("chkdb_gen9sv");
-            }
+            s_chkdb_res ??= ReadResFile("chkdb_gen9sv");
 
             m_flagsSourceInfo["EvtFlags"] = 0;
             m_flagsSourceInfo["ItemFlags"] = 1;

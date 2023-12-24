@@ -22,10 +22,7 @@
             s_chkdb_res = null;
 #endif
 
-            if (s_chkdb_res == null)
-            {
-                s_chkdb_res = ReadResFile("chkdb_gen8bdsp");
-            }
+            s_chkdb_res ??= ReadResFile("chkdb_gen8bdsp");
 
             m_flagsSourceInfo["EvtFlags"] = Src_EventFlags;
             m_flagsSourceInfo["SysFlags"] = Src_SysFlags;

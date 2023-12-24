@@ -13,10 +13,7 @@
             s_chkdb_res = null;
 #endif
 
-            if (s_chkdb_res == null)
-            {
-                s_chkdb_res = ReadResFile("chkdb_gen7usum");
-            }
+            s_chkdb_res ??= ReadResFile("chkdb_gen7usum");
 
             m_flagsSourceInfo["0"] = 0;
             m_flagsSourceInfo["-"] = -1;

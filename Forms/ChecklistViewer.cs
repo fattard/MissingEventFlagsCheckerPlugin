@@ -236,24 +236,18 @@ namespace MissingEventFlagsCheckerPlugin.Forms
         {
             this.SuspendLayout();
 
-            bool skipTimed = showTimedEventsChk.Checked;
             bool skipSet = showOnlyUnmarkedChk.Checked;
             bool skipUnset = showOnlyMarkedChk.Checked;
             bool useCategoryFilter = (m_categoryFilter != EventFlagType._Unknown);
             bool filterBySearch = filterBySearchChk.Checked && !string.IsNullOrWhiteSpace(searchTermBox.Text);
 
-            List<DataGridViewRow> rowsToAdd = new List<DataGridViewRow>();
+            List<DataGridViewRow> rowsToAdd = [];
 
             string searchTerm = searchTermBox.Text.ToUpperInvariant();
 
             for (int i = 0; i < m_checkerList.Count; i++)
             {
                 var evt = m_checkerList[i];
-
-                /*if (skipTimed && evt.EvtTypeVal == EventFlagType._Unused)
-                {
-                    continue;
-                }*/
 
                 if ((skipSet && evt.IsDone) || (skipUnset && !evt.IsDone))
                 {
@@ -265,7 +259,7 @@ namespace MissingEventFlagsCheckerPlugin.Forms
                     continue;
                 }
 
-                if (filterBySearch && !evt.ToString().ToUpperInvariant().Contains(searchTerm))
+                if (filterBySearch && !evt.ToString().Contains(searchTerm, StringComparison.InvariantCultureIgnoreCase))
                 {
                     continue;
                 }
@@ -284,7 +278,7 @@ namespace MissingEventFlagsCheckerPlugin.Forms
             dataGridView.Rows.Clear();
             dataGridView.Refresh();
 
-            dataGridView.Rows.AddRange(rowsToAdd.ToArray());
+            dataGridView.Rows.AddRange([.. rowsToAdd]);
 
             this.ResumeLayout(false);
         }

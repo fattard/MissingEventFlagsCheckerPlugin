@@ -143,10 +143,7 @@
             s_chkdb_res = null;
 #endif
 
-            if (s_chkdb_res == null)
-            {
-                s_chkdb_res = ReadResFile("chkdb_gen1y");
-            }
+            s_chkdb_res ??= ReadResFile("chkdb_gen1y");
 
             ParseChecklist(s_chkdb_res);
         }

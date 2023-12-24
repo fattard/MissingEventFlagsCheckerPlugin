@@ -2,8 +2,8 @@
 {
     public static class LocalizedStrings
     {
-        static Dictionary<string, string> s_localizedStrings = new Dictionary<string, string>();
-        static string s_langCode = "en";
+        readonly static Dictionary<string, string> s_localizedStrings = [];
+        readonly static string s_langCode = "en";
 
         public static void Initialize(string langCode)
         {
@@ -85,7 +85,7 @@
 
         static List<Control> AssembleLocalizableControlsList(Control formRoot)
         {
-            List<Control> controlsList = new List<Control>();
+            List<Control> controlsList = [];
 
             foreach (var c in formRoot.Controls)
             {

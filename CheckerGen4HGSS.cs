@@ -13,10 +13,7 @@
             s_chkdb_res = null;
 #endif
 
-            if (s_chkdb_res == null)
-            {
-                s_chkdb_res = ReadResFile("chkdb_gen4hgss");
-            }
+            s_chkdb_res ??= ReadResFile("chkdb_gen4hgss");
 
             m_flagsSourceInfo["0"] = 0;
             m_flagsSourceInfo["-"] = -1;

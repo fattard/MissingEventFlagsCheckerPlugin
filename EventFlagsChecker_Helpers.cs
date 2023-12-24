@@ -3,7 +3,7 @@
 
     static class EventFlagTypeExtensions
     {
-        public static EventFlagsChecker.EventFlagType Parse(this EventFlagsChecker.EventFlagType flagType, string txt) => txt switch
+        public static EventFlagsChecker.EventFlagType Parse(this EventFlagsChecker.EventFlagType _, string txt) => txt switch
         {
             "FIELD ITEM" => EventFlagsChecker.EventFlagType.FieldItem,
             "HIDDEN ITEM" => EventFlagsChecker.EventFlagType.HiddenItem,

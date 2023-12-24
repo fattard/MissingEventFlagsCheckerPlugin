@@ -28,8 +28,10 @@
 
         private void AddPluginControl(ToolStripDropDownItem tools)
         {
-            ctrl = new ToolStripMenuItem(Name);
-            ctrl.Enabled = false;
+            ctrl = new ToolStripMenuItem(Name)
+            {
+                Enabled = false
+            };
             ctrl.Click += ChecklistViewer_UIEvt;
             tools.DropDownItems.Add(ctrl);
         }
