@@ -1551,25 +1551,26 @@
 0	0x0A71	SIDE EVENT			Useable Roller Skate Trick: the 360
 0	0x0A72	SIDE EVENT			Learned Roller Skate Trick: the 360
 0	0x0A73	SIDE EVENT			Useable Roller Stake Trick: cosmic flip
-0	0x0AA0	SIDE EVENT			Can Fly to Vaniville Town
-0	0x0AA1	SIDE EVENT			Can Fly to Aquacorde Town
-0	0x0AA2	SIDE EVENT			Can Fly to Santalune City
-0	0x0AA4	SIDE EVENT			Can Fly to Cyllage City
-0	0x0AA5	SIDE EVENT			Can Fly to Shalour City
-0	0x0AA6	SIDE EVENT			Can Fly to Coumarine City
-0	0x0AA7	SIDE EVENT			Can Fly to Laverre City
-0	0x0AA8	SIDE EVENT			Can Fly to Anistar City
-0	0x0AA9	SIDE EVENT			Can Fly to Snowbelle City
-0	0x0AAA	SIDE EVENT			Can Fly to Camphrier Town
-0	0x0AAB	SIDE EVENT			Can Fly to Geosenge Town
-0	0x0AAC	SIDE EVENT			Can Fly to Dendemille Town
-0	0x0AAD	SIDE EVENT			Can Fly to Couriway Town
-0	0x0AAE	SIDE EVENT			Can Fly to Ambrette Town
-0	0x0AAF	SIDE EVENT			Can Fly to Pokémon League
-0	0x0AB0	SIDE EVENT			Can Fly to Kiloude City
-0	0x0AB1	SIDE EVENT			Can Fly to Lumiose City (South Boulevard)
-0	0x0AB2	SIDE EVENT			Can Fly to Lumiose City (North Boulevard)
-0	0x0AB3	SIDE EVENT			Can Fly to Lumiose City (Center)
+0	0x0AA0	FLY SPOT			Can Fly to Vaniville Town
+0	0x0AA1	FLY SPOT			Can Fly to Aquacorde Town
+0	0x0AA2	FLY SPOT			Can Fly to Santalune City
+0	0x0AA4	FLY SPOT			Can Fly to Cyllage City
+0	0x0AA5	FLY SPOT			Can Fly to Shalour City
+0	0x0AA6	FLY SPOT			Can Fly to Coumarine City
+0	0x0AA7	FLY SPOT			Can Fly to Laverre City
+0	0x0AA8	FLY SPOT			Can Fly to Anistar City
+0	0x0AA9	FLY SPOT			Can Fly to Snowbelle City
+0	0x0AAA	FLY SPOT			Can Fly to Camphrier Town
+0	0x0AAB	FLY SPOT			Can Fly to Geosenge Town
+0	0x0AAC	FLY SPOT			Can Fly to Dendemille Town
+0	0x0AAD	FLY SPOT			Can Fly to Couriway Town
+0	0x0AAE	FLY SPOT			Can Fly to Ambrette Town
+0	0x0AAF	FLY SPOT			Can Fly to Pokémon League
+0	0x0AB0	FLY SPOT			Can Fly to Kiloude City
+0	0x0AB1	FLY SPOT			Can Fly to Lumiose City (South Boulevard)
+0	0x0AB2	FLY SPOT			Can Fly to Lumiose City (North Boulevard)
+0	0x0AB3	FLY SPOT			Can Fly to Lumiose City (Center)
+-	0	_SEPARATOR			TIMED_EVENTS_BEGIN
 0	0x0BA8	SIDE EVENT			Finished Room Service Task (Today)
 0	0x0BA9	SIDE EVENT			Finished Making Beds Task (Today)
 0	0x0BAA	SIDE EVENT			Finished Lost and Found Task (Today)

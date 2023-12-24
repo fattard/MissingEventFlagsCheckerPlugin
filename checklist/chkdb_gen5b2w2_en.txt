@@ -9,6 +9,7 @@
 0	0x0149	STATIC ENCOUNTER			Terrakion (Rematch, Level +20)
 0	0x0180	ITEM GIFT	Route 11		Favored Mail from woman in trailer
 0	0x018A	PKMN GIFT			Received Eevee Gift
+0	0x0193	STATIC ENCOUNTER			Volcarona Captured (Level 35/65)
 0	0x0195	IN-GAME TRADE			Traded for Tangrowth in Humilau City
 0	0x019C	IN-GAME TRADE			Traded for Petilil/Cottonee on Route 4
 0	0x019E	ITEM GIFT	Undella Town		HM06 (Dive) from Hugh
@@ -36,6 +37,7 @@
 0	0x039A	STATIC ENCOUNTER			Regirock Disappeared
 0	0x039B	STATIC ENCOUNTER			Registeel Disappeared
 0	0x039C	STATIC ENCOUNTER			Regigigas Disappeared
+0	0x03A0	STATIC ENCOUNTER			Volcarona Disappeared
 0	0x03A1	STATIC ENCOUNTER	Route 6		Capture/Defeat Foongus
 0	0x03A3	STATIC ENCOUNTER	Route 6		Capture/Defeat Foongus
 0	0x03A6	STATIC ENCOUNTER	Route 11		Capture/Defeat Amoonguss

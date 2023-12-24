@@ -1,30 +1,30 @@
-0	0x0091	PKMN GIFT			Battled Youngster Kyle
-0	0x0094	IN-GAME TRADE			Battled Lass Dana
-0	0x0118	IN-GAME TRADE			Traded for Rotom
-0	0x013B	PKMN GIFT			Cobalion Disappeared
-0	0x0153	PKMN GIFT			Terrakion Disappeared
-0	0x015B	IN-GAME TRADE			Virizion Disappeared
-0	0x0160	SIDE EVENT			Reshiram/Zekrom (N's Castle) Disappeared
-0	0x0163	SIDE EVENT			Darmanitan (middle-left) disappeared from Desert Resort
-0	0x0168	IN-GAME TRADE			Darmanitan (bottom-left) disappeared from Desert Resort
-0	0x0289	STATIC ENCOUNTER			Darmanitan (top-left) disappeared from Desert Resort
-0	0x028A	STATIC ENCOUNTER			Darmanitan (middle-right) disappeared from Desert Resort
-0	0x028B	STATIC ENCOUNTER			Darmanitan (top-right) disappeared from Desert Resort
-0	0x0295	STORY EVENT			Reshiram/Zekrom (Dragonspiral Tower) Disappeared
-0	0x0297	STATIC ENCOUNTER			Capture/Defeat Foongus
-0	0x0298	STATIC ENCOUNTER			Capture/Defeat Foongus
-0	0x0299	STATIC ENCOUNTER			Capture/Defeat Amoongus
-0	0x029A	STATIC ENCOUNTER			Capture/Defeat Amoongus
-0	0x029B	STATIC ENCOUNTER			Capture/Defeat Foongus
-0	0x02FE	STATIC ENCOUNTER			Capture/Defeat Foongus
-0	0x02FF	STATIC ENCOUNTER	Route 6		Kyurem Disappeared
-0	0x0300	STATIC ENCOUNTER	Route 6		Volcarona Disappeared
-0	0x0301	STATIC ENCOUNTER	Route 10		
-0	0x0302	STATIC ENCOUNTER	Route 10		
-0	0x0303	STATIC ENCOUNTER	Route 10		
-0	0x0304	STATIC ENCOUNTER	Route 10		
-0	0x0321	STATIC ENCOUNTER			
-0	0x032A	STATIC ENCOUNTER			
+0	0x0091	PKMN GIFT			Received Cover/Plume Fossil from Backpacker
+0	0x0094	IN-GAME TRADE			Traded for Petilil/Cottonee
+0	0x0118	IN-GAME TRADE			Traded for Basculin
+0	0x013B	PKMN GIFT			Received Larvesta Egg Gift
+0	0x0153	PKMN GIFT			Purchased Magikarp
+0	0x015B	IN-GAME TRADE			Traded for Emolga
+0	0x0160	SIDE EVENT			Battled Youngster Kyle
+0	0x0163	SIDE EVENT			Battled Lass Dana
+0	0x0168	IN-GAME TRADE			Traded for Rotom
+0	0x0289	STATIC ENCOUNTER			Cobalion Disappeared
+0	0x028A	STATIC ENCOUNTER			Terrakion Disappeared
+0	0x028B	STATIC ENCOUNTER			Virizion Disappeared
+0	0x0295	STORY EVENT			Reshiram/Zekrom (N's Castle) Disappeared
+0	0x0297	STATIC ENCOUNTER			Darmanitan (middle-left) disappeared from Desert Resort
+0	0x0298	STATIC ENCOUNTER			Darmanitan (bottom-left) disappeared from Desert Resort
+0	0x0299	STATIC ENCOUNTER			Darmanitan (top-left) disappeared from Desert Resort
+0	0x029A	STATIC ENCOUNTER			Darmanitan (middle-right) disappeared from Desert Resort
+0	0x029B	STATIC ENCOUNTER			Darmanitan (top-right) disappeared from Desert Resort
+0	0x02FE	STATIC ENCOUNTER			Reshiram/Zekrom (Dragonspiral Tower) Disappeared
+0	0x02FF	STATIC ENCOUNTER	Route 6		Capture/Defeat Foongus
+0	0x0300	STATIC ENCOUNTER	Route 6		Capture/Defeat Foongus
+0	0x0301	STATIC ENCOUNTER	Route 10		Capture/Defeat Amoongus
+0	0x0302	STATIC ENCOUNTER	Route 10		Capture/Defeat Amoongus
+0	0x0303	STATIC ENCOUNTER	Route 10		Capture/Defeat Foongus
+0	0x0304	STATIC ENCOUNTER	Route 10		Capture/Defeat Foongus
+0	0x0321	STATIC ENCOUNTER			Kyurem Disappeared
+0	0x032A	STATIC ENCOUNTER			Volcarona Disappeared
 0	0x0380	HIDDEN ITEM			000 (Flag 0x380)
 0	0x0381	HIDDEN ITEM			001 (Flag 0x381)
 0	0x0382	HIDDEN ITEM			002 (Flag 0x382)
@@ -510,13 +510,13 @@
 0	0x057A	FIELD ITEM			298 (Flag 0x57A)
 0	0x057B	FIELD ITEM			299 (Flag 0x57B)
 0	0x057C	FIELD ITEM			300 (Flag 0x57C)
-0	0x057D	FIELD ITEM			Dragon Fang
+0	0x057D	FIELD ITEM			301 (Flag 0x57D)
 0	0x057E	FIELD ITEM			302 (Flag 0x57E)
 0	0x057F	FIELD ITEM			303 (Flag 0x57F)
 0	0x0580	FIELD ITEM			304 (Flag 0x580)
 0	0x0581	FIELD ITEM			305 (Flag 0x581)
 0	0x0582	FIELD ITEM			306 (Flag 0x582)
-0	0x0583	FIELD ITEM	Dragon Spiral Tower		307 (Flag 0x583)
+0	0x0583	FIELD ITEM	Dragon Spiral Tower		Dragon Fang
 0	0x0584	FIELD ITEM			308 (Flag 0x584)
 0	0x0585	FIELD ITEM			309 (Flag 0x585)
 0	0x0586	FIELD ITEM			310 (Flag 0x586)
@@ -1107,10 +1107,10 @@
 0	0x07CF	TRAINER BATTLE			583 (Flag 0x7CF)
 0	0x07D0	TRAINER BATTLE			584 (Flag 0x7D0)
 0	0x07D1	TRAINER BATTLE			585 (Flag 0x7D1)
-0	0x07D2	TRAINER BATTLE			Defeated Ghetsis (First game clear)
+0	0x07D2	TRAINER BATTLE			586 (Flag 0x7D2)
 0	0x07D3	TRAINER BATTLE			587 (Flag 0x7D3)
 0	0x07D4	TRAINER BATTLE			588 (Flag 0x7D4)
 0	0x07D5	TRAINER BATTLE			589 (Flag 0x7D5)
 0	0x07D6	TRAINER BATTLE			590 (Flag 0x7D6)
 0	0x07D7	TRAINER BATTLE			591 (Flag 0x7D7)
-0	0x0960	STORY EVENT			
+0	0x0960	STORY EVENT			Defeated Ghetsis (First game clear)

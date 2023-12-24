@@ -1776,71 +1776,71 @@
 0	0x0A9E	TRAINER BATTLE			TR_FLAG_978
 0	0x0A9F	TRAINER BATTLE			TR_FLAG_979
 0	0x0ABA	SIDE EVENT			Unlocked Lanette's PC
-0	0x0B11	SIDE EVENT			Can Fly to Littleroot Town
-0	0x0B12	SIDE EVENT			Can Fly to Oldale Town
-0	0x0B13	SIDE EVENT			Can Fly to Dewford Town
-0	0x0B14	SIDE EVENT			Can Fly to Lavaridge Town
-0	0x0B15	SIDE EVENT			Can Fly to Fallabor Town
-0	0x0B16	SIDE EVENT			Can Fly to Verdanturf Town
-0	0x0B17	SIDE EVENT			Can Fly to Pacifidlog Town
-0	0x0B18	SIDE EVENT			Can Fly to Petalburg City
-0	0x0B19	SIDE EVENT			Can Fly to Slateport City
-0	0x0B1A	SIDE EVENT			Can Fly to Mauville City
-0	0x0B1B	SIDE EVENT			Can Fly to Rustboro City
-0	0x0B1C	SIDE EVENT			Can Fly to Fortree City
-0	0x0B1D	SIDE EVENT			Can Fly to Lilycove City
-0	0x0B1E	SIDE EVENT			Can Fly to Mossdeep City
-0	0x0B1F	SIDE EVENT			Can Fly to Sootopolis City
-0	0x0B20	SIDE EVENT			Can Fly to Ever Grande City
-0	0x0B21	SIDE EVENT			Can Fly to Route 101
-0	0x0B22	SIDE EVENT			Can Fly to Route 102
-0	0x0B23	SIDE EVENT			Can Fly to Route 103
-0	0x0B24	SIDE EVENT			Can Fly to Route 104
-0	0x0B25	SIDE EVENT			Can Fly to Route 105
-0	0x0B26	SIDE EVENT			Can Fly to Route 106
-0	0x0B27	SIDE EVENT			Can Fly to Route 107
-0	0x0B28	SIDE EVENT			Can Fly to Route 108
-0	0x0B29	SIDE EVENT			Can Fly to Route 109
-0	0x0B2A	SIDE EVENT			Can Fly to Route 110
-0	0x0B2B	SIDE EVENT			Can Fly to Route 111
-0	0x0B2C	SIDE EVENT			Can Fly to Route 112
-0	0x0B2D	SIDE EVENT			Can Fly to Route 113
-0	0x0B2E	SIDE EVENT			Can Fly to Route 114
-0	0x0B2F	SIDE EVENT			Can Fly to Route 115
-0	0x0B30	SIDE EVENT			Can Fly to Route 116
-0	0x0B31	SIDE EVENT			Can Fly to Route 117
-0	0x0B32	SIDE EVENT			Can Fly to Route 118
-0	0x0B33	SIDE EVENT			Can Fly to Route 119
-0	0x0B34	SIDE EVENT			Can Fly to Route 120
-0	0x0B35	SIDE EVENT			Can Fly to Route 121
-0	0x0B36	SIDE EVENT			Can Fly to Route 122
-0	0x0B37	SIDE EVENT			Can Fly to Route 123
-0	0x0B38	SIDE EVENT			Can Fly to Route 124
-0	0x0B39	SIDE EVENT			Can Fly to Route 125
-0	0x0B3A	SIDE EVENT			Can Fly to Route 126
-0	0x0B3B	SIDE EVENT			Can Fly to Route 127
-0	0x0B3C	SIDE EVENT			Can Fly to Route 128
-0	0x0B3D	SIDE EVENT			Can Fly to Route 129
-0	0x0B3E	SIDE EVENT			Can Fly to Route 130
-0	0x0B3F	SIDE EVENT			Can Fly to Route 131
-0	0x0B40	SIDE EVENT			Can Fly to Route 132
-0	0x0B41	SIDE EVENT			Can Fly to Route 133
-0	0x0B42	SIDE EVENT			Can Fly to Route 134
-0	0x0B43	SIDE EVENT			Can Fly to Meteor Falls
-0	0x0B44	SIDE EVENT			Can Fly to Rusturf Tunnel
-0	0x0B45	SIDE EVENT			Can Fly to Granite Cave
-0	0x0B46	SIDE EVENT			Can Fly to Petalburg Woods
-0	0x0B47	SIDE EVENT			Can Fly to Mt. Chimney
-0	0x0B48	SIDE EVENT			Can Fly to Jagged Pass
-0	0x0B49	SIDE EVENT			Can Fly to Fiery Path
-0	0x0B4A	SIDE EVENT			Can Fly to Mt. Pyre
-0	0x0B4B	SIDE EVENT			Can Fly to Victory Road
-0	0x0B4C	SIDE EVENT			Can Fly to Shoal Cave
-0	0x0B4D	SIDE EVENT			Can Fly to New Mauville
-0	0x0B4E	SIDE EVENT			Can Fly to Sea Mauville
-0	0x0B4F	SIDE EVENT			Can Fly to Sky Pillar
-0	0x0B55	SIDE EVENT			Can Fly to Pokémon League
-0	0x0B56	SIDE EVENT			Can Fly to Safari Zone
+0	0x0B11	FLY SPOT			Can Fly to Littleroot Town
+0	0x0B12	FLY SPOT			Can Fly to Oldale Town
+0	0x0B13	FLY SPOT			Can Fly to Dewford Town
+0	0x0B14	FLY SPOT			Can Fly to Lavaridge Town
+0	0x0B15	FLY SPOT			Can Fly to Fallabor Town
+0	0x0B16	FLY SPOT			Can Fly to Verdanturf Town
+0	0x0B17	FLY SPOT			Can Fly to Pacifidlog Town
+0	0x0B18	FLY SPOT			Can Fly to Petalburg City
+0	0x0B19	FLY SPOT			Can Fly to Slateport City
+0	0x0B1A	FLY SPOT			Can Fly to Mauville City
+0	0x0B1B	FLY SPOT			Can Fly to Rustboro City
+0	0x0B1C	FLY SPOT			Can Fly to Fortree City
+0	0x0B1D	FLY SPOT			Can Fly to Lilycove City
+0	0x0B1E	FLY SPOT			Can Fly to Mossdeep City
+0	0x0B1F	FLY SPOT			Can Fly to Sootopolis City
+0	0x0B20	FLY SPOT			Can Fly to Ever Grande City
+0	0x0B21	FLY SPOT			Can Fly to Route 101
+0	0x0B22	FLY SPOT			Can Fly to Route 102
+0	0x0B23	FLY SPOT			Can Fly to Route 103
+0	0x0B24	FLY SPOT			Can Fly to Route 104
+0	0x0B25	FLY SPOT			Can Fly to Route 105
+0	0x0B26	FLY SPOT			Can Fly to Route 106
+0	0x0B27	FLY SPOT			Can Fly to Route 107
+0	0x0B28	FLY SPOT			Can Fly to Route 108
+0	0x0B29	FLY SPOT			Can Fly to Route 109
+0	0x0B2A	FLY SPOT			Can Fly to Route 110
+0	0x0B2B	FLY SPOT			Can Fly to Route 111
+0	0x0B2C	FLY SPOT			Can Fly to Route 112
+0	0x0B2D	FLY SPOT			Can Fly to Route 113
+0	0x0B2E	FLY SPOT			Can Fly to Route 114
+0	0x0B2F	FLY SPOT			Can Fly to Route 115
+0	0x0B30	FLY SPOT			Can Fly to Route 116
+0	0x0B31	FLY SPOT			Can Fly to Route 117
+0	0x0B32	FLY SPOT			Can Fly to Route 118
+0	0x0B33	FLY SPOT			Can Fly to Route 119
+0	0x0B34	FLY SPOT			Can Fly to Route 120
+0	0x0B35	FLY SPOT			Can Fly to Route 121
+0	0x0B36	FLY SPOT			Can Fly to Route 122
+0	0x0B37	FLY SPOT			Can Fly to Route 123
+0	0x0B38	FLY SPOT			Can Fly to Route 124
+0	0x0B39	FLY SPOT			Can Fly to Route 125
+0	0x0B3A	FLY SPOT			Can Fly to Route 126
+0	0x0B3B	FLY SPOT			Can Fly to Route 127
+0	0x0B3C	FLY SPOT			Can Fly to Route 128
+0	0x0B3D	FLY SPOT			Can Fly to Route 129
+0	0x0B3E	FLY SPOT			Can Fly to Route 130
+0	0x0B3F	FLY SPOT			Can Fly to Route 131
+0	0x0B40	FLY SPOT			Can Fly to Route 132
+0	0x0B41	FLY SPOT			Can Fly to Route 133
+0	0x0B42	FLY SPOT			Can Fly to Route 134
+0	0x0B43	FLY SPOT			Can Fly to Meteor Falls
+0	0x0B44	FLY SPOT			Can Fly to Rusturf Tunnel
+0	0x0B45	FLY SPOT			Can Fly to Granite Cave
+0	0x0B46	FLY SPOT			Can Fly to Petalburg Woods
+0	0x0B47	FLY SPOT			Can Fly to Mt. Chimney
+0	0x0B48	FLY SPOT			Can Fly to Jagged Pass
+0	0x0B49	FLY SPOT			Can Fly to Fiery Path
+0	0x0B4A	FLY SPOT			Can Fly to Mt. Pyre
+0	0x0B4B	FLY SPOT			Can Fly to Victory Road
+0	0x0B4C	FLY SPOT			Can Fly to Shoal Cave
+0	0x0B4D	FLY SPOT			Can Fly to New Mauville
+0	0x0B4E	FLY SPOT			Can Fly to Sea Mauville
+0	0x0B4F	FLY SPOT			Can Fly to Sky Pillar
+0	0x0B55	FLY SPOT			Can Fly to Pokémon League
+0	0x0B56	FLY SPOT			Can Fly to Safari Zone
 0	0x0B57	STORY EVENT			Discovered Southern Island (Story Event)
 0	0x0B5B	STATIC ENCOUNTER			Raikou Captured
 0	0x0B5C	STATIC ENCOUNTER			Entei Captured
@@ -1882,6 +1882,7 @@
 0	0x0BBF	SIDE EVENT			Sealed Chamber Puzzle Completed
 0	0x0BC0	SIDE EVENT			Regi Caves Unlocked
 0	0x0BCB	SIDE EVENT			Can Fly to Battle Resort
+-	0	_SEPARATOR			TIMED_EVENTS_BEGIN
 0	0x0BE0	ITEM GIFT			TMFLG_R111B_ITEMGET_01
 0	0x0BE1	ITEM GIFT			TMFLG_C106_ITEMGET_01
 0	0x0BE2	ITEM GIFT			TMFLG_R104AR0101_ITEMGET_01

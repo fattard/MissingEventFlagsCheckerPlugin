@@ -14,17 +14,17 @@
 0	0x0093	STORY EVENT			FSYS_GYM_CLEAR_GROUND
 0	0x0094	SIDE EVENT			FSYS_ZUKAN_COMPLETE
 0	0x0095	SIDE EVENT			FSYS_JUDGE_OPEN
-0	0x00B3	SIDE EVENT	Pallet Town		Unlock fly spot
-0	0x00B4	SIDE EVENT	Viridian City		Unlock fly spot
-0	0x00B5	SIDE EVENT	Pewter City		Unlock fly spot
-0	0x00B6	SIDE EVENT	Cerulean City		Unlock fly spot
-0	0x00B7	SIDE EVENT	Lavender Town		Unlock fly spot
-0	0x00B8	SIDE EVENT	Vermilion City		Unlock fly spot
-0	0x00B9	SIDE EVENT	Celadon City		Unlock fly spot
-0	0x00BA	SIDE EVENT	Fuchsia City		Unlock fly spot
-0	0x00BB	SIDE EVENT	Cinnabar Island		Unlock fly spot
-0	0x00BC	SIDE EVENT	Indigo Plateau		Unlock fly spot
-0	0x00BD	SIDE EVENT	Saffron City		Unlock fly spot
+0	0x00B3	FLY SPOT	Pallet Town		Unlock fly spot
+0	0x00B4	FLY SPOT	Viridian City		Unlock fly spot
+0	0x00B5	FLY SPOT	Pewter City		Unlock fly spot
+0	0x00B6	FLY SPOT	Cerulean City		Unlock fly spot
+0	0x00B7	FLY SPOT	Lavender Town		Unlock fly spot
+0	0x00B8	FLY SPOT	Vermilion City		Unlock fly spot
+0	0x00B9	FLY SPOT	Celadon City		Unlock fly spot
+0	0x00BA	FLY SPOT	Fuchsia City		Unlock fly spot
+0	0x00BB	FLY SPOT	Cinnabar Island		Unlock fly spot
+0	0x00BC	FLY SPOT	Indigo Plateau		Unlock fly spot
+0	0x00BD	FLY SPOT	Saffron City		Unlock fly spot
 0	0x00E3	SIDE EVENT			FSYS_FIELD_FLYHIGH_ENABLE
 0	0x00EB	SIDE EVENT			FSYS_BUDDY_POKEMON_ENABLE
 0	0x0210	HIDDEN ITEM	Seafoam Islands	B3F	Revive
@@ -1103,6 +1103,7 @@
 0	0x0CD2	TRAINER BATTLE			TR_546
 0	0x0CD3	TRAINER BATTLE			TR_547
 0	0x0CD4	TRAINER BATTLE			TR_548
+-	0	_SEPARATOR			TIMED_EVENTS_BEGIN
 0	0x0E80	TRAINER BATTLE	Vermilion City	Harbor	Pokémon Trainer Mina (Daily Rematch)
 0	0x0E83	TRAINER BATTLE	Pewter City	Gym	Gym Leader Brock (Daily Rematch)
 0	0x0E84	TRAINER BATTLE	Cerulean City	Gym	Gym Leader Misty (Daily Rematch)

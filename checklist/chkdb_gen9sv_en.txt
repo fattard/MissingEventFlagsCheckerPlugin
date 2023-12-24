@@ -5001,73 +5001,73 @@ EvtFlags	0xF7D7A36D	SIDE EVENT			Unlocked recipe for TM168 (Solar Beam)
 EvtFlags	0xF7D7A1BA	SIDE EVENT			Unlocked recipe for TM169 (Draco Meteor)
 EvtFlags	0xF7D47C4C	SIDE EVENT			Unlocked recipe for TM170 (Steel Beam)
 EvtFlags	0xF7D47DFF	SIDE EVENT			Unlocked recipe for TM171 (Tera Blast)
-EvtFlags	0xF7D47FB2	SIDE EVENT			KCanCraftTM172
-EvtFlags	0xF7D48165	SIDE EVENT			KCanCraftTM173
-EvtFlags	0xF7D47580	SIDE EVENT			KCanCraftTM174
-EvtFlags	0xF7D47733	SIDE EVENT			KCanCraftTM175
-EvtFlags	0xF7D478E6	SIDE EVENT			KCanCraftTM176
-EvtFlags	0xF7D47A99	SIDE EVENT			KCanCraftTM177
-EvtFlags	0xF7D489E4	SIDE EVENT			KCanCraftTM178
-EvtFlags	0xF7D48B97	SIDE EVENT			KCanCraftTM179
-EvtFlags	0xF7BAB63B	SIDE EVENT			KCanCraftTM180
-EvtFlags	0xF7BAB488	SIDE EVENT			KCanCraftTM181
-EvtFlags	0xF7BAB9A1	SIDE EVENT			KCanCraftTM182
-EvtFlags	0xF7BAB7EE	SIDE EVENT			KCanCraftTM183
-EvtFlags	0xF7BABD07	SIDE EVENT			KCanCraftTM184
-EvtFlags	0xF7BABB54	SIDE EVENT			KCanCraftTM185
-EvtFlags	0xF7BAC06D	SIDE EVENT			KCanCraftTM186
-EvtFlags	0xF7BABEBA	SIDE EVENT			KCanCraftTM187
-EvtFlags	0xF7BAA8A3	SIDE EVENT			KCanCraftTM188
-EvtFlags	0xF7BAA6F0	SIDE EVENT			KCanCraftTM189
-EvtFlags	0xF7B79CB2	SIDE EVENT			KCanCraftTM190
-EvtFlags	0xF7B79E65	SIDE EVENT			KCanCraftTM191
-EvtFlags	0xF7B7994C	SIDE EVENT			KCanCraftTM192
-EvtFlags	0xF7B79AFF	SIDE EVENT			KCanCraftTM193
-EvtFlags	0xF7B795E6	SIDE EVENT			KCanCraftTM194
-EvtFlags	0xF7B79799	SIDE EVENT			KCanCraftTM195
-EvtFlags	0xF7B79280	SIDE EVENT			KCanCraftTM196
-EvtFlags	0xF7B79433	SIDE EVENT			KCanCraftTM197
-EvtFlags	0xF7B7AA4A	SIDE EVENT			KCanCraftTM198
-EvtFlags	0xF7B7ABFD	SIDE EVENT			KCanCraftTM199
-EvtFlags	0xFBA50B8E	SIDE EVENT			KCanCraftTM200
-EvtFlags	0xFBA50D41	SIDE EVENT			KCanCraftTM201
-EvtFlags	0xFBA50828	SIDE EVENT			KCanCraftTM202
-EvtFlags	0xFBA509DB	SIDE EVENT			KCanCraftTM203
-EvtFlags	0xFBA5125A	SIDE EVENT			KCanCraftTM204
-EvtFlags	0xFBA5140D	SIDE EVENT			KCanCraftTM205
-EvtFlags	0xFBA50EF4	SIDE EVENT			KCanCraftTM206
-EvtFlags	0xFBA510A7	SIDE EVENT			KCanCraftTM207
-EvtFlags	0xFBA4FDF6	SIDE EVENT			KCanCraftTM208
-EvtFlags	0xFBA4FFA9	SIDE EVENT			KCanCraftTM209
-EvtFlags	0xFBA74B97	SIDE EVENT			KCanCraftTM210
-EvtFlags	0xFBA749E4	SIDE EVENT			KCanCraftTM211
-EvtFlags	0xFBA74EFD	SIDE EVENT			KCanCraftTM212
-EvtFlags	0xFBA74D4A	SIDE EVENT			KCanCraftTM213
-EvtFlags	0xFBA744CB	SIDE EVENT			KCanCraftTM214
-EvtFlags	0xFBA74318	SIDE EVENT			KCanCraftTM215
-EvtFlags	0xFBA74831	SIDE EVENT			KCanCraftTM216
-EvtFlags	0xFBA7467E	SIDE EVENT			KCanCraftTM217
-EvtFlags	0xFBA73DFF	SIDE EVENT			KCanCraftTM218
-EvtFlags	0xFBA73C4C	SIDE EVENT			KCanCraftTM219
-EvtFlags	0xFB9ED87C	SIDE EVENT			KCanCraftTM220
-EvtFlags	0xFB9EDA2F	SIDE EVENT			KCanCraftTM221
-EvtFlags	0xFB9EDBE2	SIDE EVENT			KCanCraftTM222
-EvtFlags	0xFB9EDD95	SIDE EVENT			KCanCraftTM223
-EvtFlags	0xFB9ED1B0	SIDE EVENT			KCanCraftTM224
-EvtFlags	0xFB9ED363	SIDE EVENT			KCanCraftTM225
-EvtFlags	0xFB9ED516	SIDE EVENT			KCanCraftTM226
-EvtFlags	0xFB9ED6C9	SIDE EVENT			KCanCraftTM227
-EvtFlags	0xFB9EE614	SIDE EVENT			KCanCraftTM228
-EvtFlags	0xFB9EE7C7	SIDE EVENT			KCanCraftTM229
+EvtFlags	0xF7D47FB2	SIDE EVENT			Unlocked recipe for TM172 (Roar)
+EvtFlags	0xF7D48165	SIDE EVENT			Unlocked recipe for TM173 (Charge)
+EvtFlags	0xF7D47580	SIDE EVENT			Unlocked recipe for TM174 (Haze)
+EvtFlags	0xF7D47733	SIDE EVENT			Unlocked recipe for TM175 (Toxic)
+EvtFlags	0xF7D478E6	SIDE EVENT			Unlocked recipe for TM176 (Sand Tomb)
+EvtFlags	0xF7D47A99	SIDE EVENT			Unlocked recipe for TM177 (Spite)
+EvtFlags	0xF7D489E4	SIDE EVENT			Unlocked recipe for TM178 (Gravity)
+EvtFlags	0xF7D48B97	SIDE EVENT			Unlocked recipe for TM179 (Smack Down)
+EvtFlags	0xF7BAB63B	SIDE EVENT			Unlocked recipe for TM180 (Gyro Ball)
+EvtFlags	0xF7BAB488	SIDE EVENT			Unlocked recipe for TM181 (Knock Off)
+EvtFlags	0xF7BAB9A1	SIDE EVENT			Unlocked recipe for TM182 (Bug Bite)
+EvtFlags	0xF7BAB7EE	SIDE EVENT			Unlocked recipe for TM183 (Super Fang)
+EvtFlags	0xF7BABD07	SIDE EVENT			Unlocked recipe for TM184 (Vacuum Wave)
+EvtFlags	0xF7BABB54	SIDE EVENT			Unlocked recipe for TM185 (Lunge)
+EvtFlags	0xF7BAC06D	SIDE EVENT			Unlocked recipe for TM186 (High Horsepower)
+EvtFlags	0xF7BABEBA	SIDE EVENT			Unlocked recipe for TM187 (Icicle Spear)
+EvtFlags	0xF7BAA8A3	SIDE EVENT			Unlocked recipe for TM188 (Scald)
+EvtFlags	0xF7BAA6F0	SIDE EVENT			Unlocked recipe for TM189 (Heat Crash)
+EvtFlags	0xF7B79CB2	SIDE EVENT			Unlocked recipe for TM190 (Solar Blade)
+EvtFlags	0xF7B79E65	SIDE EVENT			Unlocked recipe for TM191 (Uproar)
+EvtFlags	0xF7B7994C	SIDE EVENT			Unlocked recipe for TM192 (Focus Punch)
+EvtFlags	0xF7B79AFF	SIDE EVENT			Unlocked recipe for TM193 (Weather Ball)
+EvtFlags	0xF7B795E6	SIDE EVENT			Unlocked recipe for TM194 (Grassy Glide)
+EvtFlags	0xF7B79799	SIDE EVENT			Unlocked recipe for TM195 (Burning Jealousy)
+EvtFlags	0xF7B79280	SIDE EVENT			Unlocked recipe for TM196 (Flip Turn)
+EvtFlags	0xF7B79433	SIDE EVENT			Unlocked recipe for TM197 (Dual Wingbeat)
+EvtFlags	0xF7B7AA4A	SIDE EVENT			Unlocked recipe for TM198 (Poltergeist)
+EvtFlags	0xF7B7ABFD	SIDE EVENT			Unlocked recipe for TM199 (Lash Out)
+EvtFlags	0xFBA50B8E	SIDE EVENT			Unlocked recipe for TM200 (Scale Shot)
+EvtFlags	0xFBA50D41	SIDE EVENT			Unlocked recipe for TM201 (Misty Explosion)
+EvtFlags	0xFBA50828	SIDE EVENT			Unlocked recipe for TM202 (Pain Split)
+EvtFlags	0xFBA509DB	SIDE EVENT			Unlocked recipe for TM203 (Psych Up)
+EvtFlags	0xFBA5125A	SIDE EVENT			Unlocked recipe for TM204 (Double-Edge)
+EvtFlags	0xFBA5140D	SIDE EVENT			Unlocked recipe for TM205 (Endeavor)
+EvtFlags	0xFBA50EF4	SIDE EVENT			Unlocked recipe for TM206 (Petal Blizzard)
+EvtFlags	0xFBA510A7	SIDE EVENT			Unlocked recipe for TM207 (Temper Flare)
+EvtFlags	0xFBA4FDF6	SIDE EVENT			Unlocked recipe for TM208 (Whirlpool)
+EvtFlags	0xFBA4FFA9	SIDE EVENT			Unlocked recipe for TM209 (Muddy Water)
+EvtFlags	0xFBA74B97	SIDE EVENT			Unlocked recipe for TM210 (Supercell Slam)
+EvtFlags	0xFBA749E4	SIDE EVENT			Unlocked recipe for TM211 (Electroweb)
+EvtFlags	0xFBA74EFD	SIDE EVENT			Unlocked recipe for TM212 (Triple Axel)
+EvtFlags	0xFBA74D4A	SIDE EVENT			Unlocked recipe for TM213 (Coaching)
+EvtFlags	0xFBA744CB	SIDE EVENT			Unlocked recipe for TM214 (Sludge Wave)
+EvtFlags	0xFBA74318	SIDE EVENT			Unlocked recipe for TM215 (Scorching Sands)
+EvtFlags	0xFBA74831	SIDE EVENT			Unlocked recipe for TM216 (Feather Dance)
+EvtFlags	0xFBA7467E	SIDE EVENT			Unlocked recipe for TM217 (Future Sight)
+EvtFlags	0xFBA73DFF	SIDE EVENT			Unlocked recipe for TM218 (Expanding Force)
+EvtFlags	0xFBA73C4C	SIDE EVENT			Unlocked recipe for TM219 (Skitter Smack)
+EvtFlags	0xFB9ED87C	SIDE EVENT			Unlocked recipe for TM220 (Meteor Beam)
+EvtFlags	0xFB9EDA2F	SIDE EVENT			Unlocked recipe for TM221 (Throat Chop)
+EvtFlags	0xFB9EDBE2	SIDE EVENT			Unlocked recipe for TM222 (Breaking Swipe)
+EvtFlags	0xFB9EDD95	SIDE EVENT			Unlocked recipe for TM223 (Metal Sound)
+EvtFlags	0xFB9ED1B0	SIDE EVENT			Unlocked recipe for TM224 (Curse)
+EvtFlags	0xFB9ED363	SIDE EVENT			Unlocked recipe for TM225 (Hard Press)
+EvtFlags	0xFB9ED516	SIDE EVENT			Unlocked recipe for TM226 (Dragon Cheer)
+EvtFlags	0xFB9ED6C9	SIDE EVENT			Unlocked recipe for TM227 (Alluring Voice)
+EvtFlags	0xFB9EE614	SIDE EVENT			Unlocked recipe for TM228 (Psychic Noise)
+EvtFlags	0xFB9EE7C7	SIDE EVENT			Unlocked recipe for TM229 (Upper Hand)
 EvtFlags	0x7C6E7444	SIDE EVENT			Unlocked the Judge Function
 EvtFlags	0x54B8E8E1	STORY EVENT	East Province (Area Three)		Unlocked Ride High Jump power
 EvtFlags	0x0D707154	STORY EVENT	South Province (Area Three)		Unlocked Ride Dash power
 EvtFlags	0x6ABB01F7	STORY EVENT	Casseroya Lake		Unlocked Ride Climb power
 EvtFlags	0x9DDF953F	STORY EVENT	Asado Desert		Unlocked Ride Glide power
 EvtFlags	0x76FF4AF0	STORY EVENT	West Province (Area One)		Unlocked Ride Swim power
-EvtFlags	0xF4670B74	SIDE EVENT			KUnlockedLetsGo
-EvtFlags	0x13DB4C8F	STORY EVENT			KUnlockedTeraTypeChanging
-EvtFlags	0xCB13D905	SIDE EVENT			KUnlockedEmotes
+EvtFlags	0xF4670B74	SIDE EVENT			Unlocked Let's Go feature
+EvtFlags	0x13DB4C8F	STORY EVENT			Unlocked Tera Type Changing
+EvtFlags	0xCB13D905	SIDE EVENT			Unlocked Emotes
 EvtFlags	0x92CE2CF6	STORY EVENT			Finished Main Story
 EvtFlags	0xF7900D11	SIDE EVENT			Claimed Pokédex Diploma
 EvtFlags	0x44CA754B	SIDE EVENT			Receive Master Rank Ribbon (Ranked Battle)
@@ -5126,9 +5126,9 @@ EvtFlags	0x987B8A24	STATIC ENCOUNTER	Area Zero		Capture wild Koraidon / Miraidon
 EvtFlags	0xCEF6C179	IN-GAME TRADE	Cortondo		Traded a Flabébé for Snom (Snowsalot)
 EvtFlags	0xCEF6BC60	IN-GAME TRADE	Cascarrafa		Traded a Paldean Wooper for Wooper (Manchester)
 EvtFlags	0xCEF6BE13	IN-GAME TRADE	Levincia		Traded a Pincurchin for Haunter (Hauntikins)
-EvtFlags	0xFD126E2B	SIDE EVENT	Glaseado Mountain		Clear Powder Snow Course of Snow Slope Run challenge
-EvtFlags	0x8BEB3731	SIDE EVENT	Glaseado Mountain		Clear Blizzard Course of Snow Slope Run challenge
-EvtFlags	0xC11CEE3A	SIDE EVENT	Glaseado Mountain		Clear Sheer Cold Course of Snow Slope Run challenge
+EvtFlags	0xFD126E2B	SIDE EVENT	Glaseado Mountain		Cleared Powder Snow Course of Snow Slope Run challenge
+EvtFlags	0x8BEB3731	SIDE EVENT	Glaseado Mountain		Cleared Blizzard Course of Snow Slope Run challenge
+EvtFlags	0xC11CEE3A	SIDE EVENT	Glaseado Mountain		Cleared Sheer Cold Course of Snow Slope Run challenge
 EvtFlags	0x0629031F	SIDE EVENT			KUnlockedRecipesMotherNormal
 EvtFlags	0xA796AC7C	SIDE EVENT			KUnlockedRecipesMotherMaster
 EvtFlags	0x6680756C	SIDE EVENT			KUnlockedRecipesHerbaMystica1
@@ -5208,7 +5208,7 @@ EvtFlags	0x127F8946	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_18
 EvtFlags	0x127F8AF9	STATIC ENCOUNTER	Casseroya Lake		SUSHI_DAMMY_19
 EvtFlags	0x0DDBBC62	STORY EVENT			Finished The Teal Mask story
 EvtFlags	0xA066600C	SIDE EVENT			Claimed Kitakami Pokedex Diploma
-EvtFlags	0x478A8C60	SIDE EVENT			KUnlockedRotoStick
+EvtFlags	0x478A8C60	SIDE EVENT			Unlocked Roto Stick feature
 EvtFlags	0x99849BBF	SIDE EVENT			KUnlockedDLCEmote0
 EvtFlags	0xF6A77854	SIDE EVENT			KUnlockedDLCEmote1
 EvtFlags	0xC2ECD3E5	SIDE EVENT			KUnlockedDLCEmote2
@@ -5222,20 +5222,20 @@ EvtFlags	0x3CC63057	SIDE EVENT			KUnlockedTMMachineMoveFiltering
 EvtFlags	0xCB190E5E	SIDE EVENT			KCompletedBillyONareQuestPart1
 EvtFlags	0x6BBE8497	SIDE EVENT			KCompletedBillyONareQuestPart2
 EvtFlags	0xDB267000	SIDE EVENT			KCompletedBillyONareQuestPart3
-EvtFlags	0x7042479E	STATIC ENCOUNTER			KCapturedOkidogi
-EvtFlags	0x9F5556DD	STATIC ENCOUNTER			KCapturedMunkidori
-EvtFlags	0xFF7CAD99	STATIC ENCOUNTER			KCapturedFezandipiti
+EvtFlags	0x7042479E	STATIC ENCOUNTER			Captured Okidogi
+EvtFlags	0x9F5556DD	STATIC ENCOUNTER			Captured Munkidori
+EvtFlags	0xFF7CAD99	STATIC ENCOUNTER			Captured Fezandipiti
 EvtFlags	0x18ABCD92	SIDE EVENT			KCanChallengeOgreClanLeader
-EvtFlags	0x19B5A525	ITEM GIFT			KOgreClanReward1
-EvtFlags	0x19B5A00C	ITEM GIFT			KOgreClanReward2
-EvtFlags	0x19B5A1BF	ITEM GIFT			KOgreClanReward3
-EvtFlags	0x19B59CA6	ITEM GIFT			KOgreClanReward4
-EvtFlags	0x19B59E59	ITEM GIFT			KOgreClanReward5
-EvtFlags	0x19B59940	ITEM GIFT			KOgreClanReward6
-EvtFlags	0x19B59AF3	ITEM GIFT			KOgreClanReward7
-EvtFlags	0xA5596DD0	SIDE EVENT			KOgreOustinClearedNormal
-EvtFlags	0x17AD6C82	SIDE EVENT			KOgreOustinClearedHard
-EvtFlags	0x0DDBBAAF	STORY EVENT			KGameClearIndigoDisk
+EvtFlags	0x19B5A525	ITEM GIFT			Received Focus Sash from Muramasa for defeating 1 Ogre Clan member
+EvtFlags	0x19B5A00C	ITEM GIFT			Received Exp. Candy XL (x5) from Muramasa for defeating 2 Ogre Clan members
+EvtFlags	0x19B5A1BF	ITEM GIFT			Received Assault Vest from Muramasa for defeating 3 Ogre Clan members
+EvtFlags	0x19B59CA6	ITEM GIFT			Received Rare Candy (x10) from Muramasa for defeating 4 Ogre Clan members
+EvtFlags	0x19B59E59	ITEM GIFT			Received Choice Specs from Muramasa for defeating 5 Ogre Clan members
+EvtFlags	0x19B59940	ITEM GIFT			Received Ability Capsule (x3) from Muramasa for defeating 6 Ogre Clan members
+EvtFlags	0x19B59AF3	ITEM GIFT			Received Choice Band from Muramasa for defeating 7 Ogre Clan members
+EvtFlags	0xA5596DD0	SIDE EVENT			Cleared Normal difficulty in Ogre Oustin challenge
+EvtFlags	0x17AD6C82	SIDE EVENT			Cleared Hard difficulty in Ogre Oustin challenge
+EvtFlags	0x0DDBBAAF	STORY EVENT			Finished The Indigo Disk story
 EvtFlags	0x3A9255B2	SIDE EVENT			Unlocked Ride Fly power
 EvtFlags	0xD236F495	SIDE EVENT			KUnlockedSpecialCoaches
 EvtFlags	0xF26983F0	SIDE EVENT			KUnlockedBlueberryQuests
@@ -5293,7 +5293,7 @@ EvtFlags	0x3FCD09A3	SIDE EVENT			KUnlockedDressupUpgrade02
 EvtFlags	0x1922C364	SIDE EVENT			KUnlockedHairSalonUpgrade02
 EvtFlags	0x04A230FA	STORY EVENT			KBattledStellarTerapagosOnce
 EvtFlags	0x88DEDE8E	SIDE EVENT			KUnlockedAtticusAuctions
-EvtFlags	0x47CDA43D	SIDE EVENT			KUnlockedSynchroMachine
+EvtFlags	0x47CDA43D	SIDE EVENT			Unlocked Synchro Machine feature
 EvtFlags	0x20B167D8	SIDE EVENT			FSYS_PHOTO_CONVERSION_ENABLE
 EvtFlags	0x4EF04CF2	STORY EVENT			FSYS_SCENARIO_LAST_EPISODE_CLEAR
-EvtFlags	0x59AFCA7B	STORY EVENT			FSYS_TBALL_POWERUP_ENABLE
+EvtFlags	0x59AFCA7B	STORY EVENT			Unlocked Tera Ball instant recharge
