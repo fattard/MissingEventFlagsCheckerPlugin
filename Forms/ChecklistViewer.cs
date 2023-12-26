@@ -73,8 +73,9 @@ namespace MissingEventFlagsCheckerPlugin.Forms
                 var flagsOrganizerType = m_flagsEditorAssembly!.GetType("FlagsEditorEXPlugin.FlagsOrganizer");
                 var flagsEditorMainWinType = m_flagsEditorAssembly!.GetType("FlagsEditorEXPlugin.Forms.MainWin");
                 var flagsOrganizerInstance = flagsOrganizerType!.GetMethod("CreateFlagsOrganizer")!.Invoke(null, [m_checker.SaveFile, null]);
-                var flagsEditorMainWinInstance = Activator.CreateInstance(flagsEditorMainWinType!, flagsOrganizerInstance);
-                ((Form)flagsEditorMainWinInstance!).ShowDialog();
+                var flagsEditorMainWinInstance = (Form)Activator.CreateInstance(flagsEditorMainWinType!, flagsOrganizerInstance)!;
+                flagsEditorMainWinInstance.ShowDialog();
+                flagsEditorMainWinInstance.Dispose();
 
                 ReloadAllData(m_checker.SaveFile!);
                 RefreshTotals();
