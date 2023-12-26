@@ -88,24 +88,6 @@ namespace MissingEventFlagsCheckerPlugin.Forms
 
         private void ExportCurrentViewBtn_Click(object sender, EventArgs e)
         {
-            StringBuilder sb = new StringBuilder(512 * 1024);
-
-            for (int i = 0; i < dataGridView.RowCount; i++)
-            {
-                var idx = ((int?)dataGridView.Rows[i].Cells[0].Value).Value - 1;
-
-                var evt = m_checkerList[idx];
-
-                if (evt.EvtTypeVal != EventFlagType._Separator)
-                {
-                    sb.AppendFormat("[{0}] {1}\r\n", evt.IsDone ? "x" : " ", evt.ToString());
-                }
-                else
-                {
-                    sb.Append("\r\n");
-                }
-            }
-
             SaveFileDialog saveFileDialog = new SaveFileDialog()
             {
                 Filter = "Text File|*.txt",
@@ -114,14 +96,30 @@ namespace MissingEventFlagsCheckerPlugin.Forms
             var result = saveFileDialog.ShowDialog();
             if (result == DialogResult.OK)
             {
+                StringBuilder sb = new StringBuilder(512 * 1024);
+
+                for (int i = 0; i < dataGridView.RowCount; i++)
+                {
+                    var idx = ((int?)dataGridView.Rows[i].Cells[0].Value).Value - 1;
+
+                    var evt = m_checkerList[idx];
+
+                    if (evt.EvtTypeVal != EventFlagType._Separator)
+                    {
+                        sb.AppendFormat("[{0}] {1}\r\n", evt.IsDone ? "x" : " ", evt.ToString());
+                    }
+                    else
+                    {
+                        sb.Append("\r\n");
+                    }
+                }
+
                 System.IO.File.WriteAllText(saveFileDialog.FileName, sb.ToString());
             }
         }
 
         private void ExportFullChecklistBtn_Click(object sender, EventArgs e)
         {
-            var fileContent = m_checker.ExportChecklist(showTimedEventsChk.Checked);
-
             SaveFileDialog saveFileDialog = new SaveFileDialog()
             {
                 Filter = "Text File|*.txt",
@@ -130,14 +128,12 @@ namespace MissingEventFlagsCheckerPlugin.Forms
             var result = saveFileDialog.ShowDialog();
             if (result == DialogResult.OK)
             {
-                System.IO.File.WriteAllText(saveFileDialog.FileName, fileContent);
+                System.IO.File.WriteAllText(saveFileDialog.FileName, m_checker.ExportChecklist(showTimedEventsChk.Checked));
             }
         }
 
         private void ExportMissingEventsBtn_Click(object sender, EventArgs e)
         {
-            var fileContent = m_checker.ExportMissingEvents(showTimedEventsChk.Checked);
-
             SaveFileDialog saveFileDialog = new SaveFileDialog()
             {
                 Filter = "Text File|*.txt",
@@ -146,7 +142,7 @@ namespace MissingEventFlagsCheckerPlugin.Forms
             var result = saveFileDialog.ShowDialog();
             if (result == DialogResult.OK)
             {
-                System.IO.File.WriteAllText(saveFileDialog.FileName, fileContent);
+                System.IO.File.WriteAllText(saveFileDialog.FileName, m_checker.ExportMissingEvents(showTimedEventsChk.Checked));
             }
         }
 
