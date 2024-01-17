@@ -1,3 +1,5 @@
+MissingEventFlagsChecker.Title=Missing Event Flags Checker
+
 EventFlagType.FieldItem=Item do Chão
 EventFlagType.HiddenItem=Item Escondido
 EventFlagType.SpecialItem=Item Especial

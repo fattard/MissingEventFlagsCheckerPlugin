@@ -2,7 +2,7 @@
 {
     public class MissingEventFlagsChecker : IPlugin
     {
-        public string Name => "Missing Event Flags Checker";
+        public string Name => LocalizedStrings.Find("MissingEventFlagsChecker.Title", "Missing Event Flags Checker");
         public int Priority => 100; // Loading order, lowest is first.
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
         public ISaveFileProvider SaveFileEditor { get; private set; }
@@ -85,6 +85,14 @@
                 _ => true
             };
 
+        }
+
+        public void NotifyDisplayLanguageChanged(string language)
+        {
+            // Refresh language if needed
+            LocalizedStrings.Initialize(language);
+
+            ctrl!.Text = Name;
         }
 
         public bool TryLoadFile(string filePath)

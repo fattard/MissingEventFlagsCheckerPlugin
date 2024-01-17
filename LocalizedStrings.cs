@@ -3,13 +3,14 @@
     public static class LocalizedStrings
     {
         readonly static Dictionary<string, string> s_localizedStrings = [];
-        readonly static string s_langCode = "en";
+        static string s_langCode = "en";
 
         public static void Initialize(string langCode)
         {
             if (s_localizedStrings.Count == 0 || s_langCode != langCode)
             {
                 s_localizedStrings.Clear();
+                s_langCode = langCode;
 
                 var res = ReadLangResFile(langCode);
 
