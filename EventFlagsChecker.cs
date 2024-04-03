@@ -250,8 +250,6 @@
             var offResPath = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location)!, resFileName);
             if (!System.IO.File.Exists(offResPath))
             {
-                resFileName = assembly.GetManifestResourceNames().Single(str => str.EndsWith(resFileName));
-
                 try
                 {
                     resFileName = assembly.GetManifestResourceNames().Single(str => str.EndsWith(resFileName));
@@ -259,7 +257,7 @@
                 catch (InvalidOperationException)
                 {
                     // Load default language
-                    return ReadResFile(resFileName, "en");
+                    return ReadResFile(resName, "en");
                 }
 
                 using (var stream = assembly.GetManifestResourceStream(resFileName))
