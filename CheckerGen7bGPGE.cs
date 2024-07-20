@@ -32,7 +32,7 @@
             switch (evtDetail.EvtSource)
             {
                 case 0: // EventFlags
-                    isEvtSet = ((IEventFlagArray)m_savFile!).GetEventFlag(idx);
+                    isEvtSet = m_eventWorkData!.GetFlag(idx);
                     break;
 
                 default:

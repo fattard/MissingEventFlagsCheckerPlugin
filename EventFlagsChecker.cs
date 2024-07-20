@@ -292,7 +292,6 @@
                 GameVersion.BATREV or
                 GameVersion.ORASDEMO or
                 GameVersion.GO or
-                GameVersion.Unknown or
                 GameVersion.Invalid
                     // unsupported format
                     => null,

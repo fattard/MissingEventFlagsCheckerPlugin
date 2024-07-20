@@ -39,7 +39,7 @@
     <EmbeddedResource Include="checklist\chkdb_gen9sv_en.txt" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="PKHeX.Core" Version="24.1.12" />
+    <PackageReference Include="PKHeX.Core" Version="24.7.3" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="localization\lang_br.txt" />
