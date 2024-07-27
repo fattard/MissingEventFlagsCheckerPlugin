@@ -9,7 +9,8 @@ For completionists, this may give you that satisfaction that you have explored a
 If you need to edit the event flags or just dump them, you can use the companion plugin [FlagsEditorEX](https://github.com/fattard/FlagsEditorEXPlugin).  
 
 *Note: This is a WIP plugin, it already covers **the most important parts of each game**, but it is far from ideal.*  
-*Gen1 and Gen2 games are now fully supported, while remaining ones are partially supported.*
+*Gen1 and Gen2 games are now fully supported, while remaining ones are partially supported.*  
+*Research on Gen3 games are slowly coming up.*
 
 ## Setup Instructions
 - Download the plugin from the latest release [here](https://github.com/fattard/MissingEventFlagsCheckerPlugin/releases/latest).
@@ -116,7 +117,7 @@ As the flags gets documented and descriptions are created, they will be embedded
 
 All research work can be checked here
 
-[Event Flags - Research spreadsheet](https://docs.google.com/spreadsheets/d/1PkY3AVafdOEqKiD_TzD4hTDRvf39ad-eI7e4JylyVII/edit?usp=sharing)
+[Event Flags - Research spreadsheet](https://docs.google.com/spreadsheets/d/1PkY3AVafdOEqKiD_TzD4hTDRvf39ad-eI7e4JylyVII/copy)
 
 To contribute, create a copy of the above, fill the info you researched, and contact back with the information of what needs to be merged.
 
