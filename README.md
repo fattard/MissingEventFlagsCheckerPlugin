@@ -13,11 +13,12 @@ If you need to edit the event flags or just dump them, you can use the companion
 *Research on Gen3 games are slowly coming up.*
 
 ## Setup Instructions
+- Ensure you have the latest PKHeX version from [here](https://projectpokemon.org/pkhex/)
 - Download the plugin from the latest release [here](https://github.com/fattard/MissingEventFlagsCheckerPlugin/releases/latest).
 - Extract and unblock them in Windows' Properties Menu.
 - Put them in the *plugins* folder that is in the same directory as the PKHeX program path.
 - If the *plugins* folder does not exist, create one, all lowercase letters.
-- Check for more instructions examples if you have trouble: [Manually Installing PKHeX Plugins](https://github.com/architdate/PKHeX-Plugins/wiki/Installing-PKHeX-Plugins#manual-installation-or-installing-older-releases).
+- Check for more instructions examples if you have trouble (specifically steps 4 and 5): [Manually Installing PKHeX Plugins](https://github.com/architdate/PKHeX-Plugins/wiki/Installing-PKHeX-Plugins#manual-installation-or-installing-older-releases).
 
 ## Actions
 
