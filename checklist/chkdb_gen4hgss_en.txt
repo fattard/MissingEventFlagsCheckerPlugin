@@ -71,28 +71,28 @@
 0	0x325	HIDDEN ITEM	Route 32		Great Ball
 0	0x326	HIDDEN ITEM	Azalea Town		Full Heal
 0	0x327	HIDDEN ITEM	Route 34		Rare Candy
-0	0x328	HIDDEN ITEM	Route 35		Super Potion
-0	0x329	HIDDEN ITEM	Route 36		Super Potion
+0	0x328	HIDDEN ITEM	Route 34		Super Potion
+0	0x329	HIDDEN ITEM	Goldenrod City		Super Potion
 0	0x32A	HIDDEN ITEM	Route 35		Nugget
 0	0x32B	HIDDEN ITEM	Route 36		Awakening
 0	0x32C	HIDDEN ITEM	Ecruteak City		Hyper Potion
 0	0x32D	HIDDEN ITEM	Ecruteak City		Ether
-0	0x32E	HIDDEN ITEM	Dark Cave		Poke Ball
+0	0x32E	HIDDEN ITEM	Dark Cave		Poké Ball
 0	0x32F	HIDDEN ITEM	Dark Cave		Max Ether
 0	0x330	HIDDEN ITEM	Dark Cave		Max Revive
 0	0x331	HIDDEN ITEM	Dark Cave		Hyper Potion
 0	0x332	HIDDEN ITEM	Dark Cave		Elixir
-0	0x333	HIDDEN ITEM	Burned Tower		Ether
-0	0x334	HIDDEN ITEM	Burned Tower		Ultra Ball
-0	0x335	HIDDEN ITEM	Burned Tower		Revive
+0	0x333	HIDDEN ITEM	Burned Tower	1F	Ether
+0	0x334	HIDDEN ITEM	Burned Tower	1F	Ultra Ball
+0	0x335	HIDDEN ITEM	Burned Tower	B1F	Revive
 0	0x336	HIDDEN ITEM	Route 38		HP Up
 0	0x337	HIDDEN ITEM	Olivine City		Rare Candy
 0	0x338	HIDDEN ITEM	Route 40		Hyper Potion
 0	0x339	HIDDEN ITEM	Cianwood City		Revive
 0	0x33A	HIDDEN ITEM	Cianwood City		Stardust
-0	0x33B	HIDDEN ITEM	Slowpoke Well		Great Ball
-0	0x33C	HIDDEN ITEM	Slowpoke Well		Super Potion
-0	0x33D	HIDDEN ITEM	Slowpoke Well		Full Heal
+0	0x33B	HIDDEN ITEM	Slowpoke Well	Entrance	Great Ball
+0	0x33C	HIDDEN ITEM	Slowpoke Well	B1F	Super Potion
+0	0x33D	HIDDEN ITEM	Slowpoke Well	B1F	Full Heal
 0	0x33E	HIDDEN ITEM	Ilex Forest		Antidote
 0	0x33F	HIDDEN ITEM	Ilex Forest		Super Potion
 0	0x340	HIDDEN ITEM	Ilex Forest		Full Heal
@@ -101,65 +101,65 @@
 0	0x343	HIDDEN ITEM	National Park		Full Heal
 0	0x344	HIDDEN ITEM	Lake of Rage		Full Restore
 0	0x345	HIDDEN ITEM	Lake of Rage		Rare Candy
-0	0x346	HIDDEN ITEM	Route 20		Deepseatooth
+0	0x346	HIDDEN ITEM	Route 20		Deep Sea Tooth
 0	0x347	HIDDEN ITEM	Route 47		Stardust
 0	0x348	HIDDEN ITEM	Route 47		Pearl
-0	0x349	HIDDEN ITEM	Safari Zone Gate		Tinymushroom
+0	0x349	HIDDEN ITEM	Safari Zone Gate		Tiny Mushroom
 0	0x34A	HIDDEN ITEM	Route 42		Max Potion
-0	0x34B	HIDDEN ITEM	Mt. Mortar		Hyper Potion
-0	0x34C	HIDDEN ITEM	Mt. Mortar		Revive
-0	0x34D	HIDDEN ITEM	Mt. Mortar		Max Repel
-0	0x34E	HIDDEN ITEM	Mt. Mortar		Ether
-0	0x34F	HIDDEN ITEM	Mt. Mortar		Full Restore
-0	0x350	HIDDEN ITEM	Mt. Mortar		HP Up
-0	0x351	HIDDEN ITEM	Mt. Mortar		Max Revive
-0	0x352	HIDDEN ITEM	Mt. Mortar		Ultra Ball
-0	0x353	HIDDEN ITEM	Team Rocket HQ		Revive
-0	0x354	HIDDEN ITEM	Goldenrod Tunnel		Parlyz Heal
-0	0x355	HIDDEN ITEM	Goldenrod Tunnel		Super Potion
-0	0x356	HIDDEN ITEM	Team Rocket HQ		Full Heal
-0	0x357	HIDDEN ITEM	Team Rocket HQ		X Sp  Def
+0	0x34B	HIDDEN ITEM	Mt. Mortar	1F Outside	Hyper Potion
+0	0x34C	HIDDEN ITEM	Mt. Mortar	1F Outside	Revive
+0	0x34D	HIDDEN ITEM	Mt. Mortar	1F Inside	Max Repel
+0	0x34E	HIDDEN ITEM	Mt. Mortar	1F Inside	Ether
+0	0x34F	HIDDEN ITEM	Mt. Mortar	2F Inside	Full Restore
+0	0x350	HIDDEN ITEM	Mt. Mortar	2F Inside	HP Up
+0	0x351	HIDDEN ITEM	Mt. Mortar	B1F	Max Revive
+0	0x352	HIDDEN ITEM	Mt. Mortar	B1F	Ultra Ball
+0	0x353	HIDDEN ITEM	Team Rocket HQ	B1F	Revive
+0	0x354	HIDDEN ITEM	Goldenrod Department Store	B1F	Paralyze Heal
+0	0x355	HIDDEN ITEM	Goldenrod Department Store	B1F	Super Potion
+0	0x356	HIDDEN ITEM	Team Rocket HQ	B2F	Full Heal
+0	0x357	HIDDEN ITEM	Team Rocket HQ	B2F	X Sp. Def
 0	0x358	HIDDEN ITEM	Diglett's Cave		Max Revive
-0	0x359	HIDDEN ITEM	Route 5		Full Restore
-0	0x35A	HIDDEN ITEM	Route 5		X Special
-0	0x35B	HIDDEN ITEM	Rock Tunnel		X Accuracy
-0	0x35C	HIDDEN ITEM	Rock Tunnel		X Defense
-0	0x35D	HIDDEN ITEM	Rock Tunnel		Max Potion
-0	0x35E	HIDDEN ITEM	Bell Tower		Max Potion
-0	0x35F	HIDDEN ITEM	Bell Tower		Full Restore
-0	0x360	HIDDEN ITEM	Bell Tower		Carbos
-0	0x361	HIDDEN ITEM	Burned Tower		Antidote
-0	0x362	HIDDEN ITEM	Lighthouse		Hyper Potion
-0	0x363	HIDDEN ITEM	Goldenrod City		Antidote
-0	0x364	HIDDEN ITEM	Goldenrod City		Max Potion
-0	0x365	HIDDEN ITEM	Goldenrod City		Revive
-0	0x366	HIDDEN ITEM	Ice Path		Max Potion
-0	0x367	HIDDEN ITEM	Ice Path		Carbos
-0	0x368	HIDDEN ITEM	Ice Path		Ice Heal
-0	0x369	HIDDEN ITEM	Whirl Islands		Rare Candy
-0	0x36A	HIDDEN ITEM	Whirl Islands		Ultra Ball
-0	0x36B	HIDDEN ITEM	Whirl Islands		Full Restore
-0	0x36C	HIDDEN ITEM	Mt. Silver Cave		Dire Hit
-0	0x36D	HIDDEN ITEM	Mt. Silver Cave		Ultra Ball
-0	0x36E	HIDDEN ITEM	Mt. Silver Cave		Max Potion
-0	0x36F	HIDDEN ITEM	Victory Road		Max Potion
-0	0x370	HIDDEN ITEM	Victory Road		Full Heal
-0	0x371	HIDDEN ITEM	Dragon's Den		Revive
-0	0x372	HIDDEN ITEM	Dragon's Den		Max Potion
-0	0x373	HIDDEN ITEM	Dragon's Den		Max Elixir
-0	0x374	HIDDEN ITEM	S.S. Aqua		Iron
+0	0x359	HIDDEN ITEM	Underground Path	North-South	Full Restore
+0	0x35A	HIDDEN ITEM	Underground Path	North-South	X Sp. Atk
+0	0x35B	HIDDEN ITEM	Rock Tunnel	1F	X Accuracy
+0	0x35C	HIDDEN ITEM	Rock Tunnel	1F	X Defense
+0	0x35D	HIDDEN ITEM	Rock Tunnel	B1F	Max Potion
+0	0x35E	HIDDEN ITEM	Bell Tower	3F	Max Potion
+0	0x35F	HIDDEN ITEM	Bell Tower	5F	Full Restore
+0	0x360	HIDDEN ITEM	Bell Tower	8F	Carbos
+0	0x361	HIDDEN ITEM	Burned Tower	B1F	Antidote
+0	0x362	HIDDEN ITEM	Olivine Lighthouse	3F	Hyper Potion
+0	0x363	HIDDEN ITEM	Goldenrod Department Store	B1F	Antidote
+0	0x364	HIDDEN ITEM	Goldenrod Tunnel	Warehouse	Max Potion
+0	0x365	HIDDEN ITEM	Goldenrod Tunnel	Warehouse	Revive
+0	0x366	HIDDEN ITEM	Ice Path	1F	Max Potion
+0	0x367	HIDDEN ITEM	Ice Path	B2F	Carbos
+0	0x368	HIDDEN ITEM	Ice Path	1F	Ice Heal
+0	0x369	HIDDEN ITEM	Whirl Islands	1F	Rare Candy
+0	0x36A	HIDDEN ITEM	Whirl Islands	B1F	Ultra Ball
+0	0x36B	HIDDEN ITEM	Whirl Islands	B2F	Full Restore
+0	0x36C	HIDDEN ITEM	Mt. Silver Cave	1F	Dire Hit
+0	0x36D	HIDDEN ITEM	Mt. Silver Cave	1F	Ultra Ball
+0	0x36E	HIDDEN ITEM	Mt. Silver Cave	2F	Max Potion
+0	0x36F	HIDDEN ITEM	Victory Road	1F	Max Potion
+0	0x370	HIDDEN ITEM	Victory Road	1F	Full Heal
+0	0x371	HIDDEN ITEM	Dragon's Den	B1F	Revive
+0	0x372	HIDDEN ITEM	Dragon's Den	B1F	Max Potion
+0	0x373	HIDDEN ITEM	Dragon's Den	B1F	Max Elixir
+0	0x374	HIDDEN ITEM	Vermilion City	Harbor	Iron
 0	0x375	HIDDEN ITEM	Viridian Forest		Max Ether
-0	0x376	HIDDEN ITEM	Olivine City		Protein
+0	0x376	HIDDEN ITEM	Olivine City	Harbor	Protein
 0	0x377	HIDDEN ITEM	Viridian Forest		Full Restore
-0	0x378	HIDDEN ITEM	Seafoam Islands		Escape Rope
-0	0x379	HIDDEN ITEM	Seafoam Islands		Ice Heal
-0	0x37A	HIDDEN ITEM	Seafoam Islands		Pearl
-0	0x37B	HIDDEN ITEM	Seafoam Islands		Pearl
-0	0x37C	HIDDEN ITEM	Seafoam Islands		Max Revive
-0	0x37D	HIDDEN ITEM	Cerulean Cave		Hyper Potion
-0	0x37E	HIDDEN ITEM	Cerulean Cave		Rare Candy
-0	0x37F	HIDDEN ITEM	Cerulean Cave		Revive
-0	0x380	HIDDEN ITEM	Cerulean Cave		Ultra Ball
+0	0x378	HIDDEN ITEM	Seafoam Islands	1F	Escape Rope
+0	0x379	HIDDEN ITEM	Seafoam Islands	B1F	Ice Heal
+0	0x37A	HIDDEN ITEM	Seafoam Islands	B2F	Pearl
+0	0x37B	HIDDEN ITEM	Seafoam Islands	B2F	Pearl
+0	0x37C	HIDDEN ITEM	Seafoam Islands	B3F	Max Revive
+0	0x37D	HIDDEN ITEM	Cerulean Cave	1F	Hyper Potion
+0	0x37E	HIDDEN ITEM	Cerulean Cave	1F	Rare Candy
+0	0x37F	HIDDEN ITEM	Cerulean Cave	1F	Revive
+0	0x380	HIDDEN ITEM	Cerulean Cave	2F	Ultra Ball
 0	0x381	HIDDEN ITEM	Route 32		Super Potion
 0	0x382	HIDDEN ITEM	Route 39		Nugget
 0	0x383	HIDDEN ITEM	Route 41		Max Ether
@@ -171,7 +171,7 @@
 0	0x389	HIDDEN ITEM	Route 9		Ether
 0	0x38A	HIDDEN ITEM	Cerulean City		Nugget
 0	0x38B	HIDDEN ITEM	Route 25		Revive
-0	0x38C	HIDDEN ITEM	Violet City		Poke Ball
+0	0x38C	HIDDEN ITEM	Violet City		Poké Ball
 0	0x38D	HIDDEN ITEM	Route 17		Max Ether
 0	0x38E	HIDDEN ITEM	Route 17		Max Elixir
 0	0x38F	HIDDEN ITEM	Route 13		Calcium
@@ -180,59 +180,59 @@
 0	0x392	HIDDEN ITEM	Cinnabar Island		Rare Candy
 0	0x393	HIDDEN ITEM	Route 28		Rare Candy
 0	0x394	HIDDEN ITEM	Mt. Silver		Full Restore
-0	0x395	HIDDEN ITEM	Cerulean Cave		PP Up
-0	0x396	HIDDEN ITEM	Cerulean Cave		Big Pearl
-0	0x397	HIDDEN ITEM	Cerulean Cave		Zinc
-0	0x398	HIDDEN ITEM	Cerulean Cave		Full Heal
-0	0x399	HIDDEN ITEM	Cerulean Cave		Max Revive
+0	0x395	HIDDEN ITEM	Cerulean Cave	2F	PP Up
+0	0x396	HIDDEN ITEM	Cerulean Cave	2F	Big Pearl
+0	0x397	HIDDEN ITEM	Cerulean Cave	2F	Zinc
+0	0x398	HIDDEN ITEM	Cerulean Cave	2F	Full Heal
+0	0x399	HIDDEN ITEM	Cerulean Cave	B1F	Max Revive
 0	0x39A	HIDDEN ITEM	Celadon City		PP Up
-0	0x39B	HIDDEN ITEM	Cerulean Cave		Ultra Ball
-0	0x39C	HIDDEN ITEM	Cerulean Cave		Nugget
-0	0x39D	HIDDEN ITEM	Bellchime Trail		Tinymushroom
+0	0x39B	HIDDEN ITEM	Cerulean Cave	B1F	Ultra Ball
+0	0x39C	HIDDEN ITEM	Cerulean Cave	B1F	Nugget
+0	0x39D	HIDDEN ITEM	Bellchime Trail		Tiny Mushroom
 0	0x39E	HIDDEN ITEM	Bellchime Trail		Big Mushroom
 0	0x39F	HIDDEN ITEM	Bellchime Trail		Big Mushroom
-0	0x3A0	HIDDEN ITEM	Bellchime Trail		Tinymushroom
-0	0x3A1	HIDDEN ITEM	Bellchime Trail		Tinymushroom
-0	0x3A2	HIDDEN ITEM	Safari Zone Gate		Tinymushroom
-0	0x3A3	HIDDEN ITEM	Safari Zone Gate		Tinymushroom
+0	0x3A0	HIDDEN ITEM	Bellchime Trail		Tiny Mushroom
+0	0x3A1	HIDDEN ITEM	Bellchime Trail		Tiny Mushroom
+0	0x3A2	HIDDEN ITEM	Safari Zone Gate		Tiny Mushroom
+0	0x3A3	HIDDEN ITEM	Safari Zone Gate		Tiny Mushroom
 0	0x3A4	HIDDEN ITEM	Ecruteak City		Rare Candy
 0	0x3A5	HIDDEN ITEM	Ecruteak City		Ultra Ball
 0	0x3A6	HIDDEN ITEM	Fuchsia City		Nugget
 0	0x3A7	HIDDEN ITEM	Route 39		PP Up
 0	0x3A8	HIDDEN ITEM	Route 39		X Attack
-0	0x3A9	HIDDEN ITEM	Route 39		Full Heal
+0	0x3A9	HIDDEN ITEM	Olivine City		Full Heal
 0	0x3AA	HIDDEN ITEM	Route 3		Star Piece
 0	0x3AB	HIDDEN ITEM	Route 3		Hyper Potion
-0	0x3AC	HIDDEN ITEM	Mt. Mortar		Rare Candy
-0	0x3AD	HIDDEN ITEM	Mt. Mortar		Ultra Ball
-0	0x3AE	HIDDEN ITEM	Mt. Mortar		Nugget
-0	0x3AF	HIDDEN ITEM	Mt. Mortar		Hyper Potion
-0	0x3B0	HIDDEN ITEM	Mt. Mortar		Full Heal
+0	0x3AC	HIDDEN ITEM	Mt. Mortar	1F Inside	Rare Candy
+0	0x3AD	HIDDEN ITEM	Mt. Mortar	1F Inside	Ultra Ball
+0	0x3AE	HIDDEN ITEM	Mt. Mortar	1F Inside	Nugget
+0	0x3AF	HIDDEN ITEM	Mt. Mortar	2F Inside	Hyper Potion
+0	0x3B0	HIDDEN ITEM	Mt. Mortar	2F Inside	Full Heal
 0	0x3B1	HIDDEN ITEM	Route 3		Star Piece
 0	0x3B2	HIDDEN ITEM	Ruins of Alph		Great Ball
 0	0x3B3	HIDDEN ITEM	Ruins of Alph		Big Mushroom
-0	0x3B4	HIDDEN ITEM	Ruins of Alph		Tinymushroom
+0	0x3B4	HIDDEN ITEM	Ruins of Alph		Tiny Mushroom
 0	0x3B5	HIDDEN ITEM	Ruins of Alph		Rare Candy
 0	0x3B6	HIDDEN ITEM	Ruins of Alph		Nugget
-0	0x3B7	HIDDEN ITEM	Union Cave		Great Ball
-0	0x3B8	HIDDEN ITEM	Union Cave		Parlyz Heal
-0	0x3B9	HIDDEN ITEM	Union Cave		X Speed
-0	0x3BA	HIDDEN ITEM	Union Cave		Big Pearl
-0	0x3BB	HIDDEN ITEM	Union Cave		Revive
-0	0x3BC	HIDDEN ITEM	Union Cave		Ultra Ball
-0	0x3BD	HIDDEN ITEM	Union Cave		Calcium
-0	0x3BE	HIDDEN ITEM	Olivine City		Pearl
-0	0x3BF	HIDDEN ITEM	Pokeathlon Dome		PP Up
-0	0x3C0	HIDDEN ITEM	Pokeathlon Dome		Protein
+0	0x3B7	HIDDEN ITEM	Union Cave	1F	Great Ball
+0	0x3B8	HIDDEN ITEM	Union Cave	1F	Paralyze Heal
+0	0x3B9	HIDDEN ITEM	Union Cave	B1F	X Speed
+0	0x3BA	HIDDEN ITEM	Union Cave	1F	Big Pearl
+0	0x3BB	HIDDEN ITEM	Union Cave	B1F	Revive
+0	0x3BC	HIDDEN ITEM	Union Cave	B2F	Ultra Ball
+0	0x3BD	HIDDEN ITEM	Union Cave	B2F	Calcium
+0	0x3BE	HIDDEN ITEM	Olivine City	Harbor	Pearl
+0	0x3BF	HIDDEN ITEM	Pokéathlon Dome		PP Up
+0	0x3C0	HIDDEN ITEM	Pokéathlon Dome		Protein
 0	0x3C1	HIDDEN ITEM	Frontier Access		Rare Candy
 0	0x3C2	HIDDEN ITEM	Vermilion City		Pearl
 0	0x3C3	HIDDEN ITEM	Vermilion City		Pearl
 0	0x3C4	HIDDEN ITEM	Vermilion City		Big Pearl
-0	0x3C5	HIDDEN ITEM	Mt. Silver Cave		Rare Candy
+0	0x3C5	HIDDEN ITEM	Mt. Silver Cave	Upper Mountain Side	Rare Candy
 0	0x3C6	HIDDEN ITEM	Cinnabar Island		Iron
 0	0x3C7	HIDDEN ITEM	Cinnabar Island		Star Piece
 0	0x3C8	HIDDEN ITEM	Vermilion City		Heart Scale
-0	0x3C9	HIDDEN ITEM	Rock Tunnel		HP Up
+0	0x3C9	HIDDEN ITEM	Rock Tunnel	B1F	HP Up
 0	0x3CA	HIDDEN ITEM	Route 41		Stardust
 0	0x3CB	HIDDEN ITEM	Route 41		Stardust
 0	0x3CC	HIDDEN ITEM	Route 41		Stardust
@@ -246,210 +246,210 @@
 0	0x3D4	HIDDEN ITEM	Route 19		Big Pearl
 0	0x3D5	HIDDEN ITEM	Route 27		Revive
 0	0x3D6	HIDDEN ITEM	Route 27		Big Mushroom
-0	0x3D7	HIDDEN ITEM	Route 26		Nugget
-0	0x3D8	HIDDEN ITEM	Route 26		Tinymushroom
-0	0x3D9	HIDDEN ITEM	Victory Road		Max Revive
-0	0x3DA	HIDDEN ITEM	Victory Road		PP Up
-0	0x3DB	HIDDEN ITEM	Victory Road		Hyper Potion
-0	0x3DC	HIDDEN ITEM	Victory Road		Zinc
-0	0x3DD	HIDDEN ITEM	Victory Road		Ultra Ball
+0	0x3D7	HIDDEN ITEM	Route 27		Nugget
+0	0x3D8	HIDDEN ITEM	Route 26		Tiny Mushroom
+0	0x3D9	HIDDEN ITEM	Victory Road	2F	Max Revive
+0	0x3DA	HIDDEN ITEM	Victory Road	2F	PP Up
+0	0x3DB	HIDDEN ITEM	Victory Road	3F	Hyper Potion
+0	0x3DC	HIDDEN ITEM	Victory Road	3F	Zinc
+0	0x3DD	HIDDEN ITEM	Victory Road	2F	Ultra Ball
 0	0x3DE	HIDDEN ITEM	Indigo Plateau		Rare Candy
-0	0x3DF	HIDDEN ITEM	Whirl Islands		Super Repel
-0	0x3E0	HIDDEN ITEM	Whirl Islands		Pearl
-0	0x3E1	HIDDEN ITEM	Whirl Islands		Revive
+0	0x3DF	HIDDEN ITEM	Whirl Islands	B1F	Super Repel
+0	0x3E0	HIDDEN ITEM	Whirl Islands	B1F	Pearl
+0	0x3E1	HIDDEN ITEM	Whirl Islands	B1F	Revive
 0	0x3E2	HIDDEN ITEM	Route 4		Big Mushroom
 0	0x3E3	HIDDEN ITEM	Mt. Moon		Revive
-0	0x3E4	HIDDEN ITEM	Mt. Moon		Max Revive
+0	0x3E4	HIDDEN ITEM	Mt. Moon	Square	Max Revive
 0	0x3E5	HIDDEN ITEM	Route 10		Carbos
 0	0x3E6	HIDDEN ITEM	Pewter City		PP Up
-0	0x3E7	HIDDEN ITEM	Pewter City		Guard Spec
+0	0x3E7	HIDDEN ITEM	Pewter City		Guard Spec.
 0	0x3E8	HIDDEN ITEM	Viridian City		Nugget
-0	0x3E9	HIDDEN ITEM	Mt. Silver Cave		Revive
-0	0x3EA	HIDDEN ITEM	Mt. Silver Cave		Ultra Ball
-0	0x3EB	HIDDEN ITEM	Mt. Silver Cave		Hyper Potion
-0	0x3EC	HIDDEN ITEM	Mt. Silver Cave		Max Ether
-0	0x3ED	HIDDEN ITEM	Mt. Silver Cave		Hyper Potion
-0	0x3EE	HIDDEN ITEM	Mt. Silver Cave		Max Revive
+0	0x3E9	HIDDEN ITEM	Mt. Silver Cave	1F	Revive
+0	0x3EA	HIDDEN ITEM	Mt. Silver Cave	1F Northwestern Chamber	Ultra Ball
+0	0x3EB	HIDDEN ITEM	Mt. Silver Cave	1F Northwestern Chamber	Hyper Potion
+0	0x3EC	HIDDEN ITEM	Mt. Silver Cave	Upper Mountain Side	Max Ether
+0	0x3ED	HIDDEN ITEM	Mt. Silver Cave	Upper Mountain Side	Hyper Potion
+0	0x3EE	HIDDEN ITEM	Mt. Silver Cave	3F	Max Revive
 0	0x3EF	HIDDEN ITEM	Route 19		Revive
 0	0x3F0	HIDDEN ITEM	Route 19		Max Elixir
 0	0x3F1	HIDDEN ITEM	Cliff Edge Gate		Big Pearl
-0	0x3F2	HIDDEN ITEM	Seafoam Islands		Rare Candy
-0	0x3F3	HIDDEN ITEM	Ilex Forest		Tinymushroom
+0	0x3F2	HIDDEN ITEM	Seafoam Islands	B3F	Rare Candy
+0	0x3F3	HIDDEN ITEM	Ilex Forest		Tiny Mushroom
 0	0x3F4	HIDDEN ITEM	Ilex Forest		Repel
 0	0x3F5	HIDDEN ITEM	Ilex Forest		Big Mushroom
-0	0x3F6	HIDDEN ITEM	Ilex Forest		Tinymushroom
-0	0x3F7	HIDDEN ITEM	Ilex Forest		Tinymushroom
+0	0x3F6	HIDDEN ITEM	Ilex Forest		Tiny Mushroom
+0	0x3F7	HIDDEN ITEM	Ilex Forest		Tiny Mushroom
 0	0x3F8	HIDDEN ITEM	Viridian Forest		Big Mushroom
 0	0x3F9	HIDDEN ITEM	Viridian Forest		Big Mushroom
-0	0x3FA	HIDDEN ITEM	Viridian Forest		Tinymushroom
-0	0x3FB	HIDDEN ITEM	Viridian Forest		Tinymushroom
-0	0x3FC	HIDDEN ITEM	Viridian Forest		Tinymushroom
-0	0x3FD	HIDDEN ITEM	Cerulean Cave		Protein
-0	0x3FE	HIDDEN ITEM	Mt. Silver Cave		Iron
-0	0x3FF	HIDDEN ITEM	Seafoam Islands		Zinc
+0	0x3FA	HIDDEN ITEM	Viridian Forest		Tiny Mushroom
+0	0x3FB	HIDDEN ITEM	Viridian Forest		Tiny Mushroom
+0	0x3FC	HIDDEN ITEM	Viridian Forest		Tiny Mushroom
+0	0x3FD	HIDDEN ITEM	Cerulean Cave	2F	Protein
+0	0x3FE	HIDDEN ITEM	Mt. Silver Cave	2F	Iron
+0	0x3FF	HIDDEN ITEM	Seafoam Islands	B4F	Zinc
 0	0x400	HIDDEN ITEM	Diglett's Cave		Calcium
 0	0x401	HIDDEN ITEM	Cherrygrove City		Nugget
-0	0x402	HIDDEN ITEM	Cliff Cave		Ultra Ball
+0	0x402	HIDDEN ITEM	Cliff Cave	3F	Ultra Ball
 0	0x403	HIDDEN ITEM	Pewter City		Max Revive
-0	0x404	HIDDEN ITEM	Ice Path		Revive
-0	0x405	HIDDEN ITEM	Route 20		Deepseascale
-0	0x406	HIDDEN ITEM	Route 45/46		PP Max
+0	0x404	HIDDEN ITEM	Ice Path	B1F	Revive
+0	0x405	HIDDEN ITEM	Route 20		Deep Sea Scale
+0	0x406	HIDDEN ITEM	Route 45		PP Max
 0	0x420	FIELD ITEM	Route 30		Antidote
 0	0x421	FIELD ITEM	Route 31		Potion
-0	0x422	FIELD ITEM	Route 31		Poke Ball
+0	0x422	FIELD ITEM	Route 31		Poké Ball
 0	0x423	FIELD ITEM	Violet City		Rare Candy
 0	0x424	FIELD ITEM	Violet City		PP Up
-0	0x425	FIELD ITEM	Sprout Tower		Parlyz Heal
-0	0x426	FIELD ITEM	Sprout Tower		X Accuracy
-0	0x427	FIELD ITEM	Sprout Tower		Potion
-0	0x428	FIELD ITEM	Sprout Tower		Escape Rope
+0	0x425	FIELD ITEM	Sprout Tower	1F	Paralyze Heal
+0	0x426	FIELD ITEM	Sprout Tower	2F	X Accuracy
+0	0x427	FIELD ITEM	Sprout Tower	3F	Potion
+0	0x428	FIELD ITEM	Sprout Tower	3F	Escape Rope
 0	0x429	FIELD ITEM	Route 32		Repel
 0	0x42A	FIELD ITEM	Route 32		Great Ball
-0	0x42B	FIELD ITEM	Union Cave		X Attack
-0	0x42C	FIELD ITEM	Union Cave		Great Ball
-0	0x42D	FIELD ITEM	Union Cave		Potion
-0	0x42E	FIELD ITEM	Union Cave		Awakening
-0	0x42F	FIELD ITEM	Union Cave		X Defense
-0	0x430	FIELD ITEM	Union Cave		TM39
-0	0x431	FIELD ITEM	Burned Tower		HP Up
-0	0x432	FIELD ITEM	Burned Tower		TM12
-0	0x433	FIELD ITEM	Slowpoke Well		Super Potion
-0	0x434	FIELD ITEM	Slowpoke Well		TM18
+0	0x42B	FIELD ITEM	Union Cave	1F	X Attack
+0	0x42C	FIELD ITEM	Union Cave	1F	Great Ball
+0	0x42D	FIELD ITEM	Union Cave	1F	Potion
+0	0x42E	FIELD ITEM	Union Cave	1F	Awakening
+0	0x42F	FIELD ITEM	Union Cave	B1F	X Defense
+0	0x430	FIELD ITEM	Union Cave	B1F	TM39 (Rock Tomb)
+0	0x431	FIELD ITEM	Burned Tower	1F	HP Up
+0	0x432	FIELD ITEM	Burned Tower	B1F	TM12 (Taunt)
+0	0x433	FIELD ITEM	Slowpoke Well	B1F	Super Potion
+0	0x434	FIELD ITEM	Slowpoke Well	B2F	TM18 (Rain Dance)
 0	0x435	FIELD ITEM	Ilex Forest		Revive
-0	0x436	FIELD ITEM	Goldenrod City		TM82
-0	0x437	FIELD ITEM	Goldenrod City		Max Ether
-0	0x438	FIELD ITEM	Goldenrod Tunnel		Coin Case (Japanese Games Only)
+0	0x436	FIELD ITEM	Goldenrod Tunnel	Warehouse	TM82 (Sleep Talk)
+0	0x437	FIELD ITEM	Goldenrod Tunnel	Warehouse	Max Ether
+0	0x438	FIELD ITEM	Goldenrod Tunnel		Coin Case (Jap. only)
 0	0x439	FIELD ITEM	Route 29		Potion
-0	0x43A	FIELD ITEM	Union Cave		Elixir
-0	0x43B	FIELD ITEM	Union Cave		Hyper Potion
+0	0x43A	FIELD ITEM	Union Cave	B2F	Elixir
+0	0x43B	FIELD ITEM	Union Cave	B2F	Hyper Potion
 0	0x43C	FIELD ITEM	Ilex Forest		X Attack
 0	0x43D	FIELD ITEM	Ilex Forest		Antidote
 0	0x43E	FIELD ITEM	Ilex Forest		Ether
 0	0x43F	FIELD ITEM	Route 34		Nugget
 0	0x440	FIELD ITEM	Route 30		Potion
-0	0x441	FIELD ITEM	Radio Tower		Ultra Ball
-0	0x442	FIELD ITEM	Goldenrod City		Burn Heal
-0	0x443	FIELD ITEM	Goldenrod City		Amulet Coin
-0	0x444	FIELD ITEM	Goldenrod City		Ether
-0	0x445	FIELD ITEM	Goldenrod City		Ultra Ball
-0	0x446	FIELD ITEM	Goldenrod City		Ultra Ball
-0	0x447	FIELD ITEM	Goldenrod City		Full Heal
-0	0x448	FIELD ITEM	Goldenrod City		Smoke Ball
-0	0x449	FIELD ITEM	Route 35		TM66
-0	0x44A	FIELD ITEM	Lighthouse		Ether
-0	0x44B	FIELD ITEM	Lighthouse		TM87
-0	0x44C	FIELD ITEM	Lighthouse		Super Repel
-0	0x44D	FIELD ITEM	Lighthouse		Super Potion
-0	0x44E	FIELD ITEM	Team Rocket HQ		Hyper Potion
-0	0x44F	FIELD ITEM	Team Rocket HQ		Guard Spec
-0	0x450	FIELD ITEM	Team Rocket HQ		Nugget
-0	0x451	FIELD ITEM	Team Rocket HQ		TM46
-0	0x452	FIELD ITEM	Team Rocket HQ		TM49
-0	0x453	FIELD ITEM	Team Rocket HQ		Full Heal
-0	0x454	FIELD ITEM	Team Rocket HQ		Protein
-0	0x455	FIELD ITEM	Team Rocket HQ		X Special
-0	0x456	FIELD ITEM	Ice Path		TM72
-0	0x457	FIELD ITEM	Ice Path		HM07
-0	0x458	FIELD ITEM	Dragon's Den		Dragon Fang
-0	0x459	FIELD ITEM	Dark Cave		TM54
+0	0x441	FIELD ITEM	Goldenrod Radio Tower	4F	Ultra Ball
+0	0x442	FIELD ITEM	Goldenrod Department Store	B1F	Burn Heal
+0	0x443	FIELD ITEM	Goldenrod Department Store	B1F	Amulet Coin
+0	0x444	FIELD ITEM	Goldenrod Department Store	B1F	Ether
+0	0x445	FIELD ITEM	Goldenrod Department Store	B1F	Ultra Ball
+0	0x446	FIELD ITEM	Goldenrod Tunnel	Warehouse	Ultra Ball
+0	0x447	FIELD ITEM	Goldenrod Tunnel	B2F	Full Heal
+0	0x448	FIELD ITEM	Goldenrod Tunnel	B2F	Smoke Ball
+0	0x449	FIELD ITEM	Route 35		TM66 (Payback)
+0	0x44A	FIELD ITEM	Olivine Lighthouse	3F	Ether
+0	0x44B	FIELD ITEM	Olivine Lighthouse	4F	TM87 (Swagger)
+0	0x44C	FIELD ITEM	Olivine Lighthouse	5F	Super Repel
+0	0x44D	FIELD ITEM	Olivine Lighthouse	6F	Super Potion
+0	0x44E	FIELD ITEM	Team Rocket HQ	B1F	Hyper Potion
+0	0x44F	FIELD ITEM	Team Rocket HQ	B1F	Guard Spec.
+0	0x450	FIELD ITEM	Team Rocket HQ	B1F	Nugget
+0	0x451	FIELD ITEM	Team Rocket HQ	B2F	TM46 (Thief)
+0	0x452	FIELD ITEM	Team Rocket HQ	B3F	TM49 (Snatch)
+0	0x453	FIELD ITEM	Team Rocket HQ	B3F	Full Heal
+0	0x454	FIELD ITEM	Team Rocket HQ	B3F	Protein
+0	0x455	FIELD ITEM	Team Rocket HQ	B3F	X Sp. Atk
+0	0x456	FIELD ITEM	Ice Path	B2F	TM72 (Avalanche)
+0	0x457	FIELD ITEM	Ice Path	1F	HM07 (Waterfall)
+0	0x458	FIELD ITEM	Dragon's Den	B1F	Dragon Fang
+0	0x459	FIELD ITEM	Dark Cave		TM54 (False Swipe)
 0	0x45A	FIELD ITEM	Dark Cave		Revive
 0	0x45B	FIELD ITEM	Route 26		Max Elixir
 0	0x45C	FIELD ITEM	Tohjo Falls		Moon Stone
 0	0x45D	FIELD ITEM	Route 27		Rare Candy
-0	0x45E	FIELD ITEM	Route 27		TM02
-0	0x45F	FIELD ITEM	Victory Road		Max Revive
-0	0x460	FIELD ITEM	Victory Road		Full Heal
-0	0x461	FIELD ITEM	Victory Road		Potion
-0	0x462	FIELD ITEM	Victory Road		TM26
-0	0x463	FIELD ITEM	Victory Road		HP Up
-0	0x464	FIELD ITEM	Victory Road		Full Restore
-0	0x465	FIELD ITEM	Victory Road		Ultra Ball
-0	0x466	FIELD ITEM	Victory Road		TM79
-0	0x467	FIELD ITEM	Victory Road		Rare Candy
-0	0x468	FIELD ITEM	Ruins of Alph		Heal Powder
-0	0x469	FIELD ITEM	Ruins of Alph		Energypowder
-0	0x46A	FIELD ITEM	Ruins of Alph		Oran Berry
-0	0x46B	FIELD ITEM	Ruins of Alph		Pecha Berry
-0	0x46C	FIELD ITEM	Ruins of Alph		Heal Powder
-0	0x46D	FIELD ITEM	Ruins of Alph		Energy Root
-0	0x46E	FIELD ITEM	Ruins of Alph		Sitrus Berry
-0	0x46F	FIELD ITEM	Ruins of Alph		Moon Stone
-0	0x470	FIELD ITEM	Ruins of Alph		Stardust
-0	0x471	FIELD ITEM	Ruins of Alph		Star Piece
-0	0x472	FIELD ITEM	Ruins of Alph		Leppa Berry
-0	0x473	FIELD ITEM	Ruins of Alph		Mystic Water
-0	0x474	FIELD ITEM	Ruins of Alph		Revival Herb
-0	0x475	FIELD ITEM	Ruins of Alph		Charcoal
-0	0x476	FIELD ITEM	Ruins of Alph		Life Orb
-0	0x477	FIELD ITEM	Ruins of Alph		Leppa Berry
+0	0x45E	FIELD ITEM	Route 27		TM02 (Dragon Claw)
+0	0x45F	FIELD ITEM	Victory Road	1F	Max Revive
+0	0x460	FIELD ITEM	Victory Road	1F	Full Heal
+0	0x461	FIELD ITEM	Victory Road	1F	Potion
+0	0x462	FIELD ITEM	Victory Road	2F	TM26 (Earthquake)
+0	0x463	FIELD ITEM	Victory Road	2F	HP Up
+0	0x464	FIELD ITEM	Victory Road	2F	Full Restore
+0	0x465	FIELD ITEM	Victory Road	3F	Ultra Ball
+0	0x466	FIELD ITEM	Victory Road	3F	TM79 (Dark Pulse)
+0	0x467	FIELD ITEM	Victory Road	3F	Rare Candy
+0	0x468	FIELD ITEM	Ruins of Alph	Kabuto Chamber	Heal Powder
+0	0x469	FIELD ITEM	Ruins of Alph	Kabuto Chamber	Energy Powder
+0	0x46A	FIELD ITEM	Ruins of Alph	Kabuto Chamber	Oran Berry
+0	0x46B	FIELD ITEM	Ruins of Alph	Kabuto Chamber	Pecha Berry
+0	0x46C	FIELD ITEM	Ruins of Alph	Aerodactyl Chamber	Heal Powder
+0	0x46D	FIELD ITEM	Ruins of Alph	Aerodactyl Chamber	Energy Root
+0	0x46E	FIELD ITEM	Ruins of Alph	Aerodactyl Chamber	Sitrus Berry
+0	0x46F	FIELD ITEM	Ruins of Alph	Aerodactyl Chamber	Moon Stone
+0	0x470	FIELD ITEM	Ruins of Alph	Ho-Oh Chamber	Stardust
+0	0x471	FIELD ITEM	Ruins of Alph	Ho-Oh Chamber	Star Piece
+0	0x472	FIELD ITEM	Ruins of Alph	Ho-Oh Chamber	Leppa Berry
+0	0x473	FIELD ITEM	Ruins of Alph	Ho-Oh Chamber	Mystic Water
+0	0x474	FIELD ITEM	Ruins of Alph	Omanyte Chamber	Revival Herb
+0	0x475	FIELD ITEM	Ruins of Alph	Omanyte Chamber	Charcoal
+0	0x476	FIELD ITEM	Ruins of Alph	Omanyte Chamber	Life Orb
+0	0x477	FIELD ITEM	Ruins of Alph	Omanyte Chamber	Leppa Berry
 0	0x478	FIELD ITEM	National Park		Soothe Bell
-0	0x479	FIELD ITEM	National Park		TM28
+0	0x479	FIELD ITEM	National Park		TM28 (Dig)
 0	0x47A	FIELD ITEM	Ruins of Alph		Potion
 0	0x47B	FIELD ITEM	Ruins of Alph		Hyper Potion
-0	0x47C	FIELD ITEM	Bell Tower		Full Heal
-0	0x47D	FIELD ITEM	Bell Tower		Escape Rope
-0	0x47E	FIELD ITEM	Bell Tower		Ultra Ball
-0	0x47F	FIELD ITEM	Bell Tower		PP Up
-0	0x480	FIELD ITEM	Bell Tower		Rare Candy
-0	0x481	FIELD ITEM	Bell Tower		Max Potion
-0	0x482	FIELD ITEM	Bell Tower		Full Heal
-0	0x483	FIELD ITEM	Bell Tower		Max Revive
-0	0x484	FIELD ITEM	Bell Tower		Full Restore
-0	0x485	FIELD ITEM	Bell Tower		Max Elixir
-0	0x486	FIELD ITEM	Bell Tower		Nugget
-0	0x487	FIELD ITEM	Bell Tower		HP Up
-0	0x488	FIELD ITEM	Lighthouse		Rare Candy
-0	0x489	FIELD ITEM	Whirl Islands		Ultra Ball
-0	0x48A	FIELD ITEM	Whirl Islands		Ultra Ball 2
-0	0x48B	FIELD ITEM	Whirl Islands		Escape Rope
-0	0x48C	FIELD ITEM	Whirl Islands		Carbos
-0	0x48D	FIELD ITEM	Whirl Islands		Full Restore
-0	0x48E	FIELD ITEM	Whirl Islands		Nugget
-0	0x48F	FIELD ITEM	Whirl Islands		Calcium
-0	0x490	FIELD ITEM	Whirl Islands		Max Revive
-0	0x491	FIELD ITEM	Whirl Islands		Full Restore
-0	0x492	FIELD ITEM	Whirl Islands		Max Elixir
-0	0x493	FIELD ITEM	Whirl Islands		Rare Candy
+0	0x47C	FIELD ITEM	Bell Tower	3F	Full Heal
+0	0x47D	FIELD ITEM	Bell Tower	4F	Escape Rope
+0	0x47E	FIELD ITEM	Bell Tower	4F	Ultra Ball
+0	0x47F	FIELD ITEM	Bell Tower	4F	PP Up
+0	0x480	FIELD ITEM	Bell Tower	5F	Rare Candy
+0	0x481	FIELD ITEM	Bell Tower	6F	Max Potion
+0	0x482	FIELD ITEM	Bell Tower	6F	Full Heal
+0	0x483	FIELD ITEM	Bell Tower	7F	Max Revive
+0	0x484	FIELD ITEM	Bell Tower	8F	Full Restore
+0	0x485	FIELD ITEM	Bell Tower	8F	Max Elixir
+0	0x486	FIELD ITEM	Bell Tower	8F	Nugget
+0	0x487	FIELD ITEM	Bell Tower	9F	HP Up
+0	0x488	FIELD ITEM	Olivine Lighthouse	Outside ledge	Rare Candy
+0	0x489	FIELD ITEM	Whirl Islands	1F	Ultra Ball
+0	0x48A	FIELD ITEM	Whirl Islands	1F	Ultra Ball
+0	0x48B	FIELD ITEM	Whirl Islands	B1F	Escape Rope
+0	0x48C	FIELD ITEM	Whirl Islands	B1F	Carbos
+0	0x48D	FIELD ITEM	Whirl Islands	B1F	Full Restore
+0	0x48E	FIELD ITEM	Whirl Islands	B1F	Nugget
+0	0x48F	FIELD ITEM	Whirl Islands	B1F	Calcium
+0	0x490	FIELD ITEM	Whirl Islands	B2F	Max Revive
+0	0x491	FIELD ITEM	Whirl Islands	B2F	Full Restore
+0	0x492	FIELD ITEM	Whirl Islands	B2F	Max Elixir
+0	0x493	FIELD ITEM	Whirl Islands	B2F Ledge	Rare Candy
 0	0x494	FIELD ITEM	Route 42		Super Potion
-0	0x495	FIELD ITEM	Mt. Mortar		Ether
-0	0x496	FIELD ITEM	Mt. Mortar		Revive
-0	0x497	FIELD ITEM	Mt. Mortar		Escape Rope
-0	0x498	FIELD ITEM	Mt. Mortar		Nugget
-0	0x499	FIELD ITEM	Mt. Mortar		Iron Ball
-0	0x49A	FIELD ITEM	Mt. Mortar		Max Potion
-0	0x49B	FIELD ITEM	Mt. Mortar		Iron
-0	0x49C	FIELD ITEM	Mt. Mortar		Max Revive
-0	0x49D	FIELD ITEM	Mt. Mortar		Ultra Ball
-0	0x49E	FIELD ITEM	Mt. Mortar		Rare Candy
-0	0x49F	FIELD ITEM	Mt. Mortar		Max Potion
-0	0x4A0	FIELD ITEM	Mt. Mortar		TM40
-0	0x4A1	FIELD ITEM	Mt. Mortar		Elixir
-0	0x4A2	FIELD ITEM	Mt. Mortar		Dragon Scale
-0	0x4A3	FIELD ITEM	Mt. Mortar		Escape Rope
-0	0x4A4	FIELD ITEM	Mt. Mortar		Carbos
-0	0x4A5	FIELD ITEM	Mt. Mortar		PP Up
-0	0x4A6	FIELD ITEM	Mt. Mortar		Full Restore
-0	0x4A7	FIELD ITEM	Mt. Mortar		Max Ether
-0	0x4A8	FIELD ITEM	Mt. Mortar		Hyper Potion
+0	0x495	FIELD ITEM	Mt. Mortar	1F Outside	Ether
+0	0x496	FIELD ITEM	Mt. Mortar	1F Outside	Revive
+0	0x497	FIELD ITEM	Mt. Mortar	1F Inside	Escape Rope
+0	0x498	FIELD ITEM	Mt. Mortar	1F Inside	Nugget
+0	0x499	FIELD ITEM	Mt. Mortar	1F Inside	Iron Ball
+0	0x49A	FIELD ITEM	Mt. Mortar	1F Inside	Max Potion
+0	0x49B	FIELD ITEM	Mt. Mortar	1F Inside	Iron
+0	0x49C	FIELD ITEM	Mt. Mortar	1F Inside	Max Revive
+0	0x49D	FIELD ITEM	Mt. Mortar	1F Inside	Ultra Ball
+0	0x49E	FIELD ITEM	Mt. Mortar	2F Inside	Rare Candy
+0	0x49F	FIELD ITEM	Mt. Mortar	2F Inside	Max Potion
+0	0x4A0	FIELD ITEM	Mt. Mortar	2F Inside	TM40 (Aerial Ace)
+0	0x4A1	FIELD ITEM	Mt. Mortar	2F Inside	Elixir
+0	0x4A2	FIELD ITEM	Mt. Mortar	2F Inside	Dragon Scale
+0	0x4A3	FIELD ITEM	Mt. Mortar	2F Inside	Escape Rope
+0	0x4A4	FIELD ITEM	Mt. Mortar	B1F	Carbos
+0	0x4A5	FIELD ITEM	Mt. Mortar	B1F	PP Up
+0	0x4A6	FIELD ITEM	Mt. Mortar	B1F	Full Restore
+0	0x4A7	FIELD ITEM	Mt. Mortar	B1F	Max Ether
+0	0x4A8	FIELD ITEM	Mt. Mortar	B1F	Hyper Potion
 0	0x4A9	FIELD ITEM	Route 42		Dubious Disc
-0	0x4AA	FIELD ITEM	Mt. Mortar		Full Incense
-0	0x4AB	FIELD ITEM	Mt. Mortar		Protector
-0	0x4AC	FIELD ITEM	Team Rocket HQ		Ultra Ball
+0	0x4AA	FIELD ITEM	Mt. Mortar	1F Inside	Full Incense
+0	0x4AB	FIELD ITEM	Mt. Mortar	1F Inside	Protector
+0	0x4AC	FIELD ITEM	Team Rocket HQ	B3F	Ultra Ball
 0	0x4AD	FIELD ITEM	Route 7		Mental Herb
 0	0x4AE	FIELD ITEM	Route 43		Max Ether
-0	0x4AF	FIELD ITEM	Route 19		TM55
-0	0x4B0	FIELD ITEM	Goldenrod City		TM78
+0	0x4AF	FIELD ITEM	Route 19		TM55 (Brine)
+0	0x4B0	FIELD ITEM	Goldenrod Game Corner		TM78 (Captivate) (Jap. only)
 0	0x4B1	FIELD ITEM	Route 44		Max Repel
 0	0x4B2	FIELD ITEM	Route 44		Max Revive
 0	0x4B3	FIELD ITEM	Route 44		Ultra Ball
-0	0x4B4	FIELD ITEM	Ice Path		Protein
-0	0x4B5	FIELD ITEM	Ice Path		PP Up
-0	0x4B6	FIELD ITEM	Ice Path		Full Heal
-0	0x4B7	FIELD ITEM	Ice Path		Max Potion
-0	0x4B8	FIELD ITEM	Ice Path		Nevermeltice
-0	0x4B9	FIELD ITEM	Ice Path		Iron
-0	0x4BA	FIELD ITEM	Dragon's Den		Calcium
-0	0x4BB	FIELD ITEM	Dragon's Den		Max Elixir
+0	0x4B4	FIELD ITEM	Ice Path	1F	Protein
+0	0x4B5	FIELD ITEM	Ice Path	1F	PP Up
+0	0x4B6	FIELD ITEM	Ice Path	B2F	Full Heal
+0	0x4B7	FIELD ITEM	Ice Path	B2F	Max Potion
+0	0x4B8	FIELD ITEM	Ice Path	B3F	Never-Melt Ice
+0	0x4B9	FIELD ITEM	Ice Path	B1F	Iron
+0	0x4BA	FIELD ITEM	Dragon's Den	B1F	Calcium
+0	0x4BB	FIELD ITEM	Dragon's Den	B1F	Max Elixir
 0	0x4BC	FIELD ITEM	Route 45		Elixir
 0	0x4BD	FIELD ITEM	Route 45		Max Potion
 0	0x4BE	FIELD ITEM	Route 45		Full Heal
@@ -460,11 +460,11 @@
 0	0x4C3	FIELD ITEM	Dark Cave		Hyper Potion
 0	0x4C4	FIELD ITEM	Dark Cave		Full Heal
 0	0x4C5	FIELD ITEM	Dark Cave		Dire Hit
-0	0x4C6	FIELD ITEM	Rock Tunnel		Elixir
-0	0x4C7	FIELD ITEM	Rock Tunnel		TM56
-0	0x4C8	FIELD ITEM	Rock Tunnel		Iron
-0	0x4C9	FIELD ITEM	Rock Tunnel		PP Up
-0	0x4CA	FIELD ITEM	Rock Tunnel		Revive
+0	0x4C6	FIELD ITEM	Rock Tunnel	1F	Elixir
+0	0x4C7	FIELD ITEM	Rock Tunnel	1F	TM56 (Fling)
+0	0x4C8	FIELD ITEM	Rock Tunnel	B1F	Iron
+0	0x4C9	FIELD ITEM	Rock Tunnel	B1F	PP Up
+0	0x4CA	FIELD ITEM	Rock Tunnel	B1F	Revive
 0	0x4CB	FIELD ITEM	Route 25		Protein
 0	0x4CC	FIELD ITEM	Route 12		Calcium
 0	0x4CD	FIELD ITEM	Route 12		Yellow Flute
@@ -476,79 +476,79 @@
 0	0x4D3	FIELD ITEM	Viridian Forest		Blue Flute
 0	0x4D4	FIELD ITEM	Cinnabar Island		Magmarizer
 0	0x4D5	FIELD ITEM	Viridian Forest		Leaf Stone
-0	0x4D6	FIELD ITEM	Viridian Forest		TM77
+0	0x4D6	FIELD ITEM	Viridian Forest		TM77 (Psych Up)
 0	0x4D7	FIELD ITEM	Route 32		Shell Bell
 0	0x4D8	FIELD ITEM	Route 4		HP Up
-0	0x4D9	FIELD ITEM	Mt. Silver Cave		Full Restore
-0	0x4DA	FIELD ITEM	Mt. Silver Cave		Pure Incense
-0	0x4DB	FIELD ITEM	Mt. Silver Cave		Dawn Stone
-0	0x4DC	FIELD ITEM	Mt. Silver Cave		Escape Rope
-0	0x4DD	FIELD ITEM	Mt. Silver Cave		TM76
-0	0x4DE	FIELD ITEM	Mt. Silver Cave		Expert Belt
-0	0x4DF	FIELD ITEM	Mt. Silver Cave		Max Elixir
-0	0x4E0	FIELD ITEM	Mt. Silver Cave		Calcium
-0	0x4E1	FIELD ITEM	Mt. Silver Cave		Protein
-0	0x4E2	FIELD ITEM	Mt. Silver Cave		Max Revive
-0	0x4E3	FIELD ITEM	Seafoam Islands		Ice Heal
-0	0x4E4	FIELD ITEM	Seafoam Islands		Water Stone
-0	0x4E5	FIELD ITEM	Seafoam Islands		Revive
-0	0x4E6	FIELD ITEM	Seafoam Islands		Big Pearl
-0	0x4E7	FIELD ITEM	Seafoam Islands		Ultra Ball
-0	0x4E8	FIELD ITEM	Seafoam Islands		Grip Claw
-0	0x4E9	FIELD ITEM	Cerulean Cave		Max Elixir
-0	0x4EA	FIELD ITEM	Seafoam Islands		TM13
-0	0x4EB	FIELD ITEM	Cerulean Cave		Full Restore
-0	0x4EC	FIELD ITEM	Cerulean Cave		Nugget
-0	0x4ED	FIELD ITEM	Cerulean Cave		Sea Incense
-0	0x4EE	FIELD ITEM	Cerulean Cave		PP Up
-0	0x4EF	FIELD ITEM	Cerulean Cave		Ultra Ball
-0	0x4F0	FIELD ITEM	Cerulean Cave		TM24
-0	0x4F1	FIELD ITEM	Cerulean Cave		Odd Incense
-0	0x4F2	FIELD ITEM	Route 40		TM88
+0	0x4D9	FIELD ITEM	Mt. Silver Cave	1F	Full Restore
+0	0x4DA	FIELD ITEM	Mt. Silver Cave	Upper Mountain Side	Pure Incense
+0	0x4DB	FIELD ITEM	Mt. Silver Cave	Upper Mountain Side	Dawn Stone
+0	0x4DC	FIELD ITEM	Mt. Silver Cave	Lower Mountain Side	Escape Rope
+0	0x4DD	FIELD ITEM	Mt. Silver Cave	Lower Mountain Side	TM76 (Stealth Rock)
+0	0x4DE	FIELD ITEM	Mt. Silver Cave	1F Chamber	Expert Belt
+0	0x4DF	FIELD ITEM	Mt. Silver Cave	2F	Max Elixir
+0	0x4E0	FIELD ITEM	Mt. Silver Cave	2F	Calcium
+0	0x4E1	FIELD ITEM	Mt. Silver Cave	2F	Protein
+0	0x4E2	FIELD ITEM	Mt. Silver Cave	2F	Max Revive
+0	0x4E3	FIELD ITEM	Seafoam Islands	B1F	Ice Heal
+0	0x4E4	FIELD ITEM	Seafoam Islands	B2F	Water Stone
+0	0x4E5	FIELD ITEM	Seafoam Islands	B2F	Revive
+0	0x4E6	FIELD ITEM	Seafoam Islands	B3F	Big Pearl
+0	0x4E7	FIELD ITEM	Seafoam Islands	B4F	Ultra Ball
+0	0x4E8	FIELD ITEM	Seafoam Islands	B1F	Grip Claw
+0	0x4E9	FIELD ITEM	Cerulean Cave	1F	Max Elixir
+0	0x4EA	FIELD ITEM	Seafoam Islands	B4F	TM13 (Ice Beam)
+0	0x4EB	FIELD ITEM	Cerulean Cave	1F	Full Restore
+0	0x4EC	FIELD ITEM	Cerulean Cave	1F	Nugget
+0	0x4ED	FIELD ITEM	Cerulean Cave	1F	Sea Incense
+0	0x4EE	FIELD ITEM	Cerulean Cave	2F	PP Up
+0	0x4EF	FIELD ITEM	Cerulean Cave	2F	Ultra Ball
+0	0x4F0	FIELD ITEM	Cerulean Cave	2F	TM24 (Thunderbolt)
+0	0x4F1	FIELD ITEM	Cerulean Cave	2F	Odd Incense
+0	0x4F2	FIELD ITEM	Route 40		TM88 (Pluck)
 0	0x4F3	FIELD ITEM	Route 47		Revive
-0	0x4F4	FIELD ITEM	Cerulean Cave		Max Revive
-0	0x4F5	FIELD ITEM	Cerulean Cave		Ultra Ball
-0	0x4F6	FIELD ITEM	Cerulean Cave		Dusk Stone
-0	0x4F7	FIELD ITEM	Cerulean Cave		Electirizer
-0	0x4F8	FIELD ITEM	Cerulean Cave		Black Sludge
-0	0x4F9	FIELD ITEM	Route 32		TM09
-0	0x4FA	FIELD ITEM	Route 34		TM63
-0	0x4FB	FIELD ITEM	Route 35		Parlyz Heal
+0	0x4F4	FIELD ITEM	Cerulean Cave	B1F	Max Revive
+0	0x4F5	FIELD ITEM	Cerulean Cave	B1F	Ultra Ball
+0	0x4F6	FIELD ITEM	Cerulean Cave	B1F	Dusk Stone
+0	0x4F7	FIELD ITEM	Cerulean Cave	B1F	Electirizer
+0	0x4F8	FIELD ITEM	Cerulean Cave	B1F	Black Sludge
+0	0x4F9	FIELD ITEM	Route 32		TM09 (Bullet Seed)
+0	0x4FA	FIELD ITEM	Route 34		TM63 (Embargo)
+0	0x4FB	FIELD ITEM	Route 35		Paralyze Heal
 0	0x4FC	FIELD ITEM	Route 36		Hyper Potion
 0	0x4FD	FIELD ITEM	Route 38		Max Potion
 0	0x4FE	FIELD ITEM	Route 38		Lax Incense
-0	0x4FF	FIELD ITEM	Route 39		TM60
-0	0x500	FIELD ITEM	Route 28		TM35
+0	0x4FF	FIELD ITEM	Route 39		TM60 (Drain Punch)
+0	0x500	FIELD ITEM	Route 28		TM35 (Flamethrower)
 0	0x501	FIELD ITEM	Route 47		Lagging Tail
 0	0x502	FIELD ITEM	Route 47		Wave Incense
 0	0x503	FIELD ITEM	Route 47		White Flute
 0	0x504	FIELD ITEM	Route 48		Nugget
-0	0x505	FIELD ITEM	Route 42		TM65
+0	0x505	FIELD ITEM	Route 42		TM65 (Shadow Claw)
 0	0x506	FIELD ITEM	National Park		Shiny Stone
-0	0x507	FIELD ITEM	Route 8		TM41
-0	0x508	FIELD ITEM	Lake of Rage		TM43
+0	0x507	FIELD ITEM	Route 8		TM41 (Torment)
+0	0x508	FIELD ITEM	Lake of Rage		TM43 (Secret Power)
 0	0x509	FIELD ITEM	Lake of Rage		Choice Specs
 0	0x50A	FIELD ITEM	Lake of Rage		Red Flute
-0	0x50B	FIELD ITEM	Burned Tower		Antidote
+0	0x50B	FIELD ITEM	Burned Tower	1F	Antidote
 0	0x50C	FIELD ITEM	Dark Cave		Black Flute
 0	0x50D	FIELD ITEM	Route 27		Destiny Knot
 0	0x50E	FIELD ITEM	Vermilion City		Luck Incense
 0	0x50F	FIELD ITEM	Vermilion City		Sticky Barb
-0	0x510	FIELD ITEM	Rock Tunnel		Oval Stone
+0	0x510	FIELD ITEM	Rock Tunnel	B1F	Oval Stone
 0	0x511	FIELD ITEM	Diglett's Cave		PP Max
 0	0x512	FIELD ITEM	Diglett's Cave		Rock Incense
-0	0x513	FIELD ITEM	Route 6		TM62
-0	0x514	FIELD ITEM	Route 10		TM69
-0	0x515	FIELD ITEM	Route 9		TM91
+0	0x513	FIELD ITEM	Route 6		TM62 (Silver Wind)
+0	0x514	FIELD ITEM	Route 10		TM69 (Rock Polish)
+0	0x515	FIELD ITEM	Route 9		TM91 (Flash Cannon)
 0	0x516	FIELD ITEM	Route 9		Full Restore
 0	0x517	FIELD ITEM	Route 9		Light Clay
 0	0x518	FIELD ITEM	Route 9		Max Potion
-0	0x519	FIELD ITEM	Celadon City		TM67
+0	0x519	FIELD ITEM	Celadon City		TM67 (Recycle)
 0	0x51A	FIELD ITEM	Route 15		Rose Incense
-0	0x51B	FIELD ITEM	Route 11		TM86
+0	0x51B	FIELD ITEM	Route 11		TM86 (Grass Knot)
 0	0x51C	FIELD ITEM	Pewter City		Wise Glasses
 0	0x51D	FIELD ITEM	Route 3		Big Root
-0	0x51E	FIELD ITEM	Olivine City		TM57
+0	0x51E	FIELD ITEM	Olivine City		TM57 (Charge Beam)
 0	0x551	TRAINER BATTLE			Rival Silver
 0	0x552	TRAINER BATTLE			Rival Silver 2
 0	0x553	TRAINER BATTLE			Rival Silver 3
@@ -1286,308 +1286,6 @@
 0	0x82F	TRAINER BATTLE			Partner Rival 1
 0	0x830	TRAINER BATTLE			Partner Rival 2
 0	0x831	TRAINER BATTLE			Partner Rival 3
-0	0x832	TRAINER BATTLE			TR_FLAG_738
-0	0x833	TRAINER BATTLE			TR_FLAG_739
-0	0x834	TRAINER BATTLE			TR_FLAG_740
-0	0x835	TRAINER BATTLE			TR_FLAG_741
-0	0x836	TRAINER BATTLE			TR_FLAG_742
-0	0x837	TRAINER BATTLE			TR_FLAG_743
-0	0x838	TRAINER BATTLE			TR_FLAG_744
-0	0x839	TRAINER BATTLE			TR_FLAG_745
-0	0x83A	TRAINER BATTLE			TR_FLAG_746
-0	0x83B	TRAINER BATTLE			TR_FLAG_747
-0	0x83C	TRAINER BATTLE			TR_FLAG_748
-0	0x83D	TRAINER BATTLE			TR_FLAG_749
-0	0x83E	TRAINER BATTLE			TR_FLAG_750
-0	0x83F	TRAINER BATTLE			TR_FLAG_751
-0	0x840	TRAINER BATTLE			TR_FLAG_752
-0	0x841	TRAINER BATTLE			TR_FLAG_753
-0	0x842	TRAINER BATTLE			TR_FLAG_754
-0	0x843	TRAINER BATTLE			TR_FLAG_755
-0	0x844	TRAINER BATTLE			TR_FLAG_756
-0	0x845	TRAINER BATTLE			TR_FLAG_757
-0	0x846	TRAINER BATTLE			TR_FLAG_758
-0	0x847	TRAINER BATTLE			TR_FLAG_759
-0	0x848	TRAINER BATTLE			TR_FLAG_760
-0	0x849	TRAINER BATTLE			TR_FLAG_761
-0	0x84A	TRAINER BATTLE			TR_FLAG_762
-0	0x84B	TRAINER BATTLE			TR_FLAG_763
-0	0x84C	TRAINER BATTLE			TR_FLAG_764
-0	0x84D	TRAINER BATTLE			TR_FLAG_765
-0	0x84E	TRAINER BATTLE			TR_FLAG_766
-0	0x84F	TRAINER BATTLE			TR_FLAG_767
-0	0x850	TRAINER BATTLE			TR_FLAG_768
-0	0x851	TRAINER BATTLE			TR_FLAG_769
-0	0x852	TRAINER BATTLE			TR_FLAG_770
-0	0x853	TRAINER BATTLE			TR_FLAG_771
-0	0x854	TRAINER BATTLE			TR_FLAG_772
-0	0x855	TRAINER BATTLE			TR_FLAG_773
-0	0x856	TRAINER BATTLE			TR_FLAG_774
-0	0x857	TRAINER BATTLE			TR_FLAG_775
-0	0x858	TRAINER BATTLE			TR_FLAG_776
-0	0x859	TRAINER BATTLE			TR_FLAG_777
-0	0x85A	TRAINER BATTLE			TR_FLAG_778
-0	0x85B	TRAINER BATTLE			TR_FLAG_779
-0	0x85C	TRAINER BATTLE			TR_FLAG_780
-0	0x85D	TRAINER BATTLE			TR_FLAG_781
-0	0x85E	TRAINER BATTLE			TR_FLAG_782
-0	0x85F	TRAINER BATTLE			TR_FLAG_783
-0	0x860	TRAINER BATTLE			TR_FLAG_784
-0	0x861	TRAINER BATTLE			TR_FLAG_785
-0	0x862	TRAINER BATTLE			TR_FLAG_786
-0	0x863	TRAINER BATTLE			TR_FLAG_787
-0	0x864	TRAINER BATTLE			TR_FLAG_788
-0	0x865	TRAINER BATTLE			TR_FLAG_789
-0	0x866	TRAINER BATTLE			TR_FLAG_790
-0	0x867	TRAINER BATTLE			TR_FLAG_791
-0	0x868	TRAINER BATTLE			TR_FLAG_792
-0	0x869	TRAINER BATTLE			TR_FLAG_793
-0	0x86A	TRAINER BATTLE			TR_FLAG_794
-0	0x86B	TRAINER BATTLE			TR_FLAG_795
-0	0x86C	TRAINER BATTLE			TR_FLAG_796
-0	0x86D	TRAINER BATTLE			TR_FLAG_797
-0	0x86E	TRAINER BATTLE			TR_FLAG_798
-0	0x86F	TRAINER BATTLE			TR_FLAG_799
-0	0x870	TRAINER BATTLE			TR_FLAG_800
-0	0x871	TRAINER BATTLE			TR_FLAG_801
-0	0x872	TRAINER BATTLE			TR_FLAG_802
-0	0x873	TRAINER BATTLE			TR_FLAG_803
-0	0x874	TRAINER BATTLE			TR_FLAG_804
-0	0x875	TRAINER BATTLE			TR_FLAG_805
-0	0x876	TRAINER BATTLE			TR_FLAG_806
-0	0x877	TRAINER BATTLE			TR_FLAG_807
-0	0x878	TRAINER BATTLE			TR_FLAG_808
-0	0x879	TRAINER BATTLE			TR_FLAG_809
-0	0x87A	TRAINER BATTLE			TR_FLAG_810
-0	0x87B	TRAINER BATTLE			TR_FLAG_811
-0	0x87C	TRAINER BATTLE			TR_FLAG_812
-0	0x87D	TRAINER BATTLE			TR_FLAG_813
-0	0x87E	TRAINER BATTLE			TR_FLAG_814
-0	0x87F	TRAINER BATTLE			TR_FLAG_815
-0	0x880	TRAINER BATTLE			TR_FLAG_816
-0	0x881	TRAINER BATTLE			TR_FLAG_817
-0	0x882	TRAINER BATTLE			TR_FLAG_818
-0	0x883	TRAINER BATTLE			TR_FLAG_819
-0	0x884	TRAINER BATTLE			TR_FLAG_820
-0	0x885	TRAINER BATTLE			TR_FLAG_821
-0	0x886	TRAINER BATTLE			TR_FLAG_822
-0	0x887	TRAINER BATTLE			TR_FLAG_823
-0	0x888	TRAINER BATTLE			TR_FLAG_824
-0	0x889	TRAINER BATTLE			TR_FLAG_825
-0	0x88A	TRAINER BATTLE			TR_FLAG_826
-0	0x88B	TRAINER BATTLE			TR_FLAG_827
-0	0x88C	TRAINER BATTLE			TR_FLAG_828
-0	0x88D	TRAINER BATTLE			TR_FLAG_829
-0	0x88E	TRAINER BATTLE			TR_FLAG_830
-0	0x88F	TRAINER BATTLE			TR_FLAG_831
-0	0x890	TRAINER BATTLE			TR_FLAG_832
-0	0x891	TRAINER BATTLE			TR_FLAG_833
-0	0x892	TRAINER BATTLE			TR_FLAG_834
-0	0x893	TRAINER BATTLE			TR_FLAG_835
-0	0x894	TRAINER BATTLE			TR_FLAG_836
-0	0x895	TRAINER BATTLE			TR_FLAG_837
-0	0x896	TRAINER BATTLE			TR_FLAG_838
-0	0x897	TRAINER BATTLE			TR_FLAG_839
-0	0x898	TRAINER BATTLE			TR_FLAG_840
-0	0x899	TRAINER BATTLE			TR_FLAG_841
-0	0x89A	TRAINER BATTLE			TR_FLAG_842
-0	0x89B	TRAINER BATTLE			TR_FLAG_843
-0	0x89C	TRAINER BATTLE			TR_FLAG_844
-0	0x89D	TRAINER BATTLE			TR_FLAG_845
-0	0x89E	TRAINER BATTLE			TR_FLAG_846
-0	0x89F	TRAINER BATTLE			TR_FLAG_847
-0	0x8A0	TRAINER BATTLE			TR_FLAG_848
-0	0x8A1	TRAINER BATTLE			TR_FLAG_849
-0	0x8A2	TRAINER BATTLE			TR_FLAG_850
-0	0x8A3	TRAINER BATTLE			TR_FLAG_851
-0	0x8A4	TRAINER BATTLE			TR_FLAG_852
-0	0x8A5	TRAINER BATTLE			TR_FLAG_853
-0	0x8A6	TRAINER BATTLE			TR_FLAG_854
-0	0x8A7	TRAINER BATTLE			TR_FLAG_855
-0	0x8A8	TRAINER BATTLE			TR_FLAG_856
-0	0x8A9	TRAINER BATTLE			TR_FLAG_857
-0	0x8AA	TRAINER BATTLE			TR_FLAG_858
-0	0x8AB	TRAINER BATTLE			TR_FLAG_859
-0	0x8AC	TRAINER BATTLE			TR_FLAG_860
-0	0x8AD	TRAINER BATTLE			TR_FLAG_861
-0	0x8AE	TRAINER BATTLE			TR_FLAG_862
-0	0x8AF	TRAINER BATTLE			TR_FLAG_863
-0	0x8B0	TRAINER BATTLE			TR_FLAG_864
-0	0x8B1	TRAINER BATTLE			TR_FLAG_865
-0	0x8B2	TRAINER BATTLE			TR_FLAG_866
-0	0x8B3	TRAINER BATTLE			TR_FLAG_867
-0	0x8B4	TRAINER BATTLE			TR_FLAG_868
-0	0x8B5	TRAINER BATTLE			TR_FLAG_869
-0	0x8B6	TRAINER BATTLE			TR_FLAG_870
-0	0x8B7	TRAINER BATTLE			TR_FLAG_871
-0	0x8B8	TRAINER BATTLE			TR_FLAG_872
-0	0x8B9	TRAINER BATTLE			TR_FLAG_873
-0	0x8BA	TRAINER BATTLE			TR_FLAG_874
-0	0x8BB	TRAINER BATTLE			TR_FLAG_875
-0	0x8BC	TRAINER BATTLE			TR_FLAG_876
-0	0x8BD	TRAINER BATTLE			TR_FLAG_877
-0	0x8BE	TRAINER BATTLE			TR_FLAG_878
-0	0x8BF	TRAINER BATTLE			TR_FLAG_879
-0	0x8C0	TRAINER BATTLE			TR_FLAG_880
-0	0x8C1	TRAINER BATTLE			TR_FLAG_881
-0	0x8C2	TRAINER BATTLE			TR_FLAG_882
-0	0x8C3	TRAINER BATTLE			TR_FLAG_883
-0	0x8C4	TRAINER BATTLE			TR_FLAG_884
-0	0x8C5	TRAINER BATTLE			TR_FLAG_885
-0	0x8C6	TRAINER BATTLE			TR_FLAG_886
-0	0x8C7	TRAINER BATTLE			TR_FLAG_887
-0	0x8C8	TRAINER BATTLE			TR_FLAG_888
-0	0x8C9	TRAINER BATTLE			TR_FLAG_889
-0	0x8CA	TRAINER BATTLE			TR_FLAG_890
-0	0x8CB	TRAINER BATTLE			TR_FLAG_891
-0	0x8CC	TRAINER BATTLE			TR_FLAG_892
-0	0x8CD	TRAINER BATTLE			TR_FLAG_893
-0	0x8CE	TRAINER BATTLE			TR_FLAG_894
-0	0x8CF	TRAINER BATTLE			TR_FLAG_895
-0	0x8D0	TRAINER BATTLE			TR_FLAG_896
-0	0x8D1	TRAINER BATTLE			TR_FLAG_897
-0	0x8D2	TRAINER BATTLE			TR_FLAG_898
-0	0x8D3	TRAINER BATTLE			TR_FLAG_899
-0	0x8D4	TRAINER BATTLE			TR_FLAG_900
-0	0x8D5	TRAINER BATTLE			TR_FLAG_901
-0	0x8D6	TRAINER BATTLE			TR_FLAG_902
-0	0x8D7	TRAINER BATTLE			TR_FLAG_903
-0	0x8D8	TRAINER BATTLE			TR_FLAG_904
-0	0x8D9	TRAINER BATTLE			TR_FLAG_905
-0	0x8DA	TRAINER BATTLE			TR_FLAG_906
-0	0x8DB	TRAINER BATTLE			TR_FLAG_907
-0	0x8DC	TRAINER BATTLE			TR_FLAG_908
-0	0x8DD	TRAINER BATTLE			TR_FLAG_909
-0	0x8DE	TRAINER BATTLE			TR_FLAG_910
-0	0x8DF	TRAINER BATTLE			TR_FLAG_911
-0	0x8E0	TRAINER BATTLE			TR_FLAG_912
-0	0x8E1	TRAINER BATTLE			TR_FLAG_913
-0	0x8E2	TRAINER BATTLE			TR_FLAG_914
-0	0x8E3	TRAINER BATTLE			TR_FLAG_915
-0	0x8E4	TRAINER BATTLE			TR_FLAG_916
-0	0x8E5	TRAINER BATTLE			TR_FLAG_917
-0	0x8E6	TRAINER BATTLE			TR_FLAG_918
-0	0x8E7	TRAINER BATTLE			TR_FLAG_919
-0	0x8E8	TRAINER BATTLE			TR_FLAG_920
-0	0x8E9	TRAINER BATTLE			TR_FLAG_921
-0	0x8EA	TRAINER BATTLE			TR_FLAG_922
-0	0x8EB	TRAINER BATTLE			TR_FLAG_923
-0	0x8EC	TRAINER BATTLE			TR_FLAG_924
-0	0x8ED	TRAINER BATTLE			TR_FLAG_925
-0	0x8EE	TRAINER BATTLE			TR_FLAG_926
-0	0x8EF	TRAINER BATTLE			TR_FLAG_927
-0	0x8F0	TRAINER BATTLE			TR_FLAG_928
-0	0x8F1	TRAINER BATTLE			TR_FLAG_929
-0	0x8F2	TRAINER BATTLE			TR_FLAG_930
-0	0x8F3	TRAINER BATTLE			TR_FLAG_931
-0	0x8F4	TRAINER BATTLE			TR_FLAG_932
-0	0x8F5	TRAINER BATTLE			TR_FLAG_933
-0	0x8F6	TRAINER BATTLE			TR_FLAG_934
-0	0x8F7	TRAINER BATTLE			TR_FLAG_935
-0	0x8F8	TRAINER BATTLE			TR_FLAG_936
-0	0x8F9	TRAINER BATTLE			TR_FLAG_937
-0	0x8FA	TRAINER BATTLE			TR_FLAG_938
-0	0x8FB	TRAINER BATTLE			TR_FLAG_939
-0	0x8FC	TRAINER BATTLE			TR_FLAG_940
-0	0x8FD	TRAINER BATTLE			TR_FLAG_941
-0	0x8FE	TRAINER BATTLE			TR_FLAG_942
-0	0x8FF	TRAINER BATTLE			TR_FLAG_943
-0	0x900	TRAINER BATTLE			TR_FLAG_944
-0	0x901	TRAINER BATTLE			TR_FLAG_945
-0	0x902	TRAINER BATTLE			TR_FLAG_946
-0	0x903	TRAINER BATTLE			TR_FLAG_947
-0	0x904	TRAINER BATTLE			TR_FLAG_948
-0	0x905	TRAINER BATTLE			TR_FLAG_949
-0	0x906	TRAINER BATTLE			TR_FLAG_950
-0	0x907	TRAINER BATTLE			TR_FLAG_951
-0	0x908	TRAINER BATTLE			TR_FLAG_952
-0	0x909	TRAINER BATTLE			TR_FLAG_953
-0	0x90A	TRAINER BATTLE			TR_FLAG_954
-0	0x90B	TRAINER BATTLE			TR_FLAG_955
-0	0x90C	TRAINER BATTLE			TR_FLAG_956
-0	0x90D	TRAINER BATTLE			TR_FLAG_957
-0	0x90E	TRAINER BATTLE			TR_FLAG_958
-0	0x90F	TRAINER BATTLE			TR_FLAG_959
-0	0x910	TRAINER BATTLE			TR_FLAG_960
-0	0x911	TRAINER BATTLE			TR_FLAG_961
-0	0x912	TRAINER BATTLE			TR_FLAG_962
-0	0x913	TRAINER BATTLE			TR_FLAG_963
-0	0x914	TRAINER BATTLE			TR_FLAG_964
-0	0x915	TRAINER BATTLE			TR_FLAG_965
-0	0x916	TRAINER BATTLE			TR_FLAG_966
-0	0x917	TRAINER BATTLE			TR_FLAG_967
-0	0x918	TRAINER BATTLE			TR_FLAG_968
-0	0x919	TRAINER BATTLE			TR_FLAG_969
-0	0x91A	TRAINER BATTLE			TR_FLAG_970
-0	0x91B	TRAINER BATTLE			TR_FLAG_971
-0	0x91C	TRAINER BATTLE			TR_FLAG_972
-0	0x91D	TRAINER BATTLE			TR_FLAG_973
-0	0x91E	TRAINER BATTLE			TR_FLAG_974
-0	0x91F	TRAINER BATTLE			TR_FLAG_975
-0	0x920	TRAINER BATTLE			TR_FLAG_976
-0	0x921	TRAINER BATTLE			TR_FLAG_977
-0	0x922	TRAINER BATTLE			TR_FLAG_978
-0	0x923	TRAINER BATTLE			TR_FLAG_979
-0	0x924	TRAINER BATTLE			
-0	0x925	TRAINER BATTLE			
-0	0x926	TRAINER BATTLE			
-0	0x927	TRAINER BATTLE			
-0	0x928	TRAINER BATTLE			
-0	0x929	TRAINER BATTLE			
-0	0x92A	TRAINER BATTLE			
-0	0x92B	TRAINER BATTLE			
-0	0x92C	TRAINER BATTLE			
-0	0x92D	TRAINER BATTLE			
-0	0x92E	TRAINER BATTLE			
-0	0x92F	TRAINER BATTLE			
-0	0x930	TRAINER BATTLE			
-0	0x931	TRAINER BATTLE			
-0	0x932	TRAINER BATTLE			
-0	0x933	TRAINER BATTLE			
-0	0x934	TRAINER BATTLE			
-0	0x935	TRAINER BATTLE			
-0	0x936	TRAINER BATTLE			
-0	0x937	TRAINER BATTLE			
-0	0x938	TRAINER BATTLE			
-0	0x939	TRAINER BATTLE			
-0	0x93A	TRAINER BATTLE			
-0	0x93B	TRAINER BATTLE			
-0	0x93C	TRAINER BATTLE			
-0	0x93D	TRAINER BATTLE			
-0	0x93E	TRAINER BATTLE			
-0	0x93F	TRAINER BATTLE			
-0	0x940	TRAINER BATTLE			
-0	0x941	TRAINER BATTLE			
-0	0x942	TRAINER BATTLE			
-0	0x943	TRAINER BATTLE			
-0	0x944	TRAINER BATTLE			
-0	0x945	TRAINER BATTLE			
-0	0x946	TRAINER BATTLE			
-0	0x947	TRAINER BATTLE			
-0	0x948	TRAINER BATTLE			
-0	0x949	TRAINER BATTLE			
-0	0x94A	TRAINER BATTLE			
-0	0x94B	TRAINER BATTLE			
-0	0x94C	TRAINER BATTLE			
-0	0x94D	TRAINER BATTLE			
-0	0x94E	TRAINER BATTLE			
-0	0x94F	TRAINER BATTLE			
-0	0x950	TRAINER BATTLE			
-0	0x951	TRAINER BATTLE			
-0	0x952	TRAINER BATTLE			
-0	0x953	TRAINER BATTLE			
-0	0x954	TRAINER BATTLE			
-0	0x955	TRAINER BATTLE			
-0	0x956	TRAINER BATTLE			
-0	0x957	TRAINER BATTLE			
-0	0x958	TRAINER BATTLE			
-0	0x959	TRAINER BATTLE			
-0	0x95A	TRAINER BATTLE			
-0	0x95B	TRAINER BATTLE			
-0	0x95C	TRAINER BATTLE			
-0	0x95D	TRAINER BATTLE			
-0	0x95E	TRAINER BATTLE			
-0	0x95F	TRAINER BATTLE			
 0	0x964	STORY EVENT			Entered Hall of Fame (Trainer Card Upgrade)
 -	0	_SEPARATOR			TIMED_EVENTS_BEGIN
 0	0xAB8	STATIC ENCOUNTER			Friday Lapras Disappeared
