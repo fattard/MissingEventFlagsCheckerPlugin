@@ -155,8 +155,8 @@
 0	0x285	HIDDEN ITEM	Route 116		Super Potion
 0	0x286	HIDDEN ITEM	Route 106		Stardust
 0	0x287	HIDDEN ITEM	Route 106		Heart Scale
-0	0x288	HIDDEN ITEM	Granite Cave		Everstone
-0	0x289	HIDDEN ITEM	Granite Cave		Everstone
+0	0x288	HIDDEN ITEM	Granite Cave	B2F	Everstone
+0	0x289	HIDDEN ITEM	Granite Cave	B2F	Everstone
 0	0x28A	HIDDEN ITEM	Route 109		Revive
 0	0x28B	HIDDEN ITEM	Route 109		Great Ball
 0	0x28C	HIDDEN ITEM	Route 109		Heart Scale
