@@ -370,14 +370,14 @@
 0	0x051D	FIELD ITEM	Pokémon Tower	6F	Ultra Ball (x3)
 0	0x051E	FIELD ITEM	Pokémon Tower	6F	Hyper Potion
 0	0x051F	HIDDEN ITEM	Pokémon Tower	6F	PP Up
-0	0x0544	FIELD ITEM	S.S. Anne	Kitchen	Super Repel
-0	0x0545	HIDDEN ITEM	S.S. Anne	Kitchen	Tiny Mushroom
-0	0x0550	FIELD ITEM	S.S. Anne	1F	Paralyze Heal
-0	0x0558	FIELD ITEM	S.S. Anne	2F	Revive
-0	0x055B	FIELD ITEM	S.S. Anne	2F	Nugget
-0	0x0560	FIELD ITEM	S.S. Anne	B1F	Super Potion
-0	0x0561	FIELD ITEM	S.S. Anne	B1F	Full Heal
-0	0x0562	FIELD ITEM	S.S. Anne	B1F	Elixir
+0	0x0544	FIELD ITEM	S.S. Anne	Kitchen	[Missable] Super Repel
+0	0x0545	HIDDEN ITEM	S.S. Anne	Kitchen	[Missable] Tiny Mushroom
+0	0x0550	FIELD ITEM	S.S. Anne	1F	[Missable] Paralyze Heal
+0	0x0558	FIELD ITEM	S.S. Anne	2F	[Missable] Revive
+0	0x055B	FIELD ITEM	S.S. Anne	2F	[Missable] Nugget
+0	0x0560	FIELD ITEM	S.S. Anne	B1F	[Missable] Super Potion
+0	0x0561	FIELD ITEM	S.S. Anne	B1F	[Missable] Full Heal
+0	0x0562	FIELD ITEM	S.S. Anne	B1F	[Missable] Elixir
 0	0x0578	FIELD ITEM	Celadon City	Condominiums Rooftop	TM44 (Play Rough)
 0	0x059B	HIDDEN ITEM			t007r0505_PartnerStop
 0	0x059C	HIDDEN ITEM			t007r0505_PartnerStop_0
@@ -486,7 +486,7 @@
 0	0x079B	HIDDEN ITEM	Vermilion City	Harbor	Revive
 0	0x079C	HIDDEN ITEM	Celadon City	Condominiums 3F	Fresh Water
 0	0x079D	FIELD ITEM	Celadon City	Condominiums Rooftop	Health Candy (x3)
-0	0x079F	HIDDEN ITEM	S.S. Anne	Dock	Pinap Berry (x3)
+0	0x079F	HIDDEN ITEM	S.S. Anne	Dock	[Missable] Pinap Berry (x3)
 0	0x07A0	FIELD ITEM	Pokémon Mansion	2F	Escape Rope
 0	0x07A1	HIDDEN ITEM	Road 17		Pinap Berry
 0	0x07A2	HIDDEN ITEM	Road 17		Pinap Berry

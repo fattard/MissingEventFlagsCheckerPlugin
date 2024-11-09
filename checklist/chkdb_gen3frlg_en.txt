@@ -28,13 +28,13 @@
 0	0x161	FIELD ITEM	Route 4		TM05 (Roar)
 0	0x162	FIELD ITEM	Route 24		TM45 (Attract)
 0	0x163	FIELD ITEM	Route 25		TM43 (Secret Power)
-0	0x164	FIELD ITEM	S.S. Anne	1F	TM31 (Brick Break)
-0	0x165	FIELD ITEM	S.S. Anne	2F	Stardust
-0	0x166	FIELD ITEM	S.S. Anne	2F	X Attack
-0	0x167	FIELD ITEM	S.S. Anne	B1F	TM44 (Rest)
-0	0x168	FIELD ITEM	S.S. Anne	B1F	Ether
-0	0x169	FIELD ITEM	S.S. Anne	B1F	Super Potion
-0	0x16A	FIELD ITEM	S.S. Anne	Kitchen	Great Ball
+0	0x164	FIELD ITEM	S.S. Anne	1F	[Missable] TM31 (Brick Break)
+0	0x165	FIELD ITEM	S.S. Anne	2F	[Missable] Stardust
+0	0x166	FIELD ITEM	S.S. Anne	2F	[Missable] X Attack
+0	0x167	FIELD ITEM	S.S. Anne	B1F	[Missable] TM44 (Rest)
+0	0x168	FIELD ITEM	S.S. Anne	B1F	[Missable] Ether
+0	0x169	FIELD ITEM	S.S. Anne	B1F	[Missable] Super Potion
+0	0x16A	FIELD ITEM	S.S. Anne	Kitchen	[Missable] Great Ball
 0	0x16B	FIELD ITEM	Route 9		TM40 (Aerial Ace)
 0	0x16C	FIELD ITEM	Rocket Hideout	B1F	Escape Rope
 0	0x16D	FIELD ITEM	Rocket Hideout	B1F	Hyper Potion
@@ -269,7 +269,7 @@
 0	0x3EC	HIDDEN ITEM	Route 25		Elixir
 0	0x3ED	HIDDEN ITEM	Route 25		Ether
 0	0x3EE	HIDDEN ITEM	Route 9		Ether
-0	0x3F0	HIDDEN ITEM	S.S. Anne	B1F	Hyper Potion
+0	0x3F0	HIDDEN ITEM	S.S. Anne	B1F	[Missable] Hyper Potion
 0	0x3F1	HIDDEN ITEM	Route 10		Super Potion
 0	0x3F2	HIDDEN ITEM	Route 10		Max Ether
 0	0x3F3	HIDDEN ITEM	Rocket Hideout		PP Up
@@ -375,9 +375,9 @@
 0	0x45D	HIDDEN ITEM	Route 25		Bluk Berry
 0	0x45E	HIDDEN ITEM	Route 6		Sitrus Berry
 0	0x45F	HIDDEN ITEM	Route 6		Rare Candy
-0	0x460	HIDDEN ITEM	S.S. Anne	Kitchen	Pecha Berry
-0	0x461	HIDDEN ITEM	S.S. Anne	Kitchen	Cheri Berry
-0	0x462	HIDDEN ITEM	S.S. Anne	Kitchen	Chesto Berry
+0	0x460	HIDDEN ITEM	S.S. Anne	Kitchen	[Missable] Pecha Berry
+0	0x461	HIDDEN ITEM	S.S. Anne	Kitchen	[Missable] Cheri Berry
+0	0x462	HIDDEN ITEM	S.S. Anne	Kitchen	[Missable] Chesto Berry
 0	0x463	HIDDEN ITEM	Route 9		Rare Candy
 0	0x465	HIDDEN ITEM	Route 10		Persim Berry
 0	0x466	HIDDEN ITEM	Route 10		Cheri Berry
@@ -444,7 +444,7 @@
 0	0x4A3	HIDDEN ITEM	Trainer Tower		Nanab Berry
 0	0x4A4	HIDDEN ITEM	Canyon Entrance		Rawst Berry
 0	0x4A5	HIDDEN ITEM	Viridian City	Gym	Macho Brace
-0	0x4A6	HIDDEN ITEM	S.S. Anne Port		Lava Cookie
+0	0x4A6	HIDDEN ITEM	S.S. Anne Port		[Missable] Lava Cookie
 0	0x559	TRAINER BATTLE	Route 3		Youngster Ben
 0	0x55A	TRAINER BATTLE	Route 3		Youngster Calvin
 0	0x55B	TRAINER BATTLE	Mt. Moon	?	Youngster Josh
@@ -452,7 +452,7 @@
 0	0x55D	TRAINER BATTLE	Route 25		Youngster Joey
 0	0x55E	TRAINER BATTLE	Route 25		Youngster Dan
 0	0x55F	TRAINER BATTLE	Route 25		Youngster Chad
-0	0x560	TRAINER BATTLE	S.S. Anne	?	Youngster Tyler
+0	0x560	TRAINER BATTLE	S.S. Anne	?	[Missable] Youngster Tyler
 0	0x561	TRAINER BATTLE	Route 11		Youngster Eddie
 0	0x562	TRAINER BATTLE	Route 11		Youngster Dillon
 0	0x563	TRAINER BATTLE	Route 11		Youngster Yasu
@@ -480,21 +480,21 @@
 0	0x57A	TRAINER BATTLE	Route 24		Lass Reli
 0	0x57B	TRAINER BATTLE	Route 24		Lass Ali
 0	0x57D	TRAINER BATTLE	Route 25		Lass Haley
-0	0x57E	TRAINER BATTLE	S.S. Anne	?	Lass Ann
-0	0x57F	TRAINER BATTLE	S.S. Anne	?	Lass Dawn
+0	0x57E	TRAINER BATTLE	S.S. Anne	?	[Missable] Lass Ann
+0	0x57F	TRAINER BATTLE	S.S. Anne	?	[Missable] Lass Dawn
 0	0x580	TRAINER BATTLE	Route 8		Lass Paige
 0	0x581	TRAINER BATTLE	Route 8		Lass Andrea
 0	0x582	TRAINER BATTLE	Route 8		Lass Megan
 0	0x583	TRAINER BATTLE	Route 8		Lass Julia
 0	0x584	TRAINER BATTLE	Celadon Gym		Lass Kay
 0	0x585	TRAINER BATTLE	Celadon Gym		Lass Lisa
-0	0x586	TRAINER BATTLE	S.S. Anne	?	Sailor Edmond
-0	0x587	TRAINER BATTLE	S.S. Anne	?	Sailor Trevor
-0	0x588	TRAINER BATTLE	S.S. Anne	?	Sailor Leonard
-0	0x589	TRAINER BATTLE	S.S. Anne	?	Sailor Duncan
-0	0x58A	TRAINER BATTLE	S.S. Anne	?	Sailor Huey
-0	0x58B	TRAINER BATTLE	S.S. Anne	?	Sailor Dylan
-0	0x58C	TRAINER BATTLE	S.S. Anne	?	Sailor Phillip
+0	0x586	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Edmond
+0	0x587	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Trevor
+0	0x588	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Leonard
+0	0x589	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Duncan
+0	0x58A	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Huey
+0	0x58B	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Dylan
+0	0x58C	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Phillip
 0	0x58D	TRAINER BATTLE	Vermilion Gym		Sailor Dwayne
 0	0x58E	TRAINER BATTLE	Pewter City Gym		Camper Liam
 0	0x58F	TRAINER BATTLE	Route 24		Camper Shane
@@ -567,8 +567,8 @@
 0	0x5DC	TRAINER BATTLE	Vermilion Gym		Engineer Baily
 0	0x5DD	TRAINER BATTLE	Route 11		Engineer Braxton
 0	0x5DE	TRAINER BATTLE	Route 11		Engineer Bernie
-0	0x5DF	TRAINER BATTLE	S.S. Anne	?	Fisherman Dale
-0	0x5E0	TRAINER BATTLE	S.S. Anne	?	Fisherman Barny
+0	0x5DF	TRAINER BATTLE	S.S. Anne	?	[Missable] Fisherman Dale
+0	0x5E0	TRAINER BATTLE	S.S. Anne	?	[Missable] Fisherman Barny
 0	0x5E1	TRAINER BATTLE	Route 12		Fisherman Ned
 0	0x5E2	TRAINER BATTLE	Route 12		Fisherman Chip
 0	0x5E3	TRAINER BATTLE	Route 12		Fisherman Hank
@@ -749,8 +749,8 @@
 0	0x6A2	TRAINER BATTLE			Leader Koga defeated
 0	0x6A3	TRAINER BATTLE			Leader Blaine defeated
 0	0x6A4	TRAINER BATTLE			Leader Sabrina defeated
-0	0x6A5	TRAINER BATTLE	S.S. Anne	?	Gentleman Thomas
-0	0x6A6	TRAINER BATTLE	S.S. Anne	?	Gentleman Arthur
+0	0x6A5	TRAINER BATTLE	S.S. Anne	?	[Missable] Gentleman Thomas
+0	0x6A6	TRAINER BATTLE	S.S. Anne	?	[Missable] Gentleman Arthur
 0	0x6A7	TRAINER BATTLE	Vermilion Gym		Gentleman Tucker
 0	0x6AA	TRAINER BATTLE	S.S. Anne (Starter Charmander)		Blue
 0	0x6AB	TRAINER BATTLE	S.S. Anne (Starter Squirtle)		Blue
@@ -800,8 +800,8 @@
 0	0x6DF	TRAINER BATTLE	Route 15		Picnicker Kindra
 0	0x6E0	TRAINER BATTLE	Route 15		Picnicker Becky
 0	0x6E1	TRAINER BATTLE	Route 15		Picnicker Celia
-0	0x6E2	TRAINER BATTLE	S.S. Anne	?	Gentleman Brooks
-0	0x6E3	TRAINER BATTLE	S.S. Anne	?	Gentleman Lamar
+0	0x6E2	TRAINER BATTLE	S.S. Anne	?	[Missable] Gentleman Brooks
+0	0x6E3	TRAINER BATTLE	S.S. Anne	?	[Missable] Gentleman Lamar
 0	0x6E4	TRAINER BATTLE	Route 8		Twins Eli & Anne
 0	0x6E5	TRAINER BATTLE	Victory Road	?	Cool Couple Ray & Tyra
 0	0x6E6	TRAINER BATTLE	Route 12		Young Couple Gia & Jes

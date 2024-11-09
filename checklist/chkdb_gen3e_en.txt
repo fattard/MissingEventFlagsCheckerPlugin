@@ -129,7 +129,7 @@
 0	0x1DC	EVENT			FLAG_DEFEATED_HO_OH
 0	0x1DD	EVENT			FLAG_DEFEATED_LUGIA
 0	0x1F4	HIDDEN ITEM	Lavaridge Town		Ice Heal
-0	0x1F5	HIDDEN ITEM	Route 110	Prize Room (Puzzle 8)	Nugget
+0	0x1F5	HIDDEN ITEM	Route 110	Prize Room (Puzzle 8)	[Missable] Nugget
 0	0x1F6	HIDDEN ITEM	Route 111		Stardust
 0	0x1F7	HIDDEN ITEM	Route 113		Ether
 0	0x1F8	HIDDEN ITEM	Route 114		Carbos
@@ -317,16 +317,16 @@
 0	0x421	FIELD ITEM	Route 104		Poké Ball
 0	0x422	FIELD ITEM	Petalburg Woods		Ether
 0	0x423	FIELD ITEM	Magma Hideout	3F	Escape Rope
-0	0x424	FIELD ITEM	Trick House	Puzzle 1	Orange Mail
-0	0x425	FIELD ITEM	Trick House	Puzzle 2	Harbor Mail
-0	0x426	FIELD ITEM	Trick House	Puzzle 2	Wave Mail
-0	0x427	FIELD ITEM	Trick House	Puzzle 3	Shadow Mail
-0	0x428	FIELD ITEM	Trick House	Puzzle 3	Wood Mail
-0	0x429	FIELD ITEM	Trick House	Puzzle 4	Mech Mail
+0	0x424	FIELD ITEM	Trick House	Puzzle 1	[Missable] Orange Mail
+0	0x425	FIELD ITEM	Trick House	Puzzle 2	[Missable] Harbor Mail
+0	0x426	FIELD ITEM	Trick House	Puzzle 2	[Missable] Wave Mail
+0	0x427	FIELD ITEM	Trick House	Puzzle 3	[Missable] Shadow Mail
+0	0x428	FIELD ITEM	Trick House	Puzzle 3	[Missable] Wood Mail
+0	0x429	FIELD ITEM	Trick House	Puzzle 4	[Missable] Mech Mail
 0	0x42A	FIELD ITEM	Route 124		Yellow Shard
-0	0x42B	FIELD ITEM	Trick House	Puzzle 6	Glitter Mail
-0	0x42C	FIELD ITEM	Trick House	Puzzle 7	Tropic Mail
-0	0x42D	FIELD ITEM	Trick House	Puzzle 8	Bead Mail
+0	0x42B	FIELD ITEM	Trick House	Puzzle 6	[Missable] Glitter Mail
+0	0x42C	FIELD ITEM	Trick House	Puzzle 7	[Missable] Tropic Mail
+0	0x42D	FIELD ITEM	Trick House	Puzzle 8	[Missable] Bead Mail
 0	0x42E	FIELD ITEM	Jagged Pass		Burn Heal
 0	0x42F	FIELD ITEM	Aqua Hideout	B1F	Max Elixir
 0	0x430	FIELD ITEM	Aqua Hideout	B2F	Nest Ball

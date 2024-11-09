@@ -108,7 +108,7 @@
 0	0x12A	PKMN GIFT	Mossdeep City	Steven's House	Receive Beldum from the item ball
 0	0x12B	ITEM GIFT			FLAG_RECEIVED_FANCLUB_TM_THIS_WEEK
 0	0x258	HIDDEN ITEM	Lavaridge Town		Ice Heal
-0	0x259	HIDDEN ITEM	Route 110	Prize Room (Puzzle 8)	Nugget
+0	0x259	HIDDEN ITEM	Route 110	Prize Room (Puzzle 8)	[Missable] Nugget
 0	0x25A	HIDDEN ITEM	Route 111		Stardust
 0	0x25B	HIDDEN ITEM	Route 113		Ether
 0	0x25C	HIDDEN ITEM	Route 114		Carbos
@@ -215,8 +215,8 @@
 0	0x3CE	STATIC ENCOUNTER	New Mauville		Capture/Defeat Voltorb
 0	0x3CF	STATIC ENCOUNTER	New Mauville		Capture/Defeat Voltorb
 0	0x3D0	STATIC ENCOUNTER	New Mauville		Capture/Defeat Voltorb
-0	0x3D1	STATIC ENCOUNTER	Aqua/Magma Hideout		Capture/Defeat Electrode
-0	0x3D2	STATIC ENCOUNTER	Aqua/Magma Hideout		Capture/Defeat Electrode
+0	0x3D1	STATIC ENCOUNTER	Aqua/Magma Hideout		[Missable] Capture/Defeat Electrode
+0	0x3D2	STATIC ENCOUNTER	Aqua/Magma Hideout		[Missable] Capture/Defeat Electrode
 0	0x3D5	STATIC ENCOUNTER	Route 120		Capture/Defeat Kecleon
 0	0x3D6	STATIC ENCOUNTER	Route 120		Capture/Defeat Kecleon
 0	0x3D9	STATIC ENCOUNTER	Route 120		Capture/Defeat Kecleon
@@ -285,19 +285,19 @@
 0	0x421	FIELD ITEM	Route 104		Poké Ball
 0	0x422	FIELD ITEM	Petalburg Woods		Ether
 0	0x423	FIELD ITEM	Cave of Origin	B3F	HM07 (Waterfall)
-0	0x424	FIELD ITEM	Trick House	Puzzle 1	Orange Mail
-0	0x425	FIELD ITEM	Trick House	Puzzle 2	Harbor Mail
-0	0x426	FIELD ITEM	Trick House	Puzzle 2	Wave Mail
-0	0x427	FIELD ITEM	Trick House	Puzzle 3	Shadow Mail
-0	0x428	FIELD ITEM	Trick House	Puzzle 3	Wood Mail
-0	0x429	FIELD ITEM	Trick House	Puzzle 4	Mech Mail
+0	0x424	FIELD ITEM	Trick House	Puzzle 1	[Missable] Orange Mail
+0	0x425	FIELD ITEM	Trick House	Puzzle 2	[Missable] Harbor Mail
+0	0x426	FIELD ITEM	Trick House	Puzzle 2	[Missable] Wave Mail
+0	0x427	FIELD ITEM	Trick House	Puzzle 3	[Missable] Shadow Mail
+0	0x428	FIELD ITEM	Trick House	Puzzle 3	[Missable] Wood Mail
+0	0x429	FIELD ITEM	Trick House	Puzzle 4	[Missable] Mech Mail
 0	0x42A	FIELD ITEM	Route 124		Yellow Shard
-0	0x42B	FIELD ITEM	Trick House	Puzzle 6	Glitter Mail
-0	0x42C	FIELD ITEM	Trick House	Puzzle 7	Tropic Mail
-0	0x42D	FIELD ITEM	Trick House	Puzzle 8	Bead Mail
+0	0x42B	FIELD ITEM	Trick House	Puzzle 6	[Missable] Glitter Mail
+0	0x42C	FIELD ITEM	Trick House	Puzzle 7	[Missable] Tropic Mail
+0	0x42D	FIELD ITEM	Trick House	Puzzle 8	[Missable] Bead Mail
 0	0x42E	FIELD ITEM	Jagged Pass		Burn Heal
-0	0x42F	FIELD ITEM	Aqua Hideout	B1F	Max Elixir
-0	0x430	FIELD ITEM	Aqua Hideout	B2F	Nest Ball
+0	0x42F	FIELD ITEM	Aqua Hideout	B1F	[Missable] Max Elixir
+0	0x430	FIELD ITEM	Aqua Hideout	B2F	[Missable] Nest Ball
 0	0x431	FIELD ITEM	Mt. Pyre	Exterior	Max Potion
 0	0x432	FIELD ITEM	Mt. Pyre	Exterior	TM48 (Skill Swap)
 0	0x433	FIELD ITEM	New Mauville		Ultra Ball
@@ -349,16 +349,16 @@
 0	0x461	FIELD ITEM	Route 118		Hyper Potion
 0	0x462	FIELD ITEM	New Mauville		Full Heal
 0	0x463	FIELD ITEM	New Mauville		Paralyze Heal
-0	0x464	FIELD ITEM	Aqua Hideout	B1F	Master Ball
-0	0x465	FIELD ITEM	Magma Hideout	B1F	Master Ball
-0	0x466	FIELD ITEM	Magma Hideout	B1F	Max Elixir
-0	0x467	FIELD ITEM	Magma Hideout	B2F	Nest Ball
+0	0x464	FIELD ITEM	Aqua Hideout	B1F	[Missable] Master Ball
+0	0x465	FIELD ITEM	Magma Hideout	B1F	[Missable] Master Ball
+0	0x466	FIELD ITEM	Magma Hideout	B1F	[Missable] Max Elixir
+0	0x467	FIELD ITEM	Magma Hideout	B2F	[Missable] Nest Ball
 0	0x469	FIELD ITEM	Mt. Pyre	2F	Ultra Ball
 0	0x46A	FIELD ITEM	Mt. Pyre	4F	Sea Incense
 0	0x46B	FIELD ITEM	Safari Zone	Southwest	Max Revive
-0	0x46C	FIELD ITEM	Aqua Hideout	B1F	Nugget
+0	0x46C	FIELD ITEM	Aqua Hideout	B1F	[Missable] Nugget
 0	0x46D	FIELD ITEM	Mossdeep City	Steven's House	HM08 (Dive)
-0	0x46E	FIELD ITEM	Magma Hideout	B1F	Nugget
+0	0x46E	FIELD ITEM	Magma Hideout	B1F	[Missable] Nugget
 0	0x46F	FIELD ITEM	Route 104		Potion
 0	0x501	TRAINER BATTLE			TRAINER_ARCHIE_1
 0	0x502	TRAINER BATTLE			TRAINER_GRUNT_1

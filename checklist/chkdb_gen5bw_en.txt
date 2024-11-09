@@ -502,12 +502,12 @@
 0	0x56B	FIELD ITEM	Abundant Shrine		TM35 (Flamethrower)
 0	0x56C	FIELD ITEM	Victory Road	Outside	Full Heal
 0	0x56D	FIELD ITEM	Abundant Shrine		Hyper Potion
-0	0x56E	FIELD ITEM	N's Castle	4F Center Room	Full Restore
+0	0x56E	FIELD ITEM	N's Castle	4F Center Room	[Missable] Full Restore
 0	0x56F	FIELD ITEM	Lostlorn Forest		Big Mushroom
 0	0x570	FIELD ITEM	P2 Laboratory		Dubious Disc
 0	0x571	FIELD ITEM	Route 16		Charcoal
 0	0x572	FIELD ITEM	Village Bridge		Calcium
-0	0x573	FIELD ITEM	N's Castle	2F Right Room	Max Potion
+0	0x573	FIELD ITEM	N's Castle	2F Right Room	[Missable] Max Potion
 0	0x574	FIELD ITEM	Village Bridge		Ultra Ball
 0	0x575	FIELD ITEM	Dreamyard		X Defense
 0	0x576	FIELD ITEM	Route 3		Awakening
@@ -517,11 +517,11 @@
 0	0x57A	FIELD ITEM	Chargestone Cave	1F	Hyper Potion
 0	0x57B	FIELD ITEM	Chargestone Cave	B2F	Rare Candy
 0	0x57C	FIELD ITEM	Chargestone Cave	B2F	Hyper Potion
-0	0x57D	FIELD ITEM	N's Castle	3F Center Room	Max Revive
+0	0x57D	FIELD ITEM	N's Castle	3F Center Room	[Missable] Max Revive
 0	0x57E	FIELD ITEM	Dreamyard	Basement	TM85 (Dream Eater)
 0	0x57F	FIELD ITEM	Dreamyard	Basement	Twisted Spoon
 0	0x580	FIELD ITEM	Route 8		Ultra Ball
-0	0x581	FIELD ITEM	N's Castle	4F N's Room	Rare Candy
+0	0x581	FIELD ITEM	N's Castle	4F N's Room	[Missable] Rare Candy
 0	0x582	FIELD ITEM	Dragonspiral Tower	Entrance	Nugget
 0	0x583	FIELD ITEM	Dragonspiral Tower	4F	Dragon Fang
 0	0x58D	TRAINER BATTLE			TRID_TANPAN_01

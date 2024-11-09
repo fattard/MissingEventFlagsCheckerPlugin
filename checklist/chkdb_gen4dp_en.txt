@@ -176,7 +176,7 @@
 0	0x310	HIDDEN ITEM	Iron Island	B2F 2	Full Restore
 0	0x311	HIDDEN ITEM	Iron Island	B2F 2	Revive
 0	0x312	HIDDEN ITEM	Iron Island	B2F 2	Iron Plate
-0	0x313	HIDDEN ITEM	Lake Valor		HP Up
+0	0x313	HIDDEN ITEM	Lake Valor	Dried	[Missable] HP Up
 0	0x314	HIDDEN ITEM	Floaroma Meadow		Honey
 0	0x315	HIDDEN ITEM	Floaroma Meadow		Honey
 0	0x316	HIDDEN ITEM	Route 211		Zinc

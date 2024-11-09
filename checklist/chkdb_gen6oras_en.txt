@@ -551,18 +551,18 @@
 0	0x5DC	FIELD ITEM	Mirage Island	8	TM91 (Flash Cannon)
 0	0x5DD	FIELD ITEM	Safari Zone	Area 4	TM93 (Wild Charge)
 0	0x5DE	FIELD ITEM	Mirage Cave	8	TM95 (Snarl)
-0	0x5DF	FIELD ITEM	Route 110	Trick House (Puzzle 1)	Lava Cookie
-0	0x5E0	FIELD ITEM	Route 110	Trick House (Puzzle 1)	Lava Cookie
-0	0x5E1	FIELD ITEM	Route 110	Trick House (Puzzle 2)	Rage Candy Bar
-0	0x5E2	FIELD ITEM	Route 110	Trick House (Puzzle 2)	Rage Candy Bar
-0	0x5E3	FIELD ITEM	Route 110	Trick House (Puzzle 3)	Lumiose Galette
-0	0x5E4	FIELD ITEM	Route 110	Trick House (Puzzle 3)	Lumiose Galette
-0	0x5E5	FIELD ITEM	Route 110	Trick House (Puzzle 4)	Casteliacone
-0	0x5E6	FIELD ITEM	Route 110	Trick House (Puzzle 4)	Casteliacone
-0	0x5E7	FIELD ITEM	Route 110	Trick House (Puzzle 5)	Old Gateau
-0	0x5E8	FIELD ITEM	Route 110	Trick House (Puzzle 5)	Old Gateau
-0	0x5E9	FIELD ITEM	Route 110	Trick House (Puzzle 6)	Shalour Sable
-0	0x5EA	FIELD ITEM	Route 110	Trick House (Puzzle 6)	Shalour Sable
+0	0x5DF	FIELD ITEM	Route 110	Trick House (Puzzle 1)	[Missable] Lava Cookie
+0	0x5E0	FIELD ITEM	Route 110	Trick House (Puzzle 1)	[Missable] Lava Cookie
+0	0x5E1	FIELD ITEM	Route 110	Trick House (Puzzle 2)	[Missable] Rage Candy Bar
+0	0x5E2	FIELD ITEM	Route 110	Trick House (Puzzle 2)	[Missable] Rage Candy Bar
+0	0x5E3	FIELD ITEM	Route 110	Trick House (Puzzle 3)	[Missable] Lumiose Galette
+0	0x5E4	FIELD ITEM	Route 110	Trick House (Puzzle 3)	[Missable] Lumiose Galette
+0	0x5E5	FIELD ITEM	Route 110	Trick House (Puzzle 4)	[Missable] Casteliacone
+0	0x5E6	FIELD ITEM	Route 110	Trick House (Puzzle 4)	[Missable] Casteliacone
+0	0x5E7	FIELD ITEM	Route 110	Trick House (Puzzle 5)	[Missable] Old Gateau
+0	0x5E8	FIELD ITEM	Route 110	Trick House (Puzzle 5)	[Missable] Old Gateau
+0	0x5E9	FIELD ITEM	Route 110	Trick House (Puzzle 6)	[Missable] Shalour Sable
+0	0x5EA	FIELD ITEM	Route 110	Trick House (Puzzle 6)	[Missable] Shalour Sable
 0	0x5EB	FIELD ITEM	Jagged Pass		Super Repel
 0	0x5EC	FIELD ITEM	Jagged Pass		X Defense
 0	0x5ED	FIELD ITEM	Jagged Pass		Full Heal
