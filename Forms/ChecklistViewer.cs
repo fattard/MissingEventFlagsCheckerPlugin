@@ -54,7 +54,7 @@ namespace MissingEventFlagsCheckerPlugin.Forms
 
             foreach (var evt in m_checker.EventsChecklist)
             {
-                if (evt.EvtTypeVal != EventFlagType._Separator && (showTimedEventsChk.Checked || !evt.IsTimedEvent))
+                if (evt.EvtTypeVal != EventFlagType._Unused && evt.EvtTypeVal != EventFlagType._Separator && (showTimedEventsChk.Checked || !evt.IsTimedEvent))
                 {
                     m_checkerList.Add(evt);
                 }
