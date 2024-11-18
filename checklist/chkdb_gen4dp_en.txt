@@ -373,7 +373,7 @@
 0	0x3F0	FIELD ITEM	Old Chateau	2F Room	Old Gateau
 0	0x3F1	FIELD ITEM	Route 205		Potion
 0	0x3F2	FIELD ITEM	Eterna City		TM46 (Thief)
-0	0x3F3	FIELD ITEM	Eterna City		PP Up
+0	0x3F3	_UNUSED	Eterna City		PP Up
 0	0x3F4	FIELD ITEM	Eterna City		Super Potion
 0	0x3F5	FIELD ITEM	Route 211		TM12 (Taunt)
 0	0x3F6	FIELD ITEM	Eterna Forest	Outside	TM82 (Sleep Talk)
@@ -527,7 +527,7 @@
 0	0x48A	FIELD ITEM	Route 222		Honey
 0	0x48B	FIELD ITEM	Sunyshore City		Thunder Stone
 0	0x48C	FIELD ITEM	Route 223		Pearl
-0	0x48D	FIELD ITEM	Route 223		Pearl
+0	0x48D	_UNUSED	Route 223		Pearl
 0	0x48E	FIELD ITEM	Route 223		TM18 (Rain Dance)
 0	0x48F	FIELD ITEM	Victory Road	1F	TM41 (Torment)
 0	0x490	FIELD ITEM	Victory Road	1F	Full Heal

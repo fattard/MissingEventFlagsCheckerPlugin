@@ -170,7 +170,7 @@
 0	0x21B	HIDDEN ITEM	Route 121		HP Up
 0	0x21C	HIDDEN ITEM	Route 121		Nugget
 0	0x21D	HIDDEN ITEM	Route 123		Revive
-0	0x21E	HIDDEN ITEM	Route 113		Revive
+0	0x21E	HIDDEN ITEM	Route 114		Revive
 0	0x21F	HIDDEN ITEM	Lilycove City		PP Up
 0	0x220	HIDDEN ITEM	Route 104		Super Potion
 0	0x221	HIDDEN ITEM	Route 116		Super Potion
@@ -264,7 +264,7 @@
 0	0x3EB	FIELD ITEM	Route 105		Iron
 0	0x3EC	FIELD ITEM	Route 106		Protein
 0	0x3ED	FIELD ITEM	Route 109		PP Up
-0	0x3EE	FIELD ITEM	Route 109		Rare Candy
+0	0x3EE	FIELD ITEM	Route 110		Rare Candy
 0	0x3EF	FIELD ITEM	Route 110		Dire Hit
 0	0x3F0	FIELD ITEM	Route 111		TM37 (Sandstorm)
 0	0x3F1	FIELD ITEM	Route 111		Stardust
@@ -335,7 +335,7 @@
 0	0x433	FIELD ITEM	New Mauville		Ultra Ball
 0	0x434	FIELD ITEM	New Mauville		Escape Rope
 0	0x435	FIELD ITEM	Abandoned Ship	Room 6	Luxury Ball
-0	0x436	FIELD ITEM	Abandoned Ship	Room 4	Scanner
+0	0x436	FIELD ITEM	Abandoned Ship	Room 2	Scanner
 0	0x437	FIELD ITEM	Scorched Slab		TM11 (Sunny Day)
 0	0x438	FIELD ITEM	Meteor Falls	B1F	TM02 (Dragon Claw)
 0	0x439	FIELD ITEM	Shoal Cave	[High Tide] Entrance	Big Pearl
