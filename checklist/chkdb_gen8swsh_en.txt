@@ -1,3 +1,1016 @@
+1	0x001	HIDDEN ITEM	Wedgehurst		Revive
+1	0x002	HIDDEN ITEM	Route 2		Fresh Water
+1	0x003	HIDDEN ITEM	Route 2		Repel
+1	0x004	HIDDEN ITEM	Route 2		Rare Candy (recurring)
+1	0x005	HIDDEN ITEM	Route 2		Prism Scale
+1	0x006	HIDDEN ITEM	Route 2		Max Ether
+1	0x007	HIDDEN ITEM	Route 2		Water Stone
+1	0x008	HIDDEN ITEM	Motostoke	Lower tier	Poké Ball (recurring)
+1	0x009	HIDDEN ITEM	Motostoke	Lower tier	Super Potion
+1	0x00A	HIDDEN ITEM	Motostoke	Lower tier	Nugget
+1	0x00B	HIDDEN ITEM	Motostoke	Lower tier	Paralyze Heal (x2)
+1	0x00C	HIDDEN ITEM	Motostoke	Lower tier	Revival Herb
+1	0x00D	HIDDEN ITEM	Motostoke	Upper Tier	Repel
+1	0x00E	HIDDEN ITEM	Motostoke	Upper Tier	X Accuracy
+1	0x00F	HIDDEN ITEM	Motostoke	Upper Tier	Poké Doll
+1	0x010	HIDDEN ITEM	Route 3		Big Mushroom
+1	0x011	HIDDEN ITEM	Route 3		Revive
+1	0x012	HIDDEN ITEM	Route 3		X Defense (x2)
+1	0x013	HIDDEN ITEM	Motostoke Outskirts		PP Up
+1	0x014	HIDDEN ITEM	Motostoke Outskirts	Bridge	(random feather) (recurring)
+1	0x015	HIDDEN ITEM	Motostoke Outskirts	Bridge	(random feather) (recurring)
+1	0x016	HIDDEN ITEM	Motostoke Outskirts	Bridge	(random feather) (recurring)
+1	0x017	HIDDEN ITEM	Motostoke Outskirts	Bridge	(random feather) (recurring)
+1	0x018	HIDDEN ITEM	Galar Mine		Revive
+1	0x019	HIDDEN ITEM	Galar Mine		Stardust
+1	0x01A	HIDDEN ITEM	Galar Mine		Hard Stone
+1	0x01B	HIDDEN ITEM	Galar Mine		Ether
+1	0x01C	HIDDEN ITEM	Galar Mine		Revive
+1	0x01D	HIDDEN ITEM	Galar Mine		Star Piece
+1	0x01E	HIDDEN ITEM	Galar Mine		Stardust
+1	0x01F	HIDDEN ITEM	Route 4		Ether
+1	0x020	HIDDEN ITEM	Route 4		Repel
+1	0x021	HIDDEN ITEM	Route 4		Energy Root
+1	0x022	HIDDEN ITEM	Route 4		X Accuracy (x2)
+1	0x023	HIDDEN ITEM	Route 4		Energy Powder (x2)
+1	0x024	HIDDEN ITEM	Route 4		Rare Candy
+1	0x025	HIDDEN ITEM	Route 4		Revival Herb
+1	0x026	HIDDEN ITEM	Route 4		Paralyze Heal
+1	0x027	HIDDEN ITEM	Route 4		Energy Powder
+1	0x028	HIDDEN ITEM	Route 4		Paralyze Heal
+1	0x029	HIDDEN ITEM	Turffield		Leaf Stone
+1	0x02A	HIDDEN ITEM	Turffield		Energy Root
+1	0x02B	HIDDEN ITEM	Turffield		Everstone
+1	0x02C	HIDDEN ITEM	Turffield		Fresh Water
+1	0x02D	HIDDEN ITEM	Route 5	Bridge	(random feather) (recurring)
+1	0x02E	HIDDEN ITEM	Hulbury		X Sp. Defense
+1	0x02F	HIDDEN ITEM	Hulbury		X Speed (x2)
+1	0x030	HIDDEN ITEM	Galar Mine No. 2		Soft Sand
+1	0x031	HIDDEN ITEM	Galar Mine No. 2		Star Piece
+1	0x032	HIDDEN ITEM	Hammerlocke		Rare Candy
+1	0x033	HIDDEN ITEM	Route 6		(fossil spot)
+1	0x034	HIDDEN ITEM	Route 6		Rare Candy
+1	0x035	HIDDEN ITEM	Route 6		Rare Bone (x2)
+1	0x036	HIDDEN ITEM	Stow-on-Side		Rare Bone (x3)
+1	0x037	HIDDEN ITEM	Route 7		Ether
+1	0x038	HIDDEN ITEM	Route 7		PP Up
+1	0x039	HIDDEN ITEM	Route 7		Balm Mushroom
+1	0x03A	HIDDEN ITEM	Hulbury		Full Heal
+1	0x03B	HIDDEN ITEM	Route 8		X Defense (x3)
+1	0x03C	HIDDEN ITEM	Route 8		Elixir
+1	0x03D	HIDDEN ITEM	Route 8		Nugget
+1	0x03E	HIDDEN ITEM	Route 8		Pixie Plate
+1	0x03F	HIDDEN ITEM	Circhester		Snowball
+1	0x040	HIDDEN ITEM	Route 8	Steamdrift Way	Star Piece (x2)
+1	0x041	HIDDEN ITEM	Route 9	Circhester Bay	Big Pearl
+1	0x042	HIDDEN ITEM	Route 9	Circhester Bay	Normal Gem
+1	0x043	HIDDEN ITEM	Route 9	Circhester Bay	Pearl
+1	0x044	HIDDEN ITEM	Route 9	Circhester Bay	Max Elixir
+1	0x045	HIDDEN ITEM	Route 9	Outer Spikemuth	Dire Hit (x3)
+1	0x046	HIDDEN ITEM	Route 9	Outer Spikemuth	Guard Spec. (x3)
+1	0x047	HIDDEN ITEM	Route 9	Circhester Bay	Rare Candy
+1	0x048	HIDDEN ITEM	Wyndon		Black Sludge
+1	0x049	HIDDEN ITEM	Wyndon		Nugget
+1	0x04A	HIDDEN ITEM	Wyndon		Big Nugget
+1	0x04B	HIDDEN ITEM	Wyndon		Balm Mushroom
+1	0x04C	HIDDEN ITEM	Wyndon	Tower Exterior	PP Up
+1	0x04D	HIDDEN ITEM	Wyndon	Tower Exterior	Nugget
+1	0x04E	HIDDEN ITEM	Wyndon	Tower Exterior	Rare Candy
+1	0x04F	HIDDEN ITEM	Route 10		Comet Shard
+1	0x050	HIDDEN ITEM	Route 10		PP Up
+1	0x051	HIDDEN ITEM	Route 5	Bridge	(random feather) (recurring)
+1	0x052	HIDDEN ITEM	Route 5	Bridge	(random feather) (recurring)
+1	0x053	HIDDEN ITEM	Route 5	Bridge	(random feather) (recurring)
+1	0x054	HIDDEN ITEM	Route 5	Bridge	(random feather) (recurring)
+1	0x055	HIDDEN ITEM	Route 5	Bridge	(random feather) (recurring)
+1	0x056	HIDDEN ITEM	Route 5	Bridge	(random feather) (recurring)
+1	0x057	HIDDEN ITEM	Route 5	Bridge	(random feather) (recurring)
+1	0x058	HIDDEN ITEM	Route 5	Bridge	(random feather) (recurring)
+1	0x059	HIDDEN ITEM	Route 5	Bridge	(random feather) (recurring)
+1	0x05A	HIDDEN ITEM	Route 3		Burn Heal
+1	0x05B	HIDDEN ITEM	Route 8		Big Nugget
+1	0x05C	HIDDEN ITEM	Ballonlea		Balm Mushroom
+1	0x05D	HIDDEN ITEM	Ballonlea		Big Mushroom (x2)
+1	0x05E	HIDDEN ITEM	Wyndon		Max Revive
+1	0x05F	HIDDEN ITEM	Circhester		Full Heal (x3)
+1	0x060	HIDDEN ITEM	Circhester		X Sp. Attack (x2)
+1	0x061	HIDDEN ITEM	Circhester		Lemonade
+1	0x062	HIDDEN ITEM	Hammerlocke		Nugget
+1	0x063	HIDDEN ITEM	Route 5		Big Mushroom (x2)
+1	0x064	HIDDEN ITEM	Route 5		Absorb Bulb
+1	0x065	HIDDEN ITEM	Rolling Fields		Tiny Mushroom (recurring)
+1	0x066	HIDDEN ITEM	Rolling Fields		Tiny Mushroom (recurring)
+1	0x067	HIDDEN ITEM	Rolling Fields		(random root/honey) (recurring)
+1	0x068	HIDDEN ITEM	Rolling Fields		(random mushroom) (recurring)
+1	0x069	HIDDEN ITEM	Rolling Fields		Poké Ball (recurring)
+1	0x06A	HIDDEN ITEM	Rolling Fields		(random root/honey) (recurring)
+1	0x06B	HIDDEN ITEM	Rolling Fields		Poké Ball (recurring)
+1	0x06C	HIDDEN ITEM	Rolling Fields		Tiny Mushroom (recurring)
+1	0x06D	HIDDEN ITEM	Dappled Grove		(random mushroom) (recurring)
+1	0x06E	HIDDEN ITEM	Dappled Grove		Fancy Apple (recurring)
+1	0x06F	HIDDEN ITEM	Dappled Grove		Fancy Apple (recurring)
+1	0x070	HIDDEN ITEM	Dappled Grove		(random mushroom) (recurring)
+1	0x071	HIDDEN ITEM	Dappled Grove		(random mushroom) (recurring)
+1	0x072	HIDDEN ITEM	Dappled Grove		Fancy Apple (recurring)
+1	0x073	HIDDEN ITEM	Dappled Grove		Fancy Apple (recurring)
+1	0x074	HIDDEN ITEM	Dappled Grove		Fancy Apple (recurring)
+1	0x075	HIDDEN ITEM	Dappled Grove		(random root/herb/shed shell) (recurring)
+1	0x076	HIDDEN ITEM	Dappled Grove		Fancy Apple (recurring)
+1	0x077	HIDDEN ITEM	Dappled Grove		Fancy Apple (recurring)
+1	0x078	HIDDEN ITEM	Watchtower Ruins		(random mushroom) (recurring)
+1	0x079	HIDDEN ITEM	Dappled Grove		(random mushroom) (recurring)
+1	0x07A	HIDDEN ITEM	Dappled Grove		(random mushroom) (recurring)
+1	0x07C	HIDDEN ITEM	Watchtower Ruins		Revive (recurring)
+1	0x07D	HIDDEN ITEM	Watchtower Ruins		Poké Ball (recurring)
+1	0x07E	HIDDEN ITEM	Watchtower Ruins		(random mushroom) (recurring)
+1	0x080	HIDDEN ITEM	East Lake Axewell		Poké Ball (recurring)
+1	0x081	HIDDEN ITEM	East Lake Axewell		Revive (recurring)
+1	0x082	HIDDEN ITEM	East Lake Axewell		Pungent Root (recurring)
+1	0x083	HIDDEN ITEM	East Lake Axewell		Pungent Root (recurring)
+1	0x084	HIDDEN ITEM	East Lake Axewell		Revive (recurring)
+1	0x085	HIDDEN ITEM	East Lake Axewell		(random root/feather) (recurring)
+1	0x086	HIDDEN ITEM	East Lake Axewell		(random mushroom) (recurring)
+1	0x087	HIDDEN ITEM	Hulbury		Super Potion (x2)
+1	0x088	HIDDEN ITEM	West Lake Axewell		Pungent Root (recurring)
+1	0x089	HIDDEN ITEM	West Lake Axewell		Pungent Root (recurring)
+1	0x08A	HIDDEN ITEM	West Lake Axewell		Pungent Root (recurring)
+1	0x08B	HIDDEN ITEM	West Lake Axewell		Pungent Root (recurring)
+1	0x08C	HIDDEN ITEM	Wyndon		X Sp. Attack (x2)
+1	0x08D	HIDDEN ITEM	Axew's Eye		Fancy Apple (recurring)
+1	0x08E	HIDDEN ITEM	Axew's Eye		Fancy Apple (recurring)
+1	0x08F	HIDDEN ITEM	Wyndon		X Speed
+1	0x090	HIDDEN ITEM	South Lake Miloch		(random mushroom) (recurring)
+1	0x091	HIDDEN ITEM	South Lake Miloch		Poké Ball (recurring)
+1	0x092	HIDDEN ITEM	South Lake Miloch		(random root/honey) (recurring)
+1	0x093	HIDDEN ITEM	Giant's Seat		(random revive) (recurring)
+1	0x094	HIDDEN ITEM	Giant's Seat		(random root/feather) (recurring)
+1	0x095	HIDDEN ITEM	Giant's Seat		(random root/herb/feather) (recurring)
+1	0x096	HIDDEN ITEM	Giant's Seat		(random pearl) (recurring)
+1	0x097	HIDDEN ITEM	Giant's Seat		(random pearl) (recurring)
+1	0x098	HIDDEN ITEM	North Lake Miloch		(random mushroom) (recurring)
+1	0x099	HIDDEN ITEM	North Lake Miloch		(random mushroom) (recurring)
+1	0x09A	HIDDEN ITEM	North Lake Miloch		(random root/herb/honey) (recurring)
+1	0x09B	HIDDEN ITEM	North Lake Miloch		(random mushroom) (recurring)
+1	0x09C	HIDDEN ITEM	North Lake Miloch		Revive (recurring)
+1	0x09D	HIDDEN ITEM	Motostoke Riverbank		(random mushroom) (recurring)
+1	0x09E	HIDDEN ITEM	Motostoke Riverbank		(random ball) (recurring)
+1	0x09F	HIDDEN ITEM	Motostoke Riverbank		Pungent Root (recurring)
+1	0x0A0	HIDDEN ITEM	Motostoke Riverbank		Pungent Root (recurring)
+1	0x0A1	HIDDEN ITEM	Motostoke Riverbank		(random root/herb/feather) (recurring)
+1	0x0A2	HIDDEN ITEM	Motostoke Riverbank		(random revive) (recurring)
+1	0x0A3	HIDDEN ITEM	Bridge Field		(random ball) (recurring)
+1	0x0A4	HIDDEN ITEM	Bridge Field		Pungent Root (recurring)
+1	0x0A5	HIDDEN ITEM	Motostoke Riverbank		(random ball) (recurring)
+1	0x0A6	HIDDEN ITEM	Bridge Field		Pungent Root (recurring)
+1	0x0A7	HIDDEN ITEM	Bridge Field		Pungent Root (recurring)
+1	0x0A8	HIDDEN ITEM	Bridge Field		(random ball) (recurring)
+1	0x0A9	HIDDEN ITEM	Bridge Field		(random ball) (recurring)
+1	0x0AA	HIDDEN ITEM	Stony Wilderness		(random ball) (recurring)
+1	0x0AB	HIDDEN ITEM	Stony Wilderness		Revive (recurring)
+1	0x0AC	HIDDEN ITEM	Stony Wilderness		Poké Ball (recurring)
+1	0x0AD	HIDDEN ITEM	Stony Wilderness		Poké Ball (recurring)
+1	0x0AE	HIDDEN ITEM	Stony Wilderness		Poké Ball (recurring)
+1	0x0AF	HIDDEN ITEM	Stony Wilderness		Revive (recurring)
+1	0x0B0	HIDDEN ITEM	Bridge Field		(random mushroom) (recurring)
+1	0x0B1	HIDDEN ITEM	Bridge Field		(random revive) (recurring)
+1	0x0B2	HIDDEN ITEM	Bridge Field		(random ball) (recurring)
+1	0x0B3	HIDDEN ITEM	Stony Wilderness		(random star) (recurring)
+1	0x0B4	HIDDEN ITEM	Stony Wilderness		(random star) (recurring)
+1	0x0B5	HIDDEN ITEM	Stony Wilderness		(random star) (recurring)
+1	0x0B6	HIDDEN ITEM	Stony Wilderness		(random star) (recurring)
+1	0x0B7	HIDDEN ITEM	Stony Wilderness		(random ball) (recurring)
+1	0x0B8	HIDDEN ITEM	Stony Wilderness		(random revive) (recurring)
+1	0x0B9	HIDDEN ITEM	Stony Wilderness		(random ball) (recurring)
+1	0x0BA	HIDDEN ITEM	Stony Wilderness		Revive (recurring)
+1	0x0BB	HIDDEN ITEM	Stony Wilderness		(random star) (recurring)
+1	0x0BC	HIDDEN ITEM	Dusty Bowl		(random ball) (recurring)
+1	0x0BD	HIDDEN ITEM	Dusty Bowl		(random ball) (recurring)
+1	0x0BE	HIDDEN ITEM	Dusty Bowl		(random ball) (recurring)
+1	0x0BF	HIDDEN ITEM	Dusty Bowl		Pungent Root (recurring)
+1	0x0C0	HIDDEN ITEM	Dusty Bowl		Pungent Root (recurring)
+1	0x0C1	HIDDEN ITEM	Dusty Bowl		Pungent Root (recurring)
+1	0x0C2	HIDDEN ITEM	Dusty Bowl		(random mushroom) (recurring)
+1	0x0C3	HIDDEN ITEM	Dusty Bowl		(random mushroom) (recurring)
+1	0x0C4	HIDDEN ITEM	Dusty Bowl		Rare Bone (recurring)
+1	0x0C5	HIDDEN ITEM	Dusty Bowl		(random star) (recurring)
+1	0x0C6	HIDDEN ITEM	Dusty Bowl		Rare Bone (recurring)
+1	0x0C7	HIDDEN ITEM	Dusty Bowl		(random star/bone) (recurring)
+1	0x0C8	HIDDEN ITEM	Dusty Bowl		(random star) (recurring)
+1	0x0C9	HIDDEN ITEM	Route 10		X Attack (x2)
+1	0x0CA	HIDDEN ITEM	Dusty Bowl		(random root/herb/honey) (recurring)
+1	0x0CB	HIDDEN ITEM	Dusty Bowl		(random ball) (recurring)
+1	0x0CD	HIDDEN ITEM	Giant's Mirror		Pungent Root (recurring)
+1	0x0CF	HIDDEN ITEM	Giant's Mirror		Pungent Root (recurring)
+1	0x0D0	HIDDEN ITEM	Giant's Mirror		Pungent Root (recurring)
+1	0x0D1	HIDDEN ITEM	Giant's Mirror		Pungent Root (recurring)
+1	0x0D2	HIDDEN ITEM	Giant's Mirror		(random ball) (recurring)
+1	0x0D3	HIDDEN ITEM	Giant's Mirror		Rare Bone (recurring)
+1	0x0D4	HIDDEN ITEM	Hammerlocke Hills		(random mushroom) (recurring)
+1	0x0D5	HIDDEN ITEM	Hammerlocke Hills		Revive (recurring)
+1	0x0D6	HIDDEN ITEM	Hammerlocke Hills		(random star) (recurring)
+1	0x0D7	HIDDEN ITEM	Hammerlocke Hills		(random root/herb/feather) (recurring)
+1	0x0D8	HIDDEN ITEM	Hammerlocke Hills		(random mushroom) (recurring)
+1	0x0D9	HIDDEN ITEM	Giant's Cap		Large Leek (recurring)
+1	0x0DA	HIDDEN ITEM	Giant's Cap		Large Leek (recurring)
+1	0x0DB	HIDDEN ITEM	Giant's Cap		Large Leek (recurring)
+1	0x0DC	HIDDEN ITEM	Giant's Cap		Large Leek (recurring)
+1	0x0DD	HIDDEN ITEM	Giant's Cap		Large Leek (recurring)
+1	0x0DE	HIDDEN ITEM	Giant's Cap		(random star) (recurring)
+1	0x0DF	HIDDEN ITEM	Giant's Cap		Large Leek (recurring)
+1	0x0E0	HIDDEN ITEM	Giant's Cap		Pungent Root (recurring)
+1	0x0E1	HIDDEN ITEM	Giant's Cap		Pungent Root (recurring)
+1	0x0E2	HIDDEN ITEM	Giant's Cap		(random ball) (recurring)
+1	0x0E3	HIDDEN ITEM	Giant's Cap		Pungent Root (recurring)
+1	0x0E4	HIDDEN ITEM	Giant's Cap		(random root/herb/feather) (recurring)
+1	0x0E5	HIDDEN ITEM	Lake of Outrage		(random mushroom) (recurring)
+1	0x0E6	HIDDEN ITEM	Lake of Outrage		(random revive) (recurring)
+1	0x0E7	HIDDEN ITEM	Lake of Outrage		Shiny Stone (recurring)
+1	0x0E8	HIDDEN ITEM	Lake of Outrage		Dusk Stone (recurring)
+1	0x0E9	HIDDEN ITEM	Lake of Outrage		Fire Stone (recurring)
+1	0x0EA	HIDDEN ITEM	Lake of Outrage		Thunder Stone (recurring)
+1	0x0EB	HIDDEN ITEM	Lake of Outrage		Water Stone (recurring)
+1	0x0EC	HIDDEN ITEM	Lake of Outrage		Leaf Stone (recurring)
+1	0x0ED	HIDDEN ITEM	Lake of Outrage		Ice Stone (recurring)
+1	0x0EE	HIDDEN ITEM	Lake of Outrage		Dawn Stone (recurring)
+1	0x0EF	HIDDEN ITEM	Rolling Fields		Tiny Mushroom (recurring)
+1	0x0F0	HIDDEN ITEM	Rolling Fields		Tiny Mushroom (recurring)
+1	0x0F1	HIDDEN ITEM	Rolling Fields		Tiny Mushroom (recurring)
+1	0x0F2	HIDDEN ITEM	Dappled Grove		(random mushroom) (recurring)
+1	0x0F3	HIDDEN ITEM	Dappled Grove		(random mushroom) (recurring)
+1	0x0F4	HIDDEN ITEM	Dappled Grove		Fancy Apple (recurring)
+1	0x0F5	HIDDEN ITEM	Dappled Grove		Fancy Apple (recurring)
+1	0x0F6	HIDDEN ITEM	Dappled Grove		(random mushroom) (recurring)
+1	0x0F7	HIDDEN ITEM	Dappled Grove		(random root/herb/shed shell) (recurring)
+1	0x0F8	HIDDEN ITEM	Dappled Grove		(random root/herb/feather) (recurring)
+1	0x0F9	HIDDEN ITEM	East Lake Axewell		(random pearl) (recurring)
+1	0x0FA	HIDDEN ITEM	East Lake Axewell		(random pearl) (recurring)
+1	0x0FB	HIDDEN ITEM	East Lake Axewell		(random pearl) (recurring)
+1	0x0FC	HIDDEN ITEM	East Lake Axewell		(random pearl) (recurring)
+1	0x0FD	HIDDEN ITEM	East Lake Axewell		(random pearl) (recurring)
+1	0x0FE	HIDDEN ITEM	West Lake Axewell		(random pearl) (recurring)
+1	0x0FF	HIDDEN ITEM	West Lake Axewell		(random pearl) (recurring)
+1	0x100	HIDDEN ITEM	West Lake Axewell		(random pearl) (recurring)
+1	0x101	HIDDEN ITEM	West Lake Axewell		(random pearl) (recurring)
+1	0x102	HIDDEN ITEM	West Lake Axewell		(random pearl) (recurring)
+1	0x103	HIDDEN ITEM	West Lake Axewell		(random pearl) (recurring)
+1	0x104	HIDDEN ITEM	West Lake Axewell		(random pearl) (recurring)
+1	0x105	HIDDEN ITEM	South Lake Miloch		Poké Ball (recurring)
+1	0x106	HIDDEN ITEM	South Lake Miloch		(random pearl) (recurring)
+1	0x107	HIDDEN ITEM	South Lake Miloch		(random pearl) (recurring)
+1	0x108	HIDDEN ITEM	South Lake Miloch		Prism Scale (recurring)
+1	0x109	HIDDEN ITEM	South Lake Miloch		(random pearl) (recurring)
+1	0x10A	HIDDEN ITEM	South Lake Miloch		(random pearl) (recurring)
+1	0x10B	HIDDEN ITEM	South Lake Miloch		(random mushroom) (recurring)
+1	0x10C	HIDDEN ITEM	South Lake Miloch		(random pearl) (recurring)
+1	0x10D	HIDDEN ITEM	South Lake Miloch		(random pearl) (recurring)
+1	0x10E	HIDDEN ITEM	Giant's Seat		(random root/herb/feather) (recurring)
+1	0x10F	HIDDEN ITEM	Giant's Seat		(random root/feather) (recurring)
+1	0x110	HIDDEN ITEM	Giant's Seat		(random ball) (recurring)
+1	0x111	HIDDEN ITEM	Giant's Seat		(random mushroom) (recurring)
+1	0x112	HIDDEN ITEM	Giant's Seat		(random root/herb/feather) (recurring)
+1	0x113	HIDDEN ITEM	North Lake Miloch		(random ball) (recurring)
+1	0x114	HIDDEN ITEM	North Lake Miloch		(random mushroom) (recurring)
+1	0x115	HIDDEN ITEM	North Lake Miloch		(random pearl) (recurring)
+1	0x116	HIDDEN ITEM	North Lake Miloch		(random pearl) (recurring)
+1	0x117	HIDDEN ITEM	North Lake Miloch		(random pearl) (recurring)
+1	0x118	HIDDEN ITEM	North Lake Miloch		(random pearl) (recurring)
+1	0x119	HIDDEN ITEM	Bridge Field		(random root/honey) (recurring)
+1	0x11A	HIDDEN ITEM	Bridge Field		(random root/herb/honey) (recurring)
+1	0x11B	HIDDEN ITEM	Motostoke Riverbank		(random root/herb/feather) (recurring)
+1	0x11D	HIDDEN ITEM	Bridge Field		(random mushroom) (recurring)
+1	0x11E	HIDDEN ITEM	Bridge Field		(random mushroom) (recurring)
+1	0x11F	HIDDEN ITEM	Bridge Field		(random root/herb/feather) (recurring)
+1	0x121	HIDDEN ITEM	Bridge Field		(random mushroom) (recurring)
+1	0x122	HIDDEN ITEM	Bridge Field		(random mushroom) (recurring)
+1	0x125	HIDDEN ITEM	Bridge Field		(random pearl) (recurring)
+1	0x126	HIDDEN ITEM	Bridge Field		(random pearl) (recurring)
+1	0x127	HIDDEN ITEM	Bridge Field		(random mushroom) (recurring)
+1	0x128	HIDDEN ITEM	Stony Wilderness		(random star) (recurring)
+1	0x129	HIDDEN ITEM	Stony Wilderness		(random ball) (recurring)
+1	0x12A	HIDDEN ITEM	Stony Wilderness		(random star) (recurring)
+1	0x12B	HIDDEN ITEM	Stony Wilderness		(random mushroom) (recurring)
+1	0x12C	HIDDEN ITEM	Dusty Bowl		Rare Bone (recurring)
+1	0x12D	HIDDEN ITEM	Dusty Bowl		(random ball) (recurring)
+1	0x12F	HIDDEN ITEM	Dusty Bowl		(random star) (recurring)
+1	0x131	HIDDEN ITEM	Dusty Bowl		Rare Bone (recurring)
+1	0x132	HIDDEN ITEM	Dusty Bowl		Rare Bone (recurring)
+1	0x133	HIDDEN ITEM	Dusty Bowl		(random star) (recurring)
+1	0x138	HIDDEN ITEM	Giant's Mirror		(random star) (recurring)
+1	0x139	HIDDEN ITEM	Giant's Mirror		(random mushroom) (recurring)
+1	0x13A	HIDDEN ITEM	Hammerlocke Hills		(random mushroom) (recurring)
+1	0x13B	HIDDEN ITEM	Hammerlocke Hills		(random root/herb/feather) (recurring)
+1	0x13C	HIDDEN ITEM	Lake of Outrage		(random pearl) (recurring)
+1	0x13D	HIDDEN ITEM	Lake of Outrage		(random pearl) (recurring)
+1	0x13E	HIDDEN ITEM	Lake of Outrage		(random pearl) (recurring)
+1	0x13F	HIDDEN ITEM	Lake of Outrage		(random pearl) (recurring)
+1	0x140	HIDDEN ITEM	Rolling Fields		Honey (recurring)
+1	0x141	HIDDEN ITEM	Rolling Fields		Poké Ball (recurring)
+1	0x142	HIDDEN ITEM	Rolling Fields		Honey (recurring)
+1	0x14D	HIDDEN ITEM	Glimwood Tangle		Full Heal (x2)
+1	0x14E	HIDDEN ITEM	Glimwood Tangle		Luminous Moss
+1	0x15E	HIDDEN ITEM	Stow-on-Side		Max Revive
+1	0x182	HIDDEN ITEM	Stow-on-Side		X Sp. Attack (x2)
+1	0x183	HIDDEN ITEM	Hammerlocke		Super Repel
+1	0x184	HIDDEN ITEM	Hammerlocke		X Attack (x2)
+1	0x186	HIDDEN ITEM	Wyndon		Rare Candy
+1	0x187	HIDDEN ITEM	Circhester		Poké Doll
+1	0x188	HIDDEN ITEM	Route 9	Circhester Bay	Big Pearl
+1	0x189	HIDDEN ITEM	Route 9	Circhester Bay	Pearl
+1	0x18A	HIDDEN ITEM	Route 9	Circhester Bay	Never-Melt Ice
+1	0x18B	HIDDEN ITEM	Route 9	Circhester Bay	Black Belt
+1	0x18C	HIDDEN ITEM	Route 9	Circhester Bay	Pearl String
+1	0x18D	HIDDEN ITEM	Route 9	Circhester Bay	Ice Stone
+1	0x18E	HIDDEN ITEM	Route 9	Circhester Bay	Big Pearl
+1	0x18F	HIDDEN ITEM	Route 9	Circhester Bay	PP Up
+1	0x191	HIDDEN ITEM	West Lake Axewell		(random mushroom) (recurring)
+1	0x192	HIDDEN ITEM	Axew's Eye		(random pearl) (recurring)
+1	0x193	HIDDEN ITEM	Axew's Eye		(random pearl) (recurring)
+1	0x194	HIDDEN ITEM	Axew's Eye		Rare Candy (recurring)
+1	0x195	HIDDEN ITEM	Stow-on-Side		Metal Coat
+1	0x196	HIDDEN ITEM	Hammerlocke		Dire Hit
+1	0x197	HIDDEN ITEM	Slumbering Weald		Full Restore
+1	0x198	HIDDEN ITEM	Slumbering Weald		Elixir
+1	0x199	HIDDEN ITEM	Axew's Eye		(random apple spot) (Sw) (recurring)
+1	0x19A	HIDDEN ITEM	Dappled Grove		Fancy Apple (recurring)
+1	0x19B	HIDDEN ITEM	Dappled Grove		Fancy Apple (recurring)
+1	0x19C	HIDDEN ITEM	Dappled Grove		Fancy Apple (recurring)
+1	0x19D	HIDDEN ITEM	Dappled Grove		Fancy Apple (recurring)
+1	0x19E	HIDDEN ITEM	Dappled Grove		Fancy Apple (recurring)
+1	0x19F	HIDDEN ITEM	Stony Wilderness		(random star) (recurring)
+1	0x1A0	HIDDEN ITEM	Stony Wilderness		(random star) (recurring)
+1	0x1A1	HIDDEN ITEM	Stony Wilderness		(random star) (recurring)
+1	0x1A2	HIDDEN ITEM	Stony Wilderness		(random star) (recurring)
+1	0x1A3	HIDDEN ITEM	Stony Wilderness		(random ball) (recurring)
+1	0x1A4	HIDDEN ITEM	Dusty Bowl		(random revive) (recurring)
+1	0x1A5	HIDDEN ITEM	Dusty Bowl		(random star) (recurring)
+1	0x1A6	HIDDEN ITEM	Dusty Bowl		(fossil spot) (Sw) (recurring)
+1	0x1A7	HIDDEN ITEM	Dusty Bowl		(fossil spot) (Sh) (recurring)
+1	0x1A8	HIDDEN ITEM	Dusty Bowl		(fossil spot) (Sw) (recurring)
+1	0x1A9	HIDDEN ITEM	Dusty Bowl		(fossil spot) (Sh) (recurring)
+1	0x1AA	HIDDEN ITEM	Giant's Mirror		(random star) (recurring)
+1	0x1AB	HIDDEN ITEM	Hammerlocke Hills		(random ball) (recurring)
+1	0x1AC	HIDDEN ITEM	Hammerlocke Hills		(random ball) (recurring)
+1	0x1AD	HIDDEN ITEM	Dusty Bowl		Razor Claw (recurring)
+1	0x1AE	HIDDEN ITEM	Axew's Eye		(random apple spot) (Sh) (recurring)
+1	0x1AF	HIDDEN ITEM	Fields of Honor		Galarica Twig
+1	0x1B0	HIDDEN ITEM	Fields of Honor		(random mushroom/galarica) (recurring)
+1	0x1B1	HIDDEN ITEM	Fields of Honor		(random mushroom/galarica) (recurring)
+1	0x1B2	HIDDEN ITEM	Fields of Honor		Honey (recurring)
+1	0x1B3	HIDDEN ITEM	Fields of Honor		Honey (recurring)
+1	0x1B4	HIDDEN ITEM	Fields of Honor		(random star/revive) (recurring)
+1	0x1B5	HIDDEN ITEM	Fields of Honor		(random ball/large leek) (recurring)
+1	0x1B6	HIDDEN ITEM	Fields of Honor		(random ball/galarica) (recurring)
+1	0x1B7	HIDDEN ITEM	Fields of Honor		(random ball) (recurring)
+1	0x1B8	HIDDEN ITEM	Fields of Honor		(random ball/galarica) (recurring)
+1	0x1B9	HIDDEN ITEM	Fields of Honor		(random mushroom/herb) (recurring)
+1	0x1BA	HIDDEN ITEM	Fields of Honor		(random ball/galarica) (recurring)
+1	0x1BB	HIDDEN ITEM	Fields of Honor		Nugget
+1	0x1BC	HIDDEN ITEM	Fields of Honor		(galarica/fancy apple spot) (Sw) (recurring)
+1	0x1BD	HIDDEN ITEM	Fields of Honor		(galarica/fancy apple spot) (Sh) (recurring)
+1	0x1BE	HIDDEN ITEM	Fields of Honor		(random pearl) (recurring)
+1	0x1BF	HIDDEN ITEM	Fields of Honor		(random pearl) (recurring)
+1	0x1C0	HIDDEN ITEM	Fields of Honor		(random pearl/stardust) (recurring)
+1	0x1C1	HIDDEN ITEM	Fields of Honor		(random pearl/stardust) (recurring)
+1	0x1C2	HIDDEN ITEM	Soothing Wetlands		(random mushroom) (recurring)
+1	0x1C3	HIDDEN ITEM	Soothing Wetlands		(random ball) (recurring)
+1	0x1C4	HIDDEN ITEM	Soothing Wetlands		(random potion/herb) (recurring)
+1	0x1C5	HIDDEN ITEM	Soothing Wetlands		(random potion/pungent root) (recurring)
+1	0x1C6	HIDDEN ITEM	Soothing Wetlands		(random star) (recurring)
+1	0x1C8	HIDDEN ITEM	Soothing Wetlands		(random star/large leek) (recurring)
+1	0x1C9	HIDDEN ITEM	Soothing Wetlands		(random ball) (recurring)
+1	0x1CA	HIDDEN ITEM	Soothing Wetlands		(random mushroom) (recurring)
+1	0x1CB	HIDDEN ITEM	Soothing Wetlands		(random ball/honey) (recurring)
+1	0x1CC	HIDDEN ITEM	Soothing Wetlands		(random herb) (recurring)
+1	0x1CD	HIDDEN ITEM	Soothing Wetlands		(random mushroom) (recurring)
+1	0x1CE	HIDDEN ITEM	Soothing Wetlands		(random mushroom) (recurring)
+1	0x1CF	HIDDEN ITEM	Soothing Wetlands		(random ball) (recurring)
+1	0x1D0	HIDDEN ITEM	Forest of Focus		(random galarica) (recurring)
+1	0x1D1	HIDDEN ITEM	Soothing Wetlands		(random star) (recurring)
+1	0x1D2	HIDDEN ITEM	Soothing Wetlands		Armorite Ore
+1	0x1D3	HIDDEN ITEM	Soothing Wetlands		(random ball) (recurring)
+1	0x1D4	HIDDEN ITEM	Soothing Wetlands		(random stone) (recurring)
+1	0x1D5	HIDDEN ITEM	Soothing Wetlands		(random galarica/mushroom) (recurring)
+1	0x1D6	HIDDEN ITEM	Soothing Wetlands		(random mint)
+1	0x1D7	HIDDEN ITEM	Soothing Wetlands		(random feather) (recurring)
+1	0x1D8	HIDDEN ITEM	Soothing Wetlands		(random feather) (recurring)
+1	0x1D9	HIDDEN ITEM	Soothing Wetlands		(random feather) (recurring)
+1	0x1DA	HIDDEN ITEM	Soothing Wetlands		(random stone) (recurring)
+1	0x1DB	HIDDEN ITEM	Soothing Wetlands		(random galarica) (recurring)
+1	0x1DC	HIDDEN ITEM	Soothing Wetlands		(apple spot) (Sw) (recurring)
+1	0x1DD	HIDDEN ITEM	Soothing Wetlands		(apple spot) (Sh) (recurring)
+1	0x1DE	HIDDEN ITEM	Brawler's Cave		Armorite Ore
+1	0x1DF	HIDDEN ITEM	Brawler's Cave		(random stone) (recurring)
+1	0x1E0	HIDDEN ITEM	Brawler's Cave		(random stone) (recurring)
+1	0x1E1	HIDDEN ITEM	Brawler's Cave		(random stone) (recurring)
+1	0x1E2	HIDDEN ITEM	Brawler's Cave		(random stone) (recurring)
+1	0x1E3	HIDDEN ITEM	Brawler's Cave		(random stone) (recurring)
+1	0x1E4	HIDDEN ITEM	Brawler's Cave		(random stone) (recurring)
+1	0x1E5	HIDDEN ITEM	Brawler's Cave		(random stone) (recurring)
+1	0x1E6	HIDDEN ITEM	Brawler's Cave		(random stone) (recurring)
+1	0x1E7	HIDDEN ITEM	Brawler's Cave		(random stone) (recurring)
+1	0x1E8	HIDDEN ITEM	Brawler's Cave		Moon Stone
+1	0x1E9	HIDDEN ITEM	Brawler's Cave		(random stone) (recurring)
+1	0x1EA	HIDDEN ITEM	Brawler's Cave		(random stone) (recurring)
+1	0x1EB	HIDDEN ITEM	Brawler's Cave		(random stone) (recurring)
+1	0x1EC	HIDDEN ITEM	Brawler's Cave		(random stone) (recurring)
+1	0x1ED	HIDDEN ITEM	Courageous Cavern		(random star) (recurring)
+1	0x1EE	HIDDEN ITEM	Courageous Cavern		(random ball) (recurring)
+1	0x1EF	HIDDEN ITEM	Forest of Focus		(random galarica) (recurring)
+1	0x1F0	HIDDEN ITEM	Courageous Cavern		(random stone) (recurring)
+1	0x1F1	HIDDEN ITEM	Courageous Cavern		(random star) (recurring)
+1	0x1F2	HIDDEN ITEM	Courageous Cavern		(random star) (recurring)
+1	0x1F3	HIDDEN ITEM	Forest of Focus		White Apricorn
+1	0x1F4	HIDDEN ITEM	Courageous Cavern		(random ball) (recurring)
+1	0x1F5	HIDDEN ITEM	Courageous Cavern		(random ball) (recurring)
+1	0x1F6	HIDDEN ITEM	Courageous Cavern		Armorite Ore
+1	0x1F7	HIDDEN ITEM	Courageous Cavern		(random revive) (recurring)
+1	0x1F8	HIDDEN ITEM	Courageous Cavern		(random stone) (recurring)
+1	0x1F9	HIDDEN ITEM	Courageous Cavern		(random mushroom) (recurring)
+1	0x1FA	HIDDEN ITEM	Courageous Cavern		(random nugget) (recurring)
+1	0x1FB	HIDDEN ITEM	Forest of Focus		(random sticky barb) (recurring)
+1	0x1FC	HIDDEN ITEM	Loop Lagoon		Galarica Twig (recurring)
+1	0x1FD	HIDDEN ITEM	Forest of Focus		(random gateau) (recurring)
+1	0x1FE	HIDDEN ITEM	Loop Lagoon		(random star) (recurring)
+1	0x1FF	HIDDEN ITEM	Loop Lagoon		Pearl String
+1	0x200	HIDDEN ITEM	Loop Lagoon		(random pearl) (recurring)
+1	0x201	HIDDEN ITEM	Loop Lagoon		(random star) (recurring)
+1	0x202	HIDDEN ITEM	Loop Lagoon		(random pearl) (recurring)
+1	0x203	HIDDEN ITEM	Loop Lagoon		(random pearl) (recurring)
+1	0x204	HIDDEN ITEM	Loop Lagoon		Honey (recurring)
+1	0x205	HIDDEN ITEM	Loop Lagoon		(random star) (recurring)
+1	0x206	HIDDEN ITEM	Loop Lagoon		(random ball) (recurring)
+1	0x207	HIDDEN ITEM	Loop Lagoon		Rare Candy
+1	0x208	HIDDEN ITEM	Loop Lagoon		(random revive) (recurring)
+1	0x209	HIDDEN ITEM	Loop Lagoon		(apple spot) (Sw) (recurring)
+1	0x20A	HIDDEN ITEM	Loop Lagoon		(apple spot) (Sh) (recurring)
+1	0x20B	HIDDEN ITEM	Loop Lagoon		(apple spot) (Sw) (recurring)
+1	0x20C	HIDDEN ITEM	Loop Lagoon		(apple spot) (Sh) (recurring)
+1	0x20D	HIDDEN ITEM	Forest of Focus		(random mushroom) (recurring)
+1	0x20E	HIDDEN ITEM	Warm-Up Tunnel		Thick Club
+1	0x20F	HIDDEN ITEM	Warm-Up Tunnel		(random ball) (recurring)
+1	0x210	HIDDEN ITEM	Warm-Up Tunnel		(random ball) (recurring)
+1	0x211	HIDDEN ITEM	Warm-Up Tunnel		Tiny Mushroom (recurring)
+1	0x212	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x213	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x214	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x215	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x216	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x217	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x218	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x219	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x21A	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x21B	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x21C	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x21D	HIDDEN ITEM	Potbottom Desert		Wishing Piece
+1	0x21E	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x21F	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x220	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x221	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x222	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x223	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x224	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x225	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x226	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x227	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x228	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x229	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x22A	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x22B	HIDDEN ITEM	Potbottom Desert		(random star) (recurring)
+1	0x22C	HIDDEN ITEM	Forest of Focus		(random galarica) (recurring)
+1	0x22D	HIDDEN ITEM	Forest of Focus		(random galarica) (recurring)
+1	0x22E	HIDDEN ITEM	Forest of Focus		(random mushroom) (recurring)
+1	0x22F	HIDDEN ITEM	Forest of Focus		(random sticky barb) (recurring)
+1	0x230	HIDDEN ITEM	Forest of Focus		(random apricorn) (recurring)
+1	0x231	HIDDEN ITEM	Forest of Focus		(random apricorn) (recurring)
+1	0x232	HIDDEN ITEM	Forest of Focus		Galarica Twig
+1	0x233	HIDDEN ITEM	Forest of Focus		(random sticky barb) (recurring)
+1	0x234	HIDDEN ITEM	Forest of Focus		(random apricorn) (recurring)
+1	0x235	HIDDEN ITEM	Forest of Focus		Galarica Twig
+1	0x236	HIDDEN ITEM	Forest of Focus		(random mushroom) (recurring)
+1	0x237	HIDDEN ITEM	Forest of Focus		(random galarica) (recurring)
+1	0x238	HIDDEN ITEM	Challenge Beach		(random ball) (recurring)
+1	0x239	HIDDEN ITEM	Challenge Beach		Galarica Twig
+1	0x23A	HIDDEN ITEM	Challenge Beach		(random large leek) (recurring)
+1	0x23B	HIDDEN ITEM	Challenge Beach		(random large leek) (recurring)
+1	0x23C	HIDDEN ITEM	Challenge Beach		(random herb) (recurring)
+1	0x23D	HIDDEN ITEM	Challenge Beach		(random sand) (recurring)
+1	0x23E	HIDDEN ITEM	Challenge Beach		(random pearl) (recurring)
+1	0x23F	HIDDEN ITEM	Challenge Beach		(random pearl) (recurring)
+1	0x240	HIDDEN ITEM	Challenge Beach		(random star) (recurring)
+1	0x241	HIDDEN ITEM	Challenge Beach		(random sand) (recurring)
+1	0x242	HIDDEN ITEM	Challenge Beach		(random pearl) (recurring)
+1	0x243	HIDDEN ITEM	Challenge Beach		(random ball) (recurring)
+1	0x244	HIDDEN ITEM	Challenge Beach		(random pearl) (recurring)
+1	0x245	HIDDEN ITEM	Challenge Beach		(random revive) (recurring)
+1	0x246	HIDDEN ITEM	Challenge Road		(random stone) (recurring)
+1	0x247	HIDDEN ITEM	Challenge Road		(random stone) (recurring)
+1	0x248	HIDDEN ITEM	Challenge Road		(random stone) (recurring)
+1	0x249	HIDDEN ITEM	Challenge Road		Armorite Ore
+1	0x24A	HIDDEN ITEM	Challenge Road		(random stone) (recurring)
+1	0x24B	HIDDEN ITEM	Challenge Road		(random stone) (recurring)
+1	0x24C	HIDDEN ITEM	Training Lowlands		(random stone) (recurring)
+1	0x24D	HIDDEN ITEM	Training Lowlands		(random ball) (recurring)
+1	0x24E	HIDDEN ITEM	Training Lowlands		(random nugget) (recurring)
+1	0x24F	HIDDEN ITEM	Training Lowlands		(random bulb) (recurring)
+1	0x250	HIDDEN ITEM	Training Lowlands		(random galarica) (recurring)
+1	0x251	HIDDEN ITEM	Training Lowlands		Rare Candy
+1	0x252	HIDDEN ITEM	Training Lowlands		(random galarica) (recurring)
+1	0x253	HIDDEN ITEM	Training Lowlands		(random herb) (recurring)
+1	0x254	HIDDEN ITEM	Training Lowlands		(random candy) (recurring)
+1	0x255	HIDDEN ITEM	Training Lowlands		(random ball) (recurring)
+1	0x256	HIDDEN ITEM	Training Lowlands		(random large leek) (recurring)
+1	0x257	HIDDEN ITEM	Training Lowlands		(random herb) (recurring)
+1	0x258	HIDDEN ITEM	Training Lowlands		(random ball) (recurring)
+1	0x259	HIDDEN ITEM	Training Lowlands		(random moss) (recurring)
+1	0x25A	HIDDEN ITEM	Training Lowlands		(random ball) (recurring)
+1	0x25B	HIDDEN ITEM	Training Lowlands		(random honey) (recurring)
+1	0x25C	HIDDEN ITEM	Workout Sea		(random star) (recurring)
+1	0x25D	HIDDEN ITEM	Workout Sea		(random star) (recurring)
+1	0x25E	HIDDEN ITEM	Workout Sea		(random star) (recurring)
+1	0x25F	HIDDEN ITEM	Workout Sea		(random star) (recurring)
+1	0x260	HIDDEN ITEM	Workout Sea		(random star) (recurring)
+1	0x261	HIDDEN ITEM	Workout Sea		(random star) (recurring)
+1	0x262	HIDDEN ITEM	Workout Sea		(random star) (recurring)
+1	0x263	HIDDEN ITEM	Workout Sea		(random star) (recurring)
+1	0x264	HIDDEN ITEM	Workout Sea		(random ball) (recurring)
+1	0x265	HIDDEN ITEM	Workout Sea		(random mushroom) (recurring)
+1	0x266	HIDDEN ITEM	Workout Sea		(random berry) (recurring)
+1	0x267	HIDDEN ITEM	Workout Sea		(random mushroom) (recurring)
+1	0x268	HIDDEN ITEM	Workout Sea		(random ball) (recurring)
+1	0x269	HIDDEN ITEM	Workout Sea		(random star) (recurring)
+1	0x26A	HIDDEN ITEM	Workout Sea		(random star) (recurring)
+1	0x26B	HIDDEN ITEM	Workout Sea		(random revive) (recurring)
+1	0x26C	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x26D	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x26E	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x26F	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x270	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x271	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x272	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x273	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x274	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x275	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x276	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x277	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x278	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x279	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x27A	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x27B	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x27C	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x27D	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x27E	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x27F	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x280	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x281	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x282	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x283	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x284	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x285	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x286	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x287	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x288	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x289	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x28A	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x28B	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x28C	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x28D	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x28E	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x28F	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x290	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x291	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x292	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x293	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x294	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x295	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x296	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x297	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x298	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x299	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x29A	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x29B	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x29C	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x29D	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x29E	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x29F	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x2A0	HIDDEN ITEM	Workout Sea		(random feather) (recurring)
+1	0x2A1	HIDDEN ITEM	Stepping-Stone Sea		Wishing Piece
+1	0x2A2	HIDDEN ITEM	Stepping-Stone Sea		(random pearl) (recurring)
+1	0x2A3	HIDDEN ITEM	Stepping-Stone Sea		(random pearl) (recurring)
+1	0x2A4	HIDDEN ITEM	Stepping-Stone Sea		(random star) (recurring)
+1	0x2A5	HIDDEN ITEM	Stepping-Stone Sea		(random star) (recurring)
+1	0x2A6	HIDDEN ITEM	Stepping-Stone Sea		(random star) (recurring)
+1	0x2A7	HIDDEN ITEM	Stepping-Stone Sea		(random galarica) (recurring)
+1	0x2A8	HIDDEN ITEM	Stepping-Stone Sea		(random galarica) (recurring)
+1	0x2A9	HIDDEN ITEM	Stepping-Stone Sea		(random seed) (recurring)
+1	0x2AA	HIDDEN ITEM	Stepping-Stone Sea		(random galarica) (recurring)
+1	0x2AB	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2AC	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2AD	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2AE	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2AF	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2B0	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2B1	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2B2	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2B3	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2B4	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2B5	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2B6	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2B7	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2B8	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2B9	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2BA	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2BB	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2BC	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2BD	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2BE	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2BF	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2C0	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2C1	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2C2	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2C3	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2C4	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2C5	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2C6	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2C7	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2C8	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2C9	HIDDEN ITEM	Stepping-Stone Sea		(random feather) (recurring)
+1	0x2CA	HIDDEN ITEM	Insular Sea		(random galarica) (recurring)
+1	0x2CB	HIDDEN ITEM	Insular Sea		(random mint) (recurring)
+1	0x2CC	HIDDEN ITEM	Insular Sea		(random honey) (recurring)
+1	0x2CD	HIDDEN ITEM	Insular Sea		(random ball) (recurring)
+1	0x2CE	HIDDEN ITEM	Insular Sea		(random mint) (recurring)
+1	0x2CF	HIDDEN ITEM	Insular Sea		(random star) (recurring)
+1	0x2D0	HIDDEN ITEM	Insular Sea		(random powder) (recurring)
+1	0x2D1	HIDDEN ITEM	Insular Sea		(random honey) (recurring)
+1	0x2D2	HIDDEN ITEM	Insular Sea		(random star) (recurring)
+1	0x2D3	HIDDEN ITEM	Insular Sea		(random star) (recurring)
+1	0x2D4	HIDDEN ITEM	Insular Sea		(random feather) (recurring)
+1	0x2D5	HIDDEN ITEM	Insular Sea		(random feather) (recurring)
+1	0x2D6	HIDDEN ITEM	Insular Sea		(random feather) (recurring)
+1	0x2D7	HIDDEN ITEM	Insular Sea		(random feather) (recurring)
+1	0x2D8	HIDDEN ITEM	Insular Sea		(random feather) (recurring)
+1	0x2D9	HIDDEN ITEM	Insular Sea		(random feather) (recurring)
+1	0x2DA	HIDDEN ITEM	Insular Sea		(random feather) (recurring)
+1	0x2DB	HIDDEN ITEM	Insular Sea		(random feather) (recurring)
+1	0x2DC	HIDDEN ITEM	Insular Sea		(random feather) (recurring)
+1	0x2DD	HIDDEN ITEM	Insular Sea		(random feather) (recurring)
+1	0x2DE	HIDDEN ITEM	Insular Sea		(random feather) (recurring)
+1	0x2DF	HIDDEN ITEM	Insular Sea		(random feather) (recurring)
+1	0x2E0	HIDDEN ITEM	Insular Sea		(random feather) (recurring)
+1	0x2E1	HIDDEN ITEM	Honeycalm Sea		(random star) (recurring)
+1	0x2E2	HIDDEN ITEM	Honeycalm Sea		(random star) (recurring)
+1	0x2E3	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2E4	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2E5	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2E6	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2E7	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2E8	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2E9	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2EA	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2EB	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2EC	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2ED	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2EE	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2EF	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2F0	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2F1	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2F2	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2F3	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2F4	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2F5	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2F6	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x2F7	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x30C	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x30D	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x30E	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x30F	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x310	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x311	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x312	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x313	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x314	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x315	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x316	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x317	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x318	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x319	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x31A	HIDDEN ITEM	Honeycalm Sea		(random feather) (recurring)
+1	0x31B	HIDDEN ITEM	Honeycalm Island		(random candy) (recurring)
+1	0x31C	HIDDEN ITEM	Honeycalm Island		(random candy) (recurring)
+1	0x31D	HIDDEN ITEM	Honeycalm Island		(random honey) (recurring)
+1	0x31E	HIDDEN ITEM	Honeycalm Island		(random candy) (recurring)
+1	0x31F	HIDDEN ITEM	Honeycalm Island		(random candy) (recurring)
+1	0x320	HIDDEN ITEM	Honeycalm Island		(random candy) (recurring)
+1	0x321	HIDDEN ITEM	Honeycalm Island		(random candy) (recurring)
+1	0x322	HIDDEN ITEM	Honeycalm Island		(random candy) (recurring)
+1	0x323	HIDDEN ITEM	Honeycalm Island		(random candy) (recurring)
+1	0x324	HIDDEN ITEM	Slippery Slope		(random star) (recurring)
+1	0x325	HIDDEN ITEM	Slippery Slope		(random potion) (recurring)
+1	0x326	HIDDEN ITEM	Slippery Slope		(random ball) (recurring)
+1	0x327	HIDDEN ITEM	Slippery Slope		(random candy) (recurring)
+1	0x328	HIDDEN ITEM	Slippery Slope		(random stone) (recurring)
+1	0x329	HIDDEN ITEM	Slippery Slope		(random ice heal) (recurring)
+1	0x32A	HIDDEN ITEM	Slippery Slope		(random ball) (recurring)
+1	0x32B	HIDDEN ITEM	Slippery Slope		Snow Ball
+1	0x32C	HIDDEN ITEM	Slippery Slope		(random stone) (recurring)
+1	0x32D	HIDDEN ITEM	Slippery Slope		(random candy) (recurring)
+1	0x32E	HIDDEN ITEM	Slippery Slope		(random candy) (recurring)
+1	0x32F	HIDDEN ITEM	Slippery Slope		(random ice heal) (recurring)
+1	0x330	HIDDEN ITEM	Slippery Slope		(random star) (recurring)
+1	0x331	HIDDEN ITEM	Slippery Slope		(random candy) (recurring)
+1	0x332	HIDDEN ITEM	Slippery Slope		(random revive) (recurring)
+1	0x333	HIDDEN ITEM	Slippery Slope		Exp. Candy M
+1	0x334	HIDDEN ITEM	Freezington		Nugget
+1	0x335	HIDDEN ITEM	Freezington		(random leek) (recurring)
+1	0x336	HIDDEN ITEM	Freezington		(random candy) (recurring)
+1	0x337	HIDDEN ITEM	Freezington		Wishing Piece
+1	0x338	HIDDEN ITEM	Freezington		(random root) (recurring)
+1	0x339	HIDDEN ITEM	Frostpoint Field		(random root) (recurring)
+1	0x33A	HIDDEN ITEM	Frostpoint Field		(random ball) (recurring)
+1	0x33B	HIDDEN ITEM	Frostpoint Field		(random root) (recurring)
+1	0x33C	HIDDEN ITEM	Frostpoint Field		(random candy) (recurring)
+1	0x33D	HIDDEN ITEM	Frostpoint Field		(random candy) (recurring)
+1	0x33E	HIDDEN ITEM	Frostpoint Field		Exp. Candy M
+1	0x33F	HIDDEN ITEM	Frostpoint Field		(random root) (recurring)
+1	0x340	HIDDEN ITEM	Frostpoint Field		(random candy) (recurring)
+1	0x341	HIDDEN ITEM	Frostpoint Field		(random candy) (recurring)
+1	0x342	HIDDEN ITEM	Frostpoint Field		Wise Glasses
+1	0x343	HIDDEN ITEM	Frostpoint Field		(random ball) (recurring)
+1	0x344	HIDDEN ITEM	Frostpoint Field		(random candy) (recurring)
+1	0x345	HIDDEN ITEM	Frostpoint Field		(random candy) (recurring)
+1	0x346	HIDDEN ITEM	Frostpoint Field		(random antidote) (recurring)
+1	0x347	HIDDEN ITEM	Giant's Bed		(random mushroom) (recurring)
+1	0x348	HIDDEN ITEM	Giant's Bed		(random mushroom) (recurring)
+1	0x349	HIDDEN ITEM	Giant's Bed		(random stone) (recurring)
+1	0x34A	HIDDEN ITEM	Giant's Bed		(random revive) (recurring)
+1	0x34B	HIDDEN ITEM	Giant's Bed		(random mushroom) (recurring)
+1	0x34C	HIDDEN ITEM	Giant's Bed		(random honey) (recurring)
+1	0x34D	HIDDEN ITEM	Giant's Bed		(random root) (recurring)
+1	0x34E	HIDDEN ITEM	Giant's Bed		(random herb) (recurring)
+1	0x34F	HIDDEN ITEM	Giant's Bed		(random honey) (recurring)
+1	0x350	HIDDEN ITEM	Giant's Bed		(random mint) (recurring)
+1	0x351	HIDDEN ITEM	Giant's Bed		(random ball) (recurring)
+1	0x352	HIDDEN ITEM	Giant's Bed		(random revive) (recurring)
+1	0x353	HIDDEN ITEM	Giant's Bed		(random mint) (recurring)
+1	0x354	HIDDEN ITEM	Giant's Bed		(random potion) (recurring)
+1	0x355	HIDDEN ITEM	Giant's Bed		(random herb) (recurring)
+1	0x356	HIDDEN ITEM	Giant's Bed		(random herb) (recurring)
+1	0x357	HIDDEN ITEM	Giant's Bed		(random ball) (recurring)
+1	0x358	HIDDEN ITEM	Giant's Bed		(random herb) (recurring)
+1	0x359	HIDDEN ITEM	Giant's Bed		(random antidote) (recurring)
+1	0x35A	HIDDEN ITEM	Giant's Bed		(random revive) (recurring)
+1	0x35B	HIDDEN ITEM	Giant's Bed		(random mushroom) (recurring)
+1	0x35C	HIDDEN ITEM	Giant's Bed		HP Up
+1	0x35D	HIDDEN ITEM	Giant's Bed		(random stone) (recurring)
+1	0x35E	HIDDEN ITEM	Giant's Bed		(random mint) (recurring)
+1	0x35F	HIDDEN ITEM	Giant's Bed		(random mushroom) (recurring)
+1	0x360	HIDDEN ITEM	Giant's Bed		(random root) (recurring)
+1	0x361	HIDDEN ITEM	Giant's Bed		(random root) (recurring)
+1	0x362	HIDDEN ITEM	Giant's Bed		(random mushroom) (recurring)
+1	0x363	HIDDEN ITEM	Giant's Bed		(random mushroom) (recurring)
+1	0x364	HIDDEN ITEM	Giant's Bed		(random mint) (recurring)
+1	0x365	HIDDEN ITEM	Giant's Bed		(random pungent root) (recurring)
+1	0x366	HIDDEN ITEM	Giant's Bed		(random mint) (recurring)
+1	0x367	HIDDEN ITEM	Giant's Bed		(random ball) (recurring)
+1	0x368	HIDDEN ITEM	Giant's Bed		(random mint) (recurring)
+1	0x369	HIDDEN ITEM	Giant's Bed		(random pungent root) (recurring)
+1	0x36A	HIDDEN ITEM	Giant's Bed		(random root) (recurring)
+1	0x36B	HIDDEN ITEM	Giant's Bed		(random mushroom) (recurring)
+1	0x36C	HIDDEN ITEM	Giant's Bed		(random root) (recurring)
+1	0x36D	HIDDEN ITEM	Giant's Bed		(random mushroom) (recurring)
+1	0x36E	HIDDEN ITEM	Giant's Bed		(random root) (recurring)
+1	0x36F	HIDDEN ITEM	Giant's Bed		(random mint) (recurring)
+1	0x370	HIDDEN ITEM	Giant's Bed		(random herb) (recurring)
+1	0x371	HIDDEN ITEM	Giant's Bed		(random herb) (recurring)
+1	0x372	HIDDEN ITEM	Giant's Bed		(random mint) (recurring)
+1	0x373	HIDDEN ITEM	Giant's Bed		(random seed) (recurring)
+1	0x374	HIDDEN ITEM	Giant's Bed		(random mint) (recurring)
+1	0x375	HIDDEN ITEM	Giant's Bed		(random mint) (recurring)
+1	0x376	HIDDEN ITEM	Giant's Bed		(random mint) (recurring)
+1	0x377	HIDDEN ITEM	Giant's Bed		(random potion) (recurring)
+1	0x378	HIDDEN ITEM	Giant's Bed		(random root) (recurring)
+1	0x379	HIDDEN ITEM	Giant's Bed		(random mint) (recurring)
+1	0x37A	HIDDEN ITEM	Giant's Bed		(random ball) (recurring)
+1	0x37B	HIDDEN ITEM	Giant's Bed		Rare Candy
+1	0x37C	HIDDEN ITEM	Giant's Bed		(random herb) (recurring)
+1	0x37D	HIDDEN ITEM	Old Cemetery		(random root) (recurring)
+1	0x37E	HIDDEN ITEM	Old Cemetery		(random root) (recurring)
+1	0x37F	HIDDEN ITEM	Old Cemetery		Pecha Berry (recurring)
+1	0x380	HIDDEN ITEM	Old Cemetery		(random tag) (recurring)
+1	0x381	HIDDEN ITEM	Old Cemetery		(random potion) (recurring)
+1	0x382	HIDDEN ITEM	Old Cemetery		(random star) (recurring)
+1	0x383	HIDDEN ITEM	Old Cemetery		(random pearl) (recurring)
+1	0x384	HIDDEN ITEM	Old Cemetery		Pearl String
+1	0x385	HIDDEN ITEM	Old Cemetery		Rare Candy
+1	0x386	HIDDEN ITEM	Old Cemetery		(random ball) (recurring)
+1	0x387	HIDDEN ITEM	Old Cemetery		(random mushroom) (recurring)
+1	0x388	HIDDEN ITEM	Snowslide Slope		(random snowball) (recurring)
+1	0x389	HIDDEN ITEM	Snowslide Slope		(random candy) (recurring)
+1	0x38A	HIDDEN ITEM	Snowslide Slope		(random ball) (recurring)
+1	0x38B	HIDDEN ITEM	Snowslide Slope		(random root) (recurring)
+1	0x38C	HIDDEN ITEM	Snowslide Slope		Revive
+1	0x38D	HIDDEN ITEM	Snowslide Slope		(random snowball) (recurring)
+1	0x38E	HIDDEN ITEM	Snowslide Slope		(random potion) (recurring)
+1	0x38F	HIDDEN ITEM	Snowslide Slope		(random ice heal) (recurring)
+1	0x390	HIDDEN ITEM	Snowslide Slope		(random repel) (recurring)
+1	0x391	HIDDEN ITEM	Snowslide Slope		(random candy) (recurring)
+1	0x392	HIDDEN ITEM	Snowslide Slope		(random revive) (recurring)
+1	0x393	HIDDEN ITEM	Snowslide Slope		(random root) (recurring)
+1	0x394	HIDDEN ITEM	Snowslide Slope		(random stone) (recurring)
+1	0x395	HIDDEN ITEM	Snowslide Slope		(random stone) (recurring)
+1	0x396	HIDDEN ITEM	Snowslide Slope		(random candy) (recurring)
+1	0x397	HIDDEN ITEM	Snowslide Slope		Exp. Candy L
+1	0x398	HIDDEN ITEM	Snowslide Slope		(random root) (recurring)
+1	0x399	HIDDEN ITEM	Snowslide Slope		(random stone) (recurring)
+1	0x39A	HIDDEN ITEM	Snowslide Slope		Rare Candy
+1	0x39B	HIDDEN ITEM	Snowslide Slope		(random candy) (recurring)
+1	0x39C	HIDDEN ITEM	Snowslide Slope		(random snowball) (recurring)
+1	0x39D	HIDDEN ITEM	Snowslide Slope		(random candy) (recurring)
+1	0x39E	HIDDEN ITEM	Snowslide Slope		(random ball) (recurring)
+1	0x39F	HIDDEN ITEM	Snowslide Slope		(random miracle seed) (recurring)
+1	0x3A0	HIDDEN ITEM	Snowslide Slope		(random candy) (recurring)
+1	0x3A1	HIDDEN ITEM	Snowslide Slope		Exp. Candy S
+1	0x3A2	HIDDEN ITEM	Snowslide Slope		Exp. Candy M
+1	0x3A3	HIDDEN ITEM	Snowslide Slope		PP Up
+1	0x3A4	HIDDEN ITEM	Snowslide Slope		(random ball) (recurring)
+1	0x3A5	HIDDEN ITEM	Snowslide Slope		(random ball) (recurring)
+1	0x3A6	HIDDEN ITEM	Snowslide Slope		(random stone) (recurring)
+1	0x3A7	HIDDEN ITEM	Snowslide Slope		Wishing Piece
+1	0x3A8	HIDDEN ITEM	Tunnel to the Top		(random stone) (recurring)
+1	0x3A9	HIDDEN ITEM	Tunnel to the Top		(random stone) (recurring)
+1	0x3AA	HIDDEN ITEM	Tunnel to the Top		(random ball) (recurring)
+1	0x3AB	HIDDEN ITEM	Tunnel to the Top		(random ice heal) (recurring)
+1	0x3AC	HIDDEN ITEM	Tunnel to the Top		(random stone) (recurring)
+1	0x3AD	HIDDEN ITEM	Tunnel to the Top		(random stone) (recurring)
+1	0x3AE	HIDDEN ITEM	Tunnel to the Top		(random bone) (recurring)
+1	0x3AF	HIDDEN ITEM	Tunnel to the Top		(random bone) (recurring)
+1	0x3B0	HIDDEN ITEM	Tunnel to the Top		Normal Gem
+1	0x3B1	HIDDEN ITEM	Tunnel to the Top		(random revive) (recurring)
+1	0x3B2	HIDDEN ITEM	Tunnel to the Top		(random ball) (recurring)
+1	0x3B3	HIDDEN ITEM	Tunnel to the Top		(random revive) (recurring)
+1	0x3B4	HIDDEN ITEM	Tunnel to the Top		(random star) (recurring)
+1	0x3B5	HIDDEN ITEM	Tunnel to the Top		(random stone) (recurring)
+1	0x3B6	HIDDEN ITEM	Tunnel to the Top		(random star) (recurring)
+1	0x3B7	HIDDEN ITEM	Tunnel to the Top		(random potion) (recurring)
+1	0x3B8	HIDDEN ITEM	Tunnel to the Top		Max Revive
+1	0x3B9	HIDDEN ITEM	Path to the Peak		(random candy) (recurring)
+1	0x3BA	HIDDEN ITEM	Path to the Peak		(random candy) (recurring)
+1	0x3BB	HIDDEN ITEM	Path to the Peak		(random candy) (recurring)
+1	0x3BC	HIDDEN ITEM	Path to the Peak		(random candy) (recurring)
+1	0x3BD	HIDDEN ITEM	Path to the Peak		(random candy) (recurring)
+1	0x3BE	HIDDEN ITEM	Path to the Peak		(random candy) (recurring)
+1	0x3BF	HIDDEN ITEM	Path to the Peak		(random candy) (recurring)
+1	0x3C0	HIDDEN ITEM	Crown Shrine	Outside	(random candy) (recurring)
+1	0x3C1	HIDDEN ITEM	Crown Shrine	Outside	Bottle Cap
+1	0x3C2	HIDDEN ITEM	Giant's Foot		(random root) (recurring)
+1	0x3C3	HIDDEN ITEM	Giant's Foot		(random ball) (recurring)
+1	0x3C4	HIDDEN ITEM	Giant's Foot		(random ball) (recurring)
+1	0x3C5	HIDDEN ITEM	Giant's Foot		Nugget
+1	0x3C6	HIDDEN ITEM	Giant's Foot		(random pungent root) (recurring)
+1	0x3C7	HIDDEN ITEM	Giant's Foot		(random seed) (recurring)
+1	0x3C8	HIDDEN ITEM	Giant's Foot		Nugget
+1	0x3C9	HIDDEN ITEM	Giant's Foot		(random stone) (recurring)
+1	0x3CA	HIDDEN ITEM	Giant's Foot		(random mushroom) (recurring)
+1	0x3CB	HIDDEN ITEM	Giant's Foot		(random potion) (recurring)
+1	0x3CC	HIDDEN ITEM	Giant's Foot		(random herb) (recurring)
+1	0x3CD	HIDDEN ITEM	Giant's Foot		(random mushroom) (recurring)
+1	0x3CE	HIDDEN ITEM	Giant's Foot		Rare Bone
+1	0x3CF	HIDDEN ITEM	Giant's Foot		(random bottle cap) (recurring)
+1	0x3D0	HIDDEN ITEM	Giant's Foot		(random bottle cap) (recurring)
+1	0x3D1	HIDDEN ITEM	Giant's Foot		(random pungent root) (recurring)
+1	0x3D2	HIDDEN ITEM	Roaring-Sea Caves		(random revive) (recurring)
+1	0x3D3	HIDDEN ITEM	Roaring-Sea Caves		(random stone) (recurring)
+1	0x3D4	HIDDEN ITEM	Roaring-Sea Caves		(random star) (recurring)
+1	0x3D5	HIDDEN ITEM	Roaring-Sea Caves		(random stone) (recurring)
+1	0x3D6	HIDDEN ITEM	Roaring-Sea Caves		(random ball) (recurring)
+1	0x3D7	HIDDEN ITEM	Roaring-Sea Caves		(random stone) (recurring)
+1	0x3D8	HIDDEN ITEM	Roaring-Sea Caves		(random star) (recurring)
+1	0x3D9	HIDDEN ITEM	Roaring-Sea Caves		(random mushroom) (recurring)
+1	0x3DA	HIDDEN ITEM	Roaring-Sea Caves		(random stone) (recurring)
+1	0x3DB	HIDDEN ITEM	Roaring-Sea Caves		Everstone
+1	0x3DC	HIDDEN ITEM	Roaring-Sea Caves		(random star) (recurring)
+1	0x3DD	HIDDEN ITEM	Roaring-Sea Caves		(random stone) (recurring)
+1	0x3DE	HIDDEN ITEM	Roaring-Sea Caves		(random stone) (recurring)
+1	0x3DF	HIDDEN ITEM	Roaring-Sea Caves		(random stone) (recurring)
+1	0x3E0	HIDDEN ITEM	Roaring-Sea Caves		(random stone) (recurring)
+1	0x3E1	HIDDEN ITEM	Roaring-Sea Caves		(random stone) (recurring)
+1	0x3E2	HIDDEN ITEM	Roaring-Sea Caves		(random stone) (recurring)
+1	0x3E3	HIDDEN ITEM	Roaring-Sea Caves		(random stone) (recurring)
+1	0x3E4	HIDDEN ITEM	Roaring-Sea Caves		(random stone) (recurring)
+1	0x3E5	HIDDEN ITEM	Roaring-Sea Caves		(random stone) (recurring)
+1	0x3E6	HIDDEN ITEM	Roaring-Sea Caves		(random stone) (recurring)
+1	0x3E7	HIDDEN ITEM	Roaring-Sea Caves		(random stone) (recurring)
+1	0x3E8	HIDDEN ITEM	Roaring-Sea Caves		(random stone) (recurring)
+1	0x3E9	HIDDEN ITEM	Frigid Sea		(random root) (recurring)
+1	0x3EA	HIDDEN ITEM	Frigid Sea		(random pearl) (recurring)
+1	0x3EB	HIDDEN ITEM	Frigid Sea		(random pearl) (recurring)
+1	0x3EC	HIDDEN ITEM	Frigid Sea		(random pearl) (recurring)
+1	0x3ED	HIDDEN ITEM	Frigid Sea		(random star) (recurring)
+1	0x3EE	HIDDEN ITEM	Frigid Sea		(random pearl) (recurring)
+1	0x3EF	HIDDEN ITEM	Frigid Sea		(random star) (recurring)
+1	0x3F0	HIDDEN ITEM	Frigid Sea		(random pearl) (recurring)
+1	0x3F1	HIDDEN ITEM	Frigid Sea		Wishing Piece
+1	0x3F2	HIDDEN ITEM	Frigid Sea		(random ball) (recurring)
+1	0x3F3	HIDDEN ITEM	Frigid Sea		(random ball) (recurring)
+1	0x3F4	HIDDEN ITEM	Frigid Sea		(random pearl) (recurring)
+1	0x3F5	HIDDEN ITEM	Frigid Sea		(random pearl) (recurring)
+1	0x3F6	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x3F7	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x3F8	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x3F9	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x3FA	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x3FB	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x3FC	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x3FD	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x3FE	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x3FF	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x400	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x401	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x402	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x403	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x404	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x405	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x406	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x407	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x408	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x409	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x40A	HIDDEN ITEM	Frigid Sea		(random feather) (recurring)
+1	0x40B	HIDDEN ITEM	Three-Point Pass		(random star) (recurring)
+1	0x40C	HIDDEN ITEM	Three-Point Pass		Revival Herb (recurring)
+1	0x40D	HIDDEN ITEM	Three-Point Pass		Energy Root (recurring)
+1	0x40E	HIDDEN ITEM	Three-Point Pass		(random star) (recurring)
+1	0x40F	HIDDEN ITEM	Three-Point Pass		(random ball) (recurring)
+1	0x410	HIDDEN ITEM	Three-Point Pass		(random ball) (recurring)
+1	0x411	HIDDEN ITEM	Ballimere Lake		(random galarica) (recurring)
+1	0x412	HIDDEN ITEM	Ballimere Lake		(random galarica) (recurring)
+1	0x413	HIDDEN ITEM	Ballimere Lake		(random apricorn) (recurring)
+1	0x414	HIDDEN ITEM	Ballimere Lake		(random herb) (recurring)
+1	0x415	HIDDEN ITEM	Ballimere Lake		(random galarica) (recurring)
+1	0x416	HIDDEN ITEM	Ballimere Lake		(random pungent root) (recurring)
+1	0x417	HIDDEN ITEM	Ballimere Lake		(random herb) (recurring)
+1	0x418	HIDDEN ITEM	Ballimere Lake		(random apricorn) (recurring)
+1	0x419	HIDDEN ITEM	Ballimere Lake		(random apricorn) (recurring)
+1	0x41A	HIDDEN ITEM	Ballimere Lake		(random galarica) (recurring)
+1	0x41B	HIDDEN ITEM	Ballimere Lake		Galarica Twig
+1	0x41C	HIDDEN ITEM	Ballimere Lake		(random herb) (recurring)
+1	0x41D	HIDDEN ITEM	Ballimere Lake		(random apricorn) (recurring)
+1	0x41E	HIDDEN ITEM	Ballimere Lake		(random apricorn) (recurring)
+1	0x41F	HIDDEN ITEM	Ballimere Lake		(random herb) (recurring)
+1	0x420	HIDDEN ITEM	Ballimere Lake		(random root) (recurring)
+1	0x421	HIDDEN ITEM	Ballimere Lake		(random galarica) (recurring)
+1	0x422	HIDDEN ITEM	Ballimere Lake		(random apricorn) (recurring)
+1	0x423	HIDDEN ITEM	Ballimere Lake		(random herb) (recurring)
+1	0x424	HIDDEN ITEM	Ballimere Lake		(random galarica) (recurring)
+1	0x425	HIDDEN ITEM	Ballimere Lake		(random candy) (recurring)
+1	0x426	HIDDEN ITEM	Ballimere Lake		(random galarica) (recurring)
+1	0x427	HIDDEN ITEM	Ballimere Lake		(random mushroom) (recurring)
+1	0x428	HIDDEN ITEM	Ballimere Lake		(random miracle seed) (recurring)
+1	0x429	HIDDEN ITEM	Ballimere Lake		(random apricorn) (recurring)
+1	0x42A	HIDDEN ITEM	Ballimere Lake		(random apricorn) (recurring)
+1	0x42B	HIDDEN ITEM	Ballimere Lake		(random galarica) (recurring)
+1	0x42C	HIDDEN ITEM	Ballimere Lake		(random herb) (recurring)
+1	0x42D	HIDDEN ITEM	Ballimere Lake		Wishing Piece
+1	0x42E	HIDDEN ITEM	Ballimere Lake		(random apricorn) (recurring)
+1	0x42F	HIDDEN ITEM	Ballimere Lake		(random galarica) (recurring)
+1	0x430	HIDDEN ITEM	Ballimere Lake		(random galarica) (recurring)
+1	0x431	HIDDEN ITEM	Ballimere Lake		Galarica Twig
+1	0x432	HIDDEN ITEM	Ballimere Lake		(random galarica) (recurring)
+1	0x433	HIDDEN ITEM	Ballimere Lake		(random ball) (recurring)
+1	0x434	HIDDEN ITEM	Ballimere Lake		(random star) (recurring)
+1	0x435	HIDDEN ITEM	Ballimere Lake		(random root) (recurring)
+1	0x436	HIDDEN ITEM	Ballimere Lake		(random ball) (recurring)
+1	0x437	HIDDEN ITEM	Ballimere Lake		(random star) (recurring)
+1	0x438	HIDDEN ITEM	Ballimere Lake		(random pungent root) (recurring)
+1	0x439	HIDDEN ITEM	Ballimere Lake		(random powder) (recurring)
+1	0x43A	HIDDEN ITEM	Ballimere Lake		(random pungent root) (recurring)
+1	0x43B	HIDDEN ITEM	Ballimere Lake		(random galarica) (recurring)
+1	0x43C	HIDDEN ITEM	Ballimere Lake		(random star) (recurring)
+1	0x43D	HIDDEN ITEM	Ballimere Lake		(random candy) (recurring)
+1	0x43E	HIDDEN ITEM	Ballimere Lake		(random galarica) (recurring)
+1	0x43F	HIDDEN ITEM	Ballimere Lake		(random herb) (recurring)
+1	0x440	HIDDEN ITEM	Lakeside Cave		(random star) (recurring)
+1	0x441	HIDDEN ITEM	Lakeside Cave		Rare Bone
+1	0x442	HIDDEN ITEM	Lakeside Cave		(random star) (recurring)
+1	0x443	HIDDEN ITEM	Lakeside Cave		(random star) (recurring)
+1	0x444	HIDDEN ITEM	Lakeside Cave		(random star) (recurring)
+1	0x445	HIDDEN ITEM	Lakeside Cave		(random star) (recurring)
+1	0x446	HIDDEN ITEM	Lakeside Cave		Everstone
+1	0x447	HIDDEN ITEM	Lakeside Cave		(random star) (recurring)
+1	0x448	HIDDEN ITEM	Lakeside Cave		Dusk Ball (recurring)
+1	0x449	HIDDEN ITEM	Lakeside Cave		Dusk Ball (recurring)
+1	0x44A	HIDDEN ITEM	Dyna Tree Hill		(random apricorn) (recurring)
+1	0x44B	HIDDEN ITEM	Dyna Tree Hill		(random apricorn) (recurring)
+1	0x44C	HIDDEN ITEM	Dyna Tree Hill		(random apricorn) (recurring)
+1	0x44D	HIDDEN ITEM	Dyna Tree Hill		(random apricorn) (recurring)
+1	0x44E	HIDDEN ITEM	Dyna Tree Hill		(random apricorn) (recurring)
+1	0x44F	HIDDEN ITEM	Dyna Tree Hill		(random apricorn) (recurring)
+1	0x450	HIDDEN ITEM	Dyna Tree Hill		(random apricorn) (recurring)
+1	0x451	HIDDEN ITEM	Dyna Tree Hill		(random apricorn) (recurring)
+1	0x452	HIDDEN ITEM	Dyna Tree Hill		(random apricorn) (recurring)
+1	0x453	HIDDEN ITEM	Dyna Tree Hill		(random apricorn) (recurring)
+1	0x454	HIDDEN ITEM	Dyna Tree Hill		(random apricorn) (recurring)
+1	0x455	HIDDEN ITEM	Dyna Tree Hill		(random apricorn) (recurring)
+1	0x456	HIDDEN ITEM	Dyna Tree Hill		(random apricorn) (recurring)
 0	0x0CA3AB7BC41B40F7	PKMN GIFT			KReceivedGiftToxel
 0	0x1AFCC4349D95E9CA	PKMN GIFT			KReceivedGiftPikachu
 0	0xD486E243855235FF	PKMN GIFT			KReceivedGiftEevee
@@ -540,274 +1553,423 @@
 0	0xDCB0C3BDF769B85E	STATIC ENCOUNTER			KCapturedStakataka
 0	0x65F68B3C89A3C37E	FLY SPOT			FSYS_FLY_WR03_WATTSHOP
 0	0xB164E2D127F02776	FLY SPOT			FSYS_FLY_WR03_STATION
-0	0xC41833D23BF3E4D6	FIELD ITEM			z_r0101_ItemNormal_0
-0	0x2021F5BCA6C76681	FIELD ITEM			z_r0101_ItemNormal_0_0
-0	0xCE34C0177F119613	FIELD ITEM			z_t0201_ItemNormal_0
-0	0x11BCCF931EAE5AFC	FIELD ITEM			z_t0201_ItemNormal_0_0
-0	0x7961A3D99618830D	FIELD ITEM			z_r0201_ItemNormal_0
-0	0x9AE91621CD02D952	FIELD ITEM			z_r0201_ItemNormal_0_0
-0	0x9AE91421CD02D5EC	FIELD ITEM			z_r0201_ItemNormal_0_2
-0	0x9AE91021CD02CF20	FIELD ITEM			z_r0201_ItemNormal_0_6
-0	0x3F6B8309C7BE59AA	FIELD ITEM			z_r0201_ItemRare_0
-0	0xC6A68390B2BC4B45	FIELD ITEM			z_r0202_ItemNormal_0_4
-0	0xC6A68290B2BC4992	FIELD ITEM			z_r0202_ItemNormal_0_5
-0	0xFD3EAAC3BBB8A9D5	FIELD ITEM			z_r0202_ItemRare_0
-0	0x716A25E1D88B0DC7	FIELD ITEM			z_c0101_ItemNormal_0
-0	0x258DC545168346E8	FIELD ITEM			z_c0101_ItemNormal_0_0
-0	0x258DC6451683489B	FIELD ITEM			z_c0101_ItemNormal_0_1
-0	0x95F6041B49910048	FIELD ITEM			z_c0101_ItemRare_0
-0	0xF88FA7BC5B7B83DF	FIELD ITEM			z_c0101_ItemRare_0_0
-0	0x19B21F68176166F3	FIELD ITEM			z_r0301_ItemNormal_0_0
-0	0x19B21E6817616540	FIELD ITEM			z_r0301_ItemNormal_0_1
-0	0x19B22068176168A6	FIELD ITEM			z_r0301_ItemNormal_0_3
-0	0x7036F63D732D738F	FIELD ITEM			z_r0301_ItemRare_0
-0	0xDDD3784261400ACA	FIELD ITEM			z_d0301_ItemNormal_0
-0	0xE925978A0619F7B9	FIELD ITEM			z_d0301_ItemRare_0
-0	0xC443EFC94A93F2E3	FIELD ITEM			z_r0401_ItemNormal_0
-0	0x56FE31860766428C	FIELD ITEM			z_r0401_ItemNormal_0_0
-0	0x56FE32860766443F	FIELD ITEM			z_r0401_ItemNormal_0_1
-0	0xFCB8330BB6141D7C	FIELD ITEM			z_r0401_ItemRare_0
-0	0x56FE3386076645F2	FIELD ITEM			z_r0401_ItemNormal_0_2
-0	0x716F2671814795FD	FIELD ITEM			z_t0301_ItemNormal_0_0
-0	0xB20F6B1737A20CA9	FIELD ITEM			z_t0301_ItemRare_0
-0	0x44B8EBF865BA719A	FIELD ITEM			z_t0301_ItemNormal_0
-0	0x716F25718147944A	FIELD ITEM			z_t0301_ItemNormal_0_1
-0	0xBFA26EAF101F0F6A	FIELD ITEM			z_r0501_ItemNormal_0
-0	0x243562933DDFBE5A	FIELD ITEM			z_r0501_ItemNormal_0_1
-0	0x243561933DDFBCA7	FIELD ITEM			z_r0501_ItemNormal_0_2
-0	0x91272CD0007DA659	FIELD ITEM			z_r0501_ItemRare_0
-0	0xFDF98A8ADC5DCD02	FIELD ITEM			z_t0401_ItemNormal_0_0
-0	0xFDF98B8ADC5DCEB5	FIELD ITEM			z_t0401_ItemNormal_0_1
-0	0xFDF9868ADC5DC636	FIELD ITEM			z_t0401_ItemNormal_0_4
-0	0xA6DD2A59C1D9637A	FIELD ITEM			z_t0401_ItemRare_0
-0	0xFA8B3D541DC97447	FIELD ITEM			z_c0201_ItemRare_0
-0	0xDC1EFA9F49579CCC	FIELD ITEM			z_c0201_ItemNormal_0
-0	0x6C8BB63AA804BE1B	FIELD ITEM			z_c0201_ItemNormal_0_0
-0	0x6C8BB53AA804BC68	FIELD ITEM			z_c0201_ItemNormal_0_1
-0	0x6C8BB83AA804C181	FIELD ITEM			z_c0201_ItemNormal_0_2
-0	0x94B3758815FE2011	FIELD ITEM			z_r0601_ItemNormal_0
-0	0xFD9AC7E9B9F834A6	FIELD ITEM			z_r0601_ItemRare_0
-0	0x7ECEEE481CF4A80E	FIELD ITEM			z_r0601_ItemNormal_0_0
-0	0x7ECEEF481CF4A9C1	FIELD ITEM			z_r0601_ItemNormal_0_1
-0	0xB80D116F46D24E48	HIDDEN ITEM			z_r0601_HiddenItem_0_K
-0	0xB80D006F46D23165	HIDDEN ITEM			z_r0601_HiddenItem_0_T
-0	0x7664BE1E59942F84	FIELD ITEM			z_t0501_ItemNormal_0
-0	0x619641731EE0BFE3	FIELD ITEM			z_t0501_ItemNormal_0_0
-0	0x619640731EE0BE30	FIELD ITEM			z_t0501_ItemNormal_0_1
-0	0x5D6F30D34650D9DF	FIELD ITEM			z_t0501_ItemRare_0
-0	0x672015C2ADF7079F	FIELD ITEM			z_t0601_ItemNormal_0
-0	0x3C70028498BE106C	FIELD ITEM			z_r0701_ItemNormal_0_1
-0	0x3C70058498BE1585	FIELD ITEM			z_r0701_ItemNormal_0_2
-0	0x62B154BB834AF76B	FIELD ITEM			z_r0701_ItemRare_0
-0	0xAC0295A277945857	FIELD ITEM			z_r0801_ItemNormal_0
-0	0x2589363660E14C78	FIELD ITEM			z_r0801_ItemNormal_0_0
-0	0x2589383660E14FDE	FIELD ITEM			z_r0801_ItemNormal_0_2
-0	0x2589393660E15191	FIELD ITEM			z_r0801_ItemNormal_0_3
-0	0x25893A3660E15344	FIELD ITEM			z_r0801_ItemNormal_0_4
-0	0xC8082BAA16EAF8F8	FIELD ITEM			z_r0801_ItemRare_0
-0	0x2589373660E14E2B	FIELD ITEM			z_r0801_ItemNormal_0_1
-0	0x25893B3660E154F7	FIELD ITEM			z_r0801_ItemNormal_0_5
-0	0x75C43E481C8BB09D	FIELD ITEM			z_t0701_ItemRare_0
-0	0x550E9D0801FE5A6D	FIELD ITEM			z_r0902_ItemNormal_0
-0	0xF08D8861BFF4AB0A	FIELD ITEM			z_r0902_ItemRare_0
-0	0xEC7CF877D97B3E4C	FIELD ITEM			z_r0903_ItemNormal_0
-0	0x5C1DCDA0FE0FBE53	FIELD ITEM			z_r0904_ItemNormal_0
-0	0x493A64302221F8BC	FIELD ITEM			z_r0904_ItemNormal_0_0
-0	0x493A65302221FA6F	FIELD ITEM			z_r0904_ItemNormal_0_1
-0	0x493A66302221FC22	FIELD ITEM			z_r0904_ItemNormal_0_2
-0	0x493A60302221F1F0	FIELD ITEM			z_r0904_ItemNormal_0_4
-0	0xA56AF853D399D849	FIELD ITEM			z_t0801_ItemNormal_0
-0	0x1D567541FE6B0256	FIELD ITEM			z_t0801_ItemNormal_0_0
-0	0xE3929B7DCFCE1FA5	FIELD ITEM			z_c0301_ItemNormal_0
-0	0x2A02E2064E521E9A	FIELD ITEM			z_c0301_ItemNormal_0_0
-0	0xBF896E0972D83BF9	FIELD ITEM			z_c0306_ItemRare_0
-0	0x008DDC6A02726E0A	FIELD ITEM			z_c0306_ItemNormal_0
-0	0x7CF3200AB8D2EF6D	FIELD ITEM			z_c0306_ItemNormal_0_0
-0	0xFDD07699B79CCDF0	FIELD ITEM			z_r1001_ItemNormal_0_1
-0	0x18E2E0607DBB9037	FIELD ITEM			z_r1002_ItemNormal_0
-0	0x2CF1CB64F93A176D	FIELD ITEM			z_r1003_ItemRare_0
+0	0xC41833D23BF3E4D6	FIELD ITEM	Route 1		Paralyze Heal (x2)
+0	0x2021F5BCA6C76681	FIELD ITEM	Route 1		Potion
+0	0xCE34C0177F119613	FIELD ITEM	Wedgehurst		Rare Candy
+0	0x11BCCF931EAE5AFC	FIELD ITEM	Wedgehurst		Poké Doll
+0	0x7961A3D99618830D	FIELD ITEM	Route 2		Potion (x2)
+0	0x9AE91621CD02D952	FIELD ITEM	Route 2		Poké Ball (x3)
+0	0x9AE91421CD02D5EC	FIELD ITEM	Route 2		Great Ball
+0	0x9AE91021CD02CF20	FIELD ITEM	Route 2		TM57 (Payback)
+0	0x3F6B8309C7BE59AA	FIELD ITEM	Route 2		Choice Band
+0	0xC6A68390B2BC4B45	FIELD ITEM	Route 2		PP Max
+0	0xC6A68290B2BC4992	FIELD ITEM	Route 2		Psychic Seed
+0	0xFD3EAAC3BBB8A9D5	FIELD ITEM	Route 2		TM69 (Psycho Cut)
+0	0x716A25E1D88B0DC7	FIELD ITEM	Motostoke	Upper Tier	Silk Scarf
+0	0x258DC545168346E8	FIELD ITEM	Motostoke	Lower tier	Black Glasses
+0	0x258DC6451683489B	FIELD ITEM	Motostoke	Upper Tier	Burn Heal (x3)
+0	0x95F6041B49910048	FIELD ITEM	Motostoke	Lower tier	TM02 (Pay Day)
+0	0xF88FA7BC5B7B83DF	FIELD ITEM	Motostoke	Lower tier	Great Ball (x3)
+0	0x19B21F68176166F3	FIELD ITEM	Route 3		Heal Ball (x3)
+0	0x19B21E6817616540	FIELD ITEM	Route 3		TM54 (Rock Blast)
+0	0x19B22068176168A6	FIELD ITEM	Route 3		Super Potion
+0	0x7036F63D732D738F	FIELD ITEM	Route 3		TM37 (Beat Up)
+0	0xDDD3784261400ACA	FIELD ITEM	Motostoke Outskirts		Amulet Coin
+0	0xE925978A0619F7B9	FIELD ITEM	Motostoke Outskirts		Great Ball (x3)
+0	0xC443EFC94A93F2E3	FIELD ITEM	Route 4		Nest Ball (x3)
+0	0x56FE31860766428C	FIELD ITEM	Route 4		Cleanse Tag
+0	0x56FE32860766443F	FIELD ITEM	Route 4		Silver Powder
+0	0xFCB8330BB6141D7C	FIELD ITEM	Route 4		TM07 (Pin Missile)
+0	0x56FE3386076645F2	FIELD ITEM	Route 4		Sharp Beak
+0	0x716F2671814795FD	FIELD ITEM	Turffield		TM11 (Solar Beam)
+0	0xB20F6B1737A20CA9	FIELD ITEM	Turffield		Max Revive
+0	0x44B8EBF865BA719A	FIELD ITEM	Turffield		TM97 (Brutal Swing)
+0	0x716F25718147944A	FIELD ITEM	Turffield		X Attack (x3)
+0	0xBFA26EAF101F0F6A	FIELD ITEM	Route 5		Shed Shell
+0	0x243562933DDFBE5A	FIELD ITEM	Route 5		X Sp. Attack (x3)
+0	0x243561933DDFBCA7	FIELD ITEM	Route 5		Heal Ball (x3)
+0	0x91272CD0007DA659	FIELD ITEM	Route 5		TM31 (Attract)
+0	0xFDF98A8ADC5DCD02	FIELD ITEM	Hulbury		Net Ball (x5)
+0	0xFDF98B8ADC5DCEB5	FIELD ITEM	Hulbury		Shell Bell
+0	0xFDF9868ADC5DC636	FIELD ITEM	Hulbury		Magnet
+0	0xA6DD2A59C1D9637A	FIELD ITEM	Hulbury		TM82 (Electroweb)
+0	0xFA8B3D541DC97447	FIELD ITEM	Hammerlocke		Wise Glasses
+0	0xDC1EFA9F49579CCC	FIELD ITEM	Hammerlocke		TM29 (Charm)
+0	0x6C8BB63AA804BE1B	FIELD ITEM	Hammerlocke		Hyper Potion (x2)
+0	0x6C8BB53AA804BC68	FIELD ITEM	Hammerlocke		Muscle Band
+0	0x6C8BB83AA804C181	FIELD ITEM	Hammerlocke		Strawberry Sweet
+0	0x94B3758815FE2011	FIELD ITEM	Route 6		Light Clay
+0	0xFD9AC7E9B9F834A6	FIELD ITEM	Route 6		TM30 (Steel Wing)
+0	0x7ECEEE481CF4A80E	FIELD ITEM	Route 6		TM15 (Dig)
+0	0x7ECEEF481CF4A9C1	FIELD ITEM	Route 6		Ultra Ball (x3)
+0	0xB80D116F46D24E48	_UNUSED	Route 6		Fossilized Dino (x2) (Sw)
+0	0xB80D006F46D23165	_UNUSED	Route 6		Fossilized Fish (x2) (Sh)
+0	0x7664BE1E59942F84	FIELD ITEM	Stow-on-Side		Rocky Helmet
+0	0x619641731EE0BFE3	FIELD ITEM	Stow-on-Side		TM74 (Venoshock)
+0	0x619640731EE0BE30	FIELD ITEM	Stow-on-Side		Cracked Pot
+0	0x5D6F30D34650D9DF	FIELD ITEM	Stow-on-Side		Dusk Stone
+0	0x672015C2ADF7079F	FIELD ITEM	Ballonlea		TM21 (Rest)
+0	0x3C70028498BE106C	FIELD ITEM	Route 7		Quick Ball (x3)
+0	0x3C70058498BE1585	FIELD ITEM	Route 7		Safety Goggles
+0	0x62B154BB834AF76B	FIELD ITEM	Route 7		TM58 (Assurance)
+0	0xAC0295A277945857	FIELD ITEM	Route 8		Shiny Stone
+0	0x2589363660E14C78	FIELD ITEM	Route 8		Hyper Potion (x3)
+0	0x2589383660E14FDE	FIELD ITEM	Route 8		Luxury Ball (x3)
+0	0x2589393660E15191	FIELD ITEM	Route 8		Max Revive
+0	0x25893A3660E15344	FIELD ITEM	Route 8		TM43 (Brick Break)
+0	0xC8082BAA16EAF8F8	FIELD ITEM	Route 8		TM96 (Smart Strike)
+0	0x2589373660E14E2B	FIELD ITEM	Route 8		King's Rock
+0	0x25893B3660E154F7	FIELD ITEM	Route 8		Terrain Extender
+0	0x75C43E481C8BB09D	FIELD ITEM	Circhester		TM51 (Icicle Spear)
+0	0x550E9D0801FE5A6D	FIELD ITEM	Route 9		Max Potion
+0	0xF08D8861BFF4AB0A	FIELD ITEM	Route 9		TM64 (Avalanche)
+0	0xEC7CF877D97B3E4C	FIELD ITEM	Route 9	Outer Spikemuth	Scope Lens
+0	0x5C1DCDA0FE0FBE53	FIELD ITEM	Route 9	Circhester Bay	Zoom Lens
+0	0x493A64302221F8BC	FIELD ITEM	Route 9	Circhester Bay	Max Revive
+0	0x493A65302221FA6F	FIELD ITEM	Route 9	Circhester Bay	Dive Ball (x3)
+0	0x493A66302221FC22	FIELD ITEM	Route 9	Circhester Bay	TM22 (Rock Slide)
+0	0x493A60302221F1F0	FIELD ITEM	Route 9	Circhester Bay	Protector
+0	0xA56AF853D399D849	FIELD ITEM	Spikemuth		Max Revive
+0	0x1D567541FE6B0256	FIELD ITEM	Spikemuth		Choice Specs
+0	0xE3929B7DCFCE1FA5	FIELD ITEM	Wyndon		Grassy Seed
+0	0x2A02E2064E521E9A	FIELD ITEM	Wyndon		Air Balloon
+0	0xBF896E0972D83BF9	FIELD ITEM	Wyndon	Tower Exterior	TM93 (Eerie Impulse)
+0	0x008DDC6A02726E0A	FIELD ITEM	Wyndon	Tower Exterior	Electric Seed
+0	0x7CF3200AB8D2EF6D	FIELD ITEM	Wyndon	Tower Exterior	Cell Battery
+0	0xFDD07699B79CCDF0	FIELD ITEM	Route 10		Max Revive
+0	0x18E2E0607DBB9037	FIELD ITEM	Route 10		Power Herb
+0	0x2CF1CB64F93A176D	FIELD ITEM	Route 10		TM98 (Stomping Tantrum)
 0	0x5AE0F6E52AB6CECC	PKMN GIFT			KReceivedGiftTypeNull
-0	0xB5A8B1C577229DCA	FIELD ITEM			z_d0103_ItemNormal_0_1
-0	0x73184A222103DF1A	FIELD ITEM			z_d0103_ItemNormal_0
-0	0xB5A8B2C577229F7D	FIELD ITEM			z_d0103_ItemNormal_0_0
-0	0xB5A8B0C577229C17	FIELD ITEM			z_d0103_ItemNormal_0_2
-0	0x7B9B53CAB1B73E29	FIELD ITEM			z_d0103_ItemRare_0
-0	0xCE3EC0D68442C8C3	FIELD ITEM			z_d0201_ItemNormal_0
-0	0x247A5B27F7CC91DF	FIELD ITEM			z_d0201_ItemNormal_0_1
-0	0x247A5C27F7CC9392	FIELD ITEM			z_d0201_ItemNormal_0_2
-0	0x7FB0DE12B892515C	FIELD ITEM			z_d0201_ItemRare_0
-0	0xA8C4DD688225FC56	FIELD ITEM			z_d0302_ItemNormal_0_0
-0	0xA8C4DE688225FE09	FIELD ITEM			z_d0302_ItemNormal_0_1
-0	0x38C1F0BE4D68D01E	FIELD ITEM			z_d0302_ItemRare_0
-0	0x24C19DEFF6F4ABD9	FIELD ITEM			z_d0302_ItemRare_0_0
-0	0xACF038071296438A	FIELD ITEM			z_d0401_ItemRare_0
-0	0x8E29FC0AB91946ED	FIELD ITEM			z_d0401_ItemNormal_0
-0	0xDD8D0E0B9C1FD6F2	FIELD ITEM			z_d0401_ItemNormal_0_0
-0	0xCEBB31C9BFE0A0ED	FIELD ITEM			z_d0401_ItemRare_0_0
-0	0xDD8D0F0B9C1FD8A5	FIELD ITEM			z_d0401_ItemNormal_0_1
+0	0xB5A8B1C577229DCA	FIELD ITEM	Slumbering Weald		Life Orb
+0	0x73184A222103DF1A	FIELD ITEM	Slumbering Weald		Mental Herb
+0	0xB5A8B2C577229F7D	FIELD ITEM	Slumbering Weald		Misty Seed
+0	0xB5A8B0C577229C17	FIELD ITEM	Slumbering Weald		Smoke Ball
+0	0x7B9B53CAB1B73E29	FIELD ITEM	Slumbering Weald		TM86 (Phantom Force)
+0	0xCE3EC0D68442C8C3	FIELD ITEM	Galar Mine		Great Ball (x3)
+0	0x247A5B27F7CC91DF	FIELD ITEM	Galar Mine		Heavy-Duty Boots
+0	0x247A5C27F7CC9392	FIELD ITEM	Galar Mine		Super Potion (x2)
+0	0x7FB0DE12B892515C	FIELD ITEM	Galar Mine		TM26 (Scary Face)
+0	0xA8C4DD688225FC56	FIELD ITEM	Galar Mine No. 2		Grip Claw
+0	0xA8C4DE688225FE09	FIELD ITEM	Galar Mine No. 2		Dusk Ball (x3)
+0	0x38C1F0BE4D68D01E	FIELD ITEM	Galar Mine No. 2		TM53 (Mud Shot)
+0	0x24C19DEFF6F4ABD9	FIELD ITEM	Galar Mine No. 2		TM49 (Sand Tomb)
+0	0xACF038071296438A	FIELD ITEM	Glimwood Tangle		TM56 (U-turn)
+0	0x8E29FC0AB91946ED	FIELD ITEM	Glimwood Tangle		Bright Powder
+0	0xDD8D0E0B9C1FD6F2	FIELD ITEM	Glimwood Tangle		Big Root
+0	0xCEBB31C9BFE0A0ED	FIELD ITEM	Glimwood Tangle		TM24 (Snore)
+0	0xDD8D0F0B9C1FD8A5	FIELD ITEM	Glimwood Tangle		Hyper Potion (x2)
 0	0x1BB46130178159E5	PKMN GIFT			KReceivedGiftCharmander
-0	0xB240E1CC6F874CF8	FIELD ITEM			z_wr0102_ItemNormal_0
-0	0x33502E6C557983E9	FIELD ITEM			z_wr0103_ItemNormal_0
-0	0xF22BA7BF6EC452B6	FIELD ITEM			z_wr0104_ItemNormal_0
-0	0xF86FD468669B82A2	FIELD ITEM			z_wr0107_ItemRare_0
-0	0x707E94CAD3530B48	HIDDEN ITEM			z_wr0107_HiddenItem_K_0
-0	0x885847CA505253B1	HIDDEN ITEM			z_wr0107_HiddenItem_T_0
-0	0xAB0D44A724CBFAFC	FIELD ITEM			z_wr0109_ItemRare_0
-0	0x1C78724ACA6EEC63	FIELD ITEM			z_wr0109_ItemNormal_0
-0	0xD2ACD6E13390B759	FIELD ITEM			z_wr0110_ItemNormal_0
-0	0xAD1EDC79806F7775	FIELD ITEM			z_wr0121_ItemRare_0_0
-0	0x17493CD9038E2BE5	FIELD ITEM			z_wr0121_ItemNormal_0
-0	0x8F301E4E3A35ADCD	FIELD ITEM			z_wr0122_ItemRare_0
-0	0x420EE89046A55D92	FIELD ITEM			z_wr0122_ItemRare_0_0
-0	0xE4AFA8054FE25616	FIELD ITEM			z_wr0132_ItemRare_0
-0	0xFDDE8420FC22B961	FIELD ITEM			z_wr0132_ItemNormal_0
-0	0x019725209E4DC01E	FIELD ITEM			z_wr0132_ItemNormal_0_0
-0	0x32CA446A9510CCFC	HIDDEN ITEM			z_wr0132_HiddenItem_K_0
-0	0x2C1A7F6B21BE6F3D	HIDDEN ITEM			z_wr0132_HiddenItem_T_0
-0	0x1D5663615E6AFD8B	HIDDEN ITEM			z_wr0132_HiddenItem_K_0_0
-0	0xBC97E69123080E42	HIDDEN ITEM			z_wr0132_HiddenItem_T_0_0
-0	0x2BF50809784E39CE	FIELD ITEM			z_wr0135_ItemNormal_0
-0	0x5213735CE4D7E05A	FIELD ITEM			z_wr0136_ItemRare_0
-0	0x110D965DDA93C65D	FIELD ITEM			z_wr0136_ItemNormal_0
-0	0x2728BF0096426122	FIELD ITEM			z_wr0136_ItemNormal_0_0
-0	0x35688CEB7DBAC7B0	FIELD ITEM			z_wr0201_ItemNormal_0
-0	0x2000A7A952110D77	FIELD ITEM			z_wr0201_ItemNormal_0_0
-0	0x2000A9A9521110DD	FIELD ITEM			z_wr0201_ItemNormal_0_2
-0	0x2000A8A952110F2A	FIELD ITEM			z_wr0201_ItemNormal_0_3
-0	0xAA1494A2EE512193	FIELD ITEM			z_wr0201_ItemRare_0
-0	0xD697FBFC3C1362B1	HIDDEN ITEM			z_wr0201_HiddenItem_K_0
-0	0xBEBE48FCBF141A48	HIDDEN ITEM			z_wr0201_HiddenItem_T_0
-0	0x5562DCECD1C63423	FIELD ITEM			z_wr0202_ItemNormal_0
-0	0x9651FD33EA47D0BC	FIELD ITEM			z_wr0202_ItemRare_0
-0	0xA6F23C7CC2400BFF	FIELD ITEM			z_wr0202_ItemNormal_0_1
-0	0xD0F1AC9DD57F6BCB	FIELD ITEM			z_wr0202_ItemRare_0_0
-0	0xA6F23D7CC2400DB2	FIELD ITEM			z_wr0202_ItemNormal_0_2
-0	0xA6F23E7CC2400F65	FIELD ITEM			z_wr0202_ItemNormal_0_3
-0	0x23990C9604F42524	FIELD ITEM			z_wr0202_ItemRare_0_0_0
-0	0x641A53203B574BF6	HIDDEN ITEM			z_wr0202_HiddenItem_K_0
-0	0x25E6B22017AA33A3	HIDDEN ITEM			z_wr0202_HiddenItem_T_0
-0	0x98FA67142E0BB842	FIELD ITEM			z_wr0203_ItemNormal_0
-0	0x2B5C8127345C8535	FIELD ITEM			z_wr0203_ItemNormal_0_0
-0	0xA88AA85ADF6661EE	FIELD ITEM			z_wr0203_ItemRare_0_0
-0	0x2B5C8027345C8382	FIELD ITEM			z_wr0203_ItemNormal_0_1
-0	0x680B276E77F2772A	FIELD ITEM			z_wr0203_ItemNormal_0_0_0
-0	0xADA763873220E9FD	FIELD ITEM			z_wr0204_ItemNormal_0
-0	0xDE1AF25C09B46282	FIELD ITEM			z_wr0204_ItemNormal_0_0
-0	0xDE1AF35C09B46435	FIELD ITEM			z_wr0204_ItemNormal_0_1
-0	0xD5B1A8ECC9A760FA	FIELD ITEM			z_wr0204_ItemRare_0
-0	0xE688660A77CAE49D	FIELD ITEM			z_wr0204_ItemRare_0_0
-0	0x474649156CAE81DC	FIELD ITEM			z_wr0205_ItemNormal_0
-0	0x10EFF7DC62A7D5B7	FIELD ITEM			z_wr0205_ItemRare_0
-0	0x5B5DCF2A27D0022B	FIELD ITEM			z_wr0205_ItemNormal_0_0
-0	0xCF5FC881C0CF644F	FIELD ITEM			z_wr0206_ItemNormal_0
-0	0x8433DC5E8F10E500	FIELD ITEM			z_wr0206_ItemNormal_0_0
-0	0xF7FD57B0814074B0	FIELD ITEM			z_wr0206_ItemRare_0
-0	0x8433DD5E8F10E6B3	FIELD ITEM			z_wr0206_ItemNormal_0_1
-0	0x231097C4E40EB365	FIELD ITEM			z_wr0207_ItemRare_0
-0	0x86D46D559EC786EE	FIELD ITEM			z_wr0207_ItemNormal_0
-0	0x290D7E327FB3D6A9	FIELD ITEM			z_wr0208_ItemNormal_0
-0	0xC569363DD82EDB7E	FIELD ITEM			z_wr0208_ItemRare_0
-0	0xB2FD30BA9955E0F6	FIELD ITEM			z_wr0208_ItemNormal_0_0
-0	0xBE3A2E492D9EA894	HIDDEN ITEM			z_wr0208_HiddenItem_K_0
-0	0x1B961948D20C18E5	HIDDEN ITEM			z_wr0208_HiddenItem_T_0
-0	0x9C905A694FAAB7F3	HIDDEN ITEM			z_wr0208_HiddenItem_K_0_0
-0	0xD20F8F028F51355A	HIDDEN ITEM			z_wr0208_HiddenItem_T_0_0
-0	0x8E73453D3F723CB8	FIELD ITEM			z_wr0209_ItemNormal_0
-0	0xCC4F1EF5EF1AE78F	FIELD ITEM			z_wr0209_ItemNormal_0_0
-0	0xCC4F1DF5EF1AE5DC	FIELD ITEM			z_wr0209_ItemNormal_0_1
-0	0xDBA77ACB3B7938BB	FIELD ITEM			z_wr0209_ItemRare_0
-0	0xC1A8E998BEF5CD61	FIELD ITEM			z_wr0210_ItemRare_0
-0	0x2F5A6B6B5D2BE02C	FIELD ITEM			z_wr0211_ItemRare_0
-0	0xA2D07E607822DFB3	FIELD ITEM			z_wr0211_ItemNormal_0
-0	0x7530F03FE9FC725C	FIELD ITEM			z_wr0211_ItemNormal_0_0
-0	0xA2D07D607822DE00	FIELD ITEM			z_wr0211_ItemNormal_1
-0	0xB658E42794F2D03B	FIELD ITEM			z_wr0211_ItemRare_0_0
-0	0x6D08593FE581BF07	FIELD ITEM			z_wr0211_ItemNormal_1_0
-0	0x7530F13FE9FC740F	FIELD ITEM			z_wr0211_ItemNormal_0_1
-0	0x1A529F045F1A896D	FIELD ITEM			z_wr0221_ItemNormal_0_0
-0	0xF5DC9604159A780A	FIELD ITEM			z_wr0221_ItemNormal_0
-0	0x1A529E045F1A87BA	FIELD ITEM			z_wr0221_ItemNormal_0_1
-0	0x1E6BDCB175DB35F9	FIELD ITEM			z_wr0221_ItemRare_0
-0	0x1A529C045F1A8454	FIELD ITEM			z_wr0221_ItemNormal_0_3
-0	0xC833489B2CBC1F89	FIELD ITEM			z_wr0222_ItemNormal_0
-0	0x1668104148298C5E	FIELD ITEM			z_wr0222_ItemRare_0
-0	0x87F7C2A0F858351B	FIELD ITEM			z_wr0223_ItemRare_0
-0	0x9E563ACC1F5AA357	FIELD ITEM			z_wr0224_ItemNormal_0
-0	0x1A7BD5A9320B4BF8	FIELD ITEM			z_wr0224_ItemRare_0
-0	0xE6368662126DA84A	FIELD ITEM			z_wr0231_ItemRare_0
-0	0x9682CC06793C9439	FIELD ITEM			z_wr0301_ItemNormal_0
-0	0x8E3C11034B165186	FIELD ITEM			z_wr0301_ItemNormal_0_0
-0	0xB601D3049E38E62E	FIELD ITEM			z_wr0301_ItemRare_0
-0	0x8E3C0F034B164E20	FIELD ITEM			z_wr0301_ItemNormal_0_2
-0	0x0ABD1EC88C13A3BA	FIELD ITEM			z_wr0302_ItemNormal_0
-0	0x1BE998BA5652CCC9	FIELD ITEM			z_wr0302_ItemRare_0
-0	0x2F911108D7D7AAD6	FIELD ITEM			z_wr0302_ItemRare_0_0
-0	0x6723287B214369DD	FIELD ITEM			z_wr0302_ItemNormal_0_0
-0	0x1B0CA8BDED5E10A2	FIELD ITEM			z_wr0302_ItemNormal_0_0_0
-0	0x8DDF08A18F1AF455	FIELD ITEM			z_wr0302_ItemNormal_0_0_0_0
-0	0x28A0DA4EDB153C3B	FIELD ITEM			z_wr0303_ItemNormal_0
-0	0x0330620F63BB3E87	FIELD ITEM			z_wr0303_ItemNormal_0_1
-0	0x0C4954F026670ACF	FIELD ITEM			z_wr0304_ItemRare_0
-0	0xD5D5095199FE0F80	FIELD ITEM			z_wr0304_ItemRare_0_0
-0	0xCD6979A1DD7AFAD4	FIELD ITEM			z_wr0304_ItemNormal_0
-0	0x4F76EF4679F10FB3	FIELD ITEM			z_wr0304_ItemNormal_0_0
-0	0x4F76EE4679F10E00	FIELD ITEM			z_wr0304_ItemNormal_0_1
-0	0x4F76F14679F11319	FIELD ITEM			z_wr0304_ItemNormal_0_2
-0	0x4F76F04679F11166	FIELD ITEM			z_wr0304_ItemNormal_0_3
-0	0xD5D50A5199FE1133	FIELD ITEM			z_wr0304_ItemRare_0_1
-0	0x4F76F34679F1167F	FIELD ITEM			z_wr0304_ItemNormal_0_4
-0	0x522FB34C6C536851	FIELD ITEM			z_wr0304_ItemNormal_0_3_0
+0	0xB240E1CC6F874CF8	FIELD ITEM	Rolling Fields		TM84 (Tail Slap)
+0	0x33502E6C557983E9	FIELD ITEM	Watchtower Ruins		White Herb
+0	0xF22BA7BF6EC452B6	FIELD ITEM	Watchtower Ruins		Max Revive
+0	0xF86FD468669B82A2	FIELD ITEM	Axew's Eye		TM95 (Air Slash)
+0	0x707E94CAD3530B48	_UNUSED	Axew's Eye		Tart Apple (recurring) (Sw)
+0	0x885847CA505253B1	_UNUSED	Axew's Eye		Sweet Apple (recurring) (Sh)
+0	0xAB0D44A724CBFAFC	FIELD ITEM	Giant's Seat		TM81 (Bulldoze)
+0	0x1C78724ACA6EEC63	FIELD ITEM	Giant's Seat		Leftovers
+0	0xD2ACD6E13390B759	FIELD ITEM	North Lake Miloch		Thunder Stone
+0	0xAD1EDC79806F7775	FIELD ITEM	Motostoke Riverbank		TM39 (Facade)
+0	0x17493CD9038E2BE5	FIELD ITEM	Motostoke Riverbank		Fire Stone
+0	0x8F301E4E3A35ADCD	FIELD ITEM	Bridge Field		TM75 (Low Sweep)
+0	0x420EE89046A55D92	FIELD ITEM	Bridge Field		Water Stone
+0	0xE4AFA8054FE25616	FIELD ITEM	Dusty Bowl		TM73 (Cross Poison)
+0	0xFDDE8420FC22B961	FIELD ITEM	Dusty Bowl		Moon Stone
+0	0x019725209E4DC01E	FIELD ITEM	Dusty Bowl		Sun Stone
+0	0x32CA446A9510CCFC	_UNUSED	Dusty Bowl		Fossilized Bird (recurring) (Sw)
+0	0x2C1A7F6B21BE6F3D	_UNUSED	Dusty Bowl		Fossilized Fish (recurring) (Sh)
+0	0x1D5663615E6AFD8B	_UNUSED	Dusty Bowl		Fossilized Dino (recurring) (Sw)
+0	0xBC97E69123080E42	_UNUSED	Dusty Bowl		Fossilized Drake (recurring) (Sh)
+0	0x2BF50809784E39CE	FIELD ITEM	Giant's Cap		Dawn Stone
+0	0x5213735CE4D7E05A	FIELD ITEM	Lake of Outrage		TM65 (Shadow Claw)
+0	0x110D965DDA93C65D	FIELD ITEM	Lake of Outrage		Focus Sash
+0	0x2728BF0096426122	FIELD ITEM	Lake of Outrage		Assault Vest
+0	0x35688CEB7DBAC7B0	FIELD ITEM	Fields of Honor		Max Revive
+0	0x2000A7A952110D77	FIELD ITEM	Fields of Honor		Sun Stone
+0	0x2000A9A9521110DD	FIELD ITEM	Fields of Honor		Expert Belt
+0	0x2000A8A952110F2A	FIELD ITEM	Fields of Honor		HP Up
+0	0xAA1494A2EE512193	FIELD ITEM	Fields of Honor		TR64 (Focus Blast)
+0	0xD91D8EDF90189DE0	COLLECTABLE	Fields of Honor		Diglett
+0	0xC14288C5234FF227	COLLECTABLE	Fields of Honor		Diglett
+0	0xC14287C5234FF074	COLLECTABLE	Fields of Honor		Diglett
+0	0xC1428AC5234FF58D	COLLECTABLE	Fields of Honor		Diglett
+0	0xC14289C5234FF3DA	COLLECTABLE	Fields of Honor		Diglett
+0	0xC14284C5234FEB5B	COLLECTABLE	Fields of Honor		Diglett
+0	0xC14283C5234FE9A8	COLLECTABLE	Fields of Honor		Diglett
+0	0xC14286C5234FEEC1	COLLECTABLE	Fields of Honor		Diglett
+0	0xC14285C5234FED0E	COLLECTABLE	Fields of Honor		Diglett
+0	0xC14280C5234FE48F	COLLECTABLE	Fields of Honor		Diglett
+0	0xC1427FC5234FE2DC	COLLECTABLE	Fields of Honor		Diglett
+0	0xB3FCF7FB00D5438C	COLLECTABLE	Fields of Honor		Diglett
+0	0xB3FCF8FB00D5453F	COLLECTABLE	Fields of Honor		Diglett
+0	0xB3FCF9FB00D546F2	COLLECTABLE	Fields of Honor		Diglett
+0	0xB3FCFAFB00D548A5	COLLECTABLE	Fields of Honor		Diglett
+0	0xB3FCF3FB00D53CC0	COLLECTABLE	Fields of Honor		Diglett
+0	0xB3FCF4FB00D53E73	COLLECTABLE	Fields of Honor		Diglett
+0	0xB3FCF5FB00D54026	COLLECTABLE	Fields of Honor		Diglett
+0	0xD697FBFC3C1362B1	_UNUSED	Fields of Honor		Galarica Twig (Sw)
+0	0xBEBE48FCBF141A48	_UNUSED	Fields of Honor		Galarica Twig (Sh)
+0	0x5562DCECD1C63423	FIELD ITEM	Soothing Wetlands		Protein
+0	0x9651FD33EA47D0BC	FIELD ITEM	Soothing Wetlands		TR77 (Grass Knot)
+0	0xA6F23C7CC2400BFF	FIELD ITEM	Soothing Wetlands		Damp Rock
+0	0xD0F1AC9DD57F6BCB	FIELD ITEM	Soothing Wetlands		TR26 (Endure)
+0	0xA6F23D7CC2400DB2	FIELD ITEM	Soothing Wetlands		Poké Doll
+0	0xA6F23E7CC2400F65	FIELD ITEM	Soothing Wetlands		Black Sludge
+0	0x23990C9604F42524	FIELD ITEM	Soothing Wetlands		TR45 (Muddy Water)
+0	0x846BB15E96D2693D	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x2866B1878DE91842	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x2866B2878DE919F5	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x2866AF878DE914DC	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x2866B0878DE9168F	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x2866AD878DE91176	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x2866AE878DE91329	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x2866AB878DE90E10	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x2866AC878DE90FC3	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x2866B9878DE925DA	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x2866BA878DE9278D	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x8F9B21562316C9BF	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x8F9B20562316C80C	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x8F9B23562316CD25	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x8F9B22562316CB72	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x8F9B1D562316C2F3	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x8F9B1C562316C140	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x8F9B1F562316C659	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x8F9B1E562316C4A6	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x8F9B29562316D757	COLLECTABLE	Soothing Wetlands		Diglett
+0	0x641A53203B574BF6	_UNUSED	Soothing Wetlands		Tart Apple (Sw) (recurring)
+0	0x25E6B22017AA33A3	_UNUSED	Soothing Wetlands		Sweet Apple (Sh) (recurring)
+0	0x98FA67142E0BB842	FIELD ITEM	Forest of Focus		Miracle Seed
+0	0x2B5C8127345C8535	FIELD ITEM	Forest of Focus		Shed Shell
+0	0xA88AA85ADF6661EE	FIELD ITEM	Forest of Focus		TR78 (Sludge Wave)
+0	0x2B5C8027345C8382	FIELD ITEM	Forest of Focus		Leaf Stone
+0	0x680B276E77F2772A	FIELD ITEM	Forest of Focus		Hyper Potion
+0	0x88801406E2318ADA	COLLECTABLE	Forest of Focus		Diglett
+0	0xF312E20F3CCCCCBD	COLLECTABLE	Forest of Focus		Diglett
+0	0xF312E10F3CCCCB0A	COLLECTABLE	Forest of Focus		Diglett
+0	0xF312E00F3CCCC957	COLLECTABLE	Forest of Focus		Diglett
+0	0xF312DF0F3CCCC7A4	COLLECTABLE	Forest of Focus		Diglett
+0	0xF312DE0F3CCCC5F1	COLLECTABLE	Forest of Focus		Diglett
+0	0xF312DD0F3CCCC43E	COLLECTABLE	Forest of Focus		Diglett
+0	0xF312DC0F3CCCC28B	COLLECTABLE	Forest of Focus		Diglett
+0	0xADA763873220E9FD	FIELD ITEM	Challenge Beach		Zinc
+0	0xDE1AF25C09B46282	FIELD ITEM	Challenge Beach		Cell Battery
+0	0xDE1AF35C09B46435	FIELD ITEM	Challenge Beach		Mystic Water
+0	0xD5B1A8ECC9A760FA	FIELD ITEM	Challenge Beach		TR98 (Liquidation)
+0	0xE688660A77CAE49D	FIELD ITEM	Challenge Beach		TR80 (Electric Ball)
+0	0xD7A387ECABB9DEDF	COLLECTABLE	Challenge Beach		Diglett
+0	0x44B828A10E107410	COLLECTABLE	Challenge Beach		Diglett
+0	0x44B829A10E1075C3	COLLECTABLE	Challenge Beach		Diglett
+0	0x44B82AA10E107776	COLLECTABLE	Challenge Beach		Diglett
+0	0x44B82BA10E107929	COLLECTABLE	Challenge Beach		Diglett
+0	0x44B82CA10E107ADC	COLLECTABLE	Challenge Beach		Diglett
+0	0x44B82DA10E107C8F	COLLECTABLE	Challenge Beach		Diglett
+0	0x44B82EA10E107E42	COLLECTABLE	Challenge Beach		Diglett
+0	0x44B82FA10E107FF5	COLLECTABLE	Challenge Beach		Diglett
+0	0x474649156CAE81DC	FIELD ITEM	Brawler's Cave		Iron
+0	0x10EFF7DC62A7D5B7	FIELD ITEM	Brawler's Cave		TR31 (Iron Tail)
+0	0x5B5DCF2A27D0022B	FIELD ITEM	Brawler's Cave		Rare Bone
+0	0x933C839A78E48B94	COLLECTABLE	Brawlers' Cave		Diglett
+0	0xF7ABB0B91C2512F3	COLLECTABLE	Brawlers' Cave		Diglett
+0	0xF7ABAFB91C251140	COLLECTABLE	Brawlers' Cave		Diglett
+0	0xF7ABB2B91C251659	COLLECTABLE	Brawlers' Cave		Diglett
+0	0xF7ABB1B91C2514A6	COLLECTABLE	Brawlers' Cave		Diglett
+0	0xF7ABB4B91C2519BF	COLLECTABLE	Brawlers' Cave		Diglett
+0	0xF7ABB3B91C25180C	COLLECTABLE	Brawlers' Cave		Diglett
+0	0xCF5FC881C0CF644F	FIELD ITEM	Challenge Road		Metal Coat
+0	0x8433DC5E8F10E500	FIELD ITEM	Challenge Road		Muscle Band
+0	0xF7FD57B0814074B0	FIELD ITEM	Challenge Road		TR95 (Throat Chop)
+0	0x8433DD5E8F10E6B3	FIELD ITEM	Challenge Road		Black Glasses
+0	0x4D39A09B8BA0C361	COLLECTABLE	Challenge Road		Diglett
+0	0x106080FA705B5A1E	COLLECTABLE	Challenge Road		Diglett
+0	0x106081FA705B5BD1	COLLECTABLE	Challenge Road		Diglett
+0	0x10607EFA705B56B8	COLLECTABLE	Challenge Road		Diglett
+0	0x10607FFA705B586B	COLLECTABLE	Challenge Road		Diglett
+0	0x106084FA705B60EA	COLLECTABLE	Challenge Road		Diglett
+0	0x106085FA705B629D	COLLECTABLE	Challenge Road		Diglett
+0	0x106082FA705B5D84	COLLECTABLE	Challenge Road		Diglett
+0	0x231097C4E40EB365	FIELD ITEM	Courageous Cavern		TR37 (Taunt)
+0	0x86D46D559EC786EE	FIELD ITEM	Courageous Cavern		Icy Rock
+0	0x45827D38E00D2FEE	COLLECTABLE	Courageous Cavern		Diglett
+0	0xA174F2E1F2C8E7E9	COLLECTABLE	Courageous Cavern		Diglett
+0	0xA174F1E1F2C8E636	COLLECTABLE	Courageous Cavern		Diglett
+0	0xA174F0E1F2C8E483	COLLECTABLE	Courageous Cavern		Diglett
+0	0xA174EFE1F2C8E2D0	COLLECTABLE	Courageous Cavern		Diglett
+0	0xA174F6E1F2C8EEB5	COLLECTABLE	Courageous Cavern		Diglett
+0	0xA174F5E1F2C8ED02	COLLECTABLE	Courageous Cavern		Diglett
+0	0x290D7E327FB3D6A9	FIELD ITEM	Loop Lagoon		Heat Rock
+0	0xC569363DD82EDB7E	FIELD ITEM	Loop Lagoon		TR25 (Psyshock)
+0	0xB2FD30BA9955E0F6	FIELD ITEM	Loop Lagoon		Sea Incense
+0	0xBAA95205A85E6B43	COLLECTABLE	Loop Lagoon		Diglett
+0	0x8CE5AFF0865116AC	COLLECTABLE	Loop Lagoon		Diglett
+0	0x8CE5B0F08651185F	COLLECTABLE	Loop Lagoon		Diglett
+0	0x8CE5B1F086511A12	COLLECTABLE	Loop Lagoon		Diglett
+0	0x8CE5B2F086511BC5	COLLECTABLE	Loop Lagoon		Diglett
+0	0x8CE5ABF086510FE0	COLLECTABLE	Loop Lagoon		Diglett
+0	0x8CE5ACF086511193	COLLECTABLE	Loop Lagoon		Diglett
+0	0xBE3A2E492D9EA894	_UNUSED	Loop Lagoon		Tart Apple (recurring) (Sw)
+0	0x1B961948D20C18E5	_UNUSED	Loop Lagoon		Sweet Apple (recurring) (Sh)
+0	0x9C905A694FAAB7F3	_UNUSED	Loop Lagoon		Tart Apple (recurring) (Sw)
+0	0xD20F8F028F51355A	_UNUSED	Loop Lagoon		Sweet Apple (recurring) (Sh)
+0	0x8E73453D3F723CB8	FIELD ITEM	Training Lowlands		Carbos
+0	0xCC4F1EF5EF1AE78F	FIELD ITEM	Training Lowlands		Moomoo Milk
+0	0xCC4F1DF5EF1AE5DC	FIELD ITEM	Training Lowlands		Upgrade
+0	0xDBA77ACB3B7938BB	FIELD ITEM	Training Lowlands		TR49 (Calm Mind)
+0	0x3FA8260E547BEAB8	COLLECTABLE	Training Lowlands		Diglett
+0	0xB816B02D3EF1C58F	COLLECTABLE	Training Lowlands		Diglett
+0	0xB816AF2D3EF1C3DC	COLLECTABLE	Training Lowlands		Diglett
+0	0xB816B22D3EF1C8F5	COLLECTABLE	Training Lowlands		Diglett
+0	0xB816B12D3EF1C742	COLLECTABLE	Training Lowlands		Diglett
+0	0xB816AC2D3EF1BEC3	COLLECTABLE	Training Lowlands		Diglett
+0	0xB816AB2D3EF1BD10	COLLECTABLE	Training Lowlands		Diglett
+0	0xB816AE2D3EF1C229	COLLECTABLE	Training Lowlands		Diglett
+0	0xB816AD2D3EF1C076	COLLECTABLE	Training Lowlands		Diglett
+0	0xB816B82D3EF1D327	COLLECTABLE	Training Lowlands		Diglett
+0	0xB816B72D3EF1D174	COLLECTABLE	Training Lowlands		Diglett
+0	0xC04F95E1F4CFEA04	COLLECTABLE	Training Lowlands		Diglett
+0	0xC04F96E1F4CFEBB7	COLLECTABLE	Training Lowlands		Diglett
+0	0xC04F97E1F4CFED6A	COLLECTABLE	Training Lowlands		Diglett
+0	0xC04F98E1F4CFEF1D	COLLECTABLE	Training Lowlands		Diglett
+0	0xC1A8E998BEF5CD61	FIELD ITEM	Warm-Up Tunnel		TR76 (Stealth Rock)
+0	0xD2E9ED99CB66090A	COLLECTABLE	Warm-Up Tunnel		Diglett
+0	0xD410D1C92047C26D	COLLECTABLE	Warm-Up Tunnel		Diglett
+0	0xD410D0C92047C0BA	COLLECTABLE	Warm-Up Tunnel		Diglett
+0	0x2F5A6B6B5D2BE02C	FIELD ITEM	Potbottom Desert		TR87 (Drill Run)
+0	0xA2D07E607822DFB3	FIELD ITEM	Potbottom Desert		Rocky Helmet
+0	0x7530F03FE9FC725C	FIELD ITEM	Potbottom Desert		Flame Orb
+0	0xA2D07D607822DE00	FIELD ITEM	Potbottom Desert		Smooth Rock
+0	0xB658E42794F2D03B	FIELD ITEM	Potbottom Desert		TR21 (Reversal)
+0	0x6D08593FE581BF07	FIELD ITEM	Potbottom Desert		Protector
+0	0x7530F13FE9FC740F	FIELD ITEM	Potbottom Desert		Fire Stone
+0	0xE45079D3CA8AA02D	COLLECTABLE	Potbottom Desert		Diglett
+0	0xFDD520999D5C76B2	COLLECTABLE	Potbottom Desert		Diglett
+0	0xFDD521999D5C7865	COLLECTABLE	Potbottom Desert		Diglett
+0	0xFDD51E999D5C734C	COLLECTABLE	Potbottom Desert		Diglett
+0	0xFDD51F999D5C74FF	COLLECTABLE	Potbottom Desert		Diglett
+0	0xFDD51C999D5C6FE6	COLLECTABLE	Potbottom Desert		Diglett
+0	0xFDD51D999D5C7199	COLLECTABLE	Potbottom Desert		Diglett
+0	0xFDD51A999D5C6C80	COLLECTABLE	Potbottom Desert		Diglett
+0	0xFDD51B999D5C6E33	COLLECTABLE	Potbottom Desert		Diglett
+0	0xFDD528999D5C844A	COLLECTABLE	Potbottom Desert		Diglett
+0	0x1A529F045F1A896D	FIELD ITEM	Workout Sea		Calcium
+0	0xF5DC9604159A780A	FIELD ITEM	Workout Sea		Dubious Disc
+0	0x1A529E045F1A87BA	FIELD ITEM	Workout Sea		Rare Candy
+0	0x1E6BDCB175DB35F9	FIELD ITEM	Workout Sea		TR43 (Overheat)
+0	0x1A529C045F1A8454	FIELD ITEM	Workout Sea		Destiny Knot
+0	0xC1B0F2C1F66D8C52	COLLECTABLE	Workout Sea		Diglett
+0	0x1C11096EB2D51045	COLLECTABLE	Workout Sea		Diglett
+0	0x1C11086EB2D50E92	COLLECTABLE	Workout Sea		Diglett
+0	0x1C11076EB2D50CDF	COLLECTABLE	Workout Sea		Diglett
+0	0x1C11066EB2D50B2C	COLLECTABLE	Workout Sea		Diglett
+0	0x1C11056EB2D50979	COLLECTABLE	Workout Sea		Diglett
+0	0x1C11046EB2D507C6	COLLECTABLE	Workout Sea		Diglett
+0	0x1C11036EB2D50613	COLLECTABLE	Workout Sea		Diglett
+0	0x1C11026EB2D50460	COLLECTABLE	Workout Sea		Diglett
+0	0x1C11116EB2D51DDD	COLLECTABLE	Workout Sea		Diglett
+0	0x1C11106EB2D51C2A	COLLECTABLE	Workout Sea		Diglett
+0	0xC833489B2CBC1F89	FIELD ITEM	Stepping-Stone Sea		Toxic Orb
+0	0x1668104148298C5E	FIELD ITEM	Stepping-Stone Sea		TR89 (Hurricane)
+0	0xD1D22198A2E804A3	COLLECTABLE	Stepping-Stone Sea		Diglett
+0	0xB29337B5DD8BEECC	COLLECTABLE	Stepping-Stone Sea		Diglett
+0	0xB29338B5DD8BF07F	COLLECTABLE	Stepping-Stone Sea		Diglett
+0	0xB29339B5DD8BF232	COLLECTABLE	Stepping-Stone Sea		Diglett
+0	0xB2933AB5DD8BF3E5	COLLECTABLE	Stepping-Stone Sea		Diglett
+0	0xB29333B5DD8BE800	COLLECTABLE	Stepping-Stone Sea		Diglett
+0	0xB29334B5DD8BE9B3	COLLECTABLE	Stepping-Stone Sea		Diglett
+0	0x87F7C2A0F858351B	FIELD ITEM	Insular Sea		TR62 (Dragon Pulse)
+0	0x88EC5F8901A9CE98	COLLECTABLE	Insular Sea		Diglett
+0	0x5A5C06BE741A77AF	COLLECTABLE	Insular Sea		Diglett
+0	0x5A5C05BE741A75FC	COLLECTABLE	Insular Sea		Diglett
+0	0x5A5C08BE741A7B15	COLLECTABLE	Insular Sea		Diglett
+0	0x5A5C07BE741A7962	COLLECTABLE	Insular Sea		Diglett
+0	0x9E563ACC1F5AA357	FIELD ITEM	Honeycalm Sea		Dragon Scale
+0	0x1A7BD5A9320B4BF8	FIELD ITEM	Honeycalm Sea		TR19 (Tri Attack)
+0	0xCB62A04115FAB999	COLLECTABLE	Honeycalm Sea		Diglett
+0	0x5ABE40DF4B6E0126	COLLECTABLE	Honeycalm Sea		Diglett
+0	0x5ABE41DF4B6E02D9	COLLECTABLE	Honeycalm Sea		Diglett
+0	0xE6368662126DA84A	FIELD ITEM	Honeycalm Island		TR96 (Pollen Puff)
+0	0x762F8B00FF952A6F	COLLECTABLE	Honeycalm Island		Diglett
+0	0x194054F487AC6CE0	COLLECTABLE	Honeycalm Island		Diglett
+0	0x194055F487AC6E93	COLLECTABLE	Honeycalm Island		Diglett
+0	0x194056F487AC7046	COLLECTABLE	Honeycalm Island		Diglett
+0	0x194057F487AC71F9	COLLECTABLE	Honeycalm Island		Diglett
+0	0x194058F487AC73AC	COLLECTABLE	Honeycalm Island		Diglett
+0	0x194059F487AC755F	COLLECTABLE	Honeycalm Island		Diglett
+0	0x19405AF487AC7712	COLLECTABLE	Honeycalm Island		Diglett
+0	0x19405BF487AC78C5	COLLECTABLE	Honeycalm Island		Diglett
+0	0x19405CF487AC7A78	COLLECTABLE	Honeycalm Island		Diglett
+0	0x19405DF487AC7C2B	COLLECTABLE	Honeycalm Island		Diglett
+0	0x9682CC06793C9439	FIELD ITEM	Slippery Slope		Odd Incense
+0	0x8E3C11034B165186	FIELD ITEM	Slippery Slope		Full Restore
+0	0xB601D3049E38E62E	FIELD ITEM	Slippery Slope		TR44 (Cosmic Power)
+0	0x8E3C0F034B164E20	FIELD ITEM	Slippery Slope		Ultra Ball
+0	0x0ABD1EC88C13A3BA	FIELD ITEM	Freezington		Utility Umbrella
+0	0x1BE998BA5652CCC9	FIELD ITEM	Freezington		TR17 (Amnesia)
+0	0x2F911108D7D7AAD6	FIELD ITEM	Freezington		TR73 (Gunk Shot)
+0	0x6723287B214369DD	FIELD ITEM	Freezington		Charcoal
+0	0x1B0CA8BDED5E10A2	FIELD ITEM	Freezington		Bottle Cap
+0	0x8DDF08A18F1AF455	FIELD ITEM	Freezington		Blunder Policy
+0	0x28A0DA4EDB153C3B	FIELD ITEM	Frostpoint Field		Max Revive
+0	0x0330620F63BB3E87	FIELD ITEM	Frostpoint Field		Focus Sash
+0	0x0C4954F026670ACF	FIELD ITEM	Giant's Bed		TR70 (Flash Cannon)
+0	0xD5D5095199FE0F80	FIELD ITEM	Giant's Bed		TR75 (Stone Edge)
+0	0xCD6979A1DD7AFAD4	FIELD ITEM	Giant's Bed		Max Potion
+0	0x4F76EF4679F10FB3	FIELD ITEM	Giant's Bed		Cracked Pot
+0	0x4F76EE4679F10E00	FIELD ITEM	Giant's Bed		Room Service
+0	0x4F76F14679F11319	FIELD ITEM	Giant's Bed		Razor Claw
+0	0x4F76F04679F11166	FIELD ITEM	Giant's Bed		Electirizer
+0	0xD5D50A5199FE1133	FIELD ITEM	Giant's Bed		TR30 (Encore)
+0	0x4F76F34679F1167F	FIELD ITEM	Giant's Bed		Life Orb
+0	0x522FB34C6C536851	FIELD ITEM	Giant's Bed		Assault Vest
 0	0x16EAA93E1A27DF2C	STATIC ENCOUNTER			KCapturedVirizion
-0	0xE4B37C41B77F3655	FIELD ITEM			z_wr0305_ItemNormal_0
-0	0x978CD4F42B841552	FIELD ITEM			z_wr0305_ItemRare_0
-0	0x1216653A9C5E30A4	FIELD ITEM			z_wr0305_ItemNormal_0_2
-0	0xA705F6412648B0F1	FIELD ITEM			z_wr0306_ItemNormal_0_0
-0	0xA498BCDB2459AE1D	FIELD ITEM			z_wr0306_ItemRare_0
-0	0xA705F5412648AF3E	FIELD ITEM			z_wr0306_ItemNormal_0_1
-0	0xA705F4412648AD8B	FIELD ITEM			z_wr0306_ItemNormal_0_2
-0	0xA705F3412648ABD8	FIELD ITEM			z_wr0306_ItemNormal_0_3
-0	0x0BD71507B4655362	FIELD ITEM			z_wr0306_ItemRare_0_0
-0	0xA705FA412648B7BD	FIELD ITEM			z_wr0306_ItemNormal_0_4
-0	0x2008D9FC63835095	FIELD ITEM			z_wr0306_ItemRare_0_0_0
-0	0xE6E689C602F03047	FIELD ITEM			z_wr0307_ItemNormal_0
-0	0xBE146B31D34D4D68	FIELD ITEM			z_wr0307_ItemNormal_0_0
-0	0xF2F352509697DEC8	FIELD ITEM			z_wr0307_ItemRare_0
-0	0xBE146C31D34D4F1B	FIELD ITEM			z_wr0307_ItemNormal_0_1
-0	0xBE146D31D34D50CE	FIELD ITEM			z_wr0307_ItemNormal_0_2
-0	0xBE146E31D34D5281	FIELD ITEM			z_wr0307_ItemNormal_0_3
-0	0x171EB9F2FD46D13F	FIELD ITEM			z_wr0307_ItemNormal_0_0_0
-0	0x20FA70F303334F74	FIELD ITEM			z_wr0307_ItemNormal_0_1_0
-0	0x3CBA4C8AE28540C0	FIELD ITEM			z_wr0308_ItemNormal_0
-0	0xFA4AE171BA9AFC11	FIELD ITEM			z_wr0309_ItemNormal_0
-0	0xB3429C5EF385B0A6	FIELD ITEM			z_wr0309_ItemRare_0
-0	0x10F00755AADEC2F7	FIELD ITEM			z_wr0310_ItemNormal_0
-0	0xA52438F96997D358	FIELD ITEM			z_wr0310_ItemNormal_0_0
-0	0x2331595C37CCD318	FIELD ITEM			z_wr0310_ItemRare_0
-0	0xA52439F96997D50B	FIELD ITEM			z_wr0310_ItemNormal_0_1
-0	0x778943445F7D5CF6	FIELD ITEM			z_wr0311_ItemNormal_0
-0	0x3BEBA6F1AE90682D	FIELD ITEM			z_wr0311_ItemRare_0
-0	0x9E9CA39FD2A17EB2	FIELD ITEM			z_wr0311_ItemRare_0_0
-0	0x86891136CC25B99E	FIELD ITEM			z_wr0311_ItemNormal_0_0_0
-0	0x9E9CA49FD2A18065	FIELD ITEM			z_wr0311_ItemRare_0_1
-0	0xF3B9492789DFBE45	FIELD ITEM			z_wr0312_ItemNormal_0
-0	0x827446B79C4443E2	FIELD ITEM			z_wr0312_ItemRare_0
-0	0x46E62655F69A64FA	FIELD ITEM			z_wr0312_ItemNormal_0_0
+0	0xE4B37C41B77F3655	FIELD ITEM	Old Cemetery		Poké Doll
+0	0x978CD4F42B841552	FIELD ITEM	Old Cemetery		TR33 (Shadow Ball)
+0	0x1216653A9C5E30A4	FIELD ITEM	Old Cemetery		Soothe Bell
+0	0xA705F6412648B0F1	FIELD ITEM	Snowslide Slope		Full Heal
+0	0xA498BCDB2459AE1D	FIELD ITEM	Snowslide Slope		TR53 (Close Combat)
+0	0xA705F5412648AF3E	FIELD ITEM	Snowslide Slope		Eject Pack
+0	0xA705F4412648AD8B	FIELD ITEM	Snowslide Slope		Full Restore
+0	0xA705F3412648ABD8	FIELD ITEM	Snowslide Slope		Throat Spray
+0	0x0BD71507B4655362	FIELD ITEM	Snowslide Slope		TR05 (Ice Beam)
+0	0xA705FA412648B7BD	FIELD ITEM	Snowslide Slope		Dusk Stone
+0	0x2008D9FC63835095	FIELD ITEM	Snowslide Slope		TR83 (Ally Switch)
+0	0xE6E689C602F03047	FIELD ITEM	Tunnel to the Top		Dragon Fang
+0	0xBE146B31D34D4D68	FIELD ITEM	Tunnel to the Top		Moon Stone
+0	0xF2F352509697DEC8	FIELD ITEM	Tunnel to the Top		TR15 (Fire Blast)
+0	0xBE146C31D34D4F1B	FIELD ITEM	Tunnel to the Top		Magmarizer
+0	0xBE146D31D34D50CE	FIELD ITEM	Tunnel to the Top		Rare Candy
+0	0xBE146E31D34D5281	FIELD ITEM	Tunnel to the Top		PP Up
+0	0x171EB9F2FD46D13F	FIELD ITEM	Tunnel to the Top		Safety Goggles
+0	0x20FA70F303334F74	FIELD ITEM	Tunnel to the Top		Heavy-Duty Boots
+0	0x3CBA4C8AE28540C0	FIELD ITEM	Path to the Peak		Ice Stone
+0	0xFA4AE171BA9AFC11	FIELD ITEM	Crown Shrine	Outside	Max Revive
+0	0xB3429C5EF385B0A6	FIELD ITEM	Crown Shrine	Outside	TR11 (Psychic)
+0	0x10F00755AADEC2F7	FIELD ITEM	Giant's Foot		Binding Band
+0	0xA52438F96997D358	FIELD ITEM	Giant's Foot		Iron Ball
+0	0x2331595C37CCD318	FIELD ITEM	Giant's Foot		TR58 (Dark Pulse)
+0	0xA52439F96997D50B	FIELD ITEM	Giant's Foot		Poison Barb
+0	0x778943445F7D5CF6	FIELD ITEM	Roaring-Sea Caves		Big Nugget
+0	0x3BEBA6F1AE90682D	FIELD ITEM	Roaring-Sea Caves		TR10 (Earthquake)
+0	0x9E9CA39FD2A17EB2	FIELD ITEM	Roaring-Sea Caves		TR92 (Dazzling Gleam)
+0	0x86891136CC25B99E	FIELD ITEM	Roaring-Sea Caves		Rare Candy
+0	0x9E9CA49FD2A18065	FIELD ITEM	Roaring-Sea Caves		TR18 (Leech Life)
+0	0xF3B9492789DFBE45	FIELD ITEM	Frigid Sea		Dive Ball
+0	0x827446B79C4443E2	FIELD ITEM	Frigid Sea		TR03 (Hydro Pump)
+0	0x46E62655F69A64FA	FIELD ITEM	Frigid Sea		Shell Bell
 0	0x6C34F180BB305227	STATIC ENCOUNTER			KCapturedCobalion
-0	0x1E90727D363EADDF	FIELD ITEM			z_wr0313_ItemRare_0
-0	0xE142F9A49EE29B10	FIELD ITEM			z_wr0313_ItemRare_0_0
-0	0xCE70ACA3892AD53F	FIELD ITEM			z_wr0321_ItemNormal_0
-0	0xE38BEB279DD03130	FIELD ITEM			z_wr0321_ItemNormal_0_0
-0	0xCC089DB074ED2F40	FIELD ITEM			z_wr0321_ItemRare_0
-0	0xE38BED279DD03496	FIELD ITEM			z_wr0321_ItemNormal_0_2
-0	0xE38BEF279DD037FC	FIELD ITEM			z_wr0321_ItemNormal_0_4
-0	0x9AB8EBCB6902EC14	FIELD ITEM			z_wr0321_ItemRare_0_1
-0	0xE38BEC279DD032E3	FIELD ITEM			z_wr0321_ItemNormal_0_1
-0	0xE889E6E848CC828C	FIELD ITEM			z_wr0321_ItemNormal_0_1_0
-0	0xE889E7E848CC843F	FIELD ITEM			z_wr0321_ItemNormal_0_1_1
+0	0x1E90727D363EADDF	FIELD ITEM	Three-Point Pass		TR24 (Outrage)
+0	0xE142F9A49EE29B10	FIELD ITEM	Three-Point Pass		TR09 (Thunder)
+0	0xCE70ACA3892AD53F	FIELD ITEM	Ballimere Lake		Prism Scale
+0	0xE38BEB279DD03130	FIELD ITEM	Ballimere Lake		Dawn Stone
+0	0xCC089DB074ED2F40	FIELD ITEM	Ballimere Lake		TR20 (Substitute)
+0	0xE38BED279DD03496	FIELD ITEM	Ballimere Lake		Metronome
+0	0xE38BEF279DD037FC	FIELD ITEM	Ballimere Lake		Chipped Pot
+0	0x9AB8EBCB6902EC14	FIELD ITEM	Ballimere Lake		TR65 (Energy Ball)
+0	0xE38BEC279DD032E3	FIELD ITEM	Ballimere Lake		PP Up
+0	0xE889E6E848CC828C	FIELD ITEM	Ballimere Lake		Rare Candy
+0	0xE889E7E848CC843F	FIELD ITEM	Ballimere Lake		Bottle Cap
 0	0x9E3868EDA097DE31	STATIC ENCOUNTER			KCapturedKeldeo
-0	0x6C5258AECF4FEF4C	FIELD ITEM			z_wr0322_ItemNormal_0
+0	0x6C5258AECF4FEF4C	FIELD ITEM	Lakeside Cave		Shny Stone
 0	0x55998E18750C83A4	STATIC ENCOUNTER			KCapturedTerrakion
-0	0x1053AD73EA52F40A	FIELD ITEM			z_wr0323_ItemRare_0
+0	0x1053AD73EA52F40A	FIELD ITEM	Dyna Tree Hill		TR66 (Brave Bird)
 0	0xE473CBDF52F6F77F	PKMN GIFT			KReceivedGiftCosmog
-0	0x39023A3D6C098936	FIELD ITEM			z_d0701_ItemNormal_0
+0	0x39023A3D6C098936	FIELD ITEM	Crown Shrine	Inside	King's Rock
 0	0xDDA999B84B3C9063	PKMN GIFT			KReceivedGiftPoipole
