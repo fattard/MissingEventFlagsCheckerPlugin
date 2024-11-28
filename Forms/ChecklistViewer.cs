@@ -240,7 +240,8 @@ namespace MissingEventFlagsCheckerPlugin.Forms
 
             List<DataGridViewRow> rowsToAdd = [];
 
-            string searchTerm = searchTermBox.Text.ToUpperInvariant();
+            bool isNegatedSearch = searchTermBox.Text.StartsWith("^");
+            string searchTerm = searchTermBox.Text.ToUpperInvariant().Replace("^", "");
 
             for (int i = 0; i < m_checkerList.Count; i++)
             {
@@ -256,9 +257,16 @@ namespace MissingEventFlagsCheckerPlugin.Forms
                     continue;
                 }
 
-                if (filterBySearch && !evt.ToString().Contains(searchTerm, StringComparison.InvariantCultureIgnoreCase))
+                if (filterBySearch)
                 {
-                    continue;
+                    if (!isNegatedSearch && !evt.ToString().Contains(searchTerm, StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        continue;
+                    }
+                    else if (isNegatedSearch && evt.ToString().Contains(searchTerm, StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        continue;
+                    }
                 }
 
                 var curRow = new DataGridViewRow();
