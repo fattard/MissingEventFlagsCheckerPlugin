@@ -552,7 +552,7 @@
 0	0x4B6	FIELD ITEM	Victory Road	1F Back 2	Dusk Stone
 0	0x4B7	FIELD ITEM	Victory Road	1F Back 2	Nugget
 0	0x4B8	FIELD ITEM	Route 224		Razor Claw
-0	0x4B9	FIELD ITEM	Route 224		Rare Candy
+0	0x4B9	_UNUSED	Route 224		Rare Candy
 0	0x4BA	FIELD ITEM	Route 224		Destiny Knot
 0	0x4BB	FIELD ITEM	Victory Road	1F Back 2	Leftovers
 0	0x4BC	FIELD ITEM	Route 225		Razor Fang
@@ -642,7 +642,7 @@
 0	0x513	FIELD ITEM	Floaroma Meadow		Ultra Ball
 0	0x514	FIELD ITEM	Floaroma Meadow		Rare Candy
 0	0x515	FIELD ITEM	Iron Island	B2F 2	Red Shard
-0	0x516	FIELD ITEM	Fuego Ironworks		Yellow Shard
+0	0x516	FIELD ITEM	Iron Island	B1F 1	Yellow Shard
 0	0x517	FIELD ITEM	Iron Island	B2F 2	Magnet
 0	0x518	FIELD ITEM	Iron Island	B1F 2	Revive
 0	0x519	FIELD ITEM	Route 216		Max Potion
