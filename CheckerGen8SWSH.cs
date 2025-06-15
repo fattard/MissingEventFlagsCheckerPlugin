@@ -49,7 +49,7 @@
                         else if (idx < 1024)
                         {
                             var data = savEventBlocks.GetBlockSafe(0xE479EE37).Data;
-                            if (data?.Length == 0x810)
+                            if (data.Length == 0x810)
                             {
                                 isEvtSet = data[((int)idx - 512) * 4] >= 2;
                             }
@@ -57,9 +57,8 @@
                         else if (idx < 1536)
                         {
                             var data = savEventBlocks.GetBlockSafe(0xE579EFCA).Data;
-                            if (data?.Length == 0x810)
+                            if (data.Length == 0x810)
                             {
-
                                 isEvtSet = data[((int)idx - 1024) * 4] >= 2;
                             }
                         }

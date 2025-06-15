@@ -39,7 +39,7 @@
 
                 case 1: // ItemFlags
                     {
-                        var bdata = savEventBlocks.GetBlockSafe(0x2482AD60).Data;
+                        var bdata = savEventBlocks.GetBlockSafe(0x2482AD60).Data.ToArray();
                         using (var ms = new System.IO.MemoryStream(bdata))
                         {
                             using (var reader = new System.IO.BinaryReader(ms))
@@ -62,8 +62,8 @@
 
                 case 2: // TRFlags
                     {
-                        var bdata1 = savEventBlocks.GetBlockSafe(0xF018C4AC).Data;
-                        var bdata2 = savEventBlocks.GetBlockSafe(0x28E475DE).Data;
+                        var bdata1 = savEventBlocks.GetBlockSafe(0xF018C4AC).Data.ToArray();
+                        var bdata2 = savEventBlocks.GetBlockSafe(0x28E475DE).Data.ToArray();
                         using (var ms1 = new System.IO.MemoryStream(bdata1))
                         using (var ms2 = new System.IO.MemoryStream(bdata2))
                         {
