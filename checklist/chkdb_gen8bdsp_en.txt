@@ -216,7 +216,7 @@ EvtFlags	0x02C0	HIDDEN ITEM	Iron Island	B2F 1	Iron
 EvtFlags	0x02C1	HIDDEN ITEM	Iron Island	B2F 2	Full Restore
 EvtFlags	0x02C2	HIDDEN ITEM	Iron Island	B2F 2	Revive
 EvtFlags	0x02C3	HIDDEN ITEM	Iron Island	B2F 2	Iron Plate
-EvtFlags	0x02C4	HIDDEN ITEM	Lake Valor	Dried	HP Up
+EvtFlags	0x02C4	HIDDEN ITEM	Lake Valor	Dried	[Missable] HP Up
 EvtFlags	0x02C5	HIDDEN ITEM	Floarama Meadow		Honey
 EvtFlags	0x02C6	HIDDEN ITEM	Floarama Meadow		Honey
 EvtFlags	0x02C7	HIDDEN ITEM	Floarama Meadow		Hyper Potion
