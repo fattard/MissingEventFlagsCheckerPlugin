@@ -17,9 +17,11 @@
             GeneralEvent,
             SideEvent,
             StoryEvent,
-            FlySpot,
+            FlyDestination,
             BerryTree,
-            Collectable,
+            Collectible,
+            Challenge,
+            OnlineEvent,
 
             _Unused,
             _Separator,
@@ -30,6 +32,12 @@
         /// </summary>
         public class EventDetail
         {
+            /// <summary>
+            /// The Game version Id which this event applies to exclusively.
+            /// GameVersion.Any applies to any game in the group.
+            /// </summary>
+            public GameVersion GameVersionId;
+
             /// <summary>
             /// The Id of the event source, which can be sourced from other specific flags
             /// </summary>
@@ -79,6 +87,7 @@
                     throw new ArgumentException("Argument detailEntry format is not valid");
                 }
 
+                GameVersionId = GameVersion.Any;
                 EvtSource = sources[info[0]];
                 EvtId = ParseDecOrHex(info[1]);
                 EvtTypeVal = EvtTypeVal.Parse(info[2]);
@@ -138,6 +147,8 @@
                     return;
                 }
 
+                GameVersion curGameVersion = m_savFile!.Version;
+
                 do
                 {
                     if (!string.IsNullOrWhiteSpace(s))
@@ -156,7 +167,11 @@
 
                         evtDetail.IsTimedEvent = isTimedEventRange;
 
-                        m_eventsChecklist.Add(evtDetail);
+                        if (evtDetail.GameVersionId == GameVersion.Any ||
+                            evtDetail.GameVersionId == curGameVersion)
+                        {
+                            m_eventsChecklist.Add(evtDetail);
+                        }
                     }
 
                     s = reader.ReadLine();
