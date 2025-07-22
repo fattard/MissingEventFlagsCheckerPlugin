@@ -82,22 +82,22 @@
             {
                 string[] info = detailEntry.Split('\t');
 
-                if (info.Length < 6)
+                if (info.Length < 7)
                 {
                     throw new ArgumentException("Argument detailEntry format is not valid");
                 }
 
-                GameVersionId = GameVersion.Any;
-                EvtSource = sources[info[0]];
-                EvtId = ParseDecOrHex(info[1]);
-                EvtTypeVal = EvtTypeVal.Parse(info[2]);
+                GameVersionId = info[0] == "-" ? GameVersion.Any : Enum.Parse<GameVersion>(info[0]);
+                EvtSource = sources[info[1]];
+                EvtId = ParseDecOrHex(info[2]);
+                EvtTypeVal = EvtTypeVal.Parse(info[3]);
 
-                Location = info[3];
-                if (!string.IsNullOrWhiteSpace(info[4]))
+                Location = info[4];
+                if (!string.IsNullOrWhiteSpace(info[5]))
                 {
-                    Location += " " + info[4];
+                    Location += " " + info[5];
                 }
-                DescTxt = info[5];
+                DescTxt = info[6];
                 IsDone = false;
                 IsTimedEvent = false;
             }

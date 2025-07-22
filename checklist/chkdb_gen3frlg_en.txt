@@ -1,1092 +1,1092 @@
-0	0x052	STATIC ENCOUNTER	Mt. Ember	?	Moltres sprite disappeared
-0	0x054	STATIC ENCOUNTER	Route 12		Snorlax sprite disappeared
-0	0x057	PKMN GIFT		Celadon Mansion	Item ball with Eevee disappeared
-0	0x05D	STATIC ENCOUNTER	Power Plant		Zapdos sprite disappeared
-0	0x060	PKMN GIFT	Saffron City	Dojo	Item ball with Hitmonlee disappeared
-0	0x061	PKMN GIFT	Saffron City	Dojo	Item ball with Hitmonchan disappeared
-0	0x080	STATIC ENCOUNTER	Route 16		Snorlax sprite disappeared
-0	0x081	STATIC ENCOUNTER	Cerulean Cave	?	Mewtwo sprite disappeared
-0	0x082	STATIC ENCOUNTER	Seafoam Islands	?	Articuno sprite disappeared
-0	0x085	STATIC ENCOUNTER	Power Plant		Electrode sprite disappeared
-0	0x086	STATIC ENCOUNTER	Power Plant		Electrode sprite disappeared
-0	0x099	STATIC ENCOUNTER	Birth Island		Deoxys sprite disappeared
-0	0x09B	STATIC ENCOUNTER	Navel Rock	?	Lugia sprite disappeared
-0	0x09C	STATIC ENCOUNTER	Navel Rock	?	Ho-Oh sprite disappeared
-0	0x154	FIELD ITEM	Route 2		Ether
-0	0x155	FIELD ITEM	Route 2		Paralyz Heal
-0	0x156	FIELD ITEM	Viridian Forest		Poké Ball
-0	0x157	FIELD ITEM	Viridian Forest		Antidote
-0	0x158	FIELD ITEM	Viridian Forest		Potion
-0	0x159	FIELD ITEM	Mt. Moon	1F	Paralyz Heal
-0	0x15A	FIELD ITEM	Mt. Moon	1F	TM09 (Bullet Seed)
-0	0x15B	FIELD ITEM	Mt. Moon	1F	Potion
-0	0x15C	FIELD ITEM	Mt. Moon	1F	Rare Candy
-0	0x15D	FIELD ITEM	Mt. Moon	1F	Escape Rope
-0	0x15E	FIELD ITEM	Mt. Moon	1F	Moon Stone
-0	0x15F	FIELD ITEM	Mt. Moon	B2F	Star Piece
-0	0x160	FIELD ITEM	Mt. Moon	B2F	TM46 (Thief)
-0	0x161	FIELD ITEM	Route 4		TM05 (Roar)
-0	0x162	FIELD ITEM	Route 24		TM45 (Attract)
-0	0x163	FIELD ITEM	Route 25		TM43 (Secret Power)
-0	0x164	FIELD ITEM	S.S. Anne	1F	[Missable] TM31 (Brick Break)
-0	0x165	FIELD ITEM	S.S. Anne	2F	[Missable] Stardust
-0	0x166	FIELD ITEM	S.S. Anne	2F	[Missable] X Attack
-0	0x167	FIELD ITEM	S.S. Anne	B1F	[Missable] TM44 (Rest)
-0	0x168	FIELD ITEM	S.S. Anne	B1F	[Missable] Ether
-0	0x169	FIELD ITEM	S.S. Anne	B1F	[Missable] Super Potion
-0	0x16A	FIELD ITEM	S.S. Anne	Kitchen	[Missable] Great Ball
-0	0x16B	FIELD ITEM	Route 9		TM40 (Aerial Ace)
-0	0x16C	FIELD ITEM	Rocket Hideout	B1F	Escape Rope
-0	0x16D	FIELD ITEM	Rocket Hideout	B1F	Hyper Potion
-0	0x16E	FIELD ITEM	Rocket Hideout	B2F	X Speed
-0	0x16F	FIELD ITEM	Rocket Hideout	B2F	Moon Stone
-0	0x170	FIELD ITEM	Rocket Hideout	B2F	TM12 (Taunt)
-0	0x171	FIELD ITEM	Rocket Hideout	B2F	Super Potion
-0	0x172	FIELD ITEM	Rocket Hideout	B3F	Rare Candy
-0	0x173	FIELD ITEM	Rocket Hideout	B3F	TM21 (Frustration)
-0	0x174	FIELD ITEM	Rocket Hideout	B4F	TM49 (Snatch)
-0	0x175	FIELD ITEM	Rocket Hideout	B4F	Max Ether
-0	0x176	FIELD ITEM	Rocket Hideout	B4F	Calcium
-0	0x177	FIELD ITEM	Pokémon Tower	3F	Escape Rope
-0	0x178	FIELD ITEM	Pokémon Tower	4F	Elixir
-0	0x179	FIELD ITEM	Pokémon Tower	4F	Awakening
-0	0x17A	FIELD ITEM	Pokémon Tower	4F	Great Ball
-0	0x17B	FIELD ITEM	Pokémon Tower	5F	Nugget
-0	0x17C	FIELD ITEM	Pokémon Tower	6F	Rare Candy
-0	0x17D	FIELD ITEM	Pokémon Tower	6F	X Accuracy
-0	0x17E	FIELD ITEM	Route 12		TM48 (Skill Swap)
-0	0x17F	FIELD ITEM	Route 12		Iron
-0	0x180	FIELD ITEM	Route 15		TM18 (Rain Dance)
-0	0x181	FIELD ITEM	Safari Zone		Nugget
-0	0x182	FIELD ITEM	Safari Zone		Max Potion
-0	0x183	FIELD ITEM	Safari Zone		Full Restore
-0	0x184	FIELD ITEM	Safari Zone		TM11 (Sunny Day)
-0	0x185	FIELD ITEM	Safari Zone		Leaf Stone
-0	0x186	FIELD ITEM	Safari Zone		Protein
-0	0x187	FIELD ITEM	Safari Zone		TM47 (Steel Wing)
-0	0x188	FIELD ITEM	Safari Zone		TM32 (Double Team)
-0	0x189	FIELD ITEM			Gold Teeth
-0	0x18A	FIELD ITEM	Safari Zone		Max Potion
-0	0x18B	FIELD ITEM	Safari Zone		Max Revive
-0	0x18C	FIELD ITEM	Silph Co.	3F	Hyper Potion
-0	0x18D	FIELD ITEM	Silph Co.	4F	Max Revive
-0	0x18E	FIELD ITEM	Silph Co.	4F	Escape Rope
-0	0x18F	FIELD ITEM	Silph Co.	4F	Full Heal
-0	0x190	FIELD ITEM	Silph Co.	5F	Protein
-0	0x191	FIELD ITEM	Silph Co.	5F	TM01 (Focus Punch)
-0	0x192	FIELD ITEM	Silph Co.	5F	Card Key
-0	0x193	FIELD ITEM	Silph Co.	6F	HP Up
-0	0x194	FIELD ITEM	Silph Co.	6F	X Special
-0	0x195	FIELD ITEM	Silph Co.	7F	Calcium
-0	0x196	FIELD ITEM	Silph Co.	7F	TM08 (Bulk Up)
-0	0x197	FIELD ITEM	Silph Co.	10F	Carbos
-0	0x198	FIELD ITEM	Silph Co.	10F	Ultra Ball
-0	0x199	FIELD ITEM	Silph Co.	10F	Rare Candy
-0	0x19A	FIELD ITEM	Power Plant		Max Potion
-0	0x19B	FIELD ITEM	Power Plant		TM17 (Protect)
-0	0x19C	FIELD ITEM	Power Plant		TM25 (Thunder)
-0	0x19D	FIELD ITEM	Power Plant		Thunder Stone
-0	0x19E	FIELD ITEM	Power Plant		Elixir
-0	0x19F	FIELD ITEM	Pokémon Mansion	1F	Carbos
-0	0x1A0	FIELD ITEM	Pokémon Mansion	1F	Escape Rope
-0	0x1A1	FIELD ITEM	Pokémon Mansion	2F	Calcium
-0	0x1A2	FIELD ITEM	Pokémon Mansion	3F	Max Potion
-0	0x1A3	FIELD ITEM	Pokémon Mansion	3F	Iron
-0	0x1A4	FIELD ITEM	Pokémon Mansion	B1F	TM14 (Blizzard)
-0	0x1A5	FIELD ITEM	Pokémon Mansion	B1F	Full Restore
-0	0x1A7	FIELD ITEM	Pokémon Mansion	B1F	TM22 (Solarbeam)
-0	0x1A8	FIELD ITEM	Pokémon Mansion	B1F	Secret Key
-0	0x1A9	FIELD ITEM	Victory Road	1F	Rare Candy
-0	0x1AA	FIELD ITEM	Victory Road	1F	TM02 (Dragon Claw)
-0	0x1AB	FIELD ITEM	Victory Road	2F	Guard Spec.
-0	0x1AC	FIELD ITEM	Victory Road	2F	TM07 (Hail)
-0	0x1AD	FIELD ITEM	Victory Road	2F	Full Heal
-0	0x1AE	FIELD ITEM	Victory Road	2F	TM37 (Sandstorm)
-0	0x1AF	FIELD ITEM	Victory Road	3F	Max Revive
-0	0x1B0	FIELD ITEM	Victory Road	3F	TM50 (Overheat)
-0	0x1B1	FIELD ITEM	Cerulean Cave	1F	Max Elixir
-0	0x1B2	FIELD ITEM	Cerulean Cave	1F	Nugget
-0	0x1B3	FIELD ITEM	Cerulean Cave	1F	Full Restore
-0	0x1B4	FIELD ITEM	Cerulean Cave	2F	Full Restore
-0	0x1B5	FIELD ITEM	Cerulean Cave	2F	PP Up
-0	0x1B6	FIELD ITEM	Cerulean Cave	2F	Ultra Ball
-0	0x1B7	FIELD ITEM	Cerulean Cave	B1F	Max Revive
-0	0x1B8	FIELD ITEM	Cerulean Cave	B1F	Ultra Ball
-0	0x1B9	FIELD ITEM	Fuchsia City		Rare Candy
-0	0x1BA	FIELD ITEM	Two Island		Revive
-0	0x1BB	FIELD ITEM	Three Island		Zinc
-0	0x1BE	FIELD ITEM	Viridian Forest		Potion
-0	0x1BF	FIELD ITEM	Mt. Moon	B2F	Revive
-0	0x1C0	FIELD ITEM	Mt. Moon	B2F	Antidote
-0	0x1C1	FIELD ITEM	Route 11		X Defend
-0	0x1C2	FIELD ITEM	Route 9		Burn Heal
-0	0x1C3	FIELD ITEM	Rock Tunnel	1F	Repel
-0	0x1C4	FIELD ITEM	Rock Tunnel	1F	Pearl
-0	0x1C5	FIELD ITEM	Rock Tunnel	1F	Escape Rope
-0	0x1C6	FIELD ITEM	Rock Tunnel	B1F	Revive
-0	0x1C7	FIELD ITEM	Rock Tunnel	B1F	Max Ether
-0	0x1C8	FIELD ITEM	Silph Co.	8F	Iron
-0	0x1C9	FIELD ITEM	Silph Co.	11F	Zinc
-0	0x1CA	FIELD ITEM	Pokémon Mansion	1F	Protein
-0	0x1CB	FIELD ITEM	Pokémon Mansion	2F	Zinc
-0	0x1CC	FIELD ITEM	Pokémon Mansion	2F	HP Up
-0	0x1CD	FIELD ITEM	Viridian City		Potion
-0	0x1CE	FIELD ITEM	Route 11		Great Ball
-0	0x1CF	FIELD ITEM	Route 11		Awakening
-0	0x1D0	FIELD ITEM	Pokémon Tower	5F	Cleanse Tag
-0	0x1D1	FIELD ITEM	Celadon City		Ether
-0	0x1D2	FIELD ITEM	Rocket Hideout	B3F	BlackGlasses
-0	0x1D3	FIELD ITEM	Safari Zone		Quick Claw
-0	0x1D4	FIELD ITEM	Seafoam Islands	1F	Ice Heal
-0	0x1D5	FIELD ITEM	Seafoam Islands	B1F	Water Stone
-0	0x1D6	FIELD ITEM	Seafoam Islands	B1F	Revive
-0	0x1D7	FIELD ITEM	Seafoam Islands	B2F	Big Pearl
-0	0x1D8	FIELD ITEM	Seafoam Islands	B4F	Ultra Ball
-0	0x1D9	FIELD ITEM	Four Island		Star Piece
-0	0x1DA	FIELD ITEM	Four Island		Stardust
-0	0x1DB	FIELD ITEM	Kindle Road		Ether
-0	0x1DC	FIELD ITEM	Kindle Road		Max Repel
-0	0x1DD	FIELD ITEM	Kindle Road		Carbos
-0	0x1DE	FIELD ITEM	Five Isle Meadow		Max Potion
-0	0x1DF	FIELD ITEM	Five Isle Meadow		PP Up
-0	0x1E0	FIELD ITEM	Memorial Pillar		Metal Coat
-0	0x1E1	FIELD ITEM	Outcast Island		PP Up
-0	0x1E2	FIELD ITEM	Water Path		Elixir
-0	0x1E3	FIELD ITEM	Water Path		Dragon Scale
-0	0x1E4	FIELD ITEM	Ruin Valley		Full Restore
-0	0x1E5	FIELD ITEM	Ruin Valley		HP Up
-0	0x1E6	FIELD ITEM	Ruin Valley		Sun Stone
-0	0x1E7	FIELD ITEM	Sevault Canyon		King's Rock
-0	0x1E8	FIELD ITEM	Sevault Canyon		Max Elixir
-0	0x1E9	FIELD ITEM	Sevault Canyon		Nugget
-0	0x1EA	FIELD ITEM	Berry Forest		Max Ether
-0	0x1EB	FIELD ITEM	Berry Forest		Full Heal
-0	0x1EC	FIELD ITEM	Berry Forest		Max Elixir
-0	0x1ED	FIELD ITEM	Mt. Ember		Ultra Ball
-0	0x1EE	FIELD ITEM	Mt. Ember		Fire Stone
-0	0x1EF	FIELD ITEM	Mt. Ember		Dire Hit
-0	0x1F0	FIELD ITEM	Icefall Cave		Ultra Ball
-0	0x1F1	FIELD ITEM			HM07 (Waterfall)
-0	0x1F2	FIELD ITEM	Icefall Cave		Full Restore
-0	0x1F3	FIELD ITEM	Icefall Cave		NeverMeltIce
-0	0x1F4	FIELD ITEM	Rocket Warehouse		Big Pearl
-0	0x1F5	FIELD ITEM	Rocket Warehouse		TM36 (Sludge Bomb)
-0	0x1F6	FIELD ITEM	Rocket Warehouse		Pearl
-0	0x1F7	FIELD ITEM	Rocket Warehouse		Up-Grade
-0	0x1F8	FIELD ITEM	Lost Cave		Silk Scarf
-0	0x1F9	FIELD ITEM	Lost Cave		Lax Incense
-0	0x1FA	FIELD ITEM	Lost Cave		Sea Incense
-0	0x1FB	FIELD ITEM	Lost Cave		Max Revive
-0	0x1FC	FIELD ITEM	Lost Cave		Rare Candy
-0	0x1FD	FIELD ITEM	Sevault Canyon		Lucky Punch
-0	0x1FE	FIELD ITEM	Silph Co.	4F	TM41 (Torment)
-0	0x230	ITEM GIFT	Route 1		Received Potion from boy
-0	0x231	ITEM GIFT	Vermilion City	Gym	Received TM34 (Shock Wave) from Lt. Surge
-0	0x234	ITEM GIFT	Route 25	Sea Cottage	Received S.S. Ticket from Bill
-0	0x236	ITEM GIFT			TM42 on Memorial Pillar received
-0	0x237	ITEM GIFT	S.S. Anne	3F	Received HM01 (Cut) from captain
-0	0x238	ITEM GIFT	Route 16	House	Received HM02 (Fly) from girl
-0	0x239	ITEM GIFT	Safari Zone	West	Received HM03 (Surf) from man in Secret House
-0	0x23A	ITEM GIFT	Fuchsia City	Warden's House	Received HM04 (Strength) from warden in exchange for his Gold Teeth
-0	0x23B	ITEM GIFT	Route 2	Gate	Received HM05 (Flash) from Oak's Aide
-0	0x23D	ITEM GIFT	Lavender Town	Pokémon House	Received Poké Flute from Mr. Fuji
-0	0x23F	ITEM GIFT	Cerulean City		Received TM28 (Dig) from Team Rocket thief
-0	0x240	ITEM GIFT	Vermilion City	House	Received Old Rod from Fishing Guru
-0	0x241	ITEM GIFT	Vermilion City	Pokémon Fan Club	Received Bike Voucher from chairman
-0	0x243	ITEM GIFT	Celadon City	Restaurant	Received Coin Case from man
-0	0x244	ITEM GIFT	Fuchsia City	House	Received Good Rod from Fishing Guru
-0	0x245	ITEM GIFT	Saffron City	Mr. Psychic's House	Received TM29 (Psychic) from Mr. Psychic
-0	0x246	PKMN GIFT			Received Lapras
-0	0x247	ITEM GIFT	Pallet Town	Oak's Lab	Received Poké Ball (x5) from Prof. Oak
-0	0x248	IN-GAME TRADE			Traded on Route 2
-0	0x249	PKMN GIFT			Purchased Magikarp
-0	0x24A	IN-GAME TRADE			Traded in Cerulean City
-0	0x24B	IN-GAME TRADE			Traded in Underground Tunnel
-0	0x24D	IN-GAME TRADE			Traded in Vermilion City
-0	0x24E	ITEM GIFT	Cinnabar Island	Gym	Received TM38 (Fire Blast) from Blaine
-0	0x250	ITEM GIFT	Silph Co.	11F	Received Master Ball from Silph Co.'s president
-0	0x251	IN-GAME TRADE			Traded on Route 11
-0	0x252	ITEM GIFT	Route 11	Gate	Received Itemfinder from Oak's Aide
-0	0x254	ITEM GIFT	Pewter City	Gym	Received TM39 (Rock Tomb) from Brock
-0	0x255	ITEM GIFT	Route 12	House	Received Super Rod from Fishing Guru
-0	0x256	ITEM GIFT	Route 15	Gate	Received Exp. Share from Oak's Aide
-0	0x257	IN-GAME TRADE			Traded on Route 18
-0	0x259	ITEM GIFT	Fuchsia City	Gym	TM06 (Toxic) from Koga
-0	0x25B	ITEM GIFT	Route 12	Gate	TM27 (Return) from girl
-0	0x25E	ITEM GIFT	Pewter City	Museum	Received Old Amber from scientist
-0	0x263	PKMN GIFT			Eevee in Celadon Mansion collected
-0	0x26E	ITEM GIFT	Celadon City	Rocket Game Corner	Received 10 coins from fisherman
-0	0x26F	ITEM GIFT	Celadon City	Rocket Game Corner	Received 20 coins from scientist
-0	0x270	ITEM GIFT	Celadon City	Rocket Game Corner	Received 20 Coins from gentleman
-0	0x271	ITEM GIFT	Cerulean City	Bike Shop	Received Bicycle from owner in exchange for a voucher
-0	0x272	ITEM GIFT	Mt. Moon	B2F	Received Dome Fossil
-0	0x273	ITEM GIFT	Mt. Moon	B2F	Received Helix Fossil
-0	0x274	IN-GAME TRADE			Traded in Cinnabar Lab (Electrode)
-0	0x275	IN-GAME TRADE			Traded in Cinnabar Lab (Tangela)
-0	0x276	IN-GAME TRADE			Traded in Cinnabar Lab (Seel)
-0	0x278	PKMN GIFT	Saffron City	Dojo	Received Hitmonlee / Hitmonchan from item ball
-0	0x292	ITEM GIFT	Vermilion City	Poké Center	Received Vs. Seeker from woman
-0	0x293	ITEM GIFT	Celadon City	Gym	Received TM19 (Giga Drain) from Erika
-0	0x294	ITEM GIFT	Celadon Department Store	Roofttop	Received TM33 (Reflect) from girl in exchange for a Lemonade
-0	0x295	ITEM GIFT	Celadon Department Store	Roofttop	Received TM20 (Safeguard) from girl in exchange for a Soda Pop
-0	0x296	ITEM GIFT	Celadon Department Store	Roofttop	Received TM16 (Light Screen) from girl in exchange for a Fresh Water
-0	0x297	ITEM GIFT	Cerulean City	Gym	Received TM03 (Water Pulse) from Misty
-0	0x298	ITEM GIFT	Viridian City	Gym	Received TM26 (Earthquake) from Giovanni
-0	0x29A	ITEM GIFT	Saffron City	Gym	Received TM04 (Calm Mind) from Sabrina
-0	0x29B	ITEM GIFT	Cerulean City		Received Fame Checker from Rival
-0	0x29C	SIDE EVENT			Set Magikarp Length Record
-0	0x29E	SIDE EVENT			
-0	0x29F	SIDE EVENT			
-0	0x2A0	SIDE EVENT			
-0	0x2A6	ITEM GIFT	Celadon City	Mansion 1F	Received Tea from old woman
-0	0x2A7	ITEM GIFT			Received Aurora Ticket from Mystery Gift
-0	0x2A8	ITEM GIFT			Received Mystic Ticket from Mystery Gift
-0	0x2BB	ITEM GIFT	Cerulean City	House	Received Powder Jar from old man
-0	0x2BC	STATIC ENCOUNTER			Mewtwo caught/defeated
-0	0x2BD	STATIC ENCOUNTER			Moltres caught/defeated
-0	0x2BE	STATIC ENCOUNTER			Articuno caught/defeated
-0	0x2BF	STATIC ENCOUNTER			Zapdos caught/defeated
-0	0x2D0	STATIC ENCOUNTER			Electrode (south) in Power Plant defeated/ran/caught
-0	0x2D1	STATIC ENCOUNTER			Electrode (north) in Power Plant defeated/ran/caught
-0	0x2D9	ITEM GIFT			Set Heracross Length Record
-0	0x2DA	PKMN GIFT	Water Labyrinth		Received Togepi Egg from Gentleman
-0	0x2DC	ITEM GIFT	Rocket Warehouse		Received Sapphire from Gideon
-0	0x2DD	ITEM GIFT	Mt. Ember	?	Received Ruby
-0	0x2E2	ITEM GIFT	Three Isle Path		Received Nugget from man
-0	0x2E4	STATIC ENCOUNTER			Captured Deoxys
-0	0x2EF	ITEM GIFT	Ember Spa		Received HM06 (Rock Smash) from old man
-0	0x2F2	STATIC ENCOUNTER			Captured Lugia
-0	0x2F3	STATIC ENCOUNTER			Captured Ho-Oh
-0	0x2F4	SIDE EVENT			Shown Prof. Oak the complete National Dex
-0	0x2FA	ITEM GIFT	Route 10	Poké Center	Received Everstone from Oak's Aide
-0	0x2FB	ITEM GIFT	Two Island	Joyful Game Corner	Received Moon Stone from Lostelle's dad in exchange for a Meteorite
-0	0x2FC	ITEM GIFT	Three Island		Received Full Restore from man for driving off bikers
-0	0x2FD	ITEM GIFT	Route 16	Gate	Received Amulet Coin from Oak's Aide
-0	0x3E8	HIDDEN ITEM	Viridian Forest		Potion
-0	0x3E9	HIDDEN ITEM	Viridian Forest		Antidote
-0	0x3EA	HIDDEN ITEM	Mt. Moon		Moon Stone
-0	0x3EB	HIDDEN ITEM	Mt. Moon		Ether
-0	0x3EC	HIDDEN ITEM	Route 25		Elixir
-0	0x3ED	HIDDEN ITEM	Route 25		Ether
-0	0x3EE	HIDDEN ITEM	Route 9		Ether
-0	0x3F0	HIDDEN ITEM	S.S. Anne	B1F	[Missable] Hyper Potion
-0	0x3F1	HIDDEN ITEM	Route 10		Super Potion
-0	0x3F2	HIDDEN ITEM	Route 10		Max Ether
-0	0x3F3	HIDDEN ITEM	Rocket Hideout		PP Up
-0	0x3F4	HIDDEN ITEM	Rocket Hideout		Nugget
-0	0x3F5	HIDDEN ITEM	Rocket Hideout		Nest Ball
-0	0x3F6	HIDDEN ITEM	Pokémon Tower	5F	Big Mushroom
-0	0x3F7	HIDDEN ITEM	Route 13		PP Up
-0	0x3F9	HIDDEN ITEM	Route 17		Rare Candy
-0	0x3FA	HIDDEN ITEM	Route 17		Full Restore
-0	0x3FB	HIDDEN ITEM	Route 17		PP Up
-0	0x3FC	HIDDEN ITEM	Route 17		Max Revive
-0	0x3FD	HIDDEN ITEM	Route 17		Max Elixir
-0	0x3FE	HIDDEN ITEM	Safari Zone		Leaf Stone
-0	0x3FF	HIDDEN ITEM	Safari Zone		Revive
-0	0x400	HIDDEN ITEM	Silph Co.	5F	Elixir
-0	0x401	HIDDEN ITEM	Silph Co.	9F	Max Potion
-0	0x402	HIDDEN ITEM	Saffron City		Nugget
-0	0x403	HIDDEN ITEM	Power Plant		Max Elixir
-0	0x404	HIDDEN ITEM	Power Plant		Thunder Stone
-0	0x405	HIDDEN ITEM	Seafoam Islands		Nugget
-0	0x406	HIDDEN ITEM	Seafoam Islands		Water Stone
-0	0x407	HIDDEN ITEM	Pokémon Mansion		Moon Stone
-0	0x408	HIDDEN ITEM	Pokémon Mansion		Rare Candy
-0	0x409	HIDDEN ITEM	Pokémon Mansion		Elixir
-0	0x40A	HIDDEN ITEM	Route 23		Full Restore
-0	0x40B	HIDDEN ITEM	Route 23		Ultra Ball
-0	0x40C	HIDDEN ITEM	Route 23		Max Ether
-0	0x40D	HIDDEN ITEM	Victory Road		Ultra Ball
-0	0x40E	HIDDEN ITEM	Victory Road		Full Restore
-0	0x40F	HIDDEN ITEM	Cerulean Cave	1F	Ultra Ball
-0	0x411	HIDDEN ITEM	Route 11		Escape Rope
-0	0x412	HIDDEN ITEM	Route 12		Hyper Potion
-0	0x417	HIDDEN ITEM	Celadon City		PP Up
-0	0x418	HIDDEN ITEM	Vermilion City		Max Ether
-0	0x419	HIDDEN ITEM	Cerulean City		Rare Candy
-0	0x41A	HIDDEN ITEM	Route 4		Great Ball
-0	0x41B	HIDDEN ITEM	Rocket Game Corner		10 Coins
-0	0x41C	HIDDEN ITEM	Rocket Game Corner		10 Coins
-0	0x41D	HIDDEN ITEM	Rocket Game Corner		20 Coins
-0	0x41E	HIDDEN ITEM	Rocket Game Corner		10 Coins
-0	0x41F	HIDDEN ITEM	Rocket Game Corner		10 Coins
-0	0x420	HIDDEN ITEM	Rocket Game Corner		20 Coins
-0	0x421	HIDDEN ITEM	Rocket Game Corner		10 Coins
-0	0x422	HIDDEN ITEM	Rocket Game Corner		10 Coins
-0	0x423	HIDDEN ITEM	Rocket Game Corner		10 Coins
-0	0x424	HIDDEN ITEM	Rocket Game Corner		40 Coins
-0	0x425	HIDDEN ITEM	Rocket Game Corner		100 Coins
-0	0x426	HIDDEN ITEM	Rocket Game Corner		10 Coins
-0	0x427	HIDDEN ITEM	Sevault Canyon		Cheri Berry
-0	0x428	HIDDEN ITEM	Tanoby Ruins		Heart Scale  (recurring)
-0	0x429	HIDDEN ITEM	Tanoby Ruins		Heart Scale  (recurring)
-0	0x42A	HIDDEN ITEM	Tanoby Ruins		Heart Scale  (recurring)
-0	0x42B	HIDDEN ITEM	Tanoby Ruins		Heart Scale  (recurring)
-0	0x42C	HIDDEN ITEM	Rocket Warehouse		Nest Ball
-0	0x42D	HIDDEN ITEM	Rocket Warehouse		Net Ball
-0	0x42E	HIDDEN ITEM	Underground Path	North-South	Potion (recurring)
-0	0x42F	HIDDEN ITEM	Underground Path	North-South	Antidote (recurring)
-0	0x430	HIDDEN ITEM	Underground Path	North-South	Parlyz Heal (recurring)
-0	0x431	HIDDEN ITEM	Underground Path	North-South	Awakening (recurring)
-0	0x432	HIDDEN ITEM	Underground Path	North-South	Burn Heal (recurring)
-0	0x433	HIDDEN ITEM	Underground Path	North-South	Ice Heal (recurring)
-0	0x434	HIDDEN ITEM	Underground Path	North-South	Ether (recurring)
-0	0x435	HIDDEN ITEM	Underground Path	West-East	Potion (recurring)
-0	0x436	HIDDEN ITEM	Underground Path	West-East	Antidote (recurring)
-0	0x437	HIDDEN ITEM	Underground Path	West-East	Parlyz Heal (recurring)
-0	0x438	HIDDEN ITEM	Underground Path	West-East	Awakening (recurring)
-0	0x439	HIDDEN ITEM	Underground Path	West-East	Burn Heal (recurring)
-0	0x43A	HIDDEN ITEM	Underground Path	West-East	Ice Heal (recurring)
-0	0x43B	HIDDEN ITEM	Underground Path	West-East	Ether (recurring)
-0	0x43C	HIDDEN ITEM	Mt. Moon		Tiny Mushroom (recurring)
-0	0x43D	HIDDEN ITEM	Mt. Moon		Tiny Mushroom (recurring)
-0	0x43E	HIDDEN ITEM	Mt. Moon		Tiny Mushroom (recurring)
-0	0x43F	HIDDEN ITEM	Mt. Moon		Big Mushroom (recurring)
-0	0x440	HIDDEN ITEM	Mt. Moon		Big Mushroom (recurring)
-0	0x441	HIDDEN ITEM	Mt. Moon		Big Mushroom (recurring)
-0	0x442	HIDDEN ITEM	Berry Forest		Razz Berry (recurring)
-0	0x443	HIDDEN ITEM	Berry Forest		Bluk Berry (recurring)
-0	0x444	HIDDEN ITEM	Berry Forest		Nanab Berry (recurring)
-0	0x445	HIDDEN ITEM	Berry Forest		Wepear Berry (recurring)
-0	0x446	HIDDEN ITEM	Berry Forest		Oran Berry (recurring)
-0	0x447	HIDDEN ITEM	Berry Forest		Cheri Berry (recurring)
-0	0x448	HIDDEN ITEM	Berry Forest		Chesto Berry (recurring)
-0	0x449	HIDDEN ITEM	Berry Forest		Pecha Berry (recurring)
-0	0x44A	HIDDEN ITEM	Berry Forest		Rawst Berry (recurring)
-0	0x44B	HIDDEN ITEM	Berry Forest		Aspear Berry (recurring)
-0	0x44C	HIDDEN ITEM	Berry Forest		Persim Berry (recurring)
-0	0x44D	HIDDEN ITEM	Berry Forest		Pinap Berry (recurring)
-0	0x44E	HIDDEN ITEM	Berry Forest		Lum Berry (recurring)
-0	0x44F	HIDDEN ITEM	Treasure Beach		Stardust (recurring)
-0	0x450	HIDDEN ITEM	Treasure Beach		Stardust (recurring)
-0	0x451	HIDDEN ITEM	Treasure Beach		Pearl (recurring)
-0	0x452	HIDDEN ITEM	Treasure Beach		Pearl (recurring)
-0	0x453	HIDDEN ITEM	Treasure Beach		Ultra Ball (recurring)
-0	0x454	HIDDEN ITEM	Treasure Beach		Ultra Ball (recurring)
-0	0x455	HIDDEN ITEM	Treasure Beach		Star Piece (recurring)
-0	0x456	HIDDEN ITEM	Treasure Beach		Big Pearl (recurring)
-0	0x457	HIDDEN ITEM	Cape Brink		Rare Candy
-0	0x458	HIDDEN ITEM	Pewter City		Poké Ball
-0	0x459	HIDDEN ITEM	Route 3		Oran Berry
-0	0x45A	HIDDEN ITEM	Route 4		Persim Berry
-0	0x45B	HIDDEN ITEM	Route 24		Pecha Berry
-0	0x45C	HIDDEN ITEM	Route 25		Oran Berry
-0	0x45D	HIDDEN ITEM	Route 25		Bluk Berry
-0	0x45E	HIDDEN ITEM	Route 6		Sitrus Berry
-0	0x45F	HIDDEN ITEM	Route 6		Rare Candy
-0	0x460	HIDDEN ITEM	S.S. Anne	Kitchen	[Missable] Pecha Berry
-0	0x461	HIDDEN ITEM	S.S. Anne	Kitchen	[Missable] Cheri Berry
-0	0x462	HIDDEN ITEM	S.S. Anne	Kitchen	[Missable] Chesto Berry
-0	0x463	HIDDEN ITEM	Route 9		Rare Candy
-0	0x465	HIDDEN ITEM	Route 10		Persim Berry
-0	0x466	HIDDEN ITEM	Route 10		Cheri Berry
-0	0x467	HIDDEN ITEM	Route 8		Rawst Berry
-0	0x468	HIDDEN ITEM	Route 8		Lum Berry
-0	0x469	HIDDEN ITEM	Route 8		Leppa Berry
-0	0x46A	HIDDEN ITEM	Route 12		Rare Candy
-0	0x46B	HIDDEN ITEM	Route 12		Leftovers
-0	0x46C	HIDDEN ITEM	Route 16		Leftovers
-0	0x46D	HIDDEN ITEM	Fuchsia City		Max Revive
-0	0x46E	HIDDEN ITEM	Rocket Hideout		Net Ball
-0	0x46F	HIDDEN ITEM	Silph Co.	2F	Ultra Ball
-0	0x470	HIDDEN ITEM	Silph Co.	3F	Protein
-0	0x471	HIDDEN ITEM	Silph Co.	4F	Iron
-0	0x472	HIDDEN ITEM	Silph Co.	5F	PP Up
-0	0x473	HIDDEN ITEM	Silph Co.	6F	Carbos
-0	0x474	HIDDEN ITEM	Silph Co.	7F	Zinc
-0	0x475	HIDDEN ITEM	Silph Co.	8F	Nugget
-0	0x476	HIDDEN ITEM	Silph Co.	9F	Calcium
-0	0x477	HIDDEN ITEM	Silph Co.	10F	HP Up
-0	0x478	HIDDEN ITEM	Silph Co.	11F	Revive
-0	0x479	HIDDEN ITEM	Route 23		Lum Berry
-0	0x47A	HIDDEN ITEM	Route 23		Sitrus Berry
-0	0x47B	HIDDEN ITEM	Route 23		Aspear Berry
-0	0x47C	HIDDEN ITEM	Route 23		Leppa Berry
-0	0x47D	HIDDEN ITEM	Route 14		Zinc
-0	0x47E	HIDDEN ITEM	Route 9		Chesto Berry
-0	0x47F	HIDDEN ITEM	Route 10		Nanab Berry
-0	0x480	HIDDEN ITEM	Route 7		Wepear Berry
-0	0x481	HIDDEN ITEM	Route 20		Stardust (recurring)
-0	0x482	HIDDEN ITEM	Route 21		Pearl (recurring)
-0	0x483	HIDDEN ITEM	Route 23		Max Elixir
-0	0x484	HIDDEN ITEM	Route 4		Razz Berry
-0	0x485	HIDDEN ITEM	Route 14		Pinap Berry
-0	0x486	HIDDEN ITEM	Mt. Ember		Fire Stone
-0	0x487	HIDDEN ITEM	Pokémon Tower	7F	Soothe Bell
-0	0x488	HIDDEN ITEM	Navel Rock		Sacred Ash
-0	0x489	HIDDEN ITEM	Cape Brink		PP Max
-0	0x48A	HIDDEN ITEM	Mt. Ember		Ultra Ball
-0	0x48B	HIDDEN ITEM	Three Isle Path		Nugget
-0	0x48C	HIDDEN ITEM	Three Island		PP Up
-0	0x48D	HIDDEN ITEM	Bond Bridge		Max Repel
-0	0x48E	HIDDEN ITEM	Bond Bridge		Pearl (recurring)
-0	0x48F	HIDDEN ITEM	Bond Bridge		Stardust (recurring)
-0	0x490	HIDDEN ITEM	Four Island		Pearl (recurring)
-0	0x491	HIDDEN ITEM	Four Island		Ultra Ball (recurring)
-0	0x492	HIDDEN ITEM	Memorial Pillar		Big Pearl (recurring)
-0	0x493	HIDDEN ITEM	Memorial Pillar		Razz Berry
-0	0x494	HIDDEN ITEM	Memorial Pillar		Sitrus Berry
-0	0x495	HIDDEN ITEM	Memorial Pillar		Bluk Berry
-0	0x496	HIDDEN ITEM	Resort Gorgeous		Nest Ball (recurring)
-0	0x497	HIDDEN ITEM	Resort Gorgeous		Stardust (recurring)
-0	0x498	HIDDEN ITEM	Resort Gorgeous		Star Piece (recurring)
-0	0x499	HIDDEN ITEM	Resort Gorgeous		Stardust (recurring)
-0	0x49A	HIDDEN ITEM	Outcast Island		Star Piece (recurring)
-0	0x49B	HIDDEN ITEM	Outcast Island		Net Ball (recurring)
-0	0x49C	HIDDEN ITEM	Green Path		Ultra Ball (recurring)
-0	0x49D	HIDDEN ITEM	Water Path		Aspear Berry
-0	0x49E	HIDDEN ITEM	Water Path		Oran Berry
-0	0x49F	HIDDEN ITEM	Water Path		Pinap Berry
-0	0x4A0	HIDDEN ITEM	Six Island		Leppa Berry
-0	0x4A1	HIDDEN ITEM	Trainer Tower		Big Pearl (recurring)
-0	0x4A2	HIDDEN ITEM	Trainer Tower		Pearl (recurring)
-0	0x4A3	HIDDEN ITEM	Trainer Tower		Nanab Berry
-0	0x4A4	HIDDEN ITEM	Canyon Entrance		Rawst Berry
-0	0x4A5	HIDDEN ITEM	Viridian City	Gym	Macho Brace
-0	0x4A6	HIDDEN ITEM	S.S. Anne Port		[Missable] Lava Cookie
-0	0x559	TRAINER BATTLE	Route 3		Youngster Ben
-0	0x55A	TRAINER BATTLE	Route 3		Youngster Calvin
-0	0x55B	TRAINER BATTLE	Mt. Moon	?	Youngster Josh
-0	0x55C	TRAINER BATTLE	Route 24		Youngster Timmy
-0	0x55D	TRAINER BATTLE	Route 25		Youngster Joey
-0	0x55E	TRAINER BATTLE	Route 25		Youngster Dan
-0	0x55F	TRAINER BATTLE	Route 25		Youngster Chad
-0	0x560	TRAINER BATTLE	S.S. Anne	?	[Missable] Youngster Tyler
-0	0x561	TRAINER BATTLE	Route 11		Youngster Eddie
-0	0x562	TRAINER BATTLE	Route 11		Youngster Dillon
-0	0x563	TRAINER BATTLE	Route 11		Youngster Yasu
-0	0x564	TRAINER BATTLE	Route 11		Youngster Dave
-0	0x565	TRAINER BATTLE	Route 3		Youngster Ben (Rematch 1)
-0	0x566	TRAINER BATTLE	Viridian Forest		Bug Catcher Rick
-0	0x567	TRAINER BATTLE	Viridian Forest		Bug Catcher Doug
-0	0x568	TRAINER BATTLE	Viridian Forest		Bug Catcher Sammy
-0	0x569	TRAINER BATTLE	Route 3		Bug Catcher Colton
-0	0x56A	TRAINER BATTLE	Route 3		Bug Catcher Greg
-0	0x56B	TRAINER BATTLE	Route 3		Bug Catcher James
-0	0x56C	TRAINER BATTLE	Mt. Moon	?	Bug Catcher Kent
-0	0x56D	TRAINER BATTLE	Mt. Moon	?	Bug Catcher Robby
-0	0x56E	TRAINER BATTLE	Route 24		Bug Catcher Cale
-0	0x56F	TRAINER BATTLE	Route 6		Bug Catcher Keigo
-0	0x570	TRAINER BATTLE	Route 6		Bug Catcher Elijah
-0	0x572	TRAINER BATTLE	Route 9		Bug Catcher Brent
-0	0x573	TRAINER BATTLE	Route 9		Bug Catcher Conner
-0	0x574	TRAINER BATTLE	Route 3		Lass Janice
-0	0x575	TRAINER BATTLE	Route 3		Lass Sally
-0	0x576	TRAINER BATTLE	Route 3		Lass Robin
-0	0x577	TRAINER BATTLE	Route 4		Lass Crissy
-0	0x578	TRAINER BATTLE	Mt. Moon	?	Lass Miriam
-0	0x579	TRAINER BATTLE	Mt. Moon	?	Lass Iris
-0	0x57A	TRAINER BATTLE	Route 24		Lass Reli
-0	0x57B	TRAINER BATTLE	Route 24		Lass Ali
-0	0x57D	TRAINER BATTLE	Route 25		Lass Haley
-0	0x57E	TRAINER BATTLE	S.S. Anne	?	[Missable] Lass Ann
-0	0x57F	TRAINER BATTLE	S.S. Anne	?	[Missable] Lass Dawn
-0	0x580	TRAINER BATTLE	Route 8		Lass Paige
-0	0x581	TRAINER BATTLE	Route 8		Lass Andrea
-0	0x582	TRAINER BATTLE	Route 8		Lass Megan
-0	0x583	TRAINER BATTLE	Route 8		Lass Julia
-0	0x584	TRAINER BATTLE	Celadon Gym		Lass Kay
-0	0x585	TRAINER BATTLE	Celadon Gym		Lass Lisa
-0	0x586	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Edmond
-0	0x587	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Trevor
-0	0x588	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Leonard
-0	0x589	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Duncan
-0	0x58A	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Huey
-0	0x58B	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Dylan
-0	0x58C	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Phillip
-0	0x58D	TRAINER BATTLE	Vermilion Gym		Sailor Dwayne
-0	0x58E	TRAINER BATTLE	Pewter City Gym		Camper Liam
-0	0x58F	TRAINER BATTLE	Route 24		Camper Shane
-0	0x590	TRAINER BATTLE	Route 24		Camper Ethan
-0	0x591	TRAINER BATTLE	Route 6		Camper Ricky
-0	0x592	TRAINER BATTLE	Route 6		Camper Jeff
-0	0x594	TRAINER BATTLE	Route 9		Camper Chris
-0	0x595	TRAINER BATTLE	Route 9		Camper Drew
-0	0x596	TRAINER BATTLE	Cerulean Gym		Picnicker Diana
-0	0x597	TRAINER BATTLE	Route 6		Picnicker Nancy
-0	0x598	TRAINER BATTLE	Route 6		Picnicker Isabelle
-0	0x599	TRAINER BATTLE	Route 25		Picnicker Kelsey
-0	0x59A	TRAINER BATTLE	Route 9		Picnicker Alicia
-0	0x59B	TRAINER BATTLE	Route 9		Picnicker Caitlin
-0	0x59C	TRAINER BATTLE	Route 10		Picnicker Heidi
-0	0x59D	TRAINER BATTLE	Route 10		Picnicker Carol
-0	0x59E	TRAINER BATTLE	Rock Tunnel	?	Picnicker Sofia
-0	0x59F	TRAINER BATTLE	Rock Tunnel	?	Picnicker Martha
-0	0x5A0	TRAINER BATTLE	Celadon Gym		Picnicker Tina
-0	0x5A2	TRAINER BATTLE	Route 10		PokéManiac Mark
-0	0x5A3	TRAINER BATTLE	Route 10		PokéManiac Herman
-0	0x5A4	TRAINER BATTLE	Rock Tunnel	?	PokéManiac Cooper
-0	0x5A5	TRAINER BATTLE	Rock Tunnel	?	PokéManiac Steve
-0	0x5A6	TRAINER BATTLE	Rock Tunnel	?	PokéManiac Winston
-0	0x5A7	TRAINER BATTLE	Victory Road	?	PokéManiac Dawson
-0	0x5A8	TRAINER BATTLE	Rock Tunnel	?	PokéManiac Ashton
-0	0x5A9	TRAINER BATTLE	Mt. Moon	?	Super Nerd Jovan
-0	0x5AA	TRAINER BATTLE	Mt. Moon	?	Super Nerd Miguel
-0	0x5AB	TRAINER BATTLE	Route 8		Super Nerd Aidan
-0	0x5AC	TRAINER BATTLE	Route 8		Super Nerd Glenn
-0	0x5AD	TRAINER BATTLE	Route 8		Super Nerd Leslie
-0	0x5B1	TRAINER BATTLE	Cinnabar Gym		Super Nerd Erik
-0	0x5B2	TRAINER BATTLE	Cinnabar Gym		Super Nerd Avery
-0	0x5B3	TRAINER BATTLE	Cinnabar Gym		Super Nerd Derek
-0	0x5B4	TRAINER BATTLE	Cinnabar Gym		Super Nerd Zac
-0	0x5B5	TRAINER BATTLE	Mt. Moon	?	Hiker Marcos
-0	0x5B6	TRAINER BATTLE	Route 25		Hiker Franklin
-0	0x5B7	TRAINER BATTLE	Route 25		Hiker Nob
-0	0x5B8	TRAINER BATTLE	Route 25		Hiker Wayne
-0	0x5B9	TRAINER BATTLE	Route 9		Hiker Alan
-0	0x5BA	TRAINER BATTLE	Route 9		Hiker Brice
-0	0x5BB	TRAINER BATTLE	Route 10		Hiker Clark
-0	0x5BC	TRAINER BATTLE	Route 10		Hiker Trent
-0	0x5BD	TRAINER BATTLE	Rock Tunnel	?	Hiker Dudley
-0	0x5BE	TRAINER BATTLE	Rock Tunnel	?	Hiker Allen
-0	0x5BF	TRAINER BATTLE	Rock Tunnel	?	Hiker Eric
-0	0x5C0	TRAINER BATTLE	Rock Tunnel	?	Hiker Lenny
-0	0x5C1	TRAINER BATTLE	Rock Tunnel	?	Hiker Oliver
-0	0x5C2	TRAINER BATTLE	Rock Tunnel	?	Hiker Lucas
-0	0x5C3	TRAINER BATTLE	Route 13		Biker Jared
-0	0x5C4	TRAINER BATTLE	Route 14		Biker Malik
-0	0x5C5	TRAINER BATTLE	Route 15		Biker Ernest
-0	0x5C6	TRAINER BATTLE	Route 15		Biker Alex
-0	0x5C7	TRAINER BATTLE	Route 16		Biker Lao
-0	0x5C9	TRAINER BATTLE	Route 16		Biker Hideo
-0	0x5CA	TRAINER BATTLE	Route 16		Biker Ruben
-0	0x5CB	TRAINER BATTLE	Route 17		Biker Billy
-0	0x5CC	TRAINER BATTLE	Route 17		Biker Nikolas
-0	0x5CD	TRAINER BATTLE	Route 17		Biker Jaxon
-0	0x5CE	TRAINER BATTLE	Route 17		Biker William
-0	0x5CF	TRAINER BATTLE	Route 14		Biker Lukas
-0	0x5D0	TRAINER BATTLE	Route 14		Biker Isaac
-0	0x5D1	TRAINER BATTLE	Route 14		Biker Gerald
-0	0x5D5	TRAINER BATTLE	Cinnabar Gym		Burglar Quinn
-0	0x5D6	TRAINER BATTLE	Cinnabar Gym		Burglar Ramon
-0	0x5D7	TRAINER BATTLE	Cinnabar Gym		Burglar Dusty
-0	0x5D8	TRAINER BATTLE	Pokémon Mansion	?	Burglar Arnie
-0	0x5DA	TRAINER BATTLE	Pokémon Mansion	?	Burglar Simon
-0	0x5DB	TRAINER BATTLE	Pokémon Mansion	?	Burglar Lewis
-0	0x5DC	TRAINER BATTLE	Vermilion Gym		Engineer Baily
-0	0x5DD	TRAINER BATTLE	Route 11		Engineer Braxton
-0	0x5DE	TRAINER BATTLE	Route 11		Engineer Bernie
-0	0x5DF	TRAINER BATTLE	S.S. Anne	?	[Missable] Fisherman Dale
-0	0x5E0	TRAINER BATTLE	S.S. Anne	?	[Missable] Fisherman Barny
-0	0x5E1	TRAINER BATTLE	Route 12		Fisherman Ned
-0	0x5E2	TRAINER BATTLE	Route 12		Fisherman Chip
-0	0x5E3	TRAINER BATTLE	Route 12		Fisherman Hank
-0	0x5E4	TRAINER BATTLE	Route 12		Fisherman Elliot
-0	0x5E5	TRAINER BATTLE	Route 21		Fisherman Ronald
-0	0x5E6	TRAINER BATTLE	Route 21		Fisherman Claude
-0	0x5E7	TRAINER BATTLE	Route 21		Fisherman Wade
-0	0x5E8	TRAINER BATTLE	Route 21		Fisherman Nolan
-0	0x5E9	TRAINER BATTLE	Route 12		Fisherman Andrew
-0	0x5EA	TRAINER BATTLE	Cerulean Gym		Swimmer♂ Luis
-0	0x5EB	TRAINER BATTLE	Route 19		Swimmer♂ Richard
-0	0x5EC	TRAINER BATTLE	Route 19		Swimmer♂ Reece
-0	0x5ED	TRAINER BATTLE	Route 19		Swimmer♂ Matthew
-0	0x5EE	TRAINER BATTLE	Route 19		Swimmer♂ Douglas
-0	0x5EF	TRAINER BATTLE	Route 19		Swimmer♂ David
-0	0x5F0	TRAINER BATTLE	Route 19		Swimmer♂ Tony
-0	0x5F1	TRAINER BATTLE	Route 19		Swimmer♂ Axle
-0	0x5F2	TRAINER BATTLE	Route 20		Swimmer♂ Barry
-0	0x5F3	TRAINER BATTLE	Route 20		Swimmer♂ Dean
-0	0x5F4	TRAINER BATTLE	Route 20		Swimmer♂ Darrin
-0	0x5F5	TRAINER BATTLE	Route 21		Swimmer♂ Spencer
-0	0x5F6	TRAINER BATTLE	Route 21		Swimmer♂ Jack
-0	0x5F7	TRAINER BATTLE	Route 21		Swimmer♂ Jerome
-0	0x5F8	TRAINER BATTLE	Route 21		Swimmer♂ Roland
-0	0x5F9	TRAINER BATTLE	Route 16		Cue Ball Koji
-0	0x5FA	TRAINER BATTLE	Route 16		Cue Ball Luke
-0	0x5FB	TRAINER BATTLE	Route 16		Cue Ball Camron
-0	0x5FC	TRAINER BATTLE	Route 17		Cue Ball Raul
-0	0x5FD	TRAINER BATTLE	Route 17		Cue Ball Isaiah
-0	0x5FE	TRAINER BATTLE	Route 17		Cue Ball Zeek
-0	0x5FF	TRAINER BATTLE	Route 17		Cue Ball Jamal
-0	0x600	TRAINER BATTLE	Route 17		Cue Ball Corey
-0	0x602	TRAINER BATTLE	Route 11		Gamer Hugo
-0	0x603	TRAINER BATTLE	Route 11		Gamer Jasper
-0	0x604	TRAINER BATTLE	Route 11		Gamer Dirk
-0	0x605	TRAINER BATTLE	Route 11		Gamer Darian
-0	0x606	TRAINER BATTLE	Route 8		Gamer Stan
-0	0x608	TRAINER BATTLE	Route 8		Gamer Rich
-0	0x609	TRAINER BATTLE	Celadon Gym		Beauty Bridget
-0	0x60A	TRAINER BATTLE	Celadon Gym		Beauty Tamia
-0	0x60B	TRAINER BATTLE	Celadon Gym		Beauty Lori
-0	0x60C	TRAINER BATTLE	Route 13		Beauty Lola
-0	0x60D	TRAINER BATTLE	Route 13		Beauty Sheila
-0	0x60E	TRAINER BATTLE	Route 20		Swimmer♀ Tiffany
-0	0x60F	TRAINER BATTLE	Route 20		Simmer♀ Nora
-0	0x610	TRAINER BATTLE	Route 20		Swimmer♀ Melissa
-0	0x611	TRAINER BATTLE	Route 15		Beauty Grace
-0	0x612	TRAINER BATTLE	Route 15		Beauty Olivia
-0	0x614	TRAINER BATTLE	Route 19		Swimmer♀ Anya
-0	0x615	TRAINER BATTLE	Route 19		Swimmer♀ Alice
-0	0x616	TRAINER BATTLE	Route 19		Swimmer♀ Connie
-0	0x617	TRAINER BATTLE	Route 20		Swimmer♀ Shirley
-0	0x618	TRAINER BATTLE	Saffron Gym		Psychic Johan
-0	0x619	TRAINER BATTLE	Saffron Gym		Psychic Tyorn
-0	0x61A	TRAINER BATTLE	Saffron Gym		Psychic Cameron
-0	0x61B	TRAINER BATTLE	Saffron Gym		Psychic Preston
-0	0x61D	TRAINER BATTLE	Route 12		Rocker Luca
-0	0x61E	TRAINER BATTLE	Silph Co.	5F	Juggler Dalton
-0	0x61F	TRAINER BATTLE	Victory Road	?	Juggler Nelson
-0	0x620	TRAINER BATTLE	Fuchsia Gym		Juggler Kirk
-0	0x621	TRAINER BATTLE	Fuchsia Gym		Juggler Shawn
-0	0x622	TRAINER BATTLE	Victory Road	?	Juggler Gregory
-0	0x623	TRAINER BATTLE	Water Path		Juggler Edward
-0	0x624	TRAINER BATTLE	Fuchsia Gym		Juggler Kayden
-0	0x625	TRAINER BATTLE	Fuchsia Gym		Juggler Nate
-0	0x626	TRAINER BATTLE	Fuchsia Gym		Tamer Phil
-0	0x627	TRAINER BATTLE	Fuchsia Gym		Tamer Edgar
-0	0x628	TRAINER BATTLE	Viridian Gym		Tamer Jason
-0	0x629	TRAINER BATTLE	Viridian Gym		Tamer Cole
-0	0x62A	TRAINER BATTLE	Victory Road	?	Tamer Vincent
-0	0x62C	TRAINER BATTLE	Route 13		Bird Keeper Sebastian
-0	0x62D	TRAINER BATTLE	Route 13		Bird Keeper Perry
-0	0x62E	TRAINER BATTLE	Route 13		Bird Keeper Robert
-0	0x62F	TRAINER BATTLE	Route 14		Bird Keeper Donald
-0	0x630	TRAINER BATTLE	Route 14		Bird Keeper Benny
-0	0x631	TRAINER BATTLE	Route 15		Bird Keeper Edwin
-0	0x632	TRAINER BATTLE	Route 15		Bird Keeper Chester
-0	0x633	TRAINER BATTLE	Route 18		Bird Keeper Wilton
-0	0x634	TRAINER BATTLE	Route 18		Bird Keeper Ramiro
-0	0x635	TRAINER BATTLE	Route 18		Bird Keeper Jacob
-0	0x636	TRAINER BATTLE	Route 20		Bird Keeper Roger
-0	0x639	TRAINER BATTLE	Route 14		Bird Keeper Carter
-0	0x63A	TRAINER BATTLE	Route 14		Bird Keeper Mitch
-0	0x63B	TRAINER BATTLE	Route 14		Bird Keeper Beck
-0	0x63C	TRAINER BATTLE	Route 14		Bird Keeper Marlon
-0	0x63D	TRAINER BATTLE	Fighting Dojo		Black Belt Koichi
-0	0x63E	TRAINER BATTLE	Fighting Dojo		Black Belt Mike
-0	0x63F	TRAINER BATTLE	Fighting Dojo		Black Belt Hideki
-0	0x640	TRAINER BATTLE	Fighting Dojo		Black Belt Aaron
-0	0x641	TRAINER BATTLE	Fighting Dojo		Black Belt Hitoshi
-0	0x642	TRAINER BATTLE	Viridian Gym		Black Belt Atsushi
-0	0x643	TRAINER BATTLE	Viridian Gym		Black Belt Kiyo
-0	0x644	TRAINER BATTLE	Viridian Gym		Black Belt Takashi
-0	0x645	TRAINER BATTLE	Victory Road	?	Black Belt Daisuke
-0	0x646	TRAINER BATTLE	Prof. Oak's Lab/lost (Starter Charmander)		Blue
-0	0x647	TRAINER BATTLE	Prof. Oak's Lab/lost (Starter Squirtle)		Blue
-0	0x648	TRAINER BATTLE	Prof. Oak's Lab/lost (Starter Bulbasaur)		Blue
-0	0x649	TRAINER BATTLE	Route 22 (Starter Charmander)		Blue (1)
-0	0x64A	TRAINER BATTLE	Route 22 (Starter Squirtle)		Blue (1)
-0	0x64B	TRAINER BATTLE	Route 22 (Starter Bulbasaur)		Blue (1)
-0	0x64C	TRAINER BATTLE	Cerulean City (Starter Charmander)		Blue
-0	0x64D	TRAINER BATTLE	Cerulean City (Starter Squirtle)		Blue
-0	0x64E	TRAINER BATTLE	Cerulean City (Starter Bulbasaur)		Blue
-0	0x64F	TRAINER BATTLE	Pokémon Mansion	?	Scientist Ted
-0	0x650	TRAINER BATTLE	Silph Co.	2F	Scientist Connor
-0	0x651	TRAINER BATTLE	Silph Co.	2F	Scientist Jerry
-0	0x652	TRAINER BATTLE	Silph Co.	3F	Scientist Jose
-0	0x653	TRAINER BATTLE	Silph Co.	4F	Scientist Rodney
-0	0x654	TRAINER BATTLE	Silph Co.	5F	Scientist Beau
-0	0x655	TRAINER BATTLE	Silph Co.	6F	Scientist Taylor
-0	0x656	TRAINER BATTLE	Silph Co.	7F	Scientist Joshua
-0	0x657	TRAINER BATTLE	Silph Co.	8F	Scientist Parker
-0	0x658	TRAINER BATTLE	Silph Co.	9F	Scientist Ed
-0	0x659	TRAINER BATTLE	Silph Co.	10F	Scientist Travis
-0	0x65A	TRAINER BATTLE	Pokémon Mansion	?	Scientist Braydon
-0	0x65B	TRAINER BATTLE	Pokémon Mansion	?	Scientist Ivan
-0	0x65C	TRAINER BATTLE	Rocket Hideout	?	Boss Giovanni
-0	0x65D	TRAINER BATTLE	Silph Co.	11F	Boss Giovanni
-0	0x65E	TRAINER BATTLE			Leader Giovanni defeated
-0	0x65F	TRAINER BATTLE	Mt. Moon	?	Team Rocket Grunt
-0	0x660	TRAINER BATTLE	Mt. Moon	?	Team Rocket Grunt
-0	0x661	TRAINER BATTLE	Mt. Moon	?	Team Rocket Grunt
-0	0x662	TRAINER BATTLE	Mt. Moon	?	Team Rocket Grunt
-0	0x663	TRAINER BATTLE	Cerulean City		Team Rocket Grunt
-0	0x664	TRAINER BATTLE	Route 24		Team Rocket Grunt
-0	0x665	TRAINER BATTLE	Rocket Game Corner		Team Rocket Grunt
-0	0x666	TRAINER BATTLE	Rocket Hideout	B1F	Team Rocket Grunt
-0	0x667	TRAINER BATTLE	Rocket Hideout	B1F	Team Rocket Grunt
-0	0x668	TRAINER BATTLE	Rocket Hideout	B1F	Team Rocket Grunt
-0	0x669	TRAINER BATTLE	Rocket Hideout	B1F	Team Rocket Grunt
-0	0x66A	TRAINER BATTLE	Rocket Hideout	B1F	Team Rocket Grunt
-0	0x66B	TRAINER BATTLE	Rocket Hideout	B2F	Team Rocket Grunt
-0	0x66C	TRAINER BATTLE	Rocket Hideout	B3F	Team Rocket Grunt
-0	0x66D	TRAINER BATTLE	Rocket Hideout	B3F	Team Rocket Grunt
-0	0x66E	TRAINER BATTLE	Rocket Hideout	B4F	Team Rocket Grunt
-0	0x66F	TRAINER BATTLE	Rocket Hideout	B4F	Team Rocket Grunt
-0	0x670	TRAINER BATTLE	Rocket Hideout	B4F	Team Rocket Grunt
-0	0x671	TRAINER BATTLE	Pokémon Tower	?	Team Rocket Grunt
-0	0x672	TRAINER BATTLE	Pokémon Tower	?	Team Rocket Grunt
-0	0x673	TRAINER BATTLE	Pokémon Tower	?	Team Rocket Grunt
-0	0x675	TRAINER BATTLE	Silph Co.	2F	Team Rocket Grunt
-0	0x676	TRAINER BATTLE	Silph Co.	2F	Team Rocket Grunt
-0	0x677	TRAINER BATTLE	Silph Co.	3F	Team Rocket Grunt
-0	0x678	TRAINER BATTLE	Silph Co.	4F	Team Rocket Grunt
-0	0x679	TRAINER BATTLE	Silph Co.	4F	Team Rocket Grunt
-0	0x67A	TRAINER BATTLE	Silph Co.	5F	Team Rocket Grunt
-0	0x67B	TRAINER BATTLE	Silph Co.	5F	Team Rocket Grunt
-0	0x67C	TRAINER BATTLE	Silph Co.	6F	Team Rocket Grunt
-0	0x67D	TRAINER BATTLE	Silph Co.	6F	Team Rocket Grunt
-0	0x67E	TRAINER BATTLE	Silph Co.	8F	Team Rocket Grunt
-0	0x67F	TRAINER BATTLE	Silph Co.	7F	Team Rocket Grunt
-0	0x680	TRAINER BATTLE	Silph Co.	7F	Team Rocket Grunt
-0	0x681	TRAINER BATTLE	Silph Co.	7F	Team Rocket Grunt
-0	0x682	TRAINER BATTLE	Silph Co.	8F	Team Rocket Grunt
-0	0x683	TRAINER BATTLE	Silph Co.	9F	Team Rocket Grunt
-0	0x684	TRAINER BATTLE	Silph Co.	9F	Team Rocket Grunt
-0	0x685	TRAINER BATTLE	Silph Co.	10F	Team Rocket Grunt
-0	0x686	TRAINER BATTLE	Silph Co.	11F	Team Rocket Grunt
-0	0x687	TRAINER BATTLE	Silph Co.	11F	Team Rocket Grunt
-0	0x688	TRAINER BATTLE	Viridian Gym		Cooltrainer Samuel
-0	0x689	TRAINER BATTLE	Victory Road	?	Cooltrainer George
-0	0x68A	TRAINER BATTLE	Victory Road	?	Cooltrainer Colby
-0	0x68C	TRAINER BATTLE	Victory Road	?	Cooltrainer Rolando
-0	0x690	TRAINER BATTLE	Viridian Gym		Cooltrainer Yuji
-0	0x691	TRAINER BATTLE	Viridian Gym		Cooltrainer Warren
-0	0x692	TRAINER BATTLE	Celadon Gym		Cooltrainer Mary
-0	0x693	TRAINER BATTLE	Victory Road	?	Cooltrainer Caroline
-0	0x694	TRAINER BATTLE	Victory Road	?	Cooltrainer Alexa
-0	0x696	TRAINER BATTLE	Victory Road	?	Cooltrainer Naomi
-0	0x69A	TRAINER BATTLE			Elite Four Lorelei defeated
-0	0x69B	TRAINER BATTLE			Elite Four Bruno defeated
-0	0x69C	TRAINER BATTLE			Elite Four Agatha defeated
-0	0x69D	TRAINER BATTLE			Elite Four Lance defeated
-0	0x69E	TRAINER BATTLE			Leader Brock defeated
-0	0x69F	TRAINER BATTLE			Leader Misty defeated
-0	0x6A0	TRAINER BATTLE			Leader Lt. Surge defeated
-0	0x6A1	TRAINER BATTLE			Leader Erika defeated
-0	0x6A2	TRAINER BATTLE			Leader Koga defeated
-0	0x6A3	TRAINER BATTLE			Leader Blaine defeated
-0	0x6A4	TRAINER BATTLE			Leader Sabrina defeated
-0	0x6A5	TRAINER BATTLE	S.S. Anne	?	[Missable] Gentleman Thomas
-0	0x6A6	TRAINER BATTLE	S.S. Anne	?	[Missable] Gentleman Arthur
-0	0x6A7	TRAINER BATTLE	Vermilion Gym		Gentleman Tucker
-0	0x6AA	TRAINER BATTLE	S.S. Anne (Starter Charmander)		Blue
-0	0x6AB	TRAINER BATTLE	S.S. Anne (Starter Squirtle)		Blue
-0	0x6AC	TRAINER BATTLE	S.S. Anne (Starter Bulbasaur)		Blue
-0	0x6AD	TRAINER BATTLE	Pokémon Tower (Starter Charmander)		Blue
-0	0x6AE	TRAINER BATTLE	Pokémon Tower (Starter Squirtle)		Blue
-0	0x6AF	TRAINER BATTLE	Pokémon Tower (Starter Bulbasaur)		Blue
-0	0x6B0	TRAINER BATTLE	Silph Co. (Starter Charmander)		Blue
-0	0x6B1	TRAINER BATTLE	Silph Co. (Starter Squirtle)		Blue
-0	0x6B2	TRAINER BATTLE	Silph Co. (Starter Bulbasaur)		Blue
-0	0x6B3	TRAINER BATTLE	Route 22 (Starter Charmander)		Blue (2)
-0	0x6B4	TRAINER BATTLE	Route 22 (Starter Squirtle)		Blue (2)
-0	0x6B5	TRAINER BATTLE	Route 22 (Starter Bulbasaur)		Blue (2)
-0	0x6B6	TRAINER BATTLE			Blue (Champion) defeated (Starter Charmander)
-0	0x6B7	TRAINER BATTLE			Blue (Champion) defeated (Starter Squirtle)
-0	0x6B8	TRAINER BATTLE			Blue (Champion) defeated (Starter Bulbasaur)
-0	0x6B9	TRAINER BATTLE	Pokémon Tower	?	Channeler Patricia
-0	0x6BA	TRAINER BATTLE	Pokémon Tower	?	Channeler Carly
-0	0x6BB	TRAINER BATTLE	Pokémon Tower	?	Channeler Hope
-0	0x6BC	TRAINER BATTLE	Pokémon Tower	?	Channeler Paula
-0	0x6BD	TRAINER BATTLE	Pokémon Tower	?	Channeler Laurel
-0	0x6BE	TRAINER BATTLE	Pokémon Tower	?	Channeler Jody
-0	0x6BF	TRAINER BATTLE	Pokémon Tower	?	Channeler Tammy
-0	0x6C0	TRAINER BATTLE	Pokémon Tower	?	Channeler Ruth
-0	0x6C1	TRAINER BATTLE	Pokémon Tower	?	Channeler Karina
-0	0x6C2	TRAINER BATTLE	Pokémon Tower	?	Channeler Janae
-0	0x6C3	TRAINER BATTLE	Pokémon Tower	?	Channeler Angelica
-0	0x6C4	TRAINER BATTLE	Pokémon Tower	?	Channeler Emilia
-0	0x6C5	TRAINER BATTLE	Pokémon Tower	?	Channeler Jennifer
-0	0x6CE	TRAINER BATTLE	Saffron Gym		Channeler Amanda
-0	0x6CF	TRAINER BATTLE	Saffron Gym		Channeler Stacy
-0	0x6D0	TRAINER BATTLE	Saffron Gym		Channeler Tasha
-0	0x6D1	TRAINER BATTLE	Route 9		Hiker Jeremy
-0	0x6D2	TRAINER BATTLE	Route 13		Picnicker Alma
-0	0x6D3	TRAINER BATTLE	Route 13		Picnicker Susie
-0	0x6D4	TRAINER BATTLE	Route 13		Picnicker Valerie
-0	0x6D5	TRAINER BATTLE	Route 13		Picnicker Gwen
-0	0x6D6	TRAINER BATTLE	Route 17		Biker Virgil
-0	0x6D7	TRAINER BATTLE	Route 25		Camper Flint
-0	0x6D8	TRAINER BATTLE	Route 20		Picnicker Missy
-0	0x6D9	TRAINER BATTLE	Route 20		Picnicker Irene
-0	0x6DA	TRAINER BATTLE	Rock Tunnel	?	Picnicker Dana
-0	0x6DB	TRAINER BATTLE	Rock Tunnel	?	Picnicker Ariana
-0	0x6DC	TRAINER BATTLE	Rock Tunnel	?	Picnicker Leah
-0	0x6DD	TRAINER BATTLE	Route 12		Camper Justin
-0	0x6DE	TRAINER BATTLE	Route 15		Picnicker Yazmin
-0	0x6DF	TRAINER BATTLE	Route 15		Picnicker Kindra
-0	0x6E0	TRAINER BATTLE	Route 15		Picnicker Becky
-0	0x6E1	TRAINER BATTLE	Route 15		Picnicker Celia
-0	0x6E2	TRAINER BATTLE	S.S. Anne	?	[Missable] Gentleman Brooks
-0	0x6E3	TRAINER BATTLE	S.S. Anne	?	[Missable] Gentleman Lamar
-0	0x6E4	TRAINER BATTLE	Route 8		Twins Eli & Anne
-0	0x6E5	TRAINER BATTLE	Victory Road	?	Cool Couple Ray & Tyra
-0	0x6E6	TRAINER BATTLE	Route 12		Young Couple Gia & Jes
-0	0x6E7	TRAINER BATTLE	Route 14		Twins Kiri & Jan
-0	0x6E8	TRAINER BATTLE	Route 15		Crush Kin Ron & Mya
-0	0x6E9	TRAINER BATTLE	Route 16		Young Couple Lea & Jed
-0	0x6EA	TRAINER BATTLE	Route 19		Sis and Bro Lia & Luc
-0	0x6EB	TRAINER BATTLE	Route 21		Sis and Bro Lil & Ian
-0	0x6F2	TRAINER BATTLE	Route 3		Youngster Ben (Rematch 2)
-0	0x6F3	TRAINER BATTLE	Route 3		Youngster Ben (Rematch 3)
-0	0x6F4	TRAINER BATTLE	Route 25		Youngster Chad (Rematch 1)
-0	0x6F5	TRAINER BATTLE	Route 24		Lass Reli (Rematch 1)
-0	0x6F6	TRAINER BATTLE	Route 24		Lass Reli (Rematch 2)
-0	0x6F7	TRAINER BATTLE	Route 24		Youngster Timmy (Rematch 1)
-0	0x6F8	TRAINER BATTLE	Route 24		Youngster Timmy (Rematch 2)
-0	0x6F9	TRAINER BATTLE	Route 24		Youngster Timmy (Rematch 3)
-0	0x6FA	TRAINER BATTLE	Route 25		Youngster Chad (Rematch 2)
-0	0x6FB	TRAINER BATTLE	Route 3		Lass Janice (Rematch 1)
-0	0x6FC	TRAINER BATTLE	Route 3		Lass Janice (Rematch 2)
-0	0x6FD	TRAINER BATTLE	Route 25		Youngster Chad (Rematch 3)
-0	0x6FE	TRAINER BATTLE	Route 25		Hiker Franklin (Rematch 1)
-0	0x704	TRAINER BATTLE	Rocket Warehouse		Team Rocket Grunt (1)
-0	0x705	TRAINER BATTLE	Green Path		Psychic Jaclyn
-0	0x706	TRAINER BATTLE	Kindle Road		Crush Girl Sharon
-0	0x707	TRAINER BATTLE	Bond Bridge		Tuber Amira
-0	0x708	TRAINER BATTLE	Water Labyrinth		Pokémon Breeder Alize
-0	0x709	TRAINER BATTLE	Canyon Entrance		Pokémon Ranger Nicolas
-0	0x70A	TRAINER BATTLE	Canyon Entrance		Pokémon Ranger Madeline
-0	0x70B	TRAINER BATTLE	Bond Bridge		Aroma Lady Nikki
-0	0x70C	TRAINER BATTLE	Ruin Valley		Ruin Maniac Stanly
-0	0x70D	TRAINER BATTLE	Resort Gorgeous		Lady Jacki
-0	0x70E	TRAINER BATTLE	Resort Gorgeous		Painter Daisy
-0	0x70F	TRAINER BATTLE	Three Island		Biker Goon (1)
-0	0x710	TRAINER BATTLE	Three Island		Biker Goon (2)
-0	0x711	TRAINER BATTLE	Three Island		Biker Goon (3)
-0	0x713	TRAINER BATTLE	Viridian Forest		Bug Catcher Anthony
-0	0x714	TRAINER BATTLE	Viridian Forest		Bug Catcher Charlie
-0	0x715	TRAINER BATTLE	Route 8		Twins Eli & Anne (Rematch 1)
-0	0x716	TRAINER BATTLE	Pokémon Mansion		Youngster Johnson
-0	0x717	TRAINER BATTLE	Route 8		Biker Ricardo
-0	0x718	TRAINER BATTLE	Route 8		Biker Jaren
-0	0x719	TRAINER BATTLE	Mt. Ember		Team Rocket Grunt (1)
-0	0x71A	TRAINER BATTLE	Mt. Ember		Team Rocket Grunt (2)
-0	0x71B	TRAINER BATTLE	Icefall Cave		Team Rocket Grunt
-0	0x71C	TRAINER BATTLE	Outcast Island		Team Rocket Grunt
-0	0x71D	TRAINER BATTLE	Rocket Warehouse		Team Rocket Grunt (2)
-0	0x71E	TRAINER BATTLE	Rocket Warehouse		Team Rocket Grunt (3)
-0	0x71F	TRAINER BATTLE	Rocket Warehouse		Team Rocket Admin (1)
-0	0x720	TRAINER BATTLE	Rocket Warehouse		Team Rocket Admin (2)
-0	0x721	TRAINER BATTLE	Rocket Warehouse		Scientist Gideon
-0	0x722	TRAINER BATTLE	Treasure Beach		Swimmer♀ Amara
-0	0x723	TRAINER BATTLE	Kindle Road		Swimmer♀ Maria
-0	0x724	TRAINER BATTLE	Kindle Road		Swimmer♀ Abigail
-0	0x725	TRAINER BATTLE	Kindle Road		Swimmer♂ Finn
-0	0x726	TRAINER BATTLE	Kindle Road		Swimmer♂ Garrett
-0	0x727	TRAINER BATTLE	Kindle Road		Fisherman Tommy
-0	0x728	TRAINER BATTLE	Kindle Road		Crush Girl Tanya
-0	0x729	TRAINER BATTLE	Kindle Road		Black Belt Shea
-0	0x72A	TRAINER BATTLE	Kindle Road		Black Belt Hugh
-0	0x72B	TRAINER BATTLE	Kindle Road		Camper Bryce
-0	0x72C	TRAINER BATTLE	Kindle Road		Picnicker Claire
-0	0x72D	TRAINER BATTLE	Kindle Road		Crush Kin Mik & Kia
-0	0x72E	TRAINER BATTLE	Bond Bridge		Aroma Lady Violet
-0	0x72F	TRAINER BATTLE	Bond Bridge		Tuber Alexis
-0	0x730	TRAINER BATTLE	Bond Bridge		Twins Joy & Meg
-0	0x731	TRAINER BATTLE	Bond Bridge		Swimmer♀ Tisha
-0	0x732	TRAINER BATTLE	Resort Gorgeous		Painter Celina
-0	0x733	TRAINER BATTLE	Resort Gorgeous		Painter Rayna
-0	0x734	TRAINER BATTLE	Resort Gorgeous		Lady Gillian
-0	0x735	TRAINER BATTLE	Resort Gorgeous		Youngster Destin
-0	0x736	TRAINER BATTLE	Resort Gorgeous		Swimmer♂ Toby
-0	0x737	TRAINER BATTLE	Five Isle Meadow		Team Rocket Grunt (1)
-0	0x738	TRAINER BATTLE	Five Isle Meadow		Team Rocket Grunt (3)
-0	0x739	TRAINER BATTLE	Five Isle Meadow		Team Rocket Grunt (2)
-0	0x73A	TRAINER BATTLE	Memorial Pillar		Bird Keeper Milo
-0	0x73B	TRAINER BATTLE	Memorial Pillar		Bird Keeper Chaz
-0	0x73C	TRAINER BATTLE	Memorial Pillar		Bird Keeper Harold
-0	0x73D	TRAINER BATTLE	Outcast Island		Fisherman Tylor
-0	0x73E	TRAINER BATTLE	Outcast Island		Swimmer♂ Mymo
-0	0x73F	TRAINER BATTLE	Outcast Island		Swimmer♀ Nicole
-0	0x740	TRAINER BATTLE	Outcast Island		Sis and Bro Ava & Geb
-0	0x741	TRAINER BATTLE	Water Path		Aroma Lady Rose
-0	0x742	TRAINER BATTLE	Water Path		Swimmer♂ Samir
-0	0x743	TRAINER BATTLE	Water Path		Swimmer♀ Denise
-0	0x744	TRAINER BATTLE	Water Path		Twins Miu & Mia
-0	0x745	TRAINER BATTLE	Water Path		Hiker Earl
-0	0x746	TRAINER BATTLE	Ruin Valley		Ruin Maniac Foster
-0	0x747	TRAINER BATTLE	Ruin Valley		Ruin Maniac Larry
-0	0x748	TRAINER BATTLE	Ruin Valley		Hiker Daryl
-0	0x749	TRAINER BATTLE	Ruin Valley		PokéManiac Hector
-0	0x74A	TRAINER BATTLE			Psychic Dario outside of Trainer Tower defeated
-0	0x74B	TRAINER BATTLE			Psychic Rodette outside of Trainer Tower defeated
-0	0x74C	TRAINER BATTLE	Canyon Entrance		Aroma Lady Miah
-0	0x74D	TRAINER BATTLE	Canyon Entrance		Young Couple Eve & Jon
-0	0x74E	TRAINER BATTLE	Canyon Entrance		Juggler Mason
-0	0x74F	TRAINER BATTLE	Sevault Canyon		Crush Girl Cyndy
-0	0x750	TRAINER BATTLE	Mt. Ember		Crush Girl Jocelyn
-0	0x751	TRAINER BATTLE	Sevault Canyon		Tamer Evan
-0	0x752	TRAINER BATTLE	Route 10		PokéManiac Mark (Rematch 1)
-0	0x753	TRAINER BATTLE	Mt. Ember		Pkmn Ranger Logan
-0	0x754	TRAINER BATTLE	Sevault Canyon		Pokémon Ranger Jackson
-0	0x755	TRAINER BATTLE	Mt. Ember		Pkmn Ranger Beth
-0	0x756	TRAINER BATTLE	Sevault Canyon		Pokémon Ranger Katelyn
-0	0x757	TRAINER BATTLE	Sevault Canyon		Cooltrainer Leroy
-0	0x758	TRAINER BATTLE	Sevault Canyon		Cooltrainer Michelle
-0	0x759	TRAINER BATTLE	Sevault Canyon		Cool Couple Lex & Nya
-0	0x75A	TRAINER BATTLE			Ruin Maniac Brandon outside of Tanoby Ruins defeated
-0	0x75B	TRAINER BATTLE			Ruin Maniac Benjamin outside of Tanoby Ruins defeated
-0	0x75C	TRAINER BATTLE			Painter Edna outside of Tanoby Ruins defeated
-0	0x75D	TRAINER BATTLE			Gentleman Clifford outside of Tanoby Ruins defeated
-0	0x75E	TRAINER BATTLE	Lost Cave		Lady Selphy
-0	0x75F	TRAINER BATTLE	Lost Cave		Ruin Maniac Lawson
-0	0x760	TRAINER BATTLE	Lost Cave		Psychic Laura
-0	0x761	TRAINER BATTLE	Pattern Bush		Pokémon Breeder Bethany
-0	0x762	TRAINER BATTLE	Pattern Bush		Pokémon Breeder Allison
-0	0x763	TRAINER BATTLE	Pattern Bush		Bug Catcher Garret
-0	0x764	TRAINER BATTLE	Pattern Bush		Bug Catcher Jonah
-0	0x765	TRAINER BATTLE	Pattern Bush		Bug Catcher Vance
-0	0x766	TRAINER BATTLE	Pattern Bush		Youngster Nash
-0	0x767	TRAINER BATTLE	Pattern Bush		Youngster Cordell
-0	0x768	TRAINER BATTLE	Pattern Bush		Lass Dalia
-0	0x769	TRAINER BATTLE	Pattern Bush		Lass Joana
-0	0x76A	TRAINER BATTLE	Pattern Bush		Camper Riley
-0	0x76B	TRAINER BATTLE	Pattern Bush		Picnicker Marcy
-0	0x76C	TRAINER BATTLE	Pattern Bush		Ruin Maniac Layton
-0	0x76D	TRAINER BATTLE	Route 25		Picnicker Kelsey (Rematch 1)
-0	0x76E	TRAINER BATTLE	Route 25		Picnicker Kelsey (Rematch 2)
-0	0x76F	TRAINER BATTLE	Route 25		Picnicker Kelsey (Rematch 3)
-0	0x770	TRAINER BATTLE	Route 6		Camper Ricky (Rematch 1)
-0	0x771	TRAINER BATTLE	Route 6		Camper Ricky (Rematch 2)
-0	0x772	TRAINER BATTLE	Route 6		Camper Ricky (Rematch 3)
-0	0x773	TRAINER BATTLE	Route 6		Camper Jeff (Rematch 1)
-0	0x774	TRAINER BATTLE	Route 6		Camper Jeff (Rematch 2)
-0	0x775	TRAINER BATTLE	Route 6		Camper Jeff (Rematch 3)
-0	0x776	TRAINER BATTLE	Route 6		Picnicker Isabelle (Rematch 1)
-0	0x777	TRAINER BATTLE	Route 6		Picnicker Isabelle (Rematch 2)
-0	0x778	TRAINER BATTLE	Route 6		Picnicker Isabelle (Rematch 3)
-0	0x779	TRAINER BATTLE	Route 11		Youngster Yasu (Rematch 1)
-0	0x77A	TRAINER BATTLE	Route 11		Youngster Yasu (Rematch 2)
-0	0x77B	TRAINER BATTLE	Route 11		Engineer Bernie (Rematch 1)
-0	0x77C	TRAINER BATTLE	Route 11		Gamer Darian (Rematch 1)
-0	0x77D	TRAINER BATTLE	Route 9		Camper Chris (Rematch 1)
-0	0x77E	TRAINER BATTLE	Route 9		Camper Chris (Rematch 2)
-0	0x77F	TRAINER BATTLE	Route 9		Camper Chris (Rematch 3)
-0	0x780	TRAINER BATTLE	Route 9		Picnicker Alicia (Rematch 1)
-0	0x781	TRAINER BATTLE	Route 9		Picnicker Alicia (Rematch 2)
-0	0x782	TRAINER BATTLE	Route 9		Picnicker Alicia (Rematch 3)
-0	0x783	TRAINER BATTLE	Route 9		Hiker Jeremy (Rematch 1)
-0	0x784	TRAINER BATTLE	Route 10		PokéManiac Mark (Rematch 2)
-0	0x785	TRAINER BATTLE	Route 10		PokéManiac Herman (Rematch 1)
-0	0x786	TRAINER BATTLE	Route 10		PokéManiac Herman (Rematch 2)
-0	0x787	TRAINER BATTLE	Route 10		Hiker Trent (Rematch 1)
-0	0x788	TRAINER BATTLE	Route 8		Lass Megan (Rematch 1)
-0	0x789	TRAINER BATTLE	Route 8		Lass Megan (Rematch 2)
-0	0x78A	TRAINER BATTLE	Route 8		Super Nerd Glenn (Rematch 1)
-0	0x78B	TRAINER BATTLE	Route 8		Gamer Rich (Rematch 1)
-0	0x78C	TRAINER BATTLE	Route 8		Biker Jaren (Rematch 1)
-0	0x78D	TRAINER BATTLE	Route 12		Fisherman Elliot (Rematch 1)
-0	0x78E	TRAINER BATTLE	Route 12		Rocker Luca (Rematch 1)
-0	0x78F	TRAINER BATTLE	Route 13		Beauty Sheila (Rematch 1)
-0	0x790	TRAINER BATTLE	Route 13		Bird Keeper Robert (Rematch 1)
-0	0x791	TRAINER BATTLE	Route 13		Bird Keeper Robert (Rematch 2)
-0	0x792	TRAINER BATTLE	Route 13		Picnicker Susie (Rematch 1)
-0	0x793	TRAINER BATTLE	Route 13		Picnicker Susie (Rematch 2)
-0	0x794	TRAINER BATTLE	Route 13		Picnicker Susie (Rematch 3)
-0	0x795	TRAINER BATTLE	Route 14		Biker Lukas (Rematch 1)
-0	0x796	TRAINER BATTLE	Route 14		Bird Keeper Benny (Rematch 1)
-0	0x797	TRAINER BATTLE	Route 14		Bird Keeper Benny (Rematch 2)
-0	0x798	TRAINER BATTLE	Route 14		Bird Keeper Marlon (Rematch 1)
-0	0x799	TRAINER BATTLE	Route 14		Bird Keeper Marlon (Rematch 2)
-0	0x79A	TRAINER BATTLE	Route 15		Beauty Grace (Rematch 1)
-0	0x79B	TRAINER BATTLE	Route 15		Bird Keeper Chester (Rematch 1)
-0	0x79C	TRAINER BATTLE	Route 15		Bird Keeper Chester (Rematch 2)
-0	0x79D	TRAINER BATTLE	Route 15		Picnicker Becky (Rematch 1)
-0	0x79E	TRAINER BATTLE	Route 15		Picnicker Becky (Rematch 2)
-0	0x79F	TRAINER BATTLE	Route 15		Picnicker Becky (Rematch 3)
-0	0x7A0	TRAINER BATTLE	Route 15		Crush Kin Ron & Mya (Rematch 1)
-0	0x7A1	TRAINER BATTLE	Route 15		Crush Kin Ron & Mya (Rematch 2)
-0	0x7A2	TRAINER BATTLE	Route 15		Crush Kin Ron & Mya (Rematch 3)
-0	0x7A3	TRAINER BATTLE	Route 16		Biker Ruben (Rematch 1)
-0	0x7A4	TRAINER BATTLE	Route 16		Cue Ball Camron (Rematch 1)
-0	0x7A5	TRAINER BATTLE	Route 17		Biker Jaxon (Rematch 1)
-0	0x7A6	TRAINER BATTLE	Route 17		Cue Ball Isaiah (Rematch 1)
-0	0x7A7	TRAINER BATTLE	Route 17		Cue Ball Corey (Rematch 1)
-0	0x7A8	TRAINER BATTLE	Route 18		Bird Keeper Jacob (Rematch 1)
-0	0x7A9	TRAINER BATTLE	Route 18		Bird Keeper Jacob (Rematch 2)
-0	0x7AA	TRAINER BATTLE	Route 19		Swimmer♀ Alice (Rematch 1)
-0	0x7AB	TRAINER BATTLE	Route 20		Swimmer♂ Darrin (Rematch 1)
-0	0x7AC	TRAINER BATTLE	Route 20		Picnicker Missy (Rematch 1)
-0	0x7AD	TRAINER BATTLE	Route 20		Picnicker Missy (Rematch 2)
-0	0x7AE	TRAINER BATTLE	Route 21		Fisherman Wade (Rematch 1)
-0	0x7AF	TRAINER BATTLE	Route 21		Swimmer♂ Jack (Rematch 1)
-0	0x7B0	TRAINER BATTLE	Route 21		Sis and Bro Lil & Ian (Rematch 1)
-0	0x7B1	TRAINER BATTLE	Route 21		Sis and Bro Lil & Ian (Rematch 2)
-0	0x7B2	TRAINER BATTLE	Kindle Road		Swimmer♂ Finn (Rematch 1)
-0	0x7B3	TRAINER BATTLE	Kindle Road		Crush Girl Sharon (Rematch 1)
-0	0x7B4	TRAINER BATTLE	Kindle Road		Crush Girl Sharon (Rematch 2)
-0	0x7B5	TRAINER BATTLE	Kindle Road		Crush Girl Tanya (Rematch 1)
-0	0x7B6	TRAINER BATTLE	Kindle Road		Crush Girl Tanya (Rematch 2)
-0	0x7B7	TRAINER BATTLE	Kindle Road		Black Belt Shea (Rematch 1)
-0	0x7B8	TRAINER BATTLE	Kindle Road		Black Belt Shea (Rematch 2)
-0	0x7B9	TRAINER BATTLE	Kindle Road		Black Belt Hugh (Rematch 1)
-0	0x7BA	TRAINER BATTLE	Kindle Road		Black Belt Hugh (Rematch 2)
-0	0x7BB	TRAINER BATTLE	Kindle Road		Crush Kin Mik & Kia (Rematch 1)
-0	0x7BC	TRAINER BATTLE	Kindle Road		Crush Kin Mik & Kia (Rematch 2)
-0	0x7BD	TRAINER BATTLE	Bond Bridge		Tuber Amira (Rematch 1)
-0	0x7BE	TRAINER BATTLE	Bond Bridge		Twins Joy & Meg (Rematch 1)
-0	0x7BF	TRAINER BATTLE	Resort Gorgeous		Painter Rayna (Rematch 1)
-0	0x7C0	TRAINER BATTLE	Resort Gorgeous		Youngster Destin (Rematch 1)
-0	0x7C1	TRAINER BATTLE	Water Labyrinth		Pokémon Breeder Alize (Rematch 1)
-0	0x7C2	TRAINER BATTLE	Route 12		Young Couple Gia & Jes (Rematch 1)
-0	0x7C3	TRAINER BATTLE	Route 12		Young Couple Gia & Jes (Rematch 1)
-0	0x7C4	TRAINER BATTLE	Memorial Pillar		Bird Keeper Milo (Rematch 1)
-0	0x7C5	TRAINER BATTLE	Memorial Pillar		Bird Keeper Chaz (Rematch 1)
-0	0x7C6	TRAINER BATTLE	Memorial Pillar		Bird Keeper Harold (Rematch 1)
-0	0x7C7	TRAINER BATTLE	Outcast Island		Swimmer♀ Nicole (Rematch 1)
-0	0x7C8	TRAINER BATTLE	Green Path		Psychic Jaclyn (Rematch 1)
-0	0x7C9	TRAINER BATTLE	Water Path		Swimmer♂ Samir (Rematch 1)
-0	0x7CA	TRAINER BATTLE	Water Path		Hiker Earl (Rematch 1)
-0	0x7CB	TRAINER BATTLE	Ruin Valley		Ruin Maniac Larry (Rematch 1)
-0	0x7CC	TRAINER BATTLE	Ruin Valley		PokéManiac Hector (Rematch 1)
-0	0x7CD	TRAINER BATTLE			Psychic Dario (Rematch 1) outside of Trainer Tower defeated
-0	0x7CE	TRAINER BATTLE			Psychic Rodette (Rematch 1) outside of Trainer Tower defeated
-0	0x7CF	TRAINER BATTLE	Canyon Entrance		Juggler Mason (Rematch 1)
-0	0x7D0	TRAINER BATTLE	Canyon Entrance		Pokémon Ranger Nicolas (Rematch 1)
-0	0x7D1	TRAINER BATTLE	Canyon Entrance		Pokémon Ranger Madeline (Rematch 1)
-0	0x7D2	TRAINER BATTLE	Sevault Canyon		Crush Girl Cyndy (Rematch 1)
-0	0x7D3	TRAINER BATTLE	Sevault Canyon		Tamer Evan (Rematch 1)
-0	0x7D4	TRAINER BATTLE	Sevault Canyon		Pokémon Ranger Jackson (Rematch 1)
-0	0x7D5	TRAINER BATTLE	Sevault Canyon		Pokémon Ranger Katelyn (Rematch 1)
-0	0x7D6	TRAINER BATTLE	Sevault Canyon		Cooltrainer Leroy (Rematch 1)
-0	0x7D7	TRAINER BATTLE	Sevault Canyon		Cooltrainer Michelle (Rematch 1)
-0	0x7D8	TRAINER BATTLE	Sevault Canyon		Cool Couple Lex & Nya (Rematch 1)
-0	0x7D9	TRAINER BATTLE	Route 3		Bug Catcher Colton (Rematch 1)
-0	0x7DA	TRAINER BATTLE	Route 3		Bug Catcher Colton (Rematch 2)
-0	0x7DB	TRAINER BATTLE	Route 3		Bug Catcher Colton (Rematch 3)
-0	0x7DC	TRAINER BATTLE	Route 19		Swimmer♂ Matthew (Rematch 1)
-0	0x7DD	TRAINER BATTLE	Route 19		Swimmer♂ Tony (Rematch 1)
-0	0x7DE	TRAINER BATTLE	Route 20		Swimmer♀ Melissa (Rematch 1)
-0	0x7DF	TRAINER BATTLE			Lorelei (Rematch 1) defeated
-0	0x7E0	TRAINER BATTLE			Bruno (Rematch 1) defeated
-0	0x7E1	TRAINER BATTLE			Agatha (Rematch 1) defeated
-0	0x7E2	TRAINER BATTLE			Lance (Rematch 1) defeated
-0	0x7E3	TRAINER BATTLE			Champion Blue (Rematch 1) defeated (Starter Charmander)
-0	0x7E4	TRAINER BATTLE			Champion Blue (Rematch 1) defeated (Starter Squirtle)
-0	0x7E5	TRAINER BATTLE			Champion Blue (Rematch 1) defeated (Starter Bulbasaur)
-0	0x7E6	TRAINER BATTLE	Three Island		Cue Ball Paxton
-0	0x820	STORY EVENT	Pewter City	Gym	Earned the Boulder Badge
-0	0x821	STORY EVENT	Cerulean City	Gym	Earned the Cascade Badge
-0	0x822	STORY EVENT	Vermilion City	Gym	Earned the Thunder Badge
-0	0x823	STORY EVENT	Celadon City	Gym	Earned the Rainbow Badge
-0	0x824	STORY EVENT	Fuchsia City	Gym	Earned the Soul Badge
-0	0x825	STORY EVENT	Saffron City	Gym	Earned the Marsh Badge
-0	0x826	STORY EVENT	Cinnabar Island	Gym	Earned the Volcano Badge
-0	0x827	STORY EVENT	Viridian City	Gym	Earned the Earth Badge
-0	0x828	STORY EVENT	Pallet Town	Oak's Lab	Received First Partner from Prof. Oak (Can access Pokémon Menu)
-0	0x829	STORY EVENT	Pallet Town	Oak's Lab	Received PokéDex from Prof. Oak (Can access PokéDex Menu)
-0	0x82C	STORY EVENT	Indigo Plateau		Became Champion and completed main story
-0	0x82F	ITEM GIFT	Pewter City		Received Running Shoes from Oak's Aide and can run with B button
-0	0x834	SIDE EVENT	Route 25	Sea Cottage	Learned that Bill made PC Storage (Bill's PC)
-0	0x839	SIDE EVENT	?		Unlocked Mystery Gift
-0	0x83B	SIDE EVENT			
-0	0x840	SIDE EVENT	Pallet Town	Oak's Lab	Received National Dex upgrade
-0	0x844	SIDE EVENT	One Island	Pokémon Net Center	Restored Connectivity to Hoenn and can link with RSE games
-0	0x845	ITEM GIFT	One Island	Pokémon Net Center	Received Tri-Pass from Celio and unlocked Map View for One / Two / Three Island
-0	0x847	ITEM GIFT			Received Berry Pouch upon receiving the first berry
-0	0x848	SIDE EVENT	Birth Island		Solved the Birth Island puzzle
-0	0x849	SIDE EVENT	?		Solved Tanoby Key puzzle and unlocked the Unowns at Tanoby Ruins
-0	0x890	FLY SPOT	Pallet Town		Visited / Unlocked Pallet Town fly spot
-0	0x891	FLY SPOT	Viridian City		Visited / Unlocked Viridian City fly spot
-0	0x892	FLY SPOT	Pewter City		Visited / Unlocked Pewter City fly spot
-0	0x893	FLY SPOT	Cerulean City		Visited / Unlocked Cerulean City fly spot
-0	0x894	FLY SPOT	Lavender Town		Visited / Unlocked Lavender Town fly spot
-0	0x895	FLY SPOT	Vermilion City		Visited / Unlocked Vermilion City fly spot
-0	0x896	FLY SPOT	Celadon City		Visited / Unlocked Celadon City fly spot
-0	0x897	FLY SPOT	Fuchsia City		Visited / Unlocked Fuchsia City fly spot
-0	0x898	FLY SPOT	Cinnabar Island		Visited / Unlocked Cinnabar Island fly spot
-0	0x899	FLY SPOT	Indigo Plateau		Visited / Unlocked Indigo Plateau fly spot
-0	0x89A	FLY SPOT	Saffron City		Visited / Unlocked Saffron City fly spot
-0	0x89B	FLY SPOT	One Island		Visited / Unlocked One Island fly spot
-0	0x89C	FLY SPOT	Two Island		Visited / Unlocked Two Island fly spot
-0	0x89D	FLY SPOT	Three Island		Visited / Unlocked Three Island fly spot
-0	0x89E	FLY SPOT	Four Island		Visited / Unlocked Four Island fly spot
-0	0x89F	FLY SPOT	Five Island		Visited / Unlocked Five Island fly spot
-0	0x8A0	FLY SPOT	Seven Island		Visited / Unlocked Seven Island fly spot
-0	0x8A1	FLY SPOT	Six Island		Visited / Unlocked Six Island fly spot
-0	0x8A2	FLY SPOT	Route 4		Visited / Unlocked Route 4 fly spot
-0	0x8A3	FLY SPOT	Route 10		Visited / Unlocked Route 10 fly spot
+-	0	0x052	STATIC ENCOUNTER	Mt. Ember	?	Moltres sprite disappeared
+-	0	0x054	STATIC ENCOUNTER	Route 12		Snorlax sprite disappeared
+-	0	0x057	PKMN GIFT		Celadon Mansion	Item ball with Eevee disappeared
+-	0	0x05D	STATIC ENCOUNTER	Power Plant		Zapdos sprite disappeared
+-	0	0x060	PKMN GIFT	Saffron City	Dojo	Item ball with Hitmonlee disappeared
+-	0	0x061	PKMN GIFT	Saffron City	Dojo	Item ball with Hitmonchan disappeared
+-	0	0x080	STATIC ENCOUNTER	Route 16		Snorlax sprite disappeared
+-	0	0x081	STATIC ENCOUNTER	Cerulean Cave	?	Mewtwo sprite disappeared
+-	0	0x082	STATIC ENCOUNTER	Seafoam Islands	?	Articuno sprite disappeared
+-	0	0x085	STATIC ENCOUNTER	Power Plant		Electrode sprite disappeared
+-	0	0x086	STATIC ENCOUNTER	Power Plant		Electrode sprite disappeared
+-	0	0x099	STATIC ENCOUNTER	Birth Island		Deoxys sprite disappeared
+-	0	0x09B	STATIC ENCOUNTER	Navel Rock	?	Lugia sprite disappeared
+-	0	0x09C	STATIC ENCOUNTER	Navel Rock	?	Ho-Oh sprite disappeared
+-	0	0x154	FIELD ITEM	Route 2		Ether
+-	0	0x155	FIELD ITEM	Route 2		Paralyz Heal
+-	0	0x156	FIELD ITEM	Viridian Forest		Poké Ball
+-	0	0x157	FIELD ITEM	Viridian Forest		Antidote
+-	0	0x158	FIELD ITEM	Viridian Forest		Potion
+-	0	0x159	FIELD ITEM	Mt. Moon	1F	Paralyz Heal
+-	0	0x15A	FIELD ITEM	Mt. Moon	1F	TM09 (Bullet Seed)
+-	0	0x15B	FIELD ITEM	Mt. Moon	1F	Potion
+-	0	0x15C	FIELD ITEM	Mt. Moon	1F	Rare Candy
+-	0	0x15D	FIELD ITEM	Mt. Moon	1F	Escape Rope
+-	0	0x15E	FIELD ITEM	Mt. Moon	1F	Moon Stone
+-	0	0x15F	FIELD ITEM	Mt. Moon	B2F	Star Piece
+-	0	0x160	FIELD ITEM	Mt. Moon	B2F	TM46 (Thief)
+-	0	0x161	FIELD ITEM	Route 4		TM05 (Roar)
+-	0	0x162	FIELD ITEM	Route 24		TM45 (Attract)
+-	0	0x163	FIELD ITEM	Route 25		TM43 (Secret Power)
+-	0	0x164	FIELD ITEM	S.S. Anne	1F	[Missable] TM31 (Brick Break)
+-	0	0x165	FIELD ITEM	S.S. Anne	2F	[Missable] Stardust
+-	0	0x166	FIELD ITEM	S.S. Anne	2F	[Missable] X Attack
+-	0	0x167	FIELD ITEM	S.S. Anne	B1F	[Missable] TM44 (Rest)
+-	0	0x168	FIELD ITEM	S.S. Anne	B1F	[Missable] Ether
+-	0	0x169	FIELD ITEM	S.S. Anne	B1F	[Missable] Super Potion
+-	0	0x16A	FIELD ITEM	S.S. Anne	Kitchen	[Missable] Great Ball
+-	0	0x16B	FIELD ITEM	Route 9		TM40 (Aerial Ace)
+-	0	0x16C	FIELD ITEM	Rocket Hideout	B1F	Escape Rope
+-	0	0x16D	FIELD ITEM	Rocket Hideout	B1F	Hyper Potion
+-	0	0x16E	FIELD ITEM	Rocket Hideout	B2F	X Speed
+-	0	0x16F	FIELD ITEM	Rocket Hideout	B2F	Moon Stone
+-	0	0x170	FIELD ITEM	Rocket Hideout	B2F	TM12 (Taunt)
+-	0	0x171	FIELD ITEM	Rocket Hideout	B2F	Super Potion
+-	0	0x172	FIELD ITEM	Rocket Hideout	B3F	Rare Candy
+-	0	0x173	FIELD ITEM	Rocket Hideout	B3F	TM21 (Frustration)
+-	0	0x174	FIELD ITEM	Rocket Hideout	B4F	TM49 (Snatch)
+-	0	0x175	FIELD ITEM	Rocket Hideout	B4F	Max Ether
+-	0	0x176	FIELD ITEM	Rocket Hideout	B4F	Calcium
+-	0	0x177	FIELD ITEM	Pokémon Tower	3F	Escape Rope
+-	0	0x178	FIELD ITEM	Pokémon Tower	4F	Elixir
+-	0	0x179	FIELD ITEM	Pokémon Tower	4F	Awakening
+-	0	0x17A	FIELD ITEM	Pokémon Tower	4F	Great Ball
+-	0	0x17B	FIELD ITEM	Pokémon Tower	5F	Nugget
+-	0	0x17C	FIELD ITEM	Pokémon Tower	6F	Rare Candy
+-	0	0x17D	FIELD ITEM	Pokémon Tower	6F	X Accuracy
+-	0	0x17E	FIELD ITEM	Route 12		TM48 (Skill Swap)
+-	0	0x17F	FIELD ITEM	Route 12		Iron
+-	0	0x180	FIELD ITEM	Route 15		TM18 (Rain Dance)
+-	0	0x181	FIELD ITEM	Safari Zone		Nugget
+-	0	0x182	FIELD ITEM	Safari Zone		Max Potion
+-	0	0x183	FIELD ITEM	Safari Zone		Full Restore
+-	0	0x184	FIELD ITEM	Safari Zone		TM11 (Sunny Day)
+-	0	0x185	FIELD ITEM	Safari Zone		Leaf Stone
+-	0	0x186	FIELD ITEM	Safari Zone		Protein
+-	0	0x187	FIELD ITEM	Safari Zone		TM47 (Steel Wing)
+-	0	0x188	FIELD ITEM	Safari Zone		TM32 (Double Team)
+-	0	0x189	FIELD ITEM			Gold Teeth
+-	0	0x18A	FIELD ITEM	Safari Zone		Max Potion
+-	0	0x18B	FIELD ITEM	Safari Zone		Max Revive
+-	0	0x18C	FIELD ITEM	Silph Co.	3F	Hyper Potion
+-	0	0x18D	FIELD ITEM	Silph Co.	4F	Max Revive
+-	0	0x18E	FIELD ITEM	Silph Co.	4F	Escape Rope
+-	0	0x18F	FIELD ITEM	Silph Co.	4F	Full Heal
+-	0	0x190	FIELD ITEM	Silph Co.	5F	Protein
+-	0	0x191	FIELD ITEM	Silph Co.	5F	TM01 (Focus Punch)
+-	0	0x192	FIELD ITEM	Silph Co.	5F	Card Key
+-	0	0x193	FIELD ITEM	Silph Co.	6F	HP Up
+-	0	0x194	FIELD ITEM	Silph Co.	6F	X Special
+-	0	0x195	FIELD ITEM	Silph Co.	7F	Calcium
+-	0	0x196	FIELD ITEM	Silph Co.	7F	TM08 (Bulk Up)
+-	0	0x197	FIELD ITEM	Silph Co.	10F	Carbos
+-	0	0x198	FIELD ITEM	Silph Co.	10F	Ultra Ball
+-	0	0x199	FIELD ITEM	Silph Co.	10F	Rare Candy
+-	0	0x19A	FIELD ITEM	Power Plant		Max Potion
+-	0	0x19B	FIELD ITEM	Power Plant		TM17 (Protect)
+-	0	0x19C	FIELD ITEM	Power Plant		TM25 (Thunder)
+-	0	0x19D	FIELD ITEM	Power Plant		Thunder Stone
+-	0	0x19E	FIELD ITEM	Power Plant		Elixir
+-	0	0x19F	FIELD ITEM	Pokémon Mansion	1F	Carbos
+-	0	0x1A0	FIELD ITEM	Pokémon Mansion	1F	Escape Rope
+-	0	0x1A1	FIELD ITEM	Pokémon Mansion	2F	Calcium
+-	0	0x1A2	FIELD ITEM	Pokémon Mansion	3F	Max Potion
+-	0	0x1A3	FIELD ITEM	Pokémon Mansion	3F	Iron
+-	0	0x1A4	FIELD ITEM	Pokémon Mansion	B1F	TM14 (Blizzard)
+-	0	0x1A5	FIELD ITEM	Pokémon Mansion	B1F	Full Restore
+-	0	0x1A7	FIELD ITEM	Pokémon Mansion	B1F	TM22 (Solarbeam)
+-	0	0x1A8	FIELD ITEM	Pokémon Mansion	B1F	Secret Key
+-	0	0x1A9	FIELD ITEM	Victory Road	1F	Rare Candy
+-	0	0x1AA	FIELD ITEM	Victory Road	1F	TM02 (Dragon Claw)
+-	0	0x1AB	FIELD ITEM	Victory Road	2F	Guard Spec.
+-	0	0x1AC	FIELD ITEM	Victory Road	2F	TM07 (Hail)
+-	0	0x1AD	FIELD ITEM	Victory Road	2F	Full Heal
+-	0	0x1AE	FIELD ITEM	Victory Road	2F	TM37 (Sandstorm)
+-	0	0x1AF	FIELD ITEM	Victory Road	3F	Max Revive
+-	0	0x1B0	FIELD ITEM	Victory Road	3F	TM50 (Overheat)
+-	0	0x1B1	FIELD ITEM	Cerulean Cave	1F	Max Elixir
+-	0	0x1B2	FIELD ITEM	Cerulean Cave	1F	Nugget
+-	0	0x1B3	FIELD ITEM	Cerulean Cave	1F	Full Restore
+-	0	0x1B4	FIELD ITEM	Cerulean Cave	2F	Full Restore
+-	0	0x1B5	FIELD ITEM	Cerulean Cave	2F	PP Up
+-	0	0x1B6	FIELD ITEM	Cerulean Cave	2F	Ultra Ball
+-	0	0x1B7	FIELD ITEM	Cerulean Cave	B1F	Max Revive
+-	0	0x1B8	FIELD ITEM	Cerulean Cave	B1F	Ultra Ball
+-	0	0x1B9	FIELD ITEM	Fuchsia City		Rare Candy
+-	0	0x1BA	FIELD ITEM	Two Island		Revive
+-	0	0x1BB	FIELD ITEM	Three Island		Zinc
+-	0	0x1BE	FIELD ITEM	Viridian Forest		Potion
+-	0	0x1BF	FIELD ITEM	Mt. Moon	B2F	Revive
+-	0	0x1C0	FIELD ITEM	Mt. Moon	B2F	Antidote
+-	0	0x1C1	FIELD ITEM	Route 11		X Defend
+-	0	0x1C2	FIELD ITEM	Route 9		Burn Heal
+-	0	0x1C3	FIELD ITEM	Rock Tunnel	1F	Repel
+-	0	0x1C4	FIELD ITEM	Rock Tunnel	1F	Pearl
+-	0	0x1C5	FIELD ITEM	Rock Tunnel	1F	Escape Rope
+-	0	0x1C6	FIELD ITEM	Rock Tunnel	B1F	Revive
+-	0	0x1C7	FIELD ITEM	Rock Tunnel	B1F	Max Ether
+-	0	0x1C8	FIELD ITEM	Silph Co.	8F	Iron
+-	0	0x1C9	FIELD ITEM	Silph Co.	11F	Zinc
+-	0	0x1CA	FIELD ITEM	Pokémon Mansion	1F	Protein
+-	0	0x1CB	FIELD ITEM	Pokémon Mansion	2F	Zinc
+-	0	0x1CC	FIELD ITEM	Pokémon Mansion	2F	HP Up
+-	0	0x1CD	FIELD ITEM	Viridian City		Potion
+-	0	0x1CE	FIELD ITEM	Route 11		Great Ball
+-	0	0x1CF	FIELD ITEM	Route 11		Awakening
+-	0	0x1D0	FIELD ITEM	Pokémon Tower	5F	Cleanse Tag
+-	0	0x1D1	FIELD ITEM	Celadon City		Ether
+-	0	0x1D2	FIELD ITEM	Rocket Hideout	B3F	BlackGlasses
+-	0	0x1D3	FIELD ITEM	Safari Zone		Quick Claw
+-	0	0x1D4	FIELD ITEM	Seafoam Islands	1F	Ice Heal
+-	0	0x1D5	FIELD ITEM	Seafoam Islands	B1F	Water Stone
+-	0	0x1D6	FIELD ITEM	Seafoam Islands	B1F	Revive
+-	0	0x1D7	FIELD ITEM	Seafoam Islands	B2F	Big Pearl
+-	0	0x1D8	FIELD ITEM	Seafoam Islands	B4F	Ultra Ball
+-	0	0x1D9	FIELD ITEM	Four Island		Star Piece
+-	0	0x1DA	FIELD ITEM	Four Island		Stardust
+-	0	0x1DB	FIELD ITEM	Kindle Road		Ether
+-	0	0x1DC	FIELD ITEM	Kindle Road		Max Repel
+-	0	0x1DD	FIELD ITEM	Kindle Road		Carbos
+-	0	0x1DE	FIELD ITEM	Five Isle Meadow		Max Potion
+-	0	0x1DF	FIELD ITEM	Five Isle Meadow		PP Up
+-	0	0x1E0	FIELD ITEM	Memorial Pillar		Metal Coat
+-	0	0x1E1	FIELD ITEM	Outcast Island		PP Up
+-	0	0x1E2	FIELD ITEM	Water Path		Elixir
+-	0	0x1E3	FIELD ITEM	Water Path		Dragon Scale
+-	0	0x1E4	FIELD ITEM	Ruin Valley		Full Restore
+-	0	0x1E5	FIELD ITEM	Ruin Valley		HP Up
+-	0	0x1E6	FIELD ITEM	Ruin Valley		Sun Stone
+-	0	0x1E7	FIELD ITEM	Sevault Canyon		King's Rock
+-	0	0x1E8	FIELD ITEM	Sevault Canyon		Max Elixir
+-	0	0x1E9	FIELD ITEM	Sevault Canyon		Nugget
+-	0	0x1EA	FIELD ITEM	Berry Forest		Max Ether
+-	0	0x1EB	FIELD ITEM	Berry Forest		Full Heal
+-	0	0x1EC	FIELD ITEM	Berry Forest		Max Elixir
+-	0	0x1ED	FIELD ITEM	Mt. Ember		Ultra Ball
+-	0	0x1EE	FIELD ITEM	Mt. Ember		Fire Stone
+-	0	0x1EF	FIELD ITEM	Mt. Ember		Dire Hit
+-	0	0x1F0	FIELD ITEM	Icefall Cave		Ultra Ball
+-	0	0x1F1	FIELD ITEM			HM07 (Waterfall)
+-	0	0x1F2	FIELD ITEM	Icefall Cave		Full Restore
+-	0	0x1F3	FIELD ITEM	Icefall Cave		NeverMeltIce
+-	0	0x1F4	FIELD ITEM	Rocket Warehouse		Big Pearl
+-	0	0x1F5	FIELD ITEM	Rocket Warehouse		TM36 (Sludge Bomb)
+-	0	0x1F6	FIELD ITEM	Rocket Warehouse		Pearl
+-	0	0x1F7	FIELD ITEM	Rocket Warehouse		Up-Grade
+-	0	0x1F8	FIELD ITEM	Lost Cave		Silk Scarf
+-	0	0x1F9	FIELD ITEM	Lost Cave		Lax Incense
+-	0	0x1FA	FIELD ITEM	Lost Cave		Sea Incense
+-	0	0x1FB	FIELD ITEM	Lost Cave		Max Revive
+-	0	0x1FC	FIELD ITEM	Lost Cave		Rare Candy
+-	0	0x1FD	FIELD ITEM	Sevault Canyon		Lucky Punch
+-	0	0x1FE	FIELD ITEM	Silph Co.	4F	TM41 (Torment)
+-	0	0x230	ITEM GIFT	Route 1		Received Potion from boy
+-	0	0x231	ITEM GIFT	Vermilion City	Gym	Received TM34 (Shock Wave) from Lt. Surge
+-	0	0x234	ITEM GIFT	Route 25	Sea Cottage	Received S.S. Ticket from Bill
+-	0	0x236	ITEM GIFT			TM42 on Memorial Pillar received
+-	0	0x237	ITEM GIFT	S.S. Anne	3F	Received HM01 (Cut) from captain
+-	0	0x238	ITEM GIFT	Route 16	House	Received HM02 (Fly) from girl
+-	0	0x239	ITEM GIFT	Safari Zone	West	Received HM03 (Surf) from man in Secret House
+-	0	0x23A	ITEM GIFT	Fuchsia City	Warden's House	Received HM04 (Strength) from warden in exchange for his Gold Teeth
+-	0	0x23B	ITEM GIFT	Route 2	Gate	Received HM05 (Flash) from Oak's Aide
+-	0	0x23D	ITEM GIFT	Lavender Town	Pokémon House	Received Poké Flute from Mr. Fuji
+-	0	0x23F	ITEM GIFT	Cerulean City		Received TM28 (Dig) from Team Rocket thief
+-	0	0x240	ITEM GIFT	Vermilion City	House	Received Old Rod from Fishing Guru
+-	0	0x241	ITEM GIFT	Vermilion City	Pokémon Fan Club	Received Bike Voucher from chairman
+-	0	0x243	ITEM GIFT	Celadon City	Restaurant	Received Coin Case from man
+-	0	0x244	ITEM GIFT	Fuchsia City	House	Received Good Rod from Fishing Guru
+-	0	0x245	ITEM GIFT	Saffron City	Mr. Psychic's House	Received TM29 (Psychic) from Mr. Psychic
+-	0	0x246	PKMN GIFT			Received Lapras
+-	0	0x247	ITEM GIFT	Pallet Town	Oak's Lab	Received Poké Ball (x5) from Prof. Oak
+-	0	0x248	IN-GAME TRADE			Traded on Route 2
+-	0	0x249	PKMN GIFT			Purchased Magikarp
+-	0	0x24A	IN-GAME TRADE			Traded in Cerulean City
+-	0	0x24B	IN-GAME TRADE			Traded in Underground Tunnel
+-	0	0x24D	IN-GAME TRADE			Traded in Vermilion City
+-	0	0x24E	ITEM GIFT	Cinnabar Island	Gym	Received TM38 (Fire Blast) from Blaine
+-	0	0x250	ITEM GIFT	Silph Co.	11F	Received Master Ball from Silph Co.'s president
+-	0	0x251	IN-GAME TRADE			Traded on Route 11
+-	0	0x252	ITEM GIFT	Route 11	Gate	Received Itemfinder from Oak's Aide
+-	0	0x254	ITEM GIFT	Pewter City	Gym	Received TM39 (Rock Tomb) from Brock
+-	0	0x255	ITEM GIFT	Route 12	House	Received Super Rod from Fishing Guru
+-	0	0x256	ITEM GIFT	Route 15	Gate	Received Exp. Share from Oak's Aide
+-	0	0x257	IN-GAME TRADE			Traded on Route 18
+-	0	0x259	ITEM GIFT	Fuchsia City	Gym	TM06 (Toxic) from Koga
+-	0	0x25B	ITEM GIFT	Route 12	Gate	TM27 (Return) from girl
+-	0	0x25E	ITEM GIFT	Pewter City	Museum	Received Old Amber from scientist
+-	0	0x263	PKMN GIFT			Eevee in Celadon Mansion collected
+-	0	0x26E	ITEM GIFT	Celadon City	Rocket Game Corner	Received 10 coins from fisherman
+-	0	0x26F	ITEM GIFT	Celadon City	Rocket Game Corner	Received 20 coins from scientist
+-	0	0x270	ITEM GIFT	Celadon City	Rocket Game Corner	Received 20 Coins from gentleman
+-	0	0x271	ITEM GIFT	Cerulean City	Bike Shop	Received Bicycle from owner in exchange for a voucher
+-	0	0x272	ITEM GIFT	Mt. Moon	B2F	Received Dome Fossil
+-	0	0x273	ITEM GIFT	Mt. Moon	B2F	Received Helix Fossil
+-	0	0x274	IN-GAME TRADE			Traded in Cinnabar Lab (Electrode)
+-	0	0x275	IN-GAME TRADE			Traded in Cinnabar Lab (Tangela)
+-	0	0x276	IN-GAME TRADE			Traded in Cinnabar Lab (Seel)
+-	0	0x278	PKMN GIFT	Saffron City	Dojo	Received Hitmonlee / Hitmonchan from item ball
+-	0	0x292	ITEM GIFT	Vermilion City	Poké Center	Received Vs. Seeker from woman
+-	0	0x293	ITEM GIFT	Celadon City	Gym	Received TM19 (Giga Drain) from Erika
+-	0	0x294	ITEM GIFT	Celadon Department Store	Roofttop	Received TM33 (Reflect) from girl in exchange for a Lemonade
+-	0	0x295	ITEM GIFT	Celadon Department Store	Roofttop	Received TM20 (Safeguard) from girl in exchange for a Soda Pop
+-	0	0x296	ITEM GIFT	Celadon Department Store	Roofttop	Received TM16 (Light Screen) from girl in exchange for a Fresh Water
+-	0	0x297	ITEM GIFT	Cerulean City	Gym	Received TM03 (Water Pulse) from Misty
+-	0	0x298	ITEM GIFT	Viridian City	Gym	Received TM26 (Earthquake) from Giovanni
+-	0	0x29A	ITEM GIFT	Saffron City	Gym	Received TM04 (Calm Mind) from Sabrina
+-	0	0x29B	ITEM GIFT	Cerulean City		Received Fame Checker from Rival
+-	0	0x29C	SIDE EVENT			Set Magikarp Length Record
+-	0	0x29E	SIDE EVENT			
+-	0	0x29F	SIDE EVENT			
+-	0	0x2A0	SIDE EVENT			
+-	0	0x2A6	ITEM GIFT	Celadon City	Mansion 1F	Received Tea from old woman
+-	0	0x2A7	ITEM GIFT			Received Aurora Ticket from Mystery Gift
+-	0	0x2A8	ITEM GIFT			Received Mystic Ticket from Mystery Gift
+-	0	0x2BB	ITEM GIFT	Cerulean City	House	Received Powder Jar from old man
+-	0	0x2BC	STATIC ENCOUNTER			Mewtwo caught/defeated
+-	0	0x2BD	STATIC ENCOUNTER			Moltres caught/defeated
+-	0	0x2BE	STATIC ENCOUNTER			Articuno caught/defeated
+-	0	0x2BF	STATIC ENCOUNTER			Zapdos caught/defeated
+-	0	0x2D0	STATIC ENCOUNTER			Electrode (south) in Power Plant defeated/ran/caught
+-	0	0x2D1	STATIC ENCOUNTER			Electrode (north) in Power Plant defeated/ran/caught
+-	0	0x2D9	ITEM GIFT			Set Heracross Length Record
+-	0	0x2DA	PKMN GIFT	Water Labyrinth		Received Togepi Egg from Gentleman
+-	0	0x2DC	ITEM GIFT	Rocket Warehouse		Received Sapphire from Gideon
+-	0	0x2DD	ITEM GIFT	Mt. Ember	?	Received Ruby
+-	0	0x2E2	ITEM GIFT	Three Isle Path		Received Nugget from man
+-	0	0x2E4	STATIC ENCOUNTER			Captured Deoxys
+-	0	0x2EF	ITEM GIFT	Ember Spa		Received HM06 (Rock Smash) from old man
+-	0	0x2F2	STATIC ENCOUNTER			Captured Lugia
+-	0	0x2F3	STATIC ENCOUNTER			Captured Ho-Oh
+-	0	0x2F4	SIDE EVENT			Shown Prof. Oak the complete National Dex
+-	0	0x2FA	ITEM GIFT	Route 10	Poké Center	Received Everstone from Oak's Aide
+-	0	0x2FB	ITEM GIFT	Two Island	Joyful Game Corner	Received Moon Stone from Lostelle's dad in exchange for a Meteorite
+-	0	0x2FC	ITEM GIFT	Three Island		Received Full Restore from man for driving off bikers
+-	0	0x2FD	ITEM GIFT	Route 16	Gate	Received Amulet Coin from Oak's Aide
+-	0	0x3E8	HIDDEN ITEM	Viridian Forest		Potion
+-	0	0x3E9	HIDDEN ITEM	Viridian Forest		Antidote
+-	0	0x3EA	HIDDEN ITEM	Mt. Moon		Moon Stone
+-	0	0x3EB	HIDDEN ITEM	Mt. Moon		Ether
+-	0	0x3EC	HIDDEN ITEM	Route 25		Elixir
+-	0	0x3ED	HIDDEN ITEM	Route 25		Ether
+-	0	0x3EE	HIDDEN ITEM	Route 9		Ether
+-	0	0x3F0	HIDDEN ITEM	S.S. Anne	B1F	[Missable] Hyper Potion
+-	0	0x3F1	HIDDEN ITEM	Route 10		Super Potion
+-	0	0x3F2	HIDDEN ITEM	Route 10		Max Ether
+-	0	0x3F3	HIDDEN ITEM	Rocket Hideout		PP Up
+-	0	0x3F4	HIDDEN ITEM	Rocket Hideout		Nugget
+-	0	0x3F5	HIDDEN ITEM	Rocket Hideout		Nest Ball
+-	0	0x3F6	HIDDEN ITEM	Pokémon Tower	5F	Big Mushroom
+-	0	0x3F7	HIDDEN ITEM	Route 13		PP Up
+-	0	0x3F9	HIDDEN ITEM	Route 17		Rare Candy
+-	0	0x3FA	HIDDEN ITEM	Route 17		Full Restore
+-	0	0x3FB	HIDDEN ITEM	Route 17		PP Up
+-	0	0x3FC	HIDDEN ITEM	Route 17		Max Revive
+-	0	0x3FD	HIDDEN ITEM	Route 17		Max Elixir
+-	0	0x3FE	HIDDEN ITEM	Safari Zone		Leaf Stone
+-	0	0x3FF	HIDDEN ITEM	Safari Zone		Revive
+-	0	0x400	HIDDEN ITEM	Silph Co.	5F	Elixir
+-	0	0x401	HIDDEN ITEM	Silph Co.	9F	Max Potion
+-	0	0x402	HIDDEN ITEM	Saffron City		Nugget
+-	0	0x403	HIDDEN ITEM	Power Plant		Max Elixir
+-	0	0x404	HIDDEN ITEM	Power Plant		Thunder Stone
+-	0	0x405	HIDDEN ITEM	Seafoam Islands		Nugget
+-	0	0x406	HIDDEN ITEM	Seafoam Islands		Water Stone
+-	0	0x407	HIDDEN ITEM	Pokémon Mansion		Moon Stone
+-	0	0x408	HIDDEN ITEM	Pokémon Mansion		Rare Candy
+-	0	0x409	HIDDEN ITEM	Pokémon Mansion		Elixir
+-	0	0x40A	HIDDEN ITEM	Route 23		Full Restore
+-	0	0x40B	HIDDEN ITEM	Route 23		Ultra Ball
+-	0	0x40C	HIDDEN ITEM	Route 23		Max Ether
+-	0	0x40D	HIDDEN ITEM	Victory Road		Ultra Ball
+-	0	0x40E	HIDDEN ITEM	Victory Road		Full Restore
+-	0	0x40F	HIDDEN ITEM	Cerulean Cave	1F	Ultra Ball
+-	0	0x411	HIDDEN ITEM	Route 11		Escape Rope
+-	0	0x412	HIDDEN ITEM	Route 12		Hyper Potion
+-	0	0x417	HIDDEN ITEM	Celadon City		PP Up
+-	0	0x418	HIDDEN ITEM	Vermilion City		Max Ether
+-	0	0x419	HIDDEN ITEM	Cerulean City		Rare Candy
+-	0	0x41A	HIDDEN ITEM	Route 4		Great Ball
+-	0	0x41B	HIDDEN ITEM	Rocket Game Corner		10 Coins
+-	0	0x41C	HIDDEN ITEM	Rocket Game Corner		10 Coins
+-	0	0x41D	HIDDEN ITEM	Rocket Game Corner		20 Coins
+-	0	0x41E	HIDDEN ITEM	Rocket Game Corner		10 Coins
+-	0	0x41F	HIDDEN ITEM	Rocket Game Corner		10 Coins
+-	0	0x420	HIDDEN ITEM	Rocket Game Corner		20 Coins
+-	0	0x421	HIDDEN ITEM	Rocket Game Corner		10 Coins
+-	0	0x422	HIDDEN ITEM	Rocket Game Corner		10 Coins
+-	0	0x423	HIDDEN ITEM	Rocket Game Corner		10 Coins
+-	0	0x424	HIDDEN ITEM	Rocket Game Corner		40 Coins
+-	0	0x425	HIDDEN ITEM	Rocket Game Corner		100 Coins
+-	0	0x426	HIDDEN ITEM	Rocket Game Corner		10 Coins
+-	0	0x427	HIDDEN ITEM	Sevault Canyon		Cheri Berry
+-	0	0x428	HIDDEN ITEM	Tanoby Ruins		Heart Scale  (recurring)
+-	0	0x429	HIDDEN ITEM	Tanoby Ruins		Heart Scale  (recurring)
+-	0	0x42A	HIDDEN ITEM	Tanoby Ruins		Heart Scale  (recurring)
+-	0	0x42B	HIDDEN ITEM	Tanoby Ruins		Heart Scale  (recurring)
+-	0	0x42C	HIDDEN ITEM	Rocket Warehouse		Nest Ball
+-	0	0x42D	HIDDEN ITEM	Rocket Warehouse		Net Ball
+-	0	0x42E	HIDDEN ITEM	Underground Path	North-South	Potion (recurring)
+-	0	0x42F	HIDDEN ITEM	Underground Path	North-South	Antidote (recurring)
+-	0	0x430	HIDDEN ITEM	Underground Path	North-South	Parlyz Heal (recurring)
+-	0	0x431	HIDDEN ITEM	Underground Path	North-South	Awakening (recurring)
+-	0	0x432	HIDDEN ITEM	Underground Path	North-South	Burn Heal (recurring)
+-	0	0x433	HIDDEN ITEM	Underground Path	North-South	Ice Heal (recurring)
+-	0	0x434	HIDDEN ITEM	Underground Path	North-South	Ether (recurring)
+-	0	0x435	HIDDEN ITEM	Underground Path	West-East	Potion (recurring)
+-	0	0x436	HIDDEN ITEM	Underground Path	West-East	Antidote (recurring)
+-	0	0x437	HIDDEN ITEM	Underground Path	West-East	Parlyz Heal (recurring)
+-	0	0x438	HIDDEN ITEM	Underground Path	West-East	Awakening (recurring)
+-	0	0x439	HIDDEN ITEM	Underground Path	West-East	Burn Heal (recurring)
+-	0	0x43A	HIDDEN ITEM	Underground Path	West-East	Ice Heal (recurring)
+-	0	0x43B	HIDDEN ITEM	Underground Path	West-East	Ether (recurring)
+-	0	0x43C	HIDDEN ITEM	Mt. Moon		Tiny Mushroom (recurring)
+-	0	0x43D	HIDDEN ITEM	Mt. Moon		Tiny Mushroom (recurring)
+-	0	0x43E	HIDDEN ITEM	Mt. Moon		Tiny Mushroom (recurring)
+-	0	0x43F	HIDDEN ITEM	Mt. Moon		Big Mushroom (recurring)
+-	0	0x440	HIDDEN ITEM	Mt. Moon		Big Mushroom (recurring)
+-	0	0x441	HIDDEN ITEM	Mt. Moon		Big Mushroom (recurring)
+-	0	0x442	HIDDEN ITEM	Berry Forest		Razz Berry (recurring)
+-	0	0x443	HIDDEN ITEM	Berry Forest		Bluk Berry (recurring)
+-	0	0x444	HIDDEN ITEM	Berry Forest		Nanab Berry (recurring)
+-	0	0x445	HIDDEN ITEM	Berry Forest		Wepear Berry (recurring)
+-	0	0x446	HIDDEN ITEM	Berry Forest		Oran Berry (recurring)
+-	0	0x447	HIDDEN ITEM	Berry Forest		Cheri Berry (recurring)
+-	0	0x448	HIDDEN ITEM	Berry Forest		Chesto Berry (recurring)
+-	0	0x449	HIDDEN ITEM	Berry Forest		Pecha Berry (recurring)
+-	0	0x44A	HIDDEN ITEM	Berry Forest		Rawst Berry (recurring)
+-	0	0x44B	HIDDEN ITEM	Berry Forest		Aspear Berry (recurring)
+-	0	0x44C	HIDDEN ITEM	Berry Forest		Persim Berry (recurring)
+-	0	0x44D	HIDDEN ITEM	Berry Forest		Pinap Berry (recurring)
+-	0	0x44E	HIDDEN ITEM	Berry Forest		Lum Berry (recurring)
+-	0	0x44F	HIDDEN ITEM	Treasure Beach		Stardust (recurring)
+-	0	0x450	HIDDEN ITEM	Treasure Beach		Stardust (recurring)
+-	0	0x451	HIDDEN ITEM	Treasure Beach		Pearl (recurring)
+-	0	0x452	HIDDEN ITEM	Treasure Beach		Pearl (recurring)
+-	0	0x453	HIDDEN ITEM	Treasure Beach		Ultra Ball (recurring)
+-	0	0x454	HIDDEN ITEM	Treasure Beach		Ultra Ball (recurring)
+-	0	0x455	HIDDEN ITEM	Treasure Beach		Star Piece (recurring)
+-	0	0x456	HIDDEN ITEM	Treasure Beach		Big Pearl (recurring)
+-	0	0x457	HIDDEN ITEM	Cape Brink		Rare Candy
+-	0	0x458	HIDDEN ITEM	Pewter City		Poké Ball
+-	0	0x459	HIDDEN ITEM	Route 3		Oran Berry
+-	0	0x45A	HIDDEN ITEM	Route 4		Persim Berry
+-	0	0x45B	HIDDEN ITEM	Route 24		Pecha Berry
+-	0	0x45C	HIDDEN ITEM	Route 25		Oran Berry
+-	0	0x45D	HIDDEN ITEM	Route 25		Bluk Berry
+-	0	0x45E	HIDDEN ITEM	Route 6		Sitrus Berry
+-	0	0x45F	HIDDEN ITEM	Route 6		Rare Candy
+-	0	0x460	HIDDEN ITEM	S.S. Anne	Kitchen	[Missable] Pecha Berry
+-	0	0x461	HIDDEN ITEM	S.S. Anne	Kitchen	[Missable] Cheri Berry
+-	0	0x462	HIDDEN ITEM	S.S. Anne	Kitchen	[Missable] Chesto Berry
+-	0	0x463	HIDDEN ITEM	Route 9		Rare Candy
+-	0	0x465	HIDDEN ITEM	Route 10		Persim Berry
+-	0	0x466	HIDDEN ITEM	Route 10		Cheri Berry
+-	0	0x467	HIDDEN ITEM	Route 8		Rawst Berry
+-	0	0x468	HIDDEN ITEM	Route 8		Lum Berry
+-	0	0x469	HIDDEN ITEM	Route 8		Leppa Berry
+-	0	0x46A	HIDDEN ITEM	Route 12		Rare Candy
+-	0	0x46B	HIDDEN ITEM	Route 12		Leftovers
+-	0	0x46C	HIDDEN ITEM	Route 16		Leftovers
+-	0	0x46D	HIDDEN ITEM	Fuchsia City		Max Revive
+-	0	0x46E	HIDDEN ITEM	Rocket Hideout		Net Ball
+-	0	0x46F	HIDDEN ITEM	Silph Co.	2F	Ultra Ball
+-	0	0x470	HIDDEN ITEM	Silph Co.	3F	Protein
+-	0	0x471	HIDDEN ITEM	Silph Co.	4F	Iron
+-	0	0x472	HIDDEN ITEM	Silph Co.	5F	PP Up
+-	0	0x473	HIDDEN ITEM	Silph Co.	6F	Carbos
+-	0	0x474	HIDDEN ITEM	Silph Co.	7F	Zinc
+-	0	0x475	HIDDEN ITEM	Silph Co.	8F	Nugget
+-	0	0x476	HIDDEN ITEM	Silph Co.	9F	Calcium
+-	0	0x477	HIDDEN ITEM	Silph Co.	10F	HP Up
+-	0	0x478	HIDDEN ITEM	Silph Co.	11F	Revive
+-	0	0x479	HIDDEN ITEM	Route 23		Lum Berry
+-	0	0x47A	HIDDEN ITEM	Route 23		Sitrus Berry
+-	0	0x47B	HIDDEN ITEM	Route 23		Aspear Berry
+-	0	0x47C	HIDDEN ITEM	Route 23		Leppa Berry
+-	0	0x47D	HIDDEN ITEM	Route 14		Zinc
+-	0	0x47E	HIDDEN ITEM	Route 9		Chesto Berry
+-	0	0x47F	HIDDEN ITEM	Route 10		Nanab Berry
+-	0	0x480	HIDDEN ITEM	Route 7		Wepear Berry
+-	0	0x481	HIDDEN ITEM	Route 20		Stardust (recurring)
+-	0	0x482	HIDDEN ITEM	Route 21		Pearl (recurring)
+-	0	0x483	HIDDEN ITEM	Route 23		Max Elixir
+-	0	0x484	HIDDEN ITEM	Route 4		Razz Berry
+-	0	0x485	HIDDEN ITEM	Route 14		Pinap Berry
+-	0	0x486	HIDDEN ITEM	Mt. Ember		Fire Stone
+-	0	0x487	HIDDEN ITEM	Pokémon Tower	7F	Soothe Bell
+-	0	0x488	HIDDEN ITEM	Navel Rock		Sacred Ash
+-	0	0x489	HIDDEN ITEM	Cape Brink		PP Max
+-	0	0x48A	HIDDEN ITEM	Mt. Ember		Ultra Ball
+-	0	0x48B	HIDDEN ITEM	Three Isle Path		Nugget
+-	0	0x48C	HIDDEN ITEM	Three Island		PP Up
+-	0	0x48D	HIDDEN ITEM	Bond Bridge		Max Repel
+-	0	0x48E	HIDDEN ITEM	Bond Bridge		Pearl (recurring)
+-	0	0x48F	HIDDEN ITEM	Bond Bridge		Stardust (recurring)
+-	0	0x490	HIDDEN ITEM	Four Island		Pearl (recurring)
+-	0	0x491	HIDDEN ITEM	Four Island		Ultra Ball (recurring)
+-	0	0x492	HIDDEN ITEM	Memorial Pillar		Big Pearl (recurring)
+-	0	0x493	HIDDEN ITEM	Memorial Pillar		Razz Berry
+-	0	0x494	HIDDEN ITEM	Memorial Pillar		Sitrus Berry
+-	0	0x495	HIDDEN ITEM	Memorial Pillar		Bluk Berry
+-	0	0x496	HIDDEN ITEM	Resort Gorgeous		Nest Ball (recurring)
+-	0	0x497	HIDDEN ITEM	Resort Gorgeous		Stardust (recurring)
+-	0	0x498	HIDDEN ITEM	Resort Gorgeous		Star Piece (recurring)
+-	0	0x499	HIDDEN ITEM	Resort Gorgeous		Stardust (recurring)
+-	0	0x49A	HIDDEN ITEM	Outcast Island		Star Piece (recurring)
+-	0	0x49B	HIDDEN ITEM	Outcast Island		Net Ball (recurring)
+-	0	0x49C	HIDDEN ITEM	Green Path		Ultra Ball (recurring)
+-	0	0x49D	HIDDEN ITEM	Water Path		Aspear Berry
+-	0	0x49E	HIDDEN ITEM	Water Path		Oran Berry
+-	0	0x49F	HIDDEN ITEM	Water Path		Pinap Berry
+-	0	0x4A0	HIDDEN ITEM	Six Island		Leppa Berry
+-	0	0x4A1	HIDDEN ITEM	Trainer Tower		Big Pearl (recurring)
+-	0	0x4A2	HIDDEN ITEM	Trainer Tower		Pearl (recurring)
+-	0	0x4A3	HIDDEN ITEM	Trainer Tower		Nanab Berry
+-	0	0x4A4	HIDDEN ITEM	Canyon Entrance		Rawst Berry
+-	0	0x4A5	HIDDEN ITEM	Viridian City	Gym	Macho Brace
+-	0	0x4A6	HIDDEN ITEM	S.S. Anne Port		[Missable] Lava Cookie
+-	0	0x559	TRAINER BATTLE	Route 3		Youngster Ben
+-	0	0x55A	TRAINER BATTLE	Route 3		Youngster Calvin
+-	0	0x55B	TRAINER BATTLE	Mt. Moon	?	Youngster Josh
+-	0	0x55C	TRAINER BATTLE	Route 24		Youngster Timmy
+-	0	0x55D	TRAINER BATTLE	Route 25		Youngster Joey
+-	0	0x55E	TRAINER BATTLE	Route 25		Youngster Dan
+-	0	0x55F	TRAINER BATTLE	Route 25		Youngster Chad
+-	0	0x560	TRAINER BATTLE	S.S. Anne	?	[Missable] Youngster Tyler
+-	0	0x561	TRAINER BATTLE	Route 11		Youngster Eddie
+-	0	0x562	TRAINER BATTLE	Route 11		Youngster Dillon
+-	0	0x563	TRAINER BATTLE	Route 11		Youngster Yasu
+-	0	0x564	TRAINER BATTLE	Route 11		Youngster Dave
+-	0	0x565	TRAINER BATTLE	Route 3		Youngster Ben (Rematch 1)
+-	0	0x566	TRAINER BATTLE	Viridian Forest		Bug Catcher Rick
+-	0	0x567	TRAINER BATTLE	Viridian Forest		Bug Catcher Doug
+-	0	0x568	TRAINER BATTLE	Viridian Forest		Bug Catcher Sammy
+-	0	0x569	TRAINER BATTLE	Route 3		Bug Catcher Colton
+-	0	0x56A	TRAINER BATTLE	Route 3		Bug Catcher Greg
+-	0	0x56B	TRAINER BATTLE	Route 3		Bug Catcher James
+-	0	0x56C	TRAINER BATTLE	Mt. Moon	?	Bug Catcher Kent
+-	0	0x56D	TRAINER BATTLE	Mt. Moon	?	Bug Catcher Robby
+-	0	0x56E	TRAINER BATTLE	Route 24		Bug Catcher Cale
+-	0	0x56F	TRAINER BATTLE	Route 6		Bug Catcher Keigo
+-	0	0x570	TRAINER BATTLE	Route 6		Bug Catcher Elijah
+-	0	0x572	TRAINER BATTLE	Route 9		Bug Catcher Brent
+-	0	0x573	TRAINER BATTLE	Route 9		Bug Catcher Conner
+-	0	0x574	TRAINER BATTLE	Route 3		Lass Janice
+-	0	0x575	TRAINER BATTLE	Route 3		Lass Sally
+-	0	0x576	TRAINER BATTLE	Route 3		Lass Robin
+-	0	0x577	TRAINER BATTLE	Route 4		Lass Crissy
+-	0	0x578	TRAINER BATTLE	Mt. Moon	?	Lass Miriam
+-	0	0x579	TRAINER BATTLE	Mt. Moon	?	Lass Iris
+-	0	0x57A	TRAINER BATTLE	Route 24		Lass Reli
+-	0	0x57B	TRAINER BATTLE	Route 24		Lass Ali
+-	0	0x57D	TRAINER BATTLE	Route 25		Lass Haley
+-	0	0x57E	TRAINER BATTLE	S.S. Anne	?	[Missable] Lass Ann
+-	0	0x57F	TRAINER BATTLE	S.S. Anne	?	[Missable] Lass Dawn
+-	0	0x580	TRAINER BATTLE	Route 8		Lass Paige
+-	0	0x581	TRAINER BATTLE	Route 8		Lass Andrea
+-	0	0x582	TRAINER BATTLE	Route 8		Lass Megan
+-	0	0x583	TRAINER BATTLE	Route 8		Lass Julia
+-	0	0x584	TRAINER BATTLE	Celadon Gym		Lass Kay
+-	0	0x585	TRAINER BATTLE	Celadon Gym		Lass Lisa
+-	0	0x586	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Edmond
+-	0	0x587	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Trevor
+-	0	0x588	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Leonard
+-	0	0x589	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Duncan
+-	0	0x58A	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Huey
+-	0	0x58B	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Dylan
+-	0	0x58C	TRAINER BATTLE	S.S. Anne	?	[Missable] Sailor Phillip
+-	0	0x58D	TRAINER BATTLE	Vermilion Gym		Sailor Dwayne
+-	0	0x58E	TRAINER BATTLE	Pewter City Gym		Camper Liam
+-	0	0x58F	TRAINER BATTLE	Route 24		Camper Shane
+-	0	0x590	TRAINER BATTLE	Route 24		Camper Ethan
+-	0	0x591	TRAINER BATTLE	Route 6		Camper Ricky
+-	0	0x592	TRAINER BATTLE	Route 6		Camper Jeff
+-	0	0x594	TRAINER BATTLE	Route 9		Camper Chris
+-	0	0x595	TRAINER BATTLE	Route 9		Camper Drew
+-	0	0x596	TRAINER BATTLE	Cerulean Gym		Picnicker Diana
+-	0	0x597	TRAINER BATTLE	Route 6		Picnicker Nancy
+-	0	0x598	TRAINER BATTLE	Route 6		Picnicker Isabelle
+-	0	0x599	TRAINER BATTLE	Route 25		Picnicker Kelsey
+-	0	0x59A	TRAINER BATTLE	Route 9		Picnicker Alicia
+-	0	0x59B	TRAINER BATTLE	Route 9		Picnicker Caitlin
+-	0	0x59C	TRAINER BATTLE	Route 10		Picnicker Heidi
+-	0	0x59D	TRAINER BATTLE	Route 10		Picnicker Carol
+-	0	0x59E	TRAINER BATTLE	Rock Tunnel	?	Picnicker Sofia
+-	0	0x59F	TRAINER BATTLE	Rock Tunnel	?	Picnicker Martha
+-	0	0x5A0	TRAINER BATTLE	Celadon Gym		Picnicker Tina
+-	0	0x5A2	TRAINER BATTLE	Route 10		PokéManiac Mark
+-	0	0x5A3	TRAINER BATTLE	Route 10		PokéManiac Herman
+-	0	0x5A4	TRAINER BATTLE	Rock Tunnel	?	PokéManiac Cooper
+-	0	0x5A5	TRAINER BATTLE	Rock Tunnel	?	PokéManiac Steve
+-	0	0x5A6	TRAINER BATTLE	Rock Tunnel	?	PokéManiac Winston
+-	0	0x5A7	TRAINER BATTLE	Victory Road	?	PokéManiac Dawson
+-	0	0x5A8	TRAINER BATTLE	Rock Tunnel	?	PokéManiac Ashton
+-	0	0x5A9	TRAINER BATTLE	Mt. Moon	?	Super Nerd Jovan
+-	0	0x5AA	TRAINER BATTLE	Mt. Moon	?	Super Nerd Miguel
+-	0	0x5AB	TRAINER BATTLE	Route 8		Super Nerd Aidan
+-	0	0x5AC	TRAINER BATTLE	Route 8		Super Nerd Glenn
+-	0	0x5AD	TRAINER BATTLE	Route 8		Super Nerd Leslie
+-	0	0x5B1	TRAINER BATTLE	Cinnabar Gym		Super Nerd Erik
+-	0	0x5B2	TRAINER BATTLE	Cinnabar Gym		Super Nerd Avery
+-	0	0x5B3	TRAINER BATTLE	Cinnabar Gym		Super Nerd Derek
+-	0	0x5B4	TRAINER BATTLE	Cinnabar Gym		Super Nerd Zac
+-	0	0x5B5	TRAINER BATTLE	Mt. Moon	?	Hiker Marcos
+-	0	0x5B6	TRAINER BATTLE	Route 25		Hiker Franklin
+-	0	0x5B7	TRAINER BATTLE	Route 25		Hiker Nob
+-	0	0x5B8	TRAINER BATTLE	Route 25		Hiker Wayne
+-	0	0x5B9	TRAINER BATTLE	Route 9		Hiker Alan
+-	0	0x5BA	TRAINER BATTLE	Route 9		Hiker Brice
+-	0	0x5BB	TRAINER BATTLE	Route 10		Hiker Clark
+-	0	0x5BC	TRAINER BATTLE	Route 10		Hiker Trent
+-	0	0x5BD	TRAINER BATTLE	Rock Tunnel	?	Hiker Dudley
+-	0	0x5BE	TRAINER BATTLE	Rock Tunnel	?	Hiker Allen
+-	0	0x5BF	TRAINER BATTLE	Rock Tunnel	?	Hiker Eric
+-	0	0x5C0	TRAINER BATTLE	Rock Tunnel	?	Hiker Lenny
+-	0	0x5C1	TRAINER BATTLE	Rock Tunnel	?	Hiker Oliver
+-	0	0x5C2	TRAINER BATTLE	Rock Tunnel	?	Hiker Lucas
+-	0	0x5C3	TRAINER BATTLE	Route 13		Biker Jared
+-	0	0x5C4	TRAINER BATTLE	Route 14		Biker Malik
+-	0	0x5C5	TRAINER BATTLE	Route 15		Biker Ernest
+-	0	0x5C6	TRAINER BATTLE	Route 15		Biker Alex
+-	0	0x5C7	TRAINER BATTLE	Route 16		Biker Lao
+-	0	0x5C9	TRAINER BATTLE	Route 16		Biker Hideo
+-	0	0x5CA	TRAINER BATTLE	Route 16		Biker Ruben
+-	0	0x5CB	TRAINER BATTLE	Route 17		Biker Billy
+-	0	0x5CC	TRAINER BATTLE	Route 17		Biker Nikolas
+-	0	0x5CD	TRAINER BATTLE	Route 17		Biker Jaxon
+-	0	0x5CE	TRAINER BATTLE	Route 17		Biker William
+-	0	0x5CF	TRAINER BATTLE	Route 14		Biker Lukas
+-	0	0x5D0	TRAINER BATTLE	Route 14		Biker Isaac
+-	0	0x5D1	TRAINER BATTLE	Route 14		Biker Gerald
+-	0	0x5D5	TRAINER BATTLE	Cinnabar Gym		Burglar Quinn
+-	0	0x5D6	TRAINER BATTLE	Cinnabar Gym		Burglar Ramon
+-	0	0x5D7	TRAINER BATTLE	Cinnabar Gym		Burglar Dusty
+-	0	0x5D8	TRAINER BATTLE	Pokémon Mansion	?	Burglar Arnie
+-	0	0x5DA	TRAINER BATTLE	Pokémon Mansion	?	Burglar Simon
+-	0	0x5DB	TRAINER BATTLE	Pokémon Mansion	?	Burglar Lewis
+-	0	0x5DC	TRAINER BATTLE	Vermilion Gym		Engineer Baily
+-	0	0x5DD	TRAINER BATTLE	Route 11		Engineer Braxton
+-	0	0x5DE	TRAINER BATTLE	Route 11		Engineer Bernie
+-	0	0x5DF	TRAINER BATTLE	S.S. Anne	?	[Missable] Fisherman Dale
+-	0	0x5E0	TRAINER BATTLE	S.S. Anne	?	[Missable] Fisherman Barny
+-	0	0x5E1	TRAINER BATTLE	Route 12		Fisherman Ned
+-	0	0x5E2	TRAINER BATTLE	Route 12		Fisherman Chip
+-	0	0x5E3	TRAINER BATTLE	Route 12		Fisherman Hank
+-	0	0x5E4	TRAINER BATTLE	Route 12		Fisherman Elliot
+-	0	0x5E5	TRAINER BATTLE	Route 21		Fisherman Ronald
+-	0	0x5E6	TRAINER BATTLE	Route 21		Fisherman Claude
+-	0	0x5E7	TRAINER BATTLE	Route 21		Fisherman Wade
+-	0	0x5E8	TRAINER BATTLE	Route 21		Fisherman Nolan
+-	0	0x5E9	TRAINER BATTLE	Route 12		Fisherman Andrew
+-	0	0x5EA	TRAINER BATTLE	Cerulean Gym		Swimmer♂ Luis
+-	0	0x5EB	TRAINER BATTLE	Route 19		Swimmer♂ Richard
+-	0	0x5EC	TRAINER BATTLE	Route 19		Swimmer♂ Reece
+-	0	0x5ED	TRAINER BATTLE	Route 19		Swimmer♂ Matthew
+-	0	0x5EE	TRAINER BATTLE	Route 19		Swimmer♂ Douglas
+-	0	0x5EF	TRAINER BATTLE	Route 19		Swimmer♂ David
+-	0	0x5F0	TRAINER BATTLE	Route 19		Swimmer♂ Tony
+-	0	0x5F1	TRAINER BATTLE	Route 19		Swimmer♂ Axle
+-	0	0x5F2	TRAINER BATTLE	Route 20		Swimmer♂ Barry
+-	0	0x5F3	TRAINER BATTLE	Route 20		Swimmer♂ Dean
+-	0	0x5F4	TRAINER BATTLE	Route 20		Swimmer♂ Darrin
+-	0	0x5F5	TRAINER BATTLE	Route 21		Swimmer♂ Spencer
+-	0	0x5F6	TRAINER BATTLE	Route 21		Swimmer♂ Jack
+-	0	0x5F7	TRAINER BATTLE	Route 21		Swimmer♂ Jerome
+-	0	0x5F8	TRAINER BATTLE	Route 21		Swimmer♂ Roland
+-	0	0x5F9	TRAINER BATTLE	Route 16		Cue Ball Koji
+-	0	0x5FA	TRAINER BATTLE	Route 16		Cue Ball Luke
+-	0	0x5FB	TRAINER BATTLE	Route 16		Cue Ball Camron
+-	0	0x5FC	TRAINER BATTLE	Route 17		Cue Ball Raul
+-	0	0x5FD	TRAINER BATTLE	Route 17		Cue Ball Isaiah
+-	0	0x5FE	TRAINER BATTLE	Route 17		Cue Ball Zeek
+-	0	0x5FF	TRAINER BATTLE	Route 17		Cue Ball Jamal
+-	0	0x600	TRAINER BATTLE	Route 17		Cue Ball Corey
+-	0	0x602	TRAINER BATTLE	Route 11		Gamer Hugo
+-	0	0x603	TRAINER BATTLE	Route 11		Gamer Jasper
+-	0	0x604	TRAINER BATTLE	Route 11		Gamer Dirk
+-	0	0x605	TRAINER BATTLE	Route 11		Gamer Darian
+-	0	0x606	TRAINER BATTLE	Route 8		Gamer Stan
+-	0	0x608	TRAINER BATTLE	Route 8		Gamer Rich
+-	0	0x609	TRAINER BATTLE	Celadon Gym		Beauty Bridget
+-	0	0x60A	TRAINER BATTLE	Celadon Gym		Beauty Tamia
+-	0	0x60B	TRAINER BATTLE	Celadon Gym		Beauty Lori
+-	0	0x60C	TRAINER BATTLE	Route 13		Beauty Lola
+-	0	0x60D	TRAINER BATTLE	Route 13		Beauty Sheila
+-	0	0x60E	TRAINER BATTLE	Route 20		Swimmer♀ Tiffany
+-	0	0x60F	TRAINER BATTLE	Route 20		Simmer♀ Nora
+-	0	0x610	TRAINER BATTLE	Route 20		Swimmer♀ Melissa
+-	0	0x611	TRAINER BATTLE	Route 15		Beauty Grace
+-	0	0x612	TRAINER BATTLE	Route 15		Beauty Olivia
+-	0	0x614	TRAINER BATTLE	Route 19		Swimmer♀ Anya
+-	0	0x615	TRAINER BATTLE	Route 19		Swimmer♀ Alice
+-	0	0x616	TRAINER BATTLE	Route 19		Swimmer♀ Connie
+-	0	0x617	TRAINER BATTLE	Route 20		Swimmer♀ Shirley
+-	0	0x618	TRAINER BATTLE	Saffron Gym		Psychic Johan
+-	0	0x619	TRAINER BATTLE	Saffron Gym		Psychic Tyorn
+-	0	0x61A	TRAINER BATTLE	Saffron Gym		Psychic Cameron
+-	0	0x61B	TRAINER BATTLE	Saffron Gym		Psychic Preston
+-	0	0x61D	TRAINER BATTLE	Route 12		Rocker Luca
+-	0	0x61E	TRAINER BATTLE	Silph Co.	5F	Juggler Dalton
+-	0	0x61F	TRAINER BATTLE	Victory Road	?	Juggler Nelson
+-	0	0x620	TRAINER BATTLE	Fuchsia Gym		Juggler Kirk
+-	0	0x621	TRAINER BATTLE	Fuchsia Gym		Juggler Shawn
+-	0	0x622	TRAINER BATTLE	Victory Road	?	Juggler Gregory
+-	0	0x623	TRAINER BATTLE	Water Path		Juggler Edward
+-	0	0x624	TRAINER BATTLE	Fuchsia Gym		Juggler Kayden
+-	0	0x625	TRAINER BATTLE	Fuchsia Gym		Juggler Nate
+-	0	0x626	TRAINER BATTLE	Fuchsia Gym		Tamer Phil
+-	0	0x627	TRAINER BATTLE	Fuchsia Gym		Tamer Edgar
+-	0	0x628	TRAINER BATTLE	Viridian Gym		Tamer Jason
+-	0	0x629	TRAINER BATTLE	Viridian Gym		Tamer Cole
+-	0	0x62A	TRAINER BATTLE	Victory Road	?	Tamer Vincent
+-	0	0x62C	TRAINER BATTLE	Route 13		Bird Keeper Sebastian
+-	0	0x62D	TRAINER BATTLE	Route 13		Bird Keeper Perry
+-	0	0x62E	TRAINER BATTLE	Route 13		Bird Keeper Robert
+-	0	0x62F	TRAINER BATTLE	Route 14		Bird Keeper Donald
+-	0	0x630	TRAINER BATTLE	Route 14		Bird Keeper Benny
+-	0	0x631	TRAINER BATTLE	Route 15		Bird Keeper Edwin
+-	0	0x632	TRAINER BATTLE	Route 15		Bird Keeper Chester
+-	0	0x633	TRAINER BATTLE	Route 18		Bird Keeper Wilton
+-	0	0x634	TRAINER BATTLE	Route 18		Bird Keeper Ramiro
+-	0	0x635	TRAINER BATTLE	Route 18		Bird Keeper Jacob
+-	0	0x636	TRAINER BATTLE	Route 20		Bird Keeper Roger
+-	0	0x639	TRAINER BATTLE	Route 14		Bird Keeper Carter
+-	0	0x63A	TRAINER BATTLE	Route 14		Bird Keeper Mitch
+-	0	0x63B	TRAINER BATTLE	Route 14		Bird Keeper Beck
+-	0	0x63C	TRAINER BATTLE	Route 14		Bird Keeper Marlon
+-	0	0x63D	TRAINER BATTLE	Fighting Dojo		Black Belt Koichi
+-	0	0x63E	TRAINER BATTLE	Fighting Dojo		Black Belt Mike
+-	0	0x63F	TRAINER BATTLE	Fighting Dojo		Black Belt Hideki
+-	0	0x640	TRAINER BATTLE	Fighting Dojo		Black Belt Aaron
+-	0	0x641	TRAINER BATTLE	Fighting Dojo		Black Belt Hitoshi
+-	0	0x642	TRAINER BATTLE	Viridian Gym		Black Belt Atsushi
+-	0	0x643	TRAINER BATTLE	Viridian Gym		Black Belt Kiyo
+-	0	0x644	TRAINER BATTLE	Viridian Gym		Black Belt Takashi
+-	0	0x645	TRAINER BATTLE	Victory Road	?	Black Belt Daisuke
+-	0	0x646	TRAINER BATTLE	Prof. Oak's Lab/lost (Starter Charmander)		Blue
+-	0	0x647	TRAINER BATTLE	Prof. Oak's Lab/lost (Starter Squirtle)		Blue
+-	0	0x648	TRAINER BATTLE	Prof. Oak's Lab/lost (Starter Bulbasaur)		Blue
+-	0	0x649	TRAINER BATTLE	Route 22 (Starter Charmander)		Blue (1)
+-	0	0x64A	TRAINER BATTLE	Route 22 (Starter Squirtle)		Blue (1)
+-	0	0x64B	TRAINER BATTLE	Route 22 (Starter Bulbasaur)		Blue (1)
+-	0	0x64C	TRAINER BATTLE	Cerulean City (Starter Charmander)		Blue
+-	0	0x64D	TRAINER BATTLE	Cerulean City (Starter Squirtle)		Blue
+-	0	0x64E	TRAINER BATTLE	Cerulean City (Starter Bulbasaur)		Blue
+-	0	0x64F	TRAINER BATTLE	Pokémon Mansion	?	Scientist Ted
+-	0	0x650	TRAINER BATTLE	Silph Co.	2F	Scientist Connor
+-	0	0x651	TRAINER BATTLE	Silph Co.	2F	Scientist Jerry
+-	0	0x652	TRAINER BATTLE	Silph Co.	3F	Scientist Jose
+-	0	0x653	TRAINER BATTLE	Silph Co.	4F	Scientist Rodney
+-	0	0x654	TRAINER BATTLE	Silph Co.	5F	Scientist Beau
+-	0	0x655	TRAINER BATTLE	Silph Co.	6F	Scientist Taylor
+-	0	0x656	TRAINER BATTLE	Silph Co.	7F	Scientist Joshua
+-	0	0x657	TRAINER BATTLE	Silph Co.	8F	Scientist Parker
+-	0	0x658	TRAINER BATTLE	Silph Co.	9F	Scientist Ed
+-	0	0x659	TRAINER BATTLE	Silph Co.	10F	Scientist Travis
+-	0	0x65A	TRAINER BATTLE	Pokémon Mansion	?	Scientist Braydon
+-	0	0x65B	TRAINER BATTLE	Pokémon Mansion	?	Scientist Ivan
+-	0	0x65C	TRAINER BATTLE	Rocket Hideout	?	Boss Giovanni
+-	0	0x65D	TRAINER BATTLE	Silph Co.	11F	Boss Giovanni
+-	0	0x65E	TRAINER BATTLE			Leader Giovanni defeated
+-	0	0x65F	TRAINER BATTLE	Mt. Moon	?	Team Rocket Grunt
+-	0	0x660	TRAINER BATTLE	Mt. Moon	?	Team Rocket Grunt
+-	0	0x661	TRAINER BATTLE	Mt. Moon	?	Team Rocket Grunt
+-	0	0x662	TRAINER BATTLE	Mt. Moon	?	Team Rocket Grunt
+-	0	0x663	TRAINER BATTLE	Cerulean City		Team Rocket Grunt
+-	0	0x664	TRAINER BATTLE	Route 24		Team Rocket Grunt
+-	0	0x665	TRAINER BATTLE	Rocket Game Corner		Team Rocket Grunt
+-	0	0x666	TRAINER BATTLE	Rocket Hideout	B1F	Team Rocket Grunt
+-	0	0x667	TRAINER BATTLE	Rocket Hideout	B1F	Team Rocket Grunt
+-	0	0x668	TRAINER BATTLE	Rocket Hideout	B1F	Team Rocket Grunt
+-	0	0x669	TRAINER BATTLE	Rocket Hideout	B1F	Team Rocket Grunt
+-	0	0x66A	TRAINER BATTLE	Rocket Hideout	B1F	Team Rocket Grunt
+-	0	0x66B	TRAINER BATTLE	Rocket Hideout	B2F	Team Rocket Grunt
+-	0	0x66C	TRAINER BATTLE	Rocket Hideout	B3F	Team Rocket Grunt
+-	0	0x66D	TRAINER BATTLE	Rocket Hideout	B3F	Team Rocket Grunt
+-	0	0x66E	TRAINER BATTLE	Rocket Hideout	B4F	Team Rocket Grunt
+-	0	0x66F	TRAINER BATTLE	Rocket Hideout	B4F	Team Rocket Grunt
+-	0	0x670	TRAINER BATTLE	Rocket Hideout	B4F	Team Rocket Grunt
+-	0	0x671	TRAINER BATTLE	Pokémon Tower	?	Team Rocket Grunt
+-	0	0x672	TRAINER BATTLE	Pokémon Tower	?	Team Rocket Grunt
+-	0	0x673	TRAINER BATTLE	Pokémon Tower	?	Team Rocket Grunt
+-	0	0x675	TRAINER BATTLE	Silph Co.	2F	Team Rocket Grunt
+-	0	0x676	TRAINER BATTLE	Silph Co.	2F	Team Rocket Grunt
+-	0	0x677	TRAINER BATTLE	Silph Co.	3F	Team Rocket Grunt
+-	0	0x678	TRAINER BATTLE	Silph Co.	4F	Team Rocket Grunt
+-	0	0x679	TRAINER BATTLE	Silph Co.	4F	Team Rocket Grunt
+-	0	0x67A	TRAINER BATTLE	Silph Co.	5F	Team Rocket Grunt
+-	0	0x67B	TRAINER BATTLE	Silph Co.	5F	Team Rocket Grunt
+-	0	0x67C	TRAINER BATTLE	Silph Co.	6F	Team Rocket Grunt
+-	0	0x67D	TRAINER BATTLE	Silph Co.	6F	Team Rocket Grunt
+-	0	0x67E	TRAINER BATTLE	Silph Co.	8F	Team Rocket Grunt
+-	0	0x67F	TRAINER BATTLE	Silph Co.	7F	Team Rocket Grunt
+-	0	0x680	TRAINER BATTLE	Silph Co.	7F	Team Rocket Grunt
+-	0	0x681	TRAINER BATTLE	Silph Co.	7F	Team Rocket Grunt
+-	0	0x682	TRAINER BATTLE	Silph Co.	8F	Team Rocket Grunt
+-	0	0x683	TRAINER BATTLE	Silph Co.	9F	Team Rocket Grunt
+-	0	0x684	TRAINER BATTLE	Silph Co.	9F	Team Rocket Grunt
+-	0	0x685	TRAINER BATTLE	Silph Co.	10F	Team Rocket Grunt
+-	0	0x686	TRAINER BATTLE	Silph Co.	11F	Team Rocket Grunt
+-	0	0x687	TRAINER BATTLE	Silph Co.	11F	Team Rocket Grunt
+-	0	0x688	TRAINER BATTLE	Viridian Gym		Cooltrainer Samuel
+-	0	0x689	TRAINER BATTLE	Victory Road	?	Cooltrainer George
+-	0	0x68A	TRAINER BATTLE	Victory Road	?	Cooltrainer Colby
+-	0	0x68C	TRAINER BATTLE	Victory Road	?	Cooltrainer Rolando
+-	0	0x690	TRAINER BATTLE	Viridian Gym		Cooltrainer Yuji
+-	0	0x691	TRAINER BATTLE	Viridian Gym		Cooltrainer Warren
+-	0	0x692	TRAINER BATTLE	Celadon Gym		Cooltrainer Mary
+-	0	0x693	TRAINER BATTLE	Victory Road	?	Cooltrainer Caroline
+-	0	0x694	TRAINER BATTLE	Victory Road	?	Cooltrainer Alexa
+-	0	0x696	TRAINER BATTLE	Victory Road	?	Cooltrainer Naomi
+-	0	0x69A	TRAINER BATTLE			Elite Four Lorelei defeated
+-	0	0x69B	TRAINER BATTLE			Elite Four Bruno defeated
+-	0	0x69C	TRAINER BATTLE			Elite Four Agatha defeated
+-	0	0x69D	TRAINER BATTLE			Elite Four Lance defeated
+-	0	0x69E	TRAINER BATTLE			Leader Brock defeated
+-	0	0x69F	TRAINER BATTLE			Leader Misty defeated
+-	0	0x6A0	TRAINER BATTLE			Leader Lt. Surge defeated
+-	0	0x6A1	TRAINER BATTLE			Leader Erika defeated
+-	0	0x6A2	TRAINER BATTLE			Leader Koga defeated
+-	0	0x6A3	TRAINER BATTLE			Leader Blaine defeated
+-	0	0x6A4	TRAINER BATTLE			Leader Sabrina defeated
+-	0	0x6A5	TRAINER BATTLE	S.S. Anne	?	[Missable] Gentleman Thomas
+-	0	0x6A6	TRAINER BATTLE	S.S. Anne	?	[Missable] Gentleman Arthur
+-	0	0x6A7	TRAINER BATTLE	Vermilion Gym		Gentleman Tucker
+-	0	0x6AA	TRAINER BATTLE	S.S. Anne (Starter Charmander)		Blue
+-	0	0x6AB	TRAINER BATTLE	S.S. Anne (Starter Squirtle)		Blue
+-	0	0x6AC	TRAINER BATTLE	S.S. Anne (Starter Bulbasaur)		Blue
+-	0	0x6AD	TRAINER BATTLE	Pokémon Tower (Starter Charmander)		Blue
+-	0	0x6AE	TRAINER BATTLE	Pokémon Tower (Starter Squirtle)		Blue
+-	0	0x6AF	TRAINER BATTLE	Pokémon Tower (Starter Bulbasaur)		Blue
+-	0	0x6B0	TRAINER BATTLE	Silph Co. (Starter Charmander)		Blue
+-	0	0x6B1	TRAINER BATTLE	Silph Co. (Starter Squirtle)		Blue
+-	0	0x6B2	TRAINER BATTLE	Silph Co. (Starter Bulbasaur)		Blue
+-	0	0x6B3	TRAINER BATTLE	Route 22 (Starter Charmander)		Blue (2)
+-	0	0x6B4	TRAINER BATTLE	Route 22 (Starter Squirtle)		Blue (2)
+-	0	0x6B5	TRAINER BATTLE	Route 22 (Starter Bulbasaur)		Blue (2)
+-	0	0x6B6	TRAINER BATTLE			Blue (Champion) defeated (Starter Charmander)
+-	0	0x6B7	TRAINER BATTLE			Blue (Champion) defeated (Starter Squirtle)
+-	0	0x6B8	TRAINER BATTLE			Blue (Champion) defeated (Starter Bulbasaur)
+-	0	0x6B9	TRAINER BATTLE	Pokémon Tower	?	Channeler Patricia
+-	0	0x6BA	TRAINER BATTLE	Pokémon Tower	?	Channeler Carly
+-	0	0x6BB	TRAINER BATTLE	Pokémon Tower	?	Channeler Hope
+-	0	0x6BC	TRAINER BATTLE	Pokémon Tower	?	Channeler Paula
+-	0	0x6BD	TRAINER BATTLE	Pokémon Tower	?	Channeler Laurel
+-	0	0x6BE	TRAINER BATTLE	Pokémon Tower	?	Channeler Jody
+-	0	0x6BF	TRAINER BATTLE	Pokémon Tower	?	Channeler Tammy
+-	0	0x6C0	TRAINER BATTLE	Pokémon Tower	?	Channeler Ruth
+-	0	0x6C1	TRAINER BATTLE	Pokémon Tower	?	Channeler Karina
+-	0	0x6C2	TRAINER BATTLE	Pokémon Tower	?	Channeler Janae
+-	0	0x6C3	TRAINER BATTLE	Pokémon Tower	?	Channeler Angelica
+-	0	0x6C4	TRAINER BATTLE	Pokémon Tower	?	Channeler Emilia
+-	0	0x6C5	TRAINER BATTLE	Pokémon Tower	?	Channeler Jennifer
+-	0	0x6CE	TRAINER BATTLE	Saffron Gym		Channeler Amanda
+-	0	0x6CF	TRAINER BATTLE	Saffron Gym		Channeler Stacy
+-	0	0x6D0	TRAINER BATTLE	Saffron Gym		Channeler Tasha
+-	0	0x6D1	TRAINER BATTLE	Route 9		Hiker Jeremy
+-	0	0x6D2	TRAINER BATTLE	Route 13		Picnicker Alma
+-	0	0x6D3	TRAINER BATTLE	Route 13		Picnicker Susie
+-	0	0x6D4	TRAINER BATTLE	Route 13		Picnicker Valerie
+-	0	0x6D5	TRAINER BATTLE	Route 13		Picnicker Gwen
+-	0	0x6D6	TRAINER BATTLE	Route 17		Biker Virgil
+-	0	0x6D7	TRAINER BATTLE	Route 25		Camper Flint
+-	0	0x6D8	TRAINER BATTLE	Route 20		Picnicker Missy
+-	0	0x6D9	TRAINER BATTLE	Route 20		Picnicker Irene
+-	0	0x6DA	TRAINER BATTLE	Rock Tunnel	?	Picnicker Dana
+-	0	0x6DB	TRAINER BATTLE	Rock Tunnel	?	Picnicker Ariana
+-	0	0x6DC	TRAINER BATTLE	Rock Tunnel	?	Picnicker Leah
+-	0	0x6DD	TRAINER BATTLE	Route 12		Camper Justin
+-	0	0x6DE	TRAINER BATTLE	Route 15		Picnicker Yazmin
+-	0	0x6DF	TRAINER BATTLE	Route 15		Picnicker Kindra
+-	0	0x6E0	TRAINER BATTLE	Route 15		Picnicker Becky
+-	0	0x6E1	TRAINER BATTLE	Route 15		Picnicker Celia
+-	0	0x6E2	TRAINER BATTLE	S.S. Anne	?	[Missable] Gentleman Brooks
+-	0	0x6E3	TRAINER BATTLE	S.S. Anne	?	[Missable] Gentleman Lamar
+-	0	0x6E4	TRAINER BATTLE	Route 8		Twins Eli & Anne
+-	0	0x6E5	TRAINER BATTLE	Victory Road	?	Cool Couple Ray & Tyra
+-	0	0x6E6	TRAINER BATTLE	Route 12		Young Couple Gia & Jes
+-	0	0x6E7	TRAINER BATTLE	Route 14		Twins Kiri & Jan
+-	0	0x6E8	TRAINER BATTLE	Route 15		Crush Kin Ron & Mya
+-	0	0x6E9	TRAINER BATTLE	Route 16		Young Couple Lea & Jed
+-	0	0x6EA	TRAINER BATTLE	Route 19		Sis and Bro Lia & Luc
+-	0	0x6EB	TRAINER BATTLE	Route 21		Sis and Bro Lil & Ian
+-	0	0x6F2	TRAINER BATTLE	Route 3		Youngster Ben (Rematch 2)
+-	0	0x6F3	TRAINER BATTLE	Route 3		Youngster Ben (Rematch 3)
+-	0	0x6F4	TRAINER BATTLE	Route 25		Youngster Chad (Rematch 1)
+-	0	0x6F5	TRAINER BATTLE	Route 24		Lass Reli (Rematch 1)
+-	0	0x6F6	TRAINER BATTLE	Route 24		Lass Reli (Rematch 2)
+-	0	0x6F7	TRAINER BATTLE	Route 24		Youngster Timmy (Rematch 1)
+-	0	0x6F8	TRAINER BATTLE	Route 24		Youngster Timmy (Rematch 2)
+-	0	0x6F9	TRAINER BATTLE	Route 24		Youngster Timmy (Rematch 3)
+-	0	0x6FA	TRAINER BATTLE	Route 25		Youngster Chad (Rematch 2)
+-	0	0x6FB	TRAINER BATTLE	Route 3		Lass Janice (Rematch 1)
+-	0	0x6FC	TRAINER BATTLE	Route 3		Lass Janice (Rematch 2)
+-	0	0x6FD	TRAINER BATTLE	Route 25		Youngster Chad (Rematch 3)
+-	0	0x6FE	TRAINER BATTLE	Route 25		Hiker Franklin (Rematch 1)
+-	0	0x704	TRAINER BATTLE	Rocket Warehouse		Team Rocket Grunt (1)
+-	0	0x705	TRAINER BATTLE	Green Path		Psychic Jaclyn
+-	0	0x706	TRAINER BATTLE	Kindle Road		Crush Girl Sharon
+-	0	0x707	TRAINER BATTLE	Bond Bridge		Tuber Amira
+-	0	0x708	TRAINER BATTLE	Water Labyrinth		Pokémon Breeder Alize
+-	0	0x709	TRAINER BATTLE	Canyon Entrance		Pokémon Ranger Nicolas
+-	0	0x70A	TRAINER BATTLE	Canyon Entrance		Pokémon Ranger Madeline
+-	0	0x70B	TRAINER BATTLE	Bond Bridge		Aroma Lady Nikki
+-	0	0x70C	TRAINER BATTLE	Ruin Valley		Ruin Maniac Stanly
+-	0	0x70D	TRAINER BATTLE	Resort Gorgeous		Lady Jacki
+-	0	0x70E	TRAINER BATTLE	Resort Gorgeous		Painter Daisy
+-	0	0x70F	TRAINER BATTLE	Three Island		Biker Goon (1)
+-	0	0x710	TRAINER BATTLE	Three Island		Biker Goon (2)
+-	0	0x711	TRAINER BATTLE	Three Island		Biker Goon (3)
+-	0	0x713	TRAINER BATTLE	Viridian Forest		Bug Catcher Anthony
+-	0	0x714	TRAINER BATTLE	Viridian Forest		Bug Catcher Charlie
+-	0	0x715	TRAINER BATTLE	Route 8		Twins Eli & Anne (Rematch 1)
+-	0	0x716	TRAINER BATTLE	Pokémon Mansion		Youngster Johnson
+-	0	0x717	TRAINER BATTLE	Route 8		Biker Ricardo
+-	0	0x718	TRAINER BATTLE	Route 8		Biker Jaren
+-	0	0x719	TRAINER BATTLE	Mt. Ember		Team Rocket Grunt (1)
+-	0	0x71A	TRAINER BATTLE	Mt. Ember		Team Rocket Grunt (2)
+-	0	0x71B	TRAINER BATTLE	Icefall Cave		Team Rocket Grunt
+-	0	0x71C	TRAINER BATTLE	Outcast Island		Team Rocket Grunt
+-	0	0x71D	TRAINER BATTLE	Rocket Warehouse		Team Rocket Grunt (2)
+-	0	0x71E	TRAINER BATTLE	Rocket Warehouse		Team Rocket Grunt (3)
+-	0	0x71F	TRAINER BATTLE	Rocket Warehouse		Team Rocket Admin (1)
+-	0	0x720	TRAINER BATTLE	Rocket Warehouse		Team Rocket Admin (2)
+-	0	0x721	TRAINER BATTLE	Rocket Warehouse		Scientist Gideon
+-	0	0x722	TRAINER BATTLE	Treasure Beach		Swimmer♀ Amara
+-	0	0x723	TRAINER BATTLE	Kindle Road		Swimmer♀ Maria
+-	0	0x724	TRAINER BATTLE	Kindle Road		Swimmer♀ Abigail
+-	0	0x725	TRAINER BATTLE	Kindle Road		Swimmer♂ Finn
+-	0	0x726	TRAINER BATTLE	Kindle Road		Swimmer♂ Garrett
+-	0	0x727	TRAINER BATTLE	Kindle Road		Fisherman Tommy
+-	0	0x728	TRAINER BATTLE	Kindle Road		Crush Girl Tanya
+-	0	0x729	TRAINER BATTLE	Kindle Road		Black Belt Shea
+-	0	0x72A	TRAINER BATTLE	Kindle Road		Black Belt Hugh
+-	0	0x72B	TRAINER BATTLE	Kindle Road		Camper Bryce
+-	0	0x72C	TRAINER BATTLE	Kindle Road		Picnicker Claire
+-	0	0x72D	TRAINER BATTLE	Kindle Road		Crush Kin Mik & Kia
+-	0	0x72E	TRAINER BATTLE	Bond Bridge		Aroma Lady Violet
+-	0	0x72F	TRAINER BATTLE	Bond Bridge		Tuber Alexis
+-	0	0x730	TRAINER BATTLE	Bond Bridge		Twins Joy & Meg
+-	0	0x731	TRAINER BATTLE	Bond Bridge		Swimmer♀ Tisha
+-	0	0x732	TRAINER BATTLE	Resort Gorgeous		Painter Celina
+-	0	0x733	TRAINER BATTLE	Resort Gorgeous		Painter Rayna
+-	0	0x734	TRAINER BATTLE	Resort Gorgeous		Lady Gillian
+-	0	0x735	TRAINER BATTLE	Resort Gorgeous		Youngster Destin
+-	0	0x736	TRAINER BATTLE	Resort Gorgeous		Swimmer♂ Toby
+-	0	0x737	TRAINER BATTLE	Five Isle Meadow		Team Rocket Grunt (1)
+-	0	0x738	TRAINER BATTLE	Five Isle Meadow		Team Rocket Grunt (3)
+-	0	0x739	TRAINER BATTLE	Five Isle Meadow		Team Rocket Grunt (2)
+-	0	0x73A	TRAINER BATTLE	Memorial Pillar		Bird Keeper Milo
+-	0	0x73B	TRAINER BATTLE	Memorial Pillar		Bird Keeper Chaz
+-	0	0x73C	TRAINER BATTLE	Memorial Pillar		Bird Keeper Harold
+-	0	0x73D	TRAINER BATTLE	Outcast Island		Fisherman Tylor
+-	0	0x73E	TRAINER BATTLE	Outcast Island		Swimmer♂ Mymo
+-	0	0x73F	TRAINER BATTLE	Outcast Island		Swimmer♀ Nicole
+-	0	0x740	TRAINER BATTLE	Outcast Island		Sis and Bro Ava & Geb
+-	0	0x741	TRAINER BATTLE	Water Path		Aroma Lady Rose
+-	0	0x742	TRAINER BATTLE	Water Path		Swimmer♂ Samir
+-	0	0x743	TRAINER BATTLE	Water Path		Swimmer♀ Denise
+-	0	0x744	TRAINER BATTLE	Water Path		Twins Miu & Mia
+-	0	0x745	TRAINER BATTLE	Water Path		Hiker Earl
+-	0	0x746	TRAINER BATTLE	Ruin Valley		Ruin Maniac Foster
+-	0	0x747	TRAINER BATTLE	Ruin Valley		Ruin Maniac Larry
+-	0	0x748	TRAINER BATTLE	Ruin Valley		Hiker Daryl
+-	0	0x749	TRAINER BATTLE	Ruin Valley		PokéManiac Hector
+-	0	0x74A	TRAINER BATTLE			Psychic Dario outside of Trainer Tower defeated
+-	0	0x74B	TRAINER BATTLE			Psychic Rodette outside of Trainer Tower defeated
+-	0	0x74C	TRAINER BATTLE	Canyon Entrance		Aroma Lady Miah
+-	0	0x74D	TRAINER BATTLE	Canyon Entrance		Young Couple Eve & Jon
+-	0	0x74E	TRAINER BATTLE	Canyon Entrance		Juggler Mason
+-	0	0x74F	TRAINER BATTLE	Sevault Canyon		Crush Girl Cyndy
+-	0	0x750	TRAINER BATTLE	Mt. Ember		Crush Girl Jocelyn
+-	0	0x751	TRAINER BATTLE	Sevault Canyon		Tamer Evan
+-	0	0x752	TRAINER BATTLE	Route 10		PokéManiac Mark (Rematch 1)
+-	0	0x753	TRAINER BATTLE	Mt. Ember		Pkmn Ranger Logan
+-	0	0x754	TRAINER BATTLE	Sevault Canyon		Pokémon Ranger Jackson
+-	0	0x755	TRAINER BATTLE	Mt. Ember		Pkmn Ranger Beth
+-	0	0x756	TRAINER BATTLE	Sevault Canyon		Pokémon Ranger Katelyn
+-	0	0x757	TRAINER BATTLE	Sevault Canyon		Cooltrainer Leroy
+-	0	0x758	TRAINER BATTLE	Sevault Canyon		Cooltrainer Michelle
+-	0	0x759	TRAINER BATTLE	Sevault Canyon		Cool Couple Lex & Nya
+-	0	0x75A	TRAINER BATTLE			Ruin Maniac Brandon outside of Tanoby Ruins defeated
+-	0	0x75B	TRAINER BATTLE			Ruin Maniac Benjamin outside of Tanoby Ruins defeated
+-	0	0x75C	TRAINER BATTLE			Painter Edna outside of Tanoby Ruins defeated
+-	0	0x75D	TRAINER BATTLE			Gentleman Clifford outside of Tanoby Ruins defeated
+-	0	0x75E	TRAINER BATTLE	Lost Cave		Lady Selphy
+-	0	0x75F	TRAINER BATTLE	Lost Cave		Ruin Maniac Lawson
+-	0	0x760	TRAINER BATTLE	Lost Cave		Psychic Laura
+-	0	0x761	TRAINER BATTLE	Pattern Bush		Pokémon Breeder Bethany
+-	0	0x762	TRAINER BATTLE	Pattern Bush		Pokémon Breeder Allison
+-	0	0x763	TRAINER BATTLE	Pattern Bush		Bug Catcher Garret
+-	0	0x764	TRAINER BATTLE	Pattern Bush		Bug Catcher Jonah
+-	0	0x765	TRAINER BATTLE	Pattern Bush		Bug Catcher Vance
+-	0	0x766	TRAINER BATTLE	Pattern Bush		Youngster Nash
+-	0	0x767	TRAINER BATTLE	Pattern Bush		Youngster Cordell
+-	0	0x768	TRAINER BATTLE	Pattern Bush		Lass Dalia
+-	0	0x769	TRAINER BATTLE	Pattern Bush		Lass Joana
+-	0	0x76A	TRAINER BATTLE	Pattern Bush		Camper Riley
+-	0	0x76B	TRAINER BATTLE	Pattern Bush		Picnicker Marcy
+-	0	0x76C	TRAINER BATTLE	Pattern Bush		Ruin Maniac Layton
+-	0	0x76D	TRAINER BATTLE	Route 25		Picnicker Kelsey (Rematch 1)
+-	0	0x76E	TRAINER BATTLE	Route 25		Picnicker Kelsey (Rematch 2)
+-	0	0x76F	TRAINER BATTLE	Route 25		Picnicker Kelsey (Rematch 3)
+-	0	0x770	TRAINER BATTLE	Route 6		Camper Ricky (Rematch 1)
+-	0	0x771	TRAINER BATTLE	Route 6		Camper Ricky (Rematch 2)
+-	0	0x772	TRAINER BATTLE	Route 6		Camper Ricky (Rematch 3)
+-	0	0x773	TRAINER BATTLE	Route 6		Camper Jeff (Rematch 1)
+-	0	0x774	TRAINER BATTLE	Route 6		Camper Jeff (Rematch 2)
+-	0	0x775	TRAINER BATTLE	Route 6		Camper Jeff (Rematch 3)
+-	0	0x776	TRAINER BATTLE	Route 6		Picnicker Isabelle (Rematch 1)
+-	0	0x777	TRAINER BATTLE	Route 6		Picnicker Isabelle (Rematch 2)
+-	0	0x778	TRAINER BATTLE	Route 6		Picnicker Isabelle (Rematch 3)
+-	0	0x779	TRAINER BATTLE	Route 11		Youngster Yasu (Rematch 1)
+-	0	0x77A	TRAINER BATTLE	Route 11		Youngster Yasu (Rematch 2)
+-	0	0x77B	TRAINER BATTLE	Route 11		Engineer Bernie (Rematch 1)
+-	0	0x77C	TRAINER BATTLE	Route 11		Gamer Darian (Rematch 1)
+-	0	0x77D	TRAINER BATTLE	Route 9		Camper Chris (Rematch 1)
+-	0	0x77E	TRAINER BATTLE	Route 9		Camper Chris (Rematch 2)
+-	0	0x77F	TRAINER BATTLE	Route 9		Camper Chris (Rematch 3)
+-	0	0x780	TRAINER BATTLE	Route 9		Picnicker Alicia (Rematch 1)
+-	0	0x781	TRAINER BATTLE	Route 9		Picnicker Alicia (Rematch 2)
+-	0	0x782	TRAINER BATTLE	Route 9		Picnicker Alicia (Rematch 3)
+-	0	0x783	TRAINER BATTLE	Route 9		Hiker Jeremy (Rematch 1)
+-	0	0x784	TRAINER BATTLE	Route 10		PokéManiac Mark (Rematch 2)
+-	0	0x785	TRAINER BATTLE	Route 10		PokéManiac Herman (Rematch 1)
+-	0	0x786	TRAINER BATTLE	Route 10		PokéManiac Herman (Rematch 2)
+-	0	0x787	TRAINER BATTLE	Route 10		Hiker Trent (Rematch 1)
+-	0	0x788	TRAINER BATTLE	Route 8		Lass Megan (Rematch 1)
+-	0	0x789	TRAINER BATTLE	Route 8		Lass Megan (Rematch 2)
+-	0	0x78A	TRAINER BATTLE	Route 8		Super Nerd Glenn (Rematch 1)
+-	0	0x78B	TRAINER BATTLE	Route 8		Gamer Rich (Rematch 1)
+-	0	0x78C	TRAINER BATTLE	Route 8		Biker Jaren (Rematch 1)
+-	0	0x78D	TRAINER BATTLE	Route 12		Fisherman Elliot (Rematch 1)
+-	0	0x78E	TRAINER BATTLE	Route 12		Rocker Luca (Rematch 1)
+-	0	0x78F	TRAINER BATTLE	Route 13		Beauty Sheila (Rematch 1)
+-	0	0x790	TRAINER BATTLE	Route 13		Bird Keeper Robert (Rematch 1)
+-	0	0x791	TRAINER BATTLE	Route 13		Bird Keeper Robert (Rematch 2)
+-	0	0x792	TRAINER BATTLE	Route 13		Picnicker Susie (Rematch 1)
+-	0	0x793	TRAINER BATTLE	Route 13		Picnicker Susie (Rematch 2)
+-	0	0x794	TRAINER BATTLE	Route 13		Picnicker Susie (Rematch 3)
+-	0	0x795	TRAINER BATTLE	Route 14		Biker Lukas (Rematch 1)
+-	0	0x796	TRAINER BATTLE	Route 14		Bird Keeper Benny (Rematch 1)
+-	0	0x797	TRAINER BATTLE	Route 14		Bird Keeper Benny (Rematch 2)
+-	0	0x798	TRAINER BATTLE	Route 14		Bird Keeper Marlon (Rematch 1)
+-	0	0x799	TRAINER BATTLE	Route 14		Bird Keeper Marlon (Rematch 2)
+-	0	0x79A	TRAINER BATTLE	Route 15		Beauty Grace (Rematch 1)
+-	0	0x79B	TRAINER BATTLE	Route 15		Bird Keeper Chester (Rematch 1)
+-	0	0x79C	TRAINER BATTLE	Route 15		Bird Keeper Chester (Rematch 2)
+-	0	0x79D	TRAINER BATTLE	Route 15		Picnicker Becky (Rematch 1)
+-	0	0x79E	TRAINER BATTLE	Route 15		Picnicker Becky (Rematch 2)
+-	0	0x79F	TRAINER BATTLE	Route 15		Picnicker Becky (Rematch 3)
+-	0	0x7A0	TRAINER BATTLE	Route 15		Crush Kin Ron & Mya (Rematch 1)
+-	0	0x7A1	TRAINER BATTLE	Route 15		Crush Kin Ron & Mya (Rematch 2)
+-	0	0x7A2	TRAINER BATTLE	Route 15		Crush Kin Ron & Mya (Rematch 3)
+-	0	0x7A3	TRAINER BATTLE	Route 16		Biker Ruben (Rematch 1)
+-	0	0x7A4	TRAINER BATTLE	Route 16		Cue Ball Camron (Rematch 1)
+-	0	0x7A5	TRAINER BATTLE	Route 17		Biker Jaxon (Rematch 1)
+-	0	0x7A6	TRAINER BATTLE	Route 17		Cue Ball Isaiah (Rematch 1)
+-	0	0x7A7	TRAINER BATTLE	Route 17		Cue Ball Corey (Rematch 1)
+-	0	0x7A8	TRAINER BATTLE	Route 18		Bird Keeper Jacob (Rematch 1)
+-	0	0x7A9	TRAINER BATTLE	Route 18		Bird Keeper Jacob (Rematch 2)
+-	0	0x7AA	TRAINER BATTLE	Route 19		Swimmer♀ Alice (Rematch 1)
+-	0	0x7AB	TRAINER BATTLE	Route 20		Swimmer♂ Darrin (Rematch 1)
+-	0	0x7AC	TRAINER BATTLE	Route 20		Picnicker Missy (Rematch 1)
+-	0	0x7AD	TRAINER BATTLE	Route 20		Picnicker Missy (Rematch 2)
+-	0	0x7AE	TRAINER BATTLE	Route 21		Fisherman Wade (Rematch 1)
+-	0	0x7AF	TRAINER BATTLE	Route 21		Swimmer♂ Jack (Rematch 1)
+-	0	0x7B0	TRAINER BATTLE	Route 21		Sis and Bro Lil & Ian (Rematch 1)
+-	0	0x7B1	TRAINER BATTLE	Route 21		Sis and Bro Lil & Ian (Rematch 2)
+-	0	0x7B2	TRAINER BATTLE	Kindle Road		Swimmer♂ Finn (Rematch 1)
+-	0	0x7B3	TRAINER BATTLE	Kindle Road		Crush Girl Sharon (Rematch 1)
+-	0	0x7B4	TRAINER BATTLE	Kindle Road		Crush Girl Sharon (Rematch 2)
+-	0	0x7B5	TRAINER BATTLE	Kindle Road		Crush Girl Tanya (Rematch 1)
+-	0	0x7B6	TRAINER BATTLE	Kindle Road		Crush Girl Tanya (Rematch 2)
+-	0	0x7B7	TRAINER BATTLE	Kindle Road		Black Belt Shea (Rematch 1)
+-	0	0x7B8	TRAINER BATTLE	Kindle Road		Black Belt Shea (Rematch 2)
+-	0	0x7B9	TRAINER BATTLE	Kindle Road		Black Belt Hugh (Rematch 1)
+-	0	0x7BA	TRAINER BATTLE	Kindle Road		Black Belt Hugh (Rematch 2)
+-	0	0x7BB	TRAINER BATTLE	Kindle Road		Crush Kin Mik & Kia (Rematch 1)
+-	0	0x7BC	TRAINER BATTLE	Kindle Road		Crush Kin Mik & Kia (Rematch 2)
+-	0	0x7BD	TRAINER BATTLE	Bond Bridge		Tuber Amira (Rematch 1)
+-	0	0x7BE	TRAINER BATTLE	Bond Bridge		Twins Joy & Meg (Rematch 1)
+-	0	0x7BF	TRAINER BATTLE	Resort Gorgeous		Painter Rayna (Rematch 1)
+-	0	0x7C0	TRAINER BATTLE	Resort Gorgeous		Youngster Destin (Rematch 1)
+-	0	0x7C1	TRAINER BATTLE	Water Labyrinth		Pokémon Breeder Alize (Rematch 1)
+-	0	0x7C2	TRAINER BATTLE	Route 12		Young Couple Gia & Jes (Rematch 1)
+-	0	0x7C3	TRAINER BATTLE	Route 12		Young Couple Gia & Jes (Rematch 1)
+-	0	0x7C4	TRAINER BATTLE	Memorial Pillar		Bird Keeper Milo (Rematch 1)
+-	0	0x7C5	TRAINER BATTLE	Memorial Pillar		Bird Keeper Chaz (Rematch 1)
+-	0	0x7C6	TRAINER BATTLE	Memorial Pillar		Bird Keeper Harold (Rematch 1)
+-	0	0x7C7	TRAINER BATTLE	Outcast Island		Swimmer♀ Nicole (Rematch 1)
+-	0	0x7C8	TRAINER BATTLE	Green Path		Psychic Jaclyn (Rematch 1)
+-	0	0x7C9	TRAINER BATTLE	Water Path		Swimmer♂ Samir (Rematch 1)
+-	0	0x7CA	TRAINER BATTLE	Water Path		Hiker Earl (Rematch 1)
+-	0	0x7CB	TRAINER BATTLE	Ruin Valley		Ruin Maniac Larry (Rematch 1)
+-	0	0x7CC	TRAINER BATTLE	Ruin Valley		PokéManiac Hector (Rematch 1)
+-	0	0x7CD	TRAINER BATTLE			Psychic Dario (Rematch 1) outside of Trainer Tower defeated
+-	0	0x7CE	TRAINER BATTLE			Psychic Rodette (Rematch 1) outside of Trainer Tower defeated
+-	0	0x7CF	TRAINER BATTLE	Canyon Entrance		Juggler Mason (Rematch 1)
+-	0	0x7D0	TRAINER BATTLE	Canyon Entrance		Pokémon Ranger Nicolas (Rematch 1)
+-	0	0x7D1	TRAINER BATTLE	Canyon Entrance		Pokémon Ranger Madeline (Rematch 1)
+-	0	0x7D2	TRAINER BATTLE	Sevault Canyon		Crush Girl Cyndy (Rematch 1)
+-	0	0x7D3	TRAINER BATTLE	Sevault Canyon		Tamer Evan (Rematch 1)
+-	0	0x7D4	TRAINER BATTLE	Sevault Canyon		Pokémon Ranger Jackson (Rematch 1)
+-	0	0x7D5	TRAINER BATTLE	Sevault Canyon		Pokémon Ranger Katelyn (Rematch 1)
+-	0	0x7D6	TRAINER BATTLE	Sevault Canyon		Cooltrainer Leroy (Rematch 1)
+-	0	0x7D7	TRAINER BATTLE	Sevault Canyon		Cooltrainer Michelle (Rematch 1)
+-	0	0x7D8	TRAINER BATTLE	Sevault Canyon		Cool Couple Lex & Nya (Rematch 1)
+-	0	0x7D9	TRAINER BATTLE	Route 3		Bug Catcher Colton (Rematch 1)
+-	0	0x7DA	TRAINER BATTLE	Route 3		Bug Catcher Colton (Rematch 2)
+-	0	0x7DB	TRAINER BATTLE	Route 3		Bug Catcher Colton (Rematch 3)
+-	0	0x7DC	TRAINER BATTLE	Route 19		Swimmer♂ Matthew (Rematch 1)
+-	0	0x7DD	TRAINER BATTLE	Route 19		Swimmer♂ Tony (Rematch 1)
+-	0	0x7DE	TRAINER BATTLE	Route 20		Swimmer♀ Melissa (Rematch 1)
+-	0	0x7DF	TRAINER BATTLE			Lorelei (Rematch 1) defeated
+-	0	0x7E0	TRAINER BATTLE			Bruno (Rematch 1) defeated
+-	0	0x7E1	TRAINER BATTLE			Agatha (Rematch 1) defeated
+-	0	0x7E2	TRAINER BATTLE			Lance (Rematch 1) defeated
+-	0	0x7E3	TRAINER BATTLE			Champion Blue (Rematch 1) defeated (Starter Charmander)
+-	0	0x7E4	TRAINER BATTLE			Champion Blue (Rematch 1) defeated (Starter Squirtle)
+-	0	0x7E5	TRAINER BATTLE			Champion Blue (Rematch 1) defeated (Starter Bulbasaur)
+-	0	0x7E6	TRAINER BATTLE	Three Island		Cue Ball Paxton
+-	0	0x820	STORY EVENT	Pewter City	Gym	Earned the Boulder Badge
+-	0	0x821	STORY EVENT	Cerulean City	Gym	Earned the Cascade Badge
+-	0	0x822	STORY EVENT	Vermilion City	Gym	Earned the Thunder Badge
+-	0	0x823	STORY EVENT	Celadon City	Gym	Earned the Rainbow Badge
+-	0	0x824	STORY EVENT	Fuchsia City	Gym	Earned the Soul Badge
+-	0	0x825	STORY EVENT	Saffron City	Gym	Earned the Marsh Badge
+-	0	0x826	STORY EVENT	Cinnabar Island	Gym	Earned the Volcano Badge
+-	0	0x827	STORY EVENT	Viridian City	Gym	Earned the Earth Badge
+-	0	0x828	STORY EVENT	Pallet Town	Oak's Lab	Received First Partner from Prof. Oak (Can access Pokémon Menu)
+-	0	0x829	STORY EVENT	Pallet Town	Oak's Lab	Received PokéDex from Prof. Oak (Can access PokéDex Menu)
+-	0	0x82C	STORY EVENT	Indigo Plateau		Became Champion and completed main story
+-	0	0x82F	ITEM GIFT	Pewter City		Received Running Shoes from Oak's Aide and can run with B button
+-	0	0x834	SIDE EVENT	Route 25	Sea Cottage	Learned that Bill made PC Storage (Bill's PC)
+-	0	0x839	SIDE EVENT	?		Unlocked Mystery Gift
+-	0	0x83B	SIDE EVENT			
+-	0	0x840	SIDE EVENT	Pallet Town	Oak's Lab	Received National Dex upgrade
+-	0	0x844	SIDE EVENT	One Island	Pokémon Net Center	Restored Connectivity to Hoenn and can link with RSE games
+-	0	0x845	ITEM GIFT	One Island	Pokémon Net Center	Received Tri-Pass from Celio and unlocked Map View for One / Two / Three Island
+-	0	0x847	ITEM GIFT			Received Berry Pouch upon receiving the first berry
+-	0	0x848	SIDE EVENT	Birth Island		Solved the Birth Island puzzle
+-	0	0x849	SIDE EVENT	?		Solved Tanoby Key puzzle and unlocked the Unowns at Tanoby Ruins
+-	0	0x890	FLY SPOT	Pallet Town		Visited / Unlocked Pallet Town fly spot
+-	0	0x891	FLY SPOT	Viridian City		Visited / Unlocked Viridian City fly spot
+-	0	0x892	FLY SPOT	Pewter City		Visited / Unlocked Pewter City fly spot
+-	0	0x893	FLY SPOT	Cerulean City		Visited / Unlocked Cerulean City fly spot
+-	0	0x894	FLY SPOT	Lavender Town		Visited / Unlocked Lavender Town fly spot
+-	0	0x895	FLY SPOT	Vermilion City		Visited / Unlocked Vermilion City fly spot
+-	0	0x896	FLY SPOT	Celadon City		Visited / Unlocked Celadon City fly spot
+-	0	0x897	FLY SPOT	Fuchsia City		Visited / Unlocked Fuchsia City fly spot
+-	0	0x898	FLY SPOT	Cinnabar Island		Visited / Unlocked Cinnabar Island fly spot
+-	0	0x899	FLY SPOT	Indigo Plateau		Visited / Unlocked Indigo Plateau fly spot
+-	0	0x89A	FLY SPOT	Saffron City		Visited / Unlocked Saffron City fly spot
+-	0	0x89B	FLY SPOT	One Island		Visited / Unlocked One Island fly spot
+-	0	0x89C	FLY SPOT	Two Island		Visited / Unlocked Two Island fly spot
+-	0	0x89D	FLY SPOT	Three Island		Visited / Unlocked Three Island fly spot
+-	0	0x89E	FLY SPOT	Four Island		Visited / Unlocked Four Island fly spot
+-	0	0x89F	FLY SPOT	Five Island		Visited / Unlocked Five Island fly spot
+-	0	0x8A0	FLY SPOT	Seven Island		Visited / Unlocked Seven Island fly spot
+-	0	0x8A1	FLY SPOT	Six Island		Visited / Unlocked Six Island fly spot
+-	0	0x8A2	FLY SPOT	Route 4		Visited / Unlocked Route 4 fly spot
+-	0	0x8A3	FLY SPOT	Route 10		Visited / Unlocked Route 10 fly spot

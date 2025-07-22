@@ -1,1152 +1,1152 @@
-0	0x0A8	IN-GAME TRADE			Traded for Machop on Route 2
-0	0x0A9	IN-GAME TRADE			Traded for Bounsweet on Route 5
-0	0x0AA	IN-GAME TRADE			Traded for Poliwhirl in Konikoni City
-0	0x0AB	IN-GAME TRADE			Traded for Happiny in Malie City
-0	0x0AC	IN-GAME TRADE			Traded for Graveler in Tapu Village
-0	0x0AD	IN-GAME TRADE			Traded for Steene in Seafolk Village
-0	0x0AE	IN-GAME TRADE			Traded for Talonflame on Poni Gauntlet
-0	0x0E1	ITEM GIFT			FE_F0102D0302_DAI_ITEMGET
-0	0x0E2	ITEM GIFT			FE_F0301D1201_DAI_ITEMGET
-0	0x0E3	ITEM GIFT			FE_F0301D0102_04_DAI_ITEMGET
-0	0x0E4	ITEM GIFT			FE_F0102C0101_BIKINI1_ITEMGET
-0	0x0E5	ITEM GIFT			FE_F0102C0101_WOMAN_ITEMGET
-0	0x0E6	ITEM GIFT			FE_F0102C0102_MADAM_ITEMGET
-0	0x0E7	ITEM GIFT			FE_F0102I0101_ADULT_F_ITEMGET
-0	0x0E8	ITEM GIFT			FE_F0102S0301_BREED_M_ITEMGET
-0	0x0E9	ITEM GIFT			FE_F0102I0802_CLCTR_ITEMGET
-0	0x0EA	ITEM GIFT			FE_F0201_C0201_MDLFT_ITEMGET
-0	0x0EB	ITEM GIFT			FE_F0201_S1001_BKN_ITEMGET
-0	0x0EC	ITEM GIFT			FE_F0201I1701_YNGM_ITEMGET
-0	0x0ED	ITEM GIFT			FE_F0201PC0601_OLDM_ITEMGET
-0	0x0EE	ITEM GIFT			FE_F0201I0801_POKE1_ITEMGET
-0	0x0EF	ITEM GIFT			FE_F0501I0102_ESTFM_ITEMGET
-0	0x0F0	ITEM GIFT			FE_F0102I0701_MADAM_ITEMGET
-0	0x0F1	ITEM GIFT			FE_F0301PC0401_WTRS_ITEMGET
-0	0x0F2	ITEM GIFT			FE_F0401R0201_VTRNM_ITEMGET
-0	0x0F3	ITEM GIFT			FE_F0102I0103_ADULT_F_ITEMGET
-0	0x0F4	ITEM GIFT			FE_F0102I0105_TANPAN_ITEMGET
-0	0x0F6	ITEM GIFT			FE_F0201I0701_STM_ITEMGET
-0	0x0F7	ITEM GIFT			FE_F0102C0102_KANKOUM_ITEMGET
-0	0x0F8	ITEM GIFT			FE_F0102C0103_KANKOUM_ITEMGET
-0	0x0F9	ITEM GIFT			FE_F0102C0103_KANKOUF_ITEMGET
-0	0x0FB	ITEM GIFT			FE_F0301I0501_GENTL_ITEMGET
-0	0x0FC	ITEM GIFT			FE_F0102R0901_01_WMAN_ITEMGET
-0	0x0FD	ITEM GIFT			FE_F0201_C0301_PIKA_ITEMGET
-0	0x0FE	ITEM GIFT			FE_F0201R0101_02_BB_ITEMGET
-0	0x0FF	ITEM GIFT			FE_F0102R1001_DERI_ITEMGET
-0	0x100	ITEM GIFT			FE_F0102R0601_HAKASE_ITEMGET
-0	0x101	ITEM GIFT			FE_F0301_S0401_KPR_ITEMGET
-0	0x112	TRAINER BATTLE	Malie Garden		Veteran Don
-0	0x113	ITEM GIFT	Heahea City	GAME FREAK Office	Battled GAME FREAK Morimoto and received Oval Charm
-0	0x125	ITEM GIFT			FE_SUB044_ORE_ITEMGET
-0	0x196	TRAINER BATTLE	Route 15		Trial Guide Katrina
-0	0x197	TRAINER BATTLE	Poni Plans		Ace Trainer Cole
-0	0x198	TRAINER BATTLE	Mount Hokulani		Veteran Akira
-0	0x199	TRAINER BATTLE	Route 15		Trial Guide Katrina
-0	0x19A	TRAINER BATTLE	Poni Plans		Ace Trainer Cole
-0	0x19B	TRAINER BATTLE	Mount Hokulani		Veteran Akira
-0	0x19C	TRAINER BATTLE	Route 3		Ace Trainer Makana
-0	0x19D	TRAINER BATTLE	Route 8		Ace Trainer Eileen
-0	0x19E	TRAINER BATTLE	Diglett's Tunnel		Black Belt Greg
-0	0x19F	TRAINER BATTLE	Route 12		Collector Andrew
-0	0x1A0	TRAINER BATTLE	Ula'ula Meadow		Golfer Dean
-0	0x1A1	TRAINER BATTLE	Poni Wilds		Dancer Julia
-0	0x1A2	TRAINER BATTLE	Poni Gauntlet		Captain Mina
-0	0x1A3	TRAINER BATTLE	Route 5		Trial Guide Bronson
-0	0x1A4	TRAINER BATTLE	Route 3		Ace Trainer Makana
-0	0x1A5	TRAINER BATTLE	Route 8		Ace Trainer Eileen
-0	0x1A6	TRAINER BATTLE	Diglett's Tunnel		Black Belt Greg
-0	0x1A7	TRAINER BATTLE	Route 12		Collector Andrew
-0	0x1A8	TRAINER BATTLE	Ula'ula Meadow		Golfer Dean
-0	0x1A9	TRAINER BATTLE	Poni Wilds		Dancer Julia
-0	0x1AA	TRAINER BATTLE	Poni Gauntlet		Captain Mina
-0	0x1AB	TRAINER BATTLE	Route 5		Trial Guide Bronson
-0	0x1BB	PKMN GIFT			Received Gift Eevee Egg
-0	0x1BC	TRAINER BATTLE	Trainers' School	2F	Vaporeon User Polly
-0	0x1BD	TRAINER BATTLE	TIde Song Hotel		Flareon User Chad
-0	0x1BE	TRAINER BATTLE	Malie City	Malie Community Center	Jolteon User Jane
-0	0x1BF	TRAINER BATTLE	Blush Mountain	Geothermal Power Plant	Espeon User Ishaan
-0	0x1C0	TRAINER BATTLE	Hau'oli Cemetery		Umbreon User Braiden
-0	0x1C1	TRAINER BATTLE	Hano Beach		Leafeon User Linnea
-0	0x1C2	TRAINER BATTLE	Iki Town	Inside House	Glaceon User Rea
-0	0x1C3	TRAINER BATTLE	Seafolk Village	Inside East House	Sylveon User Kira
-0	0x1E6	TRAINER BATTLE	Hano Grand Resort		Veteran Roger
-0	0x1ED	PKMN GIFT			Received Gift Porygon
-0	0x1EF	ITEM GIFT			FE_SUB078_ITEMGET
-0	0x1F0	TRAINER BATTLE	Seafolk Village	Pokemon Center	Sightseer Marcus
-0	0x1F3	PKMN GIFT			Received Gift Type: Null
-0	0x1F8	PKMN GIFT			Received Gift Aerodactyl
-0	0x375	COLLECTABLE	Ancient Poni Path	Hapu's Room	Zygarde Core
-0	0x376	COLLECTABLE	Iki Town	Porch in Hala's House	Zygarde Core
-0	0x377	COLLECTABLE	Route 17	Police Station	Zygarde Core
-0	0x378	COLLECTABLE	Route 1	Home	Zygarde Core
-0	0x379	COLLECTABLE	Konikoni City	Olivia's Room	Zygarde Core
-0	0x457	SIDE EVENT	Malie Outer Cape		Ace Trainer Chase defeated
-0	0x465	SIDE EVENT	Hano Grand Resort		Golfer Tara & Tina
-0	0x474	SIDE EVENT	Royal Avenue	Thrifty Megamart	ALL Eevee Users Appears
-0	0x479	TRAINER BATTLE	Poni Breaker Coast		Swimmer Kylie & Swimmer Ashlyn
-0	0x4C0	PKMN GIFT			Received Gift Cosmog
-0	0x500	SIDE EVENT	Battle Tree		Red Standing Outside
-0	0x61C	FIELD ITEM			[unused?]
-0	0x61D	FIELD ITEM	Route 1	Hau'oli Outskirts	Awakening
-0	0x61E	HIDDEN ITEM	Malie Garden		Rare Bone
-0	0x61F	FIELD ITEM	Route 1		Potion
-0	0x620	FIELD ITEM	Route 1		Poké Ball
-0	0x621	FIELD ITEM	Route 1		Paralyze Heal
-0	0x622	FIELD ITEM	Route 1		Nugget
-0	0x623	FIELD ITEM	Route 1		Nest Ball
-0	0x624	FIELD ITEM	Route 1		Antidote
-0	0x625	FIELD ITEM	Route 1		Potion
-0	0x626	FIELD ITEM	Route 2		Revive
-0	0x627	FIELD ITEM	Route 2		Super Potion
-0	0x628	FIELD ITEM	Route 2		Star Piece
-0	0x629	FIELD ITEM	Route 2		Heal Ball
-0	0x62A	HIDDEN ITEM	Route 2		Repel
-0	0x62B	FIELD ITEM	Route 3		TM83 (Infestation)
-0	0x62C	FIELD ITEM	Route 3		Sharp Beak
-0	0x62D	FIELD ITEM	Route 3		Heal Ball
-0	0x62E	HIDDEN ITEM	Route 3		Stardust
-0	0x62F	FIELD ITEM	Route 3		Super Potion
-0	0x630	FIELD ITEM	Route 3		Nest Ball
-0	0x631	FIELD ITEM	Kala'e Bay		Dive Ball
-0	0x632	FIELD ITEM	Kala'e Bay		TM05 (Roar)
-0	0x633	FIELD ITEM	Kala'e Bay		Net Ball
-0	0x634	FIELD ITEM	Route 11		Big Mushroom
-0	0x635	FIELD ITEM	Ten Carat Hill	Cave	Super Potion
-0	0x636	FIELD ITEM	Ten Carat Hill	Farthest Hollow	Nugget
-0	0x637	FIELD ITEM	Melemele Sea		Soft Sand
-0	0x638	FIELD ITEM	Melemele Sea		TM80 (Rock Slide)
-0	0x639	FIELD ITEM	Seaward Cave		Super Potion
-0	0x63A	FIELD ITEM	Hau'oli City	Beachfront	Poké Ball
-0	0x63B	FIELD ITEM	Hau'oli City	Shopping District	Ether
-0	0x63C	FIELD ITEM	Hau'oli City	Marina	Super Potion
-0	0x63D	FIELD ITEM	Ten Carat Hill	Cave	X Attack
-0	0x63E	FIELD ITEM	Ten Carat Hill	Cave	Ultra Ball
-0	0x63F	HIDDEN ITEM	Ten Carat Hill	Cave	Ether
-0	0x640	FIELD ITEM	Ten Carat Hill	Farthest Hollow	TM62 (Acrobatics)
-0	0x641	FIELD ITEM	Ten Carat Hill	Farthest Hollow	Great Ball
-0	0x642	FIELD ITEM	Ten Carat Hill	Cave	TM64 (Explosion)
-0	0x643	HIDDEN ITEM	Ten Carat Hill	Farthest Hollow	Star Piece
-0	0x644	FIELD ITEM	Ten Carat Hill	Farthest Hollow	Hard Stone
-0	0x645	FIELD ITEM	Ten Carat Hill	Farthest Hollow	Burn Heal
-0	0x646	FIELD ITEM	Hau'oli Cemetery		TM100 (Confide)
-0	0x647	FIELD ITEM	Hau'oli Cemetery		Paralyze Heal
-0	0x648	FIELD ITEM	Hau'oli Cemetery		Super Potion
-0	0x649	FIELD ITEM	Hau'oli Cemetery		Big Mushroom
-0	0x64A	HIDDEN ITEM	Hau'oli Cemetery		Ether
-0	0x64B	HIDDEN ITEM	Hau'oli Cemetery		Great Ball
-0	0x64C	FIELD ITEM	Melemele Meadow		Poison Barb
-0	0x64D	FIELD ITEM	Melemele Meadow		Net Ball
-0	0x64E	FIELD ITEM	Melemele Meadow		Great Ball
-0	0x64F	HIDDEN ITEM	Melemele Meadow		Honey
-0	0x650	HIDDEN ITEM	Melemele Meadow		Honey
-0	0x651	HIDDEN ITEM	Melemele Meadow		Honey
-0	0x652	FIELD ITEM	Seaward Cave		Expert Belt
-0	0x653	FIELD ITEM	Seaward Cave		Never-Melt Ice
-0	0x654	FIELD ITEM	Seaward Cave		Escape Rope
-0	0x655	FIELD ITEM	Seaward Cave		Heal Ball
-0	0x656	FIELD ITEM	Seaward Cave		Max Revive
-0	0x657	HIDDEN ITEM	Seaward Cave		Star Piece
-0	0x658	HIDDEN ITEM	Seaward Cave		Stardust
-0	0x659	FIELD ITEM	Berry Fields		Silver Powder
-0	0x65A	FIELD ITEM	Berry Fields		Big Mushroom
-0	0x65B	HIDDEN ITEM	Berry Fields		Repel
-0	0x65C	FIELD ITEM	Verdant Cavern	Trial Site	Super Potion
-0	0x65D	FIELD ITEM	Verdant Cavern	Trial Site	TM31 (Brick Break)
-0	0x65E	FIELD ITEM	Verdant Cavern	Trial Site	Super Potion
-0	0x65F	FIELD ITEM	Verdant Cavern	Trial Site	X Defense
-0	0x660	HIDDEN ITEM	Verdant Cavern	Trial Site	Revive
-0	0x661	FIELD ITEM	Verdant Cavern	Totem's Den	TM46 (Thief)
-0	0x662	HIDDEN ITEM	Verdant Cavern	Totem's Den	Energy Root
-0	0x663	FIELD ITEM	Route 1	Trainer's School	Potion
-0	0x664	FIELD ITEM	Route 1	Trainer's School	Antidote
-0	0x665	FIELD ITEM	Route 1	Trainer's School	Potion
-0	0x666	HIDDEN ITEM	Route 1	Trainer's School	Great Ball
-0	0x667	FIELD ITEM	Brooklet Hill		Rare Candy
-0	0x668	FIELD ITEM	Brooklet Hill		Net Ball
-0	0x669	HIDDEN ITEM	Brooklet Hill		Elixir
-0	0x66A	FIELD ITEM	Brooklet Hill		X Sp. Attack
-0	0x66B	HIDDEN ITEM	Brooklet Hill		Max Repel
-0	0x66C	FIELD ITEM	Brooklet Hill		Revive
-0	0x66D	FIELD ITEM	Brooklet Hill		TM55 (Scald)
-0	0x66E	FIELD ITEM	Brooklet Hill	Totem's Den	Hyper Potion
-0	0x66F	FIELD ITEM	Lush Jungle		Big Root
-0	0x670	FIELD ITEM	Lush Jungle		Super Potion
-0	0x671	FIELD ITEM	Lush Jungle		Max Revive
-0	0x672	HIDDEN ITEM	Lush Jungle		X Defense
-0	0x673	FIELD ITEM	Lush Jungle		TM86 (Grass Knot)
-0	0x674	HIDDEN ITEM	Lush Jungle		Hyper Potion
-0	0x675	HIDDEN ITEM	Lush Jungle		X Sp. Attack
-0	0x676	HIDDEN ITEM	Lush Jungle		Heal Powder
-0	0x677	HIDDEN ITEM	Lush Jungle		X Attack
-0	0x678	HIDDEN ITEM	Lush Jungle	Cave	Rare Candy
-0	0x679	FIELD ITEM	Lush Jungle	Cave	Awakening
-0	0x67A	FIELD ITEM	Route 4		Great Ball
-0	0x67B	FIELD ITEM	Route 4		Revive
-0	0x67C	FIELD ITEM	Route 4		Adrenaline Orb
-0	0x67D	HIDDEN ITEM	Route 4		Tiny Mushroom
-0	0x67E	FIELD ITEM	Route 4		Energy Root
-0	0x67F	FIELD ITEM	Route 5		TM57 (Charge Beam)
-0	0x680	FIELD ITEM	Route 5		TM41 (Torment)
-0	0x681	FIELD ITEM	Route 5		Ether
-0	0x682	FIELD ITEM	Route 5		Hyper Potion
-0	0x683	FIELD ITEM	Route 5		Super Potion
-0	0x684	HIDDEN ITEM	Route 5		PP Up
-0	0x685	HIDDEN ITEM	Route 5		Nugget
-0	0x686	HIDDEN ITEM	Route 5		Star Piece
-0	0x687	FIELD ITEM	Route 5		TM59 (Brutal Swing)
-0	0x688	FIELD ITEM	Route 6		Super Potion
-0	0x689	FIELD ITEM	Route 6		Rare Candy
-0	0x68A	HIDDEN ITEM	Route 6		X Speed
-0	0x68B	FIELD ITEM	Route 7		TM73 (Thunder Wave)
-0	0x68C	FIELD ITEM	Route 7		Max Repel
-0	0x68D	FIELD ITEM	Hano Beach		Black Glasses
-0	0x68E	FIELD ITEM	Route 8		Big Pearl
-0	0x68F	FIELD ITEM	Route 8		Miracle Seed
-0	0x690	FIELD ITEM	Route 8		Ultra Ball
-0	0x691	FIELD ITEM	Route 8		Dive Ball
-0	0x692	FIELD ITEM	Route 8		Hyper Potion
-0	0x693	FIELD ITEM	Route 8		Water Stone
-0	0x694	HIDDEN ITEM	Route 8		Max Repel
-0	0x695	HIDDEN ITEM	Route 8		Iron
-0	0x696	FIELD ITEM	Route 8		TM53 (Energy Ball)
-0	0x697	FIELD ITEM	Route 9		Net Ball
-0	0x698	FIELD ITEM	Konikoni City		Eviolite
-0	0x699	FIELD ITEM	Konikoni City		TM61 (Will-O-Wisp)
-0	0x69A	FIELD ITEM	Paniola Town		TM88 (Sleep Talk)
-0	0x69B	HIDDEN ITEM	Hano Beach		Pearl
-0	0x69C	FIELD ITEM	Royal Avenue		HP Up
-0	0x69D	FIELD ITEM	Royal Avenue		Ultra Ball
-0	0x69E	FIELD ITEM	Memorial Hill		Spell Tag
-0	0x69F	FIELD ITEM	Memorial Hill		Cleanse Tag
-0	0x6A0	FIELD ITEM	Memorial Hill		Hyper Potion
-0	0x6A1	HIDDEN ITEM	Memorial Hill		Adrenaline Orb
-0	0x6A2	FIELD ITEM	Diglett's Tunnel		Fire Stone
-0	0x6A3	FIELD ITEM	Diglett's Tunnel		Dusk Ball
-0	0x6A4	FIELD ITEM	Diglett's Tunnel		Hyper Potion
-0	0x6A5	HIDDEN ITEM	Diglett's Tunnel		X Attack
-0	0x6A6	FIELD ITEM	Route 8	Fossil Restoration Center	Thunder Stone
-0	0x6A7	FIELD ITEM	Paniola Ranch		Heal Ball
-0	0x6A8	FIELD ITEM	Paniola Ranch		Ether
-0	0x6A9	FIELD ITEM	Wela Volcano Park		Burn Heal
-0	0x6AA	FIELD ITEM	Route 1	Trainer's School	Paralyze Heal
-0	0x6AB	HIDDEN ITEM	Route 2		Stardust
-0	0x6AC	FIELD ITEM	Route 2		Super Potion
-0	0x6AD	HIDDEN ITEM	Berry Fields		Paralyze Heal
-0	0x6AE	HIDDEN ITEM	Route 1	Trainer's School	Poké Ball
-0	0x6AF	HIDDEN ITEM	Route 4		Dire Hit
-0	0x6B0	HIDDEN ITEM	Route 4		Big Mushroom
-0	0x6B1	HIDDEN ITEM	Route 6		Carbos
-0	0x6B2	FIELD ITEM	Route 11		Tiny Mushroom
-0	0x6B3	HIDDEN ITEM	Route 8		Adrenaline Orb
-0	0x6B4	HIDDEN ITEM	Konikoni City		Big Pearl
-0	0x6B5	HIDDEN ITEM	Paniola Town		Fresh Water
-0	0x6B6	HIDDEN ITEM	Paniola Town		Revive
-0	0x6B7	HIDDEN ITEM	Royal Avenue		Soda Pop
-0	0x6B8	HIDDEN ITEM	Royal Avenue		Rare Candy
-0	0x6B9	HIDDEN ITEM	Memorial Hill		Revival Herb
-0	0x6BA	HIDDEN ITEM	Diglett's Tunnel		Nugget
-0	0x6BB	HIDDEN ITEM	Diglett's Tunnel		Escape Rope
-0	0x6BC	HIDDEN ITEM	Route 8	Fossil Restoration Center	Awakening
-0	0x6BD	HIDDEN ITEM	Paniola Ranch		Oval Stone
-0	0x6BE	FIELD ITEM	Route 11		Big Mushroom
-0	0x6BF	FIELD ITEM	Wela Volcano Park		TM39 (Rock Tomb)
-0	0x6C0	FIELD ITEM	Wela Volcano Park		Hyper Potion
-0	0x6C1	HIDDEN ITEM	Route 9		X Accuracy
-0	0x6C2	FIELD ITEM	Akala Outskirts		TM28 (Leach Life)
-0	0x6C3	FIELD ITEM	Route 10		Paralyze Heal
-0	0x6C4	FIELD ITEM	Route 10		X Accuracy
-0	0x6C5	HIDDEN ITEM	Route 10		Tiny Mushroom
-0	0x6C6	HIDDEN ITEM	Route 10		Lemonade
-0	0x6C7	FIELD ITEM	Route 11		TM74 (Gyro Ball)
-0	0x6C8	FIELD ITEM	Route 11		Quick Ball
-0	0x6C9	HIDDEN ITEM	Route 11		Star Piece
-0	0x6CA	FIELD ITEM	Route 12		Hyper Potion
-0	0x6CB	FIELD ITEM	Route 12		Elixir
-0	0x6CC	FIELD ITEM	Route 12		X Attack
-0	0x6CD	HIDDEN ITEM	Route 12		PP Up
-0	0x6CE	FIELD ITEM	Route 14		Max Potion
-0	0x6CF	FIELD ITEM	Route 14		TM30 (Shadow Ball)
-0	0x6D0	FIELD ITEM	Mount Hokulani		Fast Ball
-0	0x6D1	FIELD ITEM	Mount Hokulani		Heavy Ball
-0	0x6D2	FIELD ITEM	Route 15		Dive Ball
-0	0x6D3	FIELD ITEM	Route 15		Hyper Potion
-0	0x6D4	FIELD ITEM	Malie City	Outer Cape	X Speed
-0	0x6D5	FIELD ITEM	Route 16		TM81 (X-Scissor)
-0	0x6D6	FIELD ITEM	Route 17		Full Heal
-0	0x6D7	FIELD ITEM	Route 17		TM84 (Poison Jab)
-0	0x6D8	FIELD ITEM	Malie City	Outer Cape	Antidote
-0	0x6D9	FIELD ITEM	Malie City	Outer Cape	Nugget
-0	0x6DA	FIELD ITEM	Ula'ula Meadow		X Sp. Defense
-0	0x6DB	FIELD ITEM	Mount Hokulani		Max Potion
-0	0x6DC	FIELD ITEM	Blush Mountain		Sun Stone
-0	0x6DD	FIELD ITEM	Blush Mountain		Timer Ball
-0	0x6DE	HIDDEN ITEM	Blush Mountain		Zinc
-0	0x6DF	FIELD ITEM	Lake of Sunne / Moone		TM03 (Psyshock)
-0	0x6E0	FIELD ITEM	Route 12		Burn Heal
-0	0x6E1	FIELD ITEM	Mount Lanakila		Escape Rope
-0	0x6E2	FIELD ITEM	Mount Lanakila		Max Revive
-0	0x6E3	FIELD ITEM	Mount Lanakila	Cave	Full Restore
-0	0x6E4	HIDDEN ITEM	Mount Lanakila		PP Max
-0	0x6E5	FIELD ITEM			[unused?]
-0	0x6E6	FIELD ITEM			[unused?]
-0	0x6E7	FIELD ITEM			[unused?]
-0	0x6E8	FIELD ITEM			[unused?]
-0	0x6E9	FIELD ITEM			[unused?]
-0	0x6EA	FIELD ITEM			[unused?]
-0	0x6EB	FIELD ITEM	Mount Lanakila	Cave	TM13 (Ice Beam)
-0	0x6EC	FIELD ITEM	Hano Beach		Antidote
-0	0x6ED	FIELD ITEM	Hano Beach		Dive Ball
-0	0x6EE	FIELD ITEM	Hano Beach		Pearl String
-0	0x6EF	FIELD ITEM	Ancient Poni Path		Adrenaline Orb
-0	0x6F0	FIELD ITEM	Ancient Poni Path		TM79 (Frost Breath)
-0	0x6F1	FIELD ITEM	Ancient Poni Path		Shiny Stone
-0	0x6F2	HIDDEN ITEM	Ancient Poni Path		Revival Herb
-0	0x6F3	HIDDEN ITEM	Ancient Poni Path		PP Up
-0	0x6F4	HIDDEN ITEM	Poni Breaker Coast		Calcium
-0	0x6F5	FIELD ITEM	Poni Grove		Max Potion
-0	0x6F6	FIELD ITEM	Poni Grove		X Sp. Attack
-0	0x6F7	FIELD ITEM	Poni Plains		Star Piece
-0	0x6F8	FIELD ITEM	Poni Plains		TM24 (Thunderbolt)
-0	0x6F9	FIELD ITEM	Poni Plains		X Defense
-0	0x6FA	HIDDEN ITEM	Poni Plains		PP Max
-0	0x6FB	FIELD ITEM	Poni Coast		Comet Shard
-0	0x6FC	FIELD ITEM	Poni Coast		TM97 (Dark Pulse)
-0	0x6FD	FIELD ITEM	Poni Gauntlet		Big Pearl
-0	0x6FE	FIELD ITEM	Poni Meadow		Power Herb
-0	0x6FF	FIELD ITEM	Poni Meadow		Honey
-0	0x700	FIELD ITEM	Poni Meadow		TM50 (Overheat)
-0	0x701	FIELD ITEM	Vast Poni Canyon	Outside	Full Heal
-0	0x702	HIDDEN ITEM	Vast Poni Canyon	Outside	PP Max
-0	0x703	HIDDEN ITEM	Vast Poni Canyon	Outside	X Defense
-0	0x704	FIELD ITEM	Vast Poni Canyon	Outside	Max Potion
-0	0x705	FIELD ITEM	Vast Poni Canyon	Cave	Elixir
-0	0x706	FIELD ITEM	Vast Poni Canyon	Cave	Max Potion
-0	0x707	HIDDEN ITEM	Vast Poni Canyon	Cave	Nugget
-0	0x708	FIELD ITEM	Vast Poni Canyon	Cave	Escape Rope
-0	0x709	FIELD ITEM	Vast Poni Canyon	Cave	Rare Candy
-0	0x70A	FIELD ITEM	Vast Poni Canyon	Cave	TM35 (Flamathrower)
-0	0x70B	FIELD ITEM	Vast Poni Canyon	Cave	Full Restore
-0	0x70C	FIELD ITEM	Resolution Cave		Terrain Extender
-0	0x70D	FIELD ITEM	Resolution Cave		TM26 (Earthquake)
-0	0x70E	FIELD ITEM	Exeggutor Island		Prism Scale
-0	0x70F	FIELD ITEM	Vast Poni Canyon	Trial Site	TM02 (Dragon Claw)
-0	0x710	FIELD ITEM	Aether Paradise	B1F: Docks	X Sp. Attack
-0	0x711	FIELD ITEM	Poni Wilds		Rare Candy
-0	0x712	FIELD ITEM	Poni Wilds		Max Repel
-0	0x713	FIELD ITEM	Poni Wilds		Max Potion
-0	0x714	FIELD ITEM	Poni Plains		Carbos
-0	0x715	FIELD ITEM	Vast Poni Canyon	Outside	Dusk Ball
-0	0x716	FIELD ITEM	Vast Poni Canyon	Outside	TM99 (Dazzling Gleam)
-0	0x717	FIELD ITEM	Vast Poni Canyon	Outside	Revive
-0	0x718	HIDDEN ITEM	Vast Poni Canyon	Outside	X Sp. Attack
-0	0x719	HIDDEN ITEM	Vast Poni Canyon	Outside	X Attack
-0	0x71A	FIELD ITEM	Poni Gauntlet		Guard Spec.
-0	0x71B	FIELD ITEM	Mount Hokulani		TM72 (Volt Switch)
-0	0x71C	FIELD ITEM	Aether Paradise	B1F: Docks	Rare Candy
-0	0x71D	FIELD ITEM	Haina Desert		Max Elixir
-0	0x71E	FIELD ITEM	Haina Desert		Comet Shard
-0	0x71F	FIELD ITEM	Haina Desert		TM85 (Dream Eater)
-0	0x720	FIELD ITEM	Malie Garden		Grassy Seed
-0	0x721	FIELD ITEM	Malie Garden		Big Mushroom
-0	0x722	FIELD ITEM	Malie Garden		Rage Candy Bar
-0	0x723	FIELD ITEM	Malie Garden		Luxury Ball
-0	0x724	FIELD ITEM	Melemele Sea		Super Repel
-0	0x725	FIELD ITEM	Hau'oli City	Shopping District	TM49 (Echoed Voice)
-0	0x726	FIELD ITEM	Hau'oli City	Shopping District	Tiny Mushroom
-0	0x727	FIELD ITEM	Hau'oli City	Shopping District	Revive
-0	0x728	HIDDEN ITEM	Hau'oli City	Shopping District	Stardust
-0	0x729	FIELD ITEM	Mahalo Trail	Plank Bridge	Electric Seed
-0	0x72A	HIDDEN ITEM	Ten Carat Hill	Cave	Protein
-0	0x72B	FIELD ITEM	Route 7		Antidote
-0	0x72C	FIELD ITEM	Heahea City		Big Mushroom
-0	0x72D	FIELD ITEM	Paniola Ranch		Amulet Coin
-0	0x72E	HIDDEN ITEM	Paniola Ranch		Fresh Water
-0	0x72F	FIELD ITEM	Wela Volcano Park		Charcoal
-0	0x730	FIELD ITEM	Route 13		Moon Stone
-0	0x731	HIDDEN ITEM	Route 11		Stardust
-0	0x732	FIELD ITEM	Route 15		TM93 (Wild Charge)
-0	0x733	FIELD ITEM	Route 16		PP Up
-0	0x734	HIDDEN ITEM	Route 17		X Attack
-0	0x735	HIDDEN ITEM	Route 17		Dire Hit
-0	0x736	FIELD ITEM	Po Town		Max Repel
-0	0x737	FIELD ITEM	Po Town		Rare Candy
-0	0x738	FIELD ITEM	Po Town		Smoke Ball
-0	0x739	FIELD ITEM	Po Town		Ice Stone
-0	0x73A	HIDDEN ITEM	Mount Hokulani		Rare Candy
-0	0x73B	FIELD ITEM	Shady House	1F	Heal Powder
-0	0x73C	FIELD ITEM	Shady House	1F	Max Revive
-0	0x73D	FIELD ITEM	Shady House	2F	TM36 (Sludge Bomb)
-0	0x73E	FIELD ITEM	Shady House	2F	Iron
-0	0x73F	FIELD ITEM	Shady House	Roof	Escape Rope
-0	0x740	HIDDEN ITEM	Route 11		Stardust
-0	0x741	FIELD ITEM	Poni Wilds		Dusk Stone
-0	0x742	FIELD ITEM	Poni Wilds		Pearl String
-0	0x743	HIDDEN ITEM	Poni Grove		Max Ether
-0	0x744	HIDDEN ITEM	Poni Coast		Max Revive
-0	0x745	FIELD ITEM	Poni Gauntlet		Misty Seed
-0	0x746	HIDDEN ITEM	Poni Gauntlet		Max Elixir
-0	0x747	FIELD ITEM	Aether Paradise	B1F: Docks	TM06 (Toxic)
-0	0x748	HIDDEN ITEM	Resolution Cave		HP Up
-0	0x749	FIELD ITEM	Resolution Cave	Inner	Adrenaline Orb
-0	0x74A	FIELD ITEM	Resolution Cave	Inner	Light Ball
-0	0x74B	FIELD ITEM	Resolution Cave	Inner	Life Orb
-0	0x74C	HIDDEN ITEM	Resolution Cave	Inner	Big Nugget
-0	0x74D	HIDDEN ITEM	Exeggutor Island		Heart Scale
-0	0x74E	FIELD ITEM	Seafolk Village	Steelix Ship	TM91 (Flash Cannon)
-0	0x74F	FIELD ITEM	Aether Paradise	Outside	Full Heal
-0	0x750	FIELD ITEM	Aether Paradise	Outside	Hyper Potion
-0	0x751	FIELD ITEM	Aether Paradise	B2F: Lab Area	Full Restore
-0	0x752	FIELD ITEM	Route 17		Lemonade
-0	0x753	HIDDEN ITEM	Paniola Ranch		Super Repel
-0	0x754	HIDDEN ITEM	Paniola Ranch		Soda Pop
-0	0x755	HIDDEN ITEM	Paniola Ranch		Big Mushroom
-0	0x756	HIDDEN ITEM	Paniola Ranch		Repel
-0	0x757	HIDDEN ITEM	Paniola Ranch		Moomoo Milk
-0	0x758	FIELD ITEM	Ula'ula Meadow		Adrenaline Orb
-0	0x759	FIELD ITEM	Ula'ula Meadow		Repeat Ball
-0	0x75A	HIDDEN ITEM	Route 1	Hau'oli Outskirts	Earth Plate
-0	0x75B	HIDDEN ITEM	Hau'oli City	Shopping District	Insect Plate
-0	0x75C	HIDDEN ITEM	Hau'oli City	Beachfront	Icicle Plate
-0	0x75D	HIDDEN ITEM	Route 1	Trainer's School	Flame Plate
-0	0x75E	HIDDEN ITEM	Route 1	Hau'oli Outskirts	Mind Plate
-0	0x75F	HIDDEN ITEM	Hau'oli City	Shopping District	Meadow Plate
-0	0x760	HIDDEN ITEM	Hau'oli City	Shopping District	Toxic Plate
-0	0x761	HIDDEN ITEM	Hau'oli Cemetery		Spooky Plate
-0	0x762	HIDDEN ITEM	Hau'oli City	Shopping District	Draco Plate
-0	0x763	HIDDEN ITEM	Paniola Town		Super Repel
-0	0x764	FIELD ITEM	Memorial Hill		Dusk Ball
-0	0x765	HIDDEN ITEM	Memorial Hill		Heal Powder
-0	0x766	HIDDEN ITEM	Memorial Hill		Super Repel
-0	0x767	HIDDEN ITEM	Akala Outskirts		Big Mushroom
-0	0x768	HIDDEN ITEM	Akala Outskirts		Tiny Mushroom
-0	0x769	HIDDEN ITEM	Akala Outskirts		Tiny Mushroom
-0	0x76A	FIELD ITEM	Mount Hokulani		Level Ball
-0	0x76B	FIELD ITEM	Route 13		Guard Spec.
-0	0x76C	FIELD ITEM	Resolution Cave		Elixir
-0	0x76D	HIDDEN ITEM	Exeggutor Island		Big Pearl
-0	0x76E	FIELD ITEM			[unused?]
-0	0x76F	FIELD ITEM			[unused?]
-0	0x770	FIELD ITEM			[unused?]
-0	0x771	FIELD ITEM			[unused?]
-0	0x772	FIELD ITEM			[unused?]
-0	0x773	FIELD ITEM			[unused?]
-0	0x774	FIELD ITEM			[unused?]
-0	0x775	FIELD ITEM			[unused?]
-0	0x776	FIELD ITEM			[unused?]
-0	0x777	FIELD ITEM			[unused?]
-0	0x778	FIELD ITEM			[unused?]
-0	0x779	FIELD ITEM			[unused?]
-0	0x77A	FIELD ITEM			[unused?]
-0	0x77B	FIELD ITEM			[unused?]
-0	0x77C	FIELD ITEM			[unused?]
-0	0x77D	FIELD ITEM			[unused?]
-0	0x77E	FIELD ITEM			[unused?]
-0	0x77F	FIELD ITEM			[unused?]
-0	0x780	FIELD ITEM			[unused?]
-0	0x781	FIELD ITEM			[unused?]
-0	0x782	FIELD ITEM			[unused?]
-0	0x783	FIELD ITEM			[unused?]
-0	0x784	FIELD ITEM			[unused?]
-0	0x785	FIELD ITEM			[unused?]
-0	0x786	FIELD ITEM			[unused?]
-0	0x787	FIELD ITEM			[unused?]
-0	0x788	FIELD ITEM			[unused?]
-0	0x789	FIELD ITEM			[unused?]
-0	0x78A	FIELD ITEM			[unused?]
-0	0x78B	FIELD ITEM			[unused?]
-0	0x78C	FIELD ITEM			[unused?]
-0	0x78D	FIELD ITEM			[unused?]
-0	0x78E	FIELD ITEM			[unused?]
-0	0x78F	FIELD ITEM			[unused?]
-0	0x790	FIELD ITEM			[unused?]
-0	0x791	FIELD ITEM			[unused?]
-0	0x792	FIELD ITEM			[unused?]
-0	0x793	FIELD ITEM			[unused?]
-0	0x794	FIELD ITEM			[unused?]
-0	0x795	FIELD ITEM			[unused?]
-0	0x796	FIELD ITEM			[unused?]
-0	0x797	FIELD ITEM			[unused?]
-0	0x798	FIELD ITEM			[unused?]
-0	0x799	FIELD ITEM			[unused?]
-0	0x79A	FIELD ITEM			[unused?]
-0	0x79B	FIELD ITEM			[unused?]
-0	0x79C	FIELD ITEM			[unused?]
-0	0x79D	FIELD ITEM			[unused?]
-0	0x79E	FIELD ITEM			[unused?]
-0	0x79F	FIELD ITEM			[unused?]
-0	0x7A0	FIELD ITEM			[unused?]
-0	0x7A1	FIELD ITEM			[unused?]
-0	0x7A2	FIELD ITEM			[unused?]
-0	0x7A3	FIELD ITEM			[unused?]
-0	0x7A4	FIELD ITEM			[unused?]
-0	0x7A5	FIELD ITEM			[unused?]
-0	0x7A6	FIELD ITEM			[unused?]
-0	0x7A7	FIELD ITEM			[unused?]
-0	0x7A8	FIELD ITEM			[unused?]
-0	0x7A9	FIELD ITEM			[unused?]
-0	0x7AA	FIELD ITEM			[unused?]
-0	0x7AB	FIELD ITEM			[unused?]
-0	0x7AC	FIELD ITEM			[unused?]
-0	0x7AD	FIELD ITEM			[unused?]
-0	0x7AE	FIELD ITEM			[unused?]
-0	0x7AF	FIELD ITEM			[unused?]
-0	0x7B0	FIELD ITEM			[unused?]
-0	0x7B1	FIELD ITEM			[unused?]
-0	0x7E0	HIDDEN ITEM	Secluded Shore		Big Pearl (recurring)
-0	0x7E1	HIDDEN ITEM	Secluded Shore		Pearl (recurring)
-0	0x7E2	HIDDEN ITEM	Secluded Shore		Pearl (recurring)
-0	0x7E3	HIDDEN ITEM	Secluded Shore		Big Pearl (recurring)
-0	0x7E4	HIDDEN ITEM	Hano Beach		Heart Scale (recurring)
-0	0x7E5	HIDDEN ITEM	Hano Beach		Heart Scale (recurring)
-0	0x7E6	HIDDEN ITEM	Hano Beach		Pearl (recurring)
-0	0x7E7	HIDDEN ITEM	Hano Beach		Pearl (recurring)
-0	0x7E8	HIDDEN ITEM	Hano Beach		Soda Pop (recurring)
-0	0x7E9	HIDDEN ITEM	Route 1	Hau'oli Outskirts	Pearl (recurring)
-0	0x7EA	HIDDEN ITEM	Kala'e Bay		Pearl (recurring)
-0	0x7EB	HIDDEN ITEM	Kala'e Bay		Big Pearl (recurring)
-0	0x7EC	HIDDEN ITEM	Melemele Sea		Rare Candy (recurring)
-0	0x7ED	HIDDEN ITEM	Hau'oli City	Beachfront	Pearl (recurring)
-0	0x7EE	HIDDEN ITEM	Hau'oli City	Beachfront	Fresh Water (recurring)
-0	0x7EF	HIDDEN ITEM	Route 7		Pearl (recurring)
-0	0x7F0	HIDDEN ITEM	Route 7		Net Ball (recurring)
-0	0x7F1	HIDDEN ITEM	Route 14		Big Pearl (recurring)
-0	0x7F2	HIDDEN ITEM	Route 14		Pearl (recurring)
-0	0x7F3	HIDDEN ITEM	Route 15		Normal Gem (recurring)
-0	0x7F4	HIDDEN ITEM	Route 15		Pearl (recurring)
-0	0x7F5	HIDDEN ITEM	Poni Wilds		Big Pearl (recurring)
-0	0x7F6	HIDDEN ITEM	Poni Wilds		Repeat Ball (recurring)
-0	0x7F7	HIDDEN ITEM	Poni Wilds		Pearl (recurring)
-0	0x7F8	HIDDEN ITEM			[unused?]
-0	0x7F9	HIDDEN ITEM			[unused?]
-0	0x7FA	HIDDEN ITEM			[unused?]
-0	0x7FB	HIDDEN ITEM			[unused?]
-0	0x7FC	HIDDEN ITEM			[unused?]
-0	0x7FD	HIDDEN ITEM			[unused?]
-0	0x7FE	HIDDEN ITEM			[unused?]
-0	0x7FF	HIDDEN ITEM			[unused?]
-0	0x800	HIDDEN ITEM			[unused?]
-0	0x801	HIDDEN ITEM			[unused?]
-0	0x802	HIDDEN ITEM			[unused?]
-0	0x803	HIDDEN ITEM			[unused?]
-0	0x804	HIDDEN ITEM			[unused?]
-0	0x805	HIDDEN ITEM			[unused?]
-0	0x806	HIDDEN ITEM			[unused?]
-0	0x807	HIDDEN ITEM			[unused?]
-0	0x808	HIDDEN ITEM			[unused?]
-0	0x809	HIDDEN ITEM			[unused?]
-0	0x80A	HIDDEN ITEM			[unused?]
-0	0x80B	HIDDEN ITEM			[unused?]
-0	0x80C	HIDDEN ITEM			[unused?]
-0	0x80D	HIDDEN ITEM			[unused?]
-0	0x80E	HIDDEN ITEM			[unused?]
-0	0x80F	HIDDEN ITEM			[unused?]
-0	0x810	HIDDEN ITEM			[unused?]
-0	0x811	HIDDEN ITEM			[unused?]
-0	0x812	HIDDEN ITEM			[unused?]
-0	0x813	HIDDEN ITEM			[unused?]
-0	0x814	HIDDEN ITEM			[unused?]
-0	0x815	HIDDEN ITEM			[unused?]
-0	0x816	HIDDEN ITEM			[unused?]
-0	0x817	HIDDEN ITEM			[unused?]
-0	0x818	HIDDEN ITEM			[unused?]
-0	0x819	HIDDEN ITEM			[unused?]
-0	0x81A	HIDDEN ITEM			[unused?]
-0	0x81B	HIDDEN ITEM			[unused?]
-0	0x81D	TRAINER BATTLE	Route 1	Hau'oli Outskirts	Lass Madison
-0	0x81E	TRAINER BATTLE	Route 2		Lass Isabella
-0	0x81F	TRAINER BATTLE			TR_FLAG_003
-0	0x820	TRAINER BATTLE			TR_FLAG_004
-0	0x821	TRAINER BATTLE			TR_FLAG_005
-0	0x822	TRAINER BATTLE			TR_FLAG_006
-0	0x823	TRAINER BATTLE			TR_FLAG_007
-0	0x824	TRAINER BATTLE			TR_FLAG_008
-0	0x825	TRAINER BATTLE			TR_FLAG_009
-0	0x826	TRAINER BATTLE			TR_FLAG_010
-0	0x827	TRAINER BATTLE			TR_FLAG_011
-0	0x828	TRAINER BATTLE			TR_FLAG_012
-0	0x829	TRAINER BATTLE			TR_FLAG_013
-0	0x82A	TRAINER BATTLE			TR_FLAG_014
-0	0x82B	TRAINER BATTLE			TR_FLAG_015
-0	0x82C	TRAINER BATTLE	Route 3		Ace Trainer Makana
-0	0x82D	TRAINER BATTLE			TR_FLAG_017
-0	0x82E	TRAINER BATTLE			TR_FLAG_018
-0	0x82F	TRAINER BATTLE			TR_FLAG_019
-0	0x830	TRAINER BATTLE			TR_FLAG_020
-0	0x831	TRAINER BATTLE	Trainers' School	Outside	Youth Athlete Hiromi
-0	0x832	TRAINER BATTLE	Trainers' School	Outside	Youngster Joey
-0	0x833	TRAINER BATTLE			TR_FLAG_023
-0	0x834	TRAINER BATTLE			TR_FLAG_024
-0	0x835	TRAINER BATTLE	Route 1		Youngster Jimmy
-0	0x836	TRAINER BATTLE	Route 1	Hau'oli Outskirts	Youngster Kevin
-0	0x837	TRAINER BATTLE			TR_FLAG_027
-0	0x838	TRAINER BATTLE	Route 1		Preschooler Oliver
-0	0x839	TRAINER BATTLE	Route 2		Backpacker Ashley
-0	0x83A	TRAINER BATTLE	Route 2		Pokémon Breeder Jay
-0	0x83B	TRAINER BATTLE	Route 3		Rising Star Ian
-0	0x83C	TRAINER BATTLE	Route 3		Rising Star Joshua
-0	0x83D	TRAINER BATTLE	Route 3		Rising Star Tatiana
-0	0x83E	TRAINER BATTLE	Melemele Sea	East	Swimmer Yasu
-0	0x83F	TRAINER BATTLE	Melemele Sea	East	Swimmer Kalani
-0	0x840	TRAINER BATTLE	Melemele Sea	East	Swimmer Kelsie
-0	0x841	TRAINER BATTLE	Melemele Sea	West	Swimmer Portia
-0	0x842	TRAINER BATTLE	Melemele Sea	East	Swimmer Shelby
-0	0x843	TRAINER BATTLE	Melemele Sea	West	Swimmer Jade
-0	0x844	TRAINER BATTLE	Hau'oli Cemetery		Office Worker Jeremy
-0	0x845	TRAINER BATTLE	Hau'oli Cemetery		Pokémon Breeder Ikue
-0	0x846	TRAINER BATTLE	Hau'oli Cemetery		Gentleman Stanley
-0	0x847	TRAINER BATTLE			TR_FLAG_043
-0	0x848	TRAINER BATTLE			TR_FLAG_044
-0	0x849	TRAINER BATTLE			TR_FLAG_045
-0	0x84A	TRAINER BATTLE			TR_FLAG_046
-0	0x84B	TRAINER BATTLE			TR_FLAG_047
-0	0x84C	TRAINER BATTLE			TR_FLAG_048
-0	0x84D	TRAINER BATTLE			TR_FLAG_049
-0	0x84E	TRAINER BATTLE			TR_FLAG_050
-0	0x84F	TRAINER BATTLE			TR_FLAG_051
-0	0x850	TRAINER BATTLE			TR_FLAG_052
-0	0x851	TRAINER BATTLE			TR_FLAG_053
-0	0x852	TRAINER BATTLE	Brooklet Hill		Fisherman Hal
-0	0x853	TRAINER BATTLE	Brooklet Hill		Fisherman Herbert
-0	0x854	TRAINER BATTLE	Brooklet Hill		Fisherman Carl
-0	0x855	TRAINER BATTLE			TR_FLAG_057
-0	0x856	TRAINER BATTLE	Brooklet Hill		Backpacker Mikiko
-0	0x857	TRAINER BATTLE			TR_FLAG_059
-0	0x858	TRAINER BATTLE	Brooklet Hill		Fisherman Ernest
-0	0x859	TRAINER BATTLE	Route 4		Collector Bryan
-0	0x85A	TRAINER BATTLE			TR_FLAG_062
-0	0x85B	TRAINER BATTLE			TR_FLAG_063
-0	0x85C	TRAINER BATTLE	Route 4		Sightseer Scotty
-0	0x85D	TRAINER BATTLE	Route 6		Beauty Brittney
-0	0x85E	TRAINER BATTLE	Route 6		Youngster Anthony
-0	0x85F	TRAINER BATTLE			TR_FLAG_067
-0	0x860	TRAINER BATTLE	Route 6		Pokémon Breeder William
-0	0x861	TRAINER BATTLE			TR_FLAG_069
-0	0x862	TRAINER BATTLE	Route 7		Swimmer Dakota
-0	0x863	TRAINER BATTLE	Route 7		Swimmer Casey
-0	0x864	TRAINER BATTLE	Route 7		Swimmer Vanessa
-0	0x865	TRAINER BATTLE	Route 7		Swimmer Tiare
-0	0x866	TRAINER BATTLE			TR_FLAG_074
-0	0x867	TRAINER BATTLE			TR_FLAG_075
-0	0x868	TRAINER BATTLE			TR_FLAG_076
-0	0x869	TRAINER BATTLE	Route 4		Cook Ernie
-0	0x86A	TRAINER BATTLE			TR_FLAG_078
-0	0x86B	TRAINER BATTLE			TR_FLAG_079
-0	0x86C	TRAINER BATTLE			TR_FLAG_080
-0	0x86D	TRAINER BATTLE			TR_FLAG_081
-0	0x86E	TRAINER BATTLE			TR_FLAG_082
-0	0x86F	TRAINER BATTLE			TR_FLAG_083
-0	0x870	TRAINER BATTLE			TR_FLAG_084
-0	0x871	TRAINER BATTLE			TR_FLAG_085
-0	0x872	TRAINER BATTLE			TR_FLAG_086
-0	0x873	TRAINER BATTLE			TR_FLAG_087
-0	0x874	TRAINER BATTLE			TR_FLAG_088
-0	0x875	TRAINER BATTLE			TR_FLAG_089
-0	0x876	TRAINER BATTLE			TR_FLAG_090
-0	0x877	TRAINER BATTLE			TR_FLAG_091
-0	0x878	TRAINER BATTLE	Route 5		Rising Star Lauren
-0	0x879	TRAINER BATTLE	Route 5		Rising Star Justin
-0	0x87A	TRAINER BATTLE	Route 5		Pokémon Breeder Cory
-0	0x87B	TRAINER BATTLE	Route 5		Pokémon Breeder Yuka
-0	0x87C	TRAINER BATTLE	Route 5		Youngster Caleb
-0	0x87D	TRAINER BATTLE	Route 5		Preschooler Nico
-0	0x87E	TRAINER BATTLE	Route 5		Preschooler Isa
-0	0x87F	TRAINER BATTLE			TR_FLAG_099
-0	0x880	TRAINER BATTLE	Route 8		Rising Star Nicki
-0	0x881	TRAINER BATTLE	Route 8		Backpacker Kiana
-0	0x882	TRAINER BATTLE	Route 5		Hiker Gabriel
-0	0x883	TRAINER BATTLE			TR_FLAG_103
-0	0x884	TRAINER BATTLE	Route 5		Ace Trainer Alexis
-0	0x885	TRAINER BATTLE	Route 8		Scientist Tyrone
-0	0x886	TRAINER BATTLE			TR_FLAG_106
-0	0x887	TRAINER BATTLE	Hano Beach		Swimmer Logan
-0	0x888	TRAINER BATTLE	Hano Beach		Swimmer Lawrence
-0	0x889	TRAINER BATTLE	Hano Beach		Swimmer Roddy
-0	0x88A	TRAINER BATTLE	Hano Beach		Swimmer Alicia
-0	0x88B	TRAINER BATTLE	Hano Beach		Swimmer Laura
-0	0x88C	TRAINER BATTLE	Hano Beach		Swimmer Chelsea
-0	0x88D	TRAINER BATTLE	Memorial Hill		Gentleman Smith
-0	0x88E	TRAINER BATTLE	Memorial Hill		Madame Sayuri
-0	0x88F	TRAINER BATTLE	Memorial Hill		Preschooler Liam
-0	0x890	TRAINER BATTLE	Memorial Hill		Punk Girl Melissa
-0	0x891	TRAINER BATTLE	Diglett's Tunnel		Worker Vaclav
-0	0x892	TRAINER BATTLE	Diglett's Tunnel		Worker Jeff
-0	0x893	TRAINER BATTLE	Diglett's Tunnel		Worker Frank
-0	0x894	TRAINER BATTLE	Akala Outskirts		Black Belt Kenji
-0	0x895	TRAINER BATTLE	Akala Outskirts		Fisherman Vernon
-0	0x896	TRAINER BATTLE	Paniola Ranch		Pokémon Breeder Glenn
-0	0x897	TRAINER BATTLE	Paniola Ranch		Pokémon Breeder Amanda
-0	0x898	TRAINER BATTLE	Paniola Ranch		Gentleman Gerald
-0	0x899	TRAINER BATTLE	Paniola Ranch		Madame Elizabeth
-0	0x89A	TRAINER BATTLE			TR_FLAG_126
-0	0x89B	TRAINER BATTLE			TR_FLAG_127
-0	0x89C	TRAINER BATTLE			TR_FLAG_128
-0	0x89D	TRAINER BATTLE			TR_FLAG_129
-0	0x89E	TRAINER BATTLE			TR_FLAG_130
-0	0x89F	TRAINER BATTLE			TR_FLAG_131
-0	0x8A0	TRAINER BATTLE			TR_FLAG_132
-0	0x8A1	TRAINER BATTLE			TR_FLAG_133
-0	0x8A2	TRAINER BATTLE			TR_FLAG_134
-0	0x8A3	TRAINER BATTLE			TR_FLAG_135
-0	0x8A4	TRAINER BATTLE			TR_FLAG_136
-0	0x8A5	TRAINER BATTLE			TR_FLAG_137
-0	0x8A6	TRAINER BATTLE			TR_FLAG_138
-0	0x8A7	TRAINER BATTLE			TR_FLAG_139
-0	0x8A8	TRAINER BATTLE			TR_FLAG_140
-0	0x8A9	TRAINER BATTLE			TR_FLAG_141
-0	0x8AA	TRAINER BATTLE			TR_FLAG_142
-0	0x8AB	TRAINER BATTLE			TR_FLAG_143
-0	0x8AC	TRAINER BATTLE			TR_FLAG_144
-0	0x8AD	TRAINER BATTLE			TR_FLAG_145
-0	0x8AE	TRAINER BATTLE			TR_FLAG_146
-0	0x8AF	TRAINER BATTLE			TR_FLAG_147
-0	0x8B0	TRAINER BATTLE			TR_FLAG_148
-0	0x8B1	TRAINER BATTLE			TR_FLAG_149
-0	0x8B2	TRAINER BATTLE			TR_FLAG_150
-0	0x8B3	TRAINER BATTLE			TR_FLAG_151
-0	0x8B4	TRAINER BATTLE			TR_FLAG_152
-0	0x8B5	TRAINER BATTLE			TR_FLAG_153
-0	0x8B6	TRAINER BATTLE			TR_FLAG_154
-0	0x8B7	TRAINER BATTLE			TR_FLAG_155
-0	0x8B8	TRAINER BATTLE			TR_FLAG_156
-0	0x8B9	TRAINER BATTLE			TR_FLAG_157
-0	0x8BA	TRAINER BATTLE			TR_FLAG_158
-0	0x8BB	TRAINER BATTLE	Battle Tree		Red
-0	0x8BC	TRAINER BATTLE	Battle Tree		Blue
-0	0x8BD	TRAINER BATTLE			TR_FLAG_161
-0	0x8BE	TRAINER BATTLE			TR_FLAG_162
-0	0x8BF	TRAINER BATTLE			TR_FLAG_163
-0	0x8C0	TRAINER BATTLE			TR_FLAG_164
-0	0x8C1	TRAINER BATTLE			TR_FLAG_165
-0	0x8C2	TRAINER BATTLE			TR_FLAG_166
-0	0x8C3	TRAINER BATTLE			TR_FLAG_167
-0	0x8C4	TRAINER BATTLE			TR_FLAG_168
-0	0x8C5	TRAINER BATTLE			TR_FLAG_169
-0	0x8C6	TRAINER BATTLE	Route 8		Golfer Alan
-0	0x8C7	TRAINER BATTLE	Route 8		Golfer Maile
-0	0x8C8	TRAINER BATTLE			TR_FLAG_172
-0	0x8C9	TRAINER BATTLE	Route 10		Police Officer Mitchell
-0	0x8CA	TRAINER BATTLE	Wela Volcano Park		Sightseer Mariah
-0	0x8CB	TRAINER BATTLE			TR_FLAG_175
-0	0x8CC	TRAINER BATTLE			TR_FLAG_176
-0	0x8CD	TRAINER BATTLE	Malie Outer Cape		Janitor Melvin
-0	0x8CE	TRAINER BATTLE	Poni Wilds		Dancer Cara
-0	0x8CF	TRAINER BATTLE			TR_FLAG_179
-0	0x8D0	TRAINER BATTLE	Poni Plans		Veteran Leon
-0	0x8D1	TRAINER BATTLE	Poni Gauntlet		Veteran Sheri
-0	0x8D2	TRAINER BATTLE	Route 4		Bellhop Jody
-0	0x8D3	TRAINER BATTLE			TR_FLAG_183
-0	0x8D4	TRAINER BATTLE			TR_FLAG_184
-0	0x8D5	TRAINER BATTLE			TR_FLAG_185
-0	0x8D6	TRAINER BATTLE			TR_FLAG_186
-0	0x8D7	TRAINER BATTLE			TR_FLAG_187
-0	0x8D8	TRAINER BATTLE			TR_FLAG_188
-0	0x8D9	TRAINER BATTLE			TR_FLAG_189
-0	0x8DA	TRAINER BATTLE			TR_FLAG_190
-0	0x8DB	TRAINER BATTLE			TR_FLAG_191
-0	0x8DC	TRAINER BATTLE			TR_FLAG_192
-0	0x8DD	TRAINER BATTLE			TR_FLAG_193
-0	0x8DE	TRAINER BATTLE			TR_FLAG_194
-0	0x8DF	TRAINER BATTLE			TR_FLAG_195
-0	0x8E0	TRAINER BATTLE			TR_FLAG_196
-0	0x8E1	TRAINER BATTLE			TR_FLAG_197
-0	0x8E2	TRAINER BATTLE			TR_FLAG_198
-0	0x8E3	TRAINER BATTLE			TR_FLAG_199
-0	0x8E4	TRAINER BATTLE			TR_FLAG_200
-0	0x8E5	TRAINER BATTLE			TR_FLAG_201
-0	0x8E6	TRAINER BATTLE			TR_FLAG_202
-0	0x8E7	TRAINER BATTLE			TR_FLAG_203
-0	0x8E8	TRAINER BATTLE			TR_FLAG_204
-0	0x8E9	TRAINER BATTLE			TR_FLAG_205
-0	0x8EA	TRAINER BATTLE			TR_FLAG_206
-0	0x8EB	TRAINER BATTLE			TR_FLAG_207
-0	0x8EC	TRAINER BATTLE			TR_FLAG_208
-0	0x8ED	TRAINER BATTLE			TR_FLAG_209
-0	0x8EE	TRAINER BATTLE			TR_FLAG_210
-0	0x8EF	TRAINER BATTLE			TR_FLAG_211
-0	0x8F0	TRAINER BATTLE			TR_FLAG_212
-0	0x8F1	TRAINER BATTLE			TR_FLAG_213
-0	0x8F2	TRAINER BATTLE			TR_FLAG_214
-0	0x8F3	TRAINER BATTLE			TR_FLAG_215
-0	0x8F4	TRAINER BATTLE			TR_FLAG_216
-0	0x8F5	TRAINER BATTLE			TR_FLAG_217
-0	0x8F6	TRAINER BATTLE			TR_FLAG_218
-0	0x8F7	TRAINER BATTLE			TR_FLAG_219
-0	0x8F8	TRAINER BATTLE			TR_FLAG_220
-0	0x8F9	TRAINER BATTLE			TR_FLAG_221
-0	0x8FA	TRAINER BATTLE			TR_FLAG_222
-0	0x8FB	TRAINER BATTLE			TR_FLAG_223
-0	0x8FC	TRAINER BATTLE			TR_FLAG_224
-0	0x8FD	TRAINER BATTLE			TR_FLAG_225
-0	0x8FE	TRAINER BATTLE			TR_FLAG_226
-0	0x8FF	TRAINER BATTLE			TR_FLAG_227
-0	0x900	TRAINER BATTLE	Aether Paradise	Exterior	Team Skull Grunt (needs ID)
-0	0x901	TRAINER BATTLE	Aether Paradise	Exterior	Team Skull Grunt (needs ID)
-0	0x902	TRAINER BATTLE			TR_FLAG_230
-0	0x903	TRAINER BATTLE	Po Town		Team Skull Grunt (needs ID)
-0	0x904	TRAINER BATTLE	Po Town		Team Skull Grunt (needs ID)
-0	0x905	TRAINER BATTLE			TR_FLAG_233
-0	0x906	TRAINER BATTLE			TR_FLAG_234
-0	0x907	TRAINER BATTLE			TR_FLAG_235
-0	0x908	TRAINER BATTLE			TR_FLAG_236
-0	0x909	TRAINER BATTLE			TR_FLAG_237
-0	0x90A	TRAINER BATTLE			TR_FLAG_238
-0	0x90B	TRAINER BATTLE			TR_FLAG_239
-0	0x90C	TRAINER BATTLE			TR_FLAG_240
-0	0x90D	TRAINER BATTLE			TR_FLAG_241
-0	0x90E	TRAINER BATTLE			TR_FLAG_242
-0	0x90F	TRAINER BATTLE			TR_FLAG_243
-0	0x910	TRAINER BATTLE			TR_FLAG_244
-0	0x911	TRAINER BATTLE	Wela Volcano Park		Hiker Calhoun
-0	0x912	TRAINER BATTLE	Wela Volcano Park		Ace Trainer Jim
-0	0x913	TRAINER BATTLE			TR_FLAG_247
-0	0x914	TRAINER BATTLE	Route 10		Beauty Andrea
-0	0x915	TRAINER BATTLE			TR_FLAG_249
-0	0x916	TRAINER BATTLE			TR_FLAG_250
-0	0x917	TRAINER BATTLE	Route 15		Ace Trainer Karla
-0	0x918	TRAINER BATTLE			TR_FLAG_252
-0	0x919	TRAINER BATTLE	Route 15		Ace Trainer Yuki
-0	0x91A	TRAINER BATTLE	Route 12		Scientist Jayson
-0	0x91B	TRAINER BATTLE			TR_FLAG_255
-0	0x91C	TRAINER BATTLE			TR_FLAG_256
-0	0x91D	TRAINER BATTLE	Route 14		Fisherman Hisato
-0	0x91E	TRAINER BATTLE	Aether Paradise	B1F	Aether Foundation Employee
-0	0x91F	TRAINER BATTLE	Aether Paradise	B1F	Aether Foundation Employee F
-0	0x920	TRAINER BATTLE	Poni Plans		Ace Trainer Angela
-0	0x921	TRAINER BATTLE	Ace Trainer Junko	2F	Ace Trainer Junko
-0	0x922	TRAINER BATTLE	Vast Poni Canyon	1F	Ace Trainer Aimee
-0	0x923	TRAINER BATTLE	Poni Grove		Ace Trainer Jackson
-0	0x924	TRAINER BATTLE	Vast Poni Canyon	Exit	Ace Trainer Hiroshi
-0	0x925	TRAINER BATTLE	Vast Poni Canyon	1F	Ace Trainer Kent
-0	0x926	TRAINER BATTLE	Malie Garden		Preschooler Ailey
-0	0x927	TRAINER BATTLE			TR_FLAG_267
-0	0x928	TRAINER BATTLE			TR_FLAG_268
-0	0x929	TRAINER BATTLE	Route 14		Swimmer Keoni
-0	0x92A	TRAINER BATTLE	Route 15		Swimmer Jake
-0	0x92B	TRAINER BATTLE	Route 15		Swimmer Jared
-0	0x92C	TRAINER BATTLE	Poni Grove		Black Belt Roy
-0	0x92D	TRAINER BATTLE	Poni Gauntlet		Black Belt Tracy
-0	0x92E	TRAINER BATTLE	Vast Poni Canyon	Top	Vast Poni Canyon
-0	0x92F	TRAINER BATTLE	Vast Poni Canyon	B1F	Black Belt Terry
-0	0x930	TRAINER BATTLE	Malie Garden		Sightseer Akali
-0	0x931	TRAINER BATTLE	Poni Breaker Coast		Sightseer Jamie
-0	0x932	TRAINER BATTLE	Poni Coast		Sightseer Noriko
-0	0x933	TRAINER BATTLE	Malie Garden		Sightseer Mitch
-0	0x934	TRAINER BATTLE	Poni Coast		Sightseer Devin
-0	0x935	TRAINER BATTLE			TR_FLAG_281
-0	0x936	TRAINER BATTLE	Poni Gauntlet		Scientist Kyle
-0	0x937	TRAINER BATTLE	Vast Poni Canyon	3F	Scientist Ikaika
-0	0x938	TRAINER BATTLE	Mount Hokulani		Collector Todd
-0	0x939	TRAINER BATTLE	Ancient Poni Path		Collector Raymond
-0	0x93A	TRAINER BATTLE	Mount Hokulani		Hiker Thomas
-0	0x93B	TRAINER BATTLE			TR_FLAG_287
-0	0x93C	TRAINER BATTLE	Poni Plans		Hiker Ryan
-0	0x93D	TRAINER BATTLE	Vast Poni Canyon	2F	Hiker Zachary
-0	0x93E	TRAINER BATTLE	Resolution Cave		Hiker Travis
-0	0x93F	TRAINER BATTLE	Ula'ula Meadow		Lass Rylee
-0	0x940	TRAINER BATTLE			TR_FLAG_292
-0	0x941	TRAINER BATTLE			TR_FLAG_293
-0	0x942	TRAINER BATTLE			TR_FLAG_294
-0	0x943	TRAINER BATTLE			TR_FLAG_295
-0	0x944	TRAINER BATTLE	Poni Gauntlet		Backpacker Yuho
-0	0x945	TRAINER BATTLE	Vast Poni Canyon	1F	Backpacker Perdy
-0	0x946	TRAINER BATTLE	Resolution Cave		Backpacker Maria
-0	0x947	TRAINER BATTLE	Route 15		Swimmer Yumi
-0	0x948	TRAINER BATTLE	Route 15		Swimmer Alexandria
-0	0x949	TRAINER BATTLE	Vast Poni Canyon	Top	Punk Guy Adam
-0	0x94A	TRAINER BATTLE	Vast Poni Canyon	Top	Punk Girl Anna
-0	0x94B	TRAINER BATTLE	Poni Gauntlet		Veteran Tsunekazu
-0	0x94C	TRAINER BATTLE			TR_FLAG_304
-0	0x94D	TRAINER BATTLE	Vast Poni Canyon	Exit	Veteran Eric
-0	0x94E	TRAINER BATTLE	Vast Poni Canyon	1F	Veteran Harry
-0	0x94F	TRAINER BATTLE	Poni Gauntlet		Veteran Nobuko
-0	0x950	TRAINER BATTLE	Vast Poni Canyon	Exit	Veteran Heather
-0	0x951	TRAINER BATTLE	Vast Poni Canyon	2F	Veteran Lynn
-0	0x952	TRAINER BATTLE	Route 17		Team Skull Grunt F (needs ID)
-0	0x953	TRAINER BATTLE	Route 17		Team Skull Grunt F (needs ID)
-0	0x954	TRAINER BATTLE	Shady House	1F	Team Skull Grunt F (needs ID)
-0	0x955	TRAINER BATTLE	Shady House	1F North Room	Team Skull Grunt F (needs ID)
-0	0x956	TRAINER BATTLE	Shady House	Roof	Team Skull Grunt F (needs ID)
-0	0x957	TRAINER BATTLE	Po Town		Team Skull Grunt F (needs ID)
-0	0x958	TRAINER BATTLE	Po Town		Team Skull Grunt F (needs ID)
-0	0x959	TRAINER BATTLE			TR_FLAG_317
-0	0x95A	TRAINER BATTLE	Po Town		Team Skull Grunt F (needs ID)
-0	0x95B	TRAINER BATTLE	Route 17		Team Skull Grunt (needs ID)
-0	0x95C	TRAINER BATTLE	Route 17		Team Skull Grunt (needs ID)
-0	0x95D	TRAINER BATTLE	Shady House	1F	Team Skull Grunt (needs ID)
-0	0x95E	TRAINER BATTLE	Shady House	2F Southwest room	Team Skull Grunt (needs ID)
-0	0x95F	TRAINER BATTLE	Shady House	2F	Team Skull Grunt (needs ID)
-0	0x960	TRAINER BATTLE	Po Town		Team Skull Grunt (needs ID)
-0	0x961	TRAINER BATTLE			TR_FLAG_325
-0	0x962	TRAINER BATTLE	Route 12		Rising Star Leilani
-0	0x963	TRAINER BATTLE	Route 12		Rising Star Matthew
-0	0x964	TRAINER BATTLE			TR_FLAG_328
-0	0x965	TRAINER BATTLE			TR_FLAG_329
-0	0x966	TRAINER BATTLE	Poni Wilds		Cook Fil
-0	0x967	TRAINER BATTLE	Route 8		Black Belt Guy
-0	0x968	TRAINER BATTLE	Route 8		Preschooler Samuel
-0	0x969	TRAINER BATTLE			TR_FLAG_333
-0	0x96A	TRAINER BATTLE	Route 6		Dancer Maika
-0	0x96B	TRAINER BATTLE	Route 9		Police Officer Haruki
-0	0x96C	TRAINER BATTLE			TR_FLAG_336
-0	0x96D	TRAINER BATTLE			TR_FLAG_337
-0	0x96E	TRAINER BATTLE			TR_FLAG_338
-0	0x96F	TRAINER BATTLE	Secluded Shore		Swimmer Robert
-0	0x970	TRAINER BATTLE	Secluded Shore		Swimmer Sara
-0	0x971	TRAINER BATTLE	Route 14		Collector Kawika
-0	0x972	TRAINER BATTLE	Route 16		Scientist Reid
-0	0x973	TRAINER BATTLE	Ula'ula Meadow		Dancer Mireille
-0	0x974	TRAINER BATTLE	Mount Hokulani		Office Worker Jessica
-0	0x975	TRAINER BATTLE			TR_FLAG_345
-0	0x976	TRAINER BATTLE	Aether Paradise	B1F	Aether Foundation Employee
-0	0x977	TRAINER BATTLE	Aether Paradise	B1F	Aether Foundation Employee
-0	0x978	TRAINER BATTLE	Aether Paradise	B1F	Aether Foundation Employee F
-0	0x979	TRAINER BATTLE			TR_FLAG_349
-0	0x97A	TRAINER BATTLE			TR_FLAG_350
-0	0x97B	TRAINER BATTLE			TR_FLAG_351
-0	0x97C	TRAINER BATTLE			TR_FLAG_352
-0	0x97D	TRAINER BATTLE			TR_FLAG_353
-0	0x97E	TRAINER BATTLE			TR_FLAG_354
-0	0x97F	TRAINER BATTLE			TR_FLAG_355
-0	0x980	TRAINER BATTLE			Hau (Title Defense;Rowlet is Player Starter)
-0	0x981	TRAINER BATTLE			Hau (Title Defense;Litten is Player Starter)
-0	0x982	TRAINER BATTLE			Hau (Title Defense;Popplio is Player Starter)
-0	0x983	TRAINER BATTLE			Hapu (Title Defense)
-0	0x984	TRAINER BATTLE			Faba (Title Defense)
-0	0x985	TRAINER BATTLE	Trainers' School	2F	Vaporeon User Polly
-0	0x986	TRAINER BATTLE	Malie City	Malie Community Center	Jolteon User Jane
-0	0x987	TRAINER BATTLE	Iki Town	Inside House	Glaceon User Rea
-0	0x988	TRAINER BATTLE	Tide Song Hotel		Flareon User Chad
-0	0x989	TRAINER BATTLE	Blush Mountain	Geothermal Power Plant	Espeon User Ishaan
-0	0x98A	TRAINER BATTLE	Malie Outer Cape		Janitor Shawn
-0	0x98B	TRAINER BATTLE	Hau'oli Cemetery		Umbreon User Braiden
-0	0x98C	TRAINER BATTLE	Hano Beach		Leafeon User Linnea
-0	0x98D	TRAINER BATTLE	Seafolk Village	Inside East House	Sylveon User Kira
-0	0x98E	TRAINER BATTLE			TR_FLAG_370
-0	0x98F	TRAINER BATTLE			TR_FLAG_371
-0	0x990	TRAINER BATTLE			TR_FLAG_372
-0	0x991	TRAINER BATTLE	Poni Breaker Coast		Swimmer Kylie
-0	0x992	TRAINER BATTLE	Poni Breaker Coast		Swimmer Ashlyn
-0	0x993	TRAINER BATTLE	Hano Grand Resort		Golfer Tara
-0	0x994	TRAINER BATTLE	Hano Grand Resort		Golfer Tina
-0	0x995	TRAINER BATTLE			TR_FLAG_377
-0	0x996	TRAINER BATTLE			TR_FLAG_378
-0	0x997	TRAINER BATTLE	Royal Avenue	Thrifty Megamart	Eevee User Kagetora
-0	0x998	TRAINER BATTLE			TR_FLAG_380
-0	0x999	TRAINER BATTLE			TR_FLAG_381
-0	0x99A	TRAINER BATTLE	Route 9		Fisherman Mike
-0	0x99B	TRAINER BATTLE	Malie Outer Cape		Ace Trainer Chase
-0	0x99C	TRAINER BATTLE			TR_FLAG_384
-0	0x99D	TRAINER BATTLE			TR_FLAG_385
-0	0x99E	TRAINER BATTLE			TR_FLAG_386
-0	0x99F	TRAINER BATTLE	Diglett's Tunnel		Black Belt Greg
-0	0x9A0	TRAINER BATTLE	Seafolk Village	Pokemon Center	Sightseer Marcus
-0	0x9A1	TRAINER BATTLE			TR_FLAG_389
-0	0x9A2	TRAINER BATTLE	Paniola Ranch		Pokémon Breeder Wesley (Tauros)
-0	0x9A3	TRAINER BATTLE	Hano Grand Resort		Veteran Roger
-0	0x9A4	TRAINER BATTLE	Heahea City	Game Freak Office	GAME FREAK Morimoto
-0	0x9A5	TRAINER BATTLE	Route 12		Collector Andrew
-0	0x9A6	TRAINER BATTLE	Route 15		Trial Guide Katrina
-0	0x9A7	TRAINER BATTLE	Route 5		Trial Guide Bronson
-0	0x9A8	TRAINER BATTLE			TR_FLAG_396
-0	0x9A9	TRAINER BATTLE			TR_FLAG_397
-0	0x9AA	TRAINER BATTLE			TR_FLAG_398
-0	0x9AB	TRAINER BATTLE			TR_FLAG_399
-0	0x9AC	TRAINER BATTLE			TR_FLAG_400
-0	0x9AD	TRAINER BATTLE			Plumeria (Title Defense)
-0	0x9AE	TRAINER BATTLE			TR_FLAG_402
-0	0x9AF	TRAINER BATTLE			TR_FLAG_403
-0	0x9B0	TRAINER BATTLE			TR_FLAG_404
-0	0x9B1	TRAINER BATTLE			Sophocles (Title Defense)
-0	0x9B2	TRAINER BATTLE			TR_FLAG_406
-0	0x9B3	TRAINER BATTLE			TR_FLAG_407
-0	0x9B4	TRAINER BATTLE			TR_FLAG_408
-0	0x9B5	TRAINER BATTLE			Ryuki (Title Defense)
-0	0x9B6	TRAINER BATTLE			TR_FLAG_410
-0	0x9B7	TRAINER BATTLE			TR_FLAG_411
-0	0x9B8	TRAINER BATTLE			TR_FLAG_412
-0	0x9B9	TRAINER BATTLE			TR_FLAG_413
-0	0x9BA	TRAINER BATTLE			TR_FLAG_414
-0	0x9BB	TRAINER BATTLE			TR_FLAG_415
-0	0x9BC	TRAINER BATTLE			TR_FLAG_416
-0	0x9BD	TRAINER BATTLE			Gladion (Title Defense;Rowlet is Player Starter)
-0	0x9BE	TRAINER BATTLE			Gladion (Title Defense;Litten is Player Starter)
-0	0x9BF	TRAINER BATTLE			Gladion (Title Defense;Popplio is Player Starter)
-0	0x9C0	TRAINER BATTLE	Route 10		Firefighter Alex
-0	0x9C1	TRAINER BATTLE	Route 11		Youth Athlete Alyssa
-0	0x9C2	TRAINER BATTLE	Route 11		Youth Athlete Sho
-0	0x9C3	TRAINER BATTLE			TR_FLAG_423
-0	0x9C4	TRAINER BATTLE	Route 11		Black Belt Clayton
-0	0x9C5	TRAINER BATTLE	Route 12		Punk Guy Lane
-0	0x9C6	TRAINER BATTLE	Route 12		Punk Girl Yoko
-0	0x9C7	TRAINER BATTLE	Blush Mountain		Office Worker Shane
-0	0x9C8	TRAINER BATTLE	Ula'ula Meadow		Office Worker Michelle
-0	0x9C9	TRAINER BATTLE	Poni Gauntlet		Punk Guy Troy
-0	0x9CA	TRAINER BATTLE	Poni Gauntlet		Punk Girl Marie
-0	0x9CB	TRAINER BATTLE			TR_FLAG_431
-0	0x9CC	TRAINER BATTLE			TR_FLAG_432
-0	0x9CD	TRAINER BATTLE			TR_FLAG_433
-0	0x9CE	TRAINER BATTLE			TR_FLAG_434
-0	0x9CF	TRAINER BATTLE			TR_FLAG_435
-0	0x9D0	TRAINER BATTLE			TR_FLAG_436
-0	0x9D1	TRAINER BATTLE	Route 11		Preschooler Hayden
-0	0x9D2	TRAINER BATTLE			TR_FLAG_438
-0	0x9D3	TRAINER BATTLE			TR_FLAG_439
-0	0x9D4	TRAINER BATTLE			TR_FLAG_440
-0	0x9D5	TRAINER BATTLE			TR_FLAG_441
-0	0x9D6	TRAINER BATTLE			TR_FLAG_442
-0	0x9D7	TRAINER BATTLE			TR_FLAG_443
-0	0x9D8	TRAINER BATTLE			TR_FLAG_444
-0	0x9D9	TRAINER BATTLE	Poni Wilds		Ace Trainer Kekoa
-0	0x9DA	TRAINER BATTLE	Poni Wilds		Ace Trainer Lindsey
-0	0x9DB	TRAINER BATTLE			TR_FLAG_447
-0	0x9DC	TRAINER BATTLE			TR_FLAG_448
-0	0x9DD	TRAINER BATTLE			TR_FLAG_449
-0	0x9DE	TRAINER BATTLE			TR_FLAG_450
-0	0x9DF	TRAINER BATTLE			TR_FLAG_451
-0	0x9E0	TRAINER BATTLE			TR_FLAG_452
-0	0x9E1	TRAINER BATTLE			TR_FLAG_453
-0	0x9E2	TRAINER BATTLE			TR_FLAG_454
-0	0x9E3	TRAINER BATTLE			TR_FLAG_455
-0	0x9E4	TRAINER BATTLE			TR_FLAG_456
-0	0x9E5	TRAINER BATTLE	Shady House		Team Skull Grunt F
-0	0x9E6	TRAINER BATTLE	Shady House		Team Skull Grunt F
-0	0x9E7	TRAINER BATTLE	Route 1		Lass Audrey
-0	0x9E8	TRAINER BATTLE	Malie Garden		Rising Star Elijah
-0	0x9E9	TRAINER BATTLE	Malie Garden		Lass Rika
-0	0x9EA	TRAINER BATTLE	Malie Garden		Lass Emm
-0	0x9EB	TRAINER BATTLE	Malie Garden		Youngster Tyler
-0	0x9EC	TRAINER BATTLE	Malie Garden		Veteran Don
-0	0x9ED	TRAINER BATTLE	Ula'ula Meadow		Golfer Dean
-0	0x9EE	TRAINER BATTLE	Poni Wilds		Dancer Julia
-0	0x9EF	TRAINER BATTLE	Poni Gauntlet		Captain Mina
-0	0x9F0	TRAINER BATTLE	Route 2		Preschooler Malia
-0	0x9F1	TRAINER BATTLE	Route 2		Preschooler Kaleb
-0	0x9F2	TRAINER BATTLE			TR_FLAG_470
-0	0x9F3	TRAINER BATTLE	Malie Garden		Rising Star Sean
-0	0x9F4	TRAINER BATTLE	Route 2		Beauty Krystal
-0	0x9F5	TRAINER BATTLE			TR_FLAG_473
-0	0x9F6	TRAINER BATTLE	Route 8		Ace Trainer Eileen
-0	0x9F7	TRAINER BATTLE	Poni Plans		Ace Trainer Cole
-0	0x9F8	TRAINER BATTLE	Mount Hokulani		Veteran Akira
-0	0x9F9	TRAINER BATTLE			Kukui (Title Defense;Rowlet is Player Starter)
-0	0x9FA	TRAINER BATTLE			Kukui (Title Defense;Litten is Player Starter)
-0	0x9FB	TRAINER BATTLE			Kukui (Title Defense;Popplio is Player Starter)
-0	0x9FC	TRAINER BATTLE			Youngster Tristan (Title Defense)
-0	0x9FD	TRAINER BATTLE			Molayne (Title Defense)
-0	0x9FE	TRAINER BATTLE			TR_FLAG_482
-0	0x9FF	TRAINER BATTLE			TR_FLAG_483
-0	0xC2A	STORY EVENT			Unlocked Tauros Charge
-0	0xC2B	STORY EVENT			Unlocked Stoutland Search
-0	0xC2C	STORY EVENT			Unlocked Machamp Shove
-0	0xC2D	STORY EVENT			Unlocked Mudsdale Gallop
-0	0xC2E	STORY EVENT			Unlocked Lapras Paddle
-0	0xC2F	STORY EVENT			Unlocked Sharpedo Jet
-0	0xC30	STORY EVENT			Unlocked Charizard Glide
-0	0xC53	SIDE EVENT			Unlocked IV Judge
-0	0xC5F	STORY EVENT	Melemele Island		Melemele Island Pokedex unlocked
-0	0xC60	STORY EVENT	Akala Island		Akala Island Pokedex unlocked
-0	0xC61	STORY EVENT	Ula'Ula Island		Ula'Ula Island Pokedex unlocked
-0	0xC62	STORY EVENT	Poni Island		Poni Island Pokedex unlocked
-0	0xC63	COLLECTABLE	Ancient Poni Path	Hapu's Room	Zygarde Core
-0	0xC64	COLLECTABLE	Iki Town	Porch in Hala's House	Zygarde Core
-0	0xC65	COLLECTABLE	Route 17	Police Station	Zygarde Core
-0	0xC66	COLLECTABLE	Route 1	Home	Zygarde Core
-0	0xC67	COLLECTABLE	Konikoni City	Olivia's Room	Zygarde Core
-0	0xCA5	FLY SPOT			SYS_FLAG_FLY_F0301D1004
-0	0xCA6	FLY SPOT	Ula Ula Island		Ruins of Abundance
-0	0xCA7	FLY SPOT	Akala Island		Paniloa Ranch
-0	0xCA8	FLY SPOT	Melemele Island		Route 1
-0	0xCA9	FLY SPOT	Melemele Island	Hau'oli City	Shopping District
-0	0xCAA	FLY SPOT	Melemele Island		Route 2
-0	0xCAB	FLY SPOT	Melemele Island		Iki Town
-0	0xCAC	FLY SPOT	Melemele Island		My House
-0	0xCAD	FLY SPOT	Melemele Island		Ten Carat Hill
-0	0xCAE	FLY SPOT	Melemele Island		Melemele Meadow
-0	0xCAF	FLY SPOT	Melemele Island		Verdant Cavern
-0	0xCB0	FLY SPOT	Melemele Island		Ruins of Conflict
-0	0xCB1	FLY SPOT	Melemele Island		Hau oli Cemetery
-0	0xCB2	FLY SPOT	Akala Island		Heahea City
-0	0xCB3	FLY SPOT	Akala Island		Royal Avenue
-0	0xCB4	FLY SPOT	Akala Island		Route 8
-0	0xCB5	FLY SPOT	Akala Island		Konikoni City
-0	0xCB6	FLY SPOT	Akala Island		Paniloa Town
-0	0xCB7	FLY SPOT	Akala Island		Battle Royal Dome
-0	0xCB8	FLY SPOT	Akala Island		Hano Grand Hotel
-0	0xCB9	FLY SPOT	Akala Island		Brooklet Hill
-0	0xCBA	FLY SPOT	Akala Island		Lush Jungle
-0	0xCBB	FLY SPOT	Akala Island		Wela Volcano Park
-0	0xCBC	FLY SPOT	Akala Island		Ruins of Life
-0	0xCBD	FLY SPOT	Akala Island		Memorial Hill
-0	0xCBE	FLY SPOT	Ula Ula Island		Malie City
-0	0xCBF	FLY SPOT			SYS_FLAG_FLY_F0301S0201
-0	0xCC0	FLY SPOT	Ula Ula Island		Tapu Village
-0	0xCC1	FLY SPOT	Ula Ula Island		Route 16
-0	0xCC2	FLY SPOT	Ula Ula Island		Mount Hokulani
-0	0xCC3	FLY SPOT	Ula Ula Island		Blush Mountain
-0	0xCC4	FLY SPOT			SYS_FLAG_FLY_F0301D0301
-0	0xCC5	FLY SPOT	Poni Island		Seafolk Village
-0	0xCC6	FLY SPOT	Poni Island		Battle Tree
-0	0xCC7	FLY SPOT	Poni Island		Vast Poni Canyon
-0	0xCC8	FLY SPOT	Poni Island		Ruins of Hope
-0	0xCC9	FLY SPOT	Poni Island		Poni Meadow
-0	0xCCA	FLY SPOT	Poni Island		Exeggutor Island
-0	0xCCB	FLY SPOT	Aether Paradise Island		Aether Paradise
-0	0xD2B	SIDE EVENT	Battle Tree		Defeated Red or Blue in Battle tree
-0	0xD52	STATIC ENCOUNTER	Digglett'sTunnel/Wela Volanco Park	Grass	Nihilego Disappered
-0	0xD53	STATIC ENCOUNTER	Melemele Meadow	Grass	First Pheromosa Disappeared (Moon)
-0	0xD54	STATIC ENCOUNTER	Melemele Meadow	Grass	First Buzzwole Disappeared (Sun)
-0	0xD55	STATIC ENCOUNTER	Melemele Meadow	Grass	Second Buzzwole Disappeared (Sun)
-0	0xD56	STATIC ENCOUNTER	Melemele Meadow	Grass	Second Pheromosa Disappeared (Moon)
-0	0xD57	STATIC ENCOUNTER	Melemele Meadow	Grass	Third Pheromosa Disappeared (Moon)
-0	0xD58	STATIC ENCOUNTER	Melemele Meadow	Grass	Fourth Pheromosa Disappeared (Moon)
-0	0xD59	STATIC ENCOUNTER	Lush Jungle/Memorial Hill	Grass	First Xurtitree Disappeared
-0	0xD5A	STATIC ENCOUNTER	Lush Jungle/Memorial Hill	Grass	Second Xurtitree Disappeared
-0	0xD5B	STATIC ENCOUNTER	Route 17/Malie Garden	Grass	First Kartana Diasppeared (Sun)
-0	0xD6C	STATIC ENCOUNTER	Route 17/Malie Garden	Grass	Second Kartana Diasppeared (Sun)
-0	0xD6D	STATIC ENCOUNTER	Route 17/Malie Garden	Grass	Third Kartana Diasppeared (Sun)
-0	0xD6E	STATIC ENCOUNTER	Route 17/Malie Garden	Grass	Fourth Kartana Diasppeared (Sun)
-0	0xD6F	STATIC ENCOUNTER	Haina Desert/Malie Garden	Grass	First Celesteela Disappeared (Moon)
-0	0xD70	STATIC ENCOUNTER	Haina Desert/Malie Garden	Grass	Second Celesteela Disappeared (Moon)
-0	0xD72	STATIC ENCOUNTER	Resolution Cave	B1F	Guzzlord Disappeared
-0	0xD74	STATIC ENCOUNTER	Ten Carat Hill	Overwrold/Grass	Necrozma Disappeared
-0	0xD8E	FLY SPOT	Ula Ula		Po Town
-0	0xD8F	FLY SPOT			SYS_FLAG_FLY_F0301D0201
-0	0xD90	FLY SPOT			SYS_FLAG_FLY_F0401H0701
-0	0xD91	FLY SPOT	Ula Ula Island		Lake of the Sunne
-0	0xD92	FLY SPOT	Poni Island		Altar of the Sun
-0	0xD93	FLY SPOT	Ula Ula Island		Lake of the Moone
-0	0xD94	FLY SPOT	Poni Island		Altar of the Moon
-0	0xD9F	PKMN GIFT			Received Gift Magearna
-0	0xDAC	STORY EVENT	Digglett'sTunnel/Wela Volanco Park	Grass	Nihilego Defeated/Captured Story Progression
-0	0xDAD	STORY EVENT	Digglett'sTunnel/Wela Volanco Park	Grass	Nihilego Defeated/Captured Story Progression
-0	0xDAE	STORY EVENT	Melemele Meadow	Grass	Second Buzzwole Defeated/Captured Story Progression (Sun)
-0	0xDAF	STORY EVENT	Melemele Meadow	Grass	Fourth Pheromosa Defeated/Captured Story Progression (Moon)
-0	0xDB0	STORY EVENT	Lush Jungle/Memorial Hill	Grass	Second Xurtitree Defeated/Captured Story Progression
-0	0xDB1	STORY EVENT	Lush Jungle/Memorial Hill	Grass	Second Xurtitree Defeated/Captured Story Progression
-0	0xDB2	STORY EVENT	Lush Jungle/Memorial Hill	Grass	Second Xurtitree Defeated/Captured Story Progression
-0	0xDB3	STORY EVENT	Lush Jungle/Memorial Hill	Grass	Second Xurtitree Defeated/Captured Story Progression
-0	0xDB4	STORY EVENT	Lush Jungle/Memorial Hill	Grass	Second Xurtitree Defeated/Captured Story Progression
-0	0xDB5	STORY EVENT	Route 17/Malie Garden	Grass	Fourth Kartana Defeated/Captured Story Progression (Sun)
-0	0xDB6	STORY EVENT	Route 17/Malie Garden	Grass	Fourth Kartana/Second Celesteela Defeated/Captured Story Progression (Sun/Moon)
-0	0xDB7	STORY EVENT	Route 17/Malie Garden	Grass	Second Celesteela Defeated/Captured Story Progression (Moon)
-0	0xDB8	STORY EVENT	Route 17/Malie Garden	Grass	Second Celesteela Defeated/Captured Story Progression (Moon)
-0	0xDB9	STORY EVENT	Route 17/Malie Garden	Grass	Second Celesteela Defeated/Captured Story Progression (Moon)
-0	0xDBA	STORY EVENT	Route 17/Malie Garden	Grass	Second Celesteela Defeated/Captured Story Progression (Moon)
-0	0xDBB	STORY EVENT	Route 17/Malie Garden	Grass	Second Celesteela Defeated/Captured Story Progression (Moon)
-0	0xDBC	STORY EVENT	Route 17/Malie Garden	Grass	Second Celesteela Defeated/Captured Story Progression (Moon)
-0	0xDBD	STORY EVENT	Route 17/Malie Garden	Grass	Second Celesteela Defeated/Captured Story Progression (Moon)
-0	0xDBE	STORY EVENT	Route 17/Malie Garden	Grass	Second Celesteela Defeated/Captured Story Progression (Moon)
-0	0xDBF	STORY EVENT	Resolution Cave	B1F	Guzzlord Defeated/Captured Story Progression
--	0	_SEPARATOR			TIMED_EVENTS_BEGIN
-0	0xE80	ITEM GIFT	Hau'oli City	Alola Tourist Bureau	[Daily] Has drawn Loto Ticket
-0	0xE81	ITEM GIFT	Festival Plaza		[Daily] Received Festival Ticket (x3) from girl
-0	0xE83	FIELD ITEM	Melemele Meadow		[Night Daily] Yellow Nectar
-0	0xE84	FIELD ITEM	Melemele Meadow		[Night Daily] Yellow Nectar
-0	0xE85	FIELD ITEM	Royal Avenue		[Day Daily] Pink Nectar
-0	0xE86	FIELD ITEM	Royal Avenue		[Day Daily] Pink Nectar
-0	0xE87	FIELD ITEM	Ula'ula Meadow		[Daily] Red Nectar
-0	0xE88	FIELD ITEM	Ula'ula Meadow		[Daily] Red Nectar
-0	0xE89	FIELD ITEM	Poni Meadow		[Daily] Purple Nectar
-0	0xE8A	FIELD ITEM	Poni Meadow		[Daily] Purple Nectar
-0	0xE8F	ITEM GIFT	Poké Center Café		[Daily] Received bonus item from man
+-	0	0x0A8	IN-GAME TRADE			Traded for Machop on Route 2
+-	0	0x0A9	IN-GAME TRADE			Traded for Bounsweet on Route 5
+-	0	0x0AA	IN-GAME TRADE			Traded for Poliwhirl in Konikoni City
+-	0	0x0AB	IN-GAME TRADE			Traded for Happiny in Malie City
+-	0	0x0AC	IN-GAME TRADE			Traded for Graveler in Tapu Village
+-	0	0x0AD	IN-GAME TRADE			Traded for Steene in Seafolk Village
+-	0	0x0AE	IN-GAME TRADE			Traded for Talonflame on Poni Gauntlet
+-	0	0x0E1	ITEM GIFT			FE_F0102D0302_DAI_ITEMGET
+-	0	0x0E2	ITEM GIFT			FE_F0301D1201_DAI_ITEMGET
+-	0	0x0E3	ITEM GIFT			FE_F0301D0102_04_DAI_ITEMGET
+-	0	0x0E4	ITEM GIFT			FE_F0102C0101_BIKINI1_ITEMGET
+-	0	0x0E5	ITEM GIFT			FE_F0102C0101_WOMAN_ITEMGET
+-	0	0x0E6	ITEM GIFT			FE_F0102C0102_MADAM_ITEMGET
+-	0	0x0E7	ITEM GIFT			FE_F0102I0101_ADULT_F_ITEMGET
+-	0	0x0E8	ITEM GIFT			FE_F0102S0301_BREED_M_ITEMGET
+-	0	0x0E9	ITEM GIFT			FE_F0102I0802_CLCTR_ITEMGET
+-	0	0x0EA	ITEM GIFT			FE_F0201_C0201_MDLFT_ITEMGET
+-	0	0x0EB	ITEM GIFT			FE_F0201_S1001_BKN_ITEMGET
+-	0	0x0EC	ITEM GIFT			FE_F0201I1701_YNGM_ITEMGET
+-	0	0x0ED	ITEM GIFT			FE_F0201PC0601_OLDM_ITEMGET
+-	0	0x0EE	ITEM GIFT			FE_F0201I0801_POKE1_ITEMGET
+-	0	0x0EF	ITEM GIFT			FE_F0501I0102_ESTFM_ITEMGET
+-	0	0x0F0	ITEM GIFT			FE_F0102I0701_MADAM_ITEMGET
+-	0	0x0F1	ITEM GIFT			FE_F0301PC0401_WTRS_ITEMGET
+-	0	0x0F2	ITEM GIFT			FE_F0401R0201_VTRNM_ITEMGET
+-	0	0x0F3	ITEM GIFT			FE_F0102I0103_ADULT_F_ITEMGET
+-	0	0x0F4	ITEM GIFT			FE_F0102I0105_TANPAN_ITEMGET
+-	0	0x0F6	ITEM GIFT			FE_F0201I0701_STM_ITEMGET
+-	0	0x0F7	ITEM GIFT			FE_F0102C0102_KANKOUM_ITEMGET
+-	0	0x0F8	ITEM GIFT			FE_F0102C0103_KANKOUM_ITEMGET
+-	0	0x0F9	ITEM GIFT			FE_F0102C0103_KANKOUF_ITEMGET
+-	0	0x0FB	ITEM GIFT			FE_F0301I0501_GENTL_ITEMGET
+-	0	0x0FC	ITEM GIFT			FE_F0102R0901_01_WMAN_ITEMGET
+-	0	0x0FD	ITEM GIFT			FE_F0201_C0301_PIKA_ITEMGET
+-	0	0x0FE	ITEM GIFT			FE_F0201R0101_02_BB_ITEMGET
+-	0	0x0FF	ITEM GIFT			FE_F0102R1001_DERI_ITEMGET
+-	0	0x100	ITEM GIFT			FE_F0102R0601_HAKASE_ITEMGET
+-	0	0x101	ITEM GIFT			FE_F0301_S0401_KPR_ITEMGET
+-	0	0x112	TRAINER BATTLE	Malie Garden		Veteran Don
+-	0	0x113	ITEM GIFT	Heahea City	GAME FREAK Office	Battled GAME FREAK Morimoto and received Oval Charm
+-	0	0x125	ITEM GIFT			FE_SUB044_ORE_ITEMGET
+-	0	0x196	TRAINER BATTLE	Route 15		Trial Guide Katrina
+-	0	0x197	TRAINER BATTLE	Poni Plans		Ace Trainer Cole
+-	0	0x198	TRAINER BATTLE	Mount Hokulani		Veteran Akira
+-	0	0x199	TRAINER BATTLE	Route 15		Trial Guide Katrina
+-	0	0x19A	TRAINER BATTLE	Poni Plans		Ace Trainer Cole
+-	0	0x19B	TRAINER BATTLE	Mount Hokulani		Veteran Akira
+-	0	0x19C	TRAINER BATTLE	Route 3		Ace Trainer Makana
+-	0	0x19D	TRAINER BATTLE	Route 8		Ace Trainer Eileen
+-	0	0x19E	TRAINER BATTLE	Diglett's Tunnel		Black Belt Greg
+-	0	0x19F	TRAINER BATTLE	Route 12		Collector Andrew
+-	0	0x1A0	TRAINER BATTLE	Ula'ula Meadow		Golfer Dean
+-	0	0x1A1	TRAINER BATTLE	Poni Wilds		Dancer Julia
+-	0	0x1A2	TRAINER BATTLE	Poni Gauntlet		Captain Mina
+-	0	0x1A3	TRAINER BATTLE	Route 5		Trial Guide Bronson
+-	0	0x1A4	TRAINER BATTLE	Route 3		Ace Trainer Makana
+-	0	0x1A5	TRAINER BATTLE	Route 8		Ace Trainer Eileen
+-	0	0x1A6	TRAINER BATTLE	Diglett's Tunnel		Black Belt Greg
+-	0	0x1A7	TRAINER BATTLE	Route 12		Collector Andrew
+-	0	0x1A8	TRAINER BATTLE	Ula'ula Meadow		Golfer Dean
+-	0	0x1A9	TRAINER BATTLE	Poni Wilds		Dancer Julia
+-	0	0x1AA	TRAINER BATTLE	Poni Gauntlet		Captain Mina
+-	0	0x1AB	TRAINER BATTLE	Route 5		Trial Guide Bronson
+-	0	0x1BB	PKMN GIFT			Received Gift Eevee Egg
+-	0	0x1BC	TRAINER BATTLE	Trainers' School	2F	Vaporeon User Polly
+-	0	0x1BD	TRAINER BATTLE	TIde Song Hotel		Flareon User Chad
+-	0	0x1BE	TRAINER BATTLE	Malie City	Malie Community Center	Jolteon User Jane
+-	0	0x1BF	TRAINER BATTLE	Blush Mountain	Geothermal Power Plant	Espeon User Ishaan
+-	0	0x1C0	TRAINER BATTLE	Hau'oli Cemetery		Umbreon User Braiden
+-	0	0x1C1	TRAINER BATTLE	Hano Beach		Leafeon User Linnea
+-	0	0x1C2	TRAINER BATTLE	Iki Town	Inside House	Glaceon User Rea
+-	0	0x1C3	TRAINER BATTLE	Seafolk Village	Inside East House	Sylveon User Kira
+-	0	0x1E6	TRAINER BATTLE	Hano Grand Resort		Veteran Roger
+-	0	0x1ED	PKMN GIFT			Received Gift Porygon
+-	0	0x1EF	ITEM GIFT			FE_SUB078_ITEMGET
+-	0	0x1F0	TRAINER BATTLE	Seafolk Village	Pokemon Center	Sightseer Marcus
+-	0	0x1F3	PKMN GIFT			Received Gift Type: Null
+-	0	0x1F8	PKMN GIFT			Received Gift Aerodactyl
+-	0	0x375	COLLECTABLE	Ancient Poni Path	Hapu's Room	Zygarde Core
+-	0	0x376	COLLECTABLE	Iki Town	Porch in Hala's House	Zygarde Core
+-	0	0x377	COLLECTABLE	Route 17	Police Station	Zygarde Core
+-	0	0x378	COLLECTABLE	Route 1	Home	Zygarde Core
+-	0	0x379	COLLECTABLE	Konikoni City	Olivia's Room	Zygarde Core
+-	0	0x457	SIDE EVENT	Malie Outer Cape		Ace Trainer Chase defeated
+-	0	0x465	SIDE EVENT	Hano Grand Resort		Golfer Tara & Tina
+-	0	0x474	SIDE EVENT	Royal Avenue	Thrifty Megamart	ALL Eevee Users Appears
+-	0	0x479	TRAINER BATTLE	Poni Breaker Coast		Swimmer Kylie & Swimmer Ashlyn
+-	0	0x4C0	PKMN GIFT			Received Gift Cosmog
+-	0	0x500	SIDE EVENT	Battle Tree		Red Standing Outside
+-	0	0x61C	FIELD ITEM			[unused?]
+-	0	0x61D	FIELD ITEM	Route 1	Hau'oli Outskirts	Awakening
+-	0	0x61E	HIDDEN ITEM	Malie Garden		Rare Bone
+-	0	0x61F	FIELD ITEM	Route 1		Potion
+-	0	0x620	FIELD ITEM	Route 1		Poké Ball
+-	0	0x621	FIELD ITEM	Route 1		Paralyze Heal
+-	0	0x622	FIELD ITEM	Route 1		Nugget
+-	0	0x623	FIELD ITEM	Route 1		Nest Ball
+-	0	0x624	FIELD ITEM	Route 1		Antidote
+-	0	0x625	FIELD ITEM	Route 1		Potion
+-	0	0x626	FIELD ITEM	Route 2		Revive
+-	0	0x627	FIELD ITEM	Route 2		Super Potion
+-	0	0x628	FIELD ITEM	Route 2		Star Piece
+-	0	0x629	FIELD ITEM	Route 2		Heal Ball
+-	0	0x62A	HIDDEN ITEM	Route 2		Repel
+-	0	0x62B	FIELD ITEM	Route 3		TM83 (Infestation)
+-	0	0x62C	FIELD ITEM	Route 3		Sharp Beak
+-	0	0x62D	FIELD ITEM	Route 3		Heal Ball
+-	0	0x62E	HIDDEN ITEM	Route 3		Stardust
+-	0	0x62F	FIELD ITEM	Route 3		Super Potion
+-	0	0x630	FIELD ITEM	Route 3		Nest Ball
+-	0	0x631	FIELD ITEM	Kala'e Bay		Dive Ball
+-	0	0x632	FIELD ITEM	Kala'e Bay		TM05 (Roar)
+-	0	0x633	FIELD ITEM	Kala'e Bay		Net Ball
+-	0	0x634	FIELD ITEM	Route 11		Big Mushroom
+-	0	0x635	FIELD ITEM	Ten Carat Hill	Cave	Super Potion
+-	0	0x636	FIELD ITEM	Ten Carat Hill	Farthest Hollow	Nugget
+-	0	0x637	FIELD ITEM	Melemele Sea		Soft Sand
+-	0	0x638	FIELD ITEM	Melemele Sea		TM80 (Rock Slide)
+-	0	0x639	FIELD ITEM	Seaward Cave		Super Potion
+-	0	0x63A	FIELD ITEM	Hau'oli City	Beachfront	Poké Ball
+-	0	0x63B	FIELD ITEM	Hau'oli City	Shopping District	Ether
+-	0	0x63C	FIELD ITEM	Hau'oli City	Marina	Super Potion
+-	0	0x63D	FIELD ITEM	Ten Carat Hill	Cave	X Attack
+-	0	0x63E	FIELD ITEM	Ten Carat Hill	Cave	Ultra Ball
+-	0	0x63F	HIDDEN ITEM	Ten Carat Hill	Cave	Ether
+-	0	0x640	FIELD ITEM	Ten Carat Hill	Farthest Hollow	TM62 (Acrobatics)
+-	0	0x641	FIELD ITEM	Ten Carat Hill	Farthest Hollow	Great Ball
+-	0	0x642	FIELD ITEM	Ten Carat Hill	Cave	TM64 (Explosion)
+-	0	0x643	HIDDEN ITEM	Ten Carat Hill	Farthest Hollow	Star Piece
+-	0	0x644	FIELD ITEM	Ten Carat Hill	Farthest Hollow	Hard Stone
+-	0	0x645	FIELD ITEM	Ten Carat Hill	Farthest Hollow	Burn Heal
+-	0	0x646	FIELD ITEM	Hau'oli Cemetery		TM100 (Confide)
+-	0	0x647	FIELD ITEM	Hau'oli Cemetery		Paralyze Heal
+-	0	0x648	FIELD ITEM	Hau'oli Cemetery		Super Potion
+-	0	0x649	FIELD ITEM	Hau'oli Cemetery		Big Mushroom
+-	0	0x64A	HIDDEN ITEM	Hau'oli Cemetery		Ether
+-	0	0x64B	HIDDEN ITEM	Hau'oli Cemetery		Great Ball
+-	0	0x64C	FIELD ITEM	Melemele Meadow		Poison Barb
+-	0	0x64D	FIELD ITEM	Melemele Meadow		Net Ball
+-	0	0x64E	FIELD ITEM	Melemele Meadow		Great Ball
+-	0	0x64F	HIDDEN ITEM	Melemele Meadow		Honey
+-	0	0x650	HIDDEN ITEM	Melemele Meadow		Honey
+-	0	0x651	HIDDEN ITEM	Melemele Meadow		Honey
+-	0	0x652	FIELD ITEM	Seaward Cave		Expert Belt
+-	0	0x653	FIELD ITEM	Seaward Cave		Never-Melt Ice
+-	0	0x654	FIELD ITEM	Seaward Cave		Escape Rope
+-	0	0x655	FIELD ITEM	Seaward Cave		Heal Ball
+-	0	0x656	FIELD ITEM	Seaward Cave		Max Revive
+-	0	0x657	HIDDEN ITEM	Seaward Cave		Star Piece
+-	0	0x658	HIDDEN ITEM	Seaward Cave		Stardust
+-	0	0x659	FIELD ITEM	Berry Fields		Silver Powder
+-	0	0x65A	FIELD ITEM	Berry Fields		Big Mushroom
+-	0	0x65B	HIDDEN ITEM	Berry Fields		Repel
+-	0	0x65C	FIELD ITEM	Verdant Cavern	Trial Site	Super Potion
+-	0	0x65D	FIELD ITEM	Verdant Cavern	Trial Site	TM31 (Brick Break)
+-	0	0x65E	FIELD ITEM	Verdant Cavern	Trial Site	Super Potion
+-	0	0x65F	FIELD ITEM	Verdant Cavern	Trial Site	X Defense
+-	0	0x660	HIDDEN ITEM	Verdant Cavern	Trial Site	Revive
+-	0	0x661	FIELD ITEM	Verdant Cavern	Totem's Den	TM46 (Thief)
+-	0	0x662	HIDDEN ITEM	Verdant Cavern	Totem's Den	Energy Root
+-	0	0x663	FIELD ITEM	Route 1	Trainer's School	Potion
+-	0	0x664	FIELD ITEM	Route 1	Trainer's School	Antidote
+-	0	0x665	FIELD ITEM	Route 1	Trainer's School	Potion
+-	0	0x666	HIDDEN ITEM	Route 1	Trainer's School	Great Ball
+-	0	0x667	FIELD ITEM	Brooklet Hill		Rare Candy
+-	0	0x668	FIELD ITEM	Brooklet Hill		Net Ball
+-	0	0x669	HIDDEN ITEM	Brooklet Hill		Elixir
+-	0	0x66A	FIELD ITEM	Brooklet Hill		X Sp. Attack
+-	0	0x66B	HIDDEN ITEM	Brooklet Hill		Max Repel
+-	0	0x66C	FIELD ITEM	Brooklet Hill		Revive
+-	0	0x66D	FIELD ITEM	Brooklet Hill		TM55 (Scald)
+-	0	0x66E	FIELD ITEM	Brooklet Hill	Totem's Den	Hyper Potion
+-	0	0x66F	FIELD ITEM	Lush Jungle		Big Root
+-	0	0x670	FIELD ITEM	Lush Jungle		Super Potion
+-	0	0x671	FIELD ITEM	Lush Jungle		Max Revive
+-	0	0x672	HIDDEN ITEM	Lush Jungle		X Defense
+-	0	0x673	FIELD ITEM	Lush Jungle		TM86 (Grass Knot)
+-	0	0x674	HIDDEN ITEM	Lush Jungle		Hyper Potion
+-	0	0x675	HIDDEN ITEM	Lush Jungle		X Sp. Attack
+-	0	0x676	HIDDEN ITEM	Lush Jungle		Heal Powder
+-	0	0x677	HIDDEN ITEM	Lush Jungle		X Attack
+-	0	0x678	HIDDEN ITEM	Lush Jungle	Cave	Rare Candy
+-	0	0x679	FIELD ITEM	Lush Jungle	Cave	Awakening
+-	0	0x67A	FIELD ITEM	Route 4		Great Ball
+-	0	0x67B	FIELD ITEM	Route 4		Revive
+-	0	0x67C	FIELD ITEM	Route 4		Adrenaline Orb
+-	0	0x67D	HIDDEN ITEM	Route 4		Tiny Mushroom
+-	0	0x67E	FIELD ITEM	Route 4		Energy Root
+-	0	0x67F	FIELD ITEM	Route 5		TM57 (Charge Beam)
+-	0	0x680	FIELD ITEM	Route 5		TM41 (Torment)
+-	0	0x681	FIELD ITEM	Route 5		Ether
+-	0	0x682	FIELD ITEM	Route 5		Hyper Potion
+-	0	0x683	FIELD ITEM	Route 5		Super Potion
+-	0	0x684	HIDDEN ITEM	Route 5		PP Up
+-	0	0x685	HIDDEN ITEM	Route 5		Nugget
+-	0	0x686	HIDDEN ITEM	Route 5		Star Piece
+-	0	0x687	FIELD ITEM	Route 5		TM59 (Brutal Swing)
+-	0	0x688	FIELD ITEM	Route 6		Super Potion
+-	0	0x689	FIELD ITEM	Route 6		Rare Candy
+-	0	0x68A	HIDDEN ITEM	Route 6		X Speed
+-	0	0x68B	FIELD ITEM	Route 7		TM73 (Thunder Wave)
+-	0	0x68C	FIELD ITEM	Route 7		Max Repel
+-	0	0x68D	FIELD ITEM	Hano Beach		Black Glasses
+-	0	0x68E	FIELD ITEM	Route 8		Big Pearl
+-	0	0x68F	FIELD ITEM	Route 8		Miracle Seed
+-	0	0x690	FIELD ITEM	Route 8		Ultra Ball
+-	0	0x691	FIELD ITEM	Route 8		Dive Ball
+-	0	0x692	FIELD ITEM	Route 8		Hyper Potion
+-	0	0x693	FIELD ITEM	Route 8		Water Stone
+-	0	0x694	HIDDEN ITEM	Route 8		Max Repel
+-	0	0x695	HIDDEN ITEM	Route 8		Iron
+-	0	0x696	FIELD ITEM	Route 8		TM53 (Energy Ball)
+-	0	0x697	FIELD ITEM	Route 9		Net Ball
+-	0	0x698	FIELD ITEM	Konikoni City		Eviolite
+-	0	0x699	FIELD ITEM	Konikoni City		TM61 (Will-O-Wisp)
+-	0	0x69A	FIELD ITEM	Paniola Town		TM88 (Sleep Talk)
+-	0	0x69B	HIDDEN ITEM	Hano Beach		Pearl
+-	0	0x69C	FIELD ITEM	Royal Avenue		HP Up
+-	0	0x69D	FIELD ITEM	Royal Avenue		Ultra Ball
+-	0	0x69E	FIELD ITEM	Memorial Hill		Spell Tag
+-	0	0x69F	FIELD ITEM	Memorial Hill		Cleanse Tag
+-	0	0x6A0	FIELD ITEM	Memorial Hill		Hyper Potion
+-	0	0x6A1	HIDDEN ITEM	Memorial Hill		Adrenaline Orb
+-	0	0x6A2	FIELD ITEM	Diglett's Tunnel		Fire Stone
+-	0	0x6A3	FIELD ITEM	Diglett's Tunnel		Dusk Ball
+-	0	0x6A4	FIELD ITEM	Diglett's Tunnel		Hyper Potion
+-	0	0x6A5	HIDDEN ITEM	Diglett's Tunnel		X Attack
+-	0	0x6A6	FIELD ITEM	Route 8	Fossil Restoration Center	Thunder Stone
+-	0	0x6A7	FIELD ITEM	Paniola Ranch		Heal Ball
+-	0	0x6A8	FIELD ITEM	Paniola Ranch		Ether
+-	0	0x6A9	FIELD ITEM	Wela Volcano Park		Burn Heal
+-	0	0x6AA	FIELD ITEM	Route 1	Trainer's School	Paralyze Heal
+-	0	0x6AB	HIDDEN ITEM	Route 2		Stardust
+-	0	0x6AC	FIELD ITEM	Route 2		Super Potion
+-	0	0x6AD	HIDDEN ITEM	Berry Fields		Paralyze Heal
+-	0	0x6AE	HIDDEN ITEM	Route 1	Trainer's School	Poké Ball
+-	0	0x6AF	HIDDEN ITEM	Route 4		Dire Hit
+-	0	0x6B0	HIDDEN ITEM	Route 4		Big Mushroom
+-	0	0x6B1	HIDDEN ITEM	Route 6		Carbos
+-	0	0x6B2	FIELD ITEM	Route 11		Tiny Mushroom
+-	0	0x6B3	HIDDEN ITEM	Route 8		Adrenaline Orb
+-	0	0x6B4	HIDDEN ITEM	Konikoni City		Big Pearl
+-	0	0x6B5	HIDDEN ITEM	Paniola Town		Fresh Water
+-	0	0x6B6	HIDDEN ITEM	Paniola Town		Revive
+-	0	0x6B7	HIDDEN ITEM	Royal Avenue		Soda Pop
+-	0	0x6B8	HIDDEN ITEM	Royal Avenue		Rare Candy
+-	0	0x6B9	HIDDEN ITEM	Memorial Hill		Revival Herb
+-	0	0x6BA	HIDDEN ITEM	Diglett's Tunnel		Nugget
+-	0	0x6BB	HIDDEN ITEM	Diglett's Tunnel		Escape Rope
+-	0	0x6BC	HIDDEN ITEM	Route 8	Fossil Restoration Center	Awakening
+-	0	0x6BD	HIDDEN ITEM	Paniola Ranch		Oval Stone
+-	0	0x6BE	FIELD ITEM	Route 11		Big Mushroom
+-	0	0x6BF	FIELD ITEM	Wela Volcano Park		TM39 (Rock Tomb)
+-	0	0x6C0	FIELD ITEM	Wela Volcano Park		Hyper Potion
+-	0	0x6C1	HIDDEN ITEM	Route 9		X Accuracy
+-	0	0x6C2	FIELD ITEM	Akala Outskirts		TM28 (Leach Life)
+-	0	0x6C3	FIELD ITEM	Route 10		Paralyze Heal
+-	0	0x6C4	FIELD ITEM	Route 10		X Accuracy
+-	0	0x6C5	HIDDEN ITEM	Route 10		Tiny Mushroom
+-	0	0x6C6	HIDDEN ITEM	Route 10		Lemonade
+-	0	0x6C7	FIELD ITEM	Route 11		TM74 (Gyro Ball)
+-	0	0x6C8	FIELD ITEM	Route 11		Quick Ball
+-	0	0x6C9	HIDDEN ITEM	Route 11		Star Piece
+-	0	0x6CA	FIELD ITEM	Route 12		Hyper Potion
+-	0	0x6CB	FIELD ITEM	Route 12		Elixir
+-	0	0x6CC	FIELD ITEM	Route 12		X Attack
+-	0	0x6CD	HIDDEN ITEM	Route 12		PP Up
+-	0	0x6CE	FIELD ITEM	Route 14		Max Potion
+-	0	0x6CF	FIELD ITEM	Route 14		TM30 (Shadow Ball)
+-	0	0x6D0	FIELD ITEM	Mount Hokulani		Fast Ball
+-	0	0x6D1	FIELD ITEM	Mount Hokulani		Heavy Ball
+-	0	0x6D2	FIELD ITEM	Route 15		Dive Ball
+-	0	0x6D3	FIELD ITEM	Route 15		Hyper Potion
+-	0	0x6D4	FIELD ITEM	Malie City	Outer Cape	X Speed
+-	0	0x6D5	FIELD ITEM	Route 16		TM81 (X-Scissor)
+-	0	0x6D6	FIELD ITEM	Route 17		Full Heal
+-	0	0x6D7	FIELD ITEM	Route 17		TM84 (Poison Jab)
+-	0	0x6D8	FIELD ITEM	Malie City	Outer Cape	Antidote
+-	0	0x6D9	FIELD ITEM	Malie City	Outer Cape	Nugget
+-	0	0x6DA	FIELD ITEM	Ula'ula Meadow		X Sp. Defense
+-	0	0x6DB	FIELD ITEM	Mount Hokulani		Max Potion
+-	0	0x6DC	FIELD ITEM	Blush Mountain		Sun Stone
+-	0	0x6DD	FIELD ITEM	Blush Mountain		Timer Ball
+-	0	0x6DE	HIDDEN ITEM	Blush Mountain		Zinc
+-	0	0x6DF	FIELD ITEM	Lake of Sunne / Moone		TM03 (Psyshock)
+-	0	0x6E0	FIELD ITEM	Route 12		Burn Heal
+-	0	0x6E1	FIELD ITEM	Mount Lanakila		Escape Rope
+-	0	0x6E2	FIELD ITEM	Mount Lanakila		Max Revive
+-	0	0x6E3	FIELD ITEM	Mount Lanakila	Cave	Full Restore
+-	0	0x6E4	HIDDEN ITEM	Mount Lanakila		PP Max
+-	0	0x6E5	FIELD ITEM			[unused?]
+-	0	0x6E6	FIELD ITEM			[unused?]
+-	0	0x6E7	FIELD ITEM			[unused?]
+-	0	0x6E8	FIELD ITEM			[unused?]
+-	0	0x6E9	FIELD ITEM			[unused?]
+-	0	0x6EA	FIELD ITEM			[unused?]
+-	0	0x6EB	FIELD ITEM	Mount Lanakila	Cave	TM13 (Ice Beam)
+-	0	0x6EC	FIELD ITEM	Hano Beach		Antidote
+-	0	0x6ED	FIELD ITEM	Hano Beach		Dive Ball
+-	0	0x6EE	FIELD ITEM	Hano Beach		Pearl String
+-	0	0x6EF	FIELD ITEM	Ancient Poni Path		Adrenaline Orb
+-	0	0x6F0	FIELD ITEM	Ancient Poni Path		TM79 (Frost Breath)
+-	0	0x6F1	FIELD ITEM	Ancient Poni Path		Shiny Stone
+-	0	0x6F2	HIDDEN ITEM	Ancient Poni Path		Revival Herb
+-	0	0x6F3	HIDDEN ITEM	Ancient Poni Path		PP Up
+-	0	0x6F4	HIDDEN ITEM	Poni Breaker Coast		Calcium
+-	0	0x6F5	FIELD ITEM	Poni Grove		Max Potion
+-	0	0x6F6	FIELD ITEM	Poni Grove		X Sp. Attack
+-	0	0x6F7	FIELD ITEM	Poni Plains		Star Piece
+-	0	0x6F8	FIELD ITEM	Poni Plains		TM24 (Thunderbolt)
+-	0	0x6F9	FIELD ITEM	Poni Plains		X Defense
+-	0	0x6FA	HIDDEN ITEM	Poni Plains		PP Max
+-	0	0x6FB	FIELD ITEM	Poni Coast		Comet Shard
+-	0	0x6FC	FIELD ITEM	Poni Coast		TM97 (Dark Pulse)
+-	0	0x6FD	FIELD ITEM	Poni Gauntlet		Big Pearl
+-	0	0x6FE	FIELD ITEM	Poni Meadow		Power Herb
+-	0	0x6FF	FIELD ITEM	Poni Meadow		Honey
+-	0	0x700	FIELD ITEM	Poni Meadow		TM50 (Overheat)
+-	0	0x701	FIELD ITEM	Vast Poni Canyon	Outside	Full Heal
+-	0	0x702	HIDDEN ITEM	Vast Poni Canyon	Outside	PP Max
+-	0	0x703	HIDDEN ITEM	Vast Poni Canyon	Outside	X Defense
+-	0	0x704	FIELD ITEM	Vast Poni Canyon	Outside	Max Potion
+-	0	0x705	FIELD ITEM	Vast Poni Canyon	Cave	Elixir
+-	0	0x706	FIELD ITEM	Vast Poni Canyon	Cave	Max Potion
+-	0	0x707	HIDDEN ITEM	Vast Poni Canyon	Cave	Nugget
+-	0	0x708	FIELD ITEM	Vast Poni Canyon	Cave	Escape Rope
+-	0	0x709	FIELD ITEM	Vast Poni Canyon	Cave	Rare Candy
+-	0	0x70A	FIELD ITEM	Vast Poni Canyon	Cave	TM35 (Flamathrower)
+-	0	0x70B	FIELD ITEM	Vast Poni Canyon	Cave	Full Restore
+-	0	0x70C	FIELD ITEM	Resolution Cave		Terrain Extender
+-	0	0x70D	FIELD ITEM	Resolution Cave		TM26 (Earthquake)
+-	0	0x70E	FIELD ITEM	Exeggutor Island		Prism Scale
+-	0	0x70F	FIELD ITEM	Vast Poni Canyon	Trial Site	TM02 (Dragon Claw)
+-	0	0x710	FIELD ITEM	Aether Paradise	B1F: Docks	X Sp. Attack
+-	0	0x711	FIELD ITEM	Poni Wilds		Rare Candy
+-	0	0x712	FIELD ITEM	Poni Wilds		Max Repel
+-	0	0x713	FIELD ITEM	Poni Wilds		Max Potion
+-	0	0x714	FIELD ITEM	Poni Plains		Carbos
+-	0	0x715	FIELD ITEM	Vast Poni Canyon	Outside	Dusk Ball
+-	0	0x716	FIELD ITEM	Vast Poni Canyon	Outside	TM99 (Dazzling Gleam)
+-	0	0x717	FIELD ITEM	Vast Poni Canyon	Outside	Revive
+-	0	0x718	HIDDEN ITEM	Vast Poni Canyon	Outside	X Sp. Attack
+-	0	0x719	HIDDEN ITEM	Vast Poni Canyon	Outside	X Attack
+-	0	0x71A	FIELD ITEM	Poni Gauntlet		Guard Spec.
+-	0	0x71B	FIELD ITEM	Mount Hokulani		TM72 (Volt Switch)
+-	0	0x71C	FIELD ITEM	Aether Paradise	B1F: Docks	Rare Candy
+-	0	0x71D	FIELD ITEM	Haina Desert		Max Elixir
+-	0	0x71E	FIELD ITEM	Haina Desert		Comet Shard
+-	0	0x71F	FIELD ITEM	Haina Desert		TM85 (Dream Eater)
+-	0	0x720	FIELD ITEM	Malie Garden		Grassy Seed
+-	0	0x721	FIELD ITEM	Malie Garden		Big Mushroom
+-	0	0x722	FIELD ITEM	Malie Garden		Rage Candy Bar
+-	0	0x723	FIELD ITEM	Malie Garden		Luxury Ball
+-	0	0x724	FIELD ITEM	Melemele Sea		Super Repel
+-	0	0x725	FIELD ITEM	Hau'oli City	Shopping District	TM49 (Echoed Voice)
+-	0	0x726	FIELD ITEM	Hau'oli City	Shopping District	Tiny Mushroom
+-	0	0x727	FIELD ITEM	Hau'oli City	Shopping District	Revive
+-	0	0x728	HIDDEN ITEM	Hau'oli City	Shopping District	Stardust
+-	0	0x729	FIELD ITEM	Mahalo Trail	Plank Bridge	Electric Seed
+-	0	0x72A	HIDDEN ITEM	Ten Carat Hill	Cave	Protein
+-	0	0x72B	FIELD ITEM	Route 7		Antidote
+-	0	0x72C	FIELD ITEM	Heahea City		Big Mushroom
+-	0	0x72D	FIELD ITEM	Paniola Ranch		Amulet Coin
+-	0	0x72E	HIDDEN ITEM	Paniola Ranch		Fresh Water
+-	0	0x72F	FIELD ITEM	Wela Volcano Park		Charcoal
+-	0	0x730	FIELD ITEM	Route 13		Moon Stone
+-	0	0x731	HIDDEN ITEM	Route 11		Stardust
+-	0	0x732	FIELD ITEM	Route 15		TM93 (Wild Charge)
+-	0	0x733	FIELD ITEM	Route 16		PP Up
+-	0	0x734	HIDDEN ITEM	Route 17		X Attack
+-	0	0x735	HIDDEN ITEM	Route 17		Dire Hit
+-	0	0x736	FIELD ITEM	Po Town		Max Repel
+-	0	0x737	FIELD ITEM	Po Town		Rare Candy
+-	0	0x738	FIELD ITEM	Po Town		Smoke Ball
+-	0	0x739	FIELD ITEM	Po Town		Ice Stone
+-	0	0x73A	HIDDEN ITEM	Mount Hokulani		Rare Candy
+-	0	0x73B	FIELD ITEM	Shady House	1F	Heal Powder
+-	0	0x73C	FIELD ITEM	Shady House	1F	Max Revive
+-	0	0x73D	FIELD ITEM	Shady House	2F	TM36 (Sludge Bomb)
+-	0	0x73E	FIELD ITEM	Shady House	2F	Iron
+-	0	0x73F	FIELD ITEM	Shady House	Roof	Escape Rope
+-	0	0x740	HIDDEN ITEM	Route 11		Stardust
+-	0	0x741	FIELD ITEM	Poni Wilds		Dusk Stone
+-	0	0x742	FIELD ITEM	Poni Wilds		Pearl String
+-	0	0x743	HIDDEN ITEM	Poni Grove		Max Ether
+-	0	0x744	HIDDEN ITEM	Poni Coast		Max Revive
+-	0	0x745	FIELD ITEM	Poni Gauntlet		Misty Seed
+-	0	0x746	HIDDEN ITEM	Poni Gauntlet		Max Elixir
+-	0	0x747	FIELD ITEM	Aether Paradise	B1F: Docks	TM06 (Toxic)
+-	0	0x748	HIDDEN ITEM	Resolution Cave		HP Up
+-	0	0x749	FIELD ITEM	Resolution Cave	Inner	Adrenaline Orb
+-	0	0x74A	FIELD ITEM	Resolution Cave	Inner	Light Ball
+-	0	0x74B	FIELD ITEM	Resolution Cave	Inner	Life Orb
+-	0	0x74C	HIDDEN ITEM	Resolution Cave	Inner	Big Nugget
+-	0	0x74D	HIDDEN ITEM	Exeggutor Island		Heart Scale
+-	0	0x74E	FIELD ITEM	Seafolk Village	Steelix Ship	TM91 (Flash Cannon)
+-	0	0x74F	FIELD ITEM	Aether Paradise	Outside	Full Heal
+-	0	0x750	FIELD ITEM	Aether Paradise	Outside	Hyper Potion
+-	0	0x751	FIELD ITEM	Aether Paradise	B2F: Lab Area	Full Restore
+-	0	0x752	FIELD ITEM	Route 17		Lemonade
+-	0	0x753	HIDDEN ITEM	Paniola Ranch		Super Repel
+-	0	0x754	HIDDEN ITEM	Paniola Ranch		Soda Pop
+-	0	0x755	HIDDEN ITEM	Paniola Ranch		Big Mushroom
+-	0	0x756	HIDDEN ITEM	Paniola Ranch		Repel
+-	0	0x757	HIDDEN ITEM	Paniola Ranch		Moomoo Milk
+-	0	0x758	FIELD ITEM	Ula'ula Meadow		Adrenaline Orb
+-	0	0x759	FIELD ITEM	Ula'ula Meadow		Repeat Ball
+-	0	0x75A	HIDDEN ITEM	Route 1	Hau'oli Outskirts	Earth Plate
+-	0	0x75B	HIDDEN ITEM	Hau'oli City	Shopping District	Insect Plate
+-	0	0x75C	HIDDEN ITEM	Hau'oli City	Beachfront	Icicle Plate
+-	0	0x75D	HIDDEN ITEM	Route 1	Trainer's School	Flame Plate
+-	0	0x75E	HIDDEN ITEM	Route 1	Hau'oli Outskirts	Mind Plate
+-	0	0x75F	HIDDEN ITEM	Hau'oli City	Shopping District	Meadow Plate
+-	0	0x760	HIDDEN ITEM	Hau'oli City	Shopping District	Toxic Plate
+-	0	0x761	HIDDEN ITEM	Hau'oli Cemetery		Spooky Plate
+-	0	0x762	HIDDEN ITEM	Hau'oli City	Shopping District	Draco Plate
+-	0	0x763	HIDDEN ITEM	Paniola Town		Super Repel
+-	0	0x764	FIELD ITEM	Memorial Hill		Dusk Ball
+-	0	0x765	HIDDEN ITEM	Memorial Hill		Heal Powder
+-	0	0x766	HIDDEN ITEM	Memorial Hill		Super Repel
+-	0	0x767	HIDDEN ITEM	Akala Outskirts		Big Mushroom
+-	0	0x768	HIDDEN ITEM	Akala Outskirts		Tiny Mushroom
+-	0	0x769	HIDDEN ITEM	Akala Outskirts		Tiny Mushroom
+-	0	0x76A	FIELD ITEM	Mount Hokulani		Level Ball
+-	0	0x76B	FIELD ITEM	Route 13		Guard Spec.
+-	0	0x76C	FIELD ITEM	Resolution Cave		Elixir
+-	0	0x76D	HIDDEN ITEM	Exeggutor Island		Big Pearl
+-	0	0x76E	FIELD ITEM			[unused?]
+-	0	0x76F	FIELD ITEM			[unused?]
+-	0	0x770	FIELD ITEM			[unused?]
+-	0	0x771	FIELD ITEM			[unused?]
+-	0	0x772	FIELD ITEM			[unused?]
+-	0	0x773	FIELD ITEM			[unused?]
+-	0	0x774	FIELD ITEM			[unused?]
+-	0	0x775	FIELD ITEM			[unused?]
+-	0	0x776	FIELD ITEM			[unused?]
+-	0	0x777	FIELD ITEM			[unused?]
+-	0	0x778	FIELD ITEM			[unused?]
+-	0	0x779	FIELD ITEM			[unused?]
+-	0	0x77A	FIELD ITEM			[unused?]
+-	0	0x77B	FIELD ITEM			[unused?]
+-	0	0x77C	FIELD ITEM			[unused?]
+-	0	0x77D	FIELD ITEM			[unused?]
+-	0	0x77E	FIELD ITEM			[unused?]
+-	0	0x77F	FIELD ITEM			[unused?]
+-	0	0x780	FIELD ITEM			[unused?]
+-	0	0x781	FIELD ITEM			[unused?]
+-	0	0x782	FIELD ITEM			[unused?]
+-	0	0x783	FIELD ITEM			[unused?]
+-	0	0x784	FIELD ITEM			[unused?]
+-	0	0x785	FIELD ITEM			[unused?]
+-	0	0x786	FIELD ITEM			[unused?]
+-	0	0x787	FIELD ITEM			[unused?]
+-	0	0x788	FIELD ITEM			[unused?]
+-	0	0x789	FIELD ITEM			[unused?]
+-	0	0x78A	FIELD ITEM			[unused?]
+-	0	0x78B	FIELD ITEM			[unused?]
+-	0	0x78C	FIELD ITEM			[unused?]
+-	0	0x78D	FIELD ITEM			[unused?]
+-	0	0x78E	FIELD ITEM			[unused?]
+-	0	0x78F	FIELD ITEM			[unused?]
+-	0	0x790	FIELD ITEM			[unused?]
+-	0	0x791	FIELD ITEM			[unused?]
+-	0	0x792	FIELD ITEM			[unused?]
+-	0	0x793	FIELD ITEM			[unused?]
+-	0	0x794	FIELD ITEM			[unused?]
+-	0	0x795	FIELD ITEM			[unused?]
+-	0	0x796	FIELD ITEM			[unused?]
+-	0	0x797	FIELD ITEM			[unused?]
+-	0	0x798	FIELD ITEM			[unused?]
+-	0	0x799	FIELD ITEM			[unused?]
+-	0	0x79A	FIELD ITEM			[unused?]
+-	0	0x79B	FIELD ITEM			[unused?]
+-	0	0x79C	FIELD ITEM			[unused?]
+-	0	0x79D	FIELD ITEM			[unused?]
+-	0	0x79E	FIELD ITEM			[unused?]
+-	0	0x79F	FIELD ITEM			[unused?]
+-	0	0x7A0	FIELD ITEM			[unused?]
+-	0	0x7A1	FIELD ITEM			[unused?]
+-	0	0x7A2	FIELD ITEM			[unused?]
+-	0	0x7A3	FIELD ITEM			[unused?]
+-	0	0x7A4	FIELD ITEM			[unused?]
+-	0	0x7A5	FIELD ITEM			[unused?]
+-	0	0x7A6	FIELD ITEM			[unused?]
+-	0	0x7A7	FIELD ITEM			[unused?]
+-	0	0x7A8	FIELD ITEM			[unused?]
+-	0	0x7A9	FIELD ITEM			[unused?]
+-	0	0x7AA	FIELD ITEM			[unused?]
+-	0	0x7AB	FIELD ITEM			[unused?]
+-	0	0x7AC	FIELD ITEM			[unused?]
+-	0	0x7AD	FIELD ITEM			[unused?]
+-	0	0x7AE	FIELD ITEM			[unused?]
+-	0	0x7AF	FIELD ITEM			[unused?]
+-	0	0x7B0	FIELD ITEM			[unused?]
+-	0	0x7B1	FIELD ITEM			[unused?]
+-	0	0x7E0	HIDDEN ITEM	Secluded Shore		Big Pearl (recurring)
+-	0	0x7E1	HIDDEN ITEM	Secluded Shore		Pearl (recurring)
+-	0	0x7E2	HIDDEN ITEM	Secluded Shore		Pearl (recurring)
+-	0	0x7E3	HIDDEN ITEM	Secluded Shore		Big Pearl (recurring)
+-	0	0x7E4	HIDDEN ITEM	Hano Beach		Heart Scale (recurring)
+-	0	0x7E5	HIDDEN ITEM	Hano Beach		Heart Scale (recurring)
+-	0	0x7E6	HIDDEN ITEM	Hano Beach		Pearl (recurring)
+-	0	0x7E7	HIDDEN ITEM	Hano Beach		Pearl (recurring)
+-	0	0x7E8	HIDDEN ITEM	Hano Beach		Soda Pop (recurring)
+-	0	0x7E9	HIDDEN ITEM	Route 1	Hau'oli Outskirts	Pearl (recurring)
+-	0	0x7EA	HIDDEN ITEM	Kala'e Bay		Pearl (recurring)
+-	0	0x7EB	HIDDEN ITEM	Kala'e Bay		Big Pearl (recurring)
+-	0	0x7EC	HIDDEN ITEM	Melemele Sea		Rare Candy (recurring)
+-	0	0x7ED	HIDDEN ITEM	Hau'oli City	Beachfront	Pearl (recurring)
+-	0	0x7EE	HIDDEN ITEM	Hau'oli City	Beachfront	Fresh Water (recurring)
+-	0	0x7EF	HIDDEN ITEM	Route 7		Pearl (recurring)
+-	0	0x7F0	HIDDEN ITEM	Route 7		Net Ball (recurring)
+-	0	0x7F1	HIDDEN ITEM	Route 14		Big Pearl (recurring)
+-	0	0x7F2	HIDDEN ITEM	Route 14		Pearl (recurring)
+-	0	0x7F3	HIDDEN ITEM	Route 15		Normal Gem (recurring)
+-	0	0x7F4	HIDDEN ITEM	Route 15		Pearl (recurring)
+-	0	0x7F5	HIDDEN ITEM	Poni Wilds		Big Pearl (recurring)
+-	0	0x7F6	HIDDEN ITEM	Poni Wilds		Repeat Ball (recurring)
+-	0	0x7F7	HIDDEN ITEM	Poni Wilds		Pearl (recurring)
+-	0	0x7F8	HIDDEN ITEM			[unused?]
+-	0	0x7F9	HIDDEN ITEM			[unused?]
+-	0	0x7FA	HIDDEN ITEM			[unused?]
+-	0	0x7FB	HIDDEN ITEM			[unused?]
+-	0	0x7FC	HIDDEN ITEM			[unused?]
+-	0	0x7FD	HIDDEN ITEM			[unused?]
+-	0	0x7FE	HIDDEN ITEM			[unused?]
+-	0	0x7FF	HIDDEN ITEM			[unused?]
+-	0	0x800	HIDDEN ITEM			[unused?]
+-	0	0x801	HIDDEN ITEM			[unused?]
+-	0	0x802	HIDDEN ITEM			[unused?]
+-	0	0x803	HIDDEN ITEM			[unused?]
+-	0	0x804	HIDDEN ITEM			[unused?]
+-	0	0x805	HIDDEN ITEM			[unused?]
+-	0	0x806	HIDDEN ITEM			[unused?]
+-	0	0x807	HIDDEN ITEM			[unused?]
+-	0	0x808	HIDDEN ITEM			[unused?]
+-	0	0x809	HIDDEN ITEM			[unused?]
+-	0	0x80A	HIDDEN ITEM			[unused?]
+-	0	0x80B	HIDDEN ITEM			[unused?]
+-	0	0x80C	HIDDEN ITEM			[unused?]
+-	0	0x80D	HIDDEN ITEM			[unused?]
+-	0	0x80E	HIDDEN ITEM			[unused?]
+-	0	0x80F	HIDDEN ITEM			[unused?]
+-	0	0x810	HIDDEN ITEM			[unused?]
+-	0	0x811	HIDDEN ITEM			[unused?]
+-	0	0x812	HIDDEN ITEM			[unused?]
+-	0	0x813	HIDDEN ITEM			[unused?]
+-	0	0x814	HIDDEN ITEM			[unused?]
+-	0	0x815	HIDDEN ITEM			[unused?]
+-	0	0x816	HIDDEN ITEM			[unused?]
+-	0	0x817	HIDDEN ITEM			[unused?]
+-	0	0x818	HIDDEN ITEM			[unused?]
+-	0	0x819	HIDDEN ITEM			[unused?]
+-	0	0x81A	HIDDEN ITEM			[unused?]
+-	0	0x81B	HIDDEN ITEM			[unused?]
+-	0	0x81D	TRAINER BATTLE	Route 1	Hau'oli Outskirts	Lass Madison
+-	0	0x81E	TRAINER BATTLE	Route 2		Lass Isabella
+-	0	0x81F	TRAINER BATTLE			TR_FLAG_003
+-	0	0x820	TRAINER BATTLE			TR_FLAG_004
+-	0	0x821	TRAINER BATTLE			TR_FLAG_005
+-	0	0x822	TRAINER BATTLE			TR_FLAG_006
+-	0	0x823	TRAINER BATTLE			TR_FLAG_007
+-	0	0x824	TRAINER BATTLE			TR_FLAG_008
+-	0	0x825	TRAINER BATTLE			TR_FLAG_009
+-	0	0x826	TRAINER BATTLE			TR_FLAG_010
+-	0	0x827	TRAINER BATTLE			TR_FLAG_011
+-	0	0x828	TRAINER BATTLE			TR_FLAG_012
+-	0	0x829	TRAINER BATTLE			TR_FLAG_013
+-	0	0x82A	TRAINER BATTLE			TR_FLAG_014
+-	0	0x82B	TRAINER BATTLE			TR_FLAG_015
+-	0	0x82C	TRAINER BATTLE	Route 3		Ace Trainer Makana
+-	0	0x82D	TRAINER BATTLE			TR_FLAG_017
+-	0	0x82E	TRAINER BATTLE			TR_FLAG_018
+-	0	0x82F	TRAINER BATTLE			TR_FLAG_019
+-	0	0x830	TRAINER BATTLE			TR_FLAG_020
+-	0	0x831	TRAINER BATTLE	Trainers' School	Outside	Youth Athlete Hiromi
+-	0	0x832	TRAINER BATTLE	Trainers' School	Outside	Youngster Joey
+-	0	0x833	TRAINER BATTLE			TR_FLAG_023
+-	0	0x834	TRAINER BATTLE			TR_FLAG_024
+-	0	0x835	TRAINER BATTLE	Route 1		Youngster Jimmy
+-	0	0x836	TRAINER BATTLE	Route 1	Hau'oli Outskirts	Youngster Kevin
+-	0	0x837	TRAINER BATTLE			TR_FLAG_027
+-	0	0x838	TRAINER BATTLE	Route 1		Preschooler Oliver
+-	0	0x839	TRAINER BATTLE	Route 2		Backpacker Ashley
+-	0	0x83A	TRAINER BATTLE	Route 2		Pokémon Breeder Jay
+-	0	0x83B	TRAINER BATTLE	Route 3		Rising Star Ian
+-	0	0x83C	TRAINER BATTLE	Route 3		Rising Star Joshua
+-	0	0x83D	TRAINER BATTLE	Route 3		Rising Star Tatiana
+-	0	0x83E	TRAINER BATTLE	Melemele Sea	East	Swimmer Yasu
+-	0	0x83F	TRAINER BATTLE	Melemele Sea	East	Swimmer Kalani
+-	0	0x840	TRAINER BATTLE	Melemele Sea	East	Swimmer Kelsie
+-	0	0x841	TRAINER BATTLE	Melemele Sea	West	Swimmer Portia
+-	0	0x842	TRAINER BATTLE	Melemele Sea	East	Swimmer Shelby
+-	0	0x843	TRAINER BATTLE	Melemele Sea	West	Swimmer Jade
+-	0	0x844	TRAINER BATTLE	Hau'oli Cemetery		Office Worker Jeremy
+-	0	0x845	TRAINER BATTLE	Hau'oli Cemetery		Pokémon Breeder Ikue
+-	0	0x846	TRAINER BATTLE	Hau'oli Cemetery		Gentleman Stanley
+-	0	0x847	TRAINER BATTLE			TR_FLAG_043
+-	0	0x848	TRAINER BATTLE			TR_FLAG_044
+-	0	0x849	TRAINER BATTLE			TR_FLAG_045
+-	0	0x84A	TRAINER BATTLE			TR_FLAG_046
+-	0	0x84B	TRAINER BATTLE			TR_FLAG_047
+-	0	0x84C	TRAINER BATTLE			TR_FLAG_048
+-	0	0x84D	TRAINER BATTLE			TR_FLAG_049
+-	0	0x84E	TRAINER BATTLE			TR_FLAG_050
+-	0	0x84F	TRAINER BATTLE			TR_FLAG_051
+-	0	0x850	TRAINER BATTLE			TR_FLAG_052
+-	0	0x851	TRAINER BATTLE			TR_FLAG_053
+-	0	0x852	TRAINER BATTLE	Brooklet Hill		Fisherman Hal
+-	0	0x853	TRAINER BATTLE	Brooklet Hill		Fisherman Herbert
+-	0	0x854	TRAINER BATTLE	Brooklet Hill		Fisherman Carl
+-	0	0x855	TRAINER BATTLE			TR_FLAG_057
+-	0	0x856	TRAINER BATTLE	Brooklet Hill		Backpacker Mikiko
+-	0	0x857	TRAINER BATTLE			TR_FLAG_059
+-	0	0x858	TRAINER BATTLE	Brooklet Hill		Fisherman Ernest
+-	0	0x859	TRAINER BATTLE	Route 4		Collector Bryan
+-	0	0x85A	TRAINER BATTLE			TR_FLAG_062
+-	0	0x85B	TRAINER BATTLE			TR_FLAG_063
+-	0	0x85C	TRAINER BATTLE	Route 4		Sightseer Scotty
+-	0	0x85D	TRAINER BATTLE	Route 6		Beauty Brittney
+-	0	0x85E	TRAINER BATTLE	Route 6		Youngster Anthony
+-	0	0x85F	TRAINER BATTLE			TR_FLAG_067
+-	0	0x860	TRAINER BATTLE	Route 6		Pokémon Breeder William
+-	0	0x861	TRAINER BATTLE			TR_FLAG_069
+-	0	0x862	TRAINER BATTLE	Route 7		Swimmer Dakota
+-	0	0x863	TRAINER BATTLE	Route 7		Swimmer Casey
+-	0	0x864	TRAINER BATTLE	Route 7		Swimmer Vanessa
+-	0	0x865	TRAINER BATTLE	Route 7		Swimmer Tiare
+-	0	0x866	TRAINER BATTLE			TR_FLAG_074
+-	0	0x867	TRAINER BATTLE			TR_FLAG_075
+-	0	0x868	TRAINER BATTLE			TR_FLAG_076
+-	0	0x869	TRAINER BATTLE	Route 4		Cook Ernie
+-	0	0x86A	TRAINER BATTLE			TR_FLAG_078
+-	0	0x86B	TRAINER BATTLE			TR_FLAG_079
+-	0	0x86C	TRAINER BATTLE			TR_FLAG_080
+-	0	0x86D	TRAINER BATTLE			TR_FLAG_081
+-	0	0x86E	TRAINER BATTLE			TR_FLAG_082
+-	0	0x86F	TRAINER BATTLE			TR_FLAG_083
+-	0	0x870	TRAINER BATTLE			TR_FLAG_084
+-	0	0x871	TRAINER BATTLE			TR_FLAG_085
+-	0	0x872	TRAINER BATTLE			TR_FLAG_086
+-	0	0x873	TRAINER BATTLE			TR_FLAG_087
+-	0	0x874	TRAINER BATTLE			TR_FLAG_088
+-	0	0x875	TRAINER BATTLE			TR_FLAG_089
+-	0	0x876	TRAINER BATTLE			TR_FLAG_090
+-	0	0x877	TRAINER BATTLE			TR_FLAG_091
+-	0	0x878	TRAINER BATTLE	Route 5		Rising Star Lauren
+-	0	0x879	TRAINER BATTLE	Route 5		Rising Star Justin
+-	0	0x87A	TRAINER BATTLE	Route 5		Pokémon Breeder Cory
+-	0	0x87B	TRAINER BATTLE	Route 5		Pokémon Breeder Yuka
+-	0	0x87C	TRAINER BATTLE	Route 5		Youngster Caleb
+-	0	0x87D	TRAINER BATTLE	Route 5		Preschooler Nico
+-	0	0x87E	TRAINER BATTLE	Route 5		Preschooler Isa
+-	0	0x87F	TRAINER BATTLE			TR_FLAG_099
+-	0	0x880	TRAINER BATTLE	Route 8		Rising Star Nicki
+-	0	0x881	TRAINER BATTLE	Route 8		Backpacker Kiana
+-	0	0x882	TRAINER BATTLE	Route 5		Hiker Gabriel
+-	0	0x883	TRAINER BATTLE			TR_FLAG_103
+-	0	0x884	TRAINER BATTLE	Route 5		Ace Trainer Alexis
+-	0	0x885	TRAINER BATTLE	Route 8		Scientist Tyrone
+-	0	0x886	TRAINER BATTLE			TR_FLAG_106
+-	0	0x887	TRAINER BATTLE	Hano Beach		Swimmer Logan
+-	0	0x888	TRAINER BATTLE	Hano Beach		Swimmer Lawrence
+-	0	0x889	TRAINER BATTLE	Hano Beach		Swimmer Roddy
+-	0	0x88A	TRAINER BATTLE	Hano Beach		Swimmer Alicia
+-	0	0x88B	TRAINER BATTLE	Hano Beach		Swimmer Laura
+-	0	0x88C	TRAINER BATTLE	Hano Beach		Swimmer Chelsea
+-	0	0x88D	TRAINER BATTLE	Memorial Hill		Gentleman Smith
+-	0	0x88E	TRAINER BATTLE	Memorial Hill		Madame Sayuri
+-	0	0x88F	TRAINER BATTLE	Memorial Hill		Preschooler Liam
+-	0	0x890	TRAINER BATTLE	Memorial Hill		Punk Girl Melissa
+-	0	0x891	TRAINER BATTLE	Diglett's Tunnel		Worker Vaclav
+-	0	0x892	TRAINER BATTLE	Diglett's Tunnel		Worker Jeff
+-	0	0x893	TRAINER BATTLE	Diglett's Tunnel		Worker Frank
+-	0	0x894	TRAINER BATTLE	Akala Outskirts		Black Belt Kenji
+-	0	0x895	TRAINER BATTLE	Akala Outskirts		Fisherman Vernon
+-	0	0x896	TRAINER BATTLE	Paniola Ranch		Pokémon Breeder Glenn
+-	0	0x897	TRAINER BATTLE	Paniola Ranch		Pokémon Breeder Amanda
+-	0	0x898	TRAINER BATTLE	Paniola Ranch		Gentleman Gerald
+-	0	0x899	TRAINER BATTLE	Paniola Ranch		Madame Elizabeth
+-	0	0x89A	TRAINER BATTLE			TR_FLAG_126
+-	0	0x89B	TRAINER BATTLE			TR_FLAG_127
+-	0	0x89C	TRAINER BATTLE			TR_FLAG_128
+-	0	0x89D	TRAINER BATTLE			TR_FLAG_129
+-	0	0x89E	TRAINER BATTLE			TR_FLAG_130
+-	0	0x89F	TRAINER BATTLE			TR_FLAG_131
+-	0	0x8A0	TRAINER BATTLE			TR_FLAG_132
+-	0	0x8A1	TRAINER BATTLE			TR_FLAG_133
+-	0	0x8A2	TRAINER BATTLE			TR_FLAG_134
+-	0	0x8A3	TRAINER BATTLE			TR_FLAG_135
+-	0	0x8A4	TRAINER BATTLE			TR_FLAG_136
+-	0	0x8A5	TRAINER BATTLE			TR_FLAG_137
+-	0	0x8A6	TRAINER BATTLE			TR_FLAG_138
+-	0	0x8A7	TRAINER BATTLE			TR_FLAG_139
+-	0	0x8A8	TRAINER BATTLE			TR_FLAG_140
+-	0	0x8A9	TRAINER BATTLE			TR_FLAG_141
+-	0	0x8AA	TRAINER BATTLE			TR_FLAG_142
+-	0	0x8AB	TRAINER BATTLE			TR_FLAG_143
+-	0	0x8AC	TRAINER BATTLE			TR_FLAG_144
+-	0	0x8AD	TRAINER BATTLE			TR_FLAG_145
+-	0	0x8AE	TRAINER BATTLE			TR_FLAG_146
+-	0	0x8AF	TRAINER BATTLE			TR_FLAG_147
+-	0	0x8B0	TRAINER BATTLE			TR_FLAG_148
+-	0	0x8B1	TRAINER BATTLE			TR_FLAG_149
+-	0	0x8B2	TRAINER BATTLE			TR_FLAG_150
+-	0	0x8B3	TRAINER BATTLE			TR_FLAG_151
+-	0	0x8B4	TRAINER BATTLE			TR_FLAG_152
+-	0	0x8B5	TRAINER BATTLE			TR_FLAG_153
+-	0	0x8B6	TRAINER BATTLE			TR_FLAG_154
+-	0	0x8B7	TRAINER BATTLE			TR_FLAG_155
+-	0	0x8B8	TRAINER BATTLE			TR_FLAG_156
+-	0	0x8B9	TRAINER BATTLE			TR_FLAG_157
+-	0	0x8BA	TRAINER BATTLE			TR_FLAG_158
+-	0	0x8BB	TRAINER BATTLE	Battle Tree		Red
+-	0	0x8BC	TRAINER BATTLE	Battle Tree		Blue
+-	0	0x8BD	TRAINER BATTLE			TR_FLAG_161
+-	0	0x8BE	TRAINER BATTLE			TR_FLAG_162
+-	0	0x8BF	TRAINER BATTLE			TR_FLAG_163
+-	0	0x8C0	TRAINER BATTLE			TR_FLAG_164
+-	0	0x8C1	TRAINER BATTLE			TR_FLAG_165
+-	0	0x8C2	TRAINER BATTLE			TR_FLAG_166
+-	0	0x8C3	TRAINER BATTLE			TR_FLAG_167
+-	0	0x8C4	TRAINER BATTLE			TR_FLAG_168
+-	0	0x8C5	TRAINER BATTLE			TR_FLAG_169
+-	0	0x8C6	TRAINER BATTLE	Route 8		Golfer Alan
+-	0	0x8C7	TRAINER BATTLE	Route 8		Golfer Maile
+-	0	0x8C8	TRAINER BATTLE			TR_FLAG_172
+-	0	0x8C9	TRAINER BATTLE	Route 10		Police Officer Mitchell
+-	0	0x8CA	TRAINER BATTLE	Wela Volcano Park		Sightseer Mariah
+-	0	0x8CB	TRAINER BATTLE			TR_FLAG_175
+-	0	0x8CC	TRAINER BATTLE			TR_FLAG_176
+-	0	0x8CD	TRAINER BATTLE	Malie Outer Cape		Janitor Melvin
+-	0	0x8CE	TRAINER BATTLE	Poni Wilds		Dancer Cara
+-	0	0x8CF	TRAINER BATTLE			TR_FLAG_179
+-	0	0x8D0	TRAINER BATTLE	Poni Plans		Veteran Leon
+-	0	0x8D1	TRAINER BATTLE	Poni Gauntlet		Veteran Sheri
+-	0	0x8D2	TRAINER BATTLE	Route 4		Bellhop Jody
+-	0	0x8D3	TRAINER BATTLE			TR_FLAG_183
+-	0	0x8D4	TRAINER BATTLE			TR_FLAG_184
+-	0	0x8D5	TRAINER BATTLE			TR_FLAG_185
+-	0	0x8D6	TRAINER BATTLE			TR_FLAG_186
+-	0	0x8D7	TRAINER BATTLE			TR_FLAG_187
+-	0	0x8D8	TRAINER BATTLE			TR_FLAG_188
+-	0	0x8D9	TRAINER BATTLE			TR_FLAG_189
+-	0	0x8DA	TRAINER BATTLE			TR_FLAG_190
+-	0	0x8DB	TRAINER BATTLE			TR_FLAG_191
+-	0	0x8DC	TRAINER BATTLE			TR_FLAG_192
+-	0	0x8DD	TRAINER BATTLE			TR_FLAG_193
+-	0	0x8DE	TRAINER BATTLE			TR_FLAG_194
+-	0	0x8DF	TRAINER BATTLE			TR_FLAG_195
+-	0	0x8E0	TRAINER BATTLE			TR_FLAG_196
+-	0	0x8E1	TRAINER BATTLE			TR_FLAG_197
+-	0	0x8E2	TRAINER BATTLE			TR_FLAG_198
+-	0	0x8E3	TRAINER BATTLE			TR_FLAG_199
+-	0	0x8E4	TRAINER BATTLE			TR_FLAG_200
+-	0	0x8E5	TRAINER BATTLE			TR_FLAG_201
+-	0	0x8E6	TRAINER BATTLE			TR_FLAG_202
+-	0	0x8E7	TRAINER BATTLE			TR_FLAG_203
+-	0	0x8E8	TRAINER BATTLE			TR_FLAG_204
+-	0	0x8E9	TRAINER BATTLE			TR_FLAG_205
+-	0	0x8EA	TRAINER BATTLE			TR_FLAG_206
+-	0	0x8EB	TRAINER BATTLE			TR_FLAG_207
+-	0	0x8EC	TRAINER BATTLE			TR_FLAG_208
+-	0	0x8ED	TRAINER BATTLE			TR_FLAG_209
+-	0	0x8EE	TRAINER BATTLE			TR_FLAG_210
+-	0	0x8EF	TRAINER BATTLE			TR_FLAG_211
+-	0	0x8F0	TRAINER BATTLE			TR_FLAG_212
+-	0	0x8F1	TRAINER BATTLE			TR_FLAG_213
+-	0	0x8F2	TRAINER BATTLE			TR_FLAG_214
+-	0	0x8F3	TRAINER BATTLE			TR_FLAG_215
+-	0	0x8F4	TRAINER BATTLE			TR_FLAG_216
+-	0	0x8F5	TRAINER BATTLE			TR_FLAG_217
+-	0	0x8F6	TRAINER BATTLE			TR_FLAG_218
+-	0	0x8F7	TRAINER BATTLE			TR_FLAG_219
+-	0	0x8F8	TRAINER BATTLE			TR_FLAG_220
+-	0	0x8F9	TRAINER BATTLE			TR_FLAG_221
+-	0	0x8FA	TRAINER BATTLE			TR_FLAG_222
+-	0	0x8FB	TRAINER BATTLE			TR_FLAG_223
+-	0	0x8FC	TRAINER BATTLE			TR_FLAG_224
+-	0	0x8FD	TRAINER BATTLE			TR_FLAG_225
+-	0	0x8FE	TRAINER BATTLE			TR_FLAG_226
+-	0	0x8FF	TRAINER BATTLE			TR_FLAG_227
+-	0	0x900	TRAINER BATTLE	Aether Paradise	Exterior	Team Skull Grunt (needs ID)
+-	0	0x901	TRAINER BATTLE	Aether Paradise	Exterior	Team Skull Grunt (needs ID)
+-	0	0x902	TRAINER BATTLE			TR_FLAG_230
+-	0	0x903	TRAINER BATTLE	Po Town		Team Skull Grunt (needs ID)
+-	0	0x904	TRAINER BATTLE	Po Town		Team Skull Grunt (needs ID)
+-	0	0x905	TRAINER BATTLE			TR_FLAG_233
+-	0	0x906	TRAINER BATTLE			TR_FLAG_234
+-	0	0x907	TRAINER BATTLE			TR_FLAG_235
+-	0	0x908	TRAINER BATTLE			TR_FLAG_236
+-	0	0x909	TRAINER BATTLE			TR_FLAG_237
+-	0	0x90A	TRAINER BATTLE			TR_FLAG_238
+-	0	0x90B	TRAINER BATTLE			TR_FLAG_239
+-	0	0x90C	TRAINER BATTLE			TR_FLAG_240
+-	0	0x90D	TRAINER BATTLE			TR_FLAG_241
+-	0	0x90E	TRAINER BATTLE			TR_FLAG_242
+-	0	0x90F	TRAINER BATTLE			TR_FLAG_243
+-	0	0x910	TRAINER BATTLE			TR_FLAG_244
+-	0	0x911	TRAINER BATTLE	Wela Volcano Park		Hiker Calhoun
+-	0	0x912	TRAINER BATTLE	Wela Volcano Park		Ace Trainer Jim
+-	0	0x913	TRAINER BATTLE			TR_FLAG_247
+-	0	0x914	TRAINER BATTLE	Route 10		Beauty Andrea
+-	0	0x915	TRAINER BATTLE			TR_FLAG_249
+-	0	0x916	TRAINER BATTLE			TR_FLAG_250
+-	0	0x917	TRAINER BATTLE	Route 15		Ace Trainer Karla
+-	0	0x918	TRAINER BATTLE			TR_FLAG_252
+-	0	0x919	TRAINER BATTLE	Route 15		Ace Trainer Yuki
+-	0	0x91A	TRAINER BATTLE	Route 12		Scientist Jayson
+-	0	0x91B	TRAINER BATTLE			TR_FLAG_255
+-	0	0x91C	TRAINER BATTLE			TR_FLAG_256
+-	0	0x91D	TRAINER BATTLE	Route 14		Fisherman Hisato
+-	0	0x91E	TRAINER BATTLE	Aether Paradise	B1F	Aether Foundation Employee
+-	0	0x91F	TRAINER BATTLE	Aether Paradise	B1F	Aether Foundation Employee F
+-	0	0x920	TRAINER BATTLE	Poni Plans		Ace Trainer Angela
+-	0	0x921	TRAINER BATTLE	Ace Trainer Junko	2F	Ace Trainer Junko
+-	0	0x922	TRAINER BATTLE	Vast Poni Canyon	1F	Ace Trainer Aimee
+-	0	0x923	TRAINER BATTLE	Poni Grove		Ace Trainer Jackson
+-	0	0x924	TRAINER BATTLE	Vast Poni Canyon	Exit	Ace Trainer Hiroshi
+-	0	0x925	TRAINER BATTLE	Vast Poni Canyon	1F	Ace Trainer Kent
+-	0	0x926	TRAINER BATTLE	Malie Garden		Preschooler Ailey
+-	0	0x927	TRAINER BATTLE			TR_FLAG_267
+-	0	0x928	TRAINER BATTLE			TR_FLAG_268
+-	0	0x929	TRAINER BATTLE	Route 14		Swimmer Keoni
+-	0	0x92A	TRAINER BATTLE	Route 15		Swimmer Jake
+-	0	0x92B	TRAINER BATTLE	Route 15		Swimmer Jared
+-	0	0x92C	TRAINER BATTLE	Poni Grove		Black Belt Roy
+-	0	0x92D	TRAINER BATTLE	Poni Gauntlet		Black Belt Tracy
+-	0	0x92E	TRAINER BATTLE	Vast Poni Canyon	Top	Vast Poni Canyon
+-	0	0x92F	TRAINER BATTLE	Vast Poni Canyon	B1F	Black Belt Terry
+-	0	0x930	TRAINER BATTLE	Malie Garden		Sightseer Akali
+-	0	0x931	TRAINER BATTLE	Poni Breaker Coast		Sightseer Jamie
+-	0	0x932	TRAINER BATTLE	Poni Coast		Sightseer Noriko
+-	0	0x933	TRAINER BATTLE	Malie Garden		Sightseer Mitch
+-	0	0x934	TRAINER BATTLE	Poni Coast		Sightseer Devin
+-	0	0x935	TRAINER BATTLE			TR_FLAG_281
+-	0	0x936	TRAINER BATTLE	Poni Gauntlet		Scientist Kyle
+-	0	0x937	TRAINER BATTLE	Vast Poni Canyon	3F	Scientist Ikaika
+-	0	0x938	TRAINER BATTLE	Mount Hokulani		Collector Todd
+-	0	0x939	TRAINER BATTLE	Ancient Poni Path		Collector Raymond
+-	0	0x93A	TRAINER BATTLE	Mount Hokulani		Hiker Thomas
+-	0	0x93B	TRAINER BATTLE			TR_FLAG_287
+-	0	0x93C	TRAINER BATTLE	Poni Plans		Hiker Ryan
+-	0	0x93D	TRAINER BATTLE	Vast Poni Canyon	2F	Hiker Zachary
+-	0	0x93E	TRAINER BATTLE	Resolution Cave		Hiker Travis
+-	0	0x93F	TRAINER BATTLE	Ula'ula Meadow		Lass Rylee
+-	0	0x940	TRAINER BATTLE			TR_FLAG_292
+-	0	0x941	TRAINER BATTLE			TR_FLAG_293
+-	0	0x942	TRAINER BATTLE			TR_FLAG_294
+-	0	0x943	TRAINER BATTLE			TR_FLAG_295
+-	0	0x944	TRAINER BATTLE	Poni Gauntlet		Backpacker Yuho
+-	0	0x945	TRAINER BATTLE	Vast Poni Canyon	1F	Backpacker Perdy
+-	0	0x946	TRAINER BATTLE	Resolution Cave		Backpacker Maria
+-	0	0x947	TRAINER BATTLE	Route 15		Swimmer Yumi
+-	0	0x948	TRAINER BATTLE	Route 15		Swimmer Alexandria
+-	0	0x949	TRAINER BATTLE	Vast Poni Canyon	Top	Punk Guy Adam
+-	0	0x94A	TRAINER BATTLE	Vast Poni Canyon	Top	Punk Girl Anna
+-	0	0x94B	TRAINER BATTLE	Poni Gauntlet		Veteran Tsunekazu
+-	0	0x94C	TRAINER BATTLE			TR_FLAG_304
+-	0	0x94D	TRAINER BATTLE	Vast Poni Canyon	Exit	Veteran Eric
+-	0	0x94E	TRAINER BATTLE	Vast Poni Canyon	1F	Veteran Harry
+-	0	0x94F	TRAINER BATTLE	Poni Gauntlet		Veteran Nobuko
+-	0	0x950	TRAINER BATTLE	Vast Poni Canyon	Exit	Veteran Heather
+-	0	0x951	TRAINER BATTLE	Vast Poni Canyon	2F	Veteran Lynn
+-	0	0x952	TRAINER BATTLE	Route 17		Team Skull Grunt F (needs ID)
+-	0	0x953	TRAINER BATTLE	Route 17		Team Skull Grunt F (needs ID)
+-	0	0x954	TRAINER BATTLE	Shady House	1F	Team Skull Grunt F (needs ID)
+-	0	0x955	TRAINER BATTLE	Shady House	1F North Room	Team Skull Grunt F (needs ID)
+-	0	0x956	TRAINER BATTLE	Shady House	Roof	Team Skull Grunt F (needs ID)
+-	0	0x957	TRAINER BATTLE	Po Town		Team Skull Grunt F (needs ID)
+-	0	0x958	TRAINER BATTLE	Po Town		Team Skull Grunt F (needs ID)
+-	0	0x959	TRAINER BATTLE			TR_FLAG_317
+-	0	0x95A	TRAINER BATTLE	Po Town		Team Skull Grunt F (needs ID)
+-	0	0x95B	TRAINER BATTLE	Route 17		Team Skull Grunt (needs ID)
+-	0	0x95C	TRAINER BATTLE	Route 17		Team Skull Grunt (needs ID)
+-	0	0x95D	TRAINER BATTLE	Shady House	1F	Team Skull Grunt (needs ID)
+-	0	0x95E	TRAINER BATTLE	Shady House	2F Southwest room	Team Skull Grunt (needs ID)
+-	0	0x95F	TRAINER BATTLE	Shady House	2F	Team Skull Grunt (needs ID)
+-	0	0x960	TRAINER BATTLE	Po Town		Team Skull Grunt (needs ID)
+-	0	0x961	TRAINER BATTLE			TR_FLAG_325
+-	0	0x962	TRAINER BATTLE	Route 12		Rising Star Leilani
+-	0	0x963	TRAINER BATTLE	Route 12		Rising Star Matthew
+-	0	0x964	TRAINER BATTLE			TR_FLAG_328
+-	0	0x965	TRAINER BATTLE			TR_FLAG_329
+-	0	0x966	TRAINER BATTLE	Poni Wilds		Cook Fil
+-	0	0x967	TRAINER BATTLE	Route 8		Black Belt Guy
+-	0	0x968	TRAINER BATTLE	Route 8		Preschooler Samuel
+-	0	0x969	TRAINER BATTLE			TR_FLAG_333
+-	0	0x96A	TRAINER BATTLE	Route 6		Dancer Maika
+-	0	0x96B	TRAINER BATTLE	Route 9		Police Officer Haruki
+-	0	0x96C	TRAINER BATTLE			TR_FLAG_336
+-	0	0x96D	TRAINER BATTLE			TR_FLAG_337
+-	0	0x96E	TRAINER BATTLE			TR_FLAG_338
+-	0	0x96F	TRAINER BATTLE	Secluded Shore		Swimmer Robert
+-	0	0x970	TRAINER BATTLE	Secluded Shore		Swimmer Sara
+-	0	0x971	TRAINER BATTLE	Route 14		Collector Kawika
+-	0	0x972	TRAINER BATTLE	Route 16		Scientist Reid
+-	0	0x973	TRAINER BATTLE	Ula'ula Meadow		Dancer Mireille
+-	0	0x974	TRAINER BATTLE	Mount Hokulani		Office Worker Jessica
+-	0	0x975	TRAINER BATTLE			TR_FLAG_345
+-	0	0x976	TRAINER BATTLE	Aether Paradise	B1F	Aether Foundation Employee
+-	0	0x977	TRAINER BATTLE	Aether Paradise	B1F	Aether Foundation Employee
+-	0	0x978	TRAINER BATTLE	Aether Paradise	B1F	Aether Foundation Employee F
+-	0	0x979	TRAINER BATTLE			TR_FLAG_349
+-	0	0x97A	TRAINER BATTLE			TR_FLAG_350
+-	0	0x97B	TRAINER BATTLE			TR_FLAG_351
+-	0	0x97C	TRAINER BATTLE			TR_FLAG_352
+-	0	0x97D	TRAINER BATTLE			TR_FLAG_353
+-	0	0x97E	TRAINER BATTLE			TR_FLAG_354
+-	0	0x97F	TRAINER BATTLE			TR_FLAG_355
+-	0	0x980	TRAINER BATTLE			Hau (Title Defense;Rowlet is Player Starter)
+-	0	0x981	TRAINER BATTLE			Hau (Title Defense;Litten is Player Starter)
+-	0	0x982	TRAINER BATTLE			Hau (Title Defense;Popplio is Player Starter)
+-	0	0x983	TRAINER BATTLE			Hapu (Title Defense)
+-	0	0x984	TRAINER BATTLE			Faba (Title Defense)
+-	0	0x985	TRAINER BATTLE	Trainers' School	2F	Vaporeon User Polly
+-	0	0x986	TRAINER BATTLE	Malie City	Malie Community Center	Jolteon User Jane
+-	0	0x987	TRAINER BATTLE	Iki Town	Inside House	Glaceon User Rea
+-	0	0x988	TRAINER BATTLE	Tide Song Hotel		Flareon User Chad
+-	0	0x989	TRAINER BATTLE	Blush Mountain	Geothermal Power Plant	Espeon User Ishaan
+-	0	0x98A	TRAINER BATTLE	Malie Outer Cape		Janitor Shawn
+-	0	0x98B	TRAINER BATTLE	Hau'oli Cemetery		Umbreon User Braiden
+-	0	0x98C	TRAINER BATTLE	Hano Beach		Leafeon User Linnea
+-	0	0x98D	TRAINER BATTLE	Seafolk Village	Inside East House	Sylveon User Kira
+-	0	0x98E	TRAINER BATTLE			TR_FLAG_370
+-	0	0x98F	TRAINER BATTLE			TR_FLAG_371
+-	0	0x990	TRAINER BATTLE			TR_FLAG_372
+-	0	0x991	TRAINER BATTLE	Poni Breaker Coast		Swimmer Kylie
+-	0	0x992	TRAINER BATTLE	Poni Breaker Coast		Swimmer Ashlyn
+-	0	0x993	TRAINER BATTLE	Hano Grand Resort		Golfer Tara
+-	0	0x994	TRAINER BATTLE	Hano Grand Resort		Golfer Tina
+-	0	0x995	TRAINER BATTLE			TR_FLAG_377
+-	0	0x996	TRAINER BATTLE			TR_FLAG_378
+-	0	0x997	TRAINER BATTLE	Royal Avenue	Thrifty Megamart	Eevee User Kagetora
+-	0	0x998	TRAINER BATTLE			TR_FLAG_380
+-	0	0x999	TRAINER BATTLE			TR_FLAG_381
+-	0	0x99A	TRAINER BATTLE	Route 9		Fisherman Mike
+-	0	0x99B	TRAINER BATTLE	Malie Outer Cape		Ace Trainer Chase
+-	0	0x99C	TRAINER BATTLE			TR_FLAG_384
+-	0	0x99D	TRAINER BATTLE			TR_FLAG_385
+-	0	0x99E	TRAINER BATTLE			TR_FLAG_386
+-	0	0x99F	TRAINER BATTLE	Diglett's Tunnel		Black Belt Greg
+-	0	0x9A0	TRAINER BATTLE	Seafolk Village	Pokemon Center	Sightseer Marcus
+-	0	0x9A1	TRAINER BATTLE			TR_FLAG_389
+-	0	0x9A2	TRAINER BATTLE	Paniola Ranch		Pokémon Breeder Wesley (Tauros)
+-	0	0x9A3	TRAINER BATTLE	Hano Grand Resort		Veteran Roger
+-	0	0x9A4	TRAINER BATTLE	Heahea City	Game Freak Office	GAME FREAK Morimoto
+-	0	0x9A5	TRAINER BATTLE	Route 12		Collector Andrew
+-	0	0x9A6	TRAINER BATTLE	Route 15		Trial Guide Katrina
+-	0	0x9A7	TRAINER BATTLE	Route 5		Trial Guide Bronson
+-	0	0x9A8	TRAINER BATTLE			TR_FLAG_396
+-	0	0x9A9	TRAINER BATTLE			TR_FLAG_397
+-	0	0x9AA	TRAINER BATTLE			TR_FLAG_398
+-	0	0x9AB	TRAINER BATTLE			TR_FLAG_399
+-	0	0x9AC	TRAINER BATTLE			TR_FLAG_400
+-	0	0x9AD	TRAINER BATTLE			Plumeria (Title Defense)
+-	0	0x9AE	TRAINER BATTLE			TR_FLAG_402
+-	0	0x9AF	TRAINER BATTLE			TR_FLAG_403
+-	0	0x9B0	TRAINER BATTLE			TR_FLAG_404
+-	0	0x9B1	TRAINER BATTLE			Sophocles (Title Defense)
+-	0	0x9B2	TRAINER BATTLE			TR_FLAG_406
+-	0	0x9B3	TRAINER BATTLE			TR_FLAG_407
+-	0	0x9B4	TRAINER BATTLE			TR_FLAG_408
+-	0	0x9B5	TRAINER BATTLE			Ryuki (Title Defense)
+-	0	0x9B6	TRAINER BATTLE			TR_FLAG_410
+-	0	0x9B7	TRAINER BATTLE			TR_FLAG_411
+-	0	0x9B8	TRAINER BATTLE			TR_FLAG_412
+-	0	0x9B9	TRAINER BATTLE			TR_FLAG_413
+-	0	0x9BA	TRAINER BATTLE			TR_FLAG_414
+-	0	0x9BB	TRAINER BATTLE			TR_FLAG_415
+-	0	0x9BC	TRAINER BATTLE			TR_FLAG_416
+-	0	0x9BD	TRAINER BATTLE			Gladion (Title Defense;Rowlet is Player Starter)
+-	0	0x9BE	TRAINER BATTLE			Gladion (Title Defense;Litten is Player Starter)
+-	0	0x9BF	TRAINER BATTLE			Gladion (Title Defense;Popplio is Player Starter)
+-	0	0x9C0	TRAINER BATTLE	Route 10		Firefighter Alex
+-	0	0x9C1	TRAINER BATTLE	Route 11		Youth Athlete Alyssa
+-	0	0x9C2	TRAINER BATTLE	Route 11		Youth Athlete Sho
+-	0	0x9C3	TRAINER BATTLE			TR_FLAG_423
+-	0	0x9C4	TRAINER BATTLE	Route 11		Black Belt Clayton
+-	0	0x9C5	TRAINER BATTLE	Route 12		Punk Guy Lane
+-	0	0x9C6	TRAINER BATTLE	Route 12		Punk Girl Yoko
+-	0	0x9C7	TRAINER BATTLE	Blush Mountain		Office Worker Shane
+-	0	0x9C8	TRAINER BATTLE	Ula'ula Meadow		Office Worker Michelle
+-	0	0x9C9	TRAINER BATTLE	Poni Gauntlet		Punk Guy Troy
+-	0	0x9CA	TRAINER BATTLE	Poni Gauntlet		Punk Girl Marie
+-	0	0x9CB	TRAINER BATTLE			TR_FLAG_431
+-	0	0x9CC	TRAINER BATTLE			TR_FLAG_432
+-	0	0x9CD	TRAINER BATTLE			TR_FLAG_433
+-	0	0x9CE	TRAINER BATTLE			TR_FLAG_434
+-	0	0x9CF	TRAINER BATTLE			TR_FLAG_435
+-	0	0x9D0	TRAINER BATTLE			TR_FLAG_436
+-	0	0x9D1	TRAINER BATTLE	Route 11		Preschooler Hayden
+-	0	0x9D2	TRAINER BATTLE			TR_FLAG_438
+-	0	0x9D3	TRAINER BATTLE			TR_FLAG_439
+-	0	0x9D4	TRAINER BATTLE			TR_FLAG_440
+-	0	0x9D5	TRAINER BATTLE			TR_FLAG_441
+-	0	0x9D6	TRAINER BATTLE			TR_FLAG_442
+-	0	0x9D7	TRAINER BATTLE			TR_FLAG_443
+-	0	0x9D8	TRAINER BATTLE			TR_FLAG_444
+-	0	0x9D9	TRAINER BATTLE	Poni Wilds		Ace Trainer Kekoa
+-	0	0x9DA	TRAINER BATTLE	Poni Wilds		Ace Trainer Lindsey
+-	0	0x9DB	TRAINER BATTLE			TR_FLAG_447
+-	0	0x9DC	TRAINER BATTLE			TR_FLAG_448
+-	0	0x9DD	TRAINER BATTLE			TR_FLAG_449
+-	0	0x9DE	TRAINER BATTLE			TR_FLAG_450
+-	0	0x9DF	TRAINER BATTLE			TR_FLAG_451
+-	0	0x9E0	TRAINER BATTLE			TR_FLAG_452
+-	0	0x9E1	TRAINER BATTLE			TR_FLAG_453
+-	0	0x9E2	TRAINER BATTLE			TR_FLAG_454
+-	0	0x9E3	TRAINER BATTLE			TR_FLAG_455
+-	0	0x9E4	TRAINER BATTLE			TR_FLAG_456
+-	0	0x9E5	TRAINER BATTLE	Shady House		Team Skull Grunt F
+-	0	0x9E6	TRAINER BATTLE	Shady House		Team Skull Grunt F
+-	0	0x9E7	TRAINER BATTLE	Route 1		Lass Audrey
+-	0	0x9E8	TRAINER BATTLE	Malie Garden		Rising Star Elijah
+-	0	0x9E9	TRAINER BATTLE	Malie Garden		Lass Rika
+-	0	0x9EA	TRAINER BATTLE	Malie Garden		Lass Emm
+-	0	0x9EB	TRAINER BATTLE	Malie Garden		Youngster Tyler
+-	0	0x9EC	TRAINER BATTLE	Malie Garden		Veteran Don
+-	0	0x9ED	TRAINER BATTLE	Ula'ula Meadow		Golfer Dean
+-	0	0x9EE	TRAINER BATTLE	Poni Wilds		Dancer Julia
+-	0	0x9EF	TRAINER BATTLE	Poni Gauntlet		Captain Mina
+-	0	0x9F0	TRAINER BATTLE	Route 2		Preschooler Malia
+-	0	0x9F1	TRAINER BATTLE	Route 2		Preschooler Kaleb
+-	0	0x9F2	TRAINER BATTLE			TR_FLAG_470
+-	0	0x9F3	TRAINER BATTLE	Malie Garden		Rising Star Sean
+-	0	0x9F4	TRAINER BATTLE	Route 2		Beauty Krystal
+-	0	0x9F5	TRAINER BATTLE			TR_FLAG_473
+-	0	0x9F6	TRAINER BATTLE	Route 8		Ace Trainer Eileen
+-	0	0x9F7	TRAINER BATTLE	Poni Plans		Ace Trainer Cole
+-	0	0x9F8	TRAINER BATTLE	Mount Hokulani		Veteran Akira
+-	0	0x9F9	TRAINER BATTLE			Kukui (Title Defense;Rowlet is Player Starter)
+-	0	0x9FA	TRAINER BATTLE			Kukui (Title Defense;Litten is Player Starter)
+-	0	0x9FB	TRAINER BATTLE			Kukui (Title Defense;Popplio is Player Starter)
+-	0	0x9FC	TRAINER BATTLE			Youngster Tristan (Title Defense)
+-	0	0x9FD	TRAINER BATTLE			Molayne (Title Defense)
+-	0	0x9FE	TRAINER BATTLE			TR_FLAG_482
+-	0	0x9FF	TRAINER BATTLE			TR_FLAG_483
+-	0	0xC2A	STORY EVENT			Unlocked Tauros Charge
+-	0	0xC2B	STORY EVENT			Unlocked Stoutland Search
+-	0	0xC2C	STORY EVENT			Unlocked Machamp Shove
+-	0	0xC2D	STORY EVENT			Unlocked Mudsdale Gallop
+-	0	0xC2E	STORY EVENT			Unlocked Lapras Paddle
+-	0	0xC2F	STORY EVENT			Unlocked Sharpedo Jet
+-	0	0xC30	STORY EVENT			Unlocked Charizard Glide
+-	0	0xC53	SIDE EVENT			Unlocked IV Judge
+-	0	0xC5F	STORY EVENT	Melemele Island		Melemele Island Pokedex unlocked
+-	0	0xC60	STORY EVENT	Akala Island		Akala Island Pokedex unlocked
+-	0	0xC61	STORY EVENT	Ula'Ula Island		Ula'Ula Island Pokedex unlocked
+-	0	0xC62	STORY EVENT	Poni Island		Poni Island Pokedex unlocked
+-	0	0xC63	COLLECTABLE	Ancient Poni Path	Hapu's Room	Zygarde Core
+-	0	0xC64	COLLECTABLE	Iki Town	Porch in Hala's House	Zygarde Core
+-	0	0xC65	COLLECTABLE	Route 17	Police Station	Zygarde Core
+-	0	0xC66	COLLECTABLE	Route 1	Home	Zygarde Core
+-	0	0xC67	COLLECTABLE	Konikoni City	Olivia's Room	Zygarde Core
+-	0	0xCA5	FLY SPOT			SYS_FLAG_FLY_F0301D1004
+-	0	0xCA6	FLY SPOT	Ula Ula Island		Ruins of Abundance
+-	0	0xCA7	FLY SPOT	Akala Island		Paniloa Ranch
+-	0	0xCA8	FLY SPOT	Melemele Island		Route 1
+-	0	0xCA9	FLY SPOT	Melemele Island	Hau'oli City	Shopping District
+-	0	0xCAA	FLY SPOT	Melemele Island		Route 2
+-	0	0xCAB	FLY SPOT	Melemele Island		Iki Town
+-	0	0xCAC	FLY SPOT	Melemele Island		My House
+-	0	0xCAD	FLY SPOT	Melemele Island		Ten Carat Hill
+-	0	0xCAE	FLY SPOT	Melemele Island		Melemele Meadow
+-	0	0xCAF	FLY SPOT	Melemele Island		Verdant Cavern
+-	0	0xCB0	FLY SPOT	Melemele Island		Ruins of Conflict
+-	0	0xCB1	FLY SPOT	Melemele Island		Hau oli Cemetery
+-	0	0xCB2	FLY SPOT	Akala Island		Heahea City
+-	0	0xCB3	FLY SPOT	Akala Island		Royal Avenue
+-	0	0xCB4	FLY SPOT	Akala Island		Route 8
+-	0	0xCB5	FLY SPOT	Akala Island		Konikoni City
+-	0	0xCB6	FLY SPOT	Akala Island		Paniloa Town
+-	0	0xCB7	FLY SPOT	Akala Island		Battle Royal Dome
+-	0	0xCB8	FLY SPOT	Akala Island		Hano Grand Hotel
+-	0	0xCB9	FLY SPOT	Akala Island		Brooklet Hill
+-	0	0xCBA	FLY SPOT	Akala Island		Lush Jungle
+-	0	0xCBB	FLY SPOT	Akala Island		Wela Volcano Park
+-	0	0xCBC	FLY SPOT	Akala Island		Ruins of Life
+-	0	0xCBD	FLY SPOT	Akala Island		Memorial Hill
+-	0	0xCBE	FLY SPOT	Ula Ula Island		Malie City
+-	0	0xCBF	FLY SPOT			SYS_FLAG_FLY_F0301S0201
+-	0	0xCC0	FLY SPOT	Ula Ula Island		Tapu Village
+-	0	0xCC1	FLY SPOT	Ula Ula Island		Route 16
+-	0	0xCC2	FLY SPOT	Ula Ula Island		Mount Hokulani
+-	0	0xCC3	FLY SPOT	Ula Ula Island		Blush Mountain
+-	0	0xCC4	FLY SPOT			SYS_FLAG_FLY_F0301D0301
+-	0	0xCC5	FLY SPOT	Poni Island		Seafolk Village
+-	0	0xCC6	FLY SPOT	Poni Island		Battle Tree
+-	0	0xCC7	FLY SPOT	Poni Island		Vast Poni Canyon
+-	0	0xCC8	FLY SPOT	Poni Island		Ruins of Hope
+-	0	0xCC9	FLY SPOT	Poni Island		Poni Meadow
+-	0	0xCCA	FLY SPOT	Poni Island		Exeggutor Island
+-	0	0xCCB	FLY SPOT	Aether Paradise Island		Aether Paradise
+-	0	0xD2B	SIDE EVENT	Battle Tree		Defeated Red or Blue in Battle tree
+-	0	0xD52	STATIC ENCOUNTER	Digglett'sTunnel/Wela Volanco Park	Grass	Nihilego Disappered
+-	0	0xD53	STATIC ENCOUNTER	Melemele Meadow	Grass	First Pheromosa Disappeared (Moon)
+-	0	0xD54	STATIC ENCOUNTER	Melemele Meadow	Grass	First Buzzwole Disappeared (Sun)
+-	0	0xD55	STATIC ENCOUNTER	Melemele Meadow	Grass	Second Buzzwole Disappeared (Sun)
+-	0	0xD56	STATIC ENCOUNTER	Melemele Meadow	Grass	Second Pheromosa Disappeared (Moon)
+-	0	0xD57	STATIC ENCOUNTER	Melemele Meadow	Grass	Third Pheromosa Disappeared (Moon)
+-	0	0xD58	STATIC ENCOUNTER	Melemele Meadow	Grass	Fourth Pheromosa Disappeared (Moon)
+-	0	0xD59	STATIC ENCOUNTER	Lush Jungle/Memorial Hill	Grass	First Xurtitree Disappeared
+-	0	0xD5A	STATIC ENCOUNTER	Lush Jungle/Memorial Hill	Grass	Second Xurtitree Disappeared
+-	0	0xD5B	STATIC ENCOUNTER	Route 17/Malie Garden	Grass	First Kartana Diasppeared (Sun)
+-	0	0xD6C	STATIC ENCOUNTER	Route 17/Malie Garden	Grass	Second Kartana Diasppeared (Sun)
+-	0	0xD6D	STATIC ENCOUNTER	Route 17/Malie Garden	Grass	Third Kartana Diasppeared (Sun)
+-	0	0xD6E	STATIC ENCOUNTER	Route 17/Malie Garden	Grass	Fourth Kartana Diasppeared (Sun)
+-	0	0xD6F	STATIC ENCOUNTER	Haina Desert/Malie Garden	Grass	First Celesteela Disappeared (Moon)
+-	0	0xD70	STATIC ENCOUNTER	Haina Desert/Malie Garden	Grass	Second Celesteela Disappeared (Moon)
+-	0	0xD72	STATIC ENCOUNTER	Resolution Cave	B1F	Guzzlord Disappeared
+-	0	0xD74	STATIC ENCOUNTER	Ten Carat Hill	Overwrold/Grass	Necrozma Disappeared
+-	0	0xD8E	FLY SPOT	Ula Ula		Po Town
+-	0	0xD8F	FLY SPOT			SYS_FLAG_FLY_F0301D0201
+-	0	0xD90	FLY SPOT			SYS_FLAG_FLY_F0401H0701
+-	0	0xD91	FLY SPOT	Ula Ula Island		Lake of the Sunne
+-	0	0xD92	FLY SPOT	Poni Island		Altar of the Sun
+-	0	0xD93	FLY SPOT	Ula Ula Island		Lake of the Moone
+-	0	0xD94	FLY SPOT	Poni Island		Altar of the Moon
+-	0	0xD9F	PKMN GIFT			Received Gift Magearna
+-	0	0xDAC	STORY EVENT	Digglett'sTunnel/Wela Volanco Park	Grass	Nihilego Defeated/Captured Story Progression
+-	0	0xDAD	STORY EVENT	Digglett'sTunnel/Wela Volanco Park	Grass	Nihilego Defeated/Captured Story Progression
+-	0	0xDAE	STORY EVENT	Melemele Meadow	Grass	Second Buzzwole Defeated/Captured Story Progression (Sun)
+-	0	0xDAF	STORY EVENT	Melemele Meadow	Grass	Fourth Pheromosa Defeated/Captured Story Progression (Moon)
+-	0	0xDB0	STORY EVENT	Lush Jungle/Memorial Hill	Grass	Second Xurtitree Defeated/Captured Story Progression
+-	0	0xDB1	STORY EVENT	Lush Jungle/Memorial Hill	Grass	Second Xurtitree Defeated/Captured Story Progression
+-	0	0xDB2	STORY EVENT	Lush Jungle/Memorial Hill	Grass	Second Xurtitree Defeated/Captured Story Progression
+-	0	0xDB3	STORY EVENT	Lush Jungle/Memorial Hill	Grass	Second Xurtitree Defeated/Captured Story Progression
+-	0	0xDB4	STORY EVENT	Lush Jungle/Memorial Hill	Grass	Second Xurtitree Defeated/Captured Story Progression
+-	0	0xDB5	STORY EVENT	Route 17/Malie Garden	Grass	Fourth Kartana Defeated/Captured Story Progression (Sun)
+-	0	0xDB6	STORY EVENT	Route 17/Malie Garden	Grass	Fourth Kartana/Second Celesteela Defeated/Captured Story Progression (Sun/Moon)
+-	0	0xDB7	STORY EVENT	Route 17/Malie Garden	Grass	Second Celesteela Defeated/Captured Story Progression (Moon)
+-	0	0xDB8	STORY EVENT	Route 17/Malie Garden	Grass	Second Celesteela Defeated/Captured Story Progression (Moon)
+-	0	0xDB9	STORY EVENT	Route 17/Malie Garden	Grass	Second Celesteela Defeated/Captured Story Progression (Moon)
+-	0	0xDBA	STORY EVENT	Route 17/Malie Garden	Grass	Second Celesteela Defeated/Captured Story Progression (Moon)
+-	0	0xDBB	STORY EVENT	Route 17/Malie Garden	Grass	Second Celesteela Defeated/Captured Story Progression (Moon)
+-	0	0xDBC	STORY EVENT	Route 17/Malie Garden	Grass	Second Celesteela Defeated/Captured Story Progression (Moon)
+-	0	0xDBD	STORY EVENT	Route 17/Malie Garden	Grass	Second Celesteela Defeated/Captured Story Progression (Moon)
+-	0	0xDBE	STORY EVENT	Route 17/Malie Garden	Grass	Second Celesteela Defeated/Captured Story Progression (Moon)
+-	0	0xDBF	STORY EVENT	Resolution Cave	B1F	Guzzlord Defeated/Captured Story Progression
+-	-	0	_SEPARATOR			TIMED_EVENTS_BEGIN
+-	0	0xE80	ITEM GIFT	Hau'oli City	Alola Tourist Bureau	[Daily] Has drawn Loto Ticket
+-	0	0xE81	ITEM GIFT	Festival Plaza		[Daily] Received Festival Ticket (x3) from girl
+-	0	0xE83	FIELD ITEM	Melemele Meadow		[Night Daily] Yellow Nectar
+-	0	0xE84	FIELD ITEM	Melemele Meadow		[Night Daily] Yellow Nectar
+-	0	0xE85	FIELD ITEM	Royal Avenue		[Day Daily] Pink Nectar
+-	0	0xE86	FIELD ITEM	Royal Avenue		[Day Daily] Pink Nectar
+-	0	0xE87	FIELD ITEM	Ula'ula Meadow		[Daily] Red Nectar
+-	0	0xE88	FIELD ITEM	Ula'ula Meadow		[Daily] Red Nectar
+-	0	0xE89	FIELD ITEM	Poni Meadow		[Daily] Purple Nectar
+-	0	0xE8A	FIELD ITEM	Poni Meadow		[Daily] Purple Nectar
+-	0	0xE8F	ITEM GIFT	Poké Center Café		[Daily] Received bonus item from man

@@ -1,1179 +1,1179 @@
-0	0x080	STORY EVENT			FSYS_GAME_CLEAR
-0	0x081	STORY EVENT			FSYS_HIDEN_OPEN_IAIGIRI
-0	0x082	STORY EVENT			FSYS_HIDEN_OPEN_SORAWOTOBU
-0	0x083	STORY EVENT			FSYS_HIDEN_OPEN_KAIRIKI
-0	0x084	STORY EVENT			FSYS_HIDEN_OPEN_NAMINORI
-0	0x085	STORY EVENT			FSYS_HIDEN_OPEN_HURASSYU
-0	0x08C	STORY EVENT			FSYS_GYM_CLEAR_ROCK
-0	0x08D	STORY EVENT			FSYS_GYM_CLEAR_WATAER
-0	0x08E	STORY EVENT			FSYS_GYM_CLEAR_VOLT
-0	0x08F	STORY EVENT			FSYS_GYM_CLEAR_GRASS
-0	0x090	STORY EVENT			FSYS_GYM_CLEAR_POISON
-0	0x091	STORY EVENT			FSYS_GYM_CLEAR_ESPER
-0	0x092	STORY EVENT			FSYS_GYM_CLEAR_FIRE
-0	0x093	STORY EVENT			FSYS_GYM_CLEAR_GROUND
-0	0x094	SIDE EVENT			FSYS_ZUKAN_COMPLETE
-0	0x095	SIDE EVENT			FSYS_JUDGE_OPEN
-0	0x0B3	FLY SPOT	Pallet Town		Unlock fly spot
-0	0x0B4	FLY SPOT	Viridian City		Unlock fly spot
-0	0x0B5	FLY SPOT	Pewter City		Unlock fly spot
-0	0x0B6	FLY SPOT	Cerulean City		Unlock fly spot
-0	0x0B7	FLY SPOT	Lavender Town		Unlock fly spot
-0	0x0B8	FLY SPOT	Vermilion City		Unlock fly spot
-0	0x0B9	FLY SPOT	Celadon City		Unlock fly spot
-0	0x0BA	FLY SPOT	Fuchsia City		Unlock fly spot
-0	0x0BB	FLY SPOT	Cinnabar Island		Unlock fly spot
-0	0x0BC	FLY SPOT	Indigo Plateau		Unlock fly spot
-0	0x0BD	FLY SPOT	Saffron City		Unlock fly spot
-0	0x0E3	SIDE EVENT			FSYS_FIELD_FLYHIGH_ENABLE
-0	0x0EB	SIDE EVENT			FSYS_BUDDY_POKEMON_ENABLE
-0	0x20B	FIELD ITEM	Seafoam Islands	B3F	Ultra Ball (x3)
-0	0x20C	FIELD ITEM	Seafoam Islands	B3F	Super Lure
-0	0x20D	FIELD ITEM	Seafoam Islands	B3F	Hyper Potion
-0	0x20E	FIELD ITEM	Seafoam Islands	B3F	Super Repel
-0	0x20F	FIELD ITEM	Seafoam Islands	B3F	X Speed
-0	0x210	HIDDEN ITEM	Seafoam Islands	B3F	Revive (recurring)
-0	0x211	FIELD ITEM	Seafoam Islands	B4F	Big Pearl
-0	0x212	FIELD ITEM	Seafoam Islands	B4F	Big Pearl
-0	0x213	FIELD ITEM	Seafoam Islands	B4F	Big Pearl
-0	0x214	HIDDEN ITEM	Seafoam Islands	B4F	Pretty Wing (recurring)
-0	0x286	FIELD ITEM	Route 23		Golden Razz Berry (x5)
-0	0x287	FIELD ITEM	Route 23		Golden Nanab Berry (x5)
-0	0x288	FIELD ITEM	Route 23		Golden Pinap Berry (x5)
-0	0x289	FIELD ITEM	Route 23		Golden Razz Berry (x3)
-0	0x28A	FIELD ITEM	Route 23		Golden Nanab Berry (x3)
-0	0x28B	FIELD ITEM	Route 23		Golden Pinap Berry (x3)
-0	0x296	SIDE EVENT	Route 1		Razz Berry (Partner Findings)
-0	0x2A0	FIELD ITEM	Route 2		Leaf Stone
-0	0x2A1	FIELD ITEM	Route 2		Super Potion
-0	0x2A2	HIDDEN ITEM	Viridian City		Potion (recurring)
-0	0x2B1	SIDE EVENT	Viridian City		town002_PartnerStop_0
-0	0x2B2	SIDE EVENT	Viridian City		town002_PartnerStop_1
-0	0x2B3	FIELD ITEM	Route 22		Poké Ball (x5)
-0	0x2B4	HIDDEN ITEM	Route 22		Antidote (recurring)
-0	0x2B5	FIELD ITEM	Route 21		Water Stone
-0	0x2B6	FIELD ITEM	Route 21		Hyper Potion
-0	0x2B7	FIELD ITEM	Route 21		PP Up
-0	0x2B8	HIDDEN ITEM	Route 21		Stardust (x3) (recurring)
-0	0x2B9	HIDDEN ITEM	Route 21	Water	Revive (recurring)
-0	0x2BA	FIELD ITEM	Cinnabar Island		Antidote
-0	0x2C0	HIDDEN ITEM	Route 20	Water	Revive (recurring)
-0	0x2C2	FIELD ITEM	Route 19		Full Heal
-0	0x2C3	HIDDEN ITEM	Route 19	Water	Revive (recurring)
-0	0x2C4	HIDDEN ITEM	Route 19	Water	Revive (recurring)
-0	0x2C8	SIDE EVENT	Route 19		road019_PartnerStop
-0	0x2C9	FIELD ITEM	Fuchsia City		Super Lure
-0	0x2D9	SIDE EVENT	Fuchsia City		town008_PartnerStop
-0	0x2DA	FIELD ITEM	Route 18		Elixir
-0	0x2DB	FIELD ITEM	Route 20		Max Repel
-0	0x2DC	FIELD ITEM	Route 20		Ultra Ball (x3)
-0	0x2DD	HIDDEN ITEM	Route 20	Water	Revive (recurring)
-0	0x2DE	HIDDEN ITEM	Route 20	Water	Revive (recurring)
-0	0x2DF	HIDDEN ITEM	Route 20		Stardust (recurring)
-0	0x2E0	FIELD ITEM	Route 20		Heart Scale
-0	0x2E1	FIELD ITEM	Route 2		Great Ball (x3)
-0	0x2E3	FIELD ITEM	Route 3		Potion
-0	0x2E4	FIELD ITEM	Route 3		Revive
-0	0x2E5	FIELD ITEM	Route 3		Lure
-0	0x2E6	FIELD ITEM	Route 3		Poké Ball (x3)
-0	0x2E8	SIDE EVENT	Route 3		Razz Berry (Partner Findings)
-0	0x2E9	FIELD ITEM	Route 4		Escape Rope
-0	0x2ED	FIELD ITEM	Pewter City		X Defense
-0	0x2FC	SIDE EVENT	Pewter City		Razz Berry
-0	0x2FD	FIELD ITEM	Route 4		Poké Ball (x5)
-0	0x2FE	HIDDEN ITEM	Route 4		PP Up (recurring)
-0	0x2FF	FIELD ITEM	Route 4		Paralyze Heal
-0	0x300	FIELD ITEM	Route 4		PP Max
-0	0x301	FIELD ITEM	Route 4		Great Ball (x3)
-0	0x302	FIELD ITEM	Route 4		Repel
-0	0x304	SIDE EVENT	Route 4		Nanab Berry (Partner Findings)
-0	0x305	FIELD ITEM	Route 5		Great Ball (x3)
-0	0x306	FIELD ITEM	Route 5		Ether
-0	0x307	HIDDEN ITEM	Route 5		Razz Berry (x3) (recurring)
-0	0x308	FIELD ITEM	Route 5		Nanab Berry (x3)
-0	0x30A	FIELD ITEM	Route 9		Super Potion
-0	0x30B	HIDDEN ITEM	Route 9		Pinap Berry (x5) (recurring)
-0	0x30C	FIELD ITEM	Route 9		Ether
-0	0x30D	FIELD ITEM	Route 9		Super Potion
-0	0x30E	FIELD ITEM	Route 9		Poké Ball (x5)
-0	0x30F	HIDDEN ITEM	Route 10		Super Lure (recurring)
-0	0x310	FIELD ITEM	Route 10		Great Ball (x3)
-0	0x311	FIELD ITEM	Route 10		Super Potion
-0	0x312	FIELD ITEM	Route 10		Poké Ball (x5)
-0	0x313	FIELD ITEM	Route 10		Thunder Stone
-0	0x31A	FIELD ITEM	Route 24		X Sp. Def
-0	0x31B	FIELD ITEM	Route 24		Razz Berry (x3)
-0	0x31C	HIDDEN ITEM	Route 24		Pinap Berry (x3) (recurring)
-0	0x320	SIDE EVENT	Route 24		Razz Berry (Partner Findings)
-0	0x321	HIDDEN ITEM	Route 25		Nanab Berry (x3) (recurring)
-0	0x322	FIELD ITEM	Route 25		TM16 (Thunder Waver)
-0	0x323	FIELD ITEM	Route 25		Lure
-0	0x324	FIELD ITEM	Route 25		Super Potion
-0	0x325	FIELD ITEM	Route 25		Ether
-0	0x326	SIDE EVENT	Route 25		road025_PartnerStop
-0	0x327	FIELD ITEM	Cerulean City		Rare Candy
-0	0x328	FIELD ITEM	Cerulean City		Burn Heal
-0	0x336	SIDE EVENT	Cerulean City		town004_PartnerStop
-0	0x337	SIDE EVENT	Cerulean City		town004_PartnerStop_0
-0	0x338	SIDE EVENT	Cerulean City		town004_PartnerStop_1
-0	0x339	SIDE EVENT	Cerulean City		town004_PartnerStop_2
-0	0x33A	FIELD ITEM	Route 16		Super Potion
-0	0x33B	FIELD ITEM	Route 16		Great Ball (x3)
-0	0x33C	HIDDEN ITEM	Route 17		(random berry) (recurring)
-0	0x33D	HIDDEN ITEM	Route 17		(random berry) (recurring)
-0	0x33E	HIDDEN ITEM	Route 17		(random berry) (recurring)
-0	0x33F	HIDDEN ITEM	Route 17		Silver Razz Berry (x3) (recurring)
-0	0x340	HIDDEN ITEM	Route 17		Silver Nanab Berry (x3) (recurring)
-0	0x341	HIDDEN ITEM	Route 17		Silver Pinap Berry (x3) (recurring)
-0	0x342	FIELD ITEM	Route 17		Great Ball (x3)
-0	0x343	FIELD ITEM	Route 17		Super Repel
-0	0x344	FIELD ITEM	Route 17		Super Potion
-0	0x345	FIELD ITEM	Route 17		Super Lure
-0	0x346	FIELD ITEM	Route 17		Elixir
-0	0x347	FIELD ITEM	Route 17		Rare Candy
-0	0x348	FIELD ITEM	Route 17		Silver Pinap Berry (x5)
-0	0x349	FIELD ITEM	Route 17		Nugget
-0	0x356	SIDE EVENT	Route 17		Pinap Berry (Partner Findings)
-0	0x357	SIDE EVENT	Route 17		road017_PartnerStop_0
-0	0x358	SIDE EVENT	Route 17		road017_PartnerStop_1
-0	0x359	SIDE EVENT	Route 17		road017_PartnerStop_2
-0	0x35A	HIDDEN ITEM	Route 18		Silver Razz Berry (x3) (recurring)
-0	0x35B	SIDE EVENT	Route 18		road018_1_PartnerStop
-0	0x35C	FIELD ITEM	Route 7		Elixir
-0	0x35D	HIDDEN ITEM	Route 7		Pinap Berry (x5) (recurring)
-0	0x35E	SIDE EVENT	Route 7		Nanab Berry (Partner Findings)
-0	0x35F	FIELD ITEM	Route 16		PP Up
-0	0x360	HIDDEN ITEM	Route 16		Awakening (recurring)
-0	0x363	SIDE EVENT	Route 16		road016_2_PartnerStop
-0	0x364	HIDDEN ITEM	Celadon City		Razz Berry (x5) (recurring)
-0	0x365	FIELD ITEM	Celadon City		Nugget
-0	0x366	FIELD ITEM	Celadon City		Rare Candy
-0	0x379	SIDE EVENT	Celadon City		town007_PartnerStop
-0	0x37A	SIDE EVENT	Celadon City		town007_PartnerStop_2
-0	0x37B	SIDE EVENT	Celadon City		town007_PartnerStop_3
-0	0x37C	FIELD ITEM	Saffron City		X Sp. Def
-0	0x384	SIDE EVENT	Saffron City		town011_PartnerStop
-0	0x385	SIDE EVENT	Saffron City		town011_PartnerStop_0
-0	0x386	FIELD ITEM	Route 8		Fire Stone
-0	0x387	FIELD ITEM	Route 8		Big Mushroom
-0	0x388	HIDDEN ITEM	Route 8		Silver Pinap Berry (x3) (recurring)
-0	0x389	FIELD ITEM	Route 8		X Speed
-0	0x38A	SIDE EVENT	Route 8		Golden Pinap Berry (Partner Findings)
-0	0x38B	HIDDEN ITEM	Route 10		Nanab Berry (x5) (recurring)
-0	0x38C	FIELD ITEM	Route 10		Great Ball (x3)
-0	0x38D	FIELD ITEM	Route 12		TM24 (X-Scissor)
-0	0x38E	FIELD ITEM	Route 12		Water Stone
-0	0x38F	HIDDEN ITEM	Route 12		Silver Pinap Berry (x5) (recurring)
-0	0x390	FIELD ITEM	Route 12		Ultra Ball (x3)
-0	0x391	FIELD ITEM	Route 12		Lure
-0	0x392	FIELD ITEM	Route 12		Repel
-0	0x393	FIELD ITEM	Route 12		Awakening
-0	0x394	FIELD ITEM	Route 12		Max Lure
-0	0x398	SIDE EVENT	Route 12		road012_PartnerStop
-0	0x399	HIDDEN ITEM	Route 13		Silver Nanab Berry (x5) (recurring)
-0	0x39A	HIDDEN ITEM	Route 13		Golden Pinap Berry (recurring)
-0	0x39B	FIELD ITEM	Route 13		Full Heal
-0	0x39C	FIELD ITEM	Route 13		PP Up
-0	0x39D	FIELD ITEM	Route 14		Hyper Potion
-0	0x39E	FIELD ITEM	Route 14		Nugget
-0	0x39F	HIDDEN ITEM	Route 14		Golden Razz Berry (recurring)
-0	0x3A0	SIDE EVENT	Route 14		Nanab Berry
-0	0x3A1	FIELD ITEM	Route 15		TM47 (Surf)
-0	0x3A2	FIELD ITEM	Route 15		Hyper Potion
-0	0x3A3	FIELD ITEM	Route 15		Ultra Ball (x3)
-0	0x3A4	HIDDEN ITEM	Route 15		Golden Nanab Berry (recurring)
-0	0x3A5	SIDE EVENT	Route 15		Silver Pinap Berry
-0	0x3B0	SIDE EVENT	Lavender Town		town005_PartnerStop
-0	0x3B1	FIELD ITEM	Route 6		Super Potion
-0	0x3B2	FIELD ITEM	Route 6		Paralyze Heal
-0	0x3B3	HIDDEN ITEM	Route 6		Rare Candy (recurring)
-0	0x3B4	FIELD ITEM	Route 6		Guard Spec.
-0	0x3B5	HIDDEN ITEM	Route 11		Revive (recurring)
-0	0x3B6	FIELD ITEM	Route 11		Great Ball (x5)
-0	0x3B7	FIELD ITEM	Route 11		Super Potion
-0	0x3B8	FIELD ITEM	Route 11		X Defense
-0	0x3B9	FIELD ITEM	Route 11		Lure
-0	0x3BA	FIELD ITEM	Route 11		Super Repel
-0	0x3BB	SIDE EVENT	Route 11		Golden Razz Berry (Partner Findings)
-0	0x3BC	HIDDEN ITEM	Vermilion City		Big Pearl (recurring)
-0	0x3BD	HIDDEN ITEM	Vermilion City		Full Heal (recurring)
-0	0x3CB	SIDE EVENT	Vermilion City		town006_PartnerStop
-0	0x3CC	SIDE EVENT	Vermilion City		town006_PartnerStop_0
-0	0x3D0	FIELD ITEM	Route 7	Underground Path (East-West)	X Accuracy
-0	0x3D1	FIELD ITEM	Route 7	Underground Path (East-West)	X Defense
-0	0x3D2	HIDDEN ITEM	Route 7	Underground Path (East-West)	(random item) (recurring)
-0	0x3D3	HIDDEN ITEM	Route 7	Underground Path (East-West)	(random item) (recurring)
-0	0x3D4	HIDDEN ITEM	Route 7	Underground Path (East-West)	(random item) (recurring)
-0	0x3D5	HIDDEN ITEM	Route 7	Underground Path (East-West)	(random item) (recurring)
-0	0x3D6	HIDDEN ITEM	Route 5	Underground Path (North-South)	(random item) (recurring)
-0	0x3D7	HIDDEN ITEM	Route 5	Underground Path (North-South)	(random item) (recurring)
-0	0x3D8	HIDDEN ITEM	Route 5	Underground Path (North-South)	(random item) (recurring)
-0	0x3D9	HIDDEN ITEM	Route 5	Underground Path (North-South)	(random item) (recurring)
-0	0x3DA	HIDDEN ITEM	Route 5	Underground Path (North-South)	Nugget (recurring)
-0	0x3DB	FIELD ITEM	Route 5	Underground Path (North-South)	Repel
-0	0x3DC	FIELD ITEM	Route 5	Underground Path (North-South)	Lure
-0	0x3DD	FIELD ITEM	Viridian Forest		Antidote
-0	0x3DE	FIELD ITEM	Viridian Forest		Potion
-0	0x3DF	FIELD ITEM	Viridian Forest		Lure
-0	0x3E0	HIDDEN ITEM	Viridian Forest		Potion (recurring)
-0	0x3E1	FIELD ITEM	Viridian Forest		Razz Berry (x3)
-0	0x3E2	FIELD ITEM	Viridian Forest		Poké Ball (x5)
-0	0x3E3	FIELD ITEM	Viridian Forest		Tiny Mushroom
-0	0x3E6	SIDE EVENT	Viridian Forest		forest001_PartnerStop
-0	0x3E7	SIDE EVENT	Viridian Forest		forest001_PartnerStop_0
-0	0x3F1	FIELD ITEM	Mt. Moon	1F	Repel
-0	0x3F2	FIELD ITEM	Mt. Moon	1F	Potion
-0	0x3F3	FIELD ITEM	Mt. Moon	1F	Awakening
-0	0x3F4	FIELD ITEM	Mt. Moon	1F	Pearl
-0	0x3F5	FIELD ITEM	Mt. Moon	1F	Ether
-0	0x3F6	FIELD ITEM	Mt. Moon	1F	Great Ball (x5)
-0	0x3F7	HIDDEN ITEM	Mt. Moon	1F	Stardust (recurring)
-0	0x3FC	SIDE EVENT	Mt. Moon	1F	r004d0101_PartnerStop
-0	0x3FD	SIDE EVENT	Mt. Moon	1F	r004d0101_PartnerStop_0
-0	0x3FE	HIDDEN ITEM	Mt. Moon	B1F	Big Mushroom (recurring)
-0	0x400	SIDE EVENT	Mt. Moon	B1F	r004d0102_PartnerStop
-0	0x401	SIDE EVENT	Mt. Moon	B1F	r004d0102_PartnerStop_0
-0	0x402	SIDE EVENT	Mt. Moon	B1F	r004d0102_PartnerStop_1
-0	0x403	FIELD ITEM	Mt. Moon	B2F	Rare Candy
-0	0x404	FIELD ITEM	Mt. Moon	B2F	Nugget
-0	0x405	HIDDEN ITEM	Mt. Moon	B2F	Moon Stone (recurring)
-0	0x406	HIDDEN ITEM	Mt. Moon	B2F	Moon Stone (recurring)
-0	0x407	FIELD ITEM	Mt. Moon	B2F	Revive
-0	0x408	FIELD ITEM	Mt. Moon	B2F	Potion
-0	0x409	FIELD ITEM	Mt. Moon	B2F	Revive
-0	0x40B	SIDE EVENT	Mt. Moon	B2F	r004d0103_PartnerStop
-0	0x40C	SIDE EVENT	Mt. Moon	B2F	r004d0103_PartnerStop_0
-0	0x40D	SIDE EVENT	Mt. Moon	B2F	r004d0103_PartnerStop_1
-0	0x414	FIELD ITEM	Rock Tunnel	1F	Repel
-0	0x415	FIELD ITEM	Rock Tunnel	1F	Escape Rope
-0	0x416	FIELD ITEM	Rock Tunnel	1F	Super Potion
-0	0x417	FIELD ITEM	Rock Tunnel	1F	Pearl
-0	0x418	FIELD ITEM	Rock Tunnel	1F	Stardust
-0	0x419	HIDDEN ITEM	Rock Tunnel	1F	Revive (recurring)
-0	0x41B	SIDE EVENT	Rock Tunnel	1F	r010d0101_PartnerStop
-0	0x41C	SIDE EVENT	Rock Tunnel	1F	r010d0101_PartnerStop_0
-0	0x41D	SIDE EVENT	Rock Tunnel	1F	r010d0101_PartnerStop_1
-0	0x41E	SIDE EVENT	Rock Tunnel	1F	r010d0101_PartnerStop_2
-0	0x41F	SIDE EVENT	Rock Tunnel	1F	r010d0101_PartnerStop_3
-0	0x420	FIELD ITEM	Rock Tunnel	B1F	Revive
-0	0x421	FIELD ITEM	Rock Tunnel	B1F	Great Ball (x3)
-0	0x422	FIELD ITEM	Rock Tunnel	B1F	Full Heal
-0	0x423	FIELD ITEM	Rock Tunnel	B1F	Super Potion
-0	0x424	FIELD ITEM	Rock Tunnel	B1F	Dire Hit
-0	0x425	HIDDEN ITEM	Rock Tunnel	B1F	Super Potion (recurring)
-0	0x426	FIELD ITEM	Rock Tunnel	B1F	Stardust
-0	0x427	SIDE EVENT	Rock Tunnel	B1F	r010d0102_PartnerStop
-0	0x428	SIDE EVENT	Rock Tunnel	B1F	r010d0102_PartnerStop_0
-0	0x429	SIDE EVENT	Rock Tunnel	B1F	r010d0102_PartnerStop_2
-0	0x42A	SIDE EVENT	Rock Tunnel	B1F	r010d0102_PartnerStop_3
-0	0x42B	SIDE EVENT	Rock Tunnel	B1F	r010d0102_PartnerStop_4
-0	0x42C	FIELD ITEM	Power Plant		Max Revive
-0	0x42D	FIELD ITEM	Power Plant		Rare Candy
-0	0x42E	FIELD ITEM	Power Plant		TM38 (Thunder)
-0	0x42F	FIELD ITEM	Power Plant		Max Potion
-0	0x430	FIELD ITEM	Power Plant		Thunder Stone
-0	0x431	HIDDEN ITEM	Power Plant		Voltorb Candy (recurring)
-0	0x432	HIDDEN ITEM	Power Plant		Pretty Wing (recurring)
-0	0x433	FIELD ITEM	Power Plant		Paralyze Heal
-0	0x434	FIELD ITEM	Power Plant		X Sp. Def
-0	0x435	FIELD ITEM	Power Plant		Max Potion
-0	0x436	HIDDEN ITEM	Power Plant		Voltorb Candy (recurring)
-0	0x437	HIDDEN ITEM	Power Plant		Voltorb Candy (recurring)
-0	0x438	HIDDEN ITEM	Power Plant		Voltorb Candy (recurring)
-0	0x43A	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode
-0	0x43B	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode
-0	0x43C	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode
-0	0x43D	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode
-0	0x43E	SIDE EVENT	Power Plant		r010r0101_PartnerStop
-0	0x43F	SIDE EVENT	Power Plant		r010r0101_PartnerStop_0
-0	0x440	SIDE EVENT	Power Plant		r010r0101_PartnerStop_1
-0	0x441	SIDE EVENT	Power Plant		r010r0101_PartnerStop_2
-0	0x442	SIDE EVENT	Power Plant		r010r0101_PartnerStop_3
-0	0x443	SIDE EVENT	Power Plant		r010r0101_PartnerStop_4
-0	0x460	FIELD ITEM	Seafoam Islands	1F	Ice Heal
-0	0x461	FIELD ITEM	Seafoam Islands	1F	Escape Rope
-0	0x462	HIDDEN ITEM	Seafoam Islands	1F	Heart Scale (recurring)
-0	0x463	HIDDEN ITEM	Seafoam Islands	1F	Heart Scale (recurring)
-0	0x465	FIELD ITEM	Seafoam Islands	B1F	Super Lure
-0	0x466	FIELD ITEM	Seafoam Islands	B1F	Great Ball (x5)
-0	0x467	FIELD ITEM	Seafoam Islands	B1F	Super Repel
-0	0x468	FIELD ITEM	Seafoam Islands	B1F	Max Potion
-0	0x469	HIDDEN ITEM	Seafoam Islands	B1F	Max Revive (recurring)
-0	0x46A	SIDE EVENT	Seafoam Islands	B1F	r020d0102_PartnerStop
-0	0x46B	HIDDEN ITEM	Seafoam Islands	B2F	Pearl (recurring)
-0	0x46C	FIELD ITEM	Seafoam Islands	B2F	TM55 (Ice Beam)
-0	0x46D	FIELD ITEM	Seafoam Islands	B2F	Ice Stone
-0	0x46E	HIDDEN ITEM	Seafoam Islands	B2F	Heart Scale (recurring)
-0	0x46F	HIDDEN ITEM	Seafoam Islands	B2F	Heart Scale (recurring)
-0	0x470	HIDDEN ITEM	Seafoam Islands	B2F	Heart Scale (recurring)
-0	0x471	SIDE EVENT	Seafoam Islands	B2F	r020d0103_PartnerStop
-0	0x472	SIDE EVENT	Seafoam Islands	B2F	r020d0103_PartnerStop_0
-0	0x476	FIELD ITEM	Victory Road	1F	Leaf Stone
-0	0x477	FIELD ITEM	Victory Road	1F	TM56 (Stealth Rock)
-0	0x478	HIDDEN ITEM	Victory Road	1F	(random candy) (recurring)
-0	0x479	FIELD ITEM	Victory Road	1F	Ultra Ball (x3)
-0	0x47A	SIDE EVENT	Victory Road	1F	r023d0101_PartnerStop
-0	0x47B	FIELD ITEM	Victory Road	2F	PP Max
-0	0x47C	FIELD ITEM	Victory Road	2F	Full Restore
-0	0x47D	FIELD ITEM	Victory Road	2F	TM49 (Superpower)
-0	0x47E	FIELD ITEM	Victory Road	2F	TM45 (Solar Beam)
-0	0x47F	HIDDEN ITEM	Victory Road	2F	(random candy) (recurring)
-0	0x480	HIDDEN ITEM	Victory Road	2F	Pretty Wing (recurring)
-0	0x482	SIDE EVENT	Victory Road	2F	r023d0102_PartnerStop
-0	0x483	FIELD ITEM	Victory Road	3F	TM51 (Blizzard)
-0	0x484	FIELD ITEM	Victory Road	3F	Max Revive
-0	0x485	FIELD ITEM	Victory Road	3F	Golden Nanab Berry (x5)
-0	0x486	FIELD ITEM	Victory Road	3F	Full Restore
-0	0x487	FIELD ITEM	Victory Road	3F	Max Potion
-0	0x488	HIDDEN ITEM	Victory Road	3F	Fresh Water (recurring)
-0	0x489	HIDDEN ITEM	Victory Road	3F	(random candy) (recurring)
-0	0x48B	SIDE EVENT	Victory Road	3F	r023d0103_PartnerStop
-0	0x48C	SIDE EVENT	Victory Road	3F	r023d0103_PartnerStop_0
-0	0x48D	SIDE EVENT	Victory Road	3F	r023d0103_PartnerStop_1
-0	0x4B4	SIDE EVENT	Pewter City		t003r0101_PartnerStop
-0	0x4BA	SIDE EVENT	Pewter City	Museum	Bring a partner that can evolve with a Moon Stone (Partner Findings)
-0	0x4C0	FIELD ITEM	Cerulean Cave	1F	Max Revive
-0	0x4C1	FIELD ITEM	Cerulean Cave	1F	Max Repel
-0	0x4C2	FIELD ITEM	Cerulean Cave	1F	Full Heal
-0	0x4C3	FIELD ITEM	Cerulean Cave	1F	PP Max
-0	0x4C4	HIDDEN ITEM	Cerulean Cave	1F	Full Restore (recurring)
-0	0x4C5	HIDDEN ITEM	Cerulean Cave	1F	Rare Candy (recurring)
-0	0x4C6	SIDE EVENT	Cerulean Cave	1F	Pearl (Partner Findings)
-0	0x4C7	FIELD ITEM	Cerulean Cave	2F	Full Restore
-0	0x4C8	FIELD ITEM	Cerulean Cave	2F	Rare Candy
-0	0x4C9	FIELD ITEM	Cerulean Cave	2F	Max Revive
-0	0x4CA	FIELD ITEM	Cerulean Cave	2F	Max Lure
-0	0x4CB	HIDDEN ITEM	Cerulean Cave	2F	(random fossil / Max Revive) (recurring)
-0	0x4CC	FIELD ITEM	Cerulean Cave	2F	Ultra Balls (x5)
-0	0x4CD	SIDE EVENT	Cerulean Cave	2F	Pearl (Partner Findings)
-0	0x4CE	SIDE EVENT	Cerulean Cave	2F	Stardust (Partner Findings)
-0	0x4CF	FIELD ITEM	Cerulean Cave	B1F	Escape Rope
-0	0x4D0	FIELD ITEM	Cerulean Cave	B1F	Full Restore
-0	0x4D1	FIELD ITEM	Cerulean Cave	B1F	Max Elixir
-0	0x4D2	FIELD ITEM	Cerulean Cave	B1F	[unused?]
-0	0x4D3	HIDDEN ITEM	Cerulean Cave	B1F	Max Revive (recurring)
-0	0x4D4	HIDDEN ITEM	Cerulean Cave	B1F	(random fossil) (recurring)
-0	0x4D5	HIDDEN ITEM	Cerulean Cave	B1F	PP Max (recurring)
-0	0x4D6	FIELD ITEM	Cerulean Cave	B1F	Poké Ball
-0	0x4D7	FIELD ITEM	Cerulean Cave	B1F	Poké Ball
-0	0x4D8	FIELD ITEM	Cerulean Cave	B1F	Poké Ball
-0	0x4D9	FIELD ITEM	Cerulean Cave	B1F	Poké Ball
-0	0x4DA	FIELD ITEM	Cerulean Cave	B1F	Poké Ball
-0	0x4DC	SIDE EVENT	Cerulean Cave	B1F	t004d0103_PartnerStop
-0	0x4DD	SIDE EVENT	Cerulean Cave	B1F	Stardust (Partner Findings)
-0	0x504	HIDDEN ITEM	Pokémon Tower	2F	Pearl (recurring)
-0	0x505	FIELD ITEM	Pokémon Tower	2F	X Attack
-0	0x506	FIELD ITEM	Pokémon Tower	2F	Elixir
-0	0x508	FIELD ITEM	Pokémon Tower	3F	Awakening
-0	0x509	FIELD ITEM	Pokémon Tower	3F	Super Potion
-0	0x50A	HIDDEN ITEM	Pokémon Tower	3F	Star Piece (recurring)
-0	0x512	FIELD ITEM	Pokémon Tower	4F	Escape Rope
-0	0x513	FIELD ITEM	Pokémon Tower	4F	TM04 (Teleport)
-0	0x514	FIELD ITEM	Pokémon Tower	4F	Full Heal
-0	0x515	HIDDEN ITEM	Pokémon Tower	4F	Super Potion (recurring)
-0	0x516	SIDE EVENT	Pokémon Tower	4F	t005r0304_PartnerStop
-0	0x517	HIDDEN ITEM	Pokémon Tower	5F	Big Pearl (recurring)
-0	0x518	FIELD ITEM	Pokémon Tower	5F	Ice Stone
-0	0x519	FIELD ITEM	Pokémon Tower	5F	Nugget
-0	0x51B	FIELD ITEM	Pokémon Tower	6F	Revive
-0	0x51C	FIELD ITEM	Pokémon Tower	6F	Rare Candy
-0	0x51D	FIELD ITEM	Pokémon Tower	6F	Ultra Ball (x3)
-0	0x51E	FIELD ITEM	Pokémon Tower	6F	Hyper Potion
-0	0x51F	HIDDEN ITEM	Pokémon Tower	6F	PP Up (recurring)
-0	0x544	FIELD ITEM	S.S. Anne	Kitchen	Super Repel
-0	0x545	HIDDEN ITEM	S.S. Anne	Kitchen	Tiny Mushroom (recurring)
-0	0x550	FIELD ITEM	S.S. Anne	1F	Paralyze Heal
-0	0x558	FIELD ITEM	S.S. Anne	2F	Revive
-0	0x55B	FIELD ITEM	S.S. Anne	2F	Nugget
-0	0x560	FIELD ITEM	S.S. Anne	B1F	Super Potion
-0	0x561	FIELD ITEM	S.S. Anne	B1F	Full Heal
-0	0x562	FIELD ITEM	S.S. Anne	B1F	Elixir
-0	0x578	FIELD ITEM	Celadon City	Condominiums Rooftop	TM44 (Play Rough)
-0	0x59B	SIDE EVENT			t007r0505_PartnerStop
-0	0x59C	SIDE EVENT			t007r0505_PartnerStop_0
-0	0x5A1	HIDDEN ITEM	Celadon City	Game Corner	(random item) (recurring)
-0	0x5A2	HIDDEN ITEM	Celadon City	Game Corner	(random item) (recurring)
-0	0x5A3	HIDDEN ITEM	Celadon City	Game Corner	(random item) (recurring)
-0	0x5A4	HIDDEN ITEM	Celadon City	Game Corner	(random item) (recurring)
-0	0x5A5	HIDDEN ITEM	Celadon City	Game Corner	(random item) (recurring)
-0	0x5A6	HIDDEN ITEM	Celadon City	Game Corner	(random item) (recurring)
-0	0x5B5	FIELD ITEM	Team Rocket Hideout	B1F	Ultra Ball (x5)
-0	0x5B6	HIDDEN ITEM	Team Rocket Hideout	B1F	Full Heal (recurring)
-0	0x5B7	FIELD ITEM	Team Rocket Hideout	B1F	Hyper Potion
-0	0x5B8	FIELD ITEM	Team Rocket Hideout	B1F	Great Ball (x5)
-0	0x5B9	FIELD ITEM	Team Rocket Hideout	B1F	Mighty Candy (x3)
-0	0x5BB	FIELD ITEM	Team Rocket Hideout	B2F	Nugget
-0	0x5BC	FIELD ITEM	Team Rocket Hideout	B2F	Awakening
-0	0x5BD	FIELD ITEM	Team Rocket Hideout	B2F	TM05 (Rest)
-0	0x5BE	FIELD ITEM	Team Rocket Hideout	B2F	PP Up
-0	0x5BF	HIDDEN ITEM	Team Rocket Hideout	B2F	X Accuracy (recurring)
-0	0x5C0	FIELD ITEM	Team Rocket Hideout	B3F	TM20 (Dark Pulse)
-0	0x5C1	FIELD ITEM	Team Rocket Hideout	B3F	Rare Candy
-0	0x5C2	HIDDEN ITEM	Team Rocket Hideout	B3F	Guard Spec. (recurring)
-0	0x5C3	FIELD ITEM	Team Rocket Hideout	B3F	Revive
-0	0x5C4	FIELD ITEM	Team Rocket Hideout	B3F	X Speed
-0	0x5C5	FIELD ITEM	Team Rocket Hideout	B4F	PP Up
-0	0x5C6	FIELD ITEM	Team Rocket Hideout	B4F	Hyper Potion
-0	0x5C7	FIELD ITEM	Team Rocket Hideout	B4F	Elixir
-0	0x5C8	HIDDEN ITEM	Team Rocket Hideout	B4F	Max Revive (recurring)
-0	0x624	HIDDEN ITEM	Pokémon Mansion	1F	(random candy) (recurring)
-0	0x625	FIELD ITEM	Pokémon Mansion	1F	Max Elixir
-0	0x626	FIELD ITEM	Pokémon Mansion	1F	Fire Stone
-0	0x627	FIELD ITEM	Pokémon Mansion	1F	Max Repel
-0	0x628	FIELD ITEM	Pokémon Mansion	1F	Silver Razz Berry (x5)
-0	0x629	FIELD ITEM	Pokémon Mansion	1F	Max Lure
-0	0x62B	FIELD ITEM	Pokémon Mansion	2F	Max Revive
-0	0x62C	FIELD ITEM	Pokémon Mansion	2F	PP Up
-0	0x62D	FIELD ITEM	Pokémon Mansion	2F	Max Ether
-0	0x62E	FIELD ITEM	Pokémon Mansion	2F	Ultra Ball (x3)
-0	0x62F	HIDDEN ITEM	Pokémon Mansion	2F	(random candy) (recurring)
-0	0x630	FIELD ITEM	Pokémon Mansion	2F	Hyper Potion
-0	0x631	FIELD ITEM	Pokémon Mansion	3F	TM21 (Foul Play)
-0	0x632	FIELD ITEM	Pokémon Mansion	3F	Rare Candy
-0	0x633	HIDDEN ITEM	Pokémon Mansion	3F	(random candy) (recurring)
-0	0x634	FIELD ITEM	Pokémon Mansion	3F	Full Heal
-0	0x635	FIELD ITEM	Pokémon Mansion	3F	X Accuracy
-0	0x636	FIELD ITEM	Pokémon Mansion	B1F	Secret Key
-0	0x637	FIELD ITEM	Pokémon Mansion	B1F	Max Potion
-0	0x638	FIELD ITEM	Pokémon Mansion	B1F	Rare Candy
-0	0x639	FIELD ITEM	Pokémon Mansion	B1F	Max Elixir
-0	0x63A	FIELD ITEM	Pokémon Mansion	B1F	TM52 (Sludge Bomb)
-0	0x63B	HIDDEN ITEM	Pokémon Mansion	B1F	(random candy) (recurring)
-0	0x63C	HIDDEN ITEM	Pokémon Mansion	B1F	(random candy) (recurring)
-0	0x63D	HIDDEN ITEM	Pokémon Mansion	B1F	(random candy) (recurring)
-0	0x63E	HIDDEN ITEM	Pokémon Mansion	B1F	(random candy) (recurring)
-0	0x63F	HIDDEN ITEM	Pokémon Mansion	B1F	(random candy) (recurring)
-0	0x640	SIDE EVENT	Pokémon Mansion	B1F	t009r0204_PartnerStop
-0	0x641	SIDE EVENT	Pokémon Mansion	B1F	t009r0204_PartnerStop_0
-0	0x67F	HIDDEN ITEM	Saffron City	Copycat's House	Moon Stone (recurring)
-0	0x689	FIELD ITEM	Silph Co.	1F	X Sp. Atk
-0	0x68D	FIELD ITEM	Silph Co.	2F	X Attack
-0	0x68E	FIELD ITEM	Silph Co.	2F	Super Potion
-0	0x68F	HIDDEN ITEM	Silph Co.	2F	Fresh Water (recurring)
-0	0x691	FIELD ITEM	Silph Co.	3F	Max Lure
-0	0x692	FIELD ITEM	Silph Co.	3F	X Sp. Def
-0	0x693	HIDDEN ITEM	Silph Co.	3F	Silver Razz Berry (x3) (recurring)
-0	0x695	FIELD ITEM	Silph Co.	4F	Escape Rope
-0	0x696	FIELD ITEM	Silph Co.	4F	Star Piece
-0	0x697	FIELD ITEM	Silph Co.	4F	Full Heal
-0	0x698	FIELD ITEM	Silph Co.	4F	Revive
-0	0x699	FIELD ITEM	Silph Co.	4F	Dire Hit
-0	0x69A	HIDDEN ITEM	Silph Co.	4F	Fresh Water (recurring)
-0	0x69B	FIELD ITEM	Silph Co.	4F	Great Ball (x5)
-0	0x69D	HIDDEN ITEM	Silph Co.	5F	Silver Nanab Berry (x3) (recurring)
-0	0x69E	FIELD ITEM	Silph Co.	5F	Max Ether
-0	0x69F	FIELD ITEM	Silph Co.	5F	TM54 (Flash Cannon)
-0	0x6A0	FIELD ITEM	Silph Co.	5F	Guard Spec.
-0	0x6A1	FIELD ITEM	Silph Co.	5F	Nugget
-0	0x6A2	FIELD ITEM	Silph Co.	5F	Poké Ball (x5)
-0	0x6A9	FIELD ITEM	Silph Co.	6F	Max Repel
-0	0x6AA	FIELD ITEM	Silph Co.	6F	Hyper Potion
-0	0x6AB	HIDDEN ITEM	Silph Co.	6F	Fresh Water (recurring)
-0	0x6AC	HIDDEN ITEM	Silph Co.	6F	Silver Pinap Berry (x3) (recurring)
-0	0x6AD	FIELD ITEM	Silph Co.	6F	PP Up
-0	0x6AE	FIELD ITEM	Silph Co.	6F	X Sp. Atk
-0	0x6AF	FIELD ITEM	Silph Co.	6F	Super Potion
-0	0x6B5	FIELD ITEM	Silph Co.	7F	PP Up
-0	0x6B6	FIELD ITEM	Silph Co.	7F	TM34 (Dragon Pulse)
-0	0x6B7	FIELD ITEM	Silph Co.	7F	Smart Candy (x3)
-0	0x6B8	FIELD ITEM	Silph Co.	7F	Rare Candy
-0	0x6B9	HIDDEN ITEM	Silph Co.	7F	Nanab Berry (x3) (recurring)
-0	0x6C1	HIDDEN ITEM	Silph Co.	8F	Silver Razz Berry (x3) (recurring)
-0	0x6C2	FIELD ITEM	Silph Co.	8F	Revive
-0	0x6C3	FIELD ITEM	Silph Co.	8F	X Attack
-0	0x6C5	HIDDEN ITEM	Silph Co.	9F	Elixir (recurring)
-0	0x6C6	FIELD ITEM	Silph Co.	9F	Great Ball (x3)
-0	0x6C7	FIELD ITEM	Silph Co.	9F	Poké Ball (x3)
-0	0x6C8	FIELD ITEM	Silph Co.	9F	Ultra Ball (x3)
-0	0x6C9	FIELD ITEM	Silph Co.	9F	Revive
-0	0x6CB	FIELD ITEM	Silph Co.	10F	Max Revive
-0	0x6CC	FIELD ITEM	Silph Co.	10F	TM37 (Flamethrower)
-0	0x6CD	FIELD ITEM	Silph Co.	10F	Rare Candy
-0	0x6CE	HIDDEN ITEM	Silph Co.	10F	X Accuracy (recurring)
-0	0x6CF	FIELD ITEM	Silph Co.	10F	Full Heal
-0	0x6D1	FIELD ITEM	Silph Co.	11F	Max Elixir
-0	0x797	FIELD ITEM	Viridian City	Gym	Revive
-0	0x79B	HIDDEN ITEM	Vermilion City	Harbor	Revive (recurring)
-0	0x79C	HIDDEN ITEM	Celadon City	Condominiums 3F	Fresh Water (recurring)
-0	0x79D	FIELD ITEM	Celadon City	Condominiums Rooftop	Health Candy (x3)
-0	0x79F	HIDDEN ITEM	S.S. Anne	Dock	Pinap Berry (x3) (recurring)
-0	0x7A0	FIELD ITEM	Pokémon Mansion	2F	Escape Rope
-0	0x7A1	HIDDEN ITEM	Route 17		(random berry) (recurring)
-0	0x7A2	HIDDEN ITEM	Route 17		(random berry) (recurring)
-0	0x7A3	HIDDEN ITEM	Route 17		(random berry) (recurring)
-0	0x7A4	HIDDEN ITEM	Route 17		(random berry) (recurring)
-0	0x7A5	HIDDEN ITEM	Route 17		(random berry) (recurring)
-0	0x7A6	HIDDEN ITEM	Route 17		(random berry) (recurring)
-0	0x7A7	HIDDEN ITEM	Route 17		(random berry) (recurring)
-0	0x7A8	HIDDEN ITEM	Route 17		(random berry) (recurring)
-0	0x7A9	HIDDEN ITEM	Route 17		(random berry) (recurring)
-0	0x7AA	HIDDEN ITEM	Route 17		(random berry) (recurring)
-0	0x7AB	HIDDEN ITEM	Cerulean Cave	2F	(random berry) (recurring)
-0	0x7AC	HIDDEN ITEM	Cerulean Cave	2F	(random berry) (recurring)
-0	0x7AD	HIDDEN ITEM	Cerulean Cave	2F	(random berry) (recurring)
-0	0x7AE	HIDDEN ITEM	Cerulean Cave	2F	(random berry) (recurring)
-0	0x7AF	HIDDEN ITEM	Cerulean Cave	2F	(random berry) (recurring)
-0	0x7B0	HIDDEN ITEM	Cerulean Cave	2F	(random ball) (recurring)
-0	0x7B1	HIDDEN ITEM	Cerulean Cave	2F	(random ball) (recurring)
-0	0x7B2	HIDDEN ITEM	Cerulean Cave	2F	(random ball) (recurring)
-0	0x7B3	HIDDEN ITEM	Cerulean Cave	2F	(random ball) (recurring)
-0	0x7B4	HIDDEN ITEM	Cerulean Cave	2F	(random ball) (recurring)
-0	0x880	SIDE EVENT			FE_EV0905_BTL_RED
-0	0x884	PKMN GIFT	Route 4	PokéCenter	Buy Magikarp from man
-0	0x886	ITEM GIFT	Pewter City	Museum	Old Amber from scientist
-0	0x889	ITEM GIFT	Route 12	House	TM32 (Dazzling Gleam) from old man
-0	0x88B	PKMN GIFT	Silph Co.	7F	Lapras from man
-0	0x88C	ITEM GIFT	Vermilion City	Fan Club	Pikachu / Eevee Set from chairman
-0	0x88D	ITEM GIFT	Vermilion City	Fan Club	Raichu / Eevee evolutions Sets from chairman
-0	0x890	ITEM GIFT	Saffron City	Mr. Psychic's House	TM40 (Psychic) from Mr. Psychic
-0	0x89E	PKMN GIFT	Saffron City	Dojo	Hitmonchan / Hitmonlee from Karate Master
-0	0x8A0	ITEM GIFT	Cinnabar Island	Lab	TM02 (Taunt) from scientist
-0	0x8A1	ITEM GIFT	Route 12	Gate	TM50 (Roost) from girl
-0	0x8A2	ITEM GIFT	Celadon City	Department Store 3F	TM03 (Helping Hand) from man
-0	0x8A4	ITEM GIFT	Silph Co.	2F	TM42 (Self Destruct) from woman
-0	0x8A5	ITEM GIFT	Celadon City		TM26 (Poison Jab) from old man
-0	0x8A6	ITEM GIFT	Viridian City		TM11 (Will-O-Wisp) from man
-0	0x8AD	ITEM GIFT	Route 16	Gate	Ultra Ball (x30) from Oak's aide
-0	0x8AE	PKMN GIFT	Cerulean City		Bulbasaur from girl
-0	0x8AF	PKMN GIFT	Route 24		Charmander from guy
-0	0x8B0	PKMN GIFT	Vermilion City		Squirtle from officer
-0	0x8B3	ITEM GIFT	Route 16	House	TM14 (Fly) from girl
-0	0x8B6	TRAINER BATTLE	Team Rocket Hideout	B4F	Pokémon Trainer Archer
-0	0x8B8	TRAINER BATTLE	Cerulean Cave	B1F	Pokémon Trainer Green
-0	0x8BE	STATIC ENCOUNTER	Victory Road	2F	Capture Moltres
-0	0x8C0	STATIC ENCOUNTER	Power Plant		Capture Zapdos
-0	0x8C2	STATIC ENCOUNTER	Seafoam Islands	B4F	Capture Articuno
-0	0x8C4	STATIC ENCOUNTER	Cerulean Cave	B1F	Capture Mewtwo
-0	0x8C6	ITEM GIFT	Route 15	Gate	Assistant Set from Oak's assistant
-0	0x8C7	ITEM GIFT	Saffron City		Officer Set from officer
-0	0x8C8	ITEM GIFT	Pokémon Tower	1F	Formal Set from old woman
-0	0x8C9	ITEM GIFT	Team Rocket Hideout	1F	Team Rocket Set from female grunt
-0	0x8CA	SIDE EVENT	Cerulean City		Deposit money in the fountain
-0	0x8CB	TRAINER BATTLE	Route 17		Team Rocket Jessie & James / Blast-Off Set gift
-0	0x8CC	ITEM GIFT	Cerulean City	Bike Maniac House	Heart Scales (x5) from owner after asking about all kinds of bikes
-0	0x8D1	PKMN GIFT	Saffron City		Porygon from man
-0	0x8D2	SIDE EVENT	Vermilion	Port	Meet Mina
-0	0x8EC	IN-GAME TRADE			FE_FIELD_TRADE_FIRST_01
-0	0x8ED	IN-GAME TRADE			FE_FIELD_TRADE_FIRST_02
-0	0x8EE	IN-GAME TRADE			FE_FIELD_TRADE_FIRST_03
-0	0x8EF	IN-GAME TRADE			FE_FIELD_TRADE_FIRST_04
-0	0x8F0	IN-GAME TRADE			FE_FIELD_TRADE_FIRST_05
-0	0x8F1	IN-GAME TRADE			FE_FIELD_TRADE_FIRST_06
-0	0x8F2	IN-GAME TRADE			FE_FIELD_TRADE_FIRST_07
-0	0x91C	ITEM GIFT	Lavender Town		Great Ball (x20) from guy
-0	0x93F	IN-GAME TRADE			FE_FIELD_TRADE_FIRST_08
-0	0x940	STATIC ENCOUNTER	Route 12		FE_CAPTURE_KABIGON_ROAD012
-0	0x941	STATIC ENCOUNTER	Route 16		FE_CAPTURE_KABIGON_ROAD016
-0	0xA81	TRAINER BATTLE			TRID_PRIVAL_01
-0	0xA82	TRAINER BATTLE			TRID_ERIVAL_01
-0	0xA83	TRAINER BATTLE			TRID_PRIVAL_02
-0	0xA84	TRAINER BATTLE			TRID_ERIVAL_02
-0	0xA85	TRAINER BATTLE			TRID_GYM01_01
-0	0xA86	TRAINER BATTLE			TRID_SCIENCE_01
-0	0xA87	TRAINER BATTLE			TRID_WROCKETM_01
-0	0xA88	TRAINER BATTLE			TRID_WROCKETK_01
-0	0xA89	TRAINER BATTLE			TRID_GYM02_01
-0	0xA8A	TRAINER BATTLE			TRID_PRIVAL_03
-0	0xA8B	TRAINER BATTLE			TRID_ERIVAL_03
-0	0xA8C	TRAINER BATTLE			TRID_ROCKETM_01
-0	0xA8D	TRAINER BATTLE			TRID_PRIVAL_04
-0	0xA8E	TRAINER BATTLE			TRID_ERIVAL_04
-0	0xA8F	TRAINER BATTLE			TRID_GYM03_01
-0	0xA90	TRAINER BATTLE			TRID_PRIVAL_05
-0	0xA91	TRAINER BATTLE			TRID_ERIVAL_05
-0	0xA92	TRAINER BATTLE			TRID_GYM04_01
-0	0xA93	TRAINER BATTLE			TRID_ROCKETM_02
-0	0xA94	TRAINER BATTLE			TRID_WROCKETM_02
-0	0xA95	TRAINER BATTLE			TRID_WROCKETK_02
-0	0xA96	TRAINER BATTLE			TRID_ROCKETLEADER_01
-0	0xA97	TRAINER BATTLE			TRID_ROCKETBOSS_01
-0	0xA98	TRAINER BATTLE			TRID_WROCKETM_03
-0	0xA99	TRAINER BATTLE			TRID_WROCKETK_03
-0	0xA9A	TRAINER BATTLE			TRID_RED_01
-0	0xA9B	TRAINER BATTLE			TRID_GREEN_01
-0	0xA9C	TRAINER BATTLE			TRID_ROCKETLEADER_02
-0	0xA9D	TRAINER BATTLE			TRID_ROCKETW_01
-0	0xA9E	TRAINER BATTLE			TRID_PRIVAL_06
-0	0xA9F	TRAINER BATTLE			TRID_ERIVAL_06
-0	0xAA0	TRAINER BATTLE			TRID_WROCKETM_04
-0	0xAA1	TRAINER BATTLE			TRID_WROCKETK_04
-0	0xAA2	TRAINER BATTLE			TRID_ROCKETBOSS_02
-0	0xAA3	TRAINER BATTLE			TRID_GYM05_01
-0	0xAA4	TRAINER BATTLE			TRID_GYM06_01
-0	0xAA5	TRAINER BATTLE			TRID_GYM07_01
-0	0xAA6	TRAINER BATTLE			TRID_GYM08_01
-0	0xAA7	TRAINER BATTLE			TRID_PRIVAL_07
-0	0xAA8	TRAINER BATTLE			TRID_ERIVAL_07
-0	0xAA9	TRAINER BATTLE			TRID_BIGFOUR01_01
-0	0xAAA	TRAINER BATTLE			TRID_BIGFOUR02_01
-0	0xAAB	TRAINER BATTLE			TRID_BIGFOUR03_01
-0	0xAAC	TRAINER BATTLE			TRID_BIGFOUR04_01
-0	0xAAD	TRAINER BATTLE			TRID_PRIVAL_08
-0	0xAAE	TRAINER BATTLE			TRID_ERIVAL_08
-0	0xAAF	TRAINER BATTLE			TRID_KARATE_01
-0	0xAB0	TRAINER BATTLE			TRID_ROCKETLEADER_03
-0	0xAB1	TRAINER BATTLE			TRID_BLUE_01
-0	0xAB2	TRAINER BATTLE			TRID_WROCKETM_05
-0	0xAB3	TRAINER BATTLE			TRID_WROCKETK_05
-0	0xAB4	TRAINER BATTLE			TRID_FAIRY_02
-0	0xAB5	TRAINER BATTLE			TRID_INSECT_01
-0	0xAB6	TRAINER BATTLE			TRID_INSECT_02
-0	0xAB7	TRAINER BATTLE			TRID_INSECT_03
-0	0xAB8	TRAINER BATTLE			TRID_BOY_01
-0	0xAB9	TRAINER BATTLE			TRID_GIRL_01
-0	0xABA	TRAINER BATTLE			TRID_TANPAN_01
-0	0xABB	TRAINER BATTLE			TRID_TANPAN_02
-0	0xABC	TRAINER BATTLE			TRID_MINI_01
-0	0xABD	TRAINER BATTLE			TRID_MINI_02
-0	0xABE	TRAINER BATTLE			TRID_MINI_03
-0	0xABF	TRAINER BATTLE			TRID_INSECT_04
-0	0xAC0	TRAINER BATTLE			TRID_INSECT_05
-0	0xAC1	TRAINER BATTLE			TRID_INSECT_06
-0	0xAC2	TRAINER BATTLE			TRID_MINI_04
-0	0xAC3	TRAINER BATTLE			TRID_INSECT_07
-0	0xAC4	TRAINER BATTLE			TRID_INSECT_08
-0	0xAC5	TRAINER BATTLE			TRID_MINI_05
-0	0xAC6	TRAINER BATTLE			TRID_MINI_06
-0	0xAC7	TRAINER BATTLE			TRID_SCIENCE_02
-0	0xAC8	TRAINER BATTLE			TRID_TANPAN_03
-0	0xAC9	TRAINER BATTLE			TRID_MOUNT_01
-0	0xACA	TRAINER BATTLE			TRID_ROCKETW_02
-0	0xACB	TRAINER BATTLE			TRID_ROCKETM_03
-0	0xACC	TRAINER BATTLE			TRID_ROCKETM_04
-0	0xACD	TRAINER BATTLE			TRID_INSECT_09
-0	0xACE	TRAINER BATTLE			TRID_MINI_07
-0	0xACF	TRAINER BATTLE			TRID_TANPAN_04
-0	0xAD0	TRAINER BATTLE			TRID_MINI_08
-0	0xAD1	TRAINER BATTLE			TRID_BOY_02
-0	0xAD2	TRAINER BATTLE			TRID_SWIM_01
-0	0xAD3	TRAINER BATTLE			TRID_GIRL_02
-0	0xAD4	TRAINER BATTLE			TRID_TANPAN_05
-0	0xAD5	TRAINER BATTLE			TRID_TANPAN_06
-0	0xAD6	TRAINER BATTLE			TRID_TANPAN_07
-0	0xAD7	TRAINER BATTLE			TRID_BOY_03
-0	0xAD8	TRAINER BATTLE			TRID_MINI_09
-0	0xAD9	TRAINER BATTLE			TRID_MINI_10
-0	0xADA	TRAINER BATTLE			TRID_MOUNT_02
-0	0xADB	TRAINER BATTLE			TRID_MOUNT_03
-0	0xADC	TRAINER BATTLE			TRID_MOUNT_04
-0	0xADD	TRAINER BATTLE			TRID_TEST_01
-0	0xADE	TRAINER BATTLE			TRID_BOY_04
-0	0xADF	TRAINER BATTLE			TRID_BOY_05
-0	0xAE0	TRAINER BATTLE			TRID_GIRL_03
-0	0xAE1	TRAINER BATTLE			TRID_GIRL_04
-0	0xAE2	TRAINER BATTLE			TRID_INSECT_10
-0	0xAE3	TRAINER BATTLE			TRID_INSECT_11
-0	0xAE4	TRAINER BATTLE			TRID_GAMBLER_01
-0	0xAE5	TRAINER BATTLE			TRID_GAMBLER_02
-0	0xAE6	TRAINER BATTLE			TRID_MINI_11
-0	0xAE7	TRAINER BATTLE			TRID_MINI_12
-0	0xAE8	TRAINER BATTLE			TRID_MINI_13
-0	0xAE9	TRAINER BATTLE			TRID_MINI_14
-0	0xAEA	TRAINER BATTLE			TRID_SCIENCE_03
-0	0xAEB	TRAINER BATTLE			TRID_SCIENCE_04
-0	0xAEC	TRAINER BATTLE			TRID_SCIENCE_05
-0	0xAED	TRAINER BATTLE			TRID_BOY_06
-0	0xAEE	TRAINER BATTLE			TRID_GIRL_05
-0	0xAEF	TRAINER BATTLE			TRID_GIRL_06
-0	0xAF0	TRAINER BATTLE			TRID_TANPAN_08
-0	0xAF1	TRAINER BATTLE			TRID_INSECT_12
-0	0xAF2	TRAINER BATTLE			TRID_INSECT_13
-0	0xAF3	TRAINER BATTLE			TRID_MOUNT_05
-0	0xAF4	TRAINER BATTLE			TRID_MOUNT_06
-0	0xAF5	TRAINER BATTLE			TRID_MOUNT_07
-0	0xAF6	TRAINER BATTLE			TRID_GIRL_07
-0	0xAF7	TRAINER BATTLE			TRID_MONSTER_01
-0	0xAF8	TRAINER BATTLE			TRID_GIRL_08
-0	0xAF9	TRAINER BATTLE			TRID_MONSTER_02
-0	0xAFA	TRAINER BATTLE			TRID_MOUNT_08
-0	0xAFB	TRAINER BATTLE			TRID_MOUNT_09
-0	0xAFC	TRAINER BATTLE			TRID_GENTLEMAN_01
-0	0xAFD	TRAINER BATTLE			TRID_GENTLEMAN_02
-0	0xAFE	TRAINER BATTLE			TRID_GENTLEMAN_03
-0	0xAFF	TRAINER BATTLE			TRID_GENTLEMAN_04
-0	0xB00	TRAINER BATTLE			TRID_MINI_15
-0	0xB01	TRAINER BATTLE			TRID_MINI_16
-0	0xB02	TRAINER BATTLE			TRID_TANPAN_09
-0	0xB03	TRAINER BATTLE			TRID_FISHING_01
-0	0xB04	TRAINER BATTLE			TRID_SAILOR_01
-0	0xB05	TRAINER BATTLE			TRID_FISHING_02
-0	0xB06	TRAINER BATTLE			TRID_SAILOR_02
-0	0xB07	TRAINER BATTLE			TRID_SAILOR_03
-0	0xB08	TRAINER BATTLE			TRID_SAILOR_04
-0	0xB09	TRAINER BATTLE			TRID_SAILOR_05
-0	0xB0A	TRAINER BATTLE			TRID_SAILOR_06
-0	0xB0B	TRAINER BATTLE			TRID_SAILOR_07
-0	0xB0C	TRAINER BATTLE			TRID_MONSTER_03
-0	0xB0D	TRAINER BATTLE			TRID_MONSTER_04
-0	0xB0E	TRAINER BATTLE			TRID_MONSTER_05
-0	0xB0F	TRAINER BATTLE			TRID_MONSTER_06
-0	0xB10	TRAINER BATTLE			TRID_MOUNT_10
-0	0xB11	TRAINER BATTLE			TRID_MOUNT_11
-0	0xB12	TRAINER BATTLE			TRID_MOUNT_13
-0	0xB13	TRAINER BATTLE			TRID_MOUNT_14
-0	0xB14	TRAINER BATTLE			TRID_MOUNT_15
-0	0xB15	TRAINER BATTLE			TRID_MOUNT_12
-0	0xB16	TRAINER BATTLE			TRID_GIRL_09
-0	0xB17	TRAINER BATTLE			TRID_GIRL_10
-0	0xB18	TRAINER BATTLE			TRID_GIRL_11
-0	0xB19	TRAINER BATTLE			TRID_GIRL_12
-0	0xB1A	TRAINER BATTLE			TRID_GIRL_13
-0	0xB1B	TRAINER BATTLE			TRID_ROCKETM_05
-0	0xB1C	TRAINER BATTLE			TRID_ROCKETM_06
-0	0xB1D	TRAINER BATTLE			TRID_ROCKETM_07
-0	0xB1E	TRAINER BATTLE			TRID_ROCKETM_08
-0	0xB1F	TRAINER BATTLE			TRID_ROCKETM_09
-0	0xB20	TRAINER BATTLE			TRID_ROCKETM_10
-0	0xB21	TRAINER BATTLE			TRID_ROCKETM_11
-0	0xB22	TRAINER BATTLE			TRID_ROCKETW_03
-0	0xB23	TRAINER BATTLE			TRID_ROCKETW_04
-0	0xB24	TRAINER BATTLE			TRID_SHAMAN_01
-0	0xB25	TRAINER BATTLE			TRID_SHAMAN_02
-0	0xB26	TRAINER BATTLE			TRID_SHAMAN_03
-0	0xB27	TRAINER BATTLE			TRID_SHAMAN_04
-0	0xB28	TRAINER BATTLE			TRID_SHAMAN_05
-0	0xB29	TRAINER BATTLE			TRID_SHAMAN_06
-0	0xB2A	TRAINER BATTLE			TRID_SHAMAN_07
-0	0xB2B	TRAINER BATTLE			TRID_SHAMAN_08
-0	0xB2C	TRAINER BATTLE			TRID_SHAMAN_09
-0	0xB2D	TRAINER BATTLE			TRID_SHAMAN_10
-0	0xB2E	TRAINER BATTLE			TRID_SHAMAN_11
-0	0xB2F	TRAINER BATTLE			TRID_SHAMAN_12
-0	0xB30	TRAINER BATTLE			TRID_SHAMAN_13
-0	0xB31	TRAINER BATTLE			TRID_ROCKETW_05
-0	0xB32	TRAINER BATTLE			TRID_ROCKETW_06
-0	0xB33	TRAINER BATTLE			TRID_ROCKETW_07
-0	0xB34	TRAINER BATTLE			TRID_ROCKETM_19
-0	0xB35	TRAINER BATTLE			TRID_ROCKETM_20
-0	0xB36	TRAINER BATTLE			TRID_ROCKETM_14
-0	0xB37	TRAINER BATTLE			TRID_ROCKETM_15
-0	0xB38	TRAINER BATTLE			TRID_ROCKETM_16
-0	0xB39	TRAINER BATTLE			TRID_ROCKETM_17
-0	0xB3A	TRAINER BATTLE			TRID_ROCKETM_18
-0	0xB3B	TRAINER BATTLE			TRID_ROCKETM_12
-0	0xB3C	TRAINER BATTLE			TRID_ROCKETM_13
-0	0xB3D	TRAINER BATTLE			TRID_RESEARCHER_01
-0	0xB3E	TRAINER BATTLE			TRID_RESEARCHER_02
-0	0xB3F	TRAINER BATTLE			TRID_RESEARCHER_03
-0	0xB40	TRAINER BATTLE			TRID_RESEARCHER_04
-0	0xB41	TRAINER BATTLE			TRID_RESEARCHER_05
-0	0xB42	TRAINER BATTLE			TRID_RESEARCHER_06
-0	0xB43	TRAINER BATTLE			TRID_RESEARCHER_07
-0	0xB44	TRAINER BATTLE			TRID_JUGGLER_01
-0	0xB45	TRAINER BATTLE			TRID_GAMBLER_03
-0	0xB46	TRAINER BATTLE			TRID_GAMBLER_04
-0	0xB47	TRAINER BATTLE			TRID_GAMBLER_05
-0	0xB48	TRAINER BATTLE			TRID_TANPAN_10
-0	0xB49	TRAINER BATTLE			TRID_TANPAN_11
-0	0xB4A	TRAINER BATTLE			TRID_TANPAN_12
-0	0xB4B	TRAINER BATTLE			TRID_TANPAN_13
-0	0xB4C	TRAINER BATTLE			TRID_DENKIYA_01
-0	0xB4D	TRAINER BATTLE			TRID_DENKIYA_02
-0	0xB4E	TRAINER BATTLE			TRID_FISHING_03
-0	0xB4F	TRAINER BATTLE			TRID_FISHING_04
-0	0xB50	TRAINER BATTLE			TRID_FISHING_05
-0	0xB51	TRAINER BATTLE			TRID_FISHING_06
-0	0xB52	TRAINER BATTLE			TRID_FISHING_07
-0	0xB53	TRAINER BATTLE			TRID_BOY_07
-0	0xB54	TRAINER BATTLE			TRID_DENKIGROUP_01
-0	0xB55	TRAINER BATTLE			TRID_LADY_01
-0	0xB56	TRAINER BATTLE			TRID_LADY_02
-0	0xB57	TRAINER BATTLE			TRID_GIRL_14
-0	0xB58	TRAINER BATTLE			TRID_GIRL_15
-0	0xB59	TRAINER BATTLE			TRID_GIRL_16
-0	0xB5A	TRAINER BATTLE			TRID_GIRL_17
-0	0xB5B	TRAINER BATTLE			TRID_BIRD_01
-0	0xB5C	TRAINER BATTLE			TRID_BIRD_02
-0	0xB5D	TRAINER BATTLE			TRID_BIRD_03
-0	0xB5E	TRAINER BATTLE			TRID_MOTORCYCLE_01
-0	0xB5F	TRAINER BATTLE			TRID_BIRD_04
-0	0xB60	TRAINER BATTLE			TRID_BIRD_05
-0	0xB61	TRAINER BATTLE			TRID_BIRD_06
-0	0xB62	TRAINER BATTLE			TRID_BIRD_07
-0	0xB63	TRAINER BATTLE			TRID_BIRD_08
-0	0xB64	TRAINER BATTLE			TRID_MOTORCYCLE_02
-0	0xB65	TRAINER BATTLE			TRID_MOTORCYCLE_03
-0	0xB66	TRAINER BATTLE			TRID_MOTORCYCLE_04
-0	0xB67	TRAINER BATTLE			TRID_MOTORCYCLE_05
-0	0xB68	TRAINER BATTLE			TRID_LADY_03
-0	0xB69	TRAINER BATTLE			TRID_LADY_04
-0	0xB6A	TRAINER BATTLE			TRID_GIRL_18
-0	0xB6B	TRAINER BATTLE			TRID_GIRL_19
-0	0xB6C	TRAINER BATTLE			TRID_GIRL_20
-0	0xB6D	TRAINER BATTLE			TRID_GIRL_21
-0	0xB6E	TRAINER BATTLE			TRID_BIRD_09
-0	0xB6F	TRAINER BATTLE			TRID_BIRD_10
-0	0xB70	TRAINER BATTLE			TRID_MOTORCYCLE_06
-0	0xB71	TRAINER BATTLE			TRID_MOTORCYCLE_07
-0	0xB72	TRAINER BATTLE			TRID_MOTORCYCLE_08
-0	0xB73	TRAINER BATTLE			TRID_MOTORCYCLE_09
-0	0xB74	TRAINER BATTLE			TRID_MOTORCYCLE_10
-0	0xB75	TRAINER BATTLE			TRID_MOTORCYCLE_11
-0	0xB76	TRAINER BATTLE			TRID_MOTORCYCLE_12
-0	0xB77	TRAINER BATTLE			TRID_MOTORCYCLE_13
-0	0xB78	TRAINER BATTLE			TRID_MOTORCYCLE_14
-0	0xB79	TRAINER BATTLE			TRID_MOTORCYCLE_15
-0	0xB7A	TRAINER BATTLE			TRID_SKINHEAD_01
-0	0xB7B	TRAINER BATTLE			TRID_SKINHEAD_02
-0	0xB7C	TRAINER BATTLE			TRID_SKINHEAD_03
-0	0xB7D	TRAINER BATTLE			TRID_SKINHEAD_04
-0	0xB7E	TRAINER BATTLE			TRID_SKINHEAD_05
-0	0xB7F	TRAINER BATTLE			TRID_SKINHEAD_06
-0	0xB80	TRAINER BATTLE			TRID_SKINHEAD_07
-0	0xB81	TRAINER BATTLE			TRID_SKINHEAD_08
-0	0xB82	TRAINER BATTLE			TRID_LADY_05
-0	0xB83	TRAINER BATTLE			TRID_LADY_06
-0	0xB84	TRAINER BATTLE			TRID_LADY_07
-0	0xB85	TRAINER BATTLE			TRID_LADY_08
-0	0xB86	TRAINER BATTLE			TRID_LADY_09
-0	0xB87	TRAINER BATTLE			TRID_LADY_10
-0	0xB88	TRAINER BATTLE			TRID_LADY_11
-0	0xB89	TRAINER BATTLE			TRID_SWIM_02
-0	0xB8A	TRAINER BATTLE			TRID_SWIM_03
-0	0xB8B	TRAINER BATTLE			TRID_SWIM_04
-0	0xB8C	TRAINER BATTLE			TRID_SWIM_05
-0	0xB8D	TRAINER BATTLE			TRID_SWIM_06
-0	0xB8E	TRAINER BATTLE			TRID_SWIM_07
-0	0xB8F	TRAINER BATTLE			TRID_SWIM_08
-0	0xB90	TRAINER BATTLE			TRID_SWIM_09
-0	0xB91	TRAINER BATTLE			TRID_SWIM_10
-0	0xB92	TRAINER BATTLE			TRID_SWIM_11
-0	0xB93	TRAINER BATTLE			TRID_GIRL_22
-0	0xB94	TRAINER BATTLE			TRID_GIRL_23
-0	0xB95	TRAINER BATTLE			TRID_SWIM_12
-0	0xB96	TRAINER BATTLE			TRID_SWIM_13
-0	0xB97	TRAINER BATTLE			TRID_SWIM_14
-0	0xB98	TRAINER BATTLE			TRID_SWIM_15
-0	0xB99	TRAINER BATTLE			TRID_SWIM_16
-0	0xB9A	TRAINER BATTLE			TRID_SKINHEAD_09
-0	0xB9B	TRAINER BATTLE			TRID_FISHING_08
-0	0xB9C	TRAINER BATTLE			TRID_FISHING_09
-0	0xB9D	TRAINER BATTLE			TRID_FISHING_10
-0	0xB9E	TRAINER BATTLE			TRID_SAILOR_08
-0	0xB9F	TRAINER BATTLE			TRID_THIEF_01
-0	0xBA0	TRAINER BATTLE			TRID_THIEF_02
-0	0xBA1	TRAINER BATTLE			TRID_THIEF_03
-0	0xBA2	TRAINER BATTLE			TRID_RESEARCHER_08
-0	0xBA3	TRAINER BATTLE			TRID_RESEARCHER_09
-0	0xBA4	TRAINER BATTLE			TRID_RESEARCHER_10
-0	0xBA5	TRAINER BATTLE			TRID_RESEARCHER_11
-0	0xBA6	TRAINER BATTLE			TRID_KARATE_02
-0	0xBA7	TRAINER BATTLE			TRID_BEAST_01
-0	0xBA8	TRAINER BATTLE			TRID_BEAST_02
-0	0xBA9	TRAINER BATTLE			TRID_JUGGLER_02
-0	0xBAA	TRAINER BATTLE			TRID_JUGGLER_03
-0	0xBAB	TRAINER BATTLE			TRID_ELITEM_01
-0	0xBAC	TRAINER BATTLE			TRID_ELITEM_02
-0	0xBAD	TRAINER BATTLE			TRID_ELITEM_03
-0	0xBAE	TRAINER BATTLE			TRID_ELITEW_01
-0	0xBAF	TRAINER BATTLE			TRID_ELITEW_02
-0	0xBB0	TRAINER BATTLE			TRID_ELITEW_03
-0	0xBB1	TRAINER BATTLE			TRID_SAILOR_09
-0	0xBB2	TRAINER BATTLE			TRID_DENKIGROUP_02
-0	0xBB3	TRAINER BATTLE			TRID_GENTLEMAN_05
-0	0xBB4	TRAINER BATTLE			TRID_MINI_17
-0	0xBB5	TRAINER BATTLE			TRID_MINI_18
-0	0xBB6	TRAINER BATTLE			TRID_LADY_12
-0	0xBB7	TRAINER BATTLE			TRID_LADY_13
-0	0xBB8	TRAINER BATTLE			TRID_LADY_14
-0	0xBB9	TRAINER BATTLE			TRID_GIRL_24
-0	0xBBA	TRAINER BATTLE			TRID_ELITEW_04
-0	0xBBB	TRAINER BATTLE			TRID_JUGGLER_04
-0	0xBBC	TRAINER BATTLE			TRID_JUGGLER_05
-0	0xBBD	TRAINER BATTLE			TRID_JUGGLER_06
-0	0xBBE	TRAINER BATTLE			TRID_JUGGLER_07
-0	0xBBF	TRAINER BATTLE			TRID_BEAST_03
-0	0xBC0	TRAINER BATTLE			TRID_BEAST_04
-0	0xBC1	TRAINER BATTLE			TRID_SHAMAN_14
-0	0xBC2	TRAINER BATTLE			TRID_SHAMAN_15
-0	0xBC3	TRAINER BATTLE			TRID_SHAMAN_16
-0	0xBC4	TRAINER BATTLE			TRID_ESPER_01
-0	0xBC5	TRAINER BATTLE			TRID_ESPER_02
-0	0xBC6	TRAINER BATTLE			TRID_ESPER_03
-0	0xBC7	TRAINER BATTLE			TRID_ESPER_04
-0	0xBC8	TRAINER BATTLE			TRID_KARATE_03
-0	0xBC9	TRAINER BATTLE			TRID_KARATE_04
-0	0xBCA	TRAINER BATTLE			TRID_KARATE_05
-0	0xBCB	TRAINER BATTLE			TRID_KARATE_06
-0	0xBCC	TRAINER BATTLE			TRID_KARATE_07
-0	0xBCD	TRAINER BATTLE			TRID_THIEF_04
-0	0xBCE	TRAINER BATTLE			TRID_THIEF_05
-0	0xBCF	TRAINER BATTLE			TRID_THIEF_06
-0	0xBD0	TRAINER BATTLE			TRID_SCIENCE_06
-0	0xBD1	TRAINER BATTLE			TRID_SCIENCE_07
-0	0xBD2	TRAINER BATTLE			TRID_SCIENCE_08
-0	0xBD3	TRAINER BATTLE			TRID_BEAST_05
-0	0xBD4	TRAINER BATTLE			TRID_BEAST_06
-0	0xBD5	TRAINER BATTLE			TRID_KARATE_08
-0	0xBD6	TRAINER BATTLE			TRID_KARATE_09
-0	0xBD7	TRAINER BATTLE			TRID_KARATE_10
-0	0xBD8	TRAINER BATTLE			TRID_ELITEM_04
-0	0xBD9	TRAINER BATTLE			TRID_ELITEM_05
-0	0xBDA	TRAINER BATTLE			TRID_ELITEM_06
-0	0xBDB	TRAINER BATTLE			TRID_BOY_08
-0	0xBDC	TRAINER BATTLE			TRID_GIRL_25
-0	0xBDD	TRAINER BATTLE			TRID_ELITEW_05
-0	0xBDE	TRAINER BATTLE			TRID_ELITEW_06
-0	0xBDF	TRAINER BATTLE			TRID_ELITEW_07
-0	0xBE0	TRAINER BATTLE			TRID_ELITEW_08
-0	0xBE1	TRAINER BATTLE			TRID_ELITEW_09
-0	0xBE2	TRAINER BATTLE			TRID_ELITEW_10
-0	0xBE3	TRAINER BATTLE			TRID_ELITEW_11
-0	0xBE4	TRAINER BATTLE			TRID_ELITEW_12
-0	0xBE5	TRAINER BATTLE			TRID_ELITEM_07
-0	0xBE6	TRAINER BATTLE			TRID_ELITEM_08
-0	0xBE7	TRAINER BATTLE			TRID_ELITEM_09
-0	0xBE8	TRAINER BATTLE			TRID_ELITEM_10
-0	0xBE9	TRAINER BATTLE			TRID_ELITEM_11
-0	0xBEA	TRAINER BATTLE			TRID_ELITEM_12
-0	0xBEB	TRAINER BATTLE			TRID_LADY_15
-0	0xBEC	TRAINER BATTLE			TRID_LADY_16
-0	0xBED	TRAINER BATTLE			TRID_LADY_17
-0	0xBEE	TRAINER BATTLE			TRID_LADY_18
-0	0xBEF	TRAINER BATTLE			TRID_GIRL_26
-0	0xBF0	TRAINER BATTLE			TRID_GIRL_27
-0	0xBF1	TRAINER BATTLE			TRID_KARATE_11
-0	0xBF2	TRAINER BATTLE			TRID_KARATE_12
-0	0xBF3	TRAINER BATTLE			TRID_KARATE_13
-0	0xBF4	TRAINER BATTLE			TRID_KARATE_14
-0	0xBF5	TRAINER BATTLE			TRID_GENTLEMAN_06
-0	0xBF6	TRAINER BATTLE			TRID_GENTLEMAN_07
-0	0xBF7	TRAINER BATTLE			TRID_GENTLEMAN_08
-0	0xBF8	TRAINER BATTLE			TRID_TANPAN_14
-0	0xBF9	TRAINER BATTLE			TRID_FISHING_11
-0	0xBFA	TRAINER BATTLE			TRID_DENKIGROUP_03
-0	0xBFB	TRAINER BATTLE			TRID_DENKIYA_03
-0	0xBFC	TRAINER BATTLE			TRID_BIRD_11
-0	0xBFD	TRAINER BATTLE			TRID_SAILOR_10
-0	0xBFE	TRAINER BATTLE			TRID_SAILOR_11
-0	0xBFF	TRAINER BATTLE			TRID_SAILOR_12
-0	0xC00	TRAINER BATTLE			TRID_BOY_09
-0	0xC01	TRAINER BATTLE			TRID_BOY_10
-0	0xC02	TRAINER BATTLE			TRID_BOY_11
-0	0xC03	TRAINER BATTLE			TRID_BOY_12
-0	0xC04	TRAINER BATTLE			TRID_BOY_13
-0	0xC05	TRAINER BATTLE			TRID_BOY_14
-0	0xC06	TRAINER BATTLE			TRID_BOY_15
-0	0xC07	TRAINER BATTLE			TRID_BOY_16
-0	0xC08	TRAINER BATTLE			TRID_BOY_17
-0	0xC09	TRAINER BATTLE			TRID_BOY_18
-0	0xC0A	TRAINER BATTLE			TRID_MINI_19
-0	0xC0B	TRAINER BATTLE			TRID_MINI_20
-0	0xC0C	TRAINER BATTLE			TRID_INSECT_14
-0	0xC0D	TRAINER BATTLE			TRID_GAMBLER_06
-0	0xC0E	TRAINER BATTLE			TRID_ROCKETM_21
-0	0xC0F	TRAINER BATTLE			TRID_ROCKETM_22
-0	0xC10	TRAINER BATTLE			TRID_ROCKETM_23
-0	0xC11	TRAINER BATTLE			TRID_ROCKETM_24
-0	0xC12	TRAINER BATTLE			TRID_ROCKETW_08
-0	0xC13	TRAINER BATTLE			TRID_ROCKETW_09
-0	0xC14	TRAINER BATTLE			TRID_RESEARCHER_12
-0	0xC15	TRAINER BATTLE			TRID_RESEARCHER_13
-0	0xC16	TRAINER BATTLE			TRID_RESEARCHER_14
-0	0xC17	TRAINER BATTLE			TRID_MONSTER_07
-0	0xC18	TRAINER BATTLE			TRID_LADY_19
-0	0xC19	TRAINER BATTLE			TRID_LADY_20
-0	0xC1A	TRAINER BATTLE			TRID_LADY_21
-0	0xC1B	TRAINER BATTLE			TRID_BIRD_12
-0	0xC1C	TRAINER BATTLE			TRID_BIRD_13
-0	0xC1D	TRAINER BATTLE			TRID_ROCKETM_25
-0	0xC1E	TRAINER BATTLE			TRID_BIGFOUR01_02
-0	0xC1F	TRAINER BATTLE			TRID_BIGFOUR02_02
-0	0xC20	TRAINER BATTLE			TRID_BIGFOUR03_02
-0	0xC21	TRAINER BATTLE			TRID_BIGFOUR04_02
-0	0xC22	TRAINER BATTLE			TRID_PRIVAL_09
-0	0xC23	TRAINER BATTLE			TRID_ERIVAL_09
-0	0xC24	TRAINER BATTLE			TRID_GYM01_02
-0	0xC25	TRAINER BATTLE			TRID_GYM02_02
-0	0xC26	TRAINER BATTLE			TRID_GYM04_02
-0	0xC27	TRAINER BATTLE			TRID_GYM03_02
-0	0xC28	TRAINER BATTLE			TRID_GYM05_02
-0	0xC29	TRAINER BATTLE			TRID_GYM06_02
-0	0xC2A	TRAINER BATTLE			TRID_GYM07_02
-0	0xC2B	TRAINER BATTLE			TRID_GREEN_02
-0	0xC2C	TRAINER BATTLE			TRID_GREEN_03
-0	0xC2D	TRAINER BATTLE			TRID_RED_02
-0	0xC2E	TRAINER BATTLE			TRID_COACHM_01
-0	0xC2F	TRAINER BATTLE			TRID_COACHM_02
-0	0xC30	TRAINER BATTLE			TRID_COACHM_03
-0	0xC31	TRAINER BATTLE			TRID_COACHM_04
-0	0xC32	TRAINER BATTLE			TRID_COACHM_05
-0	0xC33	TRAINER BATTLE			TRID_COACHM_06
-0	0xC34	TRAINER BATTLE			TRID_COACHM_07
-0	0xC35	TRAINER BATTLE			TRID_COACHM_08
-0	0xC36	TRAINER BATTLE			TRID_COACHM_09
-0	0xC37	TRAINER BATTLE			TRID_COACHM_10
-0	0xC38	TRAINER BATTLE			TRID_COACHW_01
-0	0xC39	TRAINER BATTLE			TRID_COACHW_02
-0	0xC3A	TRAINER BATTLE			TRID_COACHW_03
-0	0xC3B	TRAINER BATTLE			TRID_COACHW_04
-0	0xC3C	TRAINER BATTLE			TRID_COACHW_05
-0	0xC3D	TRAINER BATTLE			TRID_COACHW_06
-0	0xC3E	TRAINER BATTLE			TRID_COACHW_07
-0	0xC3F	TRAINER BATTLE			TRID_COACHW_08
-0	0xC40	TRAINER BATTLE			TRID_COACHW_09
-0	0xC41	TRAINER BATTLE			TRID_TANPAN_15
-0	0xC42	TRAINER BATTLE			TRID_MINI_21
-0	0xC43	TRAINER BATTLE			TRID_INSECT_15
-0	0xC44	TRAINER BATTLE			TRID_MASTER_001
-0	0xC45	TRAINER BATTLE			TRID_MASTER_002
-0	0xC46	TRAINER BATTLE			TRID_MASTER_003
-0	0xC47	TRAINER BATTLE			TRID_MASTER_004
-0	0xC48	TRAINER BATTLE			TRID_MASTER_005
-0	0xC49	TRAINER BATTLE			TRID_MASTER_006
-0	0xC4A	TRAINER BATTLE			TRID_MASTER_007
-0	0xC4B	TRAINER BATTLE			TRID_MASTER_008
-0	0xC4C	TRAINER BATTLE			TRID_MASTER_009
-0	0xC4D	TRAINER BATTLE			TRID_MASTER_010
-0	0xC4E	TRAINER BATTLE			TRID_MASTER_011
-0	0xC4F	TRAINER BATTLE			TRID_MASTER_012
-0	0xC50	TRAINER BATTLE			TRID_MASTER_013
-0	0xC51	TRAINER BATTLE			TRID_MASTER_014
-0	0xC52	TRAINER BATTLE			TRID_MASTER_015
-0	0xC53	TRAINER BATTLE			TRID_MASTER_016
-0	0xC54	TRAINER BATTLE			TRID_MASTER_017
-0	0xC55	TRAINER BATTLE			TRID_MASTER_018
-0	0xC56	TRAINER BATTLE			TRID_MASTER_019
-0	0xC57	TRAINER BATTLE			TRID_MASTER_020
-0	0xC58	TRAINER BATTLE			TRID_MASTER_021
-0	0xC59	TRAINER BATTLE			TRID_MASTER_022
-0	0xC5A	TRAINER BATTLE			TRID_MASTER_023
-0	0xC5B	TRAINER BATTLE			TRID_MASTER_024
-0	0xC5C	TRAINER BATTLE			TRID_MASTER_025
-0	0xC5D	TRAINER BATTLE			TRID_MASTER_026
-0	0xC5E	TRAINER BATTLE			TRID_MASTER_027
-0	0xC5F	TRAINER BATTLE			TRID_MASTER_028
-0	0xC60	TRAINER BATTLE			TRID_MASTER_029
-0	0xC61	TRAINER BATTLE			TRID_MASTER_030
-0	0xC62	TRAINER BATTLE			TRID_MASTER_031
-0	0xC63	TRAINER BATTLE			TRID_MASTER_032
-0	0xC64	TRAINER BATTLE			TRID_MASTER_033
-0	0xC65	TRAINER BATTLE			TRID_MASTER_034
-0	0xC66	TRAINER BATTLE			TRID_MASTER_035
-0	0xC67	TRAINER BATTLE			TRID_MASTER_036
-0	0xC68	TRAINER BATTLE			TRID_MASTER_037
-0	0xC69	TRAINER BATTLE			TRID_MASTER_038
-0	0xC6A	TRAINER BATTLE			TRID_MASTER_039
-0	0xC6B	TRAINER BATTLE			TRID_MASTER_040
-0	0xC6C	TRAINER BATTLE			TRID_MASTER_041
-0	0xC6D	TRAINER BATTLE			TRID_MASTER_042
-0	0xC6E	TRAINER BATTLE			TRID_MASTER_043
-0	0xC6F	TRAINER BATTLE			TRID_MASTER_044
-0	0xC70	TRAINER BATTLE			TRID_MASTER_045
-0	0xC71	TRAINER BATTLE			TRID_MASTER_046
-0	0xC72	TRAINER BATTLE			TRID_MASTER_047
-0	0xC73	TRAINER BATTLE			TRID_MASTER_048
-0	0xC74	TRAINER BATTLE			TRID_MASTER_049
-0	0xC75	TRAINER BATTLE			TRID_MASTER_050
-0	0xC76	TRAINER BATTLE			TRID_MASTER_051
-0	0xC77	TRAINER BATTLE			TRID_MASTER_052
-0	0xC78	TRAINER BATTLE			TRID_MASTER_053
-0	0xC79	TRAINER BATTLE			TRID_MASTER_054
-0	0xC7A	TRAINER BATTLE			TRID_MASTER_055
-0	0xC7B	TRAINER BATTLE			TRID_MASTER_056
-0	0xC7C	TRAINER BATTLE			TRID_MASTER_057
-0	0xC7D	TRAINER BATTLE			TRID_MASTER_058
-0	0xC7E	TRAINER BATTLE			TRID_MASTER_059
-0	0xC7F	TRAINER BATTLE			TRID_MASTER_060
-0	0xC80	TRAINER BATTLE			TRID_MASTER_061
-0	0xC81	TRAINER BATTLE			TRID_MASTER_062
-0	0xC82	TRAINER BATTLE			TRID_MASTER_063
-0	0xC83	TRAINER BATTLE			TRID_MASTER_064
-0	0xC84	TRAINER BATTLE			TRID_MASTER_065
-0	0xC85	TRAINER BATTLE			TRID_MASTER_066
-0	0xC86	TRAINER BATTLE			TRID_MASTER_067
-0	0xC87	TRAINER BATTLE			TRID_MASTER_068
-0	0xC88	TRAINER BATTLE			TRID_MASTER_069
-0	0xC89	TRAINER BATTLE			TRID_MASTER_070
-0	0xC8A	TRAINER BATTLE			TRID_MASTER_071
-0	0xC8B	TRAINER BATTLE			TRID_MASTER_072
-0	0xC8C	TRAINER BATTLE			TRID_MASTER_073
-0	0xC8D	TRAINER BATTLE			TRID_MASTER_074
-0	0xC8E	TRAINER BATTLE			TRID_MASTER_075
-0	0xC8F	TRAINER BATTLE			TRID_MASTER_076
-0	0xC90	TRAINER BATTLE			TRID_MASTER_077
-0	0xC91	TRAINER BATTLE			TRID_MASTER_078
-0	0xC92	TRAINER BATTLE			TRID_MASTER_079
-0	0xC93	TRAINER BATTLE			TRID_MASTER_080
-0	0xC94	TRAINER BATTLE			TRID_MASTER_081
-0	0xC95	TRAINER BATTLE			TRID_MASTER_082
-0	0xC96	TRAINER BATTLE			TRID_MASTER_083
-0	0xC97	TRAINER BATTLE			TRID_MASTER_084
-0	0xC98	TRAINER BATTLE			TRID_MASTER_085
-0	0xC99	TRAINER BATTLE			TRID_MASTER_086
-0	0xC9A	TRAINER BATTLE			TRID_MASTER_087
-0	0xC9B	TRAINER BATTLE			TRID_MASTER_088
-0	0xC9C	TRAINER BATTLE			TRID_MASTER_089
-0	0xC9D	TRAINER BATTLE			TRID_MASTER_090
-0	0xC9E	TRAINER BATTLE			TRID_MASTER_091
-0	0xC9F	TRAINER BATTLE			TRID_MASTER_092
-0	0xCA0	TRAINER BATTLE			TRID_MASTER_093
-0	0xCA1	TRAINER BATTLE			TRID_MASTER_094
-0	0xCA2	TRAINER BATTLE			TRID_MASTER_095
-0	0xCA3	TRAINER BATTLE			TRID_MASTER_096
-0	0xCA4	TRAINER BATTLE			TRID_MASTER_097
-0	0xCA5	TRAINER BATTLE			TRID_MASTER_098
-0	0xCA6	TRAINER BATTLE			TRID_MASTER_099
-0	0xCA7	TRAINER BATTLE			TRID_MASTER_100
-0	0xCA8	TRAINER BATTLE			TRID_MASTER_101
-0	0xCA9	TRAINER BATTLE			TRID_MASTER_102
-0	0xCAA	TRAINER BATTLE			TRID_MASTER_103
--	0xCAB	TRAINER BATTLE			TRID_MASTER_104
-0	0xCAC	TRAINER BATTLE			TRID_MASTER_105
-0	0xCAD	TRAINER BATTLE			TRID_MASTER_106
-0	0xCAE	TRAINER BATTLE			TRID_MASTER_107
-0	0xCAF	TRAINER BATTLE			TRID_MASTER_108
-0	0xCB0	TRAINER BATTLE			TRID_MASTER_109
-0	0xCB1	TRAINER BATTLE			TRID_MASTER_110
-0	0xCB2	TRAINER BATTLE			TRID_MASTER_111
-0	0xCB3	TRAINER BATTLE			TRID_MASTER_112
-0	0xCB4	TRAINER BATTLE			TRID_MASTER_113
-0	0xCB5	TRAINER BATTLE			TRID_MASTER_114
-0	0xCB6	TRAINER BATTLE			TRID_MASTER_115
-0	0xCB7	TRAINER BATTLE			TRID_MASTER_116
-0	0xCB8	TRAINER BATTLE			TRID_MASTER_117
-0	0xCB9	TRAINER BATTLE			TRID_MASTER_118
-0	0xCBA	TRAINER BATTLE			TRID_MASTER_119
-0	0xCBB	TRAINER BATTLE			TRID_MASTER_120
-0	0xCBC	TRAINER BATTLE			TRID_MASTER_121
-0	0xCBD	TRAINER BATTLE			TRID_MASTER_122
-0	0xCBE	TRAINER BATTLE			TRID_MASTER_123
-0	0xCBF	TRAINER BATTLE			TRID_MASTER_124
-0	0xCC0	TRAINER BATTLE			TRID_MASTER_125
-0	0xCC1	TRAINER BATTLE			TRID_MASTER_126
-0	0xCC2	TRAINER BATTLE			TRID_MASTER_127
-0	0xCC3	TRAINER BATTLE			TRID_MASTER_128
-0	0xCC4	TRAINER BATTLE			TRID_MASTER_129
-0	0xCC5	TRAINER BATTLE			TRID_MASTER_130
-0	0xCC6	TRAINER BATTLE			TRID_MASTER_131
-0	0xCC7	TRAINER BATTLE			TRID_MASTER_133
-0	0xCC8	TRAINER BATTLE			TRID_MASTER_134
-0	0xCC9	TRAINER BATTLE			TRID_MASTER_135
-0	0xCCA	TRAINER BATTLE			TRID_MASTER_136
-0	0xCCB	TRAINER BATTLE			TRID_MASTER_137
-0	0xCCC	TRAINER BATTLE			TRID_MASTER_138
-0	0xCCD	TRAINER BATTLE			TRID_MASTER_139
-0	0xCCE	TRAINER BATTLE			TRID_MASTER_140
-0	0xCCF	TRAINER BATTLE			TRID_MASTER_141
-0	0xCD0	TRAINER BATTLE			TRID_MASTER_142
-0	0xCD1	TRAINER BATTLE			TRID_MASTER_143
-0	0xCD2	TRAINER BATTLE			TRID_MASTER_147
-0	0xCD3	TRAINER BATTLE			TRID_MASTER_148
-0	0xCD4	TRAINER BATTLE			TRID_MASTER_149
-0	0xCD5	TRAINER BATTLE			TRID_MASTER_000
-0	0xCD6	TRAINER BATTLE			TRID_ROCKETM_26
-0	0xCD7	TRAINER BATTLE			TRID_SWIM_17
-0	0xCD8	TRAINER BATTLE			TRID_ELITEM_13
-0	0xCD9	TRAINER BATTLE			TRID_FAIRY_01
--	0	_SEPARATOR			TIMED_EVENTS_BEGIN
-0	0xE80	TRAINER BATTLE	Vermilion City	Harbor	Pokémon Trainer Mina (Daily Rematch)
-0	0xE83	TRAINER BATTLE	Pewter City	Gym	Gym Leader Brock (Daily Rematch)
-0	0xE84	TRAINER BATTLE	Cerulean City	Gym	Gym Leader Misty (Daily Rematch)
-0	0xE85	TRAINER BATTLE	Vermilion City	Gym	Gym Leader Lt. Surge (Daily Rematch)
-0	0xE86	TRAINER BATTLE	Celadon City	Gym	Gym Leader Erika (Daily Rematch)
-0	0xE87	TRAINER BATTLE	Fuchsia City	Gym	Gym Leader Koga (Daily Rematch)
-0	0xE88	TRAINER BATTLE	Saffron City	Gym	Gym Leader Sabrina (Daily Rematch)
-0	0xE89	TRAINER BATTLE	Cinnabar Island	Gym	Gym Leader Blaine (Daily Rematch)
-0	0xE8A	TRAINER BATTLE	Viridian City	Gym	Gym Leader Blue (Daily Rematch)
-0	0xE8B	ITEM GIFT	Fuchsia City	Safari Zones Warden's House	Nugget from Diglett (Daily)
-0	0xE8C	ITEM GIFT	Pewter City		Big Pearl from woman for looking after Slowpoke (Daily)
+-	0	0x080	STORY EVENT			FSYS_GAME_CLEAR
+-	0	0x081	STORY EVENT			FSYS_HIDEN_OPEN_IAIGIRI
+-	0	0x082	STORY EVENT			FSYS_HIDEN_OPEN_SORAWOTOBU
+-	0	0x083	STORY EVENT			FSYS_HIDEN_OPEN_KAIRIKI
+-	0	0x084	STORY EVENT			FSYS_HIDEN_OPEN_NAMINORI
+-	0	0x085	STORY EVENT			FSYS_HIDEN_OPEN_HURASSYU
+-	0	0x08C	STORY EVENT			FSYS_GYM_CLEAR_ROCK
+-	0	0x08D	STORY EVENT			FSYS_GYM_CLEAR_WATAER
+-	0	0x08E	STORY EVENT			FSYS_GYM_CLEAR_VOLT
+-	0	0x08F	STORY EVENT			FSYS_GYM_CLEAR_GRASS
+-	0	0x090	STORY EVENT			FSYS_GYM_CLEAR_POISON
+-	0	0x091	STORY EVENT			FSYS_GYM_CLEAR_ESPER
+-	0	0x092	STORY EVENT			FSYS_GYM_CLEAR_FIRE
+-	0	0x093	STORY EVENT			FSYS_GYM_CLEAR_GROUND
+-	0	0x094	SIDE EVENT			FSYS_ZUKAN_COMPLETE
+-	0	0x095	SIDE EVENT			FSYS_JUDGE_OPEN
+-	0	0x0B3	FLY SPOT	Pallet Town		Unlock fly spot
+-	0	0x0B4	FLY SPOT	Viridian City		Unlock fly spot
+-	0	0x0B5	FLY SPOT	Pewter City		Unlock fly spot
+-	0	0x0B6	FLY SPOT	Cerulean City		Unlock fly spot
+-	0	0x0B7	FLY SPOT	Lavender Town		Unlock fly spot
+-	0	0x0B8	FLY SPOT	Vermilion City		Unlock fly spot
+-	0	0x0B9	FLY SPOT	Celadon City		Unlock fly spot
+-	0	0x0BA	FLY SPOT	Fuchsia City		Unlock fly spot
+-	0	0x0BB	FLY SPOT	Cinnabar Island		Unlock fly spot
+-	0	0x0BC	FLY SPOT	Indigo Plateau		Unlock fly spot
+-	0	0x0BD	FLY SPOT	Saffron City		Unlock fly spot
+-	0	0x0E3	SIDE EVENT			FSYS_FIELD_FLYHIGH_ENABLE
+-	0	0x0EB	SIDE EVENT			FSYS_BUDDY_POKEMON_ENABLE
+-	0	0x20B	FIELD ITEM	Seafoam Islands	B3F	Ultra Ball (x3)
+-	0	0x20C	FIELD ITEM	Seafoam Islands	B3F	Super Lure
+-	0	0x20D	FIELD ITEM	Seafoam Islands	B3F	Hyper Potion
+-	0	0x20E	FIELD ITEM	Seafoam Islands	B3F	Super Repel
+-	0	0x20F	FIELD ITEM	Seafoam Islands	B3F	X Speed
+-	0	0x210	HIDDEN ITEM	Seafoam Islands	B3F	Revive (recurring)
+-	0	0x211	FIELD ITEM	Seafoam Islands	B4F	Big Pearl
+-	0	0x212	FIELD ITEM	Seafoam Islands	B4F	Big Pearl
+-	0	0x213	FIELD ITEM	Seafoam Islands	B4F	Big Pearl
+-	0	0x214	HIDDEN ITEM	Seafoam Islands	B4F	Pretty Wing (recurring)
+-	0	0x286	FIELD ITEM	Route 23		Golden Razz Berry (x5)
+-	0	0x287	FIELD ITEM	Route 23		Golden Nanab Berry (x5)
+-	0	0x288	FIELD ITEM	Route 23		Golden Pinap Berry (x5)
+-	0	0x289	FIELD ITEM	Route 23		Golden Razz Berry (x3)
+-	0	0x28A	FIELD ITEM	Route 23		Golden Nanab Berry (x3)
+-	0	0x28B	FIELD ITEM	Route 23		Golden Pinap Berry (x3)
+-	0	0x296	SIDE EVENT	Route 1		Razz Berry (Partner Findings)
+-	0	0x2A0	FIELD ITEM	Route 2		Leaf Stone
+-	0	0x2A1	FIELD ITEM	Route 2		Super Potion
+-	0	0x2A2	HIDDEN ITEM	Viridian City		Potion (recurring)
+-	0	0x2B1	SIDE EVENT	Viridian City		town002_PartnerStop_0
+-	0	0x2B2	SIDE EVENT	Viridian City		town002_PartnerStop_1
+-	0	0x2B3	FIELD ITEM	Route 22		Poké Ball (x5)
+-	0	0x2B4	HIDDEN ITEM	Route 22		Antidote (recurring)
+-	0	0x2B5	FIELD ITEM	Route 21		Water Stone
+-	0	0x2B6	FIELD ITEM	Route 21		Hyper Potion
+-	0	0x2B7	FIELD ITEM	Route 21		PP Up
+-	0	0x2B8	HIDDEN ITEM	Route 21		Stardust (x3) (recurring)
+-	0	0x2B9	HIDDEN ITEM	Route 21	Water	Revive (recurring)
+-	0	0x2BA	FIELD ITEM	Cinnabar Island		Antidote
+-	0	0x2C0	HIDDEN ITEM	Route 20	Water	Revive (recurring)
+-	0	0x2C2	FIELD ITEM	Route 19		Full Heal
+-	0	0x2C3	HIDDEN ITEM	Route 19	Water	Revive (recurring)
+-	0	0x2C4	HIDDEN ITEM	Route 19	Water	Revive (recurring)
+-	0	0x2C8	SIDE EVENT	Route 19		road019_PartnerStop
+-	0	0x2C9	FIELD ITEM	Fuchsia City		Super Lure
+-	0	0x2D9	SIDE EVENT	Fuchsia City		town008_PartnerStop
+-	0	0x2DA	FIELD ITEM	Route 18		Elixir
+-	0	0x2DB	FIELD ITEM	Route 20		Max Repel
+-	0	0x2DC	FIELD ITEM	Route 20		Ultra Ball (x3)
+-	0	0x2DD	HIDDEN ITEM	Route 20	Water	Revive (recurring)
+-	0	0x2DE	HIDDEN ITEM	Route 20	Water	Revive (recurring)
+-	0	0x2DF	HIDDEN ITEM	Route 20		Stardust (recurring)
+-	0	0x2E0	FIELD ITEM	Route 20		Heart Scale
+-	0	0x2E1	FIELD ITEM	Route 2		Great Ball (x3)
+-	0	0x2E3	FIELD ITEM	Route 3		Potion
+-	0	0x2E4	FIELD ITEM	Route 3		Revive
+-	0	0x2E5	FIELD ITEM	Route 3		Lure
+-	0	0x2E6	FIELD ITEM	Route 3		Poké Ball (x3)
+-	0	0x2E8	SIDE EVENT	Route 3		Razz Berry (Partner Findings)
+-	0	0x2E9	FIELD ITEM	Route 4		Escape Rope
+-	0	0x2ED	FIELD ITEM	Pewter City		X Defense
+-	0	0x2FC	SIDE EVENT	Pewter City		Razz Berry
+-	0	0x2FD	FIELD ITEM	Route 4		Poké Ball (x5)
+-	0	0x2FE	HIDDEN ITEM	Route 4		PP Up (recurring)
+-	0	0x2FF	FIELD ITEM	Route 4		Paralyze Heal
+-	0	0x300	FIELD ITEM	Route 4		PP Max
+-	0	0x301	FIELD ITEM	Route 4		Great Ball (x3)
+-	0	0x302	FIELD ITEM	Route 4		Repel
+-	0	0x304	SIDE EVENT	Route 4		Nanab Berry (Partner Findings)
+-	0	0x305	FIELD ITEM	Route 5		Great Ball (x3)
+-	0	0x306	FIELD ITEM	Route 5		Ether
+-	0	0x307	HIDDEN ITEM	Route 5		Razz Berry (x3) (recurring)
+-	0	0x308	FIELD ITEM	Route 5		Nanab Berry (x3)
+-	0	0x30A	FIELD ITEM	Route 9		Super Potion
+-	0	0x30B	HIDDEN ITEM	Route 9		Pinap Berry (x5) (recurring)
+-	0	0x30C	FIELD ITEM	Route 9		Ether
+-	0	0x30D	FIELD ITEM	Route 9		Super Potion
+-	0	0x30E	FIELD ITEM	Route 9		Poké Ball (x5)
+-	0	0x30F	HIDDEN ITEM	Route 10		Super Lure (recurring)
+-	0	0x310	FIELD ITEM	Route 10		Great Ball (x3)
+-	0	0x311	FIELD ITEM	Route 10		Super Potion
+-	0	0x312	FIELD ITEM	Route 10		Poké Ball (x5)
+-	0	0x313	FIELD ITEM	Route 10		Thunder Stone
+-	0	0x31A	FIELD ITEM	Route 24		X Sp. Def
+-	0	0x31B	FIELD ITEM	Route 24		Razz Berry (x3)
+-	0	0x31C	HIDDEN ITEM	Route 24		Pinap Berry (x3) (recurring)
+-	0	0x320	SIDE EVENT	Route 24		Razz Berry (Partner Findings)
+-	0	0x321	HIDDEN ITEM	Route 25		Nanab Berry (x3) (recurring)
+-	0	0x322	FIELD ITEM	Route 25		TM16 (Thunder Waver)
+-	0	0x323	FIELD ITEM	Route 25		Lure
+-	0	0x324	FIELD ITEM	Route 25		Super Potion
+-	0	0x325	FIELD ITEM	Route 25		Ether
+-	0	0x326	SIDE EVENT	Route 25		road025_PartnerStop
+-	0	0x327	FIELD ITEM	Cerulean City		Rare Candy
+-	0	0x328	FIELD ITEM	Cerulean City		Burn Heal
+-	0	0x336	SIDE EVENT	Cerulean City		town004_PartnerStop
+-	0	0x337	SIDE EVENT	Cerulean City		town004_PartnerStop_0
+-	0	0x338	SIDE EVENT	Cerulean City		town004_PartnerStop_1
+-	0	0x339	SIDE EVENT	Cerulean City		town004_PartnerStop_2
+-	0	0x33A	FIELD ITEM	Route 16		Super Potion
+-	0	0x33B	FIELD ITEM	Route 16		Great Ball (x3)
+-	0	0x33C	HIDDEN ITEM	Route 17		(random berry) (recurring)
+-	0	0x33D	HIDDEN ITEM	Route 17		(random berry) (recurring)
+-	0	0x33E	HIDDEN ITEM	Route 17		(random berry) (recurring)
+-	0	0x33F	HIDDEN ITEM	Route 17		Silver Razz Berry (x3) (recurring)
+-	0	0x340	HIDDEN ITEM	Route 17		Silver Nanab Berry (x3) (recurring)
+-	0	0x341	HIDDEN ITEM	Route 17		Silver Pinap Berry (x3) (recurring)
+-	0	0x342	FIELD ITEM	Route 17		Great Ball (x3)
+-	0	0x343	FIELD ITEM	Route 17		Super Repel
+-	0	0x344	FIELD ITEM	Route 17		Super Potion
+-	0	0x345	FIELD ITEM	Route 17		Super Lure
+-	0	0x346	FIELD ITEM	Route 17		Elixir
+-	0	0x347	FIELD ITEM	Route 17		Rare Candy
+-	0	0x348	FIELD ITEM	Route 17		Silver Pinap Berry (x5)
+-	0	0x349	FIELD ITEM	Route 17		Nugget
+-	0	0x356	SIDE EVENT	Route 17		Pinap Berry (Partner Findings)
+-	0	0x357	SIDE EVENT	Route 17		road017_PartnerStop_0
+-	0	0x358	SIDE EVENT	Route 17		road017_PartnerStop_1
+-	0	0x359	SIDE EVENT	Route 17		road017_PartnerStop_2
+-	0	0x35A	HIDDEN ITEM	Route 18		Silver Razz Berry (x3) (recurring)
+-	0	0x35B	SIDE EVENT	Route 18		road018_1_PartnerStop
+-	0	0x35C	FIELD ITEM	Route 7		Elixir
+-	0	0x35D	HIDDEN ITEM	Route 7		Pinap Berry (x5) (recurring)
+-	0	0x35E	SIDE EVENT	Route 7		Nanab Berry (Partner Findings)
+-	0	0x35F	FIELD ITEM	Route 16		PP Up
+-	0	0x360	HIDDEN ITEM	Route 16		Awakening (recurring)
+-	0	0x363	SIDE EVENT	Route 16		road016_2_PartnerStop
+-	0	0x364	HIDDEN ITEM	Celadon City		Razz Berry (x5) (recurring)
+-	0	0x365	FIELD ITEM	Celadon City		Nugget
+-	0	0x366	FIELD ITEM	Celadon City		Rare Candy
+-	0	0x379	SIDE EVENT	Celadon City		town007_PartnerStop
+-	0	0x37A	SIDE EVENT	Celadon City		town007_PartnerStop_2
+-	0	0x37B	SIDE EVENT	Celadon City		town007_PartnerStop_3
+-	0	0x37C	FIELD ITEM	Saffron City		X Sp. Def
+-	0	0x384	SIDE EVENT	Saffron City		town011_PartnerStop
+-	0	0x385	SIDE EVENT	Saffron City		town011_PartnerStop_0
+-	0	0x386	FIELD ITEM	Route 8		Fire Stone
+-	0	0x387	FIELD ITEM	Route 8		Big Mushroom
+-	0	0x388	HIDDEN ITEM	Route 8		Silver Pinap Berry (x3) (recurring)
+-	0	0x389	FIELD ITEM	Route 8		X Speed
+-	0	0x38A	SIDE EVENT	Route 8		Golden Pinap Berry (Partner Findings)
+-	0	0x38B	HIDDEN ITEM	Route 10		Nanab Berry (x5) (recurring)
+-	0	0x38C	FIELD ITEM	Route 10		Great Ball (x3)
+-	0	0x38D	FIELD ITEM	Route 12		TM24 (X-Scissor)
+-	0	0x38E	FIELD ITEM	Route 12		Water Stone
+-	0	0x38F	HIDDEN ITEM	Route 12		Silver Pinap Berry (x5) (recurring)
+-	0	0x390	FIELD ITEM	Route 12		Ultra Ball (x3)
+-	0	0x391	FIELD ITEM	Route 12		Lure
+-	0	0x392	FIELD ITEM	Route 12		Repel
+-	0	0x393	FIELD ITEM	Route 12		Awakening
+-	0	0x394	FIELD ITEM	Route 12		Max Lure
+-	0	0x398	SIDE EVENT	Route 12		road012_PartnerStop
+-	0	0x399	HIDDEN ITEM	Route 13		Silver Nanab Berry (x5) (recurring)
+-	0	0x39A	HIDDEN ITEM	Route 13		Golden Pinap Berry (recurring)
+-	0	0x39B	FIELD ITEM	Route 13		Full Heal
+-	0	0x39C	FIELD ITEM	Route 13		PP Up
+-	0	0x39D	FIELD ITEM	Route 14		Hyper Potion
+-	0	0x39E	FIELD ITEM	Route 14		Nugget
+-	0	0x39F	HIDDEN ITEM	Route 14		Golden Razz Berry (recurring)
+-	0	0x3A0	SIDE EVENT	Route 14		Nanab Berry
+-	0	0x3A1	FIELD ITEM	Route 15		TM47 (Surf)
+-	0	0x3A2	FIELD ITEM	Route 15		Hyper Potion
+-	0	0x3A3	FIELD ITEM	Route 15		Ultra Ball (x3)
+-	0	0x3A4	HIDDEN ITEM	Route 15		Golden Nanab Berry (recurring)
+-	0	0x3A5	SIDE EVENT	Route 15		Silver Pinap Berry
+-	0	0x3B0	SIDE EVENT	Lavender Town		town005_PartnerStop
+-	0	0x3B1	FIELD ITEM	Route 6		Super Potion
+-	0	0x3B2	FIELD ITEM	Route 6		Paralyze Heal
+-	0	0x3B3	HIDDEN ITEM	Route 6		Rare Candy (recurring)
+-	0	0x3B4	FIELD ITEM	Route 6		Guard Spec.
+-	0	0x3B5	HIDDEN ITEM	Route 11		Revive (recurring)
+-	0	0x3B6	FIELD ITEM	Route 11		Great Ball (x5)
+-	0	0x3B7	FIELD ITEM	Route 11		Super Potion
+-	0	0x3B8	FIELD ITEM	Route 11		X Defense
+-	0	0x3B9	FIELD ITEM	Route 11		Lure
+-	0	0x3BA	FIELD ITEM	Route 11		Super Repel
+-	0	0x3BB	SIDE EVENT	Route 11		Golden Razz Berry (Partner Findings)
+-	0	0x3BC	HIDDEN ITEM	Vermilion City		Big Pearl (recurring)
+-	0	0x3BD	HIDDEN ITEM	Vermilion City		Full Heal (recurring)
+-	0	0x3CB	SIDE EVENT	Vermilion City		town006_PartnerStop
+-	0	0x3CC	SIDE EVENT	Vermilion City		town006_PartnerStop_0
+-	0	0x3D0	FIELD ITEM	Route 7	Underground Path (East-West)	X Accuracy
+-	0	0x3D1	FIELD ITEM	Route 7	Underground Path (East-West)	X Defense
+-	0	0x3D2	HIDDEN ITEM	Route 7	Underground Path (East-West)	(random item) (recurring)
+-	0	0x3D3	HIDDEN ITEM	Route 7	Underground Path (East-West)	(random item) (recurring)
+-	0	0x3D4	HIDDEN ITEM	Route 7	Underground Path (East-West)	(random item) (recurring)
+-	0	0x3D5	HIDDEN ITEM	Route 7	Underground Path (East-West)	(random item) (recurring)
+-	0	0x3D6	HIDDEN ITEM	Route 5	Underground Path (North-South)	(random item) (recurring)
+-	0	0x3D7	HIDDEN ITEM	Route 5	Underground Path (North-South)	(random item) (recurring)
+-	0	0x3D8	HIDDEN ITEM	Route 5	Underground Path (North-South)	(random item) (recurring)
+-	0	0x3D9	HIDDEN ITEM	Route 5	Underground Path (North-South)	(random item) (recurring)
+-	0	0x3DA	HIDDEN ITEM	Route 5	Underground Path (North-South)	Nugget (recurring)
+-	0	0x3DB	FIELD ITEM	Route 5	Underground Path (North-South)	Repel
+-	0	0x3DC	FIELD ITEM	Route 5	Underground Path (North-South)	Lure
+-	0	0x3DD	FIELD ITEM	Viridian Forest		Antidote
+-	0	0x3DE	FIELD ITEM	Viridian Forest		Potion
+-	0	0x3DF	FIELD ITEM	Viridian Forest		Lure
+-	0	0x3E0	HIDDEN ITEM	Viridian Forest		Potion (recurring)
+-	0	0x3E1	FIELD ITEM	Viridian Forest		Razz Berry (x3)
+-	0	0x3E2	FIELD ITEM	Viridian Forest		Poké Ball (x5)
+-	0	0x3E3	FIELD ITEM	Viridian Forest		Tiny Mushroom
+-	0	0x3E6	SIDE EVENT	Viridian Forest		forest001_PartnerStop
+-	0	0x3E7	SIDE EVENT	Viridian Forest		forest001_PartnerStop_0
+-	0	0x3F1	FIELD ITEM	Mt. Moon	1F	Repel
+-	0	0x3F2	FIELD ITEM	Mt. Moon	1F	Potion
+-	0	0x3F3	FIELD ITEM	Mt. Moon	1F	Awakening
+-	0	0x3F4	FIELD ITEM	Mt. Moon	1F	Pearl
+-	0	0x3F5	FIELD ITEM	Mt. Moon	1F	Ether
+-	0	0x3F6	FIELD ITEM	Mt. Moon	1F	Great Ball (x5)
+-	0	0x3F7	HIDDEN ITEM	Mt. Moon	1F	Stardust (recurring)
+-	0	0x3FC	SIDE EVENT	Mt. Moon	1F	r004d0101_PartnerStop
+-	0	0x3FD	SIDE EVENT	Mt. Moon	1F	r004d0101_PartnerStop_0
+-	0	0x3FE	HIDDEN ITEM	Mt. Moon	B1F	Big Mushroom (recurring)
+-	0	0x400	SIDE EVENT	Mt. Moon	B1F	r004d0102_PartnerStop
+-	0	0x401	SIDE EVENT	Mt. Moon	B1F	r004d0102_PartnerStop_0
+-	0	0x402	SIDE EVENT	Mt. Moon	B1F	r004d0102_PartnerStop_1
+-	0	0x403	FIELD ITEM	Mt. Moon	B2F	Rare Candy
+-	0	0x404	FIELD ITEM	Mt. Moon	B2F	Nugget
+-	0	0x405	HIDDEN ITEM	Mt. Moon	B2F	Moon Stone (recurring)
+-	0	0x406	HIDDEN ITEM	Mt. Moon	B2F	Moon Stone (recurring)
+-	0	0x407	FIELD ITEM	Mt. Moon	B2F	Revive
+-	0	0x408	FIELD ITEM	Mt. Moon	B2F	Potion
+-	0	0x409	FIELD ITEM	Mt. Moon	B2F	Revive
+-	0	0x40B	SIDE EVENT	Mt. Moon	B2F	r004d0103_PartnerStop
+-	0	0x40C	SIDE EVENT	Mt. Moon	B2F	r004d0103_PartnerStop_0
+-	0	0x40D	SIDE EVENT	Mt. Moon	B2F	r004d0103_PartnerStop_1
+-	0	0x414	FIELD ITEM	Rock Tunnel	1F	Repel
+-	0	0x415	FIELD ITEM	Rock Tunnel	1F	Escape Rope
+-	0	0x416	FIELD ITEM	Rock Tunnel	1F	Super Potion
+-	0	0x417	FIELD ITEM	Rock Tunnel	1F	Pearl
+-	0	0x418	FIELD ITEM	Rock Tunnel	1F	Stardust
+-	0	0x419	HIDDEN ITEM	Rock Tunnel	1F	Revive (recurring)
+-	0	0x41B	SIDE EVENT	Rock Tunnel	1F	r010d0101_PartnerStop
+-	0	0x41C	SIDE EVENT	Rock Tunnel	1F	r010d0101_PartnerStop_0
+-	0	0x41D	SIDE EVENT	Rock Tunnel	1F	r010d0101_PartnerStop_1
+-	0	0x41E	SIDE EVENT	Rock Tunnel	1F	r010d0101_PartnerStop_2
+-	0	0x41F	SIDE EVENT	Rock Tunnel	1F	r010d0101_PartnerStop_3
+-	0	0x420	FIELD ITEM	Rock Tunnel	B1F	Revive
+-	0	0x421	FIELD ITEM	Rock Tunnel	B1F	Great Ball (x3)
+-	0	0x422	FIELD ITEM	Rock Tunnel	B1F	Full Heal
+-	0	0x423	FIELD ITEM	Rock Tunnel	B1F	Super Potion
+-	0	0x424	FIELD ITEM	Rock Tunnel	B1F	Dire Hit
+-	0	0x425	HIDDEN ITEM	Rock Tunnel	B1F	Super Potion (recurring)
+-	0	0x426	FIELD ITEM	Rock Tunnel	B1F	Stardust
+-	0	0x427	SIDE EVENT	Rock Tunnel	B1F	r010d0102_PartnerStop
+-	0	0x428	SIDE EVENT	Rock Tunnel	B1F	r010d0102_PartnerStop_0
+-	0	0x429	SIDE EVENT	Rock Tunnel	B1F	r010d0102_PartnerStop_2
+-	0	0x42A	SIDE EVENT	Rock Tunnel	B1F	r010d0102_PartnerStop_3
+-	0	0x42B	SIDE EVENT	Rock Tunnel	B1F	r010d0102_PartnerStop_4
+-	0	0x42C	FIELD ITEM	Power Plant		Max Revive
+-	0	0x42D	FIELD ITEM	Power Plant		Rare Candy
+-	0	0x42E	FIELD ITEM	Power Plant		TM38 (Thunder)
+-	0	0x42F	FIELD ITEM	Power Plant		Max Potion
+-	0	0x430	FIELD ITEM	Power Plant		Thunder Stone
+-	0	0x431	HIDDEN ITEM	Power Plant		Voltorb Candy (recurring)
+-	0	0x432	HIDDEN ITEM	Power Plant		Pretty Wing (recurring)
+-	0	0x433	FIELD ITEM	Power Plant		Paralyze Heal
+-	0	0x434	FIELD ITEM	Power Plant		X Sp. Def
+-	0	0x435	FIELD ITEM	Power Plant		Max Potion
+-	0	0x436	HIDDEN ITEM	Power Plant		Voltorb Candy (recurring)
+-	0	0x437	HIDDEN ITEM	Power Plant		Voltorb Candy (recurring)
+-	0	0x438	HIDDEN ITEM	Power Plant		Voltorb Candy (recurring)
+-	0	0x43A	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode
+-	0	0x43B	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode
+-	0	0x43C	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode
+-	0	0x43D	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode
+-	0	0x43E	SIDE EVENT	Power Plant		r010r0101_PartnerStop
+-	0	0x43F	SIDE EVENT	Power Plant		r010r0101_PartnerStop_0
+-	0	0x440	SIDE EVENT	Power Plant		r010r0101_PartnerStop_1
+-	0	0x441	SIDE EVENT	Power Plant		r010r0101_PartnerStop_2
+-	0	0x442	SIDE EVENT	Power Plant		r010r0101_PartnerStop_3
+-	0	0x443	SIDE EVENT	Power Plant		r010r0101_PartnerStop_4
+-	0	0x460	FIELD ITEM	Seafoam Islands	1F	Ice Heal
+-	0	0x461	FIELD ITEM	Seafoam Islands	1F	Escape Rope
+-	0	0x462	HIDDEN ITEM	Seafoam Islands	1F	Heart Scale (recurring)
+-	0	0x463	HIDDEN ITEM	Seafoam Islands	1F	Heart Scale (recurring)
+-	0	0x465	FIELD ITEM	Seafoam Islands	B1F	Super Lure
+-	0	0x466	FIELD ITEM	Seafoam Islands	B1F	Great Ball (x5)
+-	0	0x467	FIELD ITEM	Seafoam Islands	B1F	Super Repel
+-	0	0x468	FIELD ITEM	Seafoam Islands	B1F	Max Potion
+-	0	0x469	HIDDEN ITEM	Seafoam Islands	B1F	Max Revive (recurring)
+-	0	0x46A	SIDE EVENT	Seafoam Islands	B1F	r020d0102_PartnerStop
+-	0	0x46B	HIDDEN ITEM	Seafoam Islands	B2F	Pearl (recurring)
+-	0	0x46C	FIELD ITEM	Seafoam Islands	B2F	TM55 (Ice Beam)
+-	0	0x46D	FIELD ITEM	Seafoam Islands	B2F	Ice Stone
+-	0	0x46E	HIDDEN ITEM	Seafoam Islands	B2F	Heart Scale (recurring)
+-	0	0x46F	HIDDEN ITEM	Seafoam Islands	B2F	Heart Scale (recurring)
+-	0	0x470	HIDDEN ITEM	Seafoam Islands	B2F	Heart Scale (recurring)
+-	0	0x471	SIDE EVENT	Seafoam Islands	B2F	r020d0103_PartnerStop
+-	0	0x472	SIDE EVENT	Seafoam Islands	B2F	r020d0103_PartnerStop_0
+-	0	0x476	FIELD ITEM	Victory Road	1F	Leaf Stone
+-	0	0x477	FIELD ITEM	Victory Road	1F	TM56 (Stealth Rock)
+-	0	0x478	HIDDEN ITEM	Victory Road	1F	(random candy) (recurring)
+-	0	0x479	FIELD ITEM	Victory Road	1F	Ultra Ball (x3)
+-	0	0x47A	SIDE EVENT	Victory Road	1F	r023d0101_PartnerStop
+-	0	0x47B	FIELD ITEM	Victory Road	2F	PP Max
+-	0	0x47C	FIELD ITEM	Victory Road	2F	Full Restore
+-	0	0x47D	FIELD ITEM	Victory Road	2F	TM49 (Superpower)
+-	0	0x47E	FIELD ITEM	Victory Road	2F	TM45 (Solar Beam)
+-	0	0x47F	HIDDEN ITEM	Victory Road	2F	(random candy) (recurring)
+-	0	0x480	HIDDEN ITEM	Victory Road	2F	Pretty Wing (recurring)
+-	0	0x482	SIDE EVENT	Victory Road	2F	r023d0102_PartnerStop
+-	0	0x483	FIELD ITEM	Victory Road	3F	TM51 (Blizzard)
+-	0	0x484	FIELD ITEM	Victory Road	3F	Max Revive
+-	0	0x485	FIELD ITEM	Victory Road	3F	Golden Nanab Berry (x5)
+-	0	0x486	FIELD ITEM	Victory Road	3F	Full Restore
+-	0	0x487	FIELD ITEM	Victory Road	3F	Max Potion
+-	0	0x488	HIDDEN ITEM	Victory Road	3F	Fresh Water (recurring)
+-	0	0x489	HIDDEN ITEM	Victory Road	3F	(random candy) (recurring)
+-	0	0x48B	SIDE EVENT	Victory Road	3F	r023d0103_PartnerStop
+-	0	0x48C	SIDE EVENT	Victory Road	3F	r023d0103_PartnerStop_0
+-	0	0x48D	SIDE EVENT	Victory Road	3F	r023d0103_PartnerStop_1
+-	0	0x4B4	SIDE EVENT	Pewter City		t003r0101_PartnerStop
+-	0	0x4BA	SIDE EVENT	Pewter City	Museum	Bring a partner that can evolve with a Moon Stone (Partner Findings)
+-	0	0x4C0	FIELD ITEM	Cerulean Cave	1F	Max Revive
+-	0	0x4C1	FIELD ITEM	Cerulean Cave	1F	Max Repel
+-	0	0x4C2	FIELD ITEM	Cerulean Cave	1F	Full Heal
+-	0	0x4C3	FIELD ITEM	Cerulean Cave	1F	PP Max
+-	0	0x4C4	HIDDEN ITEM	Cerulean Cave	1F	Full Restore (recurring)
+-	0	0x4C5	HIDDEN ITEM	Cerulean Cave	1F	Rare Candy (recurring)
+-	0	0x4C6	SIDE EVENT	Cerulean Cave	1F	Pearl (Partner Findings)
+-	0	0x4C7	FIELD ITEM	Cerulean Cave	2F	Full Restore
+-	0	0x4C8	FIELD ITEM	Cerulean Cave	2F	Rare Candy
+-	0	0x4C9	FIELD ITEM	Cerulean Cave	2F	Max Revive
+-	0	0x4CA	FIELD ITEM	Cerulean Cave	2F	Max Lure
+-	0	0x4CB	HIDDEN ITEM	Cerulean Cave	2F	(random fossil / Max Revive) (recurring)
+-	0	0x4CC	FIELD ITEM	Cerulean Cave	2F	Ultra Balls (x5)
+-	0	0x4CD	SIDE EVENT	Cerulean Cave	2F	Pearl (Partner Findings)
+-	0	0x4CE	SIDE EVENT	Cerulean Cave	2F	Stardust (Partner Findings)
+-	0	0x4CF	FIELD ITEM	Cerulean Cave	B1F	Escape Rope
+-	0	0x4D0	FIELD ITEM	Cerulean Cave	B1F	Full Restore
+-	0	0x4D1	FIELD ITEM	Cerulean Cave	B1F	Max Elixir
+-	0	0x4D2	FIELD ITEM	Cerulean Cave	B1F	[unused?]
+-	0	0x4D3	HIDDEN ITEM	Cerulean Cave	B1F	Max Revive (recurring)
+-	0	0x4D4	HIDDEN ITEM	Cerulean Cave	B1F	(random fossil) (recurring)
+-	0	0x4D5	HIDDEN ITEM	Cerulean Cave	B1F	PP Max (recurring)
+-	0	0x4D6	FIELD ITEM	Cerulean Cave	B1F	Poké Ball
+-	0	0x4D7	FIELD ITEM	Cerulean Cave	B1F	Poké Ball
+-	0	0x4D8	FIELD ITEM	Cerulean Cave	B1F	Poké Ball
+-	0	0x4D9	FIELD ITEM	Cerulean Cave	B1F	Poké Ball
+-	0	0x4DA	FIELD ITEM	Cerulean Cave	B1F	Poké Ball
+-	0	0x4DC	SIDE EVENT	Cerulean Cave	B1F	t004d0103_PartnerStop
+-	0	0x4DD	SIDE EVENT	Cerulean Cave	B1F	Stardust (Partner Findings)
+-	0	0x504	HIDDEN ITEM	Pokémon Tower	2F	Pearl (recurring)
+-	0	0x505	FIELD ITEM	Pokémon Tower	2F	X Attack
+-	0	0x506	FIELD ITEM	Pokémon Tower	2F	Elixir
+-	0	0x508	FIELD ITEM	Pokémon Tower	3F	Awakening
+-	0	0x509	FIELD ITEM	Pokémon Tower	3F	Super Potion
+-	0	0x50A	HIDDEN ITEM	Pokémon Tower	3F	Star Piece (recurring)
+-	0	0x512	FIELD ITEM	Pokémon Tower	4F	Escape Rope
+-	0	0x513	FIELD ITEM	Pokémon Tower	4F	TM04 (Teleport)
+-	0	0x514	FIELD ITEM	Pokémon Tower	4F	Full Heal
+-	0	0x515	HIDDEN ITEM	Pokémon Tower	4F	Super Potion (recurring)
+-	0	0x516	SIDE EVENT	Pokémon Tower	4F	t005r0304_PartnerStop
+-	0	0x517	HIDDEN ITEM	Pokémon Tower	5F	Big Pearl (recurring)
+-	0	0x518	FIELD ITEM	Pokémon Tower	5F	Ice Stone
+-	0	0x519	FIELD ITEM	Pokémon Tower	5F	Nugget
+-	0	0x51B	FIELD ITEM	Pokémon Tower	6F	Revive
+-	0	0x51C	FIELD ITEM	Pokémon Tower	6F	Rare Candy
+-	0	0x51D	FIELD ITEM	Pokémon Tower	6F	Ultra Ball (x3)
+-	0	0x51E	FIELD ITEM	Pokémon Tower	6F	Hyper Potion
+-	0	0x51F	HIDDEN ITEM	Pokémon Tower	6F	PP Up (recurring)
+-	0	0x544	FIELD ITEM	S.S. Anne	Kitchen	Super Repel
+-	0	0x545	HIDDEN ITEM	S.S. Anne	Kitchen	Tiny Mushroom (recurring)
+-	0	0x550	FIELD ITEM	S.S. Anne	1F	Paralyze Heal
+-	0	0x558	FIELD ITEM	S.S. Anne	2F	Revive
+-	0	0x55B	FIELD ITEM	S.S. Anne	2F	Nugget
+-	0	0x560	FIELD ITEM	S.S. Anne	B1F	Super Potion
+-	0	0x561	FIELD ITEM	S.S. Anne	B1F	Full Heal
+-	0	0x562	FIELD ITEM	S.S. Anne	B1F	Elixir
+-	0	0x578	FIELD ITEM	Celadon City	Condominiums Rooftop	TM44 (Play Rough)
+-	0	0x59B	SIDE EVENT			t007r0505_PartnerStop
+-	0	0x59C	SIDE EVENT			t007r0505_PartnerStop_0
+-	0	0x5A1	HIDDEN ITEM	Celadon City	Game Corner	(random item) (recurring)
+-	0	0x5A2	HIDDEN ITEM	Celadon City	Game Corner	(random item) (recurring)
+-	0	0x5A3	HIDDEN ITEM	Celadon City	Game Corner	(random item) (recurring)
+-	0	0x5A4	HIDDEN ITEM	Celadon City	Game Corner	(random item) (recurring)
+-	0	0x5A5	HIDDEN ITEM	Celadon City	Game Corner	(random item) (recurring)
+-	0	0x5A6	HIDDEN ITEM	Celadon City	Game Corner	(random item) (recurring)
+-	0	0x5B5	FIELD ITEM	Team Rocket Hideout	B1F	Ultra Ball (x5)
+-	0	0x5B6	HIDDEN ITEM	Team Rocket Hideout	B1F	Full Heal (recurring)
+-	0	0x5B7	FIELD ITEM	Team Rocket Hideout	B1F	Hyper Potion
+-	0	0x5B8	FIELD ITEM	Team Rocket Hideout	B1F	Great Ball (x5)
+-	0	0x5B9	FIELD ITEM	Team Rocket Hideout	B1F	Mighty Candy (x3)
+-	0	0x5BB	FIELD ITEM	Team Rocket Hideout	B2F	Nugget
+-	0	0x5BC	FIELD ITEM	Team Rocket Hideout	B2F	Awakening
+-	0	0x5BD	FIELD ITEM	Team Rocket Hideout	B2F	TM05 (Rest)
+-	0	0x5BE	FIELD ITEM	Team Rocket Hideout	B2F	PP Up
+-	0	0x5BF	HIDDEN ITEM	Team Rocket Hideout	B2F	X Accuracy (recurring)
+-	0	0x5C0	FIELD ITEM	Team Rocket Hideout	B3F	TM20 (Dark Pulse)
+-	0	0x5C1	FIELD ITEM	Team Rocket Hideout	B3F	Rare Candy
+-	0	0x5C2	HIDDEN ITEM	Team Rocket Hideout	B3F	Guard Spec. (recurring)
+-	0	0x5C3	FIELD ITEM	Team Rocket Hideout	B3F	Revive
+-	0	0x5C4	FIELD ITEM	Team Rocket Hideout	B3F	X Speed
+-	0	0x5C5	FIELD ITEM	Team Rocket Hideout	B4F	PP Up
+-	0	0x5C6	FIELD ITEM	Team Rocket Hideout	B4F	Hyper Potion
+-	0	0x5C7	FIELD ITEM	Team Rocket Hideout	B4F	Elixir
+-	0	0x5C8	HIDDEN ITEM	Team Rocket Hideout	B4F	Max Revive (recurring)
+-	0	0x624	HIDDEN ITEM	Pokémon Mansion	1F	(random candy) (recurring)
+-	0	0x625	FIELD ITEM	Pokémon Mansion	1F	Max Elixir
+-	0	0x626	FIELD ITEM	Pokémon Mansion	1F	Fire Stone
+-	0	0x627	FIELD ITEM	Pokémon Mansion	1F	Max Repel
+-	0	0x628	FIELD ITEM	Pokémon Mansion	1F	Silver Razz Berry (x5)
+-	0	0x629	FIELD ITEM	Pokémon Mansion	1F	Max Lure
+-	0	0x62B	FIELD ITEM	Pokémon Mansion	2F	Max Revive
+-	0	0x62C	FIELD ITEM	Pokémon Mansion	2F	PP Up
+-	0	0x62D	FIELD ITEM	Pokémon Mansion	2F	Max Ether
+-	0	0x62E	FIELD ITEM	Pokémon Mansion	2F	Ultra Ball (x3)
+-	0	0x62F	HIDDEN ITEM	Pokémon Mansion	2F	(random candy) (recurring)
+-	0	0x630	FIELD ITEM	Pokémon Mansion	2F	Hyper Potion
+-	0	0x631	FIELD ITEM	Pokémon Mansion	3F	TM21 (Foul Play)
+-	0	0x632	FIELD ITEM	Pokémon Mansion	3F	Rare Candy
+-	0	0x633	HIDDEN ITEM	Pokémon Mansion	3F	(random candy) (recurring)
+-	0	0x634	FIELD ITEM	Pokémon Mansion	3F	Full Heal
+-	0	0x635	FIELD ITEM	Pokémon Mansion	3F	X Accuracy
+-	0	0x636	FIELD ITEM	Pokémon Mansion	B1F	Secret Key
+-	0	0x637	FIELD ITEM	Pokémon Mansion	B1F	Max Potion
+-	0	0x638	FIELD ITEM	Pokémon Mansion	B1F	Rare Candy
+-	0	0x639	FIELD ITEM	Pokémon Mansion	B1F	Max Elixir
+-	0	0x63A	FIELD ITEM	Pokémon Mansion	B1F	TM52 (Sludge Bomb)
+-	0	0x63B	HIDDEN ITEM	Pokémon Mansion	B1F	(random candy) (recurring)
+-	0	0x63C	HIDDEN ITEM	Pokémon Mansion	B1F	(random candy) (recurring)
+-	0	0x63D	HIDDEN ITEM	Pokémon Mansion	B1F	(random candy) (recurring)
+-	0	0x63E	HIDDEN ITEM	Pokémon Mansion	B1F	(random candy) (recurring)
+-	0	0x63F	HIDDEN ITEM	Pokémon Mansion	B1F	(random candy) (recurring)
+-	0	0x640	SIDE EVENT	Pokémon Mansion	B1F	t009r0204_PartnerStop
+-	0	0x641	SIDE EVENT	Pokémon Mansion	B1F	t009r0204_PartnerStop_0
+-	0	0x67F	HIDDEN ITEM	Saffron City	Copycat's House	Moon Stone (recurring)
+-	0	0x689	FIELD ITEM	Silph Co.	1F	X Sp. Atk
+-	0	0x68D	FIELD ITEM	Silph Co.	2F	X Attack
+-	0	0x68E	FIELD ITEM	Silph Co.	2F	Super Potion
+-	0	0x68F	HIDDEN ITEM	Silph Co.	2F	Fresh Water (recurring)
+-	0	0x691	FIELD ITEM	Silph Co.	3F	Max Lure
+-	0	0x692	FIELD ITEM	Silph Co.	3F	X Sp. Def
+-	0	0x693	HIDDEN ITEM	Silph Co.	3F	Silver Razz Berry (x3) (recurring)
+-	0	0x695	FIELD ITEM	Silph Co.	4F	Escape Rope
+-	0	0x696	FIELD ITEM	Silph Co.	4F	Star Piece
+-	0	0x697	FIELD ITEM	Silph Co.	4F	Full Heal
+-	0	0x698	FIELD ITEM	Silph Co.	4F	Revive
+-	0	0x699	FIELD ITEM	Silph Co.	4F	Dire Hit
+-	0	0x69A	HIDDEN ITEM	Silph Co.	4F	Fresh Water (recurring)
+-	0	0x69B	FIELD ITEM	Silph Co.	4F	Great Ball (x5)
+-	0	0x69D	HIDDEN ITEM	Silph Co.	5F	Silver Nanab Berry (x3) (recurring)
+-	0	0x69E	FIELD ITEM	Silph Co.	5F	Max Ether
+-	0	0x69F	FIELD ITEM	Silph Co.	5F	TM54 (Flash Cannon)
+-	0	0x6A0	FIELD ITEM	Silph Co.	5F	Guard Spec.
+-	0	0x6A1	FIELD ITEM	Silph Co.	5F	Nugget
+-	0	0x6A2	FIELD ITEM	Silph Co.	5F	Poké Ball (x5)
+-	0	0x6A9	FIELD ITEM	Silph Co.	6F	Max Repel
+-	0	0x6AA	FIELD ITEM	Silph Co.	6F	Hyper Potion
+-	0	0x6AB	HIDDEN ITEM	Silph Co.	6F	Fresh Water (recurring)
+-	0	0x6AC	HIDDEN ITEM	Silph Co.	6F	Silver Pinap Berry (x3) (recurring)
+-	0	0x6AD	FIELD ITEM	Silph Co.	6F	PP Up
+-	0	0x6AE	FIELD ITEM	Silph Co.	6F	X Sp. Atk
+-	0	0x6AF	FIELD ITEM	Silph Co.	6F	Super Potion
+-	0	0x6B5	FIELD ITEM	Silph Co.	7F	PP Up
+-	0	0x6B6	FIELD ITEM	Silph Co.	7F	TM34 (Dragon Pulse)
+-	0	0x6B7	FIELD ITEM	Silph Co.	7F	Smart Candy (x3)
+-	0	0x6B8	FIELD ITEM	Silph Co.	7F	Rare Candy
+-	0	0x6B9	HIDDEN ITEM	Silph Co.	7F	Nanab Berry (x3) (recurring)
+-	0	0x6C1	HIDDEN ITEM	Silph Co.	8F	Silver Razz Berry (x3) (recurring)
+-	0	0x6C2	FIELD ITEM	Silph Co.	8F	Revive
+-	0	0x6C3	FIELD ITEM	Silph Co.	8F	X Attack
+-	0	0x6C5	HIDDEN ITEM	Silph Co.	9F	Elixir (recurring)
+-	0	0x6C6	FIELD ITEM	Silph Co.	9F	Great Ball (x3)
+-	0	0x6C7	FIELD ITEM	Silph Co.	9F	Poké Ball (x3)
+-	0	0x6C8	FIELD ITEM	Silph Co.	9F	Ultra Ball (x3)
+-	0	0x6C9	FIELD ITEM	Silph Co.	9F	Revive
+-	0	0x6CB	FIELD ITEM	Silph Co.	10F	Max Revive
+-	0	0x6CC	FIELD ITEM	Silph Co.	10F	TM37 (Flamethrower)
+-	0	0x6CD	FIELD ITEM	Silph Co.	10F	Rare Candy
+-	0	0x6CE	HIDDEN ITEM	Silph Co.	10F	X Accuracy (recurring)
+-	0	0x6CF	FIELD ITEM	Silph Co.	10F	Full Heal
+-	0	0x6D1	FIELD ITEM	Silph Co.	11F	Max Elixir
+-	0	0x797	FIELD ITEM	Viridian City	Gym	Revive
+-	0	0x79B	HIDDEN ITEM	Vermilion City	Harbor	Revive (recurring)
+-	0	0x79C	HIDDEN ITEM	Celadon City	Condominiums 3F	Fresh Water (recurring)
+-	0	0x79D	FIELD ITEM	Celadon City	Condominiums Rooftop	Health Candy (x3)
+-	0	0x79F	HIDDEN ITEM	S.S. Anne	Dock	Pinap Berry (x3) (recurring)
+-	0	0x7A0	FIELD ITEM	Pokémon Mansion	2F	Escape Rope
+-	0	0x7A1	HIDDEN ITEM	Route 17		(random berry) (recurring)
+-	0	0x7A2	HIDDEN ITEM	Route 17		(random berry) (recurring)
+-	0	0x7A3	HIDDEN ITEM	Route 17		(random berry) (recurring)
+-	0	0x7A4	HIDDEN ITEM	Route 17		(random berry) (recurring)
+-	0	0x7A5	HIDDEN ITEM	Route 17		(random berry) (recurring)
+-	0	0x7A6	HIDDEN ITEM	Route 17		(random berry) (recurring)
+-	0	0x7A7	HIDDEN ITEM	Route 17		(random berry) (recurring)
+-	0	0x7A8	HIDDEN ITEM	Route 17		(random berry) (recurring)
+-	0	0x7A9	HIDDEN ITEM	Route 17		(random berry) (recurring)
+-	0	0x7AA	HIDDEN ITEM	Route 17		(random berry) (recurring)
+-	0	0x7AB	HIDDEN ITEM	Cerulean Cave	2F	(random berry) (recurring)
+-	0	0x7AC	HIDDEN ITEM	Cerulean Cave	2F	(random berry) (recurring)
+-	0	0x7AD	HIDDEN ITEM	Cerulean Cave	2F	(random berry) (recurring)
+-	0	0x7AE	HIDDEN ITEM	Cerulean Cave	2F	(random berry) (recurring)
+-	0	0x7AF	HIDDEN ITEM	Cerulean Cave	2F	(random berry) (recurring)
+-	0	0x7B0	HIDDEN ITEM	Cerulean Cave	2F	(random ball) (recurring)
+-	0	0x7B1	HIDDEN ITEM	Cerulean Cave	2F	(random ball) (recurring)
+-	0	0x7B2	HIDDEN ITEM	Cerulean Cave	2F	(random ball) (recurring)
+-	0	0x7B3	HIDDEN ITEM	Cerulean Cave	2F	(random ball) (recurring)
+-	0	0x7B4	HIDDEN ITEM	Cerulean Cave	2F	(random ball) (recurring)
+-	0	0x880	SIDE EVENT			FE_EV0905_BTL_RED
+-	0	0x884	PKMN GIFT	Route 4	PokéCenter	Buy Magikarp from man
+-	0	0x886	ITEM GIFT	Pewter City	Museum	Old Amber from scientist
+-	0	0x889	ITEM GIFT	Route 12	House	TM32 (Dazzling Gleam) from old man
+-	0	0x88B	PKMN GIFT	Silph Co.	7F	Lapras from man
+-	0	0x88C	ITEM GIFT	Vermilion City	Fan Club	Pikachu / Eevee Set from chairman
+-	0	0x88D	ITEM GIFT	Vermilion City	Fan Club	Raichu / Eevee evolutions Sets from chairman
+-	0	0x890	ITEM GIFT	Saffron City	Mr. Psychic's House	TM40 (Psychic) from Mr. Psychic
+-	0	0x89E	PKMN GIFT	Saffron City	Dojo	Hitmonchan / Hitmonlee from Karate Master
+-	0	0x8A0	ITEM GIFT	Cinnabar Island	Lab	TM02 (Taunt) from scientist
+-	0	0x8A1	ITEM GIFT	Route 12	Gate	TM50 (Roost) from girl
+-	0	0x8A2	ITEM GIFT	Celadon City	Department Store 3F	TM03 (Helping Hand) from man
+-	0	0x8A4	ITEM GIFT	Silph Co.	2F	TM42 (Self Destruct) from woman
+-	0	0x8A5	ITEM GIFT	Celadon City		TM26 (Poison Jab) from old man
+-	0	0x8A6	ITEM GIFT	Viridian City		TM11 (Will-O-Wisp) from man
+-	0	0x8AD	ITEM GIFT	Route 16	Gate	Ultra Ball (x30) from Oak's aide
+-	0	0x8AE	PKMN GIFT	Cerulean City		Bulbasaur from girl
+-	0	0x8AF	PKMN GIFT	Route 24		Charmander from guy
+-	0	0x8B0	PKMN GIFT	Vermilion City		Squirtle from officer
+-	0	0x8B3	ITEM GIFT	Route 16	House	TM14 (Fly) from girl
+-	0	0x8B6	TRAINER BATTLE	Team Rocket Hideout	B4F	Pokémon Trainer Archer
+-	0	0x8B8	TRAINER BATTLE	Cerulean Cave	B1F	Pokémon Trainer Green
+-	0	0x8BE	STATIC ENCOUNTER	Victory Road	2F	Capture Moltres
+-	0	0x8C0	STATIC ENCOUNTER	Power Plant		Capture Zapdos
+-	0	0x8C2	STATIC ENCOUNTER	Seafoam Islands	B4F	Capture Articuno
+-	0	0x8C4	STATIC ENCOUNTER	Cerulean Cave	B1F	Capture Mewtwo
+-	0	0x8C6	ITEM GIFT	Route 15	Gate	Assistant Set from Oak's assistant
+-	0	0x8C7	ITEM GIFT	Saffron City		Officer Set from officer
+-	0	0x8C8	ITEM GIFT	Pokémon Tower	1F	Formal Set from old woman
+-	0	0x8C9	ITEM GIFT	Team Rocket Hideout	1F	Team Rocket Set from female grunt
+-	0	0x8CA	SIDE EVENT	Cerulean City		Deposit money in the fountain
+-	0	0x8CB	TRAINER BATTLE	Route 17		Team Rocket Jessie & James / Blast-Off Set gift
+-	0	0x8CC	ITEM GIFT	Cerulean City	Bike Maniac House	Heart Scales (x5) from owner after asking about all kinds of bikes
+-	0	0x8D1	PKMN GIFT	Saffron City		Porygon from man
+-	0	0x8D2	SIDE EVENT	Vermilion	Port	Meet Mina
+-	0	0x8EC	IN-GAME TRADE			FE_FIELD_TRADE_FIRST_01
+-	0	0x8ED	IN-GAME TRADE			FE_FIELD_TRADE_FIRST_02
+-	0	0x8EE	IN-GAME TRADE			FE_FIELD_TRADE_FIRST_03
+-	0	0x8EF	IN-GAME TRADE			FE_FIELD_TRADE_FIRST_04
+-	0	0x8F0	IN-GAME TRADE			FE_FIELD_TRADE_FIRST_05
+-	0	0x8F1	IN-GAME TRADE			FE_FIELD_TRADE_FIRST_06
+-	0	0x8F2	IN-GAME TRADE			FE_FIELD_TRADE_FIRST_07
+-	0	0x91C	ITEM GIFT	Lavender Town		Great Ball (x20) from guy
+-	0	0x93F	IN-GAME TRADE			FE_FIELD_TRADE_FIRST_08
+-	0	0x940	STATIC ENCOUNTER	Route 12		FE_CAPTURE_KABIGON_ROAD012
+-	0	0x941	STATIC ENCOUNTER	Route 16		FE_CAPTURE_KABIGON_ROAD016
+-	0	0xA81	TRAINER BATTLE			TRID_PRIVAL_01
+-	0	0xA82	TRAINER BATTLE			TRID_ERIVAL_01
+-	0	0xA83	TRAINER BATTLE			TRID_PRIVAL_02
+-	0	0xA84	TRAINER BATTLE			TRID_ERIVAL_02
+-	0	0xA85	TRAINER BATTLE			TRID_GYM01_01
+-	0	0xA86	TRAINER BATTLE			TRID_SCIENCE_01
+-	0	0xA87	TRAINER BATTLE			TRID_WROCKETM_01
+-	0	0xA88	TRAINER BATTLE			TRID_WROCKETK_01
+-	0	0xA89	TRAINER BATTLE			TRID_GYM02_01
+-	0	0xA8A	TRAINER BATTLE			TRID_PRIVAL_03
+-	0	0xA8B	TRAINER BATTLE			TRID_ERIVAL_03
+-	0	0xA8C	TRAINER BATTLE			TRID_ROCKETM_01
+-	0	0xA8D	TRAINER BATTLE			TRID_PRIVAL_04
+-	0	0xA8E	TRAINER BATTLE			TRID_ERIVAL_04
+-	0	0xA8F	TRAINER BATTLE			TRID_GYM03_01
+-	0	0xA90	TRAINER BATTLE			TRID_PRIVAL_05
+-	0	0xA91	TRAINER BATTLE			TRID_ERIVAL_05
+-	0	0xA92	TRAINER BATTLE			TRID_GYM04_01
+-	0	0xA93	TRAINER BATTLE			TRID_ROCKETM_02
+-	0	0xA94	TRAINER BATTLE			TRID_WROCKETM_02
+-	0	0xA95	TRAINER BATTLE			TRID_WROCKETK_02
+-	0	0xA96	TRAINER BATTLE			TRID_ROCKETLEADER_01
+-	0	0xA97	TRAINER BATTLE			TRID_ROCKETBOSS_01
+-	0	0xA98	TRAINER BATTLE			TRID_WROCKETM_03
+-	0	0xA99	TRAINER BATTLE			TRID_WROCKETK_03
+-	0	0xA9A	TRAINER BATTLE			TRID_RED_01
+-	0	0xA9B	TRAINER BATTLE			TRID_GREEN_01
+-	0	0xA9C	TRAINER BATTLE			TRID_ROCKETLEADER_02
+-	0	0xA9D	TRAINER BATTLE			TRID_ROCKETW_01
+-	0	0xA9E	TRAINER BATTLE			TRID_PRIVAL_06
+-	0	0xA9F	TRAINER BATTLE			TRID_ERIVAL_06
+-	0	0xAA0	TRAINER BATTLE			TRID_WROCKETM_04
+-	0	0xAA1	TRAINER BATTLE			TRID_WROCKETK_04
+-	0	0xAA2	TRAINER BATTLE			TRID_ROCKETBOSS_02
+-	0	0xAA3	TRAINER BATTLE			TRID_GYM05_01
+-	0	0xAA4	TRAINER BATTLE			TRID_GYM06_01
+-	0	0xAA5	TRAINER BATTLE			TRID_GYM07_01
+-	0	0xAA6	TRAINER BATTLE			TRID_GYM08_01
+-	0	0xAA7	TRAINER BATTLE			TRID_PRIVAL_07
+-	0	0xAA8	TRAINER BATTLE			TRID_ERIVAL_07
+-	0	0xAA9	TRAINER BATTLE			TRID_BIGFOUR01_01
+-	0	0xAAA	TRAINER BATTLE			TRID_BIGFOUR02_01
+-	0	0xAAB	TRAINER BATTLE			TRID_BIGFOUR03_01
+-	0	0xAAC	TRAINER BATTLE			TRID_BIGFOUR04_01
+-	0	0xAAD	TRAINER BATTLE			TRID_PRIVAL_08
+-	0	0xAAE	TRAINER BATTLE			TRID_ERIVAL_08
+-	0	0xAAF	TRAINER BATTLE			TRID_KARATE_01
+-	0	0xAB0	TRAINER BATTLE			TRID_ROCKETLEADER_03
+-	0	0xAB1	TRAINER BATTLE			TRID_BLUE_01
+-	0	0xAB2	TRAINER BATTLE			TRID_WROCKETM_05
+-	0	0xAB3	TRAINER BATTLE			TRID_WROCKETK_05
+-	0	0xAB4	TRAINER BATTLE			TRID_FAIRY_02
+-	0	0xAB5	TRAINER BATTLE			TRID_INSECT_01
+-	0	0xAB6	TRAINER BATTLE			TRID_INSECT_02
+-	0	0xAB7	TRAINER BATTLE			TRID_INSECT_03
+-	0	0xAB8	TRAINER BATTLE			TRID_BOY_01
+-	0	0xAB9	TRAINER BATTLE			TRID_GIRL_01
+-	0	0xABA	TRAINER BATTLE			TRID_TANPAN_01
+-	0	0xABB	TRAINER BATTLE			TRID_TANPAN_02
+-	0	0xABC	TRAINER BATTLE			TRID_MINI_01
+-	0	0xABD	TRAINER BATTLE			TRID_MINI_02
+-	0	0xABE	TRAINER BATTLE			TRID_MINI_03
+-	0	0xABF	TRAINER BATTLE			TRID_INSECT_04
+-	0	0xAC0	TRAINER BATTLE			TRID_INSECT_05
+-	0	0xAC1	TRAINER BATTLE			TRID_INSECT_06
+-	0	0xAC2	TRAINER BATTLE			TRID_MINI_04
+-	0	0xAC3	TRAINER BATTLE			TRID_INSECT_07
+-	0	0xAC4	TRAINER BATTLE			TRID_INSECT_08
+-	0	0xAC5	TRAINER BATTLE			TRID_MINI_05
+-	0	0xAC6	TRAINER BATTLE			TRID_MINI_06
+-	0	0xAC7	TRAINER BATTLE			TRID_SCIENCE_02
+-	0	0xAC8	TRAINER BATTLE			TRID_TANPAN_03
+-	0	0xAC9	TRAINER BATTLE			TRID_MOUNT_01
+-	0	0xACA	TRAINER BATTLE			TRID_ROCKETW_02
+-	0	0xACB	TRAINER BATTLE			TRID_ROCKETM_03
+-	0	0xACC	TRAINER BATTLE			TRID_ROCKETM_04
+-	0	0xACD	TRAINER BATTLE			TRID_INSECT_09
+-	0	0xACE	TRAINER BATTLE			TRID_MINI_07
+-	0	0xACF	TRAINER BATTLE			TRID_TANPAN_04
+-	0	0xAD0	TRAINER BATTLE			TRID_MINI_08
+-	0	0xAD1	TRAINER BATTLE			TRID_BOY_02
+-	0	0xAD2	TRAINER BATTLE			TRID_SWIM_01
+-	0	0xAD3	TRAINER BATTLE			TRID_GIRL_02
+-	0	0xAD4	TRAINER BATTLE			TRID_TANPAN_05
+-	0	0xAD5	TRAINER BATTLE			TRID_TANPAN_06
+-	0	0xAD6	TRAINER BATTLE			TRID_TANPAN_07
+-	0	0xAD7	TRAINER BATTLE			TRID_BOY_03
+-	0	0xAD8	TRAINER BATTLE			TRID_MINI_09
+-	0	0xAD9	TRAINER BATTLE			TRID_MINI_10
+-	0	0xADA	TRAINER BATTLE			TRID_MOUNT_02
+-	0	0xADB	TRAINER BATTLE			TRID_MOUNT_03
+-	0	0xADC	TRAINER BATTLE			TRID_MOUNT_04
+-	0	0xADD	TRAINER BATTLE			TRID_TEST_01
+-	0	0xADE	TRAINER BATTLE			TRID_BOY_04
+-	0	0xADF	TRAINER BATTLE			TRID_BOY_05
+-	0	0xAE0	TRAINER BATTLE			TRID_GIRL_03
+-	0	0xAE1	TRAINER BATTLE			TRID_GIRL_04
+-	0	0xAE2	TRAINER BATTLE			TRID_INSECT_10
+-	0	0xAE3	TRAINER BATTLE			TRID_INSECT_11
+-	0	0xAE4	TRAINER BATTLE			TRID_GAMBLER_01
+-	0	0xAE5	TRAINER BATTLE			TRID_GAMBLER_02
+-	0	0xAE6	TRAINER BATTLE			TRID_MINI_11
+-	0	0xAE7	TRAINER BATTLE			TRID_MINI_12
+-	0	0xAE8	TRAINER BATTLE			TRID_MINI_13
+-	0	0xAE9	TRAINER BATTLE			TRID_MINI_14
+-	0	0xAEA	TRAINER BATTLE			TRID_SCIENCE_03
+-	0	0xAEB	TRAINER BATTLE			TRID_SCIENCE_04
+-	0	0xAEC	TRAINER BATTLE			TRID_SCIENCE_05
+-	0	0xAED	TRAINER BATTLE			TRID_BOY_06
+-	0	0xAEE	TRAINER BATTLE			TRID_GIRL_05
+-	0	0xAEF	TRAINER BATTLE			TRID_GIRL_06
+-	0	0xAF0	TRAINER BATTLE			TRID_TANPAN_08
+-	0	0xAF1	TRAINER BATTLE			TRID_INSECT_12
+-	0	0xAF2	TRAINER BATTLE			TRID_INSECT_13
+-	0	0xAF3	TRAINER BATTLE			TRID_MOUNT_05
+-	0	0xAF4	TRAINER BATTLE			TRID_MOUNT_06
+-	0	0xAF5	TRAINER BATTLE			TRID_MOUNT_07
+-	0	0xAF6	TRAINER BATTLE			TRID_GIRL_07
+-	0	0xAF7	TRAINER BATTLE			TRID_MONSTER_01
+-	0	0xAF8	TRAINER BATTLE			TRID_GIRL_08
+-	0	0xAF9	TRAINER BATTLE			TRID_MONSTER_02
+-	0	0xAFA	TRAINER BATTLE			TRID_MOUNT_08
+-	0	0xAFB	TRAINER BATTLE			TRID_MOUNT_09
+-	0	0xAFC	TRAINER BATTLE			TRID_GENTLEMAN_01
+-	0	0xAFD	TRAINER BATTLE			TRID_GENTLEMAN_02
+-	0	0xAFE	TRAINER BATTLE			TRID_GENTLEMAN_03
+-	0	0xAFF	TRAINER BATTLE			TRID_GENTLEMAN_04
+-	0	0xB00	TRAINER BATTLE			TRID_MINI_15
+-	0	0xB01	TRAINER BATTLE			TRID_MINI_16
+-	0	0xB02	TRAINER BATTLE			TRID_TANPAN_09
+-	0	0xB03	TRAINER BATTLE			TRID_FISHING_01
+-	0	0xB04	TRAINER BATTLE			TRID_SAILOR_01
+-	0	0xB05	TRAINER BATTLE			TRID_FISHING_02
+-	0	0xB06	TRAINER BATTLE			TRID_SAILOR_02
+-	0	0xB07	TRAINER BATTLE			TRID_SAILOR_03
+-	0	0xB08	TRAINER BATTLE			TRID_SAILOR_04
+-	0	0xB09	TRAINER BATTLE			TRID_SAILOR_05
+-	0	0xB0A	TRAINER BATTLE			TRID_SAILOR_06
+-	0	0xB0B	TRAINER BATTLE			TRID_SAILOR_07
+-	0	0xB0C	TRAINER BATTLE			TRID_MONSTER_03
+-	0	0xB0D	TRAINER BATTLE			TRID_MONSTER_04
+-	0	0xB0E	TRAINER BATTLE			TRID_MONSTER_05
+-	0	0xB0F	TRAINER BATTLE			TRID_MONSTER_06
+-	0	0xB10	TRAINER BATTLE			TRID_MOUNT_10
+-	0	0xB11	TRAINER BATTLE			TRID_MOUNT_11
+-	0	0xB12	TRAINER BATTLE			TRID_MOUNT_13
+-	0	0xB13	TRAINER BATTLE			TRID_MOUNT_14
+-	0	0xB14	TRAINER BATTLE			TRID_MOUNT_15
+-	0	0xB15	TRAINER BATTLE			TRID_MOUNT_12
+-	0	0xB16	TRAINER BATTLE			TRID_GIRL_09
+-	0	0xB17	TRAINER BATTLE			TRID_GIRL_10
+-	0	0xB18	TRAINER BATTLE			TRID_GIRL_11
+-	0	0xB19	TRAINER BATTLE			TRID_GIRL_12
+-	0	0xB1A	TRAINER BATTLE			TRID_GIRL_13
+-	0	0xB1B	TRAINER BATTLE			TRID_ROCKETM_05
+-	0	0xB1C	TRAINER BATTLE			TRID_ROCKETM_06
+-	0	0xB1D	TRAINER BATTLE			TRID_ROCKETM_07
+-	0	0xB1E	TRAINER BATTLE			TRID_ROCKETM_08
+-	0	0xB1F	TRAINER BATTLE			TRID_ROCKETM_09
+-	0	0xB20	TRAINER BATTLE			TRID_ROCKETM_10
+-	0	0xB21	TRAINER BATTLE			TRID_ROCKETM_11
+-	0	0xB22	TRAINER BATTLE			TRID_ROCKETW_03
+-	0	0xB23	TRAINER BATTLE			TRID_ROCKETW_04
+-	0	0xB24	TRAINER BATTLE			TRID_SHAMAN_01
+-	0	0xB25	TRAINER BATTLE			TRID_SHAMAN_02
+-	0	0xB26	TRAINER BATTLE			TRID_SHAMAN_03
+-	0	0xB27	TRAINER BATTLE			TRID_SHAMAN_04
+-	0	0xB28	TRAINER BATTLE			TRID_SHAMAN_05
+-	0	0xB29	TRAINER BATTLE			TRID_SHAMAN_06
+-	0	0xB2A	TRAINER BATTLE			TRID_SHAMAN_07
+-	0	0xB2B	TRAINER BATTLE			TRID_SHAMAN_08
+-	0	0xB2C	TRAINER BATTLE			TRID_SHAMAN_09
+-	0	0xB2D	TRAINER BATTLE			TRID_SHAMAN_10
+-	0	0xB2E	TRAINER BATTLE			TRID_SHAMAN_11
+-	0	0xB2F	TRAINER BATTLE			TRID_SHAMAN_12
+-	0	0xB30	TRAINER BATTLE			TRID_SHAMAN_13
+-	0	0xB31	TRAINER BATTLE			TRID_ROCKETW_05
+-	0	0xB32	TRAINER BATTLE			TRID_ROCKETW_06
+-	0	0xB33	TRAINER BATTLE			TRID_ROCKETW_07
+-	0	0xB34	TRAINER BATTLE			TRID_ROCKETM_19
+-	0	0xB35	TRAINER BATTLE			TRID_ROCKETM_20
+-	0	0xB36	TRAINER BATTLE			TRID_ROCKETM_14
+-	0	0xB37	TRAINER BATTLE			TRID_ROCKETM_15
+-	0	0xB38	TRAINER BATTLE			TRID_ROCKETM_16
+-	0	0xB39	TRAINER BATTLE			TRID_ROCKETM_17
+-	0	0xB3A	TRAINER BATTLE			TRID_ROCKETM_18
+-	0	0xB3B	TRAINER BATTLE			TRID_ROCKETM_12
+-	0	0xB3C	TRAINER BATTLE			TRID_ROCKETM_13
+-	0	0xB3D	TRAINER BATTLE			TRID_RESEARCHER_01
+-	0	0xB3E	TRAINER BATTLE			TRID_RESEARCHER_02
+-	0	0xB3F	TRAINER BATTLE			TRID_RESEARCHER_03
+-	0	0xB40	TRAINER BATTLE			TRID_RESEARCHER_04
+-	0	0xB41	TRAINER BATTLE			TRID_RESEARCHER_05
+-	0	0xB42	TRAINER BATTLE			TRID_RESEARCHER_06
+-	0	0xB43	TRAINER BATTLE			TRID_RESEARCHER_07
+-	0	0xB44	TRAINER BATTLE			TRID_JUGGLER_01
+-	0	0xB45	TRAINER BATTLE			TRID_GAMBLER_03
+-	0	0xB46	TRAINER BATTLE			TRID_GAMBLER_04
+-	0	0xB47	TRAINER BATTLE			TRID_GAMBLER_05
+-	0	0xB48	TRAINER BATTLE			TRID_TANPAN_10
+-	0	0xB49	TRAINER BATTLE			TRID_TANPAN_11
+-	0	0xB4A	TRAINER BATTLE			TRID_TANPAN_12
+-	0	0xB4B	TRAINER BATTLE			TRID_TANPAN_13
+-	0	0xB4C	TRAINER BATTLE			TRID_DENKIYA_01
+-	0	0xB4D	TRAINER BATTLE			TRID_DENKIYA_02
+-	0	0xB4E	TRAINER BATTLE			TRID_FISHING_03
+-	0	0xB4F	TRAINER BATTLE			TRID_FISHING_04
+-	0	0xB50	TRAINER BATTLE			TRID_FISHING_05
+-	0	0xB51	TRAINER BATTLE			TRID_FISHING_06
+-	0	0xB52	TRAINER BATTLE			TRID_FISHING_07
+-	0	0xB53	TRAINER BATTLE			TRID_BOY_07
+-	0	0xB54	TRAINER BATTLE			TRID_DENKIGROUP_01
+-	0	0xB55	TRAINER BATTLE			TRID_LADY_01
+-	0	0xB56	TRAINER BATTLE			TRID_LADY_02
+-	0	0xB57	TRAINER BATTLE			TRID_GIRL_14
+-	0	0xB58	TRAINER BATTLE			TRID_GIRL_15
+-	0	0xB59	TRAINER BATTLE			TRID_GIRL_16
+-	0	0xB5A	TRAINER BATTLE			TRID_GIRL_17
+-	0	0xB5B	TRAINER BATTLE			TRID_BIRD_01
+-	0	0xB5C	TRAINER BATTLE			TRID_BIRD_02
+-	0	0xB5D	TRAINER BATTLE			TRID_BIRD_03
+-	0	0xB5E	TRAINER BATTLE			TRID_MOTORCYCLE_01
+-	0	0xB5F	TRAINER BATTLE			TRID_BIRD_04
+-	0	0xB60	TRAINER BATTLE			TRID_BIRD_05
+-	0	0xB61	TRAINER BATTLE			TRID_BIRD_06
+-	0	0xB62	TRAINER BATTLE			TRID_BIRD_07
+-	0	0xB63	TRAINER BATTLE			TRID_BIRD_08
+-	0	0xB64	TRAINER BATTLE			TRID_MOTORCYCLE_02
+-	0	0xB65	TRAINER BATTLE			TRID_MOTORCYCLE_03
+-	0	0xB66	TRAINER BATTLE			TRID_MOTORCYCLE_04
+-	0	0xB67	TRAINER BATTLE			TRID_MOTORCYCLE_05
+-	0	0xB68	TRAINER BATTLE			TRID_LADY_03
+-	0	0xB69	TRAINER BATTLE			TRID_LADY_04
+-	0	0xB6A	TRAINER BATTLE			TRID_GIRL_18
+-	0	0xB6B	TRAINER BATTLE			TRID_GIRL_19
+-	0	0xB6C	TRAINER BATTLE			TRID_GIRL_20
+-	0	0xB6D	TRAINER BATTLE			TRID_GIRL_21
+-	0	0xB6E	TRAINER BATTLE			TRID_BIRD_09
+-	0	0xB6F	TRAINER BATTLE			TRID_BIRD_10
+-	0	0xB70	TRAINER BATTLE			TRID_MOTORCYCLE_06
+-	0	0xB71	TRAINER BATTLE			TRID_MOTORCYCLE_07
+-	0	0xB72	TRAINER BATTLE			TRID_MOTORCYCLE_08
+-	0	0xB73	TRAINER BATTLE			TRID_MOTORCYCLE_09
+-	0	0xB74	TRAINER BATTLE			TRID_MOTORCYCLE_10
+-	0	0xB75	TRAINER BATTLE			TRID_MOTORCYCLE_11
+-	0	0xB76	TRAINER BATTLE			TRID_MOTORCYCLE_12
+-	0	0xB77	TRAINER BATTLE			TRID_MOTORCYCLE_13
+-	0	0xB78	TRAINER BATTLE			TRID_MOTORCYCLE_14
+-	0	0xB79	TRAINER BATTLE			TRID_MOTORCYCLE_15
+-	0	0xB7A	TRAINER BATTLE			TRID_SKINHEAD_01
+-	0	0xB7B	TRAINER BATTLE			TRID_SKINHEAD_02
+-	0	0xB7C	TRAINER BATTLE			TRID_SKINHEAD_03
+-	0	0xB7D	TRAINER BATTLE			TRID_SKINHEAD_04
+-	0	0xB7E	TRAINER BATTLE			TRID_SKINHEAD_05
+-	0	0xB7F	TRAINER BATTLE			TRID_SKINHEAD_06
+-	0	0xB80	TRAINER BATTLE			TRID_SKINHEAD_07
+-	0	0xB81	TRAINER BATTLE			TRID_SKINHEAD_08
+-	0	0xB82	TRAINER BATTLE			TRID_LADY_05
+-	0	0xB83	TRAINER BATTLE			TRID_LADY_06
+-	0	0xB84	TRAINER BATTLE			TRID_LADY_07
+-	0	0xB85	TRAINER BATTLE			TRID_LADY_08
+-	0	0xB86	TRAINER BATTLE			TRID_LADY_09
+-	0	0xB87	TRAINER BATTLE			TRID_LADY_10
+-	0	0xB88	TRAINER BATTLE			TRID_LADY_11
+-	0	0xB89	TRAINER BATTLE			TRID_SWIM_02
+-	0	0xB8A	TRAINER BATTLE			TRID_SWIM_03
+-	0	0xB8B	TRAINER BATTLE			TRID_SWIM_04
+-	0	0xB8C	TRAINER BATTLE			TRID_SWIM_05
+-	0	0xB8D	TRAINER BATTLE			TRID_SWIM_06
+-	0	0xB8E	TRAINER BATTLE			TRID_SWIM_07
+-	0	0xB8F	TRAINER BATTLE			TRID_SWIM_08
+-	0	0xB90	TRAINER BATTLE			TRID_SWIM_09
+-	0	0xB91	TRAINER BATTLE			TRID_SWIM_10
+-	0	0xB92	TRAINER BATTLE			TRID_SWIM_11
+-	0	0xB93	TRAINER BATTLE			TRID_GIRL_22
+-	0	0xB94	TRAINER BATTLE			TRID_GIRL_23
+-	0	0xB95	TRAINER BATTLE			TRID_SWIM_12
+-	0	0xB96	TRAINER BATTLE			TRID_SWIM_13
+-	0	0xB97	TRAINER BATTLE			TRID_SWIM_14
+-	0	0xB98	TRAINER BATTLE			TRID_SWIM_15
+-	0	0xB99	TRAINER BATTLE			TRID_SWIM_16
+-	0	0xB9A	TRAINER BATTLE			TRID_SKINHEAD_09
+-	0	0xB9B	TRAINER BATTLE			TRID_FISHING_08
+-	0	0xB9C	TRAINER BATTLE			TRID_FISHING_09
+-	0	0xB9D	TRAINER BATTLE			TRID_FISHING_10
+-	0	0xB9E	TRAINER BATTLE			TRID_SAILOR_08
+-	0	0xB9F	TRAINER BATTLE			TRID_THIEF_01
+-	0	0xBA0	TRAINER BATTLE			TRID_THIEF_02
+-	0	0xBA1	TRAINER BATTLE			TRID_THIEF_03
+-	0	0xBA2	TRAINER BATTLE			TRID_RESEARCHER_08
+-	0	0xBA3	TRAINER BATTLE			TRID_RESEARCHER_09
+-	0	0xBA4	TRAINER BATTLE			TRID_RESEARCHER_10
+-	0	0xBA5	TRAINER BATTLE			TRID_RESEARCHER_11
+-	0	0xBA6	TRAINER BATTLE			TRID_KARATE_02
+-	0	0xBA7	TRAINER BATTLE			TRID_BEAST_01
+-	0	0xBA8	TRAINER BATTLE			TRID_BEAST_02
+-	0	0xBA9	TRAINER BATTLE			TRID_JUGGLER_02
+-	0	0xBAA	TRAINER BATTLE			TRID_JUGGLER_03
+-	0	0xBAB	TRAINER BATTLE			TRID_ELITEM_01
+-	0	0xBAC	TRAINER BATTLE			TRID_ELITEM_02
+-	0	0xBAD	TRAINER BATTLE			TRID_ELITEM_03
+-	0	0xBAE	TRAINER BATTLE			TRID_ELITEW_01
+-	0	0xBAF	TRAINER BATTLE			TRID_ELITEW_02
+-	0	0xBB0	TRAINER BATTLE			TRID_ELITEW_03
+-	0	0xBB1	TRAINER BATTLE			TRID_SAILOR_09
+-	0	0xBB2	TRAINER BATTLE			TRID_DENKIGROUP_02
+-	0	0xBB3	TRAINER BATTLE			TRID_GENTLEMAN_05
+-	0	0xBB4	TRAINER BATTLE			TRID_MINI_17
+-	0	0xBB5	TRAINER BATTLE			TRID_MINI_18
+-	0	0xBB6	TRAINER BATTLE			TRID_LADY_12
+-	0	0xBB7	TRAINER BATTLE			TRID_LADY_13
+-	0	0xBB8	TRAINER BATTLE			TRID_LADY_14
+-	0	0xBB9	TRAINER BATTLE			TRID_GIRL_24
+-	0	0xBBA	TRAINER BATTLE			TRID_ELITEW_04
+-	0	0xBBB	TRAINER BATTLE			TRID_JUGGLER_04
+-	0	0xBBC	TRAINER BATTLE			TRID_JUGGLER_05
+-	0	0xBBD	TRAINER BATTLE			TRID_JUGGLER_06
+-	0	0xBBE	TRAINER BATTLE			TRID_JUGGLER_07
+-	0	0xBBF	TRAINER BATTLE			TRID_BEAST_03
+-	0	0xBC0	TRAINER BATTLE			TRID_BEAST_04
+-	0	0xBC1	TRAINER BATTLE			TRID_SHAMAN_14
+-	0	0xBC2	TRAINER BATTLE			TRID_SHAMAN_15
+-	0	0xBC3	TRAINER BATTLE			TRID_SHAMAN_16
+-	0	0xBC4	TRAINER BATTLE			TRID_ESPER_01
+-	0	0xBC5	TRAINER BATTLE			TRID_ESPER_02
+-	0	0xBC6	TRAINER BATTLE			TRID_ESPER_03
+-	0	0xBC7	TRAINER BATTLE			TRID_ESPER_04
+-	0	0xBC8	TRAINER BATTLE			TRID_KARATE_03
+-	0	0xBC9	TRAINER BATTLE			TRID_KARATE_04
+-	0	0xBCA	TRAINER BATTLE			TRID_KARATE_05
+-	0	0xBCB	TRAINER BATTLE			TRID_KARATE_06
+-	0	0xBCC	TRAINER BATTLE			TRID_KARATE_07
+-	0	0xBCD	TRAINER BATTLE			TRID_THIEF_04
+-	0	0xBCE	TRAINER BATTLE			TRID_THIEF_05
+-	0	0xBCF	TRAINER BATTLE			TRID_THIEF_06
+-	0	0xBD0	TRAINER BATTLE			TRID_SCIENCE_06
+-	0	0xBD1	TRAINER BATTLE			TRID_SCIENCE_07
+-	0	0xBD2	TRAINER BATTLE			TRID_SCIENCE_08
+-	0	0xBD3	TRAINER BATTLE			TRID_BEAST_05
+-	0	0xBD4	TRAINER BATTLE			TRID_BEAST_06
+-	0	0xBD5	TRAINER BATTLE			TRID_KARATE_08
+-	0	0xBD6	TRAINER BATTLE			TRID_KARATE_09
+-	0	0xBD7	TRAINER BATTLE			TRID_KARATE_10
+-	0	0xBD8	TRAINER BATTLE			TRID_ELITEM_04
+-	0	0xBD9	TRAINER BATTLE			TRID_ELITEM_05
+-	0	0xBDA	TRAINER BATTLE			TRID_ELITEM_06
+-	0	0xBDB	TRAINER BATTLE			TRID_BOY_08
+-	0	0xBDC	TRAINER BATTLE			TRID_GIRL_25
+-	0	0xBDD	TRAINER BATTLE			TRID_ELITEW_05
+-	0	0xBDE	TRAINER BATTLE			TRID_ELITEW_06
+-	0	0xBDF	TRAINER BATTLE			TRID_ELITEW_07
+-	0	0xBE0	TRAINER BATTLE			TRID_ELITEW_08
+-	0	0xBE1	TRAINER BATTLE			TRID_ELITEW_09
+-	0	0xBE2	TRAINER BATTLE			TRID_ELITEW_10
+-	0	0xBE3	TRAINER BATTLE			TRID_ELITEW_11
+-	0	0xBE4	TRAINER BATTLE			TRID_ELITEW_12
+-	0	0xBE5	TRAINER BATTLE			TRID_ELITEM_07
+-	0	0xBE6	TRAINER BATTLE			TRID_ELITEM_08
+-	0	0xBE7	TRAINER BATTLE			TRID_ELITEM_09
+-	0	0xBE8	TRAINER BATTLE			TRID_ELITEM_10
+-	0	0xBE9	TRAINER BATTLE			TRID_ELITEM_11
+-	0	0xBEA	TRAINER BATTLE			TRID_ELITEM_12
+-	0	0xBEB	TRAINER BATTLE			TRID_LADY_15
+-	0	0xBEC	TRAINER BATTLE			TRID_LADY_16
+-	0	0xBED	TRAINER BATTLE			TRID_LADY_17
+-	0	0xBEE	TRAINER BATTLE			TRID_LADY_18
+-	0	0xBEF	TRAINER BATTLE			TRID_GIRL_26
+-	0	0xBF0	TRAINER BATTLE			TRID_GIRL_27
+-	0	0xBF1	TRAINER BATTLE			TRID_KARATE_11
+-	0	0xBF2	TRAINER BATTLE			TRID_KARATE_12
+-	0	0xBF3	TRAINER BATTLE			TRID_KARATE_13
+-	0	0xBF4	TRAINER BATTLE			TRID_KARATE_14
+-	0	0xBF5	TRAINER BATTLE			TRID_GENTLEMAN_06
+-	0	0xBF6	TRAINER BATTLE			TRID_GENTLEMAN_07
+-	0	0xBF7	TRAINER BATTLE			TRID_GENTLEMAN_08
+-	0	0xBF8	TRAINER BATTLE			TRID_TANPAN_14
+-	0	0xBF9	TRAINER BATTLE			TRID_FISHING_11
+-	0	0xBFA	TRAINER BATTLE			TRID_DENKIGROUP_03
+-	0	0xBFB	TRAINER BATTLE			TRID_DENKIYA_03
+-	0	0xBFC	TRAINER BATTLE			TRID_BIRD_11
+-	0	0xBFD	TRAINER BATTLE			TRID_SAILOR_10
+-	0	0xBFE	TRAINER BATTLE			TRID_SAILOR_11
+-	0	0xBFF	TRAINER BATTLE			TRID_SAILOR_12
+-	0	0xC00	TRAINER BATTLE			TRID_BOY_09
+-	0	0xC01	TRAINER BATTLE			TRID_BOY_10
+-	0	0xC02	TRAINER BATTLE			TRID_BOY_11
+-	0	0xC03	TRAINER BATTLE			TRID_BOY_12
+-	0	0xC04	TRAINER BATTLE			TRID_BOY_13
+-	0	0xC05	TRAINER BATTLE			TRID_BOY_14
+-	0	0xC06	TRAINER BATTLE			TRID_BOY_15
+-	0	0xC07	TRAINER BATTLE			TRID_BOY_16
+-	0	0xC08	TRAINER BATTLE			TRID_BOY_17
+-	0	0xC09	TRAINER BATTLE			TRID_BOY_18
+-	0	0xC0A	TRAINER BATTLE			TRID_MINI_19
+-	0	0xC0B	TRAINER BATTLE			TRID_MINI_20
+-	0	0xC0C	TRAINER BATTLE			TRID_INSECT_14
+-	0	0xC0D	TRAINER BATTLE			TRID_GAMBLER_06
+-	0	0xC0E	TRAINER BATTLE			TRID_ROCKETM_21
+-	0	0xC0F	TRAINER BATTLE			TRID_ROCKETM_22
+-	0	0xC10	TRAINER BATTLE			TRID_ROCKETM_23
+-	0	0xC11	TRAINER BATTLE			TRID_ROCKETM_24
+-	0	0xC12	TRAINER BATTLE			TRID_ROCKETW_08
+-	0	0xC13	TRAINER BATTLE			TRID_ROCKETW_09
+-	0	0xC14	TRAINER BATTLE			TRID_RESEARCHER_12
+-	0	0xC15	TRAINER BATTLE			TRID_RESEARCHER_13
+-	0	0xC16	TRAINER BATTLE			TRID_RESEARCHER_14
+-	0	0xC17	TRAINER BATTLE			TRID_MONSTER_07
+-	0	0xC18	TRAINER BATTLE			TRID_LADY_19
+-	0	0xC19	TRAINER BATTLE			TRID_LADY_20
+-	0	0xC1A	TRAINER BATTLE			TRID_LADY_21
+-	0	0xC1B	TRAINER BATTLE			TRID_BIRD_12
+-	0	0xC1C	TRAINER BATTLE			TRID_BIRD_13
+-	0	0xC1D	TRAINER BATTLE			TRID_ROCKETM_25
+-	0	0xC1E	TRAINER BATTLE			TRID_BIGFOUR01_02
+-	0	0xC1F	TRAINER BATTLE			TRID_BIGFOUR02_02
+-	0	0xC20	TRAINER BATTLE			TRID_BIGFOUR03_02
+-	0	0xC21	TRAINER BATTLE			TRID_BIGFOUR04_02
+-	0	0xC22	TRAINER BATTLE			TRID_PRIVAL_09
+-	0	0xC23	TRAINER BATTLE			TRID_ERIVAL_09
+-	0	0xC24	TRAINER BATTLE			TRID_GYM01_02
+-	0	0xC25	TRAINER BATTLE			TRID_GYM02_02
+-	0	0xC26	TRAINER BATTLE			TRID_GYM04_02
+-	0	0xC27	TRAINER BATTLE			TRID_GYM03_02
+-	0	0xC28	TRAINER BATTLE			TRID_GYM05_02
+-	0	0xC29	TRAINER BATTLE			TRID_GYM06_02
+-	0	0xC2A	TRAINER BATTLE			TRID_GYM07_02
+-	0	0xC2B	TRAINER BATTLE			TRID_GREEN_02
+-	0	0xC2C	TRAINER BATTLE			TRID_GREEN_03
+-	0	0xC2D	TRAINER BATTLE			TRID_RED_02
+-	0	0xC2E	TRAINER BATTLE			TRID_COACHM_01
+-	0	0xC2F	TRAINER BATTLE			TRID_COACHM_02
+-	0	0xC30	TRAINER BATTLE			TRID_COACHM_03
+-	0	0xC31	TRAINER BATTLE			TRID_COACHM_04
+-	0	0xC32	TRAINER BATTLE			TRID_COACHM_05
+-	0	0xC33	TRAINER BATTLE			TRID_COACHM_06
+-	0	0xC34	TRAINER BATTLE			TRID_COACHM_07
+-	0	0xC35	TRAINER BATTLE			TRID_COACHM_08
+-	0	0xC36	TRAINER BATTLE			TRID_COACHM_09
+-	0	0xC37	TRAINER BATTLE			TRID_COACHM_10
+-	0	0xC38	TRAINER BATTLE			TRID_COACHW_01
+-	0	0xC39	TRAINER BATTLE			TRID_COACHW_02
+-	0	0xC3A	TRAINER BATTLE			TRID_COACHW_03
+-	0	0xC3B	TRAINER BATTLE			TRID_COACHW_04
+-	0	0xC3C	TRAINER BATTLE			TRID_COACHW_05
+-	0	0xC3D	TRAINER BATTLE			TRID_COACHW_06
+-	0	0xC3E	TRAINER BATTLE			TRID_COACHW_07
+-	0	0xC3F	TRAINER BATTLE			TRID_COACHW_08
+-	0	0xC40	TRAINER BATTLE			TRID_COACHW_09
+-	0	0xC41	TRAINER BATTLE			TRID_TANPAN_15
+-	0	0xC42	TRAINER BATTLE			TRID_MINI_21
+-	0	0xC43	TRAINER BATTLE			TRID_INSECT_15
+-	0	0xC44	TRAINER BATTLE			TRID_MASTER_001
+-	0	0xC45	TRAINER BATTLE			TRID_MASTER_002
+-	0	0xC46	TRAINER BATTLE			TRID_MASTER_003
+-	0	0xC47	TRAINER BATTLE			TRID_MASTER_004
+-	0	0xC48	TRAINER BATTLE			TRID_MASTER_005
+-	0	0xC49	TRAINER BATTLE			TRID_MASTER_006
+-	0	0xC4A	TRAINER BATTLE			TRID_MASTER_007
+-	0	0xC4B	TRAINER BATTLE			TRID_MASTER_008
+-	0	0xC4C	TRAINER BATTLE			TRID_MASTER_009
+-	0	0xC4D	TRAINER BATTLE			TRID_MASTER_010
+-	0	0xC4E	TRAINER BATTLE			TRID_MASTER_011
+-	0	0xC4F	TRAINER BATTLE			TRID_MASTER_012
+-	0	0xC50	TRAINER BATTLE			TRID_MASTER_013
+-	0	0xC51	TRAINER BATTLE			TRID_MASTER_014
+-	0	0xC52	TRAINER BATTLE			TRID_MASTER_015
+-	0	0xC53	TRAINER BATTLE			TRID_MASTER_016
+-	0	0xC54	TRAINER BATTLE			TRID_MASTER_017
+-	0	0xC55	TRAINER BATTLE			TRID_MASTER_018
+-	0	0xC56	TRAINER BATTLE			TRID_MASTER_019
+-	0	0xC57	TRAINER BATTLE			TRID_MASTER_020
+-	0	0xC58	TRAINER BATTLE			TRID_MASTER_021
+-	0	0xC59	TRAINER BATTLE			TRID_MASTER_022
+-	0	0xC5A	TRAINER BATTLE			TRID_MASTER_023
+-	0	0xC5B	TRAINER BATTLE			TRID_MASTER_024
+-	0	0xC5C	TRAINER BATTLE			TRID_MASTER_025
+-	0	0xC5D	TRAINER BATTLE			TRID_MASTER_026
+-	0	0xC5E	TRAINER BATTLE			TRID_MASTER_027
+-	0	0xC5F	TRAINER BATTLE			TRID_MASTER_028
+-	0	0xC60	TRAINER BATTLE			TRID_MASTER_029
+-	0	0xC61	TRAINER BATTLE			TRID_MASTER_030
+-	0	0xC62	TRAINER BATTLE			TRID_MASTER_031
+-	0	0xC63	TRAINER BATTLE			TRID_MASTER_032
+-	0	0xC64	TRAINER BATTLE			TRID_MASTER_033
+-	0	0xC65	TRAINER BATTLE			TRID_MASTER_034
+-	0	0xC66	TRAINER BATTLE			TRID_MASTER_035
+-	0	0xC67	TRAINER BATTLE			TRID_MASTER_036
+-	0	0xC68	TRAINER BATTLE			TRID_MASTER_037
+-	0	0xC69	TRAINER BATTLE			TRID_MASTER_038
+-	0	0xC6A	TRAINER BATTLE			TRID_MASTER_039
+-	0	0xC6B	TRAINER BATTLE			TRID_MASTER_040
+-	0	0xC6C	TRAINER BATTLE			TRID_MASTER_041
+-	0	0xC6D	TRAINER BATTLE			TRID_MASTER_042
+-	0	0xC6E	TRAINER BATTLE			TRID_MASTER_043
+-	0	0xC6F	TRAINER BATTLE			TRID_MASTER_044
+-	0	0xC70	TRAINER BATTLE			TRID_MASTER_045
+-	0	0xC71	TRAINER BATTLE			TRID_MASTER_046
+-	0	0xC72	TRAINER BATTLE			TRID_MASTER_047
+-	0	0xC73	TRAINER BATTLE			TRID_MASTER_048
+-	0	0xC74	TRAINER BATTLE			TRID_MASTER_049
+-	0	0xC75	TRAINER BATTLE			TRID_MASTER_050
+-	0	0xC76	TRAINER BATTLE			TRID_MASTER_051
+-	0	0xC77	TRAINER BATTLE			TRID_MASTER_052
+-	0	0xC78	TRAINER BATTLE			TRID_MASTER_053
+-	0	0xC79	TRAINER BATTLE			TRID_MASTER_054
+-	0	0xC7A	TRAINER BATTLE			TRID_MASTER_055
+-	0	0xC7B	TRAINER BATTLE			TRID_MASTER_056
+-	0	0xC7C	TRAINER BATTLE			TRID_MASTER_057
+-	0	0xC7D	TRAINER BATTLE			TRID_MASTER_058
+-	0	0xC7E	TRAINER BATTLE			TRID_MASTER_059
+-	0	0xC7F	TRAINER BATTLE			TRID_MASTER_060
+-	0	0xC80	TRAINER BATTLE			TRID_MASTER_061
+-	0	0xC81	TRAINER BATTLE			TRID_MASTER_062
+-	0	0xC82	TRAINER BATTLE			TRID_MASTER_063
+-	0	0xC83	TRAINER BATTLE			TRID_MASTER_064
+-	0	0xC84	TRAINER BATTLE			TRID_MASTER_065
+-	0	0xC85	TRAINER BATTLE			TRID_MASTER_066
+-	0	0xC86	TRAINER BATTLE			TRID_MASTER_067
+-	0	0xC87	TRAINER BATTLE			TRID_MASTER_068
+-	0	0xC88	TRAINER BATTLE			TRID_MASTER_069
+-	0	0xC89	TRAINER BATTLE			TRID_MASTER_070
+-	0	0xC8A	TRAINER BATTLE			TRID_MASTER_071
+-	0	0xC8B	TRAINER BATTLE			TRID_MASTER_072
+-	0	0xC8C	TRAINER BATTLE			TRID_MASTER_073
+-	0	0xC8D	TRAINER BATTLE			TRID_MASTER_074
+-	0	0xC8E	TRAINER BATTLE			TRID_MASTER_075
+-	0	0xC8F	TRAINER BATTLE			TRID_MASTER_076
+-	0	0xC90	TRAINER BATTLE			TRID_MASTER_077
+-	0	0xC91	TRAINER BATTLE			TRID_MASTER_078
+-	0	0xC92	TRAINER BATTLE			TRID_MASTER_079
+-	0	0xC93	TRAINER BATTLE			TRID_MASTER_080
+-	0	0xC94	TRAINER BATTLE			TRID_MASTER_081
+-	0	0xC95	TRAINER BATTLE			TRID_MASTER_082
+-	0	0xC96	TRAINER BATTLE			TRID_MASTER_083
+-	0	0xC97	TRAINER BATTLE			TRID_MASTER_084
+-	0	0xC98	TRAINER BATTLE			TRID_MASTER_085
+-	0	0xC99	TRAINER BATTLE			TRID_MASTER_086
+-	0	0xC9A	TRAINER BATTLE			TRID_MASTER_087
+-	0	0xC9B	TRAINER BATTLE			TRID_MASTER_088
+-	0	0xC9C	TRAINER BATTLE			TRID_MASTER_089
+-	0	0xC9D	TRAINER BATTLE			TRID_MASTER_090
+-	0	0xC9E	TRAINER BATTLE			TRID_MASTER_091
+-	0	0xC9F	TRAINER BATTLE			TRID_MASTER_092
+-	0	0xCA0	TRAINER BATTLE			TRID_MASTER_093
+-	0	0xCA1	TRAINER BATTLE			TRID_MASTER_094
+-	0	0xCA2	TRAINER BATTLE			TRID_MASTER_095
+-	0	0xCA3	TRAINER BATTLE			TRID_MASTER_096
+-	0	0xCA4	TRAINER BATTLE			TRID_MASTER_097
+-	0	0xCA5	TRAINER BATTLE			TRID_MASTER_098
+-	0	0xCA6	TRAINER BATTLE			TRID_MASTER_099
+-	0	0xCA7	TRAINER BATTLE			TRID_MASTER_100
+-	0	0xCA8	TRAINER BATTLE			TRID_MASTER_101
+-	0	0xCA9	TRAINER BATTLE			TRID_MASTER_102
+-	0	0xCAA	TRAINER BATTLE			TRID_MASTER_103
+-	-	0xCAB	TRAINER BATTLE			TRID_MASTER_104
+-	0	0xCAC	TRAINER BATTLE			TRID_MASTER_105
+-	0	0xCAD	TRAINER BATTLE			TRID_MASTER_106
+-	0	0xCAE	TRAINER BATTLE			TRID_MASTER_107
+-	0	0xCAF	TRAINER BATTLE			TRID_MASTER_108
+-	0	0xCB0	TRAINER BATTLE			TRID_MASTER_109
+-	0	0xCB1	TRAINER BATTLE			TRID_MASTER_110
+-	0	0xCB2	TRAINER BATTLE			TRID_MASTER_111
+-	0	0xCB3	TRAINER BATTLE			TRID_MASTER_112
+-	0	0xCB4	TRAINER BATTLE			TRID_MASTER_113
+-	0	0xCB5	TRAINER BATTLE			TRID_MASTER_114
+-	0	0xCB6	TRAINER BATTLE			TRID_MASTER_115
+-	0	0xCB7	TRAINER BATTLE			TRID_MASTER_116
+-	0	0xCB8	TRAINER BATTLE			TRID_MASTER_117
+-	0	0xCB9	TRAINER BATTLE			TRID_MASTER_118
+-	0	0xCBA	TRAINER BATTLE			TRID_MASTER_119
+-	0	0xCBB	TRAINER BATTLE			TRID_MASTER_120
+-	0	0xCBC	TRAINER BATTLE			TRID_MASTER_121
+-	0	0xCBD	TRAINER BATTLE			TRID_MASTER_122
+-	0	0xCBE	TRAINER BATTLE			TRID_MASTER_123
+-	0	0xCBF	TRAINER BATTLE			TRID_MASTER_124
+-	0	0xCC0	TRAINER BATTLE			TRID_MASTER_125
+-	0	0xCC1	TRAINER BATTLE			TRID_MASTER_126
+-	0	0xCC2	TRAINER BATTLE			TRID_MASTER_127
+-	0	0xCC3	TRAINER BATTLE			TRID_MASTER_128
+-	0	0xCC4	TRAINER BATTLE			TRID_MASTER_129
+-	0	0xCC5	TRAINER BATTLE			TRID_MASTER_130
+-	0	0xCC6	TRAINER BATTLE			TRID_MASTER_131
+-	0	0xCC7	TRAINER BATTLE			TRID_MASTER_133
+-	0	0xCC8	TRAINER BATTLE			TRID_MASTER_134
+-	0	0xCC9	TRAINER BATTLE			TRID_MASTER_135
+-	0	0xCCA	TRAINER BATTLE			TRID_MASTER_136
+-	0	0xCCB	TRAINER BATTLE			TRID_MASTER_137
+-	0	0xCCC	TRAINER BATTLE			TRID_MASTER_138
+-	0	0xCCD	TRAINER BATTLE			TRID_MASTER_139
+-	0	0xCCE	TRAINER BATTLE			TRID_MASTER_140
+-	0	0xCCF	TRAINER BATTLE			TRID_MASTER_141
+-	0	0xCD0	TRAINER BATTLE			TRID_MASTER_142
+-	0	0xCD1	TRAINER BATTLE			TRID_MASTER_143
+-	0	0xCD2	TRAINER BATTLE			TRID_MASTER_147
+-	0	0xCD3	TRAINER BATTLE			TRID_MASTER_148
+-	0	0xCD4	TRAINER BATTLE			TRID_MASTER_149
+-	0	0xCD5	TRAINER BATTLE			TRID_MASTER_000
+-	0	0xCD6	TRAINER BATTLE			TRID_ROCKETM_26
+-	0	0xCD7	TRAINER BATTLE			TRID_SWIM_17
+-	0	0xCD8	TRAINER BATTLE			TRID_ELITEM_13
+-	0	0xCD9	TRAINER BATTLE			TRID_FAIRY_01
+-	-	0	_SEPARATOR			TIMED_EVENTS_BEGIN
+-	0	0xE80	TRAINER BATTLE	Vermilion City	Harbor	Pokémon Trainer Mina (Daily Rematch)
+-	0	0xE83	TRAINER BATTLE	Pewter City	Gym	Gym Leader Brock (Daily Rematch)
+-	0	0xE84	TRAINER BATTLE	Cerulean City	Gym	Gym Leader Misty (Daily Rematch)
+-	0	0xE85	TRAINER BATTLE	Vermilion City	Gym	Gym Leader Lt. Surge (Daily Rematch)
+-	0	0xE86	TRAINER BATTLE	Celadon City	Gym	Gym Leader Erika (Daily Rematch)
+-	0	0xE87	TRAINER BATTLE	Fuchsia City	Gym	Gym Leader Koga (Daily Rematch)
+-	0	0xE88	TRAINER BATTLE	Saffron City	Gym	Gym Leader Sabrina (Daily Rematch)
+-	0	0xE89	TRAINER BATTLE	Cinnabar Island	Gym	Gym Leader Blaine (Daily Rematch)
+-	0	0xE8A	TRAINER BATTLE	Viridian City	Gym	Gym Leader Blue (Daily Rematch)
+-	0	0xE8B	ITEM GIFT	Fuchsia City	Safari Zones Warden's House	Nugget from Diglett (Daily)
+-	0	0xE8C	ITEM GIFT	Pewter City		Big Pearl from woman for looking after Slowpoke (Daily)
