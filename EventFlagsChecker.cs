@@ -407,6 +407,9 @@
                 GameVersion.SV
                     => new CheckerGen9SV(),
 
+                GameVersion.ZA
+                    => new CheckerGen9LZA(),
+
                 _ => null
             };
 
