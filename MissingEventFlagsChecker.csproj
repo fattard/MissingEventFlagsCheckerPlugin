@@ -36,10 +36,11 @@
     <EmbeddedResource Include="checklist\chkdb_gen8swsh_en.txt" />
     <EmbeddedResource Include="checklist\chkdb_gen8bdsp_en.txt" />
     <EmbeddedResource Include="checklist\chkdb_gen8la_en.txt" />
+    <EmbeddedResource Include="checklist\chkdb_gen9lza_en.txt" />
     <EmbeddedResource Include="checklist\chkdb_gen9sv_en.txt" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="PKHeX.Core" Version="25.8.31" />
+    <PackageReference Include="PKHeX.Core" Version="25.11.7" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="localization\lang_br.txt" />
