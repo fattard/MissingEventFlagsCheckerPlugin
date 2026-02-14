@@ -63,7 +63,7 @@
                                 isEvtSet = eventWorkHelper.GetWork(idx) >= 3;
                                 break;
 
-                            case 0x08B: // Coastal Kalos Dex
+                            case 0x08B: // Unlocked Coastal Kalos Dex
                                 isEvtSet = eventWorkHelper.GetWork(idx) >= 1;
                                 break;
 
@@ -83,6 +83,10 @@
                                 isEvtSet = eventWorkHelper.GetWork(idx) >= 2;
                                 break;
 
+                            case 0x0F8: // Unlocked Mountain Kalos Dex
+                                isEvtSet = eventWorkHelper.GetWork(idx) >= 2;
+                                break;
+
                             default:
                                 isEvtSet = false;
                                 break;
@@ -98,6 +102,14 @@
                     {
                         switch (idx)
                         {
+                            case 1: // Unlock roamer
+                                isEvtSet = savHelper.Blocks.Encount.Roamer.RoamStatus != Roamer6State.Inactive;
+                                break;
+
+                            case 2: // Captured roamer
+                                isEvtSet = savHelper.Blocks.Encount.Roamer.RoamStatus == Roamer6State.Captured;
+                                break;
+
                             default:
                                 isEvtSet = false;
                                 break;
@@ -149,6 +161,10 @@
                                 isEvtSet = eventWorkHelper.GetWork(0x098) >= 2;
                                 break;
 
+                            case 11: // Calem/Serena in Coumarine City
+                                isEvtSet = eventWorkHelper.GetWork(0x08C) >= 1;
+                                break;
+
                             default:
                                 isEvtSet = false;
                                 break;
@@ -189,7 +205,7 @@
                                 break;
 
                             case 8: // Has Poké Radar
-                                isEvtSet = HasItemInBag(savHelper.Inventory, 0x01AF);
+                                isEvtSet = HasItemInBag(savHelper.Inventory.Pouches, 0x01AF);
                                 break;
 
                             case 9: // O-Powers from Mr. Bonding at Lumiose Gate Route 5
@@ -209,7 +225,7 @@
                                 break;
 
                             case 13: // Has Old Rod
-                                isEvtSet = HasItemInBag(savHelper.Inventory, 0x01BD);
+                                isEvtSet = HasItemInBag(savHelper.Inventory.Pouches, 0x01BD);
                                 break;
 
                             case 14: // Fossil in Glittering Cave
@@ -242,6 +258,30 @@
 
                             case 21: // Mega Ring in Tower of Mastery
                                 isEvtSet = eventWorkHelper.GetWork(0x098) >= 2;
+                                break;
+
+                            case 22: // Lapras in Route 12
+                                isEvtSet = eventWorkHelper.GetWork(0x0CC) >= 2;
+                                break;
+
+                            case 23: // TM62 (Acrobatics) in Coumarine City
+                                isEvtSet = HasItemInBag(savHelper.Inventory.Pouches, 0x0185);
+                                break;
+
+                            case 24: // TM63 (Embargo) in Coumarine City
+                                isEvtSet = HasItemInBag(savHelper.Inventory.Pouches, 0x0186);
+                                break;
+
+                            case 25: // TM92 (Trick Room) in Coumarine City
+                                isEvtSet = HasItemInBag(savHelper.Inventory.Pouches, 0x01A3);
+                                break;
+
+                            case 26: // TM100 (Confide) in Coumarine City
+                                isEvtSet = HasItemInBag(savHelper.Inventory.Pouches, 0x02B6);
+                                break;
+
+                            case 27: // HM02 (Fly) in Coumarine City
+                                isEvtSet = eventWorkHelper.GetWork(0x0DF) >= 1;
                                 break;
                         }
                     }

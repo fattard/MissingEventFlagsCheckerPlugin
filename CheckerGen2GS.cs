@@ -444,7 +444,7 @@
                             case 0x03: // Exchange Red Scale for Exp. Share
                                 {
                                     isEvtSet = (!eventFlagsHelper.GetEventFlag(0x6D4) || eventFlagsHelper.GetEventFlag(0x60)) // !EVENT_LAKE_OF_RAGE_LANCE || EVENT_DECIDED_TO_HELP_LANCE
-                                        && !HasItemInBag(m_savFile!.Inventory, 66) // Checks if Red Scale is not in Bag
+                                        && !HasItemInBag(m_savFile!.Inventory.Pouches, 66) // Checks if Red Scale is not in Bag
                                         ;
                                 }
                                 break;
