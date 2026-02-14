@@ -62,7 +62,7 @@ All mainline games are supported (limited descriptions for many of them)
 - X / Y / Omega Ruby / Alpha Sapphire
 - Sun / Moon / Ultra Sun / Ultra Moon / Let's Go Pikachu / Let's Go Eevee
 - Sword / Shield / Brilliant Diamond / Shiny Pearl / Legends: Arceus
-- Scarlet / Violet
+- Scarlet / Violet / Legends: Z-A
 
 ## Contributing
 
